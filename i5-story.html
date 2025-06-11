@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of Sävchand and Somchand</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #374151;
+            line-height: 1.6;
+        }
+
+        /* --- Tab Styles --- */
+        .tabs-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+            background-color: #ffffff;
+            padding: 0.5rem;
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tab-button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            color: #4b5563;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            white-space: nowrap;
+        }
+
+        .tab-button.active {
+            background-color: #047857;
+            color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-button:hover:not(.active) {
+            background-color: #e0e7ff;
+            color: #047857;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* --- Story Enhancement Styles --- */
+        .highlight {
+            background-color: #fef9c3;
+            color: #78350f;
+            font-weight: 600;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        .story-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: -0.25em;
+            margin-right: 0.25em;
+            fill: currentColor;
+        }
+        
+        .story-section-divider {
+            border: 0;
+            height: 2px;
+            background-image: linear-gradient(to right, rgba(4, 120, 87, 0), rgba(4, 120, 87, 0.75), rgba(4, 120, 87, 0));
+            margin: 2.5rem auto;
+        }
+
+        /* --- Graphics Tab Styles --- */
+        .graphic-novel-panel {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .graphic-novel-panel img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            background-color: #e5e7eb;
+        }
+        .graphic-novel-caption {
+            padding: 1rem;
+            background-color: #ffffff;
+            border-top: 1px solid #e5e7eb;
+            flex-grow: 1;
+        }
+        .graphic-novel-caption .dialogue {
+            font-style: italic;
+            color: #1f2937;
+            background-color: #f0fdfa;
+            padding: 0.5rem;
+            border-left: 3px solid #059669;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+        }
+
+        /* --- Timeline Specific Styles --- */
+        .timeline-container {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: #059669;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+            z-index: 0;
+            border-radius: 9999px;
+        }
+
+        .timeline-event {
+            padding: 20px 30px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        .timeline-event.left { left: 0; padding-right: 60px; }
+        .timeline-event.right { left: 50%; padding-left: 60px; }
+
+        .timeline-event::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #059669;
+            border: 4px solid #047857;
+            top: 20px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-event.left::after { right: -10px; transform: translateX(50%); }
+        .timeline-event.right::after { left: -10px; transform: translateX(-50%); }
+
+        .timeline-content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .timeline-event.left .timeline-content::before {
+            content: ''; position: absolute; top: 25px; right: -15px;
+            border-width: 15px 0 15px 15px; border-style: solid;
+            border-color: transparent transparent transparent #ffffff;
+        }
+
+        .timeline-event.right .timeline-content::before {
+            content: ''; position: absolute; top: 25px; left: -15px;
+            border-width: 15px 15px 15px 0; border-style: solid;
+            border-color: transparent #ffffff transparent transparent;
+        }
+
+        .timeline-era {
+            text-align: center; margin: 40px 0; position: relative; z-index: 2;
+        }
+
+        .timeline-era h2 {
+            background-color: #047857; color: #ffffff; display: inline-block;
+            padding: 10px 20px; border-radius: 9999px; font-weight: 700;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Mind Map (v1) Specific Styles --- */
+        .mind-map-wrapper { overflow-x: auto; padding-bottom: 1rem; }
+        .mind-map-container { display: flex; flex-direction: column; align-items: flex-start; padding: 2rem; min-width: fit-content; }
+        .mind-map-node {
+            background-color: #ecfdf5; border: 2px solid #059669; border-radius: 8px;
+            padding: 0.5rem 1rem; margin: 0.3rem 0; font-weight: 500; text-align: left;
+            position: relative; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            width: fit-content; white-space: nowrap; color: #10b981; transition: all 0.2s ease;
+        }
+        .mind-map-node.main {
+            background-color: #047857; color: #ffffff; font-size: 1.5rem;
+            padding: 1rem 2rem; border-radius: 9999px; margin-bottom: 1.5rem;
+            align-self: center; font-weight: 700;
+        }
+        .mind-map-sub-branches {
+            display: flex; flex-direction: column; align-items: flex-start;
+            margin-left: 2rem; padding-left: 0.5rem; border-left: 2px solid #9ca3af;
+            margin-top: 0.5rem; margin-bottom: 0.5rem;
+        }
+        .mind-map-sub-branches.hidden { display: none; }
+        .toggle-node { cursor: pointer; }
+        .toggle-node .toggle-icon { margin-left: 0.5rem; font-weight: 700; }
+        
+        /* --- Mind Map (v2) Specific Styles --- */
+        .mind-map-wrapper-v2 { overflow-x: auto; padding: 1rem; min-height: 400px; }
+        .mind-map-container-v2 { display: flex; align-items: center; min-width: fit-content; position: relative; padding: 20px; }
+        .mind-map-node-v2 {
+            background-color: #ecfdf5; border: 2px solid #059669; border-radius: 12px;
+            padding: 0.75rem 1.25rem; margin: 0.5rem; font-weight: 600; text-align: center;
+            position: relative; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            white-space: nowrap; flex-shrink: 0;
+        }
+        .mind-map-node-v2.main {
+            background-color: #047857; color: #ffffff; font-size: 1.5rem;
+            padding: 1rem 2rem; border-radius: 9999px; margin-right: 3rem; z-index: 1;
+        }
+        .main-branches-container { display: flex; align-items: flex-start; position: relative; flex-grow: 1; }
+        .branch-group {
+            display: flex; flex-direction: column; align-items: center; position: relative;
+            flex-shrink: 0; margin: 0 1rem;
+        }
+        .node-wrapper { display: flex; align-items: center; cursor: pointer; }
+        .toggle-icon-v2 { font-size: 1.2rem; font-weight: bold; margin-left: 0.5rem; color: #047857; }
+        .sub-branches-v2 {
+            display: flex; flex-direction: column; align-items: center;
+            margin-top: 0.5rem; position: relative;
+        }
+        .sub-branches-v2.hidden { display: none; }
+
+        /* --- Quiz Tab Specific Styles --- */
+        .quiz-container { padding: 1rem; }
+        .quiz-question {
+            background-color: #ecfdf5; border: 1px solid #d1fae5; border-radius: 8px;
+            padding: 1rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .quiz-question p { font-size: 1.1rem; font-weight: 500; color: #059669; margin-bottom: 0.75rem; }
+        .show-answer-btn {
+            background-color: #047857; color: white; padding: 0.5rem 1rem; border-radius: 9999px;
+            border: none; cursor: pointer; font-size: 0.9rem; transition: background-color 0.2s ease;
+            margin-top: 0.5rem;
+        }
+        .show-answer-btn:hover { background-color: #059669; }
+        .quiz-answer {
+            margin-top: 0.75rem; padding: 0.75rem 1rem; background-color: #d1fae5;
+            border-left: 4px solid #047857; border-radius: 4px; font-weight: 600;
+            color: #047857; display: none;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .timeline-container::after { left: 20px; margin-left: 0; }
+            .timeline-event { width: 100%; padding-left: 60px; padding-right: 15px; left: 0 !important; }
+            .timeline-event.left::after, .timeline-event.right::after { left: 10px; transform: translateX(0); }
+            .timeline-event.left .timeline-content::before, .timeline-event.right .timeline-content::before {
+                left: 45px; border-width: 15px 15px 15px 0; border-color: transparent #ffffff transparent transparent;
+            }
+            .tabs-container { flex-wrap: wrap; padding: 0.25rem; gap: 0.5rem; }
+            .tab-button { padding: 0.5rem 1rem; font-size: 0.875rem; }
+            .mind-map-wrapper, .mind-map-wrapper-v2 { overflow-x: auto; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-emerald-700 text-white p-6 text-center shadow-lg rounded-b-xl mb-8">
+        <h1 class="text-4xl font-bold mb-2">The Nobility of Sävchand and Somchand</h1>
+        <p class="text-emerald-200 text-lg">Section I.5 from JAB Manual 5th edition 2024</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="tabs-container">
+            <button class="tab-button active" onclick="openTab(event, 'original-story')">The Story</button>
+            <button class="tab-button" onclick="openTab(event, 'timeline-tab')">Timeline</button>
+            <button class="tab-button" onclick="openTab(event, 'mindmap-v1-tab')">Mind Map (v1)</button>
+            <button class="tab-button" onclick="openTab(event, 'mindmap-v2-tab')">Mind Map (v2)</button>
+            <button class="tab-button" onclick="openTab(event, 'graphics-tab')">Graphics</button>
+            <button class="tab-button" onclick="openTab(event, 'characters-tab')">Characters</button>
+            <button class="tab-button" onclick="openTab(event, 'quiz-tab')">Quiz</button>
+        </div>
+
+        <!-- Story Tab Content -->
+        <div id="original-story" class="tab-content active text-justify">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">The Nobility of Sävchand and Somchand</h2>
+            <div class="prose max-w-none">
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" /></svg>
+                    During the 16th century, a wealthy businessman named <span class="highlight">Sävchand Jeram</span> lived in Vanthali, Gujarat. He owned a large shipping business. Once, a fleet of his 12 ships was returning from a foreign port when it was caught in a storm and stranded on an island for months. With no news, the ships were reported lost.
+                </p>
+                <p>
+                    This was a huge financial blow to Sävchand. His creditors began to panic and demand their money back. One creditor, the <span class="highlight">prince of Mängrol</span>, insisted on the immediate repayment of 100,000 rupees. Unable to raise the funds, Sävchand's good name was at stake.
+                </p>
+                <hr class="story-section-divider">
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 2a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 2zM5.205 5.205a.75.75 0 011.06 0l2.475 2.475a.75.75 0 01-1.06 1.06L5.205 6.265a.75.75 0 010-1.06zM2 10a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5h-3.5A.75.75 0 012 10zM14.795 5.205a.75.75 0 010 1.06l-2.475 2.475a.75.75 0 11-1.06-1.06L13.735 5.205a.75.75 0 011.06 0zM10 18a.75.75 0 01-.75-.75v-3.5a.75.75 0 011.5 0v3.5A.75.75 0 0110 18zM14.795 14.795a.75.75 0 01-1.06 0l-2.475-2.475a.75.75 0 011.06-1.06l2.475 2.475a.75.75 0 010 1.06zM18 10a.75.75 0 01-.75.75h-3.5a.75.75 0 010-1.5h3.5A.75.75 0 0118 10zM5.205 14.795a.75.75 0 010-1.06l2.475-2.475a.75.75 0 011.06 1.06l-2.475 2.475a.75.75 0 01-1.06 0z" clip-rule="evenodd" /></svg>
+                    In desperation, Sävchand had an idea. He knew of a very noble businessman in Amdäväd named <span class="highlight">Somchand Amichand</span>, though he had never done business with him. Sävchand wrote a promissory note to the prince, to be paid by Somchand's firm. As he wrote it, he was so overcome with sadness and guilt that his <span class="highlight">tears fell on the paper</span>, smearing the ink.
+                </p>
+                <p>
+                    The prince presented the note to Somchand's firm. The accountants found no record of Sävchand and were ready to refuse payment. But Somchand, upon seeing the note, noticed the tear stains. He realized that Sävchand must have been in a desperate situation to have written the note, and had placed his trust in him.
+                </p>
+                <p>
+                    Moved by this, Somchand decided to help a fellow noble man in distress. He told his accountant to <span class="highlight">honor the note</span> and pay the prince the full 100,000 rupees from his own personal account.
+                </p>
+                <hr class="story-section-divider">
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M15.312 11.424a5.5 5.5 0 01-9.201-4.42 5.5 5.5 0 018.253-1.614l.975-1.298A7 7 0 004.382 9.02a7 7 0 0010.592 5.004l-1.66-1.6z" clip-rule="evenodd" /><path fill-rule="evenodd" d="M12.25 10a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zM14.75 10a4.75 4.75 0 11-9.5 0 4.75 4.75 0 019.5 0z" clip-rule="evenodd" /></svg>
+                    At the end of the monsoon, Sävchand's ships returned safely! He made a huge fortune from the merchandise. His first priority was to repay Somchand. He went to Amdäväd and offered the full amount plus interest.
+                </p>
+                <p>
+                    However, Somchand refused the money, saying his books showed no debt from Sävchand. Sävchand insisted, but Somchand replied that Sävchand had already paid for the note with his teardrops, which to him were worth far more.
+                </p>
+                <p>
+                    Neither man would accept the money from the other. At last, they agreed to let the Jain community of Amdäväd decide the matter. The community declared that since neither would take the money, it should be used for a noble cause. Both men agreed, added even more money to the sum, and used it to build a magnificent temple complex on <span class="highlight">Shatrunjay Hill</span>. The complex, completed in <span class="highlight">1619 A.D.</span>, is still known as <span class="highlight">Savä-Som Tuk</span> in their honor.
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Tab Content -->
+        <div id="timeline-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Timeline of Events</h2>
+            <div id="timeline" class="timeline-container"></div>
+        </div>
+        
+        <!-- Mind Map v1 Tab Content -->
+        <div id="mindmap-v1-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Vertical)</h2>
+            <div id="mindmap-v1-container" class="mind-map-wrapper"></div>
+        </div>
+        
+        <!-- Mind Map v2 Tab Content -->
+        <div id="mindmap-v2-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Horizontal)</h2>
+            <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
+        </div>
+        
+        <!-- Graphics Tab Content -->
+        <div id="graphics-tab" class="tab-content">
+             <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Graphic Novel</h2>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Panel 1 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/fef2f2/b91c1c?text=Sävchand+gets+bad+news" alt="A worried Sävchand receives a letter telling him his ships are lost at sea.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">The Lost Fleet</p>
+                        <p class="text-sm">Businessman Sävchand Jeram is devastated to learn his fleet of 12 ships has been lost at sea, putting him in a dire financial situation.</p>
+                    </div>
+                </div>
+                <!-- Panel 2 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/f0f9ff/0284c7?text=Sävchand+crying+on+note" alt="Sävchand writes a promissory note with tears streaming down his face, smudging the ink.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Desperate Plea</p>
+                        <p class="text-sm">To pay a debt, a heartbroken Sävchand writes a promissory note on a stranger, Somchand, his tears falling onto the document.</p>
+                    </div>
+                </div>
+                <!-- Panel 3 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/ecfdf5/047857?text=Somchand+sees+tear+stains" alt="Somchand holds the note and looks at the tear stains with a compassionate expression.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">An Act of Nobility</p>
+                        <p class="text-sm">Somchand sees the tear stains on the note and understands Sävchand's desperation. He decides to honor the note out of sheer kindness.</p>
+                    </div>
+                </div>
+                <!-- Panel 4 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/fffbeb/d97706?text=Sävchand's+ships+return" alt="Sävchand stands at the port, overjoyed as his 12 ships sail back safely.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">The Ships Return!</p>
+                        <p class="text-sm">At the end of the monsoon, the lost fleet returns safely. Sävchand makes a huge fortune and rushes to repay his debt.</p>
+                    </div>
+                </div>
+                 <!-- Panel 5 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/f5f3ff/6d28d9?text=Sävchand+and+Somchand+debate" alt="Sävchand offers a bag of money to Somchand, who kindly refuses it.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Noble Dilemma</p>
+                        <p class="text-sm">Sävchand insists on repaying the debt, but Somchand refuses, saying the debt was paid with teardrops. Neither man will accept the money.</p>
+                    </div>
+                </div>
+                <!-- Panel 6 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/166534/ecfdf5?text=The+Savä-Som+Tuk+temple" alt="The magnificent Savä-Som Tuk temple complex on Shatrunjay Hill.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">The Savä-Som Tuk</p>
+                        <p class="text-sm">The Jain community decides the money should be used for a noble cause. The two men agree and build a great temple complex, completed in 1619 A.D.</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <!-- Characters Tab Content -->
+        <div id="characters-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Cast of Characters</h2>
+            <div id="characters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </div>
+        
+        <!-- Quiz Tab Content -->
+        <div id="quiz-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Test Your Knowledge!</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </div>
+
+    </main>
+
+    <footer class="bg-emerald-700 text-white text-center p-4 mt-12 rounded-t-xl">
+        <p>&copy; 2025 AI Story Generator. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // --- DATA PLACEHOLDERS ---
+        const timelineData = [{"era":"Sävchand's Crisis","period":"16th Century","events":[{"title":"Lost at Sea","description":"A fleet of 12 ships belonging to businessman Sävchand Jeram gets stranded during a storm and is reported lost.","characters":["Sävchand Jeram"]},{"title":"Creditors Panic","description":"Facing a heavy loss, Sävchand cannot pay his creditors, who start demanding their money back.","characters":["Sävchand Jeram"]},{"title":"The Prince's Demand","description":"The prince of Mängrol insists on the immediate repayment of a large deposit of 100,000 rupees.","characters":["Sävchand Jeram","Prince of Mängrol"]}]},{"era":"The Act of Trust","period":"16th Century","events":[{"title":"A Desperate Note","description":"Unable to pay, Sävchand writes a promissory note on a stranger, the noble businessman Somchand Amichand, his tears smudging the note.","characters":["Sävchand Jeram","Somchand Amichand"]},{"title":"Somchand's Nobility","description":"Somchand receives the note. Though he has no dealings with Sävchand, he sees the tear stains and understands the writer's desperation.","characters":["Somchand Amichand","Sävchand Jeram"]},{"title":"The Debt is Honored","description":"Moved by compassion, Somchand honors the note and pays the prince the full amount from his personal account.","characters":["Somchand Amichand","Prince of Mängrol"]}]},{"era":"The Noble Resolution","period":"After the crisis","events":[{"title":"The Ships Return","description":"After the monsoon, Sävchand's ships return safely, and he makes a huge fortune.","characters":["Sävchand Jeram"]},{"title":"An Offer of Repayment","description":"Sävchand goes to Amdäväd to repay Somchand with interest, but Somchand refuses, stating the note was paid for by Sävchand's tears.","characters":["Sävchand Jeram","Somchand Amichand"]},{"title":"A Dilemma of Nobility","description":"Neither man will accept the money from the other, so they refer the matter to the Jain community for mediation.","characters":["Sävchand Jeram","Somchand Amichand","Jain Sangh"]}]},{"era":"The Savä-Som Tuk","period":"Completed in 1619 A.D.","events":[{"title":"A Noble Cause","description":"The community decides the disputed money should be used for a noble cause. Both men agree and add more money to the sum.","characters":["Sävchand Jeram","Somchand Amichand","Jain Sangh"]},{"title":"A Temple is Built","description":"They use the funds to construct a magnificent temple complex on Shatrunjay Hill.","characters":["Sävchand Jeram","Somchand Amichand"]},{"title":"The Legacy","description":"The complex is completed in 1619 A.D. and is named Savä-Som Tuk in honor of the two noble men.","characters":["Sävchand Jeram","Somchand Amichand"]}]}]
+        const charactersData = [{"name":"Sävchand Jeram","description":"A wealthy and honest businessman from Vanthali who faces financial ruin when his ships are thought to be lost at sea."},{"name":"Somchand Amichand","description":"A noble and compassionate businessman from Amdäväd who honors a stranger's debt out of sheer kindness and understanding."},{"name":"The Prince of Mängrol","description":"A creditor of Sävchand who panics and demands immediate repayment, inadvertently setting the story's main events in motion."},{"name":"Jain Sangh of Amdäväd","description":"The Jain community's executive committee that wisely mediates the dispute between the two noble men, leading to the creation of a temple."}]
+        const quizData = [{"question":"What happened to Sävchand Jeram's fleet of 12 ships?","answer":"They were caught in a storm and stranded on an island, believed to be lost."},{"question":"Which creditor insisted on an immediate repayment of 100,000 rupees?","answer":"The prince of Mängrol."},{"question":"On whose firm did Sävchand write a desperate promissory note?","answer":"Somchand Amichand's firm."},{"question":"What on the promissory note made Somchand realize Sävchand was in great distress?","answer":"The letters were smeared by Sävchand's tears."},{"question":"Did Somchand have any business dealings with Sävchand before this?","answer":"No, he only knew him by name."},{"question":"What happened to Sävchand's ships in the end?","answer":"They returned safely at the end of the monsoon season."},{"question":"When Sävchand tried to repay his debt, what did Somchand say the note had been purchased with?","answer":"With Sävchand's teardrops."},{"question":"Who did the two businessmen ask to solve their disagreement over the money?","answer":"The Jain community (Sangh) of Amdäväd."},{"question":"What was the final decision on how to use the disputed money?","answer":"To build a temple complex on Shatrunjay Hill."},{"question":"What is the name of the temple complex built by Sävchand and Somchand, completed in 1619 A.D.?","answer":"Savä-Som Tuk."}]
+        const mindmapV1Data = {"name":"Nobility of Sävchand & Somchand","children":[{"name":"Sävchand's Crisis","children":[{"name":"Ships Reported Lost"},{"name":"Creditors Demand Payment"},{"name":"The Prince's Ultimatum"}]},{"name":"The Act of Trust","children":[{"name":"Desperate Promissory Note"},{"name":"Tear Stains on the Note"},{"name":"Somchand's Compassion","children":[{"name":"Honors the stranger's debt"}]}]},{"name":"The Fortunate Return","children":[{"name":"Ships Arrive Safely"},{"name":"Sävchand's Fortune Restored"},{"name":"Attempt to Repay Debt"}]},{"name":"The Noble Resolution","children":[{"name":"Somchand Refuses Payment"},{"name":"Mediation by the Jain Sangh"},{"name":"Funds Used for a Temple","children":[{"name":"Savä-Som Tuk (1619 A.D.)"}]}]}]}
+        const mindmapV2Data = {"name":"A Tale of Two Merchants","children":[{"name":"Sävchand's Problem","children":[{"name":"Lost Ships"},{"name":"Angry Creditors"},{"name":"Desperate Measure"}]},{"name":"Somchand's Kindness","children":[{"name":"The Tear-Stained Note"},{"name":"Honors the Debt"}]},{"name":"The Dilemma","children":[{"name":"Ships Return"},{"name":"Repayment Refused"},{"name":"A Noble Standoff"}]},{"name":"The Legacy","children":[{"name":"Community Decision"},{"name":"The Savä-Som Tuk Temple"}]}]}
+
+        // --- Tab Functionality ---
+        function openTab(evt, tabName) {
+            let i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
+            tablinks = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tablinks.length; i++) { tablinks[i].className = tablinks[i].className.replace(" active", ""); }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        
+        // --- DYNAMIC CONTENT GENERATION ---
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Generate Timeline
+            const generateTimeline = () => {
+                const timelineDiv = document.getElementById('timeline');
+                if (!timelineDiv || !timelineData.length) return;
+                timelineDiv.innerHTML = '';
+                let isLeft = true;
+                timelineData.forEach(era => {
+                    const eraHeading = document.createElement('div');
+                    eraHeading.className = 'timeline-era';
+                    eraHeading.innerHTML = `<h2 class="text-xl md:text-2xl">${era.era}<br><span class="text-sm font-normal">${era.period}</span></h2>`;
+                    timelineDiv.appendChild(eraHeading);
+                    if (era.events) era.events.forEach(event => {
+                        const eventDiv = document.createElement('div');
+                        eventDiv.className = `timeline-event ${isLeft ? 'left' : 'right'}`;
+                        isLeft = !isLeft;
+                        const charactersHtml = event.characters?.length ? `<p class="text-sm text-gray-600 mt-2"><strong>Characters:</strong> ${event.characters.join(', ')}</p>` : '';
+                        eventDiv.innerHTML = `<div class="timeline-content"><h3 class="text-xl font-semibold text-emerald-700 mb-2">${event.title}</h3><p>${event.description}</p>${charactersHtml}</div>`;
+                        timelineDiv.appendChild(eventDiv);
+                    });
+                });
+            };
+
+            // Generate Characters
+            const generateCharacters = () => {
+                const charactersDiv = document.getElementById('characters');
+                if (!charactersDiv || !charactersData.length) return;
+                charactersDiv.innerHTML = '';
+                charactersData.forEach(character => {
+                    const card = document.createElement('div');
+                    card.className = 'bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300';
+                    card.innerHTML = `<h3 class="text-xl font-bold text-emerald-800 mb-2">${character.name}</h3><p class="text-gray-700 text-sm">${character.description}</p>`;
+                    charactersDiv.appendChild(card);
+                });
+            };
+
+            // Generate Quiz
+            const generateQuiz = () => {
+                const quizContainer = document.getElementById('quiz-container');
+                if (!quizContainer || !quizData.length) return;
+                quizContainer.innerHTML = '';
+                quizData.forEach((item, index) => {
+                    const questionDiv = document.createElement('div');
+                    questionDiv.className = 'quiz-question';
+                    questionDiv.innerHTML = `<p>${index + 1}. ${item.question}</p><button class="show-answer-btn" onclick="toggleAnswer(this)">Show Answer</button><div class="quiz-answer">${item.answer}</div>`;
+                    quizContainer.appendChild(questionDiv);
+                });
+            };
+            
+            // Generate Mind Map v1 (Vertical)
+            const generateMindmapV1 = () => {
+                const container = document.getElementById('mindmap-v1-container');
+                if (!container || !mindmapV1Data?.name) return;
+                container.innerHTML = '';
+                const mapContainer = document.createElement('div');
+                mapContainer.className = 'mind-map-container';
+                
+                function createNodeV1(item) {
+                    const nodeGroup = document.createElement('div');
+                    const node = document.createElement('div');
+                    node.className = 'mind-map-node';
+                    node.textContent = item.name;
+                    
+                    if (item.children && item.children.length > 0) {
+                        node.classList.add('toggle-node');
+                        node.innerHTML = `${item.name} <span class="toggle-icon">+</span>`;
+                        const subBranches = document.createElement('div');
+                        subBranches.className = 'mind-map-sub-branches hidden';
+                        item.children.forEach(child => subBranches.appendChild(createNodeV1(child)));
+                        nodeGroup.appendChild(node);
+                        nodeGroup.appendChild(subBranches);
+                        
+                        node.addEventListener('click', () => {
+                            subBranches.classList.toggle('hidden');
+                            node.querySelector('.toggle-icon').textContent = subBranches.classList.contains('hidden') ? '+' : '-';
+                        });
+                    } else {
+                        nodeGroup.appendChild(node);
+                    }
+                    return nodeGroup;
+                }
+
+                const mainNode = document.createElement('div');
+                mainNode.className = 'mind-map-node main';
+                mainNode.textContent = mindmapV1Data.name;
+                mapContainer.appendChild(mainNode);
+                
+                if (mindmapV1Data.children) {
+                    const mainBranches = document.createElement('div');
+                    mindmapV1Data.children.forEach(child => mainBranches.appendChild(createNodeV1(child)));
+                    mapContainer.appendChild(mainBranches);
+                }
+                container.appendChild(mapContainer);
+            };
+
+            // Generate Mind Map v2 (Horizontal)
+            const generateMindmapV2 = () => {
+                const container = document.getElementById('mindmap-v2-container');
+                if (!container || !mindmapV2Data?.name) return;
+                container.innerHTML = '';
+                const mapContainer = document.createElement('div');
+                mapContainer.className = 'mind-map-container-v2';
+                
+                function createNodeV2(item) {
+                    const branchGroup = document.createElement('div');
+                    branchGroup.className = 'branch-group';
+                    const nodeWrapper = document.createElement('div');
+                    nodeWrapper.className = 'node-wrapper';
+
+                    const node = document.createElement('div');
+                    node.className = 'mind-map-node-v2';
+                    node.textContent = item.name;
+                    nodeWrapper.appendChild(node);
+                    branchGroup.appendChild(nodeWrapper);
+
+                    if (item.children && item.children.length > 0) {
+                        const toggleIcon = document.createElement('span');
+                        toggleIcon.className = 'toggle-icon-v2';
+                        toggleIcon.textContent = '+';
+                        nodeWrapper.appendChild(toggleIcon);
+
+                        const subBranches = document.createElement('div');
+                        subBranches.className = 'sub-branches-v2 hidden';
+                        item.children.forEach(child => subBranches.appendChild(createNodeV2(child)));
+                        branchGroup.appendChild(subBranches);
+
+                        nodeWrapper.addEventListener('click', () => {
+                            subBranches.classList.toggle('hidden');
+                            toggleIcon.textContent = subBranches.classList.contains('hidden') ? '+' : '-';
+                        });
+                    }
+                    return branchGroup;
+                }
+
+                const mainNode = document.createElement('div');
+                mainNode.className = 'mind-map-node-v2 main';
+                mainNode.textContent = mindmapV2Data.name;
+                mapContainer.appendChild(mainNode);
+                
+                if (mindmapV2Data.children) {
+                    const mainBranchesContainer = document.createElement('div');
+                    mainBranchesContainer.className = 'main-branches-container';
+                    mindmapV2Data.children.forEach(child => mainBranchesContainer.appendChild(createNodeV2(child)));
+                    mapContainer.appendChild(mainBranchesContainer);
+                }
+                container.appendChild(mapContainer);
+            };
+
+            // --- Quiz Answer Toggle Functionality ---
+            window.toggleAnswer = function(button) {
+                const answerDiv = button.nextElementSibling;
+                if (answerDiv && answerDiv.classList.contains('quiz-answer')) {
+                    const isVisible = answerDiv.style.display === 'block';
+                    answerDiv.style.display = isVisible ? 'none' : 'block';
+                    button.textContent = isVisible ? 'Show Answer' : 'Hide Answer';
+                }
+            };
+
+            // --- INITIALIZATION ---
+            generateTimeline();
+            generateCharacters();
+            generateQuiz();
+            generateMindmapV1();
+            generateMindmapV2();
+
+            // Set the initial active tab
+            document.querySelector('.tabs-container .tab-button').classList.add('active');
+            document.getElementById('original-story').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

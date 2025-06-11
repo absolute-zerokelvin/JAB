@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of Udayan Mantri and His Sons</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #374151;
+            line-height: 1.6;
+        }
+
+        /* --- Tab Styles --- */
+        .tabs-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+            background-color: #ffffff;
+            padding: 0.5rem;
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tab-button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            color: #4b5563;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            white-space: nowrap;
+        }
+
+        .tab-button.active {
+            background-color: #047857;
+            color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-button:hover:not(.active) {
+            background-color: #e0e7ff;
+            color: #047857;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* --- Story Enhancement Styles --- */
+        .highlight {
+            background-color: #fef9c3;
+            color: #78350f;
+            font-weight: 600;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        .story-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: -0.25em;
+            margin-right: 0.25em;
+            fill: currentColor;
+        }
+        
+        .story-section-divider {
+            border: 0;
+            height: 2px;
+            background-image: linear-gradient(to right, rgba(4, 120, 87, 0), rgba(4, 120, 87, 0.75), rgba(4, 120, 87, 0));
+            margin: 2.5rem auto;
+        }
+
+        /* --- Graphics Tab Styles --- */
+        .graphic-novel-panel {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .graphic-novel-panel img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            background-color: #e5e7eb;
+        }
+        .graphic-novel-caption {
+            padding: 1rem;
+            background-color: #ffffff;
+            border-top: 1px solid #e5e7eb;
+            flex-grow: 1;
+        }
+        .graphic-novel-caption .dialogue {
+            font-style: italic;
+            color: #1f2937;
+            background-color: #f0fdfa;
+            padding: 0.5rem;
+            border-left: 3px solid #059669;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+        }
+
+        /* --- Timeline Specific Styles --- */
+        .timeline-container {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: #059669;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+            z-index: 0;
+            border-radius: 9999px;
+        }
+
+        .timeline-event {
+            padding: 20px 30px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        .timeline-event.left { left: 0; padding-right: 60px; }
+        .timeline-event.right { left: 50%; padding-left: 60px; }
+
+        .timeline-event::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #059669;
+            border: 4px solid #047857;
+            top: 20px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-event.left::after { right: -10px; transform: translateX(50%); }
+        .timeline-event.right::after { left: -10px; transform: translateX(-50%); }
+
+        .timeline-content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .timeline-event.left .timeline-content::before {
+            content: ''; position: absolute; top: 25px; right: -15px;
+            border-width: 15px 0 15px 15px; border-style: solid;
+            border-color: transparent transparent transparent #ffffff;
+        }
+
+        .timeline-event.right .timeline-content::before {
+            content: ''; position: absolute; top: 25px; left: -15px;
+            border-width: 15px 15px 15px 0; border-style: solid;
+            border-color: transparent #ffffff transparent transparent;
+        }
+
+        .timeline-era {
+            text-align: center; margin: 40px 0; position: relative; z-index: 2;
+        }
+
+        .timeline-era h2 {
+            background-color: #047857; color: #ffffff; display: inline-block;
+            padding: 10px 20px; border-radius: 9999px; font-weight: 700;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Mind Map (v1) Specific Styles --- */
+        .mind-map-wrapper { overflow-x: auto; padding-bottom: 1rem; }
+        .mind-map-container { display: flex; flex-direction: column; align-items: flex-start; padding: 2rem; min-width: fit-content; }
+        .mind-map-node {
+            background-color: #ecfdf5; border: 2px solid #059669; border-radius: 8px;
+            padding: 0.5rem 1rem; margin: 0.3rem 0; font-weight: 500; text-align: left;
+            position: relative; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            width: fit-content; white-space: nowrap; color: #10b981; transition: all 0.2s ease;
+        }
+        .mind-map-node.main {
+            background-color: #047857; color: #ffffff; font-size: 1.5rem;
+            padding: 1rem 2rem; border-radius: 9999px; margin-bottom: 1.5rem;
+            align-self: center; font-weight: 700;
+        }
+        .mind-map-sub-branches {
+            display: flex; flex-direction: column; align-items: flex-start;
+            margin-left: 2rem; padding-left: 0.5rem; border-left: 2px solid #9ca3af;
+            margin-top: 0.5rem; margin-bottom: 0.5rem;
+        }
+        .mind-map-sub-branches.hidden { display: none; }
+        .toggle-node { cursor: pointer; }
+        .toggle-node .toggle-icon { margin-left: 0.5rem; font-weight: 700; }
+        
+        /* --- Mind Map (v2) Specific Styles --- */
+        .mind-map-wrapper-v2 { overflow-x: auto; padding: 1rem; min-height: 400px; }
+        .mind-map-container-v2 { display: flex; align-items: center; min-width: fit-content; position: relative; padding: 20px; }
+        .mind-map-node-v2 {
+            background-color: #ecfdf5; border: 2px solid #059669; border-radius: 12px;
+            padding: 0.75rem 1.25rem; margin: 0.5rem; font-weight: 600; text-align: center;
+            position: relative; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            white-space: nowrap; flex-shrink: 0;
+        }
+        .mind-map-node-v2.main {
+            background-color: #047857; color: #ffffff; font-size: 1.5rem;
+            padding: 1rem 2rem; border-radius: 9999px; margin-right: 3rem; z-index: 1;
+        }
+        .main-branches-container { display: flex; align-items: flex-start; position: relative; flex-grow: 1; }
+        .branch-group {
+            display: flex; flex-direction: column; align-items: center; position: relative;
+            flex-shrink: 0; margin: 0 1rem;
+        }
+        .node-wrapper { display: flex; align-items: center; cursor: pointer; }
+        .toggle-icon-v2 { font-size: 1.2rem; font-weight: bold; margin-left: 0.5rem; color: #047857; }
+        .sub-branches-v2 {
+            display: flex; flex-direction: column; align-items: center;
+            margin-top: 0.5rem; position: relative;
+        }
+        .sub-branches-v2.hidden { display: none; }
+
+        /* --- Quiz Tab Specific Styles --- */
+        .quiz-container { padding: 1rem; }
+        .quiz-question {
+            background-color: #ecfdf5; border: 1px solid #d1fae5; border-radius: 8px;
+            padding: 1rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .quiz-question p { font-size: 1.1rem; font-weight: 500; color: #059669; margin-bottom: 0.75rem; }
+        .show-answer-btn {
+            background-color: #047857; color: white; padding: 0.5rem 1rem; border-radius: 9999px;
+            border: none; cursor: pointer; font-size: 0.9rem; transition: background-color 0.2s ease;
+            margin-top: 0.5rem;
+        }
+        .show-answer-btn:hover { background-color: #059669; }
+        .quiz-answer {
+            margin-top: 0.75rem; padding: 0.75rem 1rem; background-color: #d1fae5;
+            border-left: 4px solid #047857; border-radius: 4px; font-weight: 600;
+            color: #047857; display: none;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .timeline-container::after { left: 20px; margin-left: 0; }
+            .timeline-event { width: 100%; padding-left: 60px; padding-right: 15px; left: 0 !important; }
+            .timeline-event.left::after, .timeline-event.right::after { left: 10px; transform: translateX(0); }
+            .timeline-event.left .timeline-content::before, .timeline-event.right .timeline-content::before {
+                left: 45px; border-width: 15px 15px 15px 0; border-color: transparent #ffffff transparent transparent;
+            }
+            .tabs-container { flex-wrap: wrap; padding: 0.25rem; gap: 0.5rem; }
+            .tab-button { padding: 0.5rem 1rem; font-size: 0.875rem; }
+            .mind-map-wrapper, .mind-map-wrapper-v2 { overflow-x: auto; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-emerald-700 text-white p-6 text-center shadow-lg rounded-b-xl mb-8">
+        <h1 class="text-4xl font-bold mb-2">The Story of Udayan Mantri and His Sons</h1>
+        <p class="text-emerald-200 text-lg">Section I.4 from JAB Manual 5th edition 2024</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="tabs-container">
+            <button class="tab-button active" onclick="openTab(event, 'original-story')">The Story</button>
+            <button class="tab-button" onclick="openTab(event, 'timeline-tab')">Timeline</button>
+            <button class="tab-button" onclick="openTab(event, 'mindmap-v1-tab')">Mind Map (v1)</button>
+            <button class="tab-button" onclick="openTab(event, 'mindmap-v2-tab')">Mind Map (v2)</button>
+            <button class="tab-button" onclick="openTab(event, 'graphics-tab')">Graphics</button>
+            <button class="tab-button" onclick="openTab(event, 'characters-tab')">Characters</button>
+            <button class="tab-button" onclick="openTab(event, 'quiz-tab')">Quiz</button>
+        </div>
+
+        <!-- Story Tab Content -->
+        <div id="original-story" class="tab-content active text-justify">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">The Story of Udayan Mantri and His Sons</h2>
+            <div class="prose max-w-none">
+                 <h3 class="text-2xl font-semibold text-emerald-600 mb-4">Udayan Mantri's Rise</h3>
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M8.25 4.5a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM15.75 9.75a3 3 0 013 3v.25a.75.75 0 01-1.5 0V13a1.5 1.5 0 00-1.5-1.5h-1.5a.75.75 0 010-1.5h1.5zM1.25 12a3 3 0 013-3h1.5a.75.75 0 010 1.5H4a1.5 1.5 0 00-1.5 1.5v.25a.75.75 0 01-1.5 0V12zM10 9a3 3 0 100-6 3 3 0 000 6zM8.25 10.5a.75.75 0 000 1.5h3.5a.75.75 0 000-1.5h-3.5z"/></svg>
+                    The contribution of <span class="highlight">Udayan Mantri</span> and his sons, <span class="highlight">Ämbad</span> and <span class="highlight">Bähad</span>, was key to the success of <span class="highlight">King Kumärpäl</span> during the golden age of the Solanki dynasty in Gujarat.
+                </p>
+                <p>
+                    Udayan started as a simple, struggling merchant from Vägharä, Rajasthan. His wife, <span class="highlight">Suhädevi</span>, suggested they move to the growing city of <span class="highlight">Karnävati (Amdäväd)</span>, built by <span class="highlight">King Siddharäj</span>. Knowing no one, they went to a Jain temple where a kind lady named <span class="highlight">Lachchhi</span> gave them shelter.
+                </p>
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zM10 15a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 15zM10 7a3 3 0 100 6 3 3 0 000-6z" /><path fill-rule="evenodd" d="M1.172 10.243a.75.75 0 010-1.06l3.535-3.536a.75.75 0 011.06 1.06L3.31 9H5.25a.75.75 0 010 1.5H3.31l2.456 2.457a.75.75 0 01-1.06 1.06l-3.536-3.535zM10.243 1.172a.75.75 0 011.06 0l3.536 3.535a.75.75 0 01-1.06 1.06L11.5 3.31V5.25a.75.75 0 01-1.5 0V3.31L7.543 5.768a.75.75 0 01-1.06-1.06l3.535-3.536zM9.756 18.828a.75.75 0 010 1.06l-3.535 3.536a.75.75 0 01-1.06-1.06L8.5 19.99V18.04a.75.75 0 011.5 0v1.95l2.457-2.457a.75.75 0 011.06 1.06l-3.536 3.535zM18.828 9.756a.75.75 0 011.06 0l3.536 3.535a.75.75 0 01-1.06 1.06L19.99 11.5v1.95a.75.75 0 01-1.5 0v-1.95l-2.457 2.457a.75.75 0 01-1.06-1.06l3.536-3.535z" clip-rule="evenodd" /></svg>
+                    While renovating the house, Udayan found a <span class="highlight">hidden treasure</span>. He honestly offered it to Lachchhi, but she insisted it was his. This fortune allowed him to become the wealthiest man in the city and its appointed first citizen. Later, in <span class="highlight">1120 A.D.</span>, he became governor of the important seaport of <span class="highlight">Khambhät</span>.
+                </p>
+                <p>
+                    As governor, he abolished a pilgrim tax and helped initiate a young boy named <span class="highlight">Chängdev</span>, who would become the great Jain Ächärya <span class="highlight">Shri Hemchandra</span>. His loyalty was proven when, on the Ächärya's advice, he bravely <span class="highlight">hid the future King Kumärpäl</span> in his basement. When Kumärpäl took the throne, he made Udayan his trusted advisor.
+                </p>
+                 <hr class="story-section-divider">
+                 <h3 class="text-2xl font-semibold text-emerald-600 mb-4">The Vow and The Sons</h3>
+                <p>
+                    Later in life, while on a mission to subdue a bandit, Udayan visited the holy <span class="highlight">Shatrunjay hill</span>. He saw a mouse with a lit wick in the wooden temple and realized how easily it could burn down. He <span class="highlight">vowed to construct a new, safe temple</span> there. Though he succeeded in his mission, he was badly wounded. On his deathbed, he passed this vow to his sons, who promised to fulfill it.
+                </p>
+                <p>
+                    His son <span class="highlight">Ämbad</span> was a brave warrior who died fighting for his principles against King Kumärpäl's successor. His other son, <span class="highlight">Bähad</span>, was a great statesman who undertook the temple project.
+                </p>
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10 3.75a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 3.75zM10 8a.75.75 0 01.75.75v6.5a.75.75 0 01-1.5 0v-6.5A.75.75 0 0110 8zM5.93 5.93a.75.75 0 011.06 0l1.06 1.06a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm8.14 8.14a.75.75 0 01-1.06 0l-1.06-1.06a.75.75 0 011.06-1.06l1.06 1.06a.75.75 0 010 1.06zM14.07 5.93a.75.75 0 010 1.06l-1.06 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-8.14 8.14a.75.75 0 010-1.06l1.06-1.06a.75.75 0 011.06 1.06l-1.06 1.06a.75.75 0 01-1.06 0z" /></svg>
+                    A beautiful story is told of the construction. A poor ghee-seller named <span class="highlight">Bhim</span> wished to donate, but only had a single coin. Bähad not only accepted it but wrote Bhim's name at the top of the donor list, explaining, "Other donors gave a part of their wealth. Bhim gave his *entire* wealth." Later, Bhim found a buried treasure, which he also donated. The temple was completed in <span class="highlight">1157 A.D.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Tab Content -->
+        <div id="timeline-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Timeline of Events</h2>
+            <div id="timeline" class="timeline-container"></div>
+        </div>
+        
+        <!-- Mind Map v1 Tab Content -->
+        <div id="mindmap-v1-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Vertical)</h2>
+            <div id="mindmap-v1-container" class="mind-map-wrapper"></div>
+        </div>
+        
+        <!-- Mind Map v2 Tab Content -->
+        <div id="mindmap-v2-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Horizontal)</h2>
+            <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
+        </div>
+        
+        <!-- Graphics Tab Content -->
+        <div id="graphics-tab" class="tab-content">
+             <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Graphic Novel</h2>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Panel 1 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/f0f9ff/0284c7?text=Udayan+finds+treasure" alt="Udayan, looking astonished, unearths a pot of gold coins while renovating a simple house.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Fortunate Discovery</p>
+                        <p class="text-sm">After being given shelter by the kind Lachchhi, Udayan discovers a hidden treasure, which sets him on a path to becoming a wealthy and influential citizen.</p>
+                    </div>
+                </div>
+                <!-- Panel 2 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/4a044e/fdf2f8?text=Udayan+hides+King+Kumärpäl" alt="In a dark basement, Udayan offers food to a disguised King Kumärpäl.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">An Act of Loyalty</p>
+                        <p class="text-sm">Advised by Shri Hemchandra Ächärya, Governor Udayan risks everything to hide the future King Kumärpäl from his enemies.</p>
+                    </div>
+                </div>
+                <!-- Panel 3 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/7f1d1d/fef2f2?text=Mouse+with+lit+wick+in+temple" alt="Udayan looks on in alarm as a mouse with a lit wick scurries through a wooden temple.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">The Vow at Shatrunjay</p>
+                        <p class="text-sm">Seeing how easily the wooden temple on Shatrunjay hill could burn, Udayan makes a solemn vow to build a new, grander temple of stone.</p>
+                    </div>
+                </div>
+                <!-- Panel 4 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/166534/ecfdf5?text=Bähad+accepts+Bhim's+coin" alt="Bähad kindly accepts a single coin from a poor but earnest ghee-seller named Bhim.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Single Coin's Worth</p>
+                        <p class="text-sm">Udayan's son Bähad honors the poor man Bhim by placing his name at the top of the donor list for the new temple.</p>
+                         <p class="dialogue">Bähad: "He has contributed his entire wealth."</p>
+                    </div>
+                </div>
+                 <!-- Panel 5 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/be123c/fdf2f8?text=Ämbad+fights+bravely" alt="The warrior Ämbad stands bravely against the troops of King Ajaypäl.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Principled Stand</p>
+                        <p class="text-sm">Udayan's other son, the warrior Ämbad, remains loyal to King Kumärpäl's legacy and dies fighting his unjust successor, King Ajaypäl.</p>
+                    </div>
+                </div>
+                <!-- Panel 6 -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/d97706/fffbeb?text=The+completed+temple" alt="The magnificent, newly completed temple stands proudly on Shatrunjay hill.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Promise Fulfilled</p>
+                        <p class="text-sm">Thanks to the dedication of Bähad and the contributions of many, Udayan's vow is fulfilled with the completion of the grand temple in 1157 A.D.</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <!-- Characters Tab Content -->
+        <div id="characters-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Cast of Characters</h2>
+            <div id="characters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </div>
+        
+        <!-- Quiz Tab Content -->
+        <div id="quiz-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Test Your Knowledge!</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </div>
+
+    </main>
+
+    <footer class="bg-emerald-700 text-white text-center p-4 mt-12 rounded-t-xl">
+        <p>&copy; 2025 AI Story Generator. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // --- DATA PLACEHOLDERS ---
+        const timelineData = [{"era":"Udayan's Early Life & Rise","period":"Before 1120 A.D.","events":[{"title":"Humble Beginnings","description":"Udayan is a struggling merchant in Vägharä, Rajasthan. At his wife Suhädevi's suggestion, they move to the growing city of Karnävati.","characters":["Udayan Mantri","Suhädevi"]},{"title":"A Helping Hand","description":"A compassionate lady named Lachchhi gives the couple shelter in an old house.","characters":["Udayan Mantri","Lachchhi"]},{"title":"Discovery of Treasure","description":"While renovating the house, Udayan finds a hidden treasure, which allows him to start a large business and become the wealthiest man in the city.","characters":["Udayan Mantri","Lachchhi"]}]},{"era":"Governor and Trusted Advisor","period":"1120 A.D. onward","events":[{"title":"Appointed Governor","description":"In 1120 A.D., Udayan's capability earns him the position of governor of the lucrative seaport, Khambhät.","characters":["Udayan Mantri"]},{"title":"Key Actions as Governor","description":"He abolishes a pilgrim tax and helps initiate a young boy, Chängdev, who becomes the great Ächärya Shri Hemchandra.","characters":["Udayan Mantri","Queen Mother Minaldevi","Shri Hemchandra Ächärya"]},{"title":"Shelters a Future King","description":"On the advice of the Ächärya, he shelters the future King Kumärpäl in his basement, earning his trust.","characters":["Udayan Mantri","King Kumärpäl","Shri Hemchandra Ächärya"]}]},{"era":"Latter Life and The Vow","period":"Late in Udayan's life","events":[{"title":"Pilgrimage to Shatrunjay","description":"During a mission for the king, Udayan makes a pilgrimage to Shatrunjay hill.","characters":["Udayan Mantri","King Kumärpäl"]},{"title":"The Mouse Incident","description":"In a wooden temple, he sees a mouse with a lit wick and realizes the temple is in danger of fire. He vows to build a new one.","characters":["Udayan Mantri"]},{"title":"A Promise on the Deathbed","description":"Badly wounded after his mission, Udayan passes his vow to build the temple onto his sons, who promise to fulfill it.","characters":["Udayan Mantri","Ämbad","Bähad"]}]},{"era":"The Legacy of the Sons","period":"After Udayan's death","events":[{"title":"Ämbad's Fate","description":"The warrior son, Ämbad, serves King Kumärpäl loyally but is killed resisting the unjust successor, King Ajaypäl.","characters":["Ämbad","King Ajaypäl"]},{"title":"Bähad Builds the Temple","description":"The statesman son, Bähad, undertakes his father's vow. The temple is first completed in 1155 A.D.","characters":["Bähad"]},{"title":"Bhim's Generosity","description":"A poor man named Bhim donates his only coin. Bähad honors him by putting his name first on the donor list. Bhim later finds treasure and donates that as well.","characters":["Bähad","Bhim"]},{"title":"A Temple Rebuilt","description":"After parts of the temple fall due to wind, Bähad reconstructs it to be stronger, completing it in 1157 A.D.","characters":["Bähad","Shri Hemchandra Ächärya"]}]}]
+        const charactersData = [{"name":"Udayan Mantri","description":"The protagonist. A once-struggling merchant who, through honesty and capability, becomes a wealthy governor and trusted advisor to King Kumärpäl."},{"name":"Ämbad","description":"Udayan's son. A brave warrior and chancellor who dies fighting for his principles against an unjust king."},{"name":"Bähad","description":"Udayan's son. A wise politician and statesman who fulfills his father's vow to build the magnificent temple on Shatrunjay hill."},{"name":"King Kumärpäl","description":"The great Jain king of Gujarat whom Udayan served loyally."},{"name":"Lachchhi","description":"The compassionate religious lady who gave Udayan and his wife shelter when they first arrived in Karnävati."},{"name":"Bhim","description":"A poor ghee-seller whose donation of a single coin—his entire wealth—was honored by Bähad, teaching a lesson in true generosity."},{"name":"Shri Hemchandra Ächärya","description":"The great Jain teacher (originally named Chängdev) whom Udayan helped initiate as a boy and who advised him throughout his life."}]
+        const quizData = [{"question":"Who was the compassionate lady who first helped Udayan when he moved to Karnävati?","answer":"Lachchhi"},{"question":"In what year was Udayan appointed governor of Khambhät?","answer":"1120 A.D."},{"question":"Which future king did Udayan hide in his basement on the advice of an Ächärya?","answer":"King Kumärpäl"},{"question":"What animal with a lit wick made Udayan vow to build a new temple on Shatrunjay hill?","answer":"A mouse"},{"question":"Which of Udayan's sons fulfilled the vow to build the temple?","answer":"Bähad"},{"question":"What was the name of the poor ghee-seller who donated his entire wealth (a single coin)?","answer":"Bhim"},{"question":"Why did Bähad place Bhim's name at the top of the donor list?","answer":"Because Bhim had contributed his entire wealth, while others only gave a part of theirs."},{"question":"Which son was a warrior who died fighting against King Ajaypäl?","answer":"Ämbad"},{"question":"The final, rebuilt temple on Shatrunjay was completed in what year?","answer":"1157 A.D."},{"question":"The great Jain Ächärya whom Udayan helped was originally a boy named...?","answer":"Chängdev"}]
+        const mindmapV1Data = {"name":"The Story of Udayan Mantri","children":[{"name":"Udayan's Journey","children":[{"name":"From Merchant to Magnate","children":[{"name":"Moves to Karnävati"},{"name":"Helped by Lachchhi"},{"name":"Finds Hidden Treasure"}]},{"name":"Governor & Advisor","children":[{"name":"Governor of Khambhät (1120 AD)"},{"name":"Hides King Kumärpäl"},{"name":"Becomes Trusted Advisor"}]},{"name":"The Vow","children":[{"name":"Pilgrimage to Shatrunjay"},{"name":"Sees Mouse with Lit Wick"},{"name":"Vows to Build New Temple"}]}]},{"name":"The Sons' Legacy","children":[{"name":"Ämbad the Warrior","children":[{"name":"Chancellor to Kumärpäl"},{"name":"Died Fighting King Ajaypäl"}]},{"name":"Bähad the Statesman","children":[{"name":"Builds Shatrunjay Temple"},{"name":"The Story of Bhim's Coin"},{"name":"Completes Temple in 1157 AD"}]}]}]}
+        const mindmapV2Data = {"name":"Udayan Mantri's Story","children":[{"name":"Udayan's Rise","children":[{"name":"Humble Origins"},{"name":"Finds Treasure"},{"name":"Becomes Governor"}]},{"name":"Service to the King","children":[{"name":"Hides Kumärpäl"},{"name":"Trusted Advisor"}]},{"name":"The Sacred Vow","children":[{"name":"Shatrunjay Hill"},{"name":"The Mouse Incident"},{"name":"Promise to Rebuild"}]},{"name":"His Sons' Deeds","children":[{"name":"Ämbad's Sacrifice"},{"name":"Bähad's Temple"},{"name":"Bhim's Generosity"}]}]}
+
+        // --- Tab Functionality ---
+        function openTab(evt, tabName) {
+            let i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
+            tablinks = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tablinks.length; i++) { tablinks[i].className = tablinks[i].className.replace(" active", ""); }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        
+        // --- DYNAMIC CONTENT GENERATION ---
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Generate Timeline
+            const generateTimeline = () => {
+                const timelineDiv = document.getElementById('timeline');
+                if (!timelineDiv || !timelineData.length) return;
+                timelineDiv.innerHTML = '';
+                let isLeft = true;
+                timelineData.forEach(era => {
+                    const eraHeading = document.createElement('div');
+                    eraHeading.className = 'timeline-era';
+                    eraHeading.innerHTML = `<h2 class="text-xl md:text-2xl">${era.era}<br><span class="text-sm font-normal">${era.period}</span></h2>`;
+                    timelineDiv.appendChild(eraHeading);
+                    if (era.events) era.events.forEach(event => {
+                        const eventDiv = document.createElement('div');
+                        eventDiv.className = `timeline-event ${isLeft ? 'left' : 'right'}`;
+                        isLeft = !isLeft;
+                        const charactersHtml = event.characters?.length ? `<p class="text-sm text-gray-600 mt-2"><strong>Characters:</strong> ${event.characters.join(', ')}</p>` : '';
+                        eventDiv.innerHTML = `<div class="timeline-content"><h3 class="text-xl font-semibold text-emerald-700 mb-2">${event.title}</h3><p>${event.description}</p>${charactersHtml}</div>`;
+                        timelineDiv.appendChild(eventDiv);
+                    });
+                });
+            };
+
+            // Generate Characters
+            const generateCharacters = () => {
+                const charactersDiv = document.getElementById('characters');
+                if (!charactersDiv || !charactersData.length) return;
+                charactersDiv.innerHTML = '';
+                charactersData.forEach(character => {
+                    const card = document.createElement('div');
+                    card.className = 'bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300';
+                    card.innerHTML = `<h3 class="text-xl font-bold text-emerald-800 mb-2">${character.name}</h3><p class="text-gray-700 text-sm">${character.description}</p>`;
+                    charactersDiv.appendChild(card);
+                });
+            };
+
+            // Generate Quiz
+            const generateQuiz = () => {
+                const quizContainer = document.getElementById('quiz-container');
+                if (!quizContainer || !quizData.length) return;
+                quizContainer.innerHTML = '';
+                quizData.forEach((item, index) => {
+                    const questionDiv = document.createElement('div');
+                    questionDiv.className = 'quiz-question';
+                    questionDiv.innerHTML = `<p>${index + 1}. ${item.question}</p><button class="show-answer-btn" onclick="toggleAnswer(this)">Show Answer</button><div class="quiz-answer">${item.answer}</div>`;
+                    quizContainer.appendChild(questionDiv);
+                });
+            };
+            
+            // Generate Mind Map v1 (Vertical)
+            const generateMindmapV1 = () => {
+                const container = document.getElementById('mindmap-v1-container');
+                if (!container || !mindmapV1Data?.name) return;
+                container.innerHTML = '';
+                const mapContainer = document.createElement('div');
+                mapContainer.className = 'mind-map-container';
+                
+                function createNodeV1(item) {
+                    const nodeGroup = document.createElement('div');
+                    const node = document.createElement('div');
+                    node.className = 'mind-map-node';
+                    node.textContent = item.name;
+                    
+                    if (item.children && item.children.length > 0) {
+                        node.classList.add('toggle-node');
+                        node.innerHTML = `${item.name} <span class="toggle-icon">+</span>`;
+                        const subBranches = document.createElement('div');
+                        subBranches.className = 'mind-map-sub-branches hidden';
+                        item.children.forEach(child => subBranches.appendChild(createNodeV1(child)));
+                        nodeGroup.appendChild(node);
+                        nodeGroup.appendChild(subBranches);
+                        
+                        node.addEventListener('click', () => {
+                            subBranches.classList.toggle('hidden');
+                            node.querySelector('.toggle-icon').textContent = subBranches.classList.contains('hidden') ? '+' : '-';
+                        });
+                    } else {
+                        nodeGroup.appendChild(node);
+                    }
+                    return nodeGroup;
+                }
+
+                const mainNode = document.createElement('div');
+                mainNode.className = 'mind-map-node main';
+                mainNode.textContent = mindmapV1Data.name;
+                mapContainer.appendChild(mainNode);
+                
+                if (mindmapV1Data.children) {
+                    const mainBranches = document.createElement('div');
+                    mindmapV1Data.children.forEach(child => mainBranches.appendChild(createNodeV1(child)));
+                    mapContainer.appendChild(mainBranches);
+                }
+                container.appendChild(mapContainer);
+            };
+
+            // Generate Mind Map v2 (Horizontal)
+            const generateMindmapV2 = () => {
+                const container = document.getElementById('mindmap-v2-container');
+                if (!container || !mindmapV2Data?.name) return;
+                container.innerHTML = '';
+                const mapContainer = document.createElement('div');
+                mapContainer.className = 'mind-map-container-v2';
+                
+                function createNodeV2(item) {
+                    const branchGroup = document.createElement('div');
+                    branchGroup.className = 'branch-group';
+                    const nodeWrapper = document.createElement('div');
+                    nodeWrapper.className = 'node-wrapper';
+
+                    const node = document.createElement('div');
+                    node.className = 'mind-map-node-v2';
+                    node.textContent = item.name;
+                    nodeWrapper.appendChild(node);
+                    branchGroup.appendChild(nodeWrapper);
+
+                    if (item.children && item.children.length > 0) {
+                        const toggleIcon = document.createElement('span');
+                        toggleIcon.className = 'toggle-icon-v2';
+                        toggleIcon.textContent = '+';
+                        nodeWrapper.appendChild(toggleIcon);
+
+                        const subBranches = document.createElement('div');
+                        subBranches.className = 'sub-branches-v2 hidden';
+                        item.children.forEach(child => subBranches.appendChild(createNodeV2(child)));
+                        branchGroup.appendChild(subBranches);
+
+                        nodeWrapper.addEventListener('click', () => {
+                            subBranches.classList.toggle('hidden');
+                            toggleIcon.textContent = subBranches.classList.contains('hidden') ? '+' : '-';
+                        });
+                    }
+                    return branchGroup;
+                }
+
+                const mainNode = document.createElement('div');
+                mainNode.className = 'mind-map-node-v2 main';
+                mainNode.textContent = mindmapV2Data.name;
+                mapContainer.appendChild(mainNode);
+                
+                if (mindmapV2Data.children) {
+                    const mainBranchesContainer = document.createElement('div');
+                    mainBranchesContainer.className = 'main-branches-container';
+                    mindmapV2Data.children.forEach(child => mainBranchesContainer.appendChild(createNodeV2(child)));
+                    mapContainer.appendChild(mainBranchesContainer);
+                }
+                container.appendChild(mapContainer);
+            };
+
+            // --- Quiz Answer Toggle Functionality ---
+            window.toggleAnswer = function(button) {
+                const answerDiv = button.nextElementSibling;
+                if (answerDiv && answerDiv.classList.contains('quiz-answer')) {
+                    const isVisible = answerDiv.style.display === 'block';
+                    answerDiv.style.display = isVisible ? 'none' : 'block';
+                    button.textContent = isVisible ? 'Show Answer' : 'Hide Answer';
+                }
+            };
+
+            // --- INITIALIZATION ---
+            generateTimeline();
+            generateCharacters();
+            generateQuiz();
+            generateMindmapV1();
+            generateMindmapV2();
+
+            // Set the initial active tab
+            document.querySelector('.tabs-container .tab-button').classList.add('active');
+            document.getElementById('original-story').style.display = 'block';
+        });
+    </script>
+</body>
+</html>

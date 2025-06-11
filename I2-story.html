@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Story of King Samprati</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #374151;
+            line-height: 1.6;
+        }
+
+        /* --- Tab Styles --- */
+        .tabs-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+            background-color: #ffffff;
+            padding: 0.5rem;
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tab-button {
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            color: #4b5563;
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            white-space: nowrap;
+        }
+
+        .tab-button.active {
+            background-color: #047857;
+            color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-button:hover:not(.active) {
+            background-color: #e0e7ff;
+            color: #047857;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* --- Story Enhancement Styles --- */
+        .highlight {
+            background-color: #fef9c3;
+            color: #78350f;
+            font-weight: 600;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        .story-icon {
+            display: inline-block;
+            width: 1.2em;
+            height: 1.2em;
+            vertical-align: -0.25em;
+            margin-right: 0.25em;
+            fill: currentColor;
+        }
+        
+        .story-section-divider {
+            border: 0;
+            height: 2px;
+            background-image: linear-gradient(to right, rgba(4, 120, 87, 0), rgba(4, 120, 87, 0.75), rgba(4, 120, 87, 0));
+            margin: 2.5rem auto;
+        }
+
+        /* --- Graphics Tab Styles --- */
+        .graphic-novel-panel {
+            background-color: #f9fafb;
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        .graphic-novel-panel img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            background-color: #e5e7eb;
+        }
+        .graphic-novel-caption {
+            padding: 1rem;
+            background-color: #ffffff;
+            border-top: 1px solid #e5e7eb;
+            flex-grow: 1;
+        }
+        .graphic-novel-caption .dialogue {
+            font-style: italic;
+            color: #1f2937;
+            background-color: #f0fdfa;
+            padding: 0.5rem;
+            border-left: 3px solid #059669;
+            border-radius: 4px;
+            margin-top: 0.5rem;
+        }
+
+        /* --- Timeline Specific Styles --- */
+        .timeline-container {
+            position: relative;
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .timeline-container::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: #059669;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+            z-index: 0;
+            border-radius: 9999px;
+        }
+
+        .timeline-event {
+            padding: 20px 30px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            z-index: 1;
+        }
+
+        .timeline-event.left { left: 0; padding-right: 60px; }
+        .timeline-event.right { left: 50%; padding-left: 60px; }
+
+        .timeline-event::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #059669;
+            border: 4px solid #047857;
+            top: 20px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-event.left::after { right: -10px; transform: translateX(50%); }
+        .timeline-event.right::after { left: -10px; transform: translateX(-50%); }
+
+        .timeline-content {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        .timeline-event.left .timeline-content::before {
+            content: ''; position: absolute; top: 25px; right: -15px;
+            border-width: 15px 0 15px 15px; border-style: solid;
+            border-color: transparent transparent transparent #ffffff;
+        }
+
+        .timeline-event.right .timeline-content::before {
+            content: ''; position: absolute; top: 25px; left: -15px;
+            border-width: 15px 15px 15px 0; border-style: solid;
+            border-color: transparent #ffffff transparent transparent;
+        }
+
+        .timeline-era {
+            text-align: center; margin: 40px 0; position: relative; z-index: 2;
+        }
+
+        .timeline-era h2 {
+            background-color: #047857; color: #ffffff; display: inline-block;
+            padding: 10px 20px; border-radius: 9999px; font-weight: 700;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* --- Mind Map (v1) Specific Styles --- */
+        .mind-map-wrapper { overflow-x: auto; padding-bottom: 1rem; }
+        .mind-map-container { display: flex; flex-direction: column; align-items: flex-start; padding: 2rem; min-width: fit-content; }
+        .mind-map-node {
+            background-color: #ecfdf5; border: 2px solid #059669; border-radius: 8px;
+            padding: 0.5rem 1rem; margin: 0.3rem 0; font-weight: 500; text-align: left;
+            position: relative; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            width: fit-content; white-space: nowrap; color: #10b981; transition: all 0.2s ease;
+        }
+        .mind-map-node.main {
+            background-color: #047857; color: #ffffff; font-size: 1.5rem;
+            padding: 1rem 2rem; border-radius: 9999px; margin-bottom: 1.5rem;
+            align-self: center; font-weight: 700;
+        }
+        .mind-map-sub-branches {
+            display: flex; flex-direction: column; align-items: flex-start;
+            margin-left: 2rem; padding-left: 0.5rem; border-left: 2px solid #9ca3af;
+            margin-top: 0.5rem; margin-bottom: 0.5rem;
+        }
+        .mind-map-sub-branches.hidden { display: none; }
+        .toggle-node { cursor: pointer; }
+        .toggle-node .toggle-icon { margin-left: 0.5rem; font-weight: 700; }
+        
+        /* --- Mind Map (v2) Specific Styles --- */
+        .mind-map-wrapper-v2 { overflow-x: auto; padding: 1rem; min-height: 400px; }
+        .mind-map-container-v2 { display: flex; align-items: center; min-width: fit-content; position: relative; padding: 20px; }
+        .mind-map-node-v2 {
+            background-color: #ecfdf5; border: 2px solid #059669; border-radius: 12px;
+            padding: 0.75rem 1.25rem; margin: 0.5rem; font-weight: 600; text-align: center;
+            position: relative; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            white-space: nowrap; flex-shrink: 0;
+        }
+        .mind-map-node-v2.main {
+            background-color: #047857; color: #ffffff; font-size: 1.5rem;
+            padding: 1rem 2rem; border-radius: 9999px; margin-right: 3rem; z-index: 1;
+        }
+        .main-branches-container { display: flex; align-items: flex-start; position: relative; flex-grow: 1; }
+        .branch-group {
+            display: flex; flex-direction: column; align-items: center; position: relative;
+            flex-shrink: 0; margin: 0 1rem;
+        }
+        .node-wrapper { display: flex; align-items: center; cursor: pointer; }
+        .toggle-icon-v2 { font-size: 1.2rem; font-weight: bold; margin-left: 0.5rem; color: #047857; }
+        .sub-branches-v2 {
+            display: flex; flex-direction: column; align-items: center;
+            margin-top: 0.5rem; position: relative;
+        }
+        .sub-branches-v2.hidden { display: none; }
+
+        /* --- Quiz Tab Specific Styles --- */
+        .quiz-container { padding: 1rem; }
+        .quiz-question {
+            background-color: #ecfdf5; border: 1px solid #d1fae5; border-radius: 8px;
+            padding: 1rem 1.5rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .quiz-question p { font-size: 1.1rem; font-weight: 500; color: #059669; margin-bottom: 0.75rem; }
+        .show-answer-btn {
+            background-color: #047857; color: white; padding: 0.5rem 1rem; border-radius: 9999px;
+            border: none; cursor: pointer; font-size: 0.9rem; transition: background-color 0.2s ease;
+            margin-top: 0.5rem;
+        }
+        .show-answer-btn:hover { background-color: #059669; }
+        .quiz-answer {
+            margin-top: 0.75rem; padding: 0.75rem 1rem; background-color: #d1fae5;
+            border-left: 4px solid #047857; border-radius: 4px; font-weight: 600;
+            color: #047857; display: none;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .timeline-container::after { left: 20px; margin-left: 0; }
+            .timeline-event { width: 100%; padding-left: 60px; padding-right: 15px; left: 0 !important; }
+            .timeline-event.left::after, .timeline-event.right::after { left: 10px; transform: translateX(0); }
+            .timeline-event.left .timeline-content::before, .timeline-event.right .timeline-content::before {
+                left: 45px; border-width: 15px 15px 15px 0; border-color: transparent #ffffff transparent transparent;
+            }
+            .tabs-container { flex-wrap: wrap; padding: 0.25rem; gap: 0.5rem; }
+            .tab-button { padding: 0.5rem 1rem; font-size: 0.875rem; }
+            .mind-map-wrapper, .mind-map-wrapper-v2 { overflow-x: auto; }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-emerald-700 text-white p-6 text-center shadow-lg rounded-b-xl mb-8">
+        <h1 class="text-4xl font-bold mb-2">The Story of King Samprati</h1>
+        <p class="text-emerald-200 text-lg">Section I.2 from JAB Manual 5th edition 2024</p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="tabs-container">
+            <button class="tab-button active" onclick="openTab(event, 'original-story')">The Story</button>
+            <button class="tab-button" onclick="openTab(event, 'timeline-tab')">Timeline</button>
+            <button class="tab-button" onclick="openTab(event, 'mindmap-v1-tab')">Mind Map (v1)</button>
+            <button class="tab-button" onclick="openTab(event, 'mindmap-v2-tab')">Mind Map (v2)</button>
+            <button class="tab-button" onclick="openTab(event, 'graphics-tab')">Graphics</button>
+            <button class="tab-button" onclick="openTab(event, 'characters-tab')">Characters</button>
+            <button class="tab-button" onclick="openTab(event, 'quiz-tab')">Quiz</button>
+        </div>
+
+        <!-- Story Tab Content -->
+        <div id="original-story" class="tab-content active text-justify">
+            <div class="prose max-w-none">
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M11.64 3.04a1.5 1.5 0 01.73 2.5B13.63 7.15 11.2 9.57a1 1 0 01-1.41 0l-1.3-1.3a1 1 0 010-1.41l2.42-2.43a1.5 1.5 0 012.5.74zM8.3 5.7a1 1 0 011.41 0l1.3 1.3a1 1 0 010 1.41l-2.42 2.43a1.5 1.5 0 01-2.5-.74 1.5 1.5 0 01-.73-2.5A1.5 1.5 0 018.3 5.7z" clip-rule="evenodd" /><path fill-rule="evenodd" d="M6 3.5A2.5 2.5 0 018.5 1h3A2.5 2.5 0 0114 3.5v1A2.5 2.5 0 0111.5 7h-3A2.5 2.5 0 016 4.5v-1zM8.5 3a.5.5 0 00-.5.5v1a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5h-3z" clip-rule="evenodd" /><path d="M2 11.5A2.5 2.5 0 014.5 9h11A2.5 2.5 0 0118 11.5v1a2.5 2.5 0 01-2.5 2.5h-11A2.5 2.5 0 012 12.5v-1zM4.5 11a.5.5 0 00-.5.5v1a.5.5 0 00.5.5h11a.5.5 0 00.5-.5v-1a.5.5 0 00-.5-.5h-11z" /></svg>
+                    <span class="highlight">King Samprati</span> was a great Jain king, grandson of the legendary <span class="highlight">King Ashok</span>. Evidence of his rule, like coins bearing Jain symbols, has been found, confirming his place in history. He became the king of Avanti in 232 B.C.
+                </p>
+                <p>
+                    As a young prince, Samprati saw a Jain procession led by <span class="highlight">Ächärya Suhastigiri</span>. Seeing the Ächärya sparked a faint memory, and upon asking, the Ächärya also remembered: Samprati was his disciple in a previous life.
+                </p>
+                <hr class="story-section-divider">
+                <p>
+                    The Ächärya told Samprati the story of that past life. During a severe famine, a poor, starving man saw that Jain monks were still receiving food. Desperate, he asked the Ächärya for help. The Ächärya, seeing his potential, told him he could get food if he became a monk.
+                </p>
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" /></svg>
+                    The man eagerly agreed and was initiated. Having been starved for so long, he ate too much, which caused severe stomach pains. He endured the pain patiently and died that very night. Because he had adopted the monk's vows and borne his suffering quietly, he earned great merit and was <span class="highlight">reborn as Samprati, the grandson of King Ashok</span>.
+                </p>
+                <hr class="story-section-divider">
+                <p>
+                    Hearing this, Samprati understood the power of Jainism and accepted Ächärya Suhastigiri as his guru. He even offered his kingdom to the Ächärya, who refused it, advising him instead to use his power to promote the faith.
+                </p>
+                <p>
+                    <svg class="story-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.293-1.293a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.293 1.293V2.75z" /><path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z" /></svg>
+                    King Samprati became a devout Jain. He was called <span class="highlight">“the Jain Ashok”</span> for his incredible efforts to spread Jainism. He:
+                    <ul>
+                        <li>Arranged for the installation of over <span class="highlight">100,000 Tirthankar idols</span>.</li>
+                        <li>Constructed or renovated <span class="highlight">36,000 temples</span>.</li>
+                        <li>Sent missionaries to foreign lands like Afghanistan, Nepal, and Sri Lanka.</li>
+                        <li>Remembering his past life's hunger, he set up <span class="highlight">700 charitable Dharamshäläs</span> where anyone could eat for free.</li>
+                    </ul>
+                </p>
+                <p>
+                    King Samprati had no children, but he accepted this as a consequence of his karma. After ruling for 53 years, he died in 179 B.C. and was said to be reborn as a heavenly being.
+                </p>
+            </div>
+        </div>
+
+        <!-- Timeline Tab Content -->
+        <div id="timeline-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Timeline of Events</h2>
+            <div id="timeline" class="timeline-container"></div>
+        </div>
+        
+        <!-- Mind Map v1 Tab Content -->
+        <div id="mindmap-v1-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Vertical)</h2>
+            <div id="mindmap-v1-container" class="mind-map-wrapper"></div>
+        </div>
+        
+        <!-- Mind Map v2 Tab Content -->
+        <div id="mindmap-v2-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Horizontal)</h2>
+            <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
+        </div>
+        
+        <!-- Graphics Tab Content -->
+        <div id="graphics-tab" class="tab-content">
+             <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Graphic Novel</h2>
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Panel 1: The Famine -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/fff7ed/c2410c?text=A+starving+man+sees+monks" alt="A starving man watches Jain monks receiving food during a famine.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">The Previous Life</p>
+                        <p class="text-sm">During a great famine, a poor starving man sees that Jain monks are still able to get food. He approaches their leader, Ächärya Suhastigiri.</p>
+                    </div>
+                </div>
+                <!-- Panel 2: The Monk's Vow -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/ecfdf5/047857?text=The+man+becomes+a+monk" alt="The starving man is initiated as a Jain monk by the Ächärya.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Path to Survival</p>
+                        <p class="text-sm">The Ächärya tells him he can get food if he becomes a monk. The man gladly agrees and takes the vows, but dies from overeating.</p>
+                        <p class="dialogue">Ächärya: "You can get food if you become a monk."</p>
+                    </div>
+                </div>
+                <!-- Panel 3: The Recognition -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/f5f3ff/6d28d9?text=Prince+Samprati+bows+to+monk" alt="Young Prince Samprati bows before Ächärya Suhastigiri, a spark of recognition between them.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Fateful Meeting</p>
+                        <p class="text-sm">In his next life, he is reborn as Prince Samprati. He sees the Ächärya and feels a connection, remembering his past life as the monk's disciple.</p>
+                    </div>
+                </div>
+                <!-- Panel 4: The Great Builder -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/fffbeb/d97706?text=King+Samprati+oversees+temples" alt="King Samprati, a devout and regal Jain king, directs the construction of temples and statues.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">The Jain Ashok</p>
+                        <p class="text-sm">As king, Samprati becomes a great patron of Jainism, building thousands of temples and installing over 100,000 idols.</p>
+                    </div>
+                </div>
+                 <!-- Panel 5: Charity for All -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/f0f9ff/0284c7?text=People+eating+at+Dharamshälä" alt="A diverse group of poor people are eating happily at a charitable food hall (Dharamshälä).">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">Remembering Hunger</p>
+                        <p class="text-sm">Because he remembered starving in his past life, King Samprati sets up 700 Dharamshäläs to ensure no one in his kingdom would go hungry.</p>
+                    </div>
+                </div>
+                <!-- Panel 6: A Heavenly Rebirth -->
+                <div class="graphic-novel-panel">
+                    <img src="https://placehold.co/600x400/fdf2f8/be185d?text=King's+soul+ascends" alt="The spirit of King Samprati ascends to a heavenly realm after a long and virtuous rule.">
+                    <div class="graphic-novel-caption">
+                        <p class="font-semibold">A Virtuous End</p>
+                        <p class="text-sm">After ruling for 53 years, King Samprati dies and, due to his immense good karma, is reborn as a heavenly being.</p>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+        <!-- Characters Tab Content -->
+        <div id="characters-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Cast of Characters</h2>
+            <div id="characters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </div>
+        
+        <!-- Quiz Tab Content -->
+        <div id="quiz-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Test Your Knowledge!</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </div>
+
+    </main>
+
+    <footer class="bg-emerald-700 text-white text-center p-4 mt-12 rounded-t-xl">
+        <p>&copy; 2025 AI Story Generator. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // --- DATA PLACEHOLDERS ---
+        const timelineData = [{"era":"The Previous Life","period":"Time of famine","events":[{"title":"The Starving Man","description":"During a severe famine in Kaushämbi, a poor man is starving.","characters":["Poor Man (Samprati's past self)"]},{"title":"Becomes a Monk for Food","description":"He sees Jain monks getting alms and asks Ächärya Suhastigiri for food. The Ächärya initiates him as a monk so he can receive alms.","characters":["Poor Man (Samprati's past self)","Ächärya Suhastigiri"]},{"title":"Death and Rebirth","description":"Having been starved, he eats too much, gets severe stomach pains, and dies. Due to his good karma from becoming a monk, he is reborn as royalty.","characters":["Poor Man (Samprati's past self)"]}]},{"era":"Samprati's Rise as a Jain King","period":"232 B.C. onward","events":[{"title":"Becomes King","description":"Samprati, grandson of King Ashok, becomes the king of Avanti in 232 B.C.","characters":["King Samprati","King Ashok"]},{"title":"Recognizes his Guru","description":"He sees a Jain procession led by Ächärya Suhastigiri and remembers that the Ächärya was his guru in his previous life.","characters":["King Samprati","Ächärya Suhastigiri"]},{"title":"Adopts Jainism","description":"After hearing the story of his past life from the Ächärya, Samprati formally adopts Jainism as his faith.","characters":["King Samprati","Ächärya Suhastigiri"]}]},{"era":"The Reign of 'the Jain Ashok'","period":"Reign: 53 years, until 179 B.C.","events":[{"title":"Promotes Jainism","description":"Following his guru's advice, he uses his power to spread Jainism throughout his kingdom and beyond.","characters":["King Samprati","Ächärya Suhastigiri"]},{"title":"Massive Construction Efforts","description":"He arranges for the installation of over 100,000 Tirthankar idols and the construction or renovation of 36,000 temples.","characters":["King Samprati"]},{"title":"Spreads the Message Abroad","description":"He sends missionaries to foreign countries like Afghanistan, Nepal, Sri Lanka, and China.","characters":["King Samprati"]},{"title":"Charitable Works","description":"Remembering his starvation in a past life, he establishes 700 Dharamshäläs (charitable food halls) to feed the poor.","characters":["King Samprati"]}]},{"era":"End of Life","period":"179 B.C.","events":[{"title":"Death of the King","description":"After ruling for 53 years without children, King Samprati dies.","characters":["King Samprati"]},{"title":"Reborn as a Heavenly Being","description":"Jain tradition believes that due to his immense good karma, he was reborn in a heavenly realm.","characters":["King Samprati"]}]}]
+        const charactersData = [{"name":"King Samprati","description":"The main character, a great Jain king who was the grandson of King Ashok. In his past life, he was a starving man who became a monk for a day."},{"name":"Ächärya Suhastigiri","description":"A prominent Jain Ächärya who was Samprati's guru in his previous life and guided him again after he became king."},{"name":"King Ashok","description":"Samprati's famous grandfather, known for spreading Buddhism. Samprati is often called 'the Jain Ashok' for his similar efforts in spreading Jainism."},{"name":"King Kunäl","description":"The son of King Ashok and the father of King Samprati."}]
+        const quizData = [{"question":"Who was King Samprati's famous grandfather?","answer":"King Ashok"},{"question":"In his previous life, why did Samprati become a monk?","answer":"To get food during a severe famine."},{"question":"What was the name of the Jain Ächärya who was Samprati's guru in two lifetimes?","answer":"Ächärya Suhastigiri"},{"question":"How did the man in the previous life (Samprati) die?","answer":"From severe stomach pains after eating too much following a long period of starvation."},{"question":"What title is King Samprati often given, comparing him to his grandfather?","answer":"The Jain Ashok"},{"question":"How many Tirthankar idols did Samprati arrange to have installed?","answer":"Over 100,000"},{"question":"How many temples did he have built or renovated?","answer":"36,000"},{"question":"What did King Samprati create to help the poor and hungry?","answer":"700 charitable Dharamshäläs (food halls)."},{"question":"How long did King Samprati rule his kingdom?","answer":"53 years."},{"question":"According to Jain tradition, what happened to King Samprati after he died?","answer":"He was reborn as a heavenly being."}]
+        const mindmapV1Data = {"name":"The Story of King Samprati","children":[{"name":"Previous Life","children":[{"name":"A Starving Man"},{"name":"Meets Ächärya Suhastigiri"},{"name":"Becomes Monk for a Day"},{"name":"Dies & Earns Merit"}]},{"name":"Rebirth as Royalty","children":[{"name":"Born as King Ashok's Grandson"},{"name":"Becomes King of Avanti (232 B.C.)"},{"name":"Recognizes his Guru"}]},{"name":"The Jain King","children":[{"name":"Adopts Jainism"},{"name":"Offer of Kingdom Refused"},{"name":"Spreads Jainism (The 'Jain Ashok')","children":[{"name":"100,000+ Idols"},{"name":"36,000 Temples"},{"name":"Foreign Missionaries"}]}]},{"name":"Legacy & End of Life","children":[{"name":"Charity: 700 Dharamshäläs"},{"name":"Rules for 53 years"},{"name":"Dies in 179 B.C."},{"name":"Reborn as a Heavenly Being"}]}]}
+        const mindmapV2Data = {"name":"King Samprati's Journey","children":[{"name":"Past Life","children":[{"name":"The Famine"},{"name":"Becomes a Monk"},{"name":"Rebirth as Prince"}]},{"name":"Kingship","children":[{"name":"Crowned King"},{"name":"Reunites with Guru"},{"name":"Adopts Jainism"}]},{"name":"Great Works","children":[{"name":"The 'Jain Ashok'"},{"name":"Temples & Idols"},{"name":"Charity for the Poor"}]},{"name":"Legacy","children":[{"name":"53-Year Rule"},{"name":"Death (179 B.C.)"},{"name":"Heavenly Rebirth"}]}]}
+
+        // --- Tab Functionality ---
+        function openTab(evt, tabName) {
+            let i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) { tabcontent[i].style.display = "none"; }
+            tablinks = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tablinks.length; i++) { tablinks[i].className = tablinks[i].className.replace(" active", ""); }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        
+        // --- DYNAMIC CONTENT GENERATION ---
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Generate Timeline
+            const generateTimeline = () => {
+                const timelineDiv = document.getElementById('timeline');
+                if (!timelineDiv || !timelineData.length) return;
+                timelineDiv.innerHTML = '';
+                let isLeft = true;
+                timelineData.forEach(era => {
+                    const eraHeading = document.createElement('div');
+                    eraHeading.className = 'timeline-era';
+                    eraHeading.innerHTML = `<h2 class="text-xl md:text-2xl">${era.era}<br><span class="text-sm font-normal">${era.period}</span></h2>`;
+                    timelineDiv.appendChild(eraHeading);
+                    if (era.events) era.events.forEach(event => {
+                        const eventDiv = document.createElement('div');
+                        eventDiv.className = `timeline-event ${isLeft ? 'left' : 'right'}`;
+                        isLeft = !isLeft;
+                        const charactersHtml = event.characters?.length ? `<p class="text-sm text-gray-600 mt-2"><strong>Characters:</strong> ${event.characters.join(', ')}</p>` : '';
+                        eventDiv.innerHTML = `<div class="timeline-content"><h3 class="text-xl font-semibold text-emerald-700 mb-2">${event.title}</h3><p>${event.description}</p>${charactersHtml}</div>`;
+                        timelineDiv.appendChild(eventDiv);
+                    });
+                });
+            };
+
+            // Generate Characters
+            const generateCharacters = () => {
+                const charactersDiv = document.getElementById('characters');
+                if (!charactersDiv || !charactersData.length) return;
+                charactersDiv.innerHTML = '';
+                charactersData.forEach(character => {
+                    const card = document.createElement('div');
+                    card.className = 'bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300';
+                    card.innerHTML = `<h3 class="text-xl font-bold text-emerald-800 mb-2">${character.name}</h3><p class="text-gray-700 text-sm">${character.description}</p>`;
+                    charactersDiv.appendChild(card);
+                });
+            };
+
+            // Generate Quiz
+            const generateQuiz = () => {
+                const quizContainer = document.getElementById('quiz-container');
+                if (!quizContainer || !quizData.length) return;
+                quizContainer.innerHTML = '';
+                quizData.forEach((item, index) => {
+                    const questionDiv = document.createElement('div');
+                    questionDiv.className = 'quiz-question';
+                    questionDiv.innerHTML = `<p>${index + 1}. ${item.question}</p><button class="show-answer-btn" onclick="toggleAnswer(this)">Show Answer</button><div class="quiz-answer">${item.answer}</div>`;
+                    quizContainer.appendChild(questionDiv);
+                });
+            };
+            
+            // Generate Mind Map v1 (Vertical)
+            const generateMindmapV1 = () => {
+                const container = document.getElementById('mindmap-v1-container');
+                if (!container || !mindmapV1Data?.name) return;
+                container.innerHTML = '';
+                const mapContainer = document.createElement('div');
+                mapContainer.className = 'mind-map-container';
+                
+                function createNodeV1(item) {
+                    const nodeGroup = document.createElement('div');
+                    const node = document.createElement('div');
+                    node.className = 'mind-map-node';
+                    node.textContent = item.name;
+                    
+                    if (item.children && item.children.length > 0) {
+                        node.classList.add('toggle-node');
+                        node.innerHTML = `${item.name} <span class="toggle-icon">+</span>`;
+                        const subBranches = document.createElement('div');
+                        subBranches.className = 'mind-map-sub-branches hidden';
+                        item.children.forEach(child => subBranches.appendChild(createNodeV1(child)));
+                        nodeGroup.appendChild(node);
+                        nodeGroup.appendChild(subBranches);
+                        
+                        node.addEventListener('click', () => {
+                            subBranches.classList.toggle('hidden');
+                            node.querySelector('.toggle-icon').textContent = subBranches.classList.contains('hidden') ? '+' : '-';
+                        });
+                    } else {
+                        nodeGroup.appendChild(node);
+                    }
+                    return nodeGroup;
+                }
+
+                const mainNode = document.createElement('div');
+                mainNode.className = 'mind-map-node main';
+                mainNode.textContent = mindmapV1Data.name;
+                mapContainer.appendChild(mainNode);
+                
+                if (mindmapV1Data.children) {
+                    const mainBranches = document.createElement('div');
+                    mindmapV1Data.children.forEach(child => mainBranches.appendChild(createNodeV1(child)));
+                    mapContainer.appendChild(mainBranches);
+                }
+                container.appendChild(mapContainer);
+            };
+
+            // Generate Mind Map v2 (Horizontal)
+            const generateMindmapV2 = () => {
+                const container = document.getElementById('mindmap-v2-container');
+                if (!container || !mindmapV2Data?.name) return;
+                container.innerHTML = '';
+                const mapContainer = document.createElement('div');
+                mapContainer.className = 'mind-map-container-v2';
+                
+                function createNodeV2(item) {
+                    const branchGroup = document.createElement('div');
+                    branchGroup.className = 'branch-group';
+                    const nodeWrapper = document.createElement('div');
+                    nodeWrapper.className = 'node-wrapper';
+
+                    const node = document.createElement('div');
+                    node.className = 'mind-map-node-v2';
+                    node.textContent = item.name;
+                    nodeWrapper.appendChild(node);
+                    branchGroup.appendChild(nodeWrapper);
+
+                    if (item.children && item.children.length > 0) {
+                        const toggleIcon = document.createElement('span');
+                        toggleIcon.className = 'toggle-icon-v2';
+                        toggleIcon.textContent = '+';
+                        nodeWrapper.appendChild(toggleIcon);
+
+                        const subBranches = document.createElement('div');
+                        subBranches.className = 'sub-branches-v2 hidden';
+                        item.children.forEach(child => subBranches.appendChild(createNodeV2(child)));
+                        branchGroup.appendChild(subBranches);
+
+                        nodeWrapper.addEventListener('click', () => {
+                            subBranches.classList.toggle('hidden');
+                            toggleIcon.textContent = subBranches.classList.contains('hidden') ? '+' : '-';
+                        });
+                    }
+                    return branchGroup;
+                }
+
+                const mainNode = document.createElement('div');
+                mainNode.className = 'mind-map-node-v2 main';
+                mainNode.textContent = mindmapV2Data.name;
+                mapContainer.appendChild(mainNode);
+                
+                if (mindmapV2Data.children) {
+                    const mainBranchesContainer = document.createElement('div');
+                    mainBranchesContainer.className = 'main-branches-container';
+                    mindmapV2Data.children.forEach(child => mainBranchesContainer.appendChild(createNodeV2(child)));
+                    mapContainer.appendChild(mainBranchesContainer);
+                }
+                container.appendChild(mapContainer);
+            };
+
+            // --- Quiz Answer Toggle Functionality ---
+            window.toggleAnswer = function(button) {
+                const answerDiv = button.nextElementSibling;
+                if (answerDiv && answerDiv.classList.contains('quiz-answer')) {
+                    const isVisible = answerDiv.style.display === 'block';
+                    answerDiv.style.display = isVisible ? 'none' : 'block';
+                    button.textContent = isVisible ? 'Show Answer' : 'Hide Answer';
+                }
+            };
+
+            // --- INITIALIZATION ---
+            generateTimeline();
+            generateCharacters();
+            generateQuiz();
+            generateMindmapV1();
+            generateMindmapV2();
+
+            // Set the initial active tab
+            document.querySelector('.tabs-container .tab-button').classList.add('active');
+            document.getElementById('original-story').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
