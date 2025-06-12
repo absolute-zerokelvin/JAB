@@ -6,8 +6,8 @@
     <title>JAB Manual Interactive - Story</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/story.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/story.css">
 </head>
 <body>
     <!-- Navigation Overlay for Mobile -->
@@ -83,10 +83,10 @@
     </div>
 
     <!-- Include story view script -->
-    <script src="/js/storyView.js"></script>
+    <script src="./js/storyView.js"></script>
     
     <!-- Include main navigation script -->
-    <script src="/js/main.js"></script>
+    <script src="./js/main.js"></script>
     
     <script>
         // Get story section from URL parameters
@@ -99,7 +99,7 @@
         async function loadStory() {
             try {
                 const section = getStorySection();
-                const jsonPath = `/data/${section}.json`;
+                const jsonPath = `./data/${section}.json`;
                 
                 console.log(`Loading story data from: ${jsonPath}`);
                 
