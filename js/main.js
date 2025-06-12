@@ -9,7 +9,10 @@ let navigationData = null;
 // Fetch navigation data
 async function fetchNavigationData() {
     try {
-        const response = await fetch('./data/navigation.json');
+        // Use cache-busted fetch if available
+        const response = window.cacheBuster ? 
+            await window.cacheBuster.fetchWithCacheBust('./data/navigation.json') : 
+            await fetch('./data/navigation.json');
         navigationData = await response.json();
         return navigationData;
     } catch (error) {
