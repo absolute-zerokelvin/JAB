@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAB (Jain Academic Bowl)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/story.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-emerald-700 text-white p-6 text-center shadow-lg rounded-b-xl mb-8">
+        <h1 class="title text-4xl font-bold mb-2"></h1>
+        <p class="subtitle text-emerald-200 text-lg"></p>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="tabs-container">
+        </div>
+
+        <!-- Story Tab Content -->
+        <div id="original-story" class="tab-content active text-justify">
+        </div>
+
+        <!-- Timeline Tab Content -->
+        <div id="timeline-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Timeline of Events</h2>
+            <div id="timeline" class="timeline-container"></div>
+        </div>
+        
+        <!-- Mind Map v1 Tab Content -->
+        <div id="mindmap-v1-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Vertical)</h2>
+            <div id="mindmap-v1-container" class="mind-map-wrapper"></div>
+        </div>
+        
+        <!-- Mind Map v2 Tab Content -->
+        <div id="mindmap-v2-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Interactive Mind Map (Horizontal)</h2>
+            <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
+        </div>
+        
+        <!-- Graphics Tab Content -->
+        <div id="graphics-tab" class="tab-content">
+             <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Graphic Novel</h2>
+        </div>
+
+        <!-- Characters Tab Content -->
+        <div id="characters-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Cast of Characters</h2>
+            <div id="characters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+        </div>
+        
+        <!-- Quiz Tab Content -->
+        <div id="quiz-tab" class="tab-content">
+            <h2 class="text-3xl font-bold text-center text-emerald-700 mb-6">Test Your Knowledge!</h2>
+            <div id="quiz-container" class="quiz-container"></div>
+        </div>
+
+    </main>
+
+    <footer class="bg-emerald-700 text-white text-center p-4 mt-12 rounded-t-xl">
+        <p>&copy; 2025 AI Story Generator. All rights reserved.</p>
+    </footer>
+    <script src="/js/storyView.js"></script>
+    <script>
+        // Get story section from URL parameters
+        function getStorySection() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('section') || 'I1'; // Default to I1 if no parameter
+        }
+
+        // Fetch story data from JSON file and initialize the page
+        async function loadStory() {
+            try {
+                const section = getStorySection();
+                const jsonPath = `/data/${section}.json`;
+                
+                console.log(`Loading story data from: ${jsonPath}`);
+                
+                const response = await fetch(jsonPath);
+                if (!response.ok) {
+                    throw new Error(`Failed to fetch ${jsonPath}: ${response.status} ${response.statusText}`);
+                }
+                
+                const storyData = await response.json();
+                initializeStoryPage(storyData);
+            } catch (error) {
+                console.error('Error loading story data:', error);
+                // Fallback: show an error message to the user
+                document.querySelector('main').innerHTML = `<div class="text-center text-red-600 p-8"><h2 class="text-2xl font-bold mb-4">Error Loading Story</h2><p>Unable to load the story content for section "${getStorySection()}". Please check if the data file exists and try again.</p><p class="text-sm mt-2 text-gray-600">Error: ${error.message}</p></div>`;
+            }
+        }
+
+        // Load the story when the page is ready
+        document.addEventListener('DOMContentLoaded', loadStory);
+    </script>
+</body>
+</html>

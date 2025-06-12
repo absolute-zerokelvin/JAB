@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+    color: #374151;
+    line-height: 1.6;
+}
+
+/* Common layout styles */
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+/* Header styles */
+header.bg-emerald-700 {
+    background-color: #047857;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 0.75rem 0.75rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: #a7f3d0;
+    font-size: 1.125rem;
+}
+
+/* Footer styles */
+footer.bg-emerald-700 {
+    background-color: #047857;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+
+/* Common container styles */
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.max-w-4xl {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Story links on index pages */
+.story-link {
+    display: block;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #10b981;
+    transition: all 0.2s ease-in-out;
+}
+
+.story-link:hover {
+    transform: translateY(-2px) translateX(2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.story-link h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #065f46;
+}
+
+.story-link p {
+    color: #4b5563;
+    margin-top: 0.5rem;
+}
+
+.space-y-6 > * + * {
+    margin-top: 1.5rem;
+}
+
+/* Responsive container */
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
