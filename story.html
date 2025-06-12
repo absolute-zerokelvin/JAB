@@ -101,7 +101,7 @@
         async function loadStory() {
             try {
                 const section = getStorySection();
-                const jsonPath = `./data/${section}.json`;
+                const jsonPath = `./data/${section}.json?v=${Date.now()}`; // Cache busting with timestamp
                 
                 console.log(`Loading story data from: ${jsonPath}`);
                 

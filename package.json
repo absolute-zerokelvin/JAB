@@ -22,13 +22,15 @@
   "author": "JAB Manual Team",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "cheerio": "^1.0.0-rc.12",
+    "concurrently": "^9.1.2",
+    "cssnano": "^6.0.3",
     "fs-extra": "^11.2.0",
     "gh-pages": "^6.1.1",
     "http-server": "^14.1.1",
-    "cheerio": "^1.0.0-rc.12",
-    "postcss": "^8.4.32",
-    "autoprefixer": "^10.4.16",
-    "cssnano": "^6.0.3"
+    "nodemon": "^3.1.10",
+    "postcss": "^8.4.32"
   },
   "engines": {
     "node": ">=18.0.0"

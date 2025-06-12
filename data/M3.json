@@ -1,0 +1,267 @@
+{
+  "title": "The Life of Virchand R. Gandhi",
+  "subtitle": "Section M.3 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Voice for Jainism on the World Stage"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "On September 11, 1893, two young men in Indian attire captivated the 3,000 delegates at the first-ever <span class=\"highlight\">Parliament of World Religions</span> in Chicago. One was the famous Swämi Vivekänanda, representing Hinduism. The other was <span class=\"highlight\">Shri Virchand Räghavji Gandhi</span>, a 29-year-old scholar representing Jainism. His eloquence and deep knowledge were so impressive that an American newspaper wrote, “Of all the Eastern scholars, it was this youth whose lectures on Jain faith and conduct were listened to with great interest and attention.”"
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Early Life and Activism"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" /><path d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" /></svg>Born in 1864 in Mahuvä, Gujarat, Virchand Gandhi was a brilliant student, becoming likely the first Jain graduate from the University of Bombay in 1884. He had command over fourteen languages. At just 21, as the honorary secretary of the <span class=\"highlight\">Jain Association of India</span>, he took on two major challenges. He successfully fought to abolish the unjust <span class=\"highlight\">Poll tax</span> levied on pilgrims at the holy site of Pälitänä. Later, he traveled to Calcutta, learned Bengali, and successfully argued a legal case to shut down a <span class=\"highlight\">pig slaughterhouse</span> that had been set up at the sacred pilgrimage site of Sametshikhar."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Global Ambassador for India and Jainism"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "After the Parliament, Virchand Gandhi stayed in the U.S. and Europe for about two years, delivering over <span class=\"highlight\">535 lectures</span> on Jainism, yoga, and Indian philosophy. He was a master orator who presented Jain concepts like Anekäntaväd logically and without criticizing other faiths. He worked hard to counter the distorted image of India presented by Christian missionaries, painting a true picture of its rich culture and spiritual heritage. He forcefully defended both Jainism and Hinduism, famously stating he was an <span class=\"highlight\">“Indian first, then a Jain.”</span>"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M5.5 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15.5 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z\" /><path d=\"M11.25 3.335A3.25 3.25 0 0114.5 6.5v4.558a2.753 2.753 0 01-1.152 2.219l-1.148.656a2.75 2.75 0 00-1.148 2.219V16.5h-1V12.67a4.25 4.25 0 011.781-3.527l1.148-.656A1.253 1.253 0 0014.5 7.558V6.5a1.75 1.75 0 00-1.75-1.75h-2.5a.75.75 0 000 1.5h2.5z\" /><path d=\"M8.75 3.335A3.25 3.25 0 005.5 6.5v4.558c0 .87.414 1.666 1.092 2.187l1.148.861A2.75 2.75 0 009 16.323V16.5h1V12.67a4.25 4.25 0 01-1.781-3.527l-1.148-.861A1.253 1.253 0 005.5 7.558V6.5a1.75 1.75 0 001.75-1.75h2.5a.75.75 0 000-1.5h-2.5z\" /></svg>His work was not just philosophical; it was practical. While in the U.S. in 1896, he raised about <span class=\"highlight\">40,000 rupees and a shipload of grain</span> for famine relief in India. He founded several organizations, including the <span class=\"highlight\">Gandhi Philosophical Society</span> in the U.S. and the <span class=\"highlight\">Jain Literature Society</span> in England. His efforts inspired Westerners like <span class=\"highlight\">Herbert Warren</span> to adopt Jain principles and publish books on the subject. Tragically, his health failed, and this brilliant champion of Indian culture and religion passed away in 1901 at the young age of 37."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "Early Life and Education",
+      "period": "1864 - 1884",
+      "events": [
+        {
+          "title": "Birth",
+          "description": "Virchand R. Gandhi is born on August 25, 1864, in Mahuvä, Gujarat.",
+          "characters": ["Virchand R. Gandhi"]
+        },
+        {
+          "title": "A Pioneering Graduate",
+          "description": "He graduates with honors from the University of Bombay in 1884, likely becoming the first Jain graduate of his time. He masters 14 languages.",
+          "characters": ["Virchand R. Gandhi"]
+        }
+      ]
+    },
+    {
+      "era": "Activism in India",
+      "period": "1885 - 1892",
+      "events": [
+        {
+          "title": "Honorary Secretary",
+          "description": "At age 21, he becomes the first honorary secretary of the Jain Association of India.",
+          "characters": ["Virchand R. Gandhi"]
+        },
+        {
+          "title": "Abolishing the Poll Tax",
+          "description": "He successfully negotiates with British authorities to abolish the unfair Poll tax on pilgrims at Pälitänä.",
+          "characters": ["Virchand R. Gandhi", "Lord Ray", "Colonel Watson"]
+        },
+        {
+          "title": "Shutting Down a Slaughterhouse",
+          "description": "In 1891, he travels to Calcutta, learns Bengali, and wins a legal case to shut down a pig slaughterhouse at the holy site of Sametshikhar.",
+          "characters": ["Virchand R. Gandhi"]
+        }
+      ]
+    },
+    {
+      "era": "Global Ambassador",
+      "period": "1893 - 1897",
+      "events": [
+        {
+          "title": "Parliament of World Religions",
+          "description": "On September 11, 1893, he represents Jainism at the first Parliament of World Religions in Chicago, alongside Swämi Vivekänanda.",
+          "characters": ["Virchand R. Gandhi", "Swämi Vivekänanda"]
+        },
+        {
+          "title": "International Lectures",
+          "description": "He stays abroad for two years, delivering over 535 lectures on Jainism and Indian culture across the U.S. and Europe.",
+          "characters": ["Virchand R. Gandhi"]
+        },
+        {
+          "title": "Famine Relief Efforts",
+          "description": "While in the U.S. in 1896, he raises a shipload of grain and about 40,000 rupees to help with famine relief back in India.",
+          "characters": ["Virchand R. Gandhi"]
+        },
+        {
+          "title": "Founding Societies",
+          "description": "He establishes several societies, including the Gandhi Philosophical Society in America and the Jain Literature Society in England.",
+          "characters": ["Virchand R. Gandhi", "Mrs. Howard", "Herbert Warren"]
+        }
+      ]
+    },
+    {
+      "era": "Final Years",
+      "period": "1898 - 1901",
+      "events": [
+        {
+          "title": "Sudden Decline in Health",
+          "description": "While in England, his health takes a turn for the worse.",
+          "characters": ["Virchand R. Gandhi"]
+        },
+        {
+          "title": "Early Passing",
+          "description": "He returns to India and passes away a few weeks later in Bombay on August 7, 1901, at the age of 37.",
+          "characters": ["Virchand R. Gandhi"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Virchand R. Gandhi",
+      "description": "A brilliant 19th-century Jain scholar, lawyer, and social reformer. He was a powerful orator who represented Jainism at the 1893 Parliament of World Religions and became a global ambassador for Indian culture and philosophy."
+    },
+    {
+      "name": "Swämi Vivekänanda",
+      "description": "The world-famous representative of Hinduism who, alongside Virchand Gandhi, made a major impact at the Parliament of World Religions."
+    },
+    {
+      "name": "Herbert Warren",
+      "description": "An English religious enthusiast who was so inspired by Virchand Gandhi's lectures that he adopted Jain principles and published a book on the subject."
+    },
+    {
+      "name": "Mrs. Howard",
+      "description": "The American secretary of the Society for the Education of Women of India, founded by Virchand Gandhi. She adopted vegetarianism and practiced Jain rituals like Sämäyik."
+    }
+  ],
+  "quizData": [
+    { "question": "In what year did the first Parliament of World Religions take place?", "answer": "1893." },
+    { "question": "Who represented Hinduism at the Parliament alongside Virchand Gandhi?", "answer": "Swämi Vivekänanda." },
+    { "question": "At what age did Virchand Gandhi become the first honorary secretary of the Jain Association of India?", "answer": "At the age of 21." },
+    { "question": "What unfair tax did he successfully work to abolish at the pilgrimage site of Pälitänä?", "answer": "The Poll tax on pilgrims." },
+    { "question": "At which holy pilgrimage site did he get a pig slaughterhouse shut down?", "answer": "Sametshikhar." },
+    { "question": "What language did Virchand Gandhi have to learn to fight the case against the slaughterhouse in Calcutta?", "answer": "Bengali." },
+    { "question": "How many lectures on Jainism and Indian culture did he deliver while abroad?", "answer": "More than 535." },
+    { "question": "What was Virchand Gandhi's response when defending both Jainism and Hinduism?", "answer": "He stated he was an 'Indian first, then a Jain.'" },
+    { "question": "How much money and grain did he collect for famine relief in India while he was in the U.S.?", "answer": "About 40,000 rupees and a shipload of grain." },
+    { "question": "Name one of the societies Virchand Gandhi founded in America.", "answer": "The Gandhi Philosophical Society, The School of Oriental Philosophy, or The Society for the Education of Women of India." },
+    { "question": "What was the name of the society he founded in England?", "answer": "The Jain Literature Society." },
+    { "question": "Who was the Englishman who adopted Jainism and published a book based on Virchand Gandhi's lectures?", "answer": "Mr. Herbert Warren." },
+    { "question": "At what young age did Virchand R. Gandhi pass away?", "answer": "At the age of 37." },
+    { "question": "In which city was Virchand Gandhi born?", "answer": "Mahuvä, Gujarat." },
+    { "question": "How many languages did Virchand Gandhi have command over?", "answer": "Fourteen." },
+    { "question": "What was his field of study when he graduated from the University of Bombay?", "answer": "He obtained a B.A. with honors." },
+    { "question": "In his prophetic vision, what did Virchand Gandhi say India should do if it became an independent nation?", "answer": "Seek to establish and forever maintain peaceful relations with all the nations of the world." },
+    { "question": "What was a key characteristic of Virchand Gandhi's lectures, in line with Jain principles?", "answer": "They did not criticize other religions and were free from sectarian prejudice." },
+    { "question": "Who was the secretary of the Society for the Education of Women of India?", "answer": "Mrs. Howard." },
+    { "question": "What was the name of the book published by Herbert Warren summarizing Virchand's lectures?", "answer": "Herbert Warren’s Jainism." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Life of Virchand R. Gandhi",
+    "children": [
+      {
+        "name": "Early Life & Activism",
+        "children": [
+          { "name": "Born in Mahuvä (1864)" },
+          { "name": "First Jain Graduate" },
+          { "name": "Abolished Poll Tax at Pälitänä" },
+          { "name": "Closed Slaughterhouse at Sametshikhar" }
+        ]
+      },
+      {
+        "name": "Global Ambassador (1893+)",
+        "children": [
+          { "name": "Parliament of World Religions" },
+          { "name": "Delivered 535+ Lectures" },
+          { "name": "Defended Indian Culture" },
+          { "name": "Promoted Non-violence & Anekäntaväd" }
+        ]
+      },
+      {
+        "name": "Humanitarian & Founder",
+        "children": [
+          { "name": "Organized Famine Relief (1896)" },
+          { "name": "Founded Societies in US & UK" },
+          { "name": "Inspired Western followers" }
+        ]
+      },
+      {
+        "name": "Legacy",
+        "children": [
+          { "name": "Published Literature" },
+          { "name": "Early Death at 37 (1901)" },
+          { "name": "Champion of Jainism & India" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Virchand R. Gandhi: A Global Voice",
+    "children": [
+      {
+        "name": "The Scholar-Activist",
+        "children": [
+          { "name": "Education" },
+          { "name": "Early Victories" }
+        ]
+      },
+      {
+        "name": "The World Stage",
+        "children": [
+          { "name": "Chicago Parliament" },
+          { "name": "International Lectures" },
+          { "name": "Cultural Defense" }
+        ]
+      },
+      {
+        "name": "The Organizer",
+        "children": [
+          { "name": "Founding Societies" },
+          { "name": "Humanitarian Work" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Voice in Chicago",
+      "description": "At the 1893 Parliament of World Religions, the young Virchand R. Gandhi stands alongside Swämi Vivekänanda, captivating the world with his eloquence on Jainism.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Virchand+Gandhi+at+the+Parliament",
+      "imageAlt": "Two men in Indian attire standing on a grand stage before a large, diverse audience."
+    },
+    {
+      "title": "Fighting for the Pilgrims",
+      "description": "As a young lawyer, Virchand Gandhi makes a powerful case to British officials to abolish the unfair Poll tax on Jain pilgrims at the holy site of Pälitänä.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Abolishing+the+Poll+Tax",
+      "imageAlt": "A young Indian lawyer presenting documents to stern-looking British officials in an office."
+    },
+    {
+      "title": "Protecting a Holy Site",
+      "description": "Through legal action, Virchand Gandhi succeeds in shutting down a pig slaughterhouse that was desecrating the sacred pilgrimage mountain of Sametshikhar.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Victory+at+Sametshikhar",
+      "imageAlt": "A factory with a 'Closed' sign on it at the base of a beautiful mountain."
+    },
+    {
+      "title": "Ambassador of Indian Culture",
+      "description": "In his lectures across America and Europe, Virchand Gandhi works tirelessly to present a true and noble picture of Indian philosophy and culture.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Lecturing+in+the+West",
+      "imageAlt": "Virchand Gandhi in his traditional attire, speaking passionately from a podium to a Western audience."
+    },
+    {
+      "title": "Aid for a Nation in Need",
+      "description": "From halfway across the world, Virchand Gandhi organizes a shipload of grain to be sent to India to provide relief during a devastating famine.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Famine+Relief+for+India",
+      "imageAlt": "A large ship being loaded with sacks of grain, destined for India."
+    },
+    {
+      "title": "A Life's Work Published",
+      "description": "Though his life was short, his lectures and writings were compiled into books like 'Karma Philosophy,' preserving his wisdom for future generations.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Published+Works+of+V.R.+Gandhi",
+      "imageAlt": "A collection of old books with titles like 'Jaina Philosophy' and 'Yoga Philosophy' on a shelf."
+    }
+  ]
+}

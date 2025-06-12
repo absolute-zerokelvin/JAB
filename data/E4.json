@@ -1,0 +1,290 @@
+{
+  "title": "The Story of Bhagawän Mallinäth",
+  "subtitle": "Section E.4 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Bond of Friendship and a Secret Vow"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "In a past life, <span class=\"highlight\">King Mahäbal</span> and his six childhood friends were inseparable. Inspired by a sermon, all seven renounced their worldly lives to become monks together. However, Mahäbal secretly held a deeper aspiration: to guide all living beings to liberation. He observed longer, secret austerities, an act which earned him <span class=\"highlight\">Tirthankar-Näm-Karma</span>. But because of the secrecy from his friends, he also acquired karma to be born as a female."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Princess, a Portrait, and a Proposal"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M5.5 17a4.5 4.5 0 01-1.41-8.7L3.5 8.5v-2.28a1 1 0 01.9-1L6 5a1 1 0 011 .99v1.9l.51.01a4.5 4.5 0 012.98 8.6L10 17H5.5zM14.5 5a4.5 4.5 0 00-2.98 8.6L12 13.5v2.28a1 1 0 00.9 1L14 17a1 1 0 001-.99v-1.9l.51-.01a4.5 4.5 0 00-1.01-8.6z\" /></svg>The soul of Mahäbal was reborn as <span class=\"highlight\">Princess Malli</span> to King Kumbha and Queen Prabhävati of Mithilä. His six friends were reborn as powerful kings in neighboring kingdoms. An artist, after seeing only Princess Malli's toe, drew a perfect, lifelike portrait of her. The artist, after a dispute, showed this captivating portrait to the six kings. Each king, enchanted by her beauty, sent a marriage proposal to her father."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "King Kumbha rejected all six proposals. In response, the angered kings united their armies and laid siege to the city of Mithilä."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Lesson of the Statue"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Seeing the crisis, Princess Malli devised a plan. She commissioned a hollow, life-like statue of herself. For days, she had a morsel of food placed inside the statue, which was then sealed. She invited the six kings to the palace, placing each in a separate room where they could see the beautiful statue but not each other. As they waited, infatuated, Malli unsealed the statue."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "A foul odor from the rotting food inside filled the air, repulsing the kings. The real Malli then appeared and explained: “This is the smell of the same food I eat. What is the purpose of being attached to a body when it is destined to decay?” She then revealed their connection from their past life as friends, causing them all to remember their spiritual vows."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Renunciation and Liberation"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg> The lesson learned, the six kings and Princess Malli all decided to renounce the world. On the very day she became a nun, Malli destroyed her obscuring karmas and attained <span class=\"highlight\">Keval-jnän (omniscience)</span>, becoming the 19th Tirthankar. As <span class=\"highlight\">Bhagawän Mallinäth</span>, she preached the path to liberation before ultimately attaining Nirväna on <span class=\"highlight\">Mount Sametshikhar</span>."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "Past Life",
+      "period": "Mahä-videha region",
+      "events": [
+        {
+          "title": "A Pact of Friendship",
+          "description": "King Mahäbal and his six close friends renounce their worldly lives together to become monks.",
+          "characters": ["King Mahäbal", "Six Friends"]
+        },
+        {
+          "title": "Secret Austerities",
+          "description": "Mahäbal secretly performs extra penance to gain the ability to liberate all beings, acquiring both Tirthankar-Näm-Karma and karma to be born female.",
+          "characters": ["King Mahäbal"]
+        }
+      ]
+    },
+    {
+      "era": "Rebirth and Conflict",
+      "period": "Ancient India",
+      "events": [
+        {
+          "title": "A Princess is Born",
+          "description": "Mahäbal's soul is reborn as Princess Malli. His six friends are reborn as six powerful kings.",
+          "characters": ["Princess Malli", "The Six Kings"]
+        },
+        {
+          "title": "The Portrait and the Proposals",
+          "description": "A perfect portrait of Malli inflames the desire of the six kings, who all propose marriage.",
+          "characters": ["Princess Malli", "The Six Kings", "The Artist"]
+        },
+        {
+          "title": "The Siege of Mithilä",
+          "description": "After their proposals are rejected, the six kings unite their forces and lay siege to Malli's city.",
+          "characters": ["Princess Malli", "King Kumbha", "The Six Kings"]
+        }
+      ]
+    },
+    {
+      "era": "Enlightenment and Liberation",
+      "period": "After the siege",
+      "events": [
+        {
+          "title": "The Statue's Lesson",
+          "description": "Malli uses a life-like statue filled with rotting food to teach the kings about the impermanence and impurity of the physical body.",
+          "characters": ["Princess Malli", "The Six Kings"]
+        },
+        {
+          "title": "Mass Renunciation",
+          "description": "Remembering their past lives and understanding the lesson, Malli and all six kings renounce the world.",
+          "characters": ["Bhagawän Mallinäth", "The Six Kings"]
+        },
+        {
+          "title": "Omniscience and Nirväna",
+          "description": "Malli attains Keval-jnän on the day of her initiation, becoming the 19th Tirthankar. She preaches and ultimately attains liberation at Sametshikhar.",
+          "characters": ["Bhagawän Mallinäth"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Bhagawän Mallinäth",
+      "description": "The 19th Tirthankar, who was born as a female (Princess Malli) according to Shvetämbar tradition. In a past life as King Mahäbal, her secret desire to save all beings led to this destiny. She is known for her wisdom in teaching the impermanence of the body."
+    },
+    {
+      "name": "The Six Kings",
+      "description": "The rebirth of Mallinäth's six close friends from her life as King Mahäbal. Their deep past-life affection manifested as a worldly desire to marry her, leading to conflict."
+    },
+    {
+      "name": "King Kumbha & Queen Prabhävati",
+      "description": "The royal parents of Princess Malli and rulers of Mithilä."
+    },
+    {
+      "name": "The Artist",
+      "description": "A talented portrait artist whose drawing of Princess Malli inadvertently sparked the conflict among the six kings."
+    }
+  ],
+  "quizData": [
+    {
+      "question": "In her past life, what was Bhagawän Mallinäth's name?",
+      "answer": "King Mahäbal."
+    },
+    {
+      "question": "What two specific karmas did Mahäbal acquire due to his secret, intense penance?",
+      "answer": "Tirthankar-Näm-Karma and the karma to be born as a female."
+    },
+    {
+      "question": "Who were the parents of Princess Malli?",
+      "answer": "King Kumbha and Queen Prabhävati."
+    },
+    {
+      "question": "How did the six kings learn of Princess Malli's exceptional beauty?",
+      "answer": "An artist showed them a lifelike portrait he had drawn of her."
+    },
+    {
+      "question": "What did the six kings do when their marriage proposals were rejected?",
+      "answer": "They united their armies and laid siege to her city, Mithilä."
+    },
+    {
+      "question": "What did Princess Malli use to teach the kings a lesson about physical attachment?",
+      "answer": "A hollow, life-like statue of herself filled with rotting food."
+    },
+    {
+      "question": "What was the lesson of the rotting food inside the beautiful statue?",
+      "answer": "That the physical body is impermanent and destined to decay, so attachment to it is pointless."
+    },
+    {
+      "question": "What did the kings and Malli do after she revealed their past-life connection?",
+      "answer": "They all renounced the worldly life to pursue the spiritual path."
+    },
+    {
+      "question": "Mallinäth is which Tirthankar in the sequence of 24?",
+      "answer": "The 19th Tirthankar."
+    },
+    {
+      "question": "Where did Bhagawän Mallinäth attain final liberation (Nirväna)?",
+      "answer": "On Mount Sametshikhar."
+    }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Mallinäth",
+    "children": [
+      {
+        "name": "Past Life: King Mahäbal",
+        "children": [
+          { "name": "Friendship with 6 others" },
+          { "name": "Renounce world together" },
+          { "name": "Secret penance leads to Karma" }
+        ]
+      },
+      {
+        "name": "Rebirth & Conflict",
+        "children": [
+          { "name": "Born as Princess Malli" },
+          { "name": "6 friends reborn as Kings" },
+          { "name": "The Portrait & Rejected Proposals" },
+          { "name": "Siege of Mithilä" }
+        ]
+      },
+      {
+        "name": "The Enlightened Solution",
+        "children": [
+          { "name": "The Statue Plan" },
+          { "name": "The Foul Odor" },
+          { "name": "Lesson on Impermanence" },
+          { "name": "Past Life Revelation" }
+        ]
+      },
+      {
+        "name": "Liberation",
+        "children": [
+          { "name": "Mass Renunciation" },
+          { "name": "Attains Omniscience" },
+          { "name": "Becomes 19th Tirthankar" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Mallinäth's Wisdom",
+    "children": [
+      {
+        "name": "The Karmic Cause",
+        "children": [
+          { "name": "King Mahäbal's Vow" },
+          { "name": "The Secret Penance" }
+        ]
+      },
+      {
+        "name": "The Worldly Effect",
+        "children": [
+          { "name": "Princess Malli's Beauty" },
+          { "name": "The Kings' Desire" },
+          { "name": "The War for a Bride" }
+        ]
+      },
+      {
+        "name": "The Spiritual Lesson",
+        "children": [
+          { "name": "The Hollow Statue" },
+          { "name": "The Reality of the Body" },
+          { "name": "Awakening Past Memories" }
+        ]
+      },
+      {
+        "name": "The Final Path",
+        "children": [
+          { "name": "Collective Renunciation" },
+          { "name": "Attainment of Nirväna" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "The Seven Friends",
+      "description": "In a past life, King Mahäbal and his six friends are so inspired by a sermon that they decide to renounce their kingdoms and become monks together.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Seven+Friends+Become+Monks",
+      "imageAlt": "Seven royal figures giving up their crowns to become monks."
+    },
+    {
+      "title": "The Fateful Portrait",
+      "description": "An artist, after being punished, takes revenge by showing a captivating portrait of Princess Malli to a neighboring king, igniting a passionate desire.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Artist+shows+King+the+Portrait",
+      "imageAlt": "An artist presenting a beautiful portrait of a princess to an amazed king."
+    },
+    {
+      "title": "The Siege",
+      "description": "After King Kumbha rejects all their marriage proposals, the six enchanted kings unite their armies and lay siege to the city of Mithilä.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Six+Armies+Siege+Mithilä",
+      "imageAlt": "Armies with flags of six different kingdoms surrounding a fortified city."
+    },
+    {
+      "title": "The Beautiful Statue",
+      "description": "To solve the crisis, Malli commissions a perfect, hollow statue of herself, which is placed in a grand hall for the kings to see.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Malli+and+her+Statue",
+      "imageAlt": "Princess Malli standing beside a perfect, life-like statue of herself."
+    },
+    {
+      "title": "The Foul Truth",
+      "description": "When Malli unseals the statue, a terrible smell from the rotten food inside fills the air, shocking the kings and teaching them about the body's true nature.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Kings+recoiling+from+the+smell",
+      "imageAlt": "Six kings covering their noses in disgust as a foul smell emanates from the statue."
+    },
+    {
+      "title": "The Path to Liberation",
+      "description": "Having learned their lesson and remembered their past lives, Malli and the six kings renounce the world to continue their spiritual journey.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Seven+Souls+Renounce+the+World",
+      "imageAlt": "Seven figures walking away from a palace towards a spiritual path."
+    }
+  ]
+}

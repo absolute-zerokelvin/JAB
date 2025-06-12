@@ -1,0 +1,296 @@
+{
+  "title": "The Story of Bhagawän Neminäth",
+  "subtitle": "Section E.3 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "Birth and Royal Family"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Long ago, King <span class=\"highlight\">Samudravijay</span> and his wife, <span class=\"highlight\">Shivädevi</span>, ruled over Sauripur. They had a son named Nemkumär, who would become Bhagawän Neminäth. He is also known as <span class=\"highlight\">Aristanemi</span> because his mother dreamt of black jewels (Arista) during her pregnancy. Nemkumär's famous cousins were <span class=\"highlight\">Balräm</span> and <span class=\"highlight\">Shri Krishna</span>, the sons of his uncle, King Väsudev of Mathurä."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Turning Point"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M9.653 16.915l.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001zM10 2.25a.75.75 0 00-1.02.83l.03.14a23.49 23.49 0 01.43 2.59.75.75 0 001.4-.23 21.99 21.99 0 00-.31-2.43A.75.75 0 0010 2.25z\" clip-rule=\"evenodd\" /></svg> To escape political turmoil, the Yädava clan migrated to the west coast of India and founded the fortified city of <span class=\"highlight\">Dvärkä</span>. Nearby, King Ugrasen ruled Junagadh. His beautiful daughter, <span class=\"highlight\">Räjimati (or Räjul)</span>, wished to marry Nemkumär, and after some persuasion, they were engaged."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "On the day of the wedding, as his grand procession approached Räjul's palace, Nemkumär heard the wailing of animals. He saw that they were caged and fenced in, to be slaughtered for the wedding feast. Overcome with compassion, he could not bear the thought of such violence being committed for his happiness."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Renunciation and Enlightenment"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Nemkumär immediately asked his charioteer to release all the animals and turn the chariot back. He explained to his family that he must find a path to freedom from misery for all living beings. He then renounced his royal life, went to the <span class=\"highlight\">Raivat garden (Girnär)</span>, and became a monk."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 3.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 8.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 13.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3z\" /></svg> After fifty-four days of intense meditation on Mount Girnär, Neminäth destroyed his destructive (Ghäti) karma and attained <span class=\"highlight\">Keval-jnän (omniscience)</span>. He became the 22nd Tirthankar and established the four-fold religious order."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Räjul's Path"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "When Räjul heard that Nemkumär had turned back, she was heartbroken. But when she learned his reason—his profound compassion—her grief turned to admiration. Realizing the truth in his mission, she decided to follow his path. When Neminäth attained omniscience, she went to his sermon, took <span class=\"highlight\">Dikshä (initiation)</span>, and eventually became the head of the order of nuns. She too ultimately attained liberation."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "Early Life",
+      "period": "Ancient times",
+      "events": [
+        {
+          "title": "Birth",
+          "description": "Neminäth is born as Prince Nemkumär to King Samudravijay and Queen Shivädevi in Sauripur.",
+          "characters": ["Neminäth", "Samudravijay", "Shivädevi"]
+        },
+        {
+          "title": "Migration to Dvärkä",
+          "description": "To protect their people from political unrest, the Yädava clan, including Neminäth and Shri Krishna, migrate and build the city of Dvärkä.",
+          "characters": ["Neminäth", "Shri Krishna", "Yädava Clan"]
+        },
+        {
+          "title": "Engagement to Räjul",
+          "description": "Princess Räjul of Junagadh, daughter of King Ugrasen, desires to marry Nemkumär, and the two become engaged.",
+          "characters": ["Neminäth", "Räjul", "Ugrasen"]
+        }
+      ]
+    },
+    {
+      "era": "The Turning Point",
+      "period": "The Wedding Day",
+      "events": [
+        {
+          "title": "The Wedding Procession",
+          "description": "A grand wedding procession heads towards Räjul's palace for the ceremony.",
+          "characters": ["Neminäth"]
+        },
+        {
+          "title": "A Cry for Help",
+          "description": "Nemkumär hears the wails of animals and discovers they are caged to be slaughtered for the wedding feast.",
+          "characters": ["Neminäth"]
+        },
+        {
+          "title": "A Moment of Compassion",
+          "description": "Overcome with compassion, Nemkumär cannot accept a marriage built on such violence and decides to turn back.",
+          "characters": ["Neminäth"]
+        }
+      ]
+    },
+    {
+      "era": "The Path of Renunciation",
+      "period": "After the wedding day",
+      "events": [
+        {
+          "title": "Renunciation",
+          "description": "Nemkumär gives up his royal life and becomes a monk at Raivat garden (Girnär) to seek a path of non-violence.",
+          "characters": ["Neminäth"]
+        },
+        {
+          "title": "Attaining Omniscience",
+          "description": "After 54 days of deep meditation, he attains Keval-jnän and becomes the 22nd Tirthankar.",
+          "characters": ["Neminäth"]
+        },
+        {
+          "title": "Räjul Follows",
+          "description": "Inspired by his noble cause, Räjul also renounces the world, becomes a nun, and eventually achieves liberation.",
+          "characters": ["Räjul"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Bhagawän Neminäth",
+      "description": "The 22nd Tirthankar, known for his profound compassion. He renounced his own wedding to save animals from slaughter, choosing a spiritual path for the welfare of all beings."
+    },
+    {
+      "name": "Räjimati (Räjul)",
+      "description": "A beautiful princess engaged to Neminäth. Though initially heartbroken by his decision, she understood his noble cause and followed him on the spiritual path, becoming a nun."
+    },
+    {
+      "name": "Shri Krishna",
+      "description": "Neminäth's cousin, a central figure in the Yädava clan and a Väsudev in Jain tradition. He supported Neminäth's decision to become a monk."
+    },
+    {
+      "name": "Samudravijay & Shivädevi",
+      "description": "The royal parents of Neminäth and rulers of Sauripur."
+    },
+    {
+      "name": "Ugrasen",
+      "description": "The King of Junagadh and the father of Princess Räjul."
+    }
+  ],
+  "quizData": [
+    {
+      "question": "Who were the parents of Bhagawän Neminäth?",
+      "answer": "King Samudravijay and Queen Shivädevi."
+    },
+    {
+      "question": "Who was Neminäth's famous cousin, also considered the ninth Väsudev?",
+      "answer": "Shri Krishna."
+    },
+    {
+      "question": "Who was Neminäth engaged to be married to?",
+      "answer": "Princess Räjimati, also known as Räjul."
+    },
+    {
+      "question": "What did Neminäth see and hear on his way to his wedding that made him turn back?",
+      "answer": "He saw caged animals and heard their wails, realizing they were to be killed for the wedding feast."
+    },
+    {
+      "question": "What was Neminäth's other name, inspired by his mother's dream of black jewels?",
+      "answer": "Aristanemi."
+    },
+    {
+      "question": "Where did Neminäth go to become a monk and meditate?",
+      "answer": "To the Raivat garden on Mount Girnär."
+    },
+    {
+      "question": "How many days of meditation did it take for Neminäth to attain omniscience (Keval-jnän)?",
+      "answer": "Fifty-four days."
+    },
+    {
+      "question": "What did Princess Räjul do after Neminäth renounced the world?",
+      "answer": "She also renounced the world, became a nun, and followed his spiritual path."
+    },
+    {
+      "question": "Neminäth is which Tirthankar in the sequence of 24?",
+      "answer": "The 22nd Tirthankar."
+    },
+    {
+      "question": "Which fortified city did Shri Krishna build for the Yädava clan on the coast of Gujarat?",
+      "answer": "Dvärkä."
+    }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Neminäth",
+    "children": [
+      {
+        "name": "Royal Beginnings",
+        "children": [
+          { "name": "Born to King Samudravijay & Queen Shivädevi" },
+          { "name": "Cousin of Shri Krishna" },
+          { "name": "Engaged to Princess Räjul" }
+        ]
+      },
+      {
+        "name": "The Wedding Procession",
+        "children": [
+          { "name": "Hears Cries of Animals" },
+          { "name": "Discovers Plan for Slaughter" },
+          { "name": "Decision Based on Compassion" }
+        ]
+      },
+      {
+        "name": "Path of Renunciation",
+        "children": [
+          { "name": "Turns Chariot Back" },
+          { "name": "Becomes Monk at Mount Girnär" },
+          { "name": "Attains Omniscience in 54 Days" }
+        ]
+      },
+      {
+        "name": "Räjul's Journey",
+        "children": [
+          { "name": "Overcomes Grief with Understanding" },
+          { "name": "Takes Dikshä" },
+          { "name": "Achieves Liberation" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Neminäth's Compassion",
+    "children": [
+      {
+        "name": "The Prince",
+        "children": [
+          { "name": "Royal Family" },
+          { "name": "The Engagement" }
+        ]
+      },
+      {
+        "name": "The Choice",
+        "children": [
+          { "name": "The Wedding Feast" },
+          { "name": "A Heartfelt Decision" },
+          { "name": "Turning Back" }
+        ]
+      },
+      {
+        "name": "The Tirthankar",
+        "children": [
+          { "name": "Meditation on Girnär" },
+          { "name": "Enlightenment" }
+        ]
+      },
+      {
+        "name": "The Princess",
+        "children": [
+          { "name": "Admiration for His Path" },
+          { "name": "Following in His Footsteps" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "The Royal Engagement",
+      "description": "Princess Räjul of Junagadh is happily engaged to the noble Prince Nemkumär of the powerful Yädava clan.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Nemkumär+and+Räjul's+Engagement",
+      "imageAlt": "A depiction of the royal engagement ceremony between Nemkumär and Räjul."
+    },
+    {
+      "title": "The Cry of the Innocent",
+      "description": "On his way to the wedding, Nemkumär's procession is stopped by the pitiful sounds of animals caged for the feast. His expression changes from joy to concern.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Nemkumär+sees+caged+animals",
+      "imageAlt": "Nemkumär on his chariot, looking with compassion at cages full of sad animals."
+    },
+    {
+      "title": "A Life-Changing Decision",
+      "description": "Unable to proceed with a celebration founded on violence, Nemkumär instructs his charioteer to turn back, leaving the wedding and worldly life behind.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Chariot+Turns+Back",
+      "imageAlt": "Nemkumär's chariot turning away from the direction of the wedding palace."
+    },
+    {
+      "title": "Meditation on Mount Girnär",
+      "description": "Having renounced everything, Monk Neminäth enters a state of deep meditation on the holy Mount Girnär, seeking the ultimate truth.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Neminäth+Meditating+on+Girnär",
+      "imageAlt": "Neminäth sitting in a deep meditative posture on a mountain."
+    },
+    {
+      "title": "Räjul Follows the Path",
+      "description": "Heartbroken yet inspired, Räjul understands Nemkumär's noble purpose and decides to renounce her own lavish life to follow the path of liberation.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Räjul's+Renunciation",
+      "imageAlt": "Princess Räjul puts aside her royal jewels, her face serene and determined."
+    },
+    {
+      "title": "The 22nd Tirthankar",
+      "description": "Having attained omniscience, Bhagawän Neminäth preaches his message of compassion and non-violence to all, including humans and animals.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Neminäth+Preaching+Compassion",
+      "imageAlt": "Bhagawän Neminäth giving a sermon in a divine assembly, with people and animals listening peacefully."
+    }
+  ]
+}

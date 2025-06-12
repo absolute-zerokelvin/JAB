@@ -1,0 +1,266 @@
+{
+  "title": "The Story of Ächärya Hemchandra",
+  "subtitle": "Section F.7 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "The Promised Son"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Ächärya Hemchandra was born in 1088 A.D. in Dhandhuka, Gujarat, to his parents Chachadev and <span class=\"highlight\">Pähini</span>. His birth name was <span class=\"highlight\">Chängdev</span>. Before his birth, a Jain guru, <span class=\"highlight\">Ächärya Devasuri</span>, predicted he would be a great spiritual leader. Recognizing the boy's potential, the Ächärya later convinced Pähini to make a great sacrifice and give up her son for the good of the community. Pähini agreed, and Chängdev was initiated into monkhood, receiving the new name <span class=\"highlight\">Somchandra</span>."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Royal Partnership"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" /><path d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" /></svg>Somchandra was brilliant, and at the young age of 21, he was made an Ächärya and renamed <span class=\"highlight\">Hemchandra</span>. His fame spread, and he became an advisor to King Siddharäj of Gujarat. More importantly, he had saved the life of the future king, <span class=\"highlight\">Kumärpäl</span>, and predicted his rise to power. When Kumärpäl became king, he revered Hemchandra as his spiritual guru. Together, they transformed Gujarat into a center of non-violence, learning, and culture."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Test of Wisdom"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Some Brahmin priests, jealous of Hemchandra's influence, plotted to disgrace him. They convinced King Kumärpäl to invite the Jain Ächärya to a famous temple of the Hindu god, Lord Shiva, believing he would refuse to enter or bow, thus disrespecting their faith. Hemchandra accepted the invitation without hesitation."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M5.5 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15.5 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z\" /><path d=\"M11.25 3.335A3.25 3.25 0 0114.5 6.5v4.558a2.753 2.753 0 01-1.152 2.219l-1.148.656a2.75 2.75 0 00-1.148 2.219V16.5h-1V12.67a4.25 4.25 0 011.781-3.527l1.148-.656A1.253 1.253 0 0014.5 7.558V6.5a1.75 1.75 0 00-1.75-1.75h-2.5a.75.75 0 000 1.5h2.5z\" /><path d=\"M8.75 3.335A3.25 3.25 0 005.5 6.5v4.558c0 .87.414 1.666 1.092 2.187l1.148.861A2.75 2.75 0 009 16.323V16.5h1V12.67a4.25 4.25 0 01-1.781-3.527l-1.148-.861A1.253 1.253 0 005.5 7.558V6.5a1.75 1.75 0 001.75-1.75h2.5a.75.75 0 000-1.5h-2.5z\" /></svg>Inside the temple, Hemchandra bowed before the idol of Lord Shiva and recited a profound verse: “I am bowing down to that God who has destroyed passions like attachment and aversion... whether he is Brahma, Vishnu, Shiva, or Jina.” With this act, he showed that he worshipped the divine qualities of freedom from passion, not a specific form, thus demonstrating the inherent tolerance of Jain philosophy."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Legacy of an All-Knower"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Following this, King Kumärpäl fully embraced Jainism and instituted a kingdom-wide ban on the killing of animals. Ächärya Hemchandra became a prolific author, composing major works like the <span class=\"highlight\">Yoga-shästra</span>. His vast knowledge and wisdom earned him the title <span class=\"highlight\">“Kali-käl Sarvajna”</span> (all-knower in the present era of darkness). He passed away in 1173 A.D., but his influence remains deeply embedded in the culture of Gujarat."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Early Years",
+      "period": "1088 A.D.",
+      "events": [
+        {
+          "title": "A Prophetic Birth",
+          "description": "Chängdev is born to Pähini in Dhandhuka, Gujarat. Ächärya Devasuri predicts he will be a great spiritual leader.",
+          "characters": ["Chängdev", "Pähini", "Ächärya Devasuri"]
+        },
+        {
+          "title": "A Mother's Sacrifice",
+          "description": "Pähini gives her beloved son to Ächärya Devasuri for the greater good. Chängdev is initiated as Monk Somchandra.",
+          "characters": ["Somchandra", "Pähini", "Ächärya Devasuri"]
+        }
+      ]
+    },
+    {
+      "era": "The Rise of an Ächärya",
+      "period": "c. 1109 A.D.",
+      "events": [
+        {
+          "title": "A New Name",
+          "description": "At the age of 21, due to his immense intelligence and virtue, Somchandra is made an Ächärya and renamed Hemchandra.",
+          "characters": ["Ächärya Hemchandra", "Ächärya Devasuri"]
+        },
+        {
+          "title": "A Royal Connection",
+          "description": "He gains influence with King Siddharäj and saves the life of the future king, Kumärpäl, securing a lifelong bond.",
+          "characters": ["Ächärya Hemchandra", "King Siddharäj", "King Kumärpäl"]
+        }
+      ]
+    },
+    {
+      "era": "A Golden Age in Gujarat",
+      "period": "During King Kumärpäl's Reign",
+      "events": [
+        {
+          "title": "The Guru and the King",
+          "description": "King Kumärpäl becomes a devoted disciple, and with Hemchandra's guidance, makes Gujarat a center of non-violence and culture.",
+          "characters": ["Ächärya Hemchandra", "King Kumärpäl"]
+        },
+        {
+          "title": "The Test in the Temple",
+          "description": "Jealous Brahmins orchestrate a test at a Shiva temple, which Hemchandra passes by demonstrating respect for the virtues of all deities.",
+          "characters": ["Ächärya Hemchandra", "King Kumärpäl", "Jealous Brahmins"]
+        },
+        {
+          "title": "A Kingdom Transformed",
+          "description": "Inspired, King Kumärpäl accepts Jainism and prohibits animal slaughter throughout his kingdom.",
+          "characters": ["Ächärya Hemchandra", "King Kumärpäl"]
+        }
+      ]
+    },
+    {
+      "era": "The Prolific Author",
+      "period": "Until 1173 A.D.",
+      "events": [
+        {
+          "title": "The All-Knower",
+          "description": "He composes numerous literary works, including the famous Yoga-shästra, earning the title 'Kali-käl Sarvajna'.",
+          "characters": ["Ächärya Hemchandra"]
+        },
+        {
+          "title": "An Enduring Influence",
+          "description": "He passes away at the age of 84, leaving a legacy of non-violence and learning that still defines the region of Gujarat.",
+          "characters": ["Ächärya Hemchandra"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Ächärya Hemchandra",
+      "description": "Born as Chängdev, he was a brilliant Jain Ächärya who became the spiritual guide to King Kumärpäl of Gujarat. His wisdom, diplomacy, and prolific writings helped establish an era of non-violence and learning, earning him the title 'Kali-käl Sarvajna' (all-knower of the dark age)."
+    },
+    {
+      "name": "King Kumärpäl",
+      "description": "The King of Gujarat who, after being saved by Hemchandra, became his devoted disciple. He implemented Jain principles of non-violence throughout his kingdom."
+    },
+    {
+      "name": "Pähini",
+      "description": "Hemchandra's mother, whose selfless sacrifice of giving her son to the Jain order allowed for his great spiritual journey and the benefit of all people."
+    },
+    {
+      "name": "Ächärya Devasuri",
+      "description": "The Jain guru who recognized the young Chängdev's potential, initiated him into monkhood, and nurtured his development."
+    }
+  ],
+  "quizData": [
+    { "question": "What was Ächärya Hemchandra's birth name?", "answer": "Chängdev." },
+    { "question": "Who was the king of Gujarat who became his most influential disciple?", "answer": "King Kumärpäl." },
+    { "question": "What title was given to Ächärya Hemchandra, meaning 'all-knower in the present era of darkness'?", "answer": "Kali-käl Sarvajna." },
+    { "question": "What was the name of his mother, who made the great sacrifice of giving him to the Jain order?", "answer": "Pähini." },
+    { "question": "At what young age was Hemchandra made an Ächärya?", "answer": "At the age of 21." },
+    { "question": "What did jealous Brahmins ask the king to do to test Hemchandra?", "answer": "To invite him to the temple of the Hindu god, Lord Shiva." },
+    { "question": "How did Hemchandra prove his wisdom and tolerance in the Shiva temple?", "answer": "He bowed and recited a verse stating he revered the divine quality of being free from passion, regardless of whether the deity was called Brahma, Vishnu, Shiva, or Jina." },
+    { "question": "What major law did King Kumärpäl enact under Hemchandra's influence?", "answer": "He prohibited violence and the killing of animals throughout his kingdom." },
+    { "question": "What was Hemchandra's name as a monk before he became an Ächärya?", "answer": "Somchandra." },
+    { "question": "Name a famous literary work composed by Ächärya Hemchandra.", "answer": "Yoga-shästra." },
+    { "question": "Who was the Ächärya that first saw his potential and initiated him into monkhood?", "answer": "Ächärya Devasuri." },
+    { "question": "The story mentions that Jain culture and vegetarianism still shine bright in which Indian state due to Hemchandra's influence?", "answer": "Gujarat." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Journey of Ächärya Hemchandra",
+    "children": [
+      {
+        "name": "The Gifted Child",
+        "children": [
+          { "name": "Born as Chängdev" },
+          { "name": "Prophecy by Devasuri" },
+          { "name": "Mother Pähini's Sacrifice" },
+          { "name": "Becomes Monk Somchandra" }
+        ]
+      },
+      {
+        "name": "The Great Ächärya",
+        "children": [
+          { "name": "Renamed Hemchandra at age 21" },
+          { "name": "Advises King Siddharäj" },
+          { "name": "Forms bond with King Kumärpäl" }
+        ]
+      },
+      {
+        "name": "A Kingdom Transformed",
+        "children": [
+          { "name": "The Test at the Shiva Temple" },
+          { "name": "Demonstrates Anekäntaväd (Tolerance)" },
+          { "name": "King Kumärpäl accepts Jainism" },
+          { "name": "Era of Non-violence in Gujarat" }
+        ]
+      },
+      {
+        "name": "The Enduring Legacy",
+        "children": [
+          { "name": "Prolific Author (Yoga-shästra)" },
+          { "name": "Known as 'Kali-käl Sarvajna'" },
+          { "name": "Dies at age 84" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Hemchandra: The King's Guru",
+    "children": [
+      {
+        "name": "The Chosen One",
+        "children": [
+          { "name": "The Prophecy" },
+          { "name": "The Sacrifice" }
+        ]
+      },
+      {
+        "name": "The Advisor",
+        "children": [
+          { "name": "A Royal Partnership" },
+          { "name": "The Test of Faiths" }
+        ]
+      },
+      {
+        "name": "The Architect",
+        "children": [
+          { "name": "A Non-violent Kingdom" },
+          { "name": "A Literary Treasure" }
+        ]
+      },
+      {
+        "name": "The 'Sarvajna'",
+        "children": [
+          { "name": "A Lasting Influence" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Mother's Sacrifice",
+      "description": "His mother, Pähini, though filled with love, selflessly gives her gifted son Chängdev to Ächärya Devasuri for the greater good of the world.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Pähini+gives+her+son+to+the+Ächärya",
+      "imageAlt": "A mother sadly but resolutely handing her young son to an elder monk."
+    },
+    {
+      "title": "The Guru and the King",
+      "description": "Ächärya Hemchandra provides wise counsel to King Kumärpäl, and together they work to build a kingdom founded on principles of non-violence and learning.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Hemchandra+advises+King+Kumärpäl",
+      "imageAlt": "A monk and a king sitting together, deep in a serious and respectful conversation."
+    },
+    {
+      "title": "The Brahmins' Plot",
+      "description": "Jealous of his influence, Brahmin priests complain to the king, plotting to disgrace Hemchandra by forcing him into a religious confrontation.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Jealous+priests+plotting",
+      "imageAlt": "A group of priests whispering conspiratorially to a king."
+    },
+    {
+      "title": "Wisdom in the Temple",
+      "description": "Inside the Shiva temple, Hemchandra bows and recites a verse that honors the universal quality of being passionless, elegantly transcending sectarian lines.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Hemchandra+bows+before+Shiva",
+      "imageAlt": "A Jain monk bowing with respect before an idol of the Hindu god Shiva."
+    },
+    {
+      "title": "A Kingdom of Ahimsä",
+      "description": "Inspired by his guru, King Kumärpäl issues a royal decree prohibiting the slaughter of all animals, transforming Gujarat into a land of non-violence.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=King+Kumärpäl's+Decree+of+Non-violence",
+      "imageAlt": "A king standing before his court, unrolling a scroll as people and animals look on peacefully."
+    },
+    {
+      "title": "The All-Knower of the Dark Age",
+      "description": "Ächärya Hemchandra, known as 'Kali-käl Sarvajna,' dedicates himself to writing, producing a vast body of literature that illuminates Jain philosophy for ages to come.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Hemchandra,+the+Prolific+Author",
+      "imageAlt": "A portrait of a wise, elderly monk surrounded by many books and manuscripts."
+    }
+  ]
+}

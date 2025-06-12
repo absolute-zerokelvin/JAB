@@ -1,0 +1,251 @@
+{
+  "title": "The Story of Kevali Jambuswämi",
+  "subtitle": "Section F.3 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "The Resolved Prince"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "In the city of Räjgrihi lived a wealthy merchant whose handsome and intelligent son was named Jambu. Though engaged to eight women from respected families, Jambu's life took a different course after hearing a sermon by Ganadhar <span class=\"highlight\">Sudharmä-swämi</span>. The sermon inspired in him a profound sense of detachment, and he declared his intention to become a monk."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "His parents and the families of his eight fiancées were dismayed. They pleaded with him, but Jambu was firm. As a last resort, they begged him to at least go through with the wedding, hoping married life would change his mind. Jambu agreed, but on one condition: he would renounce the world the very next day."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Wedding Night Sermon"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 2a.75.75 0 01.75.75v3.532a.75.75 0 01-.623.744l-4.5 1.125A.75.75 0 014.5 8.32V7.5a.75.75 0 01.75-.75h9.5a.75.75 0 010 1.5h-8.21l3.11-1.244a.75.75 0 01.85 1.6l-4.75 2.375a.75.75 0 01-.98-.98l4.25-4.25V2.75A.75.75 0 0110 2z\" /><path d=\"M9.25 10.16a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zM10.875 12.03a.75.75 0 00-1.06 1.061l1.53 1.531-1.28 1.28a.75.75 0 001.06 1.061l1.28-1.28 1.53 1.531a.75.75 0 101.06-1.061l-1.53-1.531 1.28-1.28a.75.75 0 10-1.06-1.061l-1.28 1.28-1.53-1.531z\" /><path d=\"M3.75 13.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H4.5a.75.75 0 01-.75-.75v-.008zM4.5 15.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75H4.5z\" /></svg>After a grand wedding, Jambu spent his wedding night not in celebration, but in teaching. He explained the transitory nature of worldly life to his eight new wives. Unbeknownst to them, a notorious burglar named <span class=\"highlight\">Prabhav</span> and his 500 followers had entered the palace to steal the wedding treasures. As Prabhav approached Jambu's room, he overheard the profound discussion."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Prabhav was captivated. He was struck by the irony of risking his life to steal wealth from a man who was willingly giving it all away. By the end of the night, not only had Jambu convinced his <span class=\"highlight\">eight wives</span> to renounce the world with him, but Prabhav and his <span class=\"highlight\">500 followers</span> were also inspired to give up their lives of crime and become disciples."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Last Kevali"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The next morning, the city was stunned. In a spectacular procession, Jambu, his eight wives, his parents, the parents of his eight wives, Prabhav, and his 500 followers—a total of 528 people—all went to Sudharmä-swämi to take Dikshä. Jambu became Sudharmä-swämi's chief disciple."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" /><path d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" /></svg>Jambuswämi studied diligently and became the next head of the Jain order after Sudharmä-swämi. He eventually attained Keval-jnän and is known as the <span class=\"highlight\">last Kevali (omniscient being)</span> of our current time cycle. He attained Nirväna at the age of 80."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Devout Youth",
+      "period": "Born 542 B.C.",
+      "events": [
+        {
+          "title": "A Noble Son",
+          "description": "Jambu is born to the wealthy merchant Rushabhadatt and his wife Dhärini in Räjgrihi.",
+          "characters": ["Jambu", "Rushabhadatt", "Dhärini"]
+        },
+        {
+          "title": "A Life-Changing Sermon",
+          "description": "After hearing a sermon by Sudharmä-swämi, the young Jambu decides he must renounce the world.",
+          "characters": ["Jambu", "Sudharmä-swämi"]
+        },
+        {
+          "title": "The Wedding Condition",
+          "description": "Pressured by his family, Jambu agrees to marry his eight fiancées on the condition that he can become a monk the very next day.",
+          "characters": ["Jambu", "Jambu's Parents", "The Eight Wives' Parents"]
+        }
+      ]
+    },
+    {
+      "era": "The Night of Transformation",
+      "period": "The Wedding Night",
+      "events": [
+        {
+          "title": "An Unexpected Sermon",
+          "description": "Instead of celebrating, Jambu spends his wedding night explaining the path of renunciation to his eight wives.",
+          "characters": ["Jambu", "The Eight Wives"]
+        },
+        {
+          "title": "The Listening Thief",
+          "description": "A master burglar named Prabhav, there to steal treasure, overhears Jambu's sermon and is deeply moved.",
+          "characters": ["Jambu", "Prabhav"]
+        },
+        {
+          "title": "A Mass Conversion",
+          "description": "By morning, Jambu has inspired his eight wives, Prabhav, and Prabhav's 500 followers to all renounce the world with him.",
+          "characters": ["Jambu", "The Eight Wives", "Prabhav", "Prabhav's 500 Followers"]
+        }
+      ]
+    },
+    {
+      "era": "The Last Omniscient",
+      "period": "After Renunciation",
+      "events": [
+        {
+          "title": "The Great Renunciation",
+          "description": "A total of 528 people, inspired by Jambu, renounce their worldly lives and become disciples of Sudharmä-swämi.",
+          "characters": ["Jambuswämi", "The Eight Wives", "Prabhav", "Jambu's Parents", "Sudharmä-swämi"]
+        },
+        {
+          "title": "Head of the Order",
+          "description": "Jambuswämi becomes Sudharmä-swämi's chief disciple and eventually succeeds him as the head of the Jain Sangh.",
+          "characters": ["Jambuswämi", "Sudharmä-swämi"]
+        },
+        {
+          "title": "The Final Kevali",
+          "description": "Jambuswämi attains Keval-jnän and becomes the last omniscient being of the current Avasarpini era. He attains Nirväna at age 80.",
+          "characters": ["Jambuswämi"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Kevali Jambuswämi",
+      "description": "The chief disciple of Sudharmä-swämi and the last human being to achieve Keval-jnän (omniscience) in our current time cycle. His conviction was so powerful that he inspired over 500 people, including a master thief, to renounce the world on his wedding day."
+    },
+    {
+      "name": "Prabhav, the Burglar",
+      "description": "A former prince who became a master thief. He came to Jambu's palace to steal but was transformed by his sermon, giving up a life of crime for a life of spiritual pursuit."
+    },
+    {
+      "name": "The Eight Wives",
+      "description": "The eight women Jambu married on his wedding day. Instead of enjoying worldly pleasures, they were inspired by their husband's wisdom and chose to renounce the world alongside him."
+    },
+    {
+      "name": "Ganadhar Sudharmä-swämi",
+      "description": "Jambuswämi's guru. His sermon was the catalyst for Jambu's decision to renounce, and he accepted Jambu and all his followers into the monastic order."
+    }
+  ],
+  "quizData": [
+    { "question": "Who was Jambuswämi's guru?", "answer": "Ganadhar Sudharmä-swämi." },
+    { "question": "What event inspired Jambu to renounce his worldly life?", "answer": "Listening to a sermon by Sudharmä-swämi." },
+    { "question": "How many women was Jambu engaged to marry?", "answer": "Eight." },
+    { "question": "What condition did Jambu make in order to agree to the wedding?", "answer": "That he would become a monk the day after his marriage." },
+    { "question": "Who unexpectedly overheard Jambu's sermon to his wives on his wedding night?", "answer": "A famous burglar named Prabhav and his 500 followers." },
+    { "question": "What was Prabhav's original reason for being in Jambu's palace?", "answer": "To steal the valuable wedding treasures." },
+    { "question": "What was the total number of people who renounced the world with Jambu the next day?", "answer": "528 people (Jambu, his 8 wives, his parents, his wives' 16 parents, Prabhav, and Prabhav's 500 followers)." },
+    { "question": "After Sudharmä-swämi, who became the head of the Jain religious order?", "answer": "Jambuswämi." },
+    { "question": "What is Jambuswämi's most significant distinction in Jain cosmology?", "answer": "He was the last Kevali (omniscient being) of the current Avasarpini time cycle." },
+    { "question": "At what age did Jambuswämi attain Nirväna?", "answer": "At the age of 80." },
+    { "question": "Who was Prabhav before he became a thief?", "answer": "He was the prince of a neighboring city named Vindhya." },
+    { "question": "What special skills did Prabhav possess as a burglar?", "answer": "He could put anyone into a deep sleep and could break any lock." },
+    { "question": "Besides Jambu and his wives, who else from their families renounced the world?", "answer": "Jambu's parents and the parents of all eight of his wives." },
+    { "question": "The dialogues between which two individuals make up a large part of the Jain scriptures (Ägams)?", "answer": "Sudharmä-swämi and his disciple Jambuswämi." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Jambuswämi",
+    "children": [
+      {
+        "name": "The Call to Renounce",
+        "children": [
+          { "name": "Hears Sudharmä-swämi's Sermon" },
+          { "name": "Decides to Become a Monk" },
+          { "name": "Agrees to Marry for One Day" }
+        ]
+      },
+      {
+        "name": "The Night of Conversion",
+        "children": [
+          { "name": "Preaches to his 8 Wives" },
+          { "name": "Overheard by Prabhav the Thief" },
+          { "name": "Wives, Thief & Followers Convinced" }
+        ]
+      },
+      {
+        "name": "The Great Renunciation",
+        "children": [
+          { "name": "528 People take Dikshä" },
+          { "name": "Becomes Sudharmä's Disciple" }
+        ]
+      },
+      {
+        "name": "The Last Kevali",
+        "children": [
+          { "name": "Becomes Head of the Order" },
+          { "name": "Attains Keval-jnän" },
+          { "name": "The Last Omniscient of the Era" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Jambuswämi: The Final Light",
+    "children": [
+      {
+        "name": "A Single Sermon's Power",
+        "children": [
+          { "name": "The Vow" },
+          { "name": "The Condition" }
+        ]
+      },
+      {
+        "name": "The Unlikely Converts",
+        "children": [
+          { "name": "The Wives" },
+          { "name": "The Thieves" },
+          { "name": "The Families" }
+        ]
+      },
+      {
+        "name": "The Spiritual Leader",
+        "children": [
+          { "name": "The Disciple" },
+          { "name": "The Successor" },
+          { "name": "The Last Kevali" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "The Wedding Agreement",
+      "description": "Pressured by his family, a resolved Jambu agrees to marry his eight fiancées, but only if he can become a monk the very next day.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Jambu+agrees+to+marry",
+      "imageAlt": "A young man (Jambu) speaking calmly to his concerned parents."
+    },
+    {
+      "title": "The Thief in the Shadows",
+      "description": "As Jambu preaches to his wives, the master burglar Prabhav listens from a doorway, his plan to steal forgotten as he is captivated by the words of truth.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Prabhav+the+thief+listens",
+      "imageAlt": "A thief hiding in the shadows of a palace, listening intently to a conversation."
+    },
+    {
+      "title": "A Change of Heart",
+      "description": "Inspired by Jambu's words, Prabhav tells his 500 followers that he is giving up his life of crime, and they all agree to follow him on the new path.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Prabhav+convinces+his+followers",
+      "imageAlt": "A thief chief talking to his large group of followers, who look surprised and interested."
+    },
+    {
+      "title": "The Great Procession",
+      "description": "The next morning, an incredible procession of 528 people—including Jambu, his wives, their families, and the former thieves—walks through the city to renounce the world.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Procession+of+528+Souls",
+      "imageAlt": "A large crowd of people from all walks of life walking together on a spiritual path."
+    },
+    {
+      "title": "Accepting Discipleship",
+      "description": "Jambu bows before his guru, Sudharmä-swämi, formally becoming his disciple and beginning his journey as a monk.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Jambu+bows+to+Sudharmä-swämi",
+      "imageAlt": "A young man (Jambu) bowing at the feet of an elder monk (Sudharmä-swämi)."
+    },
+    {
+      "title": "The Last Omniscient",
+      "description": "As the last Kevali of the era, Jambuswämi represents the end of an age of enlightenment, a final beacon of perfect knowledge before a period of decline.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Jambuswämi,+the+Last+Kevali",
+      "imageAlt": "A single enlightened monk meditating, symbolizing the end of an era."
+    }
+  ]
+}

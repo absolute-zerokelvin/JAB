@@ -207,8 +207,8 @@ class JABBuilder {
     // Simple JS minification
     minifyJS(js) {
         return js
-            .replace(/\/\/.*$/gm, '') // Remove single line comments
-            .replace(/\/\*[\s\S]*?\*\//g, '') // Remove multi-line comments
+            .replace(new RegExp("(?<!:)//.*$", "gm"), '') // Remove single line comments
+            .replace(new RegExp("\\/\\*[\\s\\S]*?\\*\\/", "g"), '') // Remove multi-line comments
             .replace(/^\s+/gm, '') // Remove leading spaces
             .replace(/\s+$/gm, '') // Remove trailing spaces
             .replace(/\n+/g, '\n') // Collapse multiple newlines

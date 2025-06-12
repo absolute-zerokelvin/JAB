@@ -1,0 +1,263 @@
+{
+  "title": "The Story of Ganadhar Sudharmä-swämi",
+  "subtitle": "Section F.2 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Promised Son"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Sudharmä-swämi was the fifth of Bhagawän Mahävir's eleven Ganadhars. He was born in 607 B.C. to a learned Brahmin named <span class=\"highlight\">Dhammil</span> and his wife <span class=\"highlight\">Bhaddilä</span> in the village of Kollag. After earnest prayers, his mother was blessed with a vision promising her a highly accomplished son. Sudharmä grew up to be a brilliant scholar of the Vedas and started his own renowned school with over 500 students."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Scholar's Doubt"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M18 10a8 8 0 11-16 0 8 8 0 0116 0zM8.94 6.94a.75.75 0 11-1.06-1.061l2.5-2.5a.75.75 0 011.06 0l2.5 2.5a.75.75 0 01-1.06 1.061L11 5.811V14a1 1 0 11-2 0V5.811L8.94 6.94z\" clip-rule=\"evenodd\" /></svg>Like Indrabhuti Gautam, Sudharmä was invited to Somil's great Yajna. After seeing the other scholars leave to challenge <span class=\"highlight\">Bhagawän Mahävir</span> and become his disciples, Sudharmä went as well, confident in his own knowledge. His core doubt was about reincarnation; he believed that a living being could only be reborn into its own species, just as an apple seed only grows into an apple tree."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Bhagawän Mahävir, using his omniscience, welcomed Sudharmä and addressed this specific doubt. He patiently explained the <span class=\"highlight\">theory of karma</span>, clarifying that a soul's next birth is determined by its actions (karma), not its current species. Convinced by this profound wisdom, Sudharmä, along with his 500 disciples, renounced his old beliefs and became the fifth Ganadhar."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Leadership and Legacy"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Sudharmä-swämi became a key figure in preserving Mahävir's teachings. He would always sit in the front during the sermons and commit them to memory. After Mahävir's Nirväna, Gautam-swämi attained Keval-jnän and entered a permanent meditative state. Therefore, the leadership of the entire Jain community fell to <span class=\"highlight\">Sudharmä-swämi</span>."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M5.5 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15.5 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z\" /><path d=\"M11.25 3.335A3.25 3.25 0 0114.5 6.5v4.558a2.753 2.753 0 01-1.152 2.219l-1.148.656a2.75 2.75 0 00-1.148 2.219V16.5h-1V12.67a4.25 4.25 0 011.781-3.527l1.148-.656A1.253 1.253 0 0014.5 7.558V6.5a1.75 1.75 0 00-1.75-1.75h-2.5a.75.75 0 000 1.5h2.5z\" /><path d=\"M8.75 3.335A3.25 3.25 0 005.5 6.5v4.558c0 .87.414 1.666 1.092 2.187l1.148.861A2.75 2.75 0 009 16.323V16.5h1V12.67a4.25 4.25 0 01-1.781-3.527l-1.148-.861A1.253 1.253 0 005.5 7.558V6.5a1.75 1.75 0 001.75-1.75h2.5a.75.75 0 000-1.5h-2.5z\" /></svg>As the new head, he organized Mahävir's teachings into the 12 primary scriptures, known as the <span class=\"highlight\">Anga Ägams</span>. Many of these scriptures are structured as a dialogue between Sudharmä-swämi and his own chief disciple, <span class=\"highlight\">Jambu-swämi</span>. Sudharmä-swämi led the community for 12 years, attained omniscience in 515 B.C., and finally achieved Nirväna in 507 B.C. at the age of 100."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Scholar of Kollag",
+      "period": "Born 607 B.C.",
+      "events": [
+        {
+          "title": "A Blessed Birth",
+          "description": "Sudharmä is born to the Brahmin couple Dhammil and Bhaddilä, his birth foretold by a blessing from a goddess.",
+          "characters": ["Sudharmä", "Dhammil", "Bhaddilä"]
+        },
+        {
+          "title": "Master of Scriptures",
+          "description": "He becomes a highly respected Pundit, mastering the Vedas and other Hindu literature, and establishes his own school with 500 pupils.",
+          "characters": ["Sudharmä"]
+        }
+      ]
+    },
+    {
+      "era": "The Great Conversion",
+      "period": "Day of Somil's Yajna",
+      "events": [
+        {
+          "title": "Invitation to the Yajna",
+          "description": "As a prominent scholar, Sudharmä is invited to the same sacrificial ceremony attended by Indrabhuti Gautam.",
+          "characters": ["Sudharmä", "Indrabhuti Gautam", "Somil"]
+        },
+        {
+          "title": "A Doubt on Reincarnation",
+          "description": "He goes to debate Mahävir, believing that living beings can only be reborn into the same species.",
+          "characters": ["Sudharmä", "Bhagawän Mahävir"]
+        },
+        {
+          "title": "Enlightenment by Mahävir",
+          "description": "Mahävir explains the theory of karma, resolving his doubt. Sudharmä and his 500 disciples accept monkhood and he becomes the 5th Ganadhar.",
+          "characters": ["Sudharmä-swämi", "Bhagawän Mahävir"]
+        }
+      ]
+    },
+    {
+      "era": "Leadership of the Sangh",
+      "period": "527 B.C. - 515 B.C.",
+      "events": [
+        {
+          "title": "The Mantle of Leadership",
+          "description": "After Mahävir's Nirväna and Gautam-swämi's Keval-jnän, the leadership of the Jain order falls to Sudharmä-swämi.",
+          "characters": ["Sudharmä-swämi", "Gautam-swämi"]
+        },
+        {
+          "title": "Compiler of the Ägams",
+          "description": "He meticulously organizes Bhagawän Mahävir's teachings into the 12 Anga Ägams, the core Jain scriptures.",
+          "characters": ["Sudharmä-swämi"]
+        },
+        {
+          "title": "Teaching the Next Generation",
+          "description": "He passes on his knowledge to his own chief disciple, Jambu-swämi, ensuring the continuation of the lineage.",
+          "characters": ["Sudharmä-swämi", "Jambu-swämi"]
+        }
+      ]
+    },
+    {
+      "era": "Final Liberation",
+      "period": "515 B.C. - 507 B.C.",
+      "events": [
+        {
+          "title": "Omniscience Attained",
+          "description": "After 12 years as head of the order, Sudharmä-swämi attains Keval-jnän.",
+          "characters": ["Sudharmä-swämi"]
+        },
+        {
+          "title": "Nirväna",
+          "description": "He achieves final liberation (Nirväna) at the age of 100.",
+          "characters": ["Sudharmä-swämi"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Ganadhar Sudharmä-swämi",
+      "description": "The fifth Ganadhar of Bhagawän Mahävir. A learned Brahmin scholar who, after Mahävir's Nirväna, took leadership of the Jain community and is credited with compiling the 12 Anga Ägams."
+    },
+    {
+      "name": "Bhagawän Mahävir",
+      "description": "The 24th Tirthankar, whose teachings formed the basis of the scriptures and who resolved Sudharmä-swämi's doubts about karma and reincarnation."
+    },
+    {
+      "name": "Gautam-swämi",
+      "description": "The first Ganadhar. Because a Kevali (omniscient being) does not lead the community, he passed the leadership mantle to Sudharmä-swämi after attaining Keval-jnän."
+    },
+    {
+      "name": "Jambu-swämi",
+      "description": "The chief disciple of Sudharmä-swämi. Many of the scriptures are in a question-and-answer format between Jambu-swämi and Sudharmä-swämi."
+    },
+    {
+      "name": "Dhammil & Bhaddilä",
+      "description": "The devout Brahmin parents of Sudharmä-swämi."
+    }
+  ],
+  "quizData": [
+    { "question": "Who were the parents of Sudharmä-swämi?", "answer": "Dhammil and Bhaddilä." },
+    { "question": "Sudharmä-swämi was which of Bhagawän Mahävir's eleven Ganadhars?", "answer": "The fifth Ganadhar." },
+    { "question": "What was Sudharmä-swämi's main philosophical doubt before meeting Mahävir?", "answer": "He believed living beings could only be reborn into their own species (e.g., humans only as humans)." },
+    { "question": "What theory did Mahävir use to explain reincarnation to Sudharmä-swämi?", "answer": "The theory of karma, which determines a soul's next life based on its actions." },
+    { "question": "Why did Sudharmä-swämi become the leader of the Jain community after Mahävir's Nirväna?", "answer": "Because the other living Ganadhar, Gautam-swämi, had attained Keval-jnän and thus could not take a leadership role." },
+    { "question": "What is Sudharmä-swämi's most significant contribution to Jain literature?", "answer": "He is credited with compiling and organizing Bhagawän Mahävir's teachings into the 12 Anga Ägams." },
+    { "question": "What is the collective name for the 12 primary scriptures he compiled?", "answer": "Dvädashängi." },
+    { "question": "Who was Sudharmä-swämi's chief disciple, who often asks questions in the scriptures?", "answer": "Jambu-swämi." },
+    { "question": "How many years did Sudharmä-swämi lead the Jain order as an Ächärya?", "answer": "For 12 years." },
+    { "question": "At what age did Sudharmä-swämi attain Nirväna?", "answer": "At the age of 100." },
+    { "question": "Was Sudharmä-swämi older or younger than Bhagawän Mahävir?", "answer": "He was 8 years older than Mahävir." },
+    { "question": "Before becoming a monk, what was Sudharmä's profession?", "answer": "He was a famous Brahmin Pundit and ran his own school (Äshram)." },
+    { "question": "How many disciples did Sudharmä have before he met Mahävir?", "answer": "Five hundred (500)." },
+    { "question": "When did Sudharmä-swämi attain omniscience (Keval-jnän)?", "answer": "In 515 B.C." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Legacy of Sudharmä-swämi",
+    "children": [
+      {
+        "name": "The Scholar",
+        "children": [
+          { "name": "Born to Dhammil & Bhaddilä" },
+          { "name": "Master of Vedas" },
+          { "name": "Head of his own school" }
+        ]
+      },
+      {
+        "name": "The Conversion",
+        "children": [
+          { "name": "Attends Somil's Yajna" },
+          { "name": "Doubts Reincarnation Theory" },
+          { "name": "Becomes 5th Ganadhar" }
+        ]
+      },
+      {
+        "name": "The Leader (Ächärya)",
+        "children": [
+          { "name": "Succeeds Mahävir as Head of Sangh" },
+          { "name": "Compiles the 12 Anga Ägams" },
+          { "name": "Teaches his disciple, Jambu-swämi" }
+        ]
+      },
+      {
+        "name": "The Liberated Soul",
+        "children": [
+          { "name": "Attains Keval-jnän" },
+          { "name": "Attains Nirväna at age 100" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Sudharmä-swämi: The Link to Mahävir",
+    "children": [
+      {
+        "name": "From Scholar to Disciple",
+        "children": [
+          { "name": "The Brahmin Pundit" },
+          { "name": "The Debate on Karma" },
+          { "name": "The 5th Ganadhar" }
+        ]
+      },
+      {
+        "name": "From Disciple to Leader",
+        "children": [
+          { "name": "The Listener" },
+          { "name": "The Successor" },
+          { "name": "The Compiler" }
+        ]
+      },
+      {
+        "name": "From Leader to Liberated",
+        "children": [
+          { "name": "The Teacher" },
+          { "name": "The Kevali" },
+          { "name": "The Siddha" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "The Renowned Teacher",
+      "description": "As a young Brahmin Pundit, Sudharmä was a master of the scriptures and ran a prestigious school, teaching his 500 students.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Sudharmä+teaching+his+pupils",
+      "imageAlt": "A learned scholar sitting under a tree, teaching a large group of attentive students."
+    },
+    {
+      "title": "The Doubt of Reincarnation",
+      "description": "Sudharmä confronts Mahävir, explaining his belief that a soul can only be reborn as its own species, like a plant from its own seed.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Sudharmä+debates+Mahävir",
+      "imageAlt": "A scholar gesturing towards a tree while debating with the serene Mahävir."
+    },
+    {
+      "title": "The New Head of the Order",
+      "description": "After Mahävir's Nirväna, Sudharmä-swämi accepts the responsibility of leading the entire Jain community of monks, nuns, and lay followers.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Sudharmä-swämi+Leads+the+Sangh",
+      "imageAlt": "Sudharmä-swämi standing before a large assembly of monks and nuns."
+    },
+    {
+      "title": "Compiling the Sacred Word",
+      "description": "Sudharmä-swämi meticulously organizes the teachings he heard from Mahävir, composing the 12 Anga Ägams, the foundational scriptures of Jainism.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Composing+the+Ägam+Scriptures",
+      "imageAlt": "A monk carefully writing on palm leaves (Tadpatris), compiling sacred texts."
+    },
+    {
+      "title": "The Guru and His Disciple",
+      "description": "Much of the scripture is framed as a dialogue, with Sudharmä-swämi answering the profound questions of his own chief disciple, Jambu-swämi.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Sudharmä-swämi+and+Jambu-swämi",
+      "imageAlt": "An older monk (Sudharmä) speaking to a younger monk (Jambu) who is listening intently."
+    },
+    {
+      "title": "Final Liberation",
+      "description": "After a long and fruitful life of leadership and teaching, Sudharmä-swämi attains Nirväna at the age of 100, completing his spiritual journey.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Sudharmä-swämi's+Nirväna",
+      "imageAlt": "A depiction of a soul ascending to the realm of the liberated (Siddhashila)."
+    }
+  ]
+}

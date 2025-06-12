@@ -10,9 +10,7 @@ let navigationData = null;
 async function fetchNavigationData() {
     try {
         // Use cache-busted fetch if available
-        const response = window.cacheBuster ? 
-            await window.cacheBuster.fetchWithCacheBust('./data/navigation.json') : 
-            await fetch('./data/navigation.json');
+        const response = await fetch('./data/navigation.json?v=' + Date.now());
         navigationData = await response.json();
         return navigationData;
     } catch (error) {
@@ -53,7 +51,7 @@ function createNavigationHTML(navData, isMobile = false) {
         section.subsections.forEach(subsection => {
             html += `
                 <li class="nav-subsection">
-                    <a href="${subsection.url}" class="subsection-link">
+                    <a href="${subsection.url}&v=${Date.now()}" class="subsection-link">
                         <span class="subsection-title">${subsection.title}</span>
                         <span class="subsection-name">${subsection.name}</span>
                     </a>
@@ -188,11 +186,12 @@ async function renderHomepageContent() {
                 to life through engaging digital experiences to help prepare for JAB.
             </p>
             <p class="section-card-description">
-                <strong>Important Notice:</strong> Content is generated through LLM and spot checked, but it's possible that due to hallucination or wrong prompts, there may be factual errors with respect to what is in the source manual. If you notice issues, please report them as issues on GitHub here: <a href="https://github.com/absolute-zerokelvin/JAB/issues" target="_blank" rel="noopener noreferrer">https://github.com/absolute-zerokelvin/JAB/issues</a>. Feel free to submit a PR as well with changes.
+                This interactive manual was developed with valuable input and guidance from the JAB Teachers of JCNC (Jain Center of Northern California).
             </p>
             <p class="section-card-description">
-                <em>Detailed content will be provided later.</em>
+                <strong>Important Notice:</strong> Content is generated through LLM and spot checked, but it's possible that due to hallucination or wrong prompts, there may be factual errors with respect to what is in the source manual. If you notice errors, please report them as issues on GitHub  <a href="https://github.com/absolute-zerokelvin/JAB/issues" target="_blank" rel="noopener noreferrer">https://github.com/absolute-zerokelvin/JAB/issues</a> Feel free to submit a PR as well with changes.
             </p>
+
         </div>
     `;
     

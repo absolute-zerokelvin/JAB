@@ -46,6 +46,31 @@
     display: block;
 }
 
+/* --- Story Content Specific Styles --- */
+.story-heading {
+    font-size: 1.75rem; /* Tailwind text-2xl */
+    font-weight: 700; /* Tailwind font-bold */
+    color: var(--primary-blue-dark);
+    margin-top: 1.5rem; /* Tailwind mt-6 */
+    margin-bottom: 0.75rem; /* Tailwind mb-3 */
+    padding-bottom: 0.5rem; /* Tailwind pb-2 */
+    border-bottom: 2px solid var(--light-blue);
+}
+
+.story-paragraph {
+    font-size: 1rem; /* Tailwind text-base */
+    line-height: 1.6; /* Tailwind leading-relaxed */
+    color: var(--text-primary);
+    margin-bottom: 1rem; /* Tailwind mb-4 */
+}
+
+.story-divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    margin: 2rem auto; /* Tailwind my-8 */
+}
+
 /* --- Story Enhancement Styles --- */
 .highlight {
     background-color: #fef9c3;

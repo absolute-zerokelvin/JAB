@@ -435,8 +435,12 @@ function generateStory(storyContent) {
             const element = document.createElement(item.tagType);
             
             // Add specific classes for different element types
-            if (item.tagType === 'hr') {
-                element.className = 'story-section-divider';
+            if (item.tagType === 'h3') {
+                element.className = 'story-heading';
+            } else if (item.tagType === 'p') {
+                element.className = 'story-paragraph';
+            } else if (item.tagType === 'hr') {
+                element.className = 'story-divider'; // Changed from story-section-divider to match CSS
             }
             
             // Set innerHTML for content, but handle hr elements specially

@@ -1,0 +1,251 @@
+{
+  "title": "Jain Monks: A Historical Overview",
+  "subtitle": "Section M.1 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "Early Ächäryas of Digambar and Shvetämbar Traditions"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The writings of <span class=\"highlight\">Ächärya Kundkund</span>, from around 2000 years ago, are revered by all Digambars. One of the most ancient scriptures accepted by the Digambar tradition is the <span class=\"highlight\">Shatakhandägam</span> by Ächärya Pushpadanta and Bhutabali. A key text accepted by both Shvetämbar and Digambar traditions is the <span class=\"highlight\">Tattvärtha-sutra</span> by Umäsväti (also known as Umäsvämi)."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.362 1.096a.75.75 0 00-.724 0L2.538 5.449a.75.75 0 00-.388.657v7.788a.75.75 0 00.388.657l7.1 4.353a.75.75 0 00.724 0l7.1-4.353a.75.75 0 00.388-.657V6.107a.75.75 0 00-.388-.657L10.362 1.096zM12 9a2 2 0 11-4 0 2 2 0 014 0z\" /><path d=\"M18 9a2 2 0 11-4 0 2 2 0 014 0zM6 9a2 2 0 11-4 0 2 2 0 014 0z\" /></svg>Later, in the 5th or 6th century, Ächärya <span class=\"highlight\">Siddhasen Diwäkar</span> wrote the influential <span class=\"highlight\">Sanmati-Tarka</span>. During the 8th century, <span class=\"highlight\">Ächärya Haribhadra-suri</span> composed many works, including the <span class=\"highlight\">Shad-darshan Samuchchaya</span>. By this time, idol worship was well established, which led to the rise of renegade monks in the Shvetämbar sect known as <span class=\"highlight\">Yatis</span> or <span class=\"highlight\">Chaityaväsis</span>, who lived comfortably in temples. Haribhadra-suri was the first to criticize their excesses."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Major narrative works like the <span class=\"highlight\">Mahä-Purän</span> by Digambar Ächärya Jinsen and the <span class=\"highlight\">Trishashti Shaläkä Purush</span> by Hemchandra-ächärya documented the lives of great Jain personalities. Efforts to reform the Yatis were made by Vardhamänsuri and his successor Jindatta-suri, who founded the <span class=\"highlight\">Kharatar Gachchha</span> (Purer Sect) around 1150. In the 16th century, the famous Ächärya <span class=\"highlight\">Hirvijay-suri</span> impressed the Mughal emperor Akbar, persuading him to forbid animal slaughter on certain days. Later, the mystic poet <span class=\"highlight\">Yogi Änandghanji</span> wrote the beloved <span class=\"highlight\">Änandghanji Chovisi</span>, a collection of devotional songs."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Känji-Swämi Movement"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<span class=\"highlight\">Shri Känji Swämi</span> (1889-1980 A.D.) was born a Shvetämbar Sthänakaväsi and became a monk at an early age. His life changed when, at age 30, he studied Kundkund's <span class=\"highlight\">Samaysär</span>. He was so moved that he dedicated his life to giving discourses on it. At age 45, he left the Sthänakaväsi order to become a Digambar layman (Shrävak), though he never took formal Digambar initiation."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "His greatest achievement was revolutionizing the study of scriptures, encouraging every householder, especially the educated, to engage directly with difficult texts. He gave prominence to the <span class=\"highlight\">Nishchay Naya</span> (absolute point of view) over the <span class=\"highlight\">Vyavahär Naya</span> (practical point of view), stressing inward thought over external rituals. His movement attracted many followers and he is credited with the consecration ceremonies of about 95 temples."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Ancient Masters",
+      "period": "c. 1st - 8th Century A.D.",
+      "events": [
+        {
+          "title": "Kundkund's Philosophy",
+          "description": "Ächärya Kundkund writes his revered works, including Samaysär, laying a foundation for Digambar philosophy.",
+          "characters": ["Ächärya Kundkund"]
+        },
+        {
+          "title": "The Universal Scripture",
+          "description": "Umäsväti (Umäsvämi) composes the Tattvärtha-sutra, a text uniquely accepted by both Digambar and Shvetämbar traditions.",
+          "characters": ["Umäsväti"]
+        },
+        {
+          "title": "Rise of the Yatis",
+          "description": "The establishment of idol worship leads to the rise of Chaityaväsis or Yatis, monks living in temples. Ächärya Haribhadra-suri is the first to criticize their lax conduct.",
+          "characters": ["Ächärya Haribhadra-suri", "Yatis"]
+        }
+      ]
+    },
+    {
+      "era": "Medieval Period & Reform",
+      "period": "c. 8th - 16th Century A.D.",
+      "events": [
+        {
+          "title": "Great Biographies",
+          "description": "Ächärya Jinsen (Digambar) and Hemchandra-ächärya (Shvetämbar) compose voluminous works on the lives of Tirthankars and other great figures.",
+          "characters": ["Ächärya Jinsen", "Hemchandra-ächärya"]
+        },
+        {
+          "title": "The Kharatar Gachchha",
+          "description": "Jindatta-suri, popularly known as Dada Gurudev, founds the Kharatar Gachchha (Purer Sect) around 1150 in an effort to reform the excesses of the Yatis.",
+          "characters": ["Jindatta-suri"]
+        },
+        {
+          "title": "An Emperor's Edict",
+          "description": "Ächärya Hirvijay-suri of the 16th century impresses the Mughal emperor Akbar, who issues an order forbidding animal slaughter on certain days.",
+          "characters": ["Hirvijay-suri", "Emperor Akbar"]
+        }
+      ]
+    },
+    {
+      "era": "The Modern Reformer",
+      "period": "20th Century A.D.",
+      "events": [
+        {
+          "title": "Discovery of Samaysär",
+          "description": "Känji Swämi, a Sthänakaväsi monk, studies Ächärya Kundkund's Samaysär and is profoundly transformed.",
+          "characters": ["Känji-Swämi", "Ächärya Kundkund"]
+        },
+        {
+          "title": "A New Path",
+          "description": "At age 45, he leaves his order to become a Digambar layman, dedicating his life to giving discourses on Kundkund's philosophy.",
+          "characters": ["Känji-Swämi"]
+        },
+        {
+          "title": "The Känji-Swämi Movement",
+          "description": "His movement emphasizes inward thought (Nishchay Naya) and direct study of scriptures by laypeople, attracting a large following.",
+          "characters": ["Känji-Swämi"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Ächärya Kundkund",
+      "description": "An ancient and highly revered Ächärya (~1st century A.D.) whose writings, especially the Samaysär, form a cornerstone of Digambar philosophy."
+    },
+    {
+      "name": "Umäsväti / Umäsvämi",
+      "description": "The author of the Tattvärtha-sutra, a uniquely authoritative scripture that is accepted and studied by both the Shvetämbar and Digambar traditions."
+    },
+    {
+      "name": "Ächärya Haribhadra-suri",
+      "description": "A prolific 8th-century writer and the first major figure to criticize the lax practices of the Chaityaväsis or Yatis."
+    },
+    {
+      "name": "Hirvijay-suri",
+      "description": "A renowned 16th-century Ächärya who successfully persuaded the Mughal emperor Akbar to issue proclamations restricting animal slaughter."
+    },
+    {
+      "name": "Yogi Änandghanji",
+      "description": "A mystic poet monk whose collection of 24 devotional songs, the 'Änandghanji Chovisi', is one of the most beloved works of Jain devotional literature."
+    },
+    {
+      "name": "Känji-Swämi",
+      "description": "A 20th-century reformer who, inspired by Kundkund's Samaysär, started a popular movement emphasizing direct study of scriptures and focusing on the absolute point of view (Nishchay Naya)."
+    }
+  ],
+  "quizData": [
+    { "question": "Which Ächärya's writings are so revered by Digambars that he is mentioned in their main blessing prayer?", "answer": "Ächärya Kundkund." },
+    { "question": "What is the name of the scripture by Umäsväti that is uniquely accepted by both Shvetämbar and Digambar traditions?", "answer": "Tattvärtha-sutra." },
+    { "question": "Who was the first Ächärya to criticize the excesses of the Yatis or Chaityaväsis?", "answer": "Ächärya Haribhadra-suri." },
+    { "question": "What were Yatis or Chaityaväsis?", "answer": "Renegade monks who lived comfortably in temples." },
+    { "question": "Which Ächärya founded the Kharatar Gachchha (Purer Sect) to reform the Yatis?", "answer": "Jindatta-suri (Dada Gurudev)." },
+    { "question": "Which Mughal emperor was so impressed by Ächärya Hirvijay-suri that he forbade animal slaughter on certain days?", "answer": "Emperor Akbar." },
+    { "question": "What is the name of the famous collection of 24 devotional songs written by Yogi Änandghanji?", "answer": "Änandghanji Chovisi." },
+    { "question": "By which tradition was Känji-Swämi born and initiated as a monk?", "answer": "Shvetämbar Sthänakaväsi." },
+    { "question": "Which ancient scripture by Ächärya Kundkund profoundly influenced Känji-Swämi?", "answer": "Samaysär." },
+    { "question": "After being influenced by Kundkund's writings, what did Känji-Swämi decide to become at age 45?", "answer": "A Digambar Shrävak (layman)." },
+    { "question": "Känji-Swämi's movement gave more prominence to which point of view: Nishchay Naya or Vyavahär Naya?", "answer": "Nishchay Naya (the absolute point of view)." },
+    { "question": "What was the greatest achievement or revolution brought about by Känji-Swämi?", "answer": "Stimulating every householder to study the most difficult Jain scriptures for themselves." },
+    { "question": "What is the title of the ancient scripture written by Ächärya Pushpadanta and Bhutabali?", "answer": "Shatakhandägam." },
+    { "question": "What is the name of the book by Ächärya Siddhasen Diwäkar, written during the time of King Vikramäditya?", "answer": "Sanmati-Tarka." },
+    { "question": "What voluminous work by the Digambar Ächärya Jinsen deals with the lives of great Jain personalities?", "answer": "Mahä-Purän." },
+    { "question": "What similar voluminous work was written by the Shvetämbar Hemchandra-ächärya?", "answer": "Trishashti (63) Shaläkä Purush." },
+    { "question": "What was the real name of the mystic poet popularly known as Änandghanji?", "answer": "Läbhänandji." },
+    { "question": "Who was a prolific writer, composing texts in Sanskrit, Präkrit, and an older form of Gujarati?", "answer": "Upädhyäy Yashovijayaji." },
+    { "question": "How many temples is Känji-Swämi given credit for consecrating (Panch Kalyänak Mahotsav)?", "answer": "About 95 temples." },
+    { "question": "What does Känji-Swämi's movement stress: inward thought or external rituals?", "answer": "Inward thought." }
+  ],
+  "mindmapV1Data": {
+    "name": "Jain Monastic History",
+    "children": [
+      {
+        "name": "Ancient Masters (Digambar)",
+        "children": [
+          { "name": "Kundkund (Samaysär)" },
+          { "name": "Pushpadanta & Bhutabali (Shatakhandägam)" },
+          { "name": "Jinsen (Mahä-Purän)" }
+        ]
+      },
+      {
+        "name": "Shared & Shvetämbar Masters",
+        "children": [
+          { "name": "Umäsväti (Tattvärtha-sutra)" },
+          { "name": "Haribhadra-suri (Critic of Yatis)" },
+          { "name": "Hemchandra-ächärya (Trishashti...)" }
+        ]
+      },
+      {
+        "name": "Reform & Influence",
+        "children": [
+          { "name": "Jindatta-suri (Kharatar Gachchha)" },
+          { "name": "Hirvijay-suri (Influence on Akbar)" }
+        ]
+      },
+      {
+        "name": "Mystics & Modern Reform",
+        "children": [
+          { "name": "Änandghanji (Devotional Poet)" },
+          { "name": "Känji-Swämi (Samaysär Movement)" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Key Figures in Jain Monasticism",
+    "children": [
+      {
+        "name": "Foundational Thinkers",
+        "children": [
+          { "name": "Kundkund" },
+          { "name": "Umäsväti" }
+        ]
+      },
+      {
+        "name": "Medieval Scholars & Reformers",
+        "children": [
+          { "name": "Haribhadra-suri" },
+          { "name": "Jindatta-suri" },
+          { "name": "Hirvijay-suri" }
+        ]
+      },
+      {
+        "name": "Modern Movements",
+        "children": [
+          { "name": "Känji-Swämi" },
+          { "name": "Focus on Samaysär" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "Ancient Scriptures",
+      "description": "The foundational texts of Jainism, like the Tattvärtha-sutra and Kundkund's Samaysär, were composed by great Ächäryas, preserving knowledge for millennia.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Ancient+Jain+Scriptures",
+      "imageAlt": "A collection of ancient-looking palm-leaf manuscripts and scrolls."
+    },
+    {
+      "title": "The Rise of the Yatis",
+      "description": "As temples grew in prominence, a sect of monks known as Yatis or Chaityaväsis began to live comfortably within them, a practice criticized by reformers like Haribhadra-suri.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Chaityaväsis+in+Temples",
+      "imageAlt": "Monks depicted living in a lavishly decorated temple, contrary to ascetic principles."
+    },
+    {
+      "title": "A Royal Audience",
+      "description": "The revered Ächärya Hirvijay-suri speaks with the powerful Mughal emperor Akbar, convincing him of the principle of non-violence (Ahimsä).",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Hirvijay-suri+and+Emperor+Akbar",
+      "imageAlt": "A Jain monk in simple robes having a serious discussion with a richly dressed emperor in his court."
+    },
+    {
+      "title": "The Mystic's Song",
+      "description": "Yogi Änandghanji, absorbed in contemplation of the soul, composes his famous 'Chovisi,' a series of devotional songs praising the 24 Tirthankars.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Yogi+Änandghanji's+Devotion",
+      "imageAlt": "A mystic monk sitting under a tree, lost in thought and song, with a simple instrument."
+    },
+    {
+      "title": "The Samaysär Revolution",
+      "description": "Känji-Swämi delivers a powerful discourse on Kundkund's Samaysär, inspiring a movement for laypeople to study scriptures and focus on inner truth.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Känji-Swämi+gives+a+Discourse",
+      "imageAlt": "A 20th-century spiritual leader speaking passionately from a stage to a large audience of men and women."
+    },
+    {
+      "title": "A Bridge Between Traditions",
+      "description": "A symbolic image representing the Shvetämbar and Digambar traditions, both of which revere the Tattvärtha-sutra by Umäsväti.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Digambar+&+Shvetämbar+Shared+Heritage",
+      "imageAlt": "Two distinct paths converging on a single, central ancient book."
+    }
+  ]
+}

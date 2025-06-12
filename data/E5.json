@@ -1,0 +1,293 @@
+{
+  "title": "The Story of Bhagawän Rishabhadev",
+  "subtitle": "Section E.5 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "The Dawn of a New Era"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Towards the end of the third era (Ärä) of our current cosmic cycle, nature, which had always provided for humanity, began to decline. During this time of change, a wise leader named <span class=\"highlight\">Kulkar Näbhiräyä</span> and his wife, <span class=\"highlight\">Queen Marudevi</span>, had a son named Rishabh. As Rishabh grew, the struggle for survival among people intensified."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Visionary King"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 3.75a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 3.75zM10 8a.75.75 0 01.75.75v6.5a.75.75 0 01-1.5 0v-6.5A.75.75 0 0110 8zM5.93 5.93a.75.75 0 011.06 0l1.06 1.06a.75.75 0 01-1.06 1.06l-1.06-1.06a.75.75 0 010-1.06zm8.14 8.14a.75.75 0 01-1.06 0l-1.06-1.06a.75.75 0 011.06-1.06l1.06 1.06a.75.75 0 010 1.06zM14.07 5.93a.75.75 0 010 1.06l-1.06 1.06a.75.75 0 11-1.06-1.06l1.06-1.06a.75.75 0 011.06 0zm-8.14 8.14a.75.75 0 010-1.06l1.06-1.06a.75.75 0 011.06 1.06l-1.06 1.06a.75.75 0 01-1.06 0z\" /></svg>A visionary thinker, Rishabh taught people how to cultivate crops, cook food, build houses, and make tools, ushering in the age of civilization. He established the institution of marriage and became the first acknowledged ruler, <span class=\"highlight\">King Rishabhadev</span>. He had 100 sons, including the mighty <span class=\"highlight\">Bharat</span> (after whom India is named) and the strong <span class=\"highlight\">Bähubali</span>, and two daughters, <span class=\"highlight\">Brähmi</span> (who developed the art of writing) and <span class=\"highlight\">Sundari</span> (an expert in mathematics)."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Path to Renunciation"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "One day, Rishabhadev witnessed a dancer suddenly collapse and die. This profound event made him realize the impermanent nature of everything. He decided to renounce his kingdom in search of lasting happiness, dividing his lands among his sons and becoming a monk. Four thousand followers joined him."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "As a monk, Rishabhadev was absorbed in meditation. However, his followers didn't know how to live without his guidance. To teach them the proper way for a monk to receive food, he began going for alms. But people, seeing their former king, offered him jewels and palaces, not realizing he needed food. This led him to fast for 400 continuous days."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The First Tirthankar"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M15.5 2.25a.75.75 0 00-1.5 0v12.25a.75.75 0 001.5 0V2.25z\" /><path d=\"M8.5 4.75a.75.75 0 00-1.5 0v9.5a.75.75 0 001.5 0v-9.5z\" /><path d=\"M4.5 6.75a.75.75 0 00-1.5 0v6.5a.75.75 0 001.5 0v-6.5z\" /></svg>Finally, his great-grandson <span class=\"highlight\">Shreyäns</span> realized what was needed and offered him sugarcane juice, breaking the long fast. This day is now celebrated as <span class=\"highlight\">Akshay-tritiya</span>. After years of austerities, Rishabhadev attained <span class=\"highlight\">Keval-jnän (omniscience)</span>. He established the four-fold religious order (Jain Sangh) and became the first Tirthankar of our era, also known as <span class=\"highlight\">Ädinäth</span>, the 'First Lord'."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Kulkars' Age",
+      "period": "End of the Third Ärä",
+      "events": [
+        {
+          "title": "A World of Simplicity",
+          "description": "Humanity lives a simple life where nature provides all necessities. Society is led by tribal leaders called Kulkars.",
+          "characters": []
+        },
+        {
+          "title": "Birth of Rishabh",
+          "description": "Rishabh is born to the final Kulkar, Näbhiräyä, and his wife, Queen Marudevi, as the world begins to change.",
+          "characters": ["Rishabh", "Näbhiräyä", "Marudevi"]
+        }
+      ]
+    },
+    {
+      "era": "The Age of Civilization",
+      "period": "Rishabhadev's Rule",
+      "events": [
+        {
+          "title": "Teaching the Arts",
+          "description": "Rishabhadev teaches humanity the arts of agriculture, cooking, building, and crafts to create a stable society.",
+          "characters": ["Rishabhadev"]
+        },
+        {
+          "title": "Founding of Society",
+          "description": "He establishes the institution of marriage and becomes the first king, while his children excel in various arts and sciences.",
+          "characters": ["Rishabhadev", "Bharat", "Bähubali", "Brähmi", "Sundari"]
+        }
+      ]
+    },
+    {
+      "era": "The Path to Enlightenment",
+      "period": "After Renunciation",
+      "events": [
+        {
+          "title": "A Glimpse of Impermanence",
+          "description": "The sudden death of a court dancer makes Rishabhadev realize the fleeting nature of life, prompting him to renounce his kingdom.",
+          "characters": ["Rishabhadev"]
+        },
+        {
+          "title": "The Long Fast",
+          "description": "While trying to teach the proper way of accepting alms, no one offers him food, leading to a 400-day fast.",
+          "characters": ["Rishabhadev"]
+        },
+        {
+          "title": "The First Alms",
+          "description": "His great-grandson, Shreyäns, understands his need and offers him sugarcane juice, breaking the fast on the day now known as Akshay-tritiya.",
+          "characters": ["Rishabhadev", "Shreyäns"]
+        }
+      ]
+    },
+    {
+      "era": "The First Tirthankar",
+      "period": "After Keval-jnän",
+      "events": [
+        {
+          "title": "Omniscience Attained",
+          "description": "After years of penance, Rishabhadev attains Keval-jnän, perfect knowledge.",
+          "characters": ["Rishabhadev"]
+        },
+        {
+          "title": "Founding the Tirth",
+          "description": "He establishes the four-fold religious order (Jain Sangh) and becomes the first Tirthankar, also known as Ädinäth.",
+          "characters": ["Rishabhadev"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Bhagawän Rishabhadev",
+      "description": "Also known as Ädinäth, he was the first Tirthankar of our era. He transitioned humanity from a nature-dependent life to a civilized society before renouncing it all to find ultimate truth."
+    },
+    {
+      "name": "Bharat & Bähubali",
+      "description": "Rishabhadev's eldest sons. Bharat was a mighty ruler after whom India is said to be named. Bähubali was known for his immense strength."
+    },
+    {
+      "name": "Brähmi & Sundari",
+      "description": "Rishabhadev's learned daughters. Brähmi is credited with developing the art of writing (the Brähmi script), and Sundari was an expert in mathematics."
+    },
+    {
+      "name": "Näbhiräyä & Marudevi",
+      "description": "The parents of Rishabhadev and the last of the Kulkars, the leaders of humanity in the preceding era."
+    },
+    {
+      "name": "Shreyäns",
+      "description": "Rishabhadev's great-grandson, who had the wisdom to understand that the fasting monk needed food and broke his 400-day fast by offering him sugarcane juice."
+    }
+  ],
+  "quizData": [
+    {
+      "question": "Who were the parents of Bhagawän Rishabhadev?",
+      "answer": "Kulkar Näbhiräyä and Queen Marudevi."
+    },
+    {
+      "question": "Rishabhadev is considered the first Tirthankar of which part of the time cycle?",
+      "answer": "The current Avasarpini (descending order)."
+    },
+    {
+      "question": "What was the name of Rishabhadev's eldest son, after whom India is believed to be named?",
+      "answer": "Bharat."
+    },
+    {
+      "question": "Which of Rishabhadev's daughters is credited with developing the art of writing?",
+      "answer": "Brähmi."
+    },
+    {
+      "question": "What event caused Rishabhadev to realize the impermanence of life and renounce his kingdom?",
+      "answer": "Witnessing the sudden death of a court dancer."
+    },
+    {
+      "question": "Why did Rishabhadev have to fast for 400 days after becoming a monk?",
+      "answer": "People did not understand how to give alms to a monk and offered him valuables instead of food."
+    },
+    {
+      "question": "Who finally broke Rishabhadev's long fast, and what did he offer?",
+      "answer": "His great-grandson, Shreyäns, offered him sugarcane juice."
+    },
+    {
+      "question": "The day Rishabhadev broke his fast is celebrated as what festival?",
+      "answer": "Akshay-tritiya."
+    },
+    {
+      "question": "What is the other name for Rishabhadev, meaning 'the First Lord'?",
+      "answer": "Ädinäth."
+    },
+    {
+      "question": "What is the name of the Jain austerity that commemorates Rishabhadev's long fast?",
+      "answer": "Varsitap."
+    }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Rishabhadev",
+    "children": [
+      {
+        "name": "The Kulkars' Age",
+        "children": [
+          { "name": "Born to Näbhiräyä & Marudevi" },
+          { "name": "End of an era of natural bounty" }
+        ]
+      },
+      {
+        "name": "The Rise of Civilization",
+        "children": [
+          { "name": "Becomes First King" },
+          { "name": "Teaches Arts & Crafts (Farming, etc.)" },
+          { "name": "Establishes Marriage & Social Order" },
+          { "name": "Children Excel (Bharat, Bähubali, Brähmi, Sundari)" }
+        ]
+      },
+      {
+        "name": "Renunciation & Penance",
+        "children": [
+          { "name": "Witnesses Dancer's Death" },
+          { "name": "Renounces Kingdom" },
+          { "name": "The 400-Day Fast" },
+          { "name": "The First Alms (Akshay-tritiya)" }
+        ]
+      },
+      {
+        "name": "The First Tirthankar",
+        "children": [
+          { "name": "Attains Omniscience (Keval-jnän)" },
+          { "name": "Founds Four-Fold Order (Jain Sangh)" },
+          { "name": "Known as Ädinäth" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Rishabhadev: The First Lord",
+    "children": [
+      {
+        "name": "The First King",
+        "children": [
+          { "name": "Inventor of Civilization" },
+          { "name": "Founder of Society" },
+          { "name": "Father of Great Children" }
+        ]
+      },
+      {
+        "name": "The Great Renouncer",
+        "children": [
+          { "name": "The Epiphany" },
+          { "name": "The Long Fast" },
+          { "name": "The First Offering" }
+        ]
+      },
+      {
+        "name": "The First Teacher",
+        "children": [
+          { "name": "Attainment of Omniscience" },
+          { "name": "Creator of the Tirth" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "Teaching Civilization",
+      "description": "As the world changes, the visionary Rishabh teaches his people essential skills like farming and building, laying the foundation for modern society.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Rishabh+Teaches+Farming",
+      "imageAlt": "Rishabhadev demonstrating how to use a plow to a group of early humans."
+    },
+    {
+      "title": "The Moment of Truth",
+      "description": "While watching a performance, King Rishabhadev is profoundly shaken when a dancer suddenly dies, forcing him to confront the reality of impermanence.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Dancer+Collapses",
+      "imageAlt": "A king on his throne looking shocked as a dancer falls to the floor."
+    },
+    {
+      "title": "The First Attempt at Alms",
+      "description": "After becoming a monk, Rishabhadev seeks alms, but his former subjects, not understanding, offer him gold and jewels instead of the food he needs.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=People+offer+Jewels+to+a+Monk",
+      "imageAlt": "A monk standing silently as people try to offer him chests of treasure."
+    },
+    {
+      "title": "The Sugarcane Offering",
+      "description": "After 400 days of fasting, his great-grandson Shreyäns wisely offers him sugarcane juice, breaking the fast and establishing a tradition of pure offerings.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Shreyäns+offers+Sugarcane+Juice",
+      "imageAlt": "A young man respectfully offering a glass of juice to the fasting monk Rishabhadev."
+    },
+    {
+      "title": "The First Sermon",
+      "description": "Having attained omniscience, Bhagawän Rishabhadev, now Ädinäth, delivers his first sermon, establishing the four-fold order of monks, nuns, and lay followers.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Rishabhadev+gives+First+Sermon",
+      "imageAlt": "Rishabhadev sits in a divine assembly, preaching to a group that includes monks, nuns, and families."
+    },
+    {
+      "title": "Legacy of the Children",
+      "description": "Rishabhadev's children carry on his civilizing mission. Brähmi develops the script for writing, while Bharat becomes a legendary ruler.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Brähmi+Writing+and+Bharat+Ruling",
+      "imageAlt": "A split image showing a woman carving symbols onto a leaf and a king looking over a map."
+    }
+  ]
+}

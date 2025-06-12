@@ -53,17 +53,94 @@
           {
             "id": "E1",
             "title": "E.1",
-            "name": "Coming Soon",
-            "url": "#",
+            "name": "The Life of Bhagawän Mahävir",
+            "url": "./story.html?section=E1",
             "dataFile": "E1.json"
           },
           {
             "id": "E2",
             "title": "E.2", 
-            "name": "Coming Soon",
-            "url": "#",
+            "name": "The Story of Bhagawän Pärshvanäth",
+            "url": "./story.html?section=E2",
             "dataFile": "E2.json"
-          }
+          },
+            {
+                "id": "E3",
+                "title": "E.3",
+                "name": "The Story of Bhagawän Neminäth",
+                "url": "./story.html?section=E3",
+                "dataFile": "E3.json"
+            },
+            {
+                "id": "E4",
+                "title": "E.4",
+                "name": "The Story of Bhagawän Mallinäth",
+                "url": "./story.html?section=E4",
+                "dataFile": "E4.json"
+            },
+            {
+                "id": "E5",
+                "title": "E.5",
+                "name": "The Story of Bhagawän Rishabhadev",
+                "url": "./story.html?section=E5",
+                "dataFile": "E5.json"
+            }
+        ]
+      },
+      {
+        "id":" Section-f",
+        "title": "Section F",
+        "description": "Stories and lessons from Section F",
+        "subsections": [
+          {
+            "id": "F1",
+            "title": "F.1",
+            "name": "The Story of Ganadhar Gautam-swämi",
+            "url": "./story.html?section=F1",
+            "dataFile": "F1.json"
+          },
+          {
+            "id": "F2",
+            "title": "F.2",
+            "name": "The Story of Ganadhar Sudharmä-swämi",
+            "url": "./story.html?section=F2",
+            "dataFile": "F2.json"
+          },
+          {
+            "id": "F3",
+            "title": "F.3",
+            "name": "The Story of Kevali Jambuswämi",
+            "url": "./story.html?section=F3",
+            "dataFile": "F3.json"
+          },
+            {
+                "id": "F4",
+                "title": "F.4",
+                "name": "The Story of Ächärya Sthulibhadra",
+                "url": "./story.html?section=F4",
+                "dataFile": "F4.json"
+            },
+            {
+                "id": "F5",
+                "title": "F.5",
+                "name": "The Story of Ächärya Kundkund",
+                "url": "./story.html?section=F5",
+                "dataFile": "F5.json"
+            },
+            {
+                "id": "F6",
+                "title": "F.6",
+                "name": "The Story of Ächärya Haribhadra-suri",
+                "url": "./story.html?section=F6",
+                "dataFile": "F6.json"
+            },
+            {
+                "id": "F7",
+                "title": "F.7",
+                "name": "The Story of Ächärya Hemchandra",
+                "url": "./story.html?section=F7",
+                "dataFile": "F7.json"
+            }
         ]
       },
       {
@@ -71,20 +148,28 @@
         "title": "Section M",
         "description": "Stories and lessons from Section M", 
         "subsections": [
-          {
-            "id": "M1",
-            "title": "M.1",
-            "name": "Coming Soon",
-            "url": "#",
-            "dataFile": "M1.json"
-          },
-          {
-            "id": "M2",
-            "title": "M.2",
-            "name": "Coming Soon", 
-            "url": "#",
-            "dataFile": "M2.json"
-          }
+            {
+                "id": "M1",
+                "title": "M.1",
+                "name": "Jain Monks: A Historical Overview",
+                "url": "./story.html?section=M1",
+                "dataFile": "M1.json"
+            },
+            {
+                "id": "M2",
+                "title": "M.2",
+                "name": "The Life of Shrimad Räjchandra",
+                "url": "./story.html?section=M2",
+                "dataFile": "M2.json"
+            },
+            {
+                "id": "M3",
+                "title": "M.3",
+                "name": "The Life of Virchand R. Gandhi",
+                "url": "./story.html?section=M3",
+                "dataFile": "M3.json"
+            }
+
         ]
       }
     ],
