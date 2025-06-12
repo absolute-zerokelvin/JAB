@@ -3,8 +3,208 @@
  * Contains common functions used across the site
  */
 
+// Navigation data
+let navigationData = null;
+
+// Fetch navigation data
+async function fetchNavigationData() {
+    try {
+        const response = await fetch('./data/navigation.json');
+        navigationData = await response.json();
+        return navigationData;
+    } catch (error) {
+        console.error('Error fetching navigation data:', error);
+        return null;
+    }
+}
+
+// Create navigation HTML
+function createNavigationHTML(navData, isMobile = false) {
+    if (!navData) return '';
+    
+    const nav = navData.navigation;
+    const mobileClass = isMobile ? 'mobile-nav' : 'desktop-nav';
+    
+    let html = `
+        <nav class="navigation ${mobileClass}" id="mainNavigation">
+            <div class="nav-container">
+                ${isMobile ? '<button class="nav-close" onclick="toggleMobileNav()">&times;</button>' : ''}
+                <div class="nav-header">
+                    <h3 class="nav-title"><a href="./index.html" class="nav-home-link">${nav.title}</a></h3>
+                    <p class="nav-subtitle">${nav.subtitle}</p>
+                </div>
+                <ul class="nav-sections">
+    `;
+    
+    // Add main sections
+    nav.sections.forEach(section => {
+        html += `
+            <li class="nav-section">
+                <div class="section-header" onclick="toggleSection('${section.id}')">
+                    <span class="section-title">${section.title}</span>
+                    <span class="section-toggle">▼</span>
+                </div>
+                <ul class="nav-subsections" id="${section.id}-subsections">
+        `;
+        
+        section.subsections.forEach(subsection => {
+            html += `
+                <li class="nav-subsection">
+                    <a href="${subsection.url}" class="subsection-link">
+                        <span class="subsection-title">${subsection.title}</span>
+                        <span class="subsection-name">${subsection.name}</span>
+                    </a>
+                </li>
+            `;
+        });
+        
+        html += `
+                </ul>
+            </li>
+        `;
+    });
+    
+    // Add additional pages
+    if (nav.additionalPages) {
+        nav.additionalPages.forEach(page => {
+            html += `
+                <li class="nav-section">
+                    <a href="${page.url}" class="section-link">
+                        <span class="section-title">${page.title}</span>
+                    </a>
+                </li>
+            `;
+        });
+    }
+    
+    html += `
+                </ul>
+            </div>
+        </nav>
+    `;
+    
+    return html;
+}
+
+// Toggle section visibility
+function toggleSection(sectionId) {
+    const subsections = document.getElementById(sectionId + '-subsections');
+    const toggle = document.querySelector(`[onclick="toggleSection('${sectionId}')"] .section-toggle`);
+    
+    if (subsections && toggle) {
+        if (subsections.style.display === 'none' || subsections.style.display === '') {
+            subsections.style.display = 'block';
+            toggle.textContent = '▲';
+        } else {
+            subsections.style.display = 'none';
+            toggle.textContent = '▼';
+        }
+    }
+}
+
+// Toggle mobile navigation
+function toggleMobileNav() {
+    const nav = document.getElementById('mainNavigation');
+    const overlay = document.getElementById('navOverlay');
+    
+    if (nav && overlay) {
+        nav.classList.toggle('active');
+        overlay.classList.toggle('active');
+    }
+}
+
+// Initialize navigation
+async function initializeNavigation() {
+    const navData = await fetchNavigationData();
+    if (!navData) return;
+    
+    // Create desktop navigation
+    const desktopNavContainer = document.getElementById('desktop-nav-container');
+    if (desktopNavContainer) {
+        desktopNavContainer.innerHTML = createNavigationHTML(navData, false);
+    }
+    
+    // Create mobile navigation
+    const mobileNavContainer = document.getElementById('mobile-nav-container');
+    if (mobileNavContainer) {
+        mobileNavContainer.innerHTML = createNavigationHTML(navData, true);
+    }
+    
+    // Initialize sections as collapsed
+    navData.navigation.sections.forEach(section => {
+        const subsections = document.getElementById(section.id + '-subsections');
+        if (subsections) {
+            subsections.style.display = 'none';
+        }
+    });
+}
+
+// Render homepage content
+async function renderHomepageContent() {
+    const navData = await fetchNavigationData();
+    if (!navData) return;
+    
+    const contentContainer = document.getElementById('homepage-content');
+    if (!contentContainer) return;
+    
+    let html = '';
+    
+    // Render sections
+    navData.navigation.sections.forEach(section => {
+        html += `
+            <div class="section-card">
+                <h2 class="section-card-title">${section.title}</h2>
+                <p class="section-card-description">${section.description}</p>
+                <div class="subsection-grid">
+        `;
+        
+        section.subsections.forEach(subsection => {
+            const isComingSoon = subsection.name === 'Coming Soon';
+            html += `
+                <a href="${subsection.url}" class="subsection-card ${isComingSoon ? 'coming-soon' : ''}">
+                    <h3 class="subsection-card-title">${subsection.title}</h3>
+                    <p class="subsection-card-name">${subsection.name}</p>
+                    ${isComingSoon ? '<span class="coming-soon-badge">Coming Soon</span>' : ''}
+                </a>
+            `;
+        });
+        
+        html += `
+                </div>
+            </div>
+        `;
+    });
+    
+    // Add About section placeholder
+    html += `
+        <div class="section-card" id="about">
+            <h2 class="section-card-title">About JAB Manual Interactive</h2>
+            <p class="section-card-description">
+                Welcome to the JAB Manual Interactive - your comprehensive digital companion for exploring 
+                Jain Academic Bowl content. The source is JAB Manual 5th edition Oct 2024. This interactive platform brings traditional stories and teachings 
+                to life through engaging digital experiences to help prepare for JAB.
+            </p>
+            <p class="section-card-description">
+                <strong>Important Notice:</strong> Content is generated through LLM and spot checked, but it's possible that due to hallucination or wrong prompts, there may be factual errors with respect to what is in the source manual. If you notice issues, please report them as issues on GitHub here: <a href="https://github.com/absolute-zerokelvin/JAB/issues" target="_blank" rel="noopener noreferrer">https://github.com/absolute-zerokelvin/JAB/issues</a>. Feel free to submit a PR as well with changes.
+            </p>
+            <p class="section-card-description">
+                <em>Detailed content will be provided later.</em>
+            </p>
+        </div>
+    `;
+    
+    contentContainer.innerHTML = html;
+}
+
 // Add event listener when the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize any common functionality here
     console.log('JAB Manual - Scripts initialized');
+    
+    // Initialize navigation
+    initializeNavigation();
+    
+    // Render homepage content if on homepage
+    if (document.getElementById('homepage-content')) {
+        renderHomepageContent();
+    }
 });

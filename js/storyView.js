@@ -62,7 +62,8 @@ function generateTimeline(timelineData) {
             contentDiv.className = 'timeline-content';
             
             const title = document.createElement('h3');
-            title.className = 'text-xl font-bold text-emerald-700 mb-2';
+            title.className = 'text-xl font-bold mb-2';
+            title.style.color = 'var(--primary-blue-dark)';
             title.textContent = event.title;
             contentDiv.appendChild(title);
             
@@ -98,13 +99,15 @@ function generateCharacters(charactersData) {
     
     charactersData.forEach(character => {
         const charCard = document.createElement('div');
-        charCard.className = 'bg-white rounded-lg shadow-md overflow-hidden border-l-4 border-emerald-500';
+        charCard.className = 'bg-white rounded-lg shadow-md overflow-hidden border-l-4';
+        charCard.style.borderLeftColor = 'var(--primary-blue)';
         
         const cardBody = document.createElement('div');
         cardBody.className = 'p-5';
         
         const name = document.createElement('h3');
-        name.className = 'text-xl font-bold text-emerald-800 mb-2';
+        name.className = 'text-xl font-bold mb-2';
+        name.style.color = 'var(--primary-blue-dark)';
         name.textContent = character.name;
         cardBody.appendChild(name);
         

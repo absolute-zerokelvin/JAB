@@ -1,0 +1,94 @@
+{
+  "navigation": {
+    "title": "JAB Manual Interactive",
+    "subtitle": "An Interactive Collection",
+    "sections": [
+      {
+        "id": "section-i",
+        "title": "Section I",
+        "description": "Stories and lessons from Section I",
+        "subsections": [
+          {
+            "id": "I1",
+            "title": "I.1",
+            "name": "The Story of Vajrakumär",
+            "url": "./story.html?section=I1",
+            "dataFile": "I1.json"
+          },
+          {
+            "id": "I2", 
+            "title": "I.2",
+            "name": "The Story of King Samprati",
+            "url": "./story.html?section=I2",
+            "dataFile": "I2.json"
+          },
+          {
+            "id": "I3",
+            "title": "I.3", 
+            "name": "The Temples of Delwädä",
+            "url": "./story.html?section=I3",
+            "dataFile": "I3.json"
+          },
+          {
+            "id": "I4",
+            "title": "I.4",
+            "name": "Udayan Mantri and His Sons", 
+            "url": "./story.html?section=I4",
+            "dataFile": "I4.json"
+          },
+          {
+            "id": "I5",
+            "title": "I.5",
+            "name": "The Nobility of Sävchand and Somchand",
+            "url": "./story.html?section=I5", 
+            "dataFile": "I5.json"
+          }
+        ]
+      },
+      {
+        "id": "section-e",
+        "title": "Section E",
+        "description": "Stories and lessons from Section E",
+        "subsections": [
+          {
+            "id": "E1",
+            "title": "E.1",
+            "name": "Coming Soon",
+            "url": "#",
+            "dataFile": "E1.json"
+          },
+          {
+            "id": "E2",
+            "title": "E.2", 
+            "name": "Coming Soon",
+            "url": "#",
+            "dataFile": "E2.json"
+          }
+        ]
+      },
+      {
+        "id": "section-m",
+        "title": "Section M",
+        "description": "Stories and lessons from Section M", 
+        "subsections": [
+          {
+            "id": "M1",
+            "title": "M.1",
+            "name": "Coming Soon",
+            "url": "#",
+            "dataFile": "M1.json"
+          },
+          {
+            "id": "M2",
+            "title": "M.2",
+            "name": "Coming Soon", 
+            "url": "#",
+            "dataFile": "M2.json"
+          }
+        ]
+      }
+    ],
+    "additionalPages": [
+    ]
+  }
+}

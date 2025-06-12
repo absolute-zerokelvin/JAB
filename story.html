@@ -46,7 +46,6 @@
                 <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Timeline of Events</h2>
                 <div id="timeline" class="timeline-container"></div>
             </div>
-        
         <!-- Mind Map v1 Tab Content -->
         <div id="mindmap-v1-tab" class="tab-content">
             <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Interactive Mind Map (Vertical)</h2>
@@ -58,30 +57,37 @@
             <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Interactive Mind Map (Horizontal)</h2>
             <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
         </div>
-        
+
+                
         <!-- Graphics Tab Content -->
         <div id="graphics-tab" class="tab-content">
              <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Graphic Novel</h2>
         </div>
-
-        <!-- Characters Tab Content -->
-        <div id="characters-tab" class="tab-content">
-            <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Cast of Characters</h2>
-            <div id="characters" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
-        </div>
-        
         <!-- Quiz Tab Content -->
         <div id="quiz-tab" class="tab-content">
             <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Test Your Knowledge!</h2>
             <div id="quiz-container" class="quiz-container"></div>
-        </div>
+        </div>        
 
-    </main>
+            <!-- Characters Tab Content -->
+            <div id="characters-tab" class="tab-content">
+                <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Character Mind Map</h2>
+                <div id="mind-map-container" class="mind-map-container-v2"></div>
+            </div>
 
-    <footer style="text-align: center; padding: 2rem; color: var(--text-secondary); border-top: 1px solid var(--border-color); margin-top: 3rem;">
-        <p>&copy; 2025 AI Story Generator. All rights reserved.</p>
-    </footer>
+        </main>
+        
+        <footer style="text-align: center; padding: 2rem; color: var(--text-secondary); border-top: 1px solid var(--border-color); margin-top: 3rem;">
+            <p>&copy; 2025 JAB Manual Interactive. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Include story view script -->
     <script src="/js/storyView.js"></script>
+    
+    <!-- Include main navigation script -->
+    <script src="/js/main.js"></script>
+    
     <script>
         // Get story section from URL parameters
         function getStorySection() {
@@ -114,8 +120,5 @@
         // Load the story when the page is ready
         document.addEventListener('DOMContentLoaded', loadStory);
     </script>
-    
-    <!-- Include main navigation script -->
-    <script src="/js/main.js"></script>
 </body>
 </html>
