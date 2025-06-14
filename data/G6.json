@@ -1,0 +1,239 @@
+{
+  "title": "The Story of Monk Kurgadu",
+  "subtitle": "Section G.6 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "The Devout Monk's One Weakness"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "A young man named Kurgadu, disciple of the great <span class=\"highlight\">Ächärya Dharmaghosh-suri</span>, was a brilliant and dedicated monk. He mastered the scriptures and understood the nature of karma, allowing him to maintain a high level of equanimity. He rigorously followed the entire monastic code of conduct with one exception: he could not overcome his hunger and was unable to fast."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "This caused him great misery, especially during the holy period of <span class=\"highlight\">Paryushan Parva</span>. While his fellow monks undertook long fasts, Kurgadu would praise their efforts and serve them devoutly, all the while regretting his own inability, which he attributed to his past karma."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Test of Samvatsari"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm.75-13a.75.75 0 00-1.5 0v5c0 .414.336.75.75.75h4a.75.75 0 000-1.5h-3.25V5z\" clip-rule=\"evenodd\" /></svg>On the most auspicious day of Paryushan, <span class=\"highlight\">Samvatsari</span>, Kurgadu tried his best to fast. However, before noon, he was overcome with hunger. Filled with regret but accepting his limitation, he humbly asked his guru for permission to seek alms. While the other monks made scornful remarks, the compassionate guru understood his disciple's humility and granted permission."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Kurgadu returned with food and, under the disapproving gaze of his peers, went to a corner to eat. As he ate, he stopped despising himself. Instead, he deeply contemplated his situation, fully accepting it as the consequence of his past karma. He focused on the true nature of his soul, separating it from the physical limitations of his body."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Enlightenment Through Acceptance"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "This profound insight—this perfect <span class=\"highlight\">equanimity</span> and acceptance—was so powerful that it gave rise to the full manifestation of his soul's true nature. In that very moment, while eating, Monk Kurgadu destroyed all his defiling karmas and attained <span class=\"highlight\">Keval-jnän (omniscience)</span>."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>Heavenly beings descended to pay obeisance, not to the fasting monks, but to the newly enlightened Kurgadu. The other monks were stunned. Their guru, Ächärya Dharmaghosh-suri, explained that their pride in their own austerities had obscured their perception, while Kurgadu's humility and perfect acceptance of his karma had led him to liberation. The true purpose of any religious practice, he taught, is to gain modesty and equanimity, not pride."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Dedicated Monk",
+      "period": "Early Monastic Life",
+      "events": [
+        {
+          "title": "A Young Disciple",
+          "description": "Kurgadu renounces the world at a young age and becomes a disciple of Ächärya Dharmaghosh-suri.",
+          "characters": ["Monk Kurgadu", "Ächärya Dharmaghosh-suri"]
+        },
+        {
+          "title": "The One Obstacle",
+          "description": "He masters scriptures and the code of conduct but is unable to fast due to his past karma, which causes him great mental anguish.",
+          "characters": ["Monk Kurgadu"]
+        }
+      ]
+    },
+    {
+      "era": "The Day of Samvatsari",
+      "period": "During Paryushan Parva",
+      "events": [
+        {
+          "title": "A Failed Attempt to Fast",
+          "description": "Despite his best efforts, Kurgadu is overcome by hunger and humbly asks his guru for permission to seek alms.",
+          "characters": ["Monk Kurgadu", "Ächärya Dharmaghosh-suri"]
+        },
+        {
+          "title": "Judgement from Peers",
+          "description": "The other monks, proud of their own long fasts, make scornful remarks about Kurgadu's need to eat.",
+          "characters": ["Monk Kurgadu", "The Other Monks"]
+        },
+        {
+          "title": "The Moment of Insight",
+          "description": "While eating, Kurgadu stops feeling miserable and instead deeply contemplates and accepts his karma with perfect equanimity.",
+          "characters": ["Monk Kurgadu"]
+        }
+      ]
+    },
+    {
+      "era": "The Ultimate Attainment",
+      "period": "Immediately Following Insight",
+      "events": [
+        {
+          "title": "Omniscience Attained",
+          "description": "His profound acceptance and realization of the soul's true nature destroy his karmas, and he attains Keval-jnän while eating.",
+          "characters": ["Monk Kurgadu (as a Kevali)"]
+        },
+        {
+          "title": "A Divine Surprise",
+          "description": "Heavenly beings descend to honor Kurgadu, shocking the other monks who believed their own austerities were superior.",
+          "characters": ["Monk Kurgadu", "The Other Monks", "Heavenly Beings"]
+        },
+        {
+          "title": "The Guru's Lesson",
+          "description": "Ächärya Dharmaghosh-suri explains that the other monks' pride was an obstacle, while Kurgadu's humility and equanimity led to his liberation.",
+          "characters": ["Ächärya Dharmaghosh-suri", "The Other Monks"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Monk Kurgadu",
+      "description": "A learned and devout Jain monk who had mastered all principles except for the ability to fast. His profound humility and acceptance of his own karmic limitations led him to attain omniscience (Keval-jnän)."
+    },
+    {
+      "name": "Ächärya Dharmaghosh-suri",
+      "description": "Kurgadu's enlightened guru. He showed compassion for his disciple's struggle and later explained to the other monks why Kurgadu's humility was spiritually superior to their pride."
+    },
+    {
+      "name": "The Other Monks",
+      "description": "A collective group who, despite their ability to perform long fasts, were filled with pride and looked down upon Kurgadu. They served as a contrast to Kurgadu's humility."
+    }
+  ],
+  "quizData": [
+    { "question": "What was the one monastic code of conduct that Monk Kurgadu found difficult to observe?", "answer": "He could not fast because it was difficult for him to stay hungry." },
+    { "question": "During which Jain festival did Kurgadu feel particularly miserable about his inability to fast?", "answer": "Paryushan Parva." },
+    { "question": "What did Kurgadu do while the other monks were fasting?", "answer": "He praised them and rendered every type of service to them." },
+    { "question": "On what specific day did the main events of the story take place?", "answer": "Samvatsari." },
+    { "question": "When Kurgadu asked for permission to eat on Samvatsari, how did the other monks react?", "answer": "They made negative and unsympathetic remarks." },
+    { "question": "What was Kurgadu's mental state while he was eating?", "answer": "He dwelt deeply on his karma, accepted his physical limitation with equanimity, and focused on the true nature of his soul." },
+    { "question": "What extraordinary event happened to Kurgadu while he was eating?", "answer": "He attained omniscience (Keval-jnän)." },
+    { "question": "Why were the other monks surprised when the heavenly beings arrived?", "answer": "They thought the beings were coming to praise them for their long fasts, but instead, they went to honor Kurgadu." },
+    { "question": "According to Ächärya Dharmaghosh-suri, what spiritual fault were the other monks committing?", "answer": "They were feeling very proud of their austerities, which is a form of vanity." },
+    { "question": "What did the Ächärya say was the primary purpose of observing austerities?", "answer": "To gain modesty that leads to right perception and helps attain equanimity." },
+    { "question": "Who was Kurgadu's father?", "answer": "A religious businessman named Dhandatt." },
+    { "question": "What did Kurgadu realize about the body?", "answer": "That it is obtained as a consequence of karma and should be used as an instrument for realizing the true nature of the soul." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Monk Kurgadu",
+    "children": [
+      {
+        "name": "The Monk's Struggle",
+        "children": [
+          { "name": "Diligent in all but one area" },
+          { "name": "Inability to Fast" },
+          { "name": "Feels Miserable during Paryushan" }
+        ]
+      },
+      {
+        "name": "The Day of Samvatsari",
+        "children": [
+          { "name": "Needs to eat despite the holy day" },
+          { "name": "Judged by other monks" },
+          { "name": "Finds peace while eating" }
+        ]
+      },
+      {
+        "name": "The Turning Point",
+        "children": [
+          { "name": "Acceptance of his Karma" },
+          { "name": "Realizes Soul is separate from Body" },
+          { "name": "Attains Keval-jnän" }
+        ]
+      },
+      {
+        "name": "The Lesson",
+        "children": [
+          { "name": "Heavenly Beings Honor Kurgadu" },
+          { "name": "The Guru explains Humility > Pride" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Kurgadu: Enlightenment in Humility",
+    "children": [
+      {
+        "name": "The Inner Conflict",
+        "children": [
+          { "name": "The Vow vs. The Body" },
+          { "name": "The Pain of Comparison" }
+        ]
+      },
+      {
+        "name": "The Moment of Truth",
+        "children": [
+          { "name": "The Judged Meal" },
+          { "name": "The Shift to Acceptance" }
+        ]
+      },
+      {
+        "name": "The True Austerity",
+        "children": [
+          { "name": "Equanimity over fasting" },
+          { "name": "Humility over pride" },
+          { "name": "Liberation" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "The Monk's Sadness",
+      "description": "During the festival of Paryushan, Monk Kurgadu feels deep regret as he watches his fellow monks perform long fasts that he is physically unable to do.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Kurgadu+feels+disappointed",
+      "imageAlt": "A sad-looking monk watching other monks meditating peacefully."
+    },
+    {
+      "title": "A Humble Request",
+      "description": "On the holy day of Samvatsari, Kurgadu, unable to bear his hunger, humbly asks his compassionate guru for permission to seek alms.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Kurgadu+asks+his+Guru",
+      "imageAlt": "A young monk bowing respectfully to an elder monk."
+    },
+    {
+      "title": "The Scornful Gaze",
+      "description": "As Kurgadu eats his meal, other monks look on with disapproval and scorn, believing he is not a deserving monk.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Other+Monks+Judge+Kurgadu",
+      "imageAlt": "A monk eating alone in a corner while other monks in the background look at him with judgmental expressions."
+    },
+    {
+      "title": "The Moment of Enlightenment",
+      "description": "While eating, Kurgadu stops feeling shame and instead achieves perfect acceptance of his karma. In this state of pure equanimity, he attains omniscience.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Keval-jnän+While+Eating",
+      "imageAlt": "A monk sitting with a bowl of food, glowing with a bright, divine light of enlightenment."
+    },
+    {
+      "title": "The Heavenly Homage",
+      "description": "To the astonishment of the proud, fasting monks, celestial beings descend from the heavens to bow and pay respects to the newly enlightened Kurgadu.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Devas+Honor+Kurgadu",
+      "imageAlt": "Angelic beings bowing before the enlightened Kurgadu, while other monks look on in shock."
+    },
+    {
+      "title": "A Guru's Wisdom",
+      "description": "Ächärya Dharmaghosh-suri explains to his disciples that humility and equanimity are greater than prideful austerities, revealing the true path to liberation.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+Guru's+Explanation",
+      "imageAlt": "An elder monk teaching a lesson to a group of humbled monks."
+    }
+  ]
+}

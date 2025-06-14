@@ -1,7 +1,7 @@
 {
   "navigation": {
-    "title": "JAB Manual Interactive",
-    "subtitle": "An Interactive Collection",
+    "title": "JAB Story Explorer",
+    "subtitle": " Mindmaps, Timelines & More",
     "sections": [
       {
         "id": "section-i",
@@ -143,6 +143,56 @@
             }
         ]
       },
+        {
+            "id": "section-g",
+            "title": "Section G",
+            "description": "Stories and lessons from Section G",
+            "subsections": [
+            {
+                "id": "G1",
+                "title": "G.1",
+                "name": "The Story of Bharat and Bähubali",
+                "url": "./story.html?section=G1",
+                "dataFile": "G1.json"
+            },
+            {
+                "id": "G2",
+                "title": "G.2",
+                "name": "The Story of King Meghrath",
+                "url": "./story.html?section=G2",
+                "dataFile": "G2.json"
+            },
+            {
+                "id": "G3",
+                "title": "G.3",
+                "name": "The Story of Sage Nandisen",
+                "url": "./story.html?section=G3",
+                "dataFile": "G3.json"
+            },
+            {
+                "id": "G4",
+                "title": "G.4",
+                "name": "The Story of King Shripäl and Mayanä-sundari",
+                "url": "./story.html?section=G4",
+                "dataFile": "G4.json"
+            },
+            {
+                "id": "G5",
+                "title": "G.5",
+                "name": "The Story of Ilächikumar",
+                "url": "./story.html?section=G5",
+                "dataFile": "G5.json"
+            },
+            {
+                "id": "G6",
+                "title": "G.6",
+                "name": "The Story of Monk Kurgadu",
+                "url": "./story.html?section=G6",
+                "dataFile": "G6.json"
+            }
+
+            ]
+        },
       {
         "id": "section-m",
         "title": "Section M",
@@ -174,6 +224,12 @@
       }
     ],
     "additionalPages": [
+            {
+                "id": "timeline_junior",
+                "title": "Timeline of Jain History (Junior)",
+                "name": "Timeline of Jain History (Junior)",
+                "url": "./timeline_duration-junior.html"
+            }        
     ]
   }
 }

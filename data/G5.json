@@ -1,0 +1,259 @@
+{
+  "title": "The Story of Ilächikumar",
+  "subtitle": "Section G.5 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "The Infatuated Son"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Ilächikumar was the handsome and beloved son of a wealthy merchant named Dhandatt and his wife, Ilächi. Raised in luxury, he showed little interest in the marriage proposals his parents arranged. One day, his life changed when he saw a troupe of acrobats perform. He was instantly mesmerized by the beauty of the chief acrobat's young daughter."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "He became so infatuated that he declared to his shocked parents that he would marry no one but her. His parents tried to dissuade him, but seeing his resolve, his father approached the <span class=\"highlight\">chief acrobat</span>. The chief refused, explaining that tribal custom dictated his daughter could only marry a man who could win an award from a king for his acrobatic skill."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Path of an Acrobat"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M15.28 9.47a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 11-1.06-1.06L14.44 9l-4.47-4.47a.75.75 0 011.06-1.06l4.25 4.25zM10.28 9.47a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 11-1.06-1.06L9.44 9 5 4.53a.75.75 0 011.06-1.06l4.25 4.25z\" clip-rule=\"evenodd\" /></svg>Determined to win her hand, Ilächikumar secretly left his wealthy home and joined the acrobat troupe. He discarded his fine clothes, donned their uniform, and diligently began learning their craft. The chief's daughter, seeing his dedication, fell in love with him and helped him master the art. Soon, he became an expert acrobat."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The troupe traveled to the city of <span class=\"highlight\">Benätat</span>, where Ilächikumar performed his incredible feats before the king. However, the king himself became infatuated with the acrobat's daughter. Wishing to get rid of Ilächikumar, the king feigned distraction and asked him to repeat the dangerous performance again, and then a third time, hoping he would fall."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "An Awakening on the Rope"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "As Ilächikumar performed for the third time, high on the rope, he saw a beautiful woman offering food to a young Jain monk below. He was struck by the monk's complete <span class=\"highlight\">detachment</span> and serene expression, unaffected by the woman's beauty. In that moment, Ilächikumar compared the monk's inner peace to his own frantic, desire-driven life."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>He realized the king's treachery and the illusory nature of the happiness he was chasing. Recalling his own spiritual training from a past life, he understood the true power of the soul. In a flash of insight, while still balanced on the high rope, Ilächikumar applied the same vigilance required for acrobatics to his own soul. He dwelt deep within himself, destroyed his obscuring karmas, and attained <span class=\"highlight\">Keval-jnän (omniscience)</span>. He then quietly climbed down, bid farewell to all, and walked away as a liberated soul."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "A Life of Luxury",
+      "period": "Ilächikumar's Youth",
+      "events": [
+        {
+          "title": "An Only Son",
+          "description": "Ilächikumar is born to the wealthy merchant Dhandatt and his wife Ilächi and is raised with every luxury.",
+          "characters": ["Ilächikumar", "Dhandatt", "Ilächi"]
+        },
+        {
+          "title": "Love at First Sight",
+          "description": "He sees a beautiful acrobat girl performing and becomes completely infatuated, vowing to marry only her.",
+          "characters": ["Ilächikumar", "The Acrobat's Daughter"]
+        },
+        {
+          "title": "An Impossible Condition",
+          "description": "The girl's father refuses the marriage unless Ilächikumar can win a royal prize for his own acrobatic skill.",
+          "characters": ["Ilächikumar", "Dhandatt", "The Chief Acrobat"]
+        }
+      ]
+    },
+    {
+      "era": "The Path of an Acrobat",
+      "period": "Joining the Troupe",
+      "events": [
+        {
+          "title": "Leaving Home",
+          "description": "Ilächikumar secretly leaves his home and wealth behind to join the acrobat troupe and learn their skills.",
+          "characters": ["Ilächikumar"]
+        },
+        {
+          "title": "Mastering the Art",
+          "description": "With help from the chief's daughter, who falls in love with him, he becomes an expert acrobat.",
+          "characters": ["Ilächikumar", "The Acrobat's Daughter"]
+        },
+        {
+          "title": "The King's Treachery",
+          "description": "During a royal performance in Benätat, the king becomes attracted to the girl and repeatedly asks Ilächikumar to perform, hoping he will fall.",
+          "characters": ["Ilächikumar", "The King of Benätat", "The Acrobat's Daughter"]
+        }
+      ]
+    },
+    {
+      "era": "Enlightenment on the Rope",
+      "period": "The Final Performance",
+      "events": [
+        {
+          "title": "A Catalyst for Thought",
+          "description": "While on the high rope, Ilächikumar sees a Jain monk completely detached from a beautiful woman offering him food.",
+          "characters": ["Ilächikumar", "The Jain Monk"]
+        },
+        {
+          "title": "A Flash of Insight",
+          "description": "He compares the monk's peace to his own turmoil and realizes the illusory nature of his desires and the king's treachery.",
+          "characters": ["Ilächikumar"]
+        },
+        {
+          "title": "Attainment of Keval-jnän",
+          "description": "In that moment of profound realization, while still on the rope, he applies intense self-awareness, destroys his karmas, and attains omniscience.",
+          "characters": ["Ilächikumar (as a Kevali)"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Ilächikumar",
+      "description": "The son of a wealthy merchant who abandoned his life of luxury out of love for an acrobat's daughter. His journey to master acrobatics led to an unexpected spiritual awakening and liberation."
+    },
+    {
+      "name": "The Acrobat's Daughter",
+      "description": "A beautiful and graceful young woman whose charm captivated Ilächikumar. She fell in love with him and helped him learn the skills of her trade."
+    },
+    {
+      "name": "Dhandatt",
+      "description": "Ilächikumar's wealthy and sensible father. Though initially against the match, he was willing to support his son's happiness."
+    },
+    {
+      "name": "The King of Benätat",
+      "description": "A corrupt king whose own infatuation with the acrobat's daughter led him to treacherously endanger Ilächikumar's life."
+    },
+    {
+      "name": "The Jain Monk",
+      "description": "An unnamed ascetic whose perfect detachment in the presence of a beautiful woman served as the catalyst for Ilächikumar's spiritual enlightenment."
+    }
+  ],
+  "quizData": [
+    { "question": "What was the profession of Ilächikumar's father, Dhandatt?", "answer": "He was a wealthy businessman." },
+    { "question": "Why was Ilächikumar kept nameless for a while after his birth?", "answer": "It was a custom of the times for parents of an only son." },
+    { "question": "Who did Ilächikumar fall in love with?", "answer": "The beautiful young daughter of the chief acrobat." },
+    { "question": "What condition did the chief acrobat set for his daughter's marriage?", "answer": "That her husband must win an award from a royal court for his own acrobatic skill." },
+    { "question": "What did Ilächikumar do to fulfill this condition?", "answer": "He secretly left home, joined the acrobat troupe, and learned to be an expert acrobat." },
+    { "question": "In what city did Ilächikumar perform for the king?", "answer": "Benätat." },
+    { "question": "Why did the king of Benätat ask Ilächikumar to repeat his performance three times?", "answer": "The king was attracted to the acrobat's daughter and was hoping Ilächikumar would fall from the rope so he could have her." },
+    { "question": "What scene did Ilächikumar witness from the high rope that sparked his spiritual thoughts?", "answer": "He saw a Jain monk who was completely unaffected by the beauty of a woman offering him food." },
+    { "question": "What key Jain principle did the monk's behavior demonstrate to Ilächikumar?", "answer": "Detachment (Vairägya)." },
+    { "question": "What profound realization did Ilächikumar have while comparing himself to the monk?", "answer": "That the happiness he was chasing was an illusion and that he should apply the same vigilance to his soul as he did to rope-walking." },
+    { "question": "What extraordinary spiritual achievement did Ilächikumar attain while still on the acrobat's rope?", "answer": "Keval-jnän (omniscience)." },
+    { "question": "What did Ilächikumar do immediately after attaining Keval-jnän?", "answer": "He quietly climbed down the pole, bid farewell to everyone, and left as a liberated soul." },
+    { "question": "Who helped Ilächikumar learn the art of acrobatics?", "answer": "The chief acrobat's daughter." },
+    { "question": "Did Ilächikumar's parents initially approve of his desire to marry the acrobat's daughter?", "answer": "No, his mother was taken aback and his father was shocked." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Journey of Ilächikumar",
+    "children": [
+      {
+        "name": "The Worldly Desire",
+        "children": [
+          { "name": "Infatuation with Acrobat's Daughter" },
+          { "name": "The Impossible Condition" },
+          { "name": "Leaves Home to Become an Acrobat" }
+        ]
+      },
+      {
+        "name": "The Mundane Trial",
+        "children": [
+          { "name": "Performs for the King of Benätat" },
+          { "name": "The King's Treachery" },
+          { "name": "Forced to Repeat Performance" }
+        ]
+      },
+      {
+        "name": "The Spiritual Awakening",
+        "children": [
+          { "name": "Observes the Detached Monk" },
+          { "name": "Realizes the Illusion of Desire" },
+          { "name": "Applies Vigilance to the Soul" }
+        ]
+      },
+      {
+        "name": "The Ultimate Attainment",
+        "children": [
+          { "name": "Achieves Keval-jnän on the Rope" },
+          { "name": "Walks Away Liberated" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Ilächikumar: From Infatuation to Enlightenment",
+    "children": [
+      {
+        "name": "The Chase",
+        "children": [
+          { "name": "Worldly Love" },
+          { "name": "The Sacrifice" }
+        ]
+      },
+      {
+        "name": "The Test",
+        "children": [
+          { "name": "A King's Lust" },
+          { "name": "A Perilous Performance" }
+        ]
+      },
+      {
+        "name": "The Catalyst",
+        "children": [
+          { "name": "The Detached Monk" },
+          { "name": "The Sudden Realization" }
+        ]
+      },
+      {
+        "name": "The Liberation",
+        "children": [
+          { "name": "Omniscience on a Rope" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "Love at First Sight",
+      "description": "The wealthy Ilächikumar is completely captivated by the grace and beauty of an acrobat's daughter during a street performance.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Ilächikumar+is+Mesmerized",
+      "imageAlt": "A well-dressed young man in a crowd, looking with intense focus at a dancing girl."
+    },
+    {
+      "title": "A New Life",
+      "description": "To win his love's hand, Ilächikumar abandons his life of luxury, joining the acrobat troupe and diligently learning their difficult craft.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Learning+the+Ropes",
+      "imageAlt": "A young man, now in simple clothes, practicing balancing on a low rope with determination."
+    },
+    {
+      "title": "The King's Deceit",
+      "description": "While Ilächikumar performs high above, the treacherous king of Benätat feigns distraction, secretly hoping the young acrobat will fall.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Treacherous+King",
+      "imageAlt": "A king on a balcony looking away with a sly expression while an acrobat performs on a high wire."
+    },
+    {
+      "title": "A Glimpse of Truth",
+      "description": "From his high perch, Ilächikumar sees a serene Jain monk completely unmoved by a beautiful woman offering him food, an image of perfect detachment.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Detached+Monk",
+      "imageAlt": "A view from above showing a monk calmly accepting food, ignoring the offerer's beauty."
+    },
+    {
+      "title": "Enlightenment on the High Wire",
+      "description": "In a flash of insight, inspired by the monk, Ilächikumar turns his focus inward and attains ultimate knowledge (Keval-jnän) while balanced on the tightrope.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Omniscience+on+the+Rope",
+      "imageAlt": "An acrobat on a high wire, no longer performing, but glowing with a serene, powerful light."
+    },
+    {
+      "title": "The Final Walk",
+      "description": "Having achieved liberation, the now-enlightened Ilächikumar climbs down from the rope and calmly walks away from his former life, fame, and desires forever.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+Liberated+Soul+Departs",
+      "imageAlt": "A figure walking away from a circus-like scene into a simple, serene landscape."
+    }
+  ]
+}
