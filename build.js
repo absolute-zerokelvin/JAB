@@ -148,7 +148,12 @@ class JABBuilder {
     async processHTMLFiles(cssMap, jsMap) {
         console.log('📄 Processing HTML files...');
         
-        const htmlFiles = ['index.html', 'story.html','timeline_duration-junior.html', 'timeline_duration-senior.html'];
+        const htmlFiles = [
+            'index.html', 
+            'story.html',
+            'timeline_duration-junior.html', 
+            'timeline_duration-senior.html',
+            'timeline-k-to-m.html'];
         
         for (const file of htmlFiles) {
             const srcPath = path.join(this.sourceDir, file);
