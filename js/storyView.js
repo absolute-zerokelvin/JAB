@@ -130,33 +130,53 @@ function generateQuiz(quizData) {
     const container = document.getElementById('quiz-tab');
     if (!container) return;
     
-    const quizContainer = document.createElement('div');
-    quizContainer.className = 'quiz-container';
+    // Add a title for the quiz section
+    const quizTitle = document.createElement('h2');
+    quizTitle.className = 'text-center mb-8 text-2xl font-bold';
+    quizTitle.style.color = 'var(--primary-blue-dark)';
+    quizTitle.textContent = '';
+    container.appendChild(quizTitle);
     
-    quizData.forEach((item, index) => {
-        const questionDiv = document.createElement('div');
-        questionDiv.className = 'quiz-question';
-        
-        const questionText = document.createElement('p');
-        questionText.innerHTML = `<strong>Q${index + 1}:</strong> ${item.question}`;
-        questionDiv.appendChild(questionText);
-        
-        const button = document.createElement('button');
-        button.className = 'show-answer-btn';
-        button.textContent = 'Show Answer';
-        button.setAttribute('onclick', 'toggleAnswer(this)');
-        questionDiv.appendChild(button);
-        
-        const answer = document.createElement('div');
-        answer.className = 'quiz-answer';
-        answer.textContent = item.answer;
-        answer.style.display = 'none';
-        questionDiv.appendChild(answer);
-        
-        quizContainer.appendChild(questionDiv);
-    });
+    // Create format selector
+    const formatSelector = document.createElement('div');
+    formatSelector.className = 'quiz-format-selector';
     
-    container.appendChild(quizContainer);
+    const formatLabel = document.createElement('p');
+    formatLabel.className = 'format-label';
+    formatLabel.textContent = 'Choose format:';
+    formatSelector.appendChild(formatLabel);
+    
+    // Create a button group container for better styling
+    const buttonGroup = document.createElement('div');
+    buttonGroup.className = 'format-button-group';
+    buttonGroup.style.display = 'flex';
+    buttonGroup.style.gap = '10px';
+    
+    const flashcardButton = document.createElement('button');
+    flashcardButton.className = 'format-button active'; // Set active by default
+    flashcardButton.textContent = 'Flash Cards';
+    flashcardButton.setAttribute('data-format', 'flashcard');
+    flashcardButton.addEventListener('click', () => switchQuizFormat('flashcard', quizData));
+    buttonGroup.appendChild(flashcardButton);
+    
+    const qaButton = document.createElement('button');
+    qaButton.className = 'format-button';
+    qaButton.textContent = 'Q & A Format';
+    qaButton.setAttribute('data-format', 'qa');
+    qaButton.addEventListener('click', () => switchQuizFormat('qa', quizData));
+    buttonGroup.appendChild(qaButton);
+    
+    formatSelector.appendChild(buttonGroup);
+    container.appendChild(formatSelector);
+    
+    // Create content container with a transition effect
+    const contentContainer = document.createElement('div');
+    contentContainer.id = 'quiz-content-container';
+    contentContainer.style.transition = 'opacity 0.3s ease';
+    container.appendChild(contentContainer);
+    
+    // Default to Flashcard format on load
+    renderFlashcardFormat(quizData, contentContainer);
 }
 
 // --- Mind Map (v1) Generation ---
@@ -458,4 +478,207 @@ function generateStory(storyContent) {
     }
     
     container.appendChild(proseDiv);
+}
+
+// --- Quiz Format Functions ---
+function renderQAFormat(quizData, container) {
+    // Clear container
+    container.innerHTML = '';
+    
+    const quizContainer = document.createElement('div');
+    quizContainer.className = 'quiz-container qa-format';
+    
+    quizData.forEach((item, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'quiz-question';
+        
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>Q${index + 1}:</strong> ${item.question}`;
+        questionDiv.appendChild(questionText);
+        
+        const button = document.createElement('button');
+        button.className = 'show-answer-btn';
+        button.textContent = 'Show Answer';
+        button.setAttribute('onclick', 'toggleAnswer(this)');
+        questionDiv.appendChild(button);
+        
+        const answer = document.createElement('div');
+        answer.className = 'quiz-answer';
+        answer.textContent = item.answer;
+        answer.style.display = 'none';
+        questionDiv.appendChild(answer);
+        
+        quizContainer.appendChild(questionDiv);
+    });
+    
+    container.appendChild(quizContainer);
+}
+
+function renderFlashcardFormat(quizData, container) {
+    // Clear container
+    container.innerHTML = '';
+    
+    const flashcardContainer = document.createElement('div');
+    flashcardContainer.className = 'flashcard-container';
+    
+    // Create flashcard navigation
+    const navContainer = document.createElement('div');
+    navContainer.className = 'flashcard-navigation';
+    
+    const prevButton = document.createElement('button');
+    prevButton.className = 'flashcard-nav-btn';
+    prevButton.textContent = '← Previous';
+    prevButton.onclick = (e) => {
+        e.stopPropagation(); // Prevent triggering card flip when clicking navigation
+        navigateFlashcard('prev');
+    };
+    navContainer.appendChild(prevButton);
+    
+    const cardCounter = document.createElement('span');
+    cardCounter.className = 'flashcard-counter';
+    cardCounter.id = 'flashcard-counter';
+    cardCounter.textContent = '1/' + quizData.length;
+    navContainer.appendChild(cardCounter);
+    
+    const nextButton = document.createElement('button');
+    nextButton.className = 'flashcard-nav-btn';
+    nextButton.textContent = 'Next →';
+    nextButton.onclick = (e) => {
+        e.stopPropagation(); // Prevent triggering card flip when clicking navigation
+        navigateFlashcard('next');
+    };
+    navContainer.appendChild(nextButton);
+    
+    flashcardContainer.appendChild(navContainer);
+    
+    // Create flashcard display
+    const cardDisplay = document.createElement('div');
+    cardDisplay.className = 'flashcard-display';
+    cardDisplay.id = 'flashcard-display';
+    cardDisplay.setAttribute('data-current-card', '0');
+    cardDisplay.setAttribute('data-total-cards', quizData.length);
+    
+    // Create the cards
+    quizData.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'flashcard';
+        card.id = `flashcard-${index}`;
+        card.style.display = index === 0 ? 'block' : 'none';
+        
+        const cardInner = document.createElement('div');
+        cardInner.className = 'flashcard-inner';
+        cardInner.setAttribute('data-flipped', 'false');
+        card.appendChild(cardInner);
+        
+        const cardFront = document.createElement('div');
+        cardFront.className = 'flashcard-front';
+        cardFront.innerHTML = `<p>${item.question}</p>`;
+        cardInner.appendChild(cardFront);
+        
+        const cardBack = document.createElement('div');
+        cardBack.className = 'flashcard-back';
+        cardBack.innerHTML = `<p>${item.answer}</p>`;
+        cardInner.appendChild(cardBack);
+        
+        card.addEventListener('click', function(e) {
+            const isFlipped = cardInner.getAttribute('data-flipped') === 'true';
+            cardInner.setAttribute('data-flipped', !isFlipped);
+            cardInner.classList.toggle('flipped');
+        });
+        
+        cardDisplay.appendChild(card);
+    });
+    
+    flashcardContainer.appendChild(cardDisplay);
+    container.appendChild(flashcardContainer);
+    
+    // Add instructions text
+    const instructionsText = document.createElement('p');
+    instructionsText.className = 'flashcard-instructions';
+    instructionsText.textContent = 'Click on the card to flip it and reveal the answer.';
+    instructionsText.style.textAlign = 'center';
+    instructionsText.style.marginTop = '20px';
+    instructionsText.style.color = '#6c757d';
+    instructionsText.style.fontStyle = 'italic';
+    container.appendChild(instructionsText);
+}
+
+function navigateFlashcard(direction) {
+    const cardDisplay = document.getElementById('flashcard-display');
+    if (!cardDisplay) return;
+    
+    const currentIndex = parseInt(cardDisplay.getAttribute('data-current-card'));
+    const totalCards = parseInt(cardDisplay.getAttribute('data-total-cards'));
+    
+    let newIndex;
+    if (direction === 'next') {
+        newIndex = (currentIndex + 1) % totalCards;
+    } else {
+        newIndex = (currentIndex - 1 + totalCards) % totalCards;
+    }
+    
+    // Hide current card with a fade-out effect
+    const currentCard = document.getElementById(`flashcard-${currentIndex}`);
+    currentCard.style.opacity = '0';
+    
+    // Use a short timeout for the transition effect
+    setTimeout(() => {
+        currentCard.style.display = 'none';
+        currentCard.style.opacity = '1';
+        
+        // Show new card
+        const newCard = document.getElementById(`flashcard-${newIndex}`);
+        newCard.style.display = 'block';
+        
+        // Ensure card is not flipped initially
+        const cardInner = newCard.querySelector('.flashcard-inner');
+        cardInner.setAttribute('data-flipped', 'false');
+        cardInner.classList.remove('flipped');
+        
+        // Update counter with card number indicator
+        document.getElementById('flashcard-counter').textContent = `${newIndex + 1}/${totalCards}`;
+        
+        // Update current card index
+        cardDisplay.setAttribute('data-current-card', newIndex);
+    }, 150);
+}
+
+function switchQuizFormat(format, quizData) {
+    const contentContainer = document.getElementById('quiz-content-container');
+    if (!contentContainer) return;
+    
+    // Add fade-out transition
+    contentContainer.style.opacity = '0';
+    
+    // Update active button with visual feedback
+    const buttons = document.querySelectorAll('.format-button');
+    buttons.forEach(btn => {
+        btn.classList.remove('active');
+        // Remove any transition classes if they exist
+        btn.classList.remove('btn-pulse');
+        
+        if (btn.getAttribute('data-format') === format) {
+            // Add a small delay before adding the active class for better visual effect
+            setTimeout(() => {
+                btn.classList.add('active');
+                // Optional: add a pulse effect to the button when activated
+                btn.classList.add('btn-pulse');
+            }, 50);
+        }
+    });
+    
+    // Use a short timeout for the transition effect
+    setTimeout(() => {
+        // Render appropriate format
+        if (format === 'qa') {
+            renderQAFormat(quizData, contentContainer);
+        } else if (format === 'flashcard') {
+            renderFlashcardFormat(quizData, contentContainer);
+        }
+        
+        // Fade back in
+        setTimeout(() => {
+            contentContainer.style.opacity = '1';
+        }, 50);
+    }, 300);
 }
