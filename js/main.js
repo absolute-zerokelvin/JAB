@@ -33,6 +33,10 @@ function createNavigationHTML(navData, isMobile = false) {
                 <div class="nav-header">
                     <h3 class="nav-title"><a href="./index.html" class="nav-home-link">${nav.title}</a></h3>
                     <p class="nav-subtitle">${nav.subtitle}</p>
+                    <div class="nav-controls">
+                        <button class="nav-expand-all" onclick="expandAllSections()">Expand All</button>
+                        <button class="nav-collapse-all" onclick="collapseAllSections()">Collapse All</button>
+                    </div>
                 </div>
                 <ul class="nav-sections">
     `;
@@ -103,6 +107,36 @@ function toggleSection(sectionId) {
     }
 }
 
+// Expand all navigation sections
+function expandAllSections() {
+    if (!navigationData) return;
+    
+    navigationData.navigation.sections.forEach(section => {
+        const subsections = document.getElementById(section.id + '-subsections');
+        const toggle = document.querySelector(`[onclick="toggleSection('${section.id}')"] .section-toggle`);
+        
+        if (subsections && toggle) {
+            subsections.style.display = 'block';
+            toggle.textContent = '▲';
+        }
+    });
+}
+
+// Collapse all navigation sections
+function collapseAllSections() {
+    if (!navigationData) return;
+    
+    navigationData.navigation.sections.forEach(section => {
+        const subsections = document.getElementById(section.id + '-subsections');
+        const toggle = document.querySelector(`[onclick="toggleSection('${section.id}')"] .section-toggle`);
+        
+        if (subsections && toggle) {
+            subsections.style.display = 'none';
+            toggle.textContent = '▼';
+        }
+    });
+}
+
 // Toggle mobile navigation
 function toggleMobileNav() {
     const nav = document.getElementById('mainNavigation');
@@ -138,6 +172,9 @@ async function initializeNavigation() {
             subsections.style.display = 'none';
         }
     });
+    
+    // Store the navigation data globally for use in expand/collapse all functions
+    navigationData = navData;
 }
 
 // Render homepage content
@@ -150,7 +187,25 @@ async function renderHomepageContent() {
     
     let html = '';
     
-    // Render sections
+    // Add About section at the top
+    html += `
+        <div class="section-card" id="about">
+            <h2 class="section-card-title">About JAB Manual Interactive</h2>
+            <p class="section-card-description">
+                Welcome to the JAB Manual Interactive - your comprehensive digital companion for exploring 
+                Jain Academic Bowl content. The source is JAB Manual 5th edition Oct 2024. This interactive platform brings traditional stories and teachings 
+                to life through engaging digital experiences to help prepare for JAB.
+            </p>
+            <p class="section-card-description">
+                This interactive manual was developed with valuable input and guidance from the JAB Teachers of JCNC (Jain Center of Northern California).
+            </p>
+            <p class="section-card-description">
+                <strong>Important Notice:</strong> Content is generated through LLM and spot checked, but it's possible that due to hallucination or wrong prompts, there may be factual errors with respect to what is in the source manual. If you notice errors, please report them as issues on GitHub  <a href="https://github.com/absolute-zerokelvin/JAB/issues" target="_blank" rel="noopener noreferrer">https://github.com/absolute-zerokelvin/JAB/issues</a> Feel free to submit a PR as well with changes.
+            </p>
+        </div>
+    `;
+    
+    // Render sections after the About section
     navData.navigation.sections.forEach(section => {
         html += `
             <div class="section-card">
@@ -175,25 +230,6 @@ async function renderHomepageContent() {
             </div>
         `;
     });
-    
-    // Add About section placeholder
-    html += `
-        <div class="section-card" id="about">
-            <h2 class="section-card-title">About JAB Manual Interactive</h2>
-            <p class="section-card-description">
-                Welcome to the JAB Manual Interactive - your comprehensive digital companion for exploring 
-                Jain Academic Bowl content. The source is JAB Manual 5th edition Oct 2024. This interactive platform brings traditional stories and teachings 
-                to life through engaging digital experiences to help prepare for JAB.
-            </p>
-            <p class="section-card-description">
-                This interactive manual was developed with valuable input and guidance from the JAB Teachers of JCNC (Jain Center of Northern California).
-            </p>
-            <p class="section-card-description">
-                <strong>Important Notice:</strong> Content is generated through LLM and spot checked, but it's possible that due to hallucination or wrong prompts, there may be factual errors with respect to what is in the source manual. If you notice errors, please report them as issues on GitHub  <a href="https://github.com/absolute-zerokelvin/JAB/issues" target="_blank" rel="noopener noreferrer">https://github.com/absolute-zerokelvin/JAB/issues</a> Feel free to submit a PR as well with changes.
-            </p>
-
-        </div>
-    `;
     
     contentContainer.innerHTML = html;
 }

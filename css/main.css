@@ -219,6 +219,29 @@ footer.bg-emerald-700 {
     margin: 0;
 }
 
+.nav-controls {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+.nav-expand-all,
+.nav-collapse-all {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background-color: var(--very-light-blue);
+    color: var(--primary-blue);
+    border: 1px solid var(--accent-blue);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nav-expand-all:hover,
+.nav-collapse-all:hover {
+    background-color: var(--light-blue);
+}
+
 .nav-sections {
     list-style: none;
     padding: 0;
