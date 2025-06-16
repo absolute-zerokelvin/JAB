@@ -1,0 +1,221 @@
+{
+  "title": "Nails in the Ears: Last Calamity for Bhagawän Mahävir",
+  "subtitle": "Section H.4 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Painful Encounter"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "In the thirteenth year of his ascetic life, <span class=\"highlight\">Bhagawän Mahävir</span> was meditating near the village of Chammani. A cowherd, the same one from a previous encounter, left his oxen in Mahävir's care. When he returned, the oxen had wandered off. Furious at the silent, meditating monk, he shouted, “You hypocrite! Are you deaf?”"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "When Mahävir remained unresponsive, the cowherd's anger boiled over. He picked long, nail-like thorns from a nearby shrub and, in a fit of rage, hammered them deep into Mahävir’s ears. Even this <span class=\"highlight\">excruciating agony</span> did not stir Mahävir from his meditation or evoke any feeling of anger."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Doctor's Diagnosis"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" ath d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" svg>Later, Mahävir went for alms at the house of a trader named Siddhärtha, where a physician named <span class=\"highlight\">Kharak</span> was also present. The physician noticed that despite the monk's divine glow, his eyes showed signs of some inner agony. The two men followed Mahävir and, upon examination, discovered the thorns stuck in his ears."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "They carefully removed the thorns with medicated oil and tongs. The pain of the removal was so unbearable that an anguished cry was forced out of Mahävir. This was his last great physical calamity before attaining omniscience."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Karmic Cause"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The reason Mahävir had to endure this specific torture was due to a past action. In his 18th previous life as <span class=\"highlight\">Triprushtha Väsudev</span>, he had liked to sleep while listening to music. When a servant forgot to stop the music after he fell asleep, he was furious. As punishment, he had <span class=\"highlight\">hot lead poured into the servant’s ears</span>. That very servant was reborn as the cowherd who hammered the thorns into his ears, thus balancing the karmic debt."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Cause",
+      "period": "18th Past Life (as Triprushtha Väsudev)",
+      "events": [
+        {
+          "title": "A Cruel Punishment",
+          "description": "As Triprushtha Väsudev, he punishes a servant for not stopping music by having hot lead poured into the servant's ears.",
+          "characters": ["Triprushtha Väsudev", "The Servant"]
+        }
+      ]
+    },
+    {
+      "era": "The Effect",
+      "period": "13th Year of Asceticism (as Mahävir)",
+      "events": [
+        {
+          "title": "A Cowherd's Anger",
+          "description": "A cowherd (the reborn servant) becomes enraged with the meditating Mahävir over his missing oxen.",
+          "characters": ["Bhagawän Mahävir", "The Cowherd"]
+        },
+        {
+          "title": "The Last Calamity",
+          "description": "The herder hammers long, sharp thorns into Mahävir's ears, causing excruciating pain.",
+          "characters": ["Bhagawän Mahävir", "The Cowherd"]
+        }
+      ]
+    },
+    {
+      "era": "The Resolution",
+      "period": "In Päväpuri",
+      "events": [
+        {
+          "title": "A Doctor's Insight",
+          "description": "A physician named Kharak notices Mahävir's hidden pain and discovers the thorns.",
+          "characters": ["Bhagawän Mahävir", "Kharak", "Siddhärtha"]
+        },
+        {
+          "title": "The Painful Removal",
+          "description": "The thorns are removed, causing Mahävir to cry out in agony, thus bearing the final consequence of his past karma.",
+          "characters": ["Bhagawän Mahävir", "Kharak"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Bhagawän Mahävir",
+      "description": "In his final life, he endured his last great physical calamity with perfect equanimity, bearing the painful consequences of a violent act from a past life."
+    },
+    {
+      "name": "The Cowherd",
+      "description": "The reincarnation of a servant whom Mahävir had punished in a past life. He became the instrument through which the karmic debt was paid."
+    },
+    {
+      "name": "Kharak, the Physician",
+      "description": "An observant doctor who recognized Mahävir's hidden suffering and was able to render aid by removing the thorns."
+    },
+    {
+      "name": "Triprushtha Väsudev",
+      "description": "The name of Mahävir's soul in his 18th past life. It was in this life that he committed the act of pouring hot lead into a servant's ears."
+    }
+  ],
+  "quizData": [
+    { "question": "In which year of his ascetic life did this calamity occur?", "answer": "In the thirteenth year." },
+    { "question": "Why was the cowherd angry with Mahävir?", "answer": "His oxen had wandered away, and he wrongly believed the silent monk was being unhelpful or deceptive." },
+    { "question": "What did the cowherd do to Mahävir's ears?", "answer": "He hammered long, nail-like thorns deep into them." },
+    { "question": "How did Mahävir react to this excruciating pain?", "answer": "It did not move him from his meditation or evoke any feeling of anger or aversion." },
+    { "question": "Who was the physician who noticed Mahävir's hidden pain?", "answer": "A doctor named Kharak." },
+    { "question": "What was the name of the trader at whose house the doctor saw Mahävir?", "answer": "Siddhärtha." },
+    { "question": "What happened when the doctor and the trader removed the thorns?", "answer": "The pain was so unbearable that an anguished cry was forced out of Mahävir." },
+    { "question": "This incident was the consequence of an action from which of Mahävir's past lives?", "answer": "His 18th life as Triprushtha Väsudev." },
+    { "question": "What had Mahävir done in that past life to acquire this specific karma?", "answer": "He had hot lead poured into a servant's ears." },
+    { "question": "Why had he punished the servant in that way?", "answer": "Because the servant had forgotten to stop playing music after he had fallen asleep." },
+    { "question": "Who was the cowherd in relation to this past life?", "answer": "He was the reincarnation of the servant whose ears had been harmed." },
+    { "question": "What does this story primarily illustrate about karma?", "answer": "That one must always bear the consequences of one's actions, whether good or bad." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Last Calamity",
+    "children": [
+      {
+        "name": "The Karmic Cause",
+        "children": [
+          { "name": "Life as Triprushtha Väsudev" },
+          { "name": "Pours hot lead in servant's ears" }
+        ]
+      },
+      {
+        "name": "The Karmic Effect",
+        "children": [
+          { "name": "Life as Mahävir" },
+          { "name": "Cowherd (reborn servant) gets angry" },
+          { "name": "Hammers thorns in Mahävir's ears" }
+        ]
+      },
+      {
+        "name": "The Resolution",
+        "children": [
+          { "name": "Doctor discovers thorns" },
+          { "name": "Painful removal" },
+          { "name": "The karmic debt is paid" }
+        ]
+      },
+      {
+        "name": "The Moral",
+        "children": [
+          { "name": "One must bear the consequences of karma" },
+          { "name": "Conquest of the soul over physical pain" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "A Karmic Debt Paid",
+    "children": [
+      {
+        "name": "The Past Act",
+        "children": [
+          { "name": "Hot Lead" }
+        ]
+      },
+      {
+        "name": "The Present Consequence",
+        "children": [
+          { "name": "Sharp Thorns" },
+          { "name": "Excruciating Pain" }
+        ]
+      },
+      {
+        "name": "The Spiritual Victory",
+        "children": [
+          { "name": "Perfect Equanimity" },
+          { "name": "Final Calamity Endured" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Cruel Past Deed",
+      "description": "In a past life as a powerful Väsudev, Mahävir's soul committed a terrible act: punishing a servant by having hot lead poured into his ears.",
+      "imageSrc": "https://placehold.co/600x400/7f1d1d/fef2f2?text=The+Punishment+with+Hot+Lead",
+      "imageAlt": "A powerful king directing a cruel punishment upon a servant."
+    },
+    {
+      "title": "A Cowherd's Rage",
+      "description": "Now as Mahävir, the reborn servant—a cowherd—becomes enraged with the silent monk and hammers sharp thorns into his ears.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Thorns+Hammered+into+Ears",
+      "imageAlt": "An angry cowherd forcing sharp thorns into the ears of a meditating monk."
+    },
+    {
+      "title": "Unwavering Meditation",
+      "description": "Despite the excruciating agony of the thorns, Bhagawän Mahävir's meditation is unbroken, demonstrating his complete mastery over his body and pain.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Meditation+Through+Pain",
+      "imageAlt": "A close-up of Mahävir's serene face in meditation, even with thorns visible in his ears."
+    },
+    {
+      "title": "A Doctor's Discovery",
+      "description": "An observant physician named Kharak notices a hint of suffering in the monk's divine face and discovers the terrible source of his pain.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Doctor+Discovers+the+Thorns",
+      "imageAlt": "A doctor leaning in to examine the ear of the meditating Mahävir."
+    },
+    {
+      "title": "The Debt is Paid",
+      "description": "The removal of the thorns causes unbearable agony, forcing a cry from Mahävir. This moment of suffering completes the payment of his ancient karmic debt.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Excruciating+Removal",
+      "imageAlt": "A doctor carefully removing a thorn from Mahävir's ear, with the monk's face showing immense pain."
+    },
+    {
+      "title": "Conquest of the Soul",
+      "description": "By enduring this final calamity with perfect equanimity, Mahävir demonstrates the ultimate victory of the soul over physical suffering and past karma.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+Soul's+Triumph",
+      "imageAlt": "Mahävir standing peacefully in meditation after his ordeal, glowing with a renewed spiritual light."
+    }
+  ]
+}

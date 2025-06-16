@@ -1,0 +1,242 @@
+{
+  "title": "The Story of Shälibhadra",
+  "subtitle": "Section H.9 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Charitable Past Life"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "In a past life, a poor boy was sad because he had no kheer (rice pudding) like his friends. His mother lovingly prepared some for him. Just as he was about to eat, a Jain monk arrived asking for alms. Without hesitation, the hungry boy gave his entire bowl of kheer to the monk. This selfless act of charity earned him immense good karma."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Life of Unparalleled Luxury"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" /><path d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" /></svg>The boy was reborn as <span class=\"highlight\">Shälibhadra</span>, the son of the wealthy Bhadrä Shethäni. He lived a life of such lavish luxury that even heavenly beings were jealous. He married 32 beautiful women and was so sheltered by his mother that he knew nothing of the world outside his palace, not even that there was a king who ruled over the city."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "One day, <span class=\"highlight\">King Shrenik</span> heard of Shälibhadra's wealth and came to visit. When Shälibhadra was told his 'master' had arrived, the word echoed in his mind. He thought, “Why should I have a master over me? I should be the master of myself.” This single thought sparked a powerful sense of detachment."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Challenge and a Mass Renunciation"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Shälibhadra decided to renounce the world. His brother-in-law, <span class=\"highlight\">Dhannä</span>, upon hearing that Shälibhadra planned to wait 32 days, laughed and called him a coward. Stung by this, Dhannä's wife challenged him back, saying, “It is easier said than done.” This sparked a realization in Dhannä himself, who immediately vowed to become a monk."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Dhannä then challenged Shälibhadra to renounce immediately with him. Shälibhadra accepted. Seeing their determination, Shälibhadra's 32 wives and Dhannä's 8 wives, including Shälibhadra's sister Subhadrä, all decided to become nuns. Together, this large group went to <span class=\"highlight\">Bhagawän Mahävir</span>, took Dikshä, and began their spiritual journeys, destined for eventual liberation."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Previous Life",
+      "period": "A past birth",
+      "events": [
+        {
+          "title": "A Boy's Charity",
+          "description": "A poor boy selflessly gives his only bowl of kheer to a hungry Jain monk.",
+          "characters": ["The Poor Boy (Shälibhadra's past self)", "The Jain Monk"]
+        },
+        {
+          "title": "A Karmic Reward",
+          "description": "This act of pure charity earns him immense good karma, setting the stage for his next life.",
+          "characters": ["The Poor Boy"]
+        }
+      ]
+    },
+    {
+      "era": "A Life of Luxury",
+      "period": "Rebirth as Shälibhadra",
+      "events": [
+        {
+          "title": "A Rich Birth",
+          "description": "The soul is reborn as Shälibhadra into an incredibly wealthy family, living a life of unimaginable luxury with 32 wives.",
+          "characters": ["Shälibhadra", "Bhadrä Shethäni"]
+        },
+        {
+          "title": "The King's Visit",
+          "description": "King Shrenik visits Shälibhadra's palace, which is even grander than his own.",
+          "characters": ["King Shrenik", "Shälibhadra", "Bhadrä Shethäni"]
+        },
+        {
+          "title": "The Awakening",
+          "description": "Hearing the word 'master' applied to the king makes Shälibhadra question his own freedom and sparks a desire for true self-mastery.",
+          "characters": ["Shälibhadra"]
+        }
+      ]
+    },
+    {
+      "era": "The Great Renunciation",
+      "period": "The decision to become a monk",
+      "events": [
+        {
+          "title": "A Challenge Between Brothers-in-Law",
+          "description": "Shälibhadra's brother-in-law, Dhannä, mocks his plan to wait 32 days to renounce, which in turn inspires Dhannä to renounce immediately.",
+          "characters": ["Shälibhadra", "Dhannä", "Subhadrä"]
+        },
+        {
+          "title": "A Mass Dikshä",
+          "description": "Inspired by the two men's resolve, all 40 of their wives also decide to become nuns. The entire group goes to Mahävir and takes Dikshä.",
+          "characters": ["Shälibhadra", "Dhannä", "The 40 Wives", "Bhagawän Mahävir"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Shälibhadra",
+      "description": "A soul who, due to a selfless act of charity in a past life, was reborn into immense wealth. A chance encounter with his king sparked a deep sense of detachment, leading him to renounce his luxurious life to become a monk."
+    },
+    {
+      "name": "Dhannä",
+      "description": "Shälibhadra's brother-in-law. His casual taunt about Shälibhadra's perceived cowardice backfired, causing him to have his own spiritual awakening and renounce the world on the spot."
+    },
+    {
+      "name": "Bhadrä Shethäni",
+      "description": "Shälibhadra's mother, a woman of incredible wealth who sheltered her son from the outside world."
+    },
+    {
+      "name": "King Shrenik",
+      "description": "The King of the region. His visit to Shälibhadra's palace inadvertently triggered Shälibhadra's path to renunciation."
+    },
+    {
+      "name": "Subhadrä",
+      "description": "Shälibhadra's sister and the wife of Dhannä. Her conversation with her husband sparked the chain of events that led to the mass renunciation."
+    }
+  ],
+  "quizData": [
+    { "question": "In his previous life, what did the poor boy offer to the Jain monk?", "answer": "His entire bowl of kheer (rice pudding)." },
+    { "question": "What was the name of Shälibhadra's mother?", "answer": "Bhadrä Shethäni." },
+    { "question": "How many wives did Shälibhadra have?", "answer": "Thirty-two (32)." },
+    { "question": "What expensive items did Bhadrä Shethäni buy from the merchants from Nepal?", "answer": "Sixteen diamond-studded shawls." },
+    { "question": "What did she do with these expensive shawls?", "answer": "She tore them in half and gave them to her daughters-in-law to wipe their feet." },
+    { "question": "Who was the king who came to visit Shälibhadra's palace?", "answer": "King Shrenik." },
+    { "question": "What word sparked Shälibhadra's desire for renunciation?", "answer": "The word 'master,' which made him question why anyone should be master over him." },
+    { "question": "Who was Shälibhadra's brother-in-law?", "answer": "Dhannä." },
+    { "question": "What did Dhannä call Shälibhadra for planning to wait 32 days to renounce?", "answer": "A coward." },
+    { "question": "What was the immediate result of the conversation between Dhannä and his wife Subhadrä?", "answer": "Dhannä himself decided to renounce everything and become a monk immediately." },
+    { "question": "In the end, who took Dikshä along with Shälibhadra and Dhannä?", "answer": "Shälibhadra's 32 wives and Dhannä's 8 wives (including Shälibhadra's sister)." },
+    { "question": "From whom did they all take Dikshä?", "answer": "From Bhagawän Mahävir." },
+    { "question": "What was Shälibhadra's final destiny after his life as a monk?", "answer": "He was born as a heavenly being and would later be reborn as a human and attain liberation." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Shälibhadra",
+    "children": [
+      {
+        "name": "The Past Life",
+        "children": [
+          { "name": "A Poor Boy" },
+          { "name": "Selfless offering of Kheer" },
+          { "name": "Earns great merit (Punya)" }
+        ]
+      },
+      {
+        "name": "The Rebirth",
+        "children": [
+          { "name": "Born into extreme wealth" },
+          { "name": "Lives a sheltered, luxurious life" }
+        ]
+      },
+      {
+        "name": "The Awakening",
+        "children": [
+          { "name": "King Shrenik visits" },
+          { "name": "The word 'master' sparks detachment" },
+          { "name": "Decides to renounce" }
+        ]
+      },
+      {
+        "name": "The Mass Renunciation",
+        "children": [
+          { "name": "Challenged by brother-in-law Dhannä" },
+          { "name": "Dhannä renounces on the spot" },
+          { "name": "Shälibhadra, Dhannä, and all their wives take Dikshä" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Shälibhadra: From Charity to Liberation",
+    "children": [
+      {
+        "name": "The Cause",
+        "children": [
+          { "name": "The Gift of Kheer" }
+        ]
+      },
+      {
+        "name": "The Effect",
+        "children": [
+          { "name": "A Life of Luxury" }
+        ]
+      },
+      {
+        "name": "The Catalyst",
+        "children": [
+          { "name": "The King's Visit" },
+          { "name": "The Challenge" }
+        ]
+      },
+      {
+        "name": "The Result",
+        "children": [
+          { "name": "Mass Renunciation" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Boy's Selfless Gift",
+      "description": "In a past life, a poor but kind boy gives his only bowl of kheer to a hungry Jain monk without a second thought.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Gift+of+Kheer",
+      "imageAlt": "A poor boy offering a bowl of food to a monk."
+    },
+    {
+      "title": "A Life of Luxury",
+      "description": "Reborn as Shälibhadra, he lives in a palace of unimaginable wealth with 32 wives, so sheltered that he is unaware there is even a king.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Shälibhadra's+Lavish+Palace",
+      "imageAlt": "A man surrounded by luxury and many beautifully dressed women in a grand palace."
+    },
+    {
+      "title": "The Awakening Word",
+      "description": "When King Shrenik visits, Shälibhadra hears the word 'master' and it triggers a deep realization, making him question his own freedom and purpose.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Word+'Master'",
+      "imageAlt": "A man looking thoughtful and stunned after hearing a single word from a king."
+    },
+    {
+      "title": "A Challenge Accepted",
+      "description": "Taunted by his brother-in-law Dhannä, Shälibhadra accepts the challenge to renounce his worldly life immediately.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Challenge",
+      "imageAlt": "Two men in a tense but determined standoff, with their wives looking on."
+    },
+    {
+      "title": "The Great Renunciation",
+      "description": "In an incredible event, Shälibhadra, Dhannä, and all 40 of their wives renounce their lives of wealth and pleasure to become monks and nuns.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=A+Mass+Renunciation",
+      "imageAlt": "A large group of wealthy people casting off their jewels and fine clothes to follow a spiritual path."
+    },
+    {
+      "title": "The Path to Liberation",
+      "description": "The entire group approaches Bhagawän Mahävir to take Dikshä, beginning their final journey towards destroying karma and attaining liberation.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Approaching+Bhagawän+Mahävir",
+      "imageAlt": "A large group of people bowing before Bhagawän Mahävir."
+    }
+  ]
+}

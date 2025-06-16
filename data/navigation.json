@@ -3,48 +3,7 @@
     "title": "JAB Story Explorer",
     "subtitle": " Mindmaps, Timelines & More",
     "sections": [
-      {
-        "id": "section-i",
-        "title": "Section I",
-        "description": "Stories and lessons from Section I",
-        "subsections": [
-          {
-            "id": "I1",
-            "title": "I.1",
-            "name": "The Story of Vajrakumär",
-            "url": "./story.html?section=I1",
-            "dataFile": "I1.json"
-          },
-          {
-            "id": "I2", 
-            "title": "I.2",
-            "name": "The Story of King Samprati",
-            "url": "./story.html?section=I2",
-            "dataFile": "I2.json"
-          },
-          {
-            "id": "I3",
-            "title": "I.3", 
-            "name": "The Temples of Delwädä",
-            "url": "./story.html?section=I3",
-            "dataFile": "I3.json"
-          },
-          {
-            "id": "I4",
-            "title": "I.4",
-            "name": "Udayan Mantri and His Sons", 
-            "url": "./story.html?section=I4",
-            "dataFile": "I4.json"
-          },
-          {
-            "id": "I5",
-            "title": "I.5",
-            "name": "The Nobility of Sävchand and Somchand",
-            "url": "./story.html?section=I5", 
-            "dataFile": "I5.json"
-          }
-        ]
-      },
+
       {
         "id": "section-e",
         "title": "Section E",
@@ -193,6 +152,160 @@
 
             ]
         },
+        {
+            "id": "section-h",
+            "title": "Section H",
+            "description": "Stories and lessons from Section H",
+            "subsections": [
+                {
+                    "id": "H1",
+                    "title": "H.1",
+                    "name": "The Story of Mahävir-swämi and the Cow Herder",
+                    "url": "./story.html?section=H1",
+                    "dataFile": "H1.json"
+                },
+                {
+                    "id": "H2",
+                    "title": "H.2",
+                    "name": "The Story of Chandkaushik",
+                    "url": "./story.html?section=H2",
+                    "dataFile": "H2.json"
+                },
+                {
+                    "id": "H3",
+                    "title": "H.3",
+                    "name": "The Story of Chandanbälä",
+                    "url": "./story.html?section=H3",
+                    "dataFile": "H3.json"
+                },
+                {
+                    "id": "H4",
+                    "title": "H.4",
+                    "name": "Nails in the Ears: Last Calamity for Bhagawän Mahävir",
+                    "url": "./story.html?section=H4",
+                    "dataFile": "H4.json"
+                },
+                {
+                    "id": "H5",
+                    "title": "H.5",
+                    "name": "The Story of Meghkumär",
+                    "url": "./story.html?section=H5",
+                    "dataFile": "H5.json"
+                },
+                {
+                    "id": "H6",
+                    "title": "H.6",
+                    "name": "The Story of Aimuttä Muni",
+                    "url": "./story.html?section=H6",
+                    "dataFile": "H6.json"
+                },
+                {
+                    "id": "H7",
+                    "title": "H.7",
+                    "name": "The Story of Änand Shrävak",
+                    "url": "./story.html?section=H7",
+                    "dataFile": "H7.json"
+                },
+                {
+                    "id": "H8",
+                    "title": "H.8",
+                    "name": "The Story of Puniä Shrävak",
+                    "url": "./story.html?section=H8",
+                    "dataFile": "H8.json"
+                },
+                {
+                    "id": "H9",
+                    "title": "H.9",
+                    "name": "The Story of Shälibhadra",
+                    "url": "./story.html?section=H9",
+                    "dataFile": "H9.json"
+                },
+                {
+                    "id": "H10",
+                    "title": "H.10",
+                    "name": "The Story of King Shrenik and Queen Chelnä",
+                    "url": "./story.html?section=H10",
+                    "dataFile": "H10.json"
+                },
+                {
+                    "id": "H11",
+                    "title": "H.11",
+                    "name": "The Story of King Shrenik and Anäthi Muni",
+                    "url": "./story.html?section=H11",
+                    "dataFile": "H11.json"
+                },
+                {
+                    "id": "H12",
+                    "title": "H.12",
+                    "name": "King Shrenik’s Destiny",
+                    "url": "./story.html?section=H12",
+                    "dataFile": "H12.json"
+                },
+                {
+                    "id": "H13",
+                    "title": "H.13",
+                    "name": "Monk Prasannachandra",
+                    "url": "./story.html?section=H13",
+                    "dataFile": "H13.json"
+                },
+                                {
+                    "id": "H13",
+                    "title": "H.13",
+                    "name": "Story of Monk Prasannachandra",
+                    "url": "./story.html?section=H13",
+                    "dataFile": "H13.json"
+                },
+                {
+                    "id": "H14",
+                    "title": "H.14",
+                    "name": "Story of Abhaykumär and Thief Rohineya",
+                    "url": "./story.html?section=H14",
+                    "dataFile": "H14.json"
+                }
+            ]
+        },
+      {
+        "id": "section-i",
+        "title": "Section I",
+        "description": "Stories and lessons from Section I",
+        "subsections": [
+          {
+            "id": "I1",
+            "title": "I.1",
+            "name": "The Story of Vajrakumär",
+            "url": "./story.html?section=I1",
+            "dataFile": "I1.json"
+          },
+          {
+            "id": "I2", 
+            "title": "I.2",
+            "name": "The Story of King Samprati",
+            "url": "./story.html?section=I2",
+            "dataFile": "I2.json"
+          },
+          {
+            "id": "I3",
+            "title": "I.3", 
+            "name": "The Temples of Delwädä",
+            "url": "./story.html?section=I3",
+            "dataFile": "I3.json"
+          },
+          {
+            "id": "I4",
+            "title": "I.4",
+            "name": "Udayan Mantri and His Sons", 
+            "url": "./story.html?section=I4",
+            "dataFile": "I4.json"
+          },
+          {
+            "id": "I5",
+            "title": "I.5",
+            "name": "The Nobility of Sävchand and Somchand",
+            "url": "./story.html?section=I5", 
+            "dataFile": "I5.json"
+          }
+        ]
+      },        
         {
             "id": "section-j",
             "title": "Section J",

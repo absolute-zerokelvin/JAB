@@ -1,0 +1,258 @@
+{
+  "title": "Abhaykumär and Thief Rohineya",
+  "subtitle": "H.14 from SECTION H: STORIES DURING BHAGAWÄN MAHÄVIR’S LIFE",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Thief's Promise"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "In the city of Räjgrihi lived a skilled burglar named <span class=\"highlight\">Lohkhur</span>. His son, <span class=\"highlight\">Rohineya</span>, surpassed him in skill, becoming a master thief who stole from the rich and gave to the poor, making him difficult to track. On his deathbed, Lohkhur made Rohineya promise one thing: to never listen to the sermons of <span class=\"highlight\">Bhagawän Mahävir</span>, believing them to be bad for their profession."
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Fateful Sermon"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "As Rohineya's thefts increased, <span class=\"highlight\">King Shrenik</span> tasked his intelligent minister, <span class=\"highlight\">Abhaykumär</span>, with his capture. One day, while passing Mahävir's assembly, Rohineya covered his ears as promised. However, a sharp thorn pierced his foot, forcing him to use his hands to remove it. In that brief moment, he overheard a part of the sermon describing the characteristics of heavenly beings: their feet don't touch the ground, they have no shadows, their eyes don't blink, and their garlands never wither."
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Minister's Trap"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Abhaykumär's men apprehended Rohineya, but he convincingly maintained a disguise as a simple farmer. Unable to prove his identity, Abhaykumär devised a plan. He had the unconscious Rohineya dressed in royal garments and placed in a staged 'heaven'. When Rohineya awoke, he was surrounded by luxury and told he had earned a place in heaven for his good deeds."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Rohineya was initially confused but suspicious. Remembering the sermon he had accidentally heard, he keenly observed the 'heavenly beings' around him. He noticed their feet touched the ground, their bodies cast shadows, and their eyes blinked. Realizing it was a trap, he maintained his cover story, saying his good deeds like charity and temple construction earned him this reward. With no confession, Abhaykumär was forced to set him free."
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Change of Heart"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Once free, Rohineya realized that the few words he accidentally heard had saved his life. He understood the immense power of Bhagawän Mahävir's teachings. He went to the assembly, confessed all his crimes to King Shrenik, and returned his stolen treasures. Pardoned by the king, he was accepted as a monk by Mahävir-swämi."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Rohineya deeply repented and performed severe austerities to cleanse his past karma. In his old age, he adopted <span class=\"highlight\">Sanlekhanä</span> (meditation until death) and was reborn in heaven."
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Rohineya",
+      "description": "A highly skilled and intelligent thief who stole from the rich and gave to the poor. His life was transformed after accidentally hearing a fragment of Bhagawän Mahävir's sermon."
+    },
+    {
+      "name": "Abhaykumär",
+      "description": "The brilliant chief minister of King Shrenik, known for his cleverness. He devised an elaborate psychological trap to make Rohineya confess."
+    },
+    {
+      "name": "Bhagawän Mahävir",
+      "description": "The omniscient Tirthankar whose powerful teachings, even when heard for a moment, had the ability to save a life and inspire complete transformation."
+    },
+    {
+      "name": "King Shrenik",
+      "description": "The ruler of Räjgrihi who, concerned for his citizens, assigned the task of capturing the elusive thief to his most capable minister."
+    },
+    {
+      "name": "Lohkhur",
+      "description": "Rohineya's father, a thief who gave his son the misguided advice to avoid the path of righteousness, which Rohineya initially promised to follow."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Life of a Thief",
+      "period": "Early Life",
+      "events": [
+        {
+          "title": "A Thief's Promise",
+          "description": "Rohineya becomes an expert thief and promises his dying father, Lohkhur, that he will never listen to Bhagawän Mahävir's sermons.",
+          "characters": ["Rohineya", "Lohkhur"]
+        },
+        {
+          "title": "The Minister's Task",
+          "description": "Rohineya's notoriety grows, prompting King Shrenik to assign minister Abhaykumär to capture him.",
+          "characters": ["Rohineya", "King Shrenik", "Abhaykumär"]
+        }
+      ]
+    },
+    {
+      "era": "The Turning Point",
+      "period": "During a theft attempt",
+      "events": [
+        {
+          "title": "The Thorn and the Sermon",
+          "description": "To remove a thorn from his foot, Rohineya uncovers his ears and accidentally hears a description of heavenly beings from Mahävir's sermon.",
+          "characters": ["Rohineya", "Bhagawän Mahävir"]
+        },
+        {
+          "title": "Capture and Deception",
+          "description": "Rohineya is caught by Abhaykumär's men but maintains his disguise. Abhaykumär sets a trap by creating a fake 'heaven'.",
+          "characters": ["Rohineya", "Abhaykumär"]
+        },
+        {
+          "title": "Knowledge is Power",
+          "description": "Using the knowledge from the sermon, Rohineya sees through the illusion of the fake heaven, avoids the trap, and is set free.",
+          "characters": ["Rohineya", "Abhaykumär"]
+        }
+      ]
+    },
+    {
+      "era": "Transformation and Liberation",
+      "period": "Later Life",
+      "events": [
+        {
+          "title": "Realization and Confession",
+          "description": "Struck by how the sermon saved him, Rohineya seeks out Bhagawän Mahävir, confesses his crimes, and returns his loot.",
+          "characters": ["Rohineya", "Bhagawän Mahävir", "King Shrenik"]
+        },
+        {
+          "title": "Path to Liberation",
+          "description": "He is pardoned and becomes a monk, undertaking severe austerities and eventually adopting Sanlekhanä, leading to rebirth in heaven.",
+          "characters": ["Rohineya"]
+        }
+      ]
+    }
+  ],
+  "quizData": [
+    {
+      "question": "What promise did Rohineya make to his dying father?",
+      "answer": "To never listen to the sermons of Bhagawän Mahävir."
+    },
+    {
+      "question": "Why was Rohineya forced to listen to a part of the sermon?",
+      "answer": "He had to take his hands off his ears to remove a sharp thorn that pierced his foot."
+    },
+    {
+      "question": "Which minister was tasked with catching Rohineya?",
+      "answer": "Abhaykumär."
+    },
+    {
+      "question": "What was Abhaykumär's clever plan to make Rohineya confess?",
+      "answer": "He created a fake heaven and placed the unconscious Rohineya in it, hoping he would confess his past deeds to claim his 'divine' reward."
+    },
+    {
+      "question": "What specific knowledge helped Rohineya see through the minister's trap?",
+      "answer": "The knowledge that true heavenly beings' feet do not touch the ground, they have no shadows, and their eyes do not blink."
+    },
+    {
+      "question": "What did Rohineya do after he was freed?",
+      "answer": "He realized the value of Mahävir's teachings, went to him, confessed everything to the king, and asked to become a monk."
+    },
+    {
+      "question": "Was Rohineya punished for his crimes?",
+      "answer": "No, he was pardoned by King Shrenik because he voluntarily confessed and returned all the stolen wealth."
+    },
+    {
+      "question": "What is Sanlekhanä, the vow Rohineya took in his old age?",
+      "answer": "It is the practice of avoiding food and staying in meditation until death to peacefully leave the body."
+    }
+  ],
+  "mindmapV1Data": {
+    "name": "The Thief Who Transformed",
+    "children": [
+      {
+        "name": "The Promise",
+        "children": [
+          { "name": "Expert Thief Rohineya" },
+          { "name": "Father's Advice: Avoid Sermons" }
+        ]
+      },
+      {
+        "name": "The Trap",
+        "children": [
+          { "name": "Captured by Abhaykumär" },
+          { "name": "Fake Heaven Illusion" }
+        ]
+      },
+      {
+        "name": "The Unwitting Lesson",
+        "children": [
+          { "name": "The Thorn Incident" },
+          { "name": "Overhears Sermon on Devas" },
+          { "name": "Uses Knowledge to Escape Trap" }
+        ]
+      },
+      {
+        "name": "The Redemption",
+        "children": [
+          { "name": "Realizes Power of Teachings" },
+          { "name": "Confesses and Becomes Monk" },
+          { "name": "Attains Heaven via Austerity" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "The Power of Accidental Knowledge",
+    "children": [
+      {
+        "name": "Ignorance by Choice",
+        "children": [
+          { "name": "Promise to Father" },
+          { "name": "A Life of Crime" }
+        ]
+      },
+      {
+        "name": "Knowledge by Chance",
+        "children": [
+          { "name": "A Thorn's Intervention" },
+          { "name": "A Fragment of Truth" },
+          { "name": "Leads to Physical Freedom" }
+        ]
+      },
+      {
+        "name": "Knowledge by Seeking",
+        "children": [
+          { "name": "Recognizing the Value" },
+          { "name": "Seeking the Source" },
+          { "name": "Leads to Spiritual Freedom" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Father's Final Wish",
+      "description": "On his deathbed, the old thief Lohkhur makes his son Rohineya promise to never listen to the sermons of Bhagawän Mahävir.",
+      "imageSrc": "https://placehold.co/600x400/57534e/e7e5e4?text=The+Thief's+Promise",
+      "imageAlt": "An old man in bed holding the hand of a younger man, making a serious promise."
+    },
+    {
+      "title": "An Accidental Sermon",
+      "description": "While trying to avoid the sermon, Rohineya steps on a thorn. As he removes it, he is forced to listen to a few powerful words about heavenly beings.",
+      "imageSrc": "https://placehold.co/600x400/059669/d1fae5?text=The+Thorn+and+The+Truth",
+      "imageAlt": "A man wincing in pain, holding his foot, with an assembly hall in the background."
+    },
+    {
+      "title": "A Heaven of Illusion",
+      "description": "The clever minister Abhaykumär creates an elaborate fake heaven to trick the captured Rohineya into confessing his identity.",
+      "imageSrc": "https://placehold.co/600x400/a21caf/fdf2f8?text=The+Minister's+Trap",
+      "imageAlt": "A man waking up in a luxurious room, looking bewildered by beautiful women and opulent surroundings."
+    },
+    {
+      "title": "The Test of Truth",
+      "description": "Remembering the sermon, Rohineya keenly observes a 'heavenly maiden' and notices her feet touch the ground, confirming his suspicions that it is all a trap.",
+      "imageSrc": "https://placehold.co/600x400/c2410c/fff7ed?text=A+Moment+of+Realization",
+      "imageAlt": "A close-up of a man's sharp eyes looking down at the feet of a woman, with a look of dawning realization."
+    },
+    {
+      "title": "Freedom Through Knowledge",
+      "description": "Having outsmarted the minister, Rohineya is freed. He reflects on how a few words of truth saved him, more than all his thieving skills.",
+      "imageSrc": "https://placehold.co/600x400/0284c7/f0f9ff?text=Saved+by+Words",
+      "imageAlt": "A man walking free from city gates, looking pensive and thoughtful."
+    },
+    {
+      "title": "The Path to Redemption",
+      "description": "Rohineya confesses everything before King Shrenik and Bhagawän Mahävir, gives up his stolen wealth, and humbly accepts the life of a monk.",
+      "imageSrc": "https://placehold.co/600x400/78350f/fef3c7?text=Confession+and+Redemption",
+      "imageAlt": "A man kneeling before a king and a serene spiritual teacher in a grand hall."
+    }
+  ]
+}

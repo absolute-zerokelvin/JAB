@@ -1,0 +1,212 @@
+{
+  "title": "The Story of Mahävir-swämi and the Cow Herder",
+  "subtitle": "Section H.1 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Monk in Meditation"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "One day, while traveling, <span class=\"highlight\">Bhagawän Mahävir</span> stopped to meditate under a large tree. A local cow herder, needing to run some errands, saw the meditating monk. Assuming the silent monk had agreed to watch his herd, he left his cows nearby and went on his way."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "While Mahävir remained deep in meditation, the cows wandered off in search of grass. When the cow herder returned a few hours later, he was furious to find his cows missing. He yelled at the unresponsive Mahävir, but receiving no reply, he went off in a frantic search."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Misunderstanding and a Divine Intervention"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z\" clip-rule=\"evenodd\" svg>While the herder was away, the cows returned on their own. The herder, seeing them standing near the still-meditating Mahävir, mistakenly believed the monk had hidden them. Enraged by this perceived trickery, he raised his rope to whip the monk. Just as he was about to strike, <span class=\"highlight\">Indra</span>, the king of gods, descended from heaven and caught the rope."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Indra explained to the herder that the man was Prince Vardhamän, now a great monk in deep meditation who was unaware of the cows. The cow herder, realizing his grave mistake, apologized and left. Indra then offered to protect Mahävir on his spiritual journey, but Mahävir refused, explaining that one must face all hardships personally to attain Keval-jnän. He held no anger towards the cow herder, demonstrating perfect equanimity."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Request",
+      "period": "Start of the incident",
+      "events": [
+        {
+          "title": "A Monk in Meditation",
+          "description": "Bhagawän Mahävir stops to meditate under a tree.",
+          "characters": ["Bhagawän Mahävir"]
+        },
+        {
+          "title": "A Misunderstood Agreement",
+          "description": "A cow herder sees the silent monk and, assuming he agrees, leaves his cows in Mahävir's care.",
+          "characters": ["Bhagawän Mahävir", "The Cow Herder"]
+        }
+      ]
+    },
+    {
+      "era": "The Conflict",
+      "period": "The herder's return",
+      "events": [
+        {
+          "title": "The Missing Cows",
+          "description": "The herder returns to find his cows gone and angrily confronts the unresponsive Mahävir.",
+          "characters": ["The Cow Herder", "Bhagawän Mahävir"]
+        },
+        {
+          "title": "A False Accusation",
+          "description": "After the cows return on their own, the herder wrongly assumes Mahävir tricked him and prepares to whip him.",
+          "characters": ["The Cow Herder", "Bhagawän Mahävir"]
+        }
+      ]
+    },
+    {
+      "era": "The Resolution",
+      "period": "The intervention",
+      "events": [
+        {
+          "title": "Divine Intervention",
+          "description": "Indra, king of gods, descends from heaven and stops the cow herder just before he strikes.",
+          "characters": ["Indra", "The Cow Herder", "Bhagawän Mahävir"]
+        },
+        {
+          "title": "A Guru's Refusal",
+          "description": "After the herder leaves, Indra offers his protection, but Mahävir explains that the spiritual path must be walked alone.",
+          "characters": ["Indra", "Bhagawän Mahävir"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Bhagawän Mahävir",
+      "description": "The 24th Tirthankar. In this story, his deep state of meditation makes him completely unaware of the world around him, demonstrating his detachment and equanimity."
+    },
+    {
+      "name": "The Cow Herder",
+      "description": "A man who hastily misunderstands a situation and almost commits a violent act out of anger before realizing his mistake."
+    },
+    {
+      "name": "Indra",
+      "description": "The king of the heavenly beings, who intervenes to protect Mahävir from harm and uphold the dignity of the great ascetic."
+    }
+  ],
+  "quizData": [
+    { "question": "Why did the cow herder ask Mahävir-swämi to look after his cows?", "answer": "He needed to run some errands." },
+    { "question": "Did Mahävir-swämi agree to watch the cows?", "answer": "No, he was in deep meditation and did not respond at all." },
+    { "question": "What happened to the cows while Mahävir was meditating?", "answer": "They wandered away looking for grass." },
+    { "question": "When the cow herder returned and found his cows gone, what did he do?", "answer": "He angrily asked Mahävir where they were, but got no reply." },
+    { "question": "What did the cow herder wrongly believe when he saw the cows had returned?", "answer": "He believed Mahävir-swämi had hidden them and was tricking him." },
+    { "question": "What was the cow herder about to do out of anger?", "answer": "Whip Mahävir-swämi with his rope." },
+    { "question": "Who stopped the cow herder from whipping Mahävir?", "answer": "Indra, the king of heaven." },
+    { "question": "What did Indra explain to the cow herder about the monk?", "answer": "That he was Prince Vardhamän, was in deep meditation, and was unaware of what had happened." },
+    { "question": "After the herder left, what did Indra offer to Mahävir-swämi?", "answer": "To be at his service and protect him during his spiritual journey." },
+    { "question": "What was Mahävir-swämi's reason for refusing Indra's help?", "answer": "He explained that one must undertake all efforts personally to progress spiritually and attain Keval-jnän." },
+    { "question": "How did Mahävir feel towards the cow herder at the end of the story?", "answer": "He held no anger or bad feelings towards him." },
+    { "question": "What is the main moral of this story?", "answer": "We should not make hasty decisions or act out of anger, but should think from all perspectives and practice forgiveness." }
+  ],
+  "mindmapV1Data": {
+    "name": "Mahävir and the Cow Herder",
+    "children": [
+      {
+        "name": "The Misunderstanding",
+        "children": [
+          { "name": "Mahävir in Meditation" },
+          { "name": "Herder leaves cows" },
+          { "name": "Cows wander off" }
+        ]
+      },
+      {
+        "name": "The False Accusation",
+        "children": [
+          { "name": "Cows return" },
+          { "name": "Herder believes he was tricked" },
+          { "name": "Prepares to attack" }
+        ]
+      },
+      {
+        "name": "The Divine Intervention",
+        "children": [
+          { "name": "Indra descends" },
+          { "name": "The truth is revealed" },
+          { "name": "Herder apologizes" }
+        ]
+      },
+      {
+        "name": "The Spiritual Lesson",
+        "children": [
+          { "name": "Mahävir refuses Indra's protection" },
+          { "name": "The path must be walked alone" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Equanimity and Misperception",
+    "children": [
+      {
+        "name": "The Herder's Assumption",
+        "children": [
+          { "name": "Silence means 'Yes'" }
+        ]
+      },
+      {
+        "name": "The Monk's Reality",
+        "children": [
+          { "name": "Deep Meditation" },
+          { "name": "Total Unawareness" }
+        ]
+      },
+      {
+        "name": "The Result",
+        "children": [
+          { "name": "False Anger" },
+          { "name": "Divine Clarification" },
+          { "name": "A Lesson on Self-Reliance" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Silent Request",
+      "description": "A cow herder, needing to run an errand, leaves his cows near the meditating Mahävir, mistakenly assuming the silent monk has agreed to watch them.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Cow+Herder+and+the+Monk",
+      "imageAlt": "A cow herder speaking to a monk deep in meditation under a tree, with cows nearby."
+    },
+    {
+      "title": "A Furious Return",
+      "description": "The herder returns to find his cows have wandered off and back again. Wrongly believing he was tricked, he prepares to whip the unresponsive monk.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Herder's+Anger",
+      "imageAlt": "An angry man raising a rope to strike a meditating monk."
+    },
+    {
+      "title": "An Arm from the Heavens",
+      "description": "Just in time, Indra, king of the gods, descends and grabs the herder's rope, preventing the violent act.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Indra+Intervenes",
+      "imageAlt": "A divine hand reaching down from the sky to stop a man from striking a monk."
+    },
+    {
+      "title": "The Truth Revealed",
+      "description": "Indra explains that the monk is the great Mahävir, who was in deep meditation and completely unaware of the cows, causing the herder to realize his error.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Herder's+Realization",
+      "imageAlt": "A cow herder looking shocked and regretful as a divine being speaks to him."
+    },
+    {
+      "title": "An Offer of Protection",
+      "description": "Indra bows to Mahävir and offers to be his protector, but the great ascetic refuses, explaining the need for self-reliance on the spiritual path.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Mahävir+Refuses+Indra's+Help",
+      "imageAlt": "A divine being bowing to a monk, who gently gestures 'no'."
+    },
+    {
+      "title": "Perfect Equanimity",
+      "description": "The story highlights Mahävir's perfect equanimity; he held no anger toward the cow herder, demonstrating a state beyond worldly passions.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=A+State+of+Peace",
+      "imageAlt": "A close-up of Mahävir's serene face in meditation."
+    }
+  ]
+}

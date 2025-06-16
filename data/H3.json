@@ -1,0 +1,260 @@
+{
+  "title": "The Story of Chandanbälä",
+  "subtitle": "Section H.3 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "From Princess to Slave"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Princess Vasumati of Champäpuri was captured after her father, King Dadhivähan, lost a war. A soldier planned to sell her, causing her mother to die of shock. The compassionate merchant <span class=\"highlight\">Dhanväh</span> saw the noble-looking girl in the slave market and, realizing she was not an ordinary slave, bought her to save her from a terrible fate. He brought her home, named her <span class=\"highlight\">Chandanbälä</span>, and treated her as his own daughter."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Wife's Jealousy"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z\" clip-rule=\"evenodd\" svg>Dhanväh's wife, <span class=\"highlight\">Moolä</span>, grew jealous of the beautiful Chandanbälä, suspecting her husband had other intentions. One day, she saw her husband kindly clip back Chandanbälä's hair as she washed his feet. Seeing this innocent act as proof of her fears, Moolä's jealousy turned to outrage. While her husband was away on a business trip, she took her chance. She had Chandanbälä's head shaved, her legs put in heavy shackles, and locked her in a dark, remote room."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Fated Offering"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "When Dhanväh returned and found his beloved 'daughter,' he was horrified. He found only some boiled lentils to give her and rushed off to find a blacksmith. Chandanbälä, despite her pitiful state, decided she would offer this meager food to a monk before eating. Standing at the doorway, with one foot inside and one out, she saw <span class=\"highlight\">Bhagawän Mahävir</span> approaching."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Mahävir had been fasting for nearly six months, having taken a vow to only accept alms from a person who met a specific, complex set of conditions. As Chandanbälä, with tears of joy in her eyes, offered the lentils, Mahävir realized she met every single one of his conditions: <span class=\"highlight\">a princess, bald, in shackles, offering boiled lentils, with one foot inside the house and one out, with tears in her eyes, and having fasted for three days.</span> He accepted the alms, breaking his long fast."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The First Nun"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" ath d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" svg>Heavenly beings celebrated this great event. By their magical power, Chandanbälä's shackles broke, her hair grew back, and she was restored to her princely appearance. Her true identity as Princess Vasumati was revealed. Later, when Mahävir reestablished the Jain Sangh, Chandanbälä took Dikshä and became the <span class=\"highlight\">first and head nun (Sädhvi)</span> of the Jain order, ultimately attaining liberation."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Fallen Princess",
+      "period": "Chandanbälä's youth",
+      "events": [
+        {
+          "title": "A Kingdom Lost",
+          "description": "Princess Vasumati's father loses a war. She is captured by a soldier after her mother dies of shock.",
+          "characters": ["Princess Vasumati", "King Dadhivähan", "Queen Dhärini"]
+        },
+        {
+          "title": "Bought from Slavery",
+          "description": "The compassionate merchant Dhanväh buys her from the slave market and raises her as his own daughter, naming her Chandanbälä.",
+          "characters": ["Chandanbälä", "Dhanväh"]
+        }
+      ]
+    },
+    {
+      "era": "A Cruel Imprisonment",
+      "period": "At the merchant's house",
+      "events": [
+        {
+          "title": "A Wife's Jealousy",
+          "description": "Dhanväh's wife, Moolä, becomes jealous and misinterprets an innocent act of kindness.",
+          "characters": ["Chandanbälä", "Dhanväh", "Moolä"]
+        },
+        {
+          "title": "A Terrible Punishment",
+          "description": "While Dhanväh is away, Moolä has Chandanbälä's head shaved, puts her in shackles, and locks her in a remote room.",
+          "characters": ["Chandanbälä", "Moolä"]
+        }
+      ]
+    },
+    {
+      "era": "The Fated Alms",
+      "period": "The day of the offering",
+      "events": [
+        {
+          "title": "A Meager Meal",
+          "description": "Dhanväh finds Chandanbälä and can only offer her some boiled lentils.",
+          "characters": ["Chandanbälä", "Dhanväh"]
+        },
+        {
+          "title": "An Unspoken Vow",
+          "description": "As Chandanbälä prepares to offer the food to a monk, Bhagawän Mahävir appears, having fasted for nearly six months.",
+          "characters": ["Chandanbälä", "Bhagawän Mahävir"]
+        },
+        {
+          "title": "All Conditions Met",
+          "description": "Miraculously, Chandanbälä's situation fulfills all of Mahävir's specific and complex conditions for breaking his fast. He accepts the alms.",
+          "characters": ["Chandanbälä", "Bhagawän Mahävir"]
+        }
+      ]
+    },
+    {
+      "era": "Restoration and Liberation",
+      "period": "After the offering",
+      "events": [
+        {
+          "title": "Divine Restoration",
+          "description": "By divine power, Chandanbälä's shackles break, her hair returns, and her royal status is revealed.",
+          "characters": ["Chandanbälä"]
+        },
+        {
+          "title": "The First Sädhvi",
+          "description": "She later takes Dikshä from Mahävir, becoming the very first nun of his order and eventually its leader.",
+          "characters": ["Chandanbälä", "Bhagawän Mahävir"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Chandanbälä",
+      "description": "Born Princess Vasumati, she was sold into slavery but maintained her noble character. Her immense suffering put her in the unique position to fulfill all the conditions to break Bhagawän Mahävir's long fast. She became the first and head nun (Sädhvi) of the Jain order."
+    },
+    {
+      "name": "Bhagawän Mahävir",
+      "description": "The 24th Tirthankar. He had undertaken a long and difficult fast with very specific conditions for breaking it, all of which were miraculously met by Chandanbälä."
+    },
+    {
+      "name": "Dhanväh",
+      "description": "A compassionate merchant who rescued Chandanbälä from slavery and treated her as his own daughter, showing great kindness in the face of his wife's cruelty."
+    },
+    {
+      "name": "Moolä",
+      "description": "Dhanväh's wife. Blinded by jealousy and suspicion, she committed terrible acts against Chandanbälä, resulting in her acquiring bad karma."
+    }
+  ],
+  "quizData": [
+    { "question": "What was Chandanbälä's original name as a princess?", "answer": "Vasumati." },
+    { "question": "Who was the compassionate merchant who bought her from the slave market?", "answer": "Dhanväh." },
+    { "question": "What was the name of the merchant's jealous wife?", "answer": "Moolä." },
+    { "question": "What innocent act by her husband did Moolä misinterpret, causing her to become outraged?", "answer": "He lifted Chandanbälä's hair and clipped it back while she was washing his feet." },
+    { "question": "What two cruel things did Moolä do to Chandanbälä while her husband was away?", "answer": "She had her head shaved and her legs put in heavy shackles." },
+    { "question": "What was the only food left in the house that Dhanväh could offer to Chandanbälä?", "answer": "Some boiled lentils." },
+    { "question": "Who appeared at the doorway just as Chandanbälä was preparing to offer the food?", "answer": "Bhagawän Mahävir." },
+    { "question": "For how long had Bhagawän Mahävir been fasting?", "answer": "For five months and twenty-five days." },
+    { "question": "Name three of the specific conditions Mahävir's vow required for him to accept food.", "answer": "The person must be a princess, be bald, be in shackles, offer boiled lentils, have one foot inside and one outside, have tears in her eyes, and have been fasting." },
+    { "question": "After Mahävir accepted the alms, what two magical things happened to Chandanbälä?", "answer": "Her shackles broke and her hair grew back." },
+    { "question": "What did Chandanbälä become after taking Dikshä from Mahävir?", "answer": "The first and head nun (Sädhvi) of the Jain order." },
+    { "question": "Who was the old servant who bravely told Dhanväh the truth about what Moolä had done?", "answer": "An older woman servant." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Chandanbälä",
+    "children": [
+      {
+        "name": "A Princess's Fall",
+        "children": [
+          { "name": "Kingdom Lost" },
+          { "name": "Captured and Sold" },
+          { "name": "Rescued by Dhanväh" }
+        ]
+      },
+      {
+        "name": "Jealousy's Cruelty",
+        "children": [
+          { "name": "Moolä's Suspicion" },
+          { "name": "Hair Shaved, Legs Shackled" },
+          { "name": "Locked in a Room" }
+        ]
+      },
+      {
+        "name": "A Fated Encounter",
+        "children": [
+          { "name": "Mahävir's Long Fast" },
+          { "name": "The Specific Conditions" },
+          { "name": "Chandanbälä Meets All Conditions" }
+        ]
+      },
+      {
+        "name": "Liberation",
+        "children": [
+          { "name": "Magically Restored" },
+          { "name": "Becomes First and Head Nun" },
+          { "name": "Attains Keval-jnän" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Chandanbälä: From Royalty to Renunciation",
+    "children": [
+      {
+        "name": "Tragedy",
+        "children": [
+          { "name": "War & Slavery" },
+          { "name": "Jealousy & Torture" }
+        ]
+      },
+      {
+        "name": "Destiny",
+        "children": [
+          { "name": "The Long Fast" },
+          { "name": "The Impossible Conditions" },
+          { "name": "The Perfect Offering" }
+        ]
+      },
+      {
+        "name": "Triumph",
+        "children": [
+          { "name": "The Divine Reward" },
+          { "name": "The First Nun" },
+          { "name": "The Final Liberation" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "A Princess Sold",
+      "description": "After her kingdom is defeated, the noble Princess Vasumati is captured and put up for sale in a slave market.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Princess+in+the+Slave+Market",
+      "imageAlt": "A sad-looking young woman in fine but tattered clothes being presented for sale."
+    },
+    {
+      "title": "A Husband's Kindness, A Wife's Jealousy",
+      "description": "The merchant Dhanväh treats Chandanbälä like a daughter, but his wife Moolä grows intensely jealous and suspicious.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Moolä's+Jealous+Gaze",
+      "imageAlt": "A man kindly speaking to a young woman, while another woman in the background watches with an angry expression."
+    },
+    {
+      "title": "A Cruel Punishment",
+      "description": "Consumed by rage, Moolä has Chandanbälä's head shaved and her feet locked in heavy shackles.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Shaved+and+Shackled",
+      "imageAlt": "A young woman with a shaved head and shackled feet, looking sad in a dark room."
+    },
+    {
+      "title": "The Fated Offering",
+      "description": "Despite her own suffering, Chandanbälä offers her meager meal of boiled lentils to Bhagawän Mahävir, who has been fasting for months.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Chandanbälä's+Offering",
+      "imageAlt": "A shackled woman with a shaved head tearfully offering a small bowl of food to a serene monk."
+    },
+    {
+      "title": "The Conditions are Met",
+      "description": "In a miraculous confluence of fate, Chandanbälä's pitiful state fulfills every one of Mahävir's highly specific conditions for breaking his fast.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Vow+is+Fulfilled",
+      "imageAlt": "A montage of images showing a shackle, a bald head, lentils, and tears, surrounding a monk accepting food."
+    },
+    {
+      "title": "The First Nun",
+      "description": "After being magically restored, Chandanbälä renounces the world and becomes the first and head Sädhvi (nun) of Mahävir's newly established religious order.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Head+Sädhvi",
+      "imageAlt": "A serene woman dressed as a nun, leading a group of other nuns."
+    }
+  ]
+}
