@@ -193,6 +193,41 @@
 
             ]
         },
+        {
+            "id": "section-j",
+            "title": "Section J",
+            "description": "Stories and lessons from Section J",
+            "subsections": [
+            {
+                "id": "J1",
+                "title": "J.1",
+                "name": "The Story of King Hansa",
+                "url": "./story.html?section=J1",
+                "dataFile": "J1.json"
+            },
+            {
+                "id": "J2",
+                "title": "J.2",
+                "name": "The Story of Kamalsen",
+                "url": "./story.html?section=J2",
+                "dataFile": "J2.json"
+            },
+            {
+                "id": "J3",
+                "title": "J.3",
+                "name": "The Story of Vipul and Vijan",
+                "url": "./story.html?section=J3",
+                "dataFile": "J3.json"
+            },
+            {
+                "id": "J4",
+                "title": "J.4",
+                "name": "The Story of the Two Frogs",
+                "url": "./story.html?section=J4",
+                "dataFile": "J4.json"
+            }
+            ]
+        },
       {
         "id": "section-m",
         "title": "Section M",
@@ -226,10 +261,16 @@
     "additionalPages": [
             {
                 "id": "timeline_junior",
-                "title": "Timeline of Jain History (Junior)",
-                "name": "Timeline of Jain History (Junior)",
+                "title": "Timeline of Jain History (Setion A to J)",
+                "name": "Timeline of Jain History (Setion A to J)",
                 "url": "./timeline_duration-junior.html"
-            }        
+            },
+            {
+                "id": "timeline_senior",
+                "title": "Timeline of Jain History (Section K to M)",
+                "name": "Timeline of Jain History (Section K to M)",
+                "url": "./timeline-k-to-m.html"
+            }     
     ]
   }
 }

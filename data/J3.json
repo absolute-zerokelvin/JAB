@@ -1,0 +1,235 @@
+{
+  "title": "The Story of Vipul and Vijan",
+  "subtitle": "Section J.3 from JAB Manual",
+  "storyContent": [
+    {
+      "tagType": "h3",
+      "tagHTML": "A Fateful Prediction"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Two friends, <span class=\"highlight\">Vipul</span> and <span class=\"highlight\">Vijan</span>, got lost in the forest of Pratisthän. They stumbled upon the hut of a hermit known for predicting the future. After sheltering them for the night, the friends insisted on knowing their destinies. Reluctantly, the hermit agreed."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38zM12 13.26l4-5.715V8h-3.5a1 1 0 01-1-1V3.41L8 8.739V12h3.5a1 1 0 011 1v3.59l-4-5.715V12H8a1 1 0 000 2h2a1 1 0 001-1v-2.74z\" clip-rule=\"evenodd\" /></svg>He looked at Vipul and foretold that he would become a <span class=\"highlight\">king within the year</span>. Then, he looked at Vijan and delivered a grim prophecy: Vijan would <span class=\"highlight\">die at the hands of an assassin</span> during the same period. The two friends left the forest, one overjoyed and the other deeply gloomy."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Two Paths Diverge"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The prediction changed both men. Vipul became arrogant, boasting about his future kingship and threatening others. He lived a life of indulgence. Vijan, a teacher, initially despaired but soon overcame his fear. He dedicated himself to his work with devotion, spent his time in prayer and social service, and treated everyone with humility, surrendering himself to his destiny."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Six months later, Vipul found a pot of gold coins. As he celebrated, a robber attacked him. Vijan came to his friend's aid and, in the struggle, received a <span class=\"highlight\">cut on his shoulder</span> but drove the robber away. Vipul, ungrateful, squandered the gold on food and drink."
+    },
+    {
+        "tagType": "hr",
+        "tagHTML": ""
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Destiny Rewritten"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "A full year passed. Vipul had not become a king, and Vijan had not died. They returned to the hermit for an explanation."
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The hermit explained that their own actions had altered their fates. To Vipul, he said, “Your destiny changed because of your thoughtless actions... The crown that was meant to come to you was reduced to a simple pot of gold.” To Vijan, he said, “Your prayers, humility, and trust in religion changed your destiny, too. <span class=\"highlight\">Death by the hands of an assassin was changed to a mere wound.</span>” The two friends returned home, finally understanding that one's destiny is governed by one's own thoughts and deeds."
+    }
+  ],
+  "timelineData": [
+    {
+      "era": "The Prediction",
+      "period": "Start of the story",
+      "events": [
+        {
+          "title": "Lost in the Forest",
+          "description": "Two friends, Vipul and Vijan, get lost in the forest and find shelter in a hermit's hut.",
+          "characters": ["Vipul", "Vijan", "The Hermit"]
+        },
+        {
+          "title": "A Dual Prophecy",
+          "description": "The hermit reluctantly predicts their futures: within a year, Vipul will become a king, while Vijan will be assassinated.",
+          "characters": ["Vipul", "Vijan", "The Hermit"]
+        }
+      ]
+    },
+    {
+      "era": "The Intervening Year",
+      "period": "The year following the prediction",
+      "events": [
+        {
+          "title": "Vipul's Arrogance",
+          "description": "Believing he is destined for greatness, Vipul becomes arrogant and indulgent, threatening others.",
+          "characters": ["Vipul"]
+        },
+        {
+          "title": "Vijan's Humility",
+          "description": "After initial fear, Vijan accepts his fate and spends his time in prayer, social work, and humility.",
+          "characters": ["Vijan"]
+        },
+        {
+          "title": "The Prophecy's Partial Fulfillment",
+          "description": "Six months later, Vipul finds a pot of gold (a 'crown'), and Vijan is wounded by a robber (an 'assassin').",
+          "characters": ["Vipul", "Vijan", "The Robber"]
+        }
+      ]
+    },
+    {
+      "era": "The Explanation",
+      "period": "After one year",
+      "events": [
+        {
+          "title": "Return to the Hermit",
+          "description": "When the full predictions do not come true, the friends return to the hermit for an explanation.",
+          "characters": ["Vipul", "Vijan", "The Hermit"]
+        },
+        {
+          "title": "Destiny Changed by Karma",
+          "description": "The hermit explains that Vipul's bad karma reduced his reward, while Vijan's good karma lessened his punishment.",
+          "characters": ["Vipul", "Vijan", "The Hermit"]
+        }
+      ]
+    }
+  ],
+  "charactersData": [
+    {
+      "name": "Vipul",
+      "description": "A man who was told he would become a king. The prediction made him arrogant and indulgent, and his resulting bad karma reduced his great destiny to a minor reward."
+    },
+    {
+      "name": "Vijan",
+      "description": "A teacher who was told he would be assassinated. He responded with humility, prayer, and good deeds, and his resulting good karma lessened his terrible fate to a minor injury."
+    },
+    {
+      "name": "The Hermit",
+      "description": "A wise ascetic living in the forest who could predict the future. He taught the two friends that destiny is not fixed but is shaped by one's own actions (karma)."
+    }
+  ],
+  "quizData": [
+    { "question": "What were the names of the two friends in the story?", "answer": "Vipul and Vijan." },
+    { "question": "Where did the two friends find shelter after getting lost in the forest?", "answer": "In the hut of a hermit." },
+    { "question": "What did the hermit predict for Vipul?", "answer": "That he would become a king within the year." },
+    { "question": "What did the hermit predict for Vijan?", "answer": "That he would die at the hands of an assassin within the year." },
+    { "question": "How did Vipul's behavior change after hearing the prediction?", "answer": "He became arrogant and told everyone he would chop off their heads when he became king." },
+    { "question": "How did Vijan's behavior change after hearing the prediction?", "answer": "After overcoming his sadness, he devoted himself to prayer and social work with great humility." },
+    { "question": "What did Vipul stumble across six months later?", "answer": "A pot full of gold coins." },
+    { "question": "What happened to Vijan when he came to Vipul's rescue from a robber?", "answer": "He was attacked with a dagger and received a cut on his shoulder." },
+    { "question": "Did Vipul become a king after a year?", "answer": "No." },
+    { "question": "Did Vijan die after a year?", "answer": "No." },
+    { "question": "According to the hermit, what did Vipul's 'crown' get reduced to?", "answer": "A simple pot of gold." },
+    { "question": "According to the hermit, what was Vijan's 'death by an assassin' changed to?", "answer": "A mere wound from a robber's dagger." },
+    { "question": "What was the main reason Vipul's destiny changed for the worse?", "answer": "His arrogance and thoughtless, indulgent actions (bad karma)." },
+    { "question": "What was the main reason Vijan's destiny changed for the better?", "answer": "His prayers, humility, and faith in religion (good karma)." },
+    { "question": "What is the central moral of this story?", "answer": "That one's destiny is governed by one's own thoughts and deeds (karma), and can be changed for better or worse." }
+  ],
+  "mindmapV1Data": {
+    "name": "The Story of Vipul and Vijan",
+    "children": [
+      {
+        "name": "The Prediction",
+        "children": [
+          { "name": "A Hermit's Prophecy" },
+          { "name": "Vipul to be King" },
+          { "name": "Vijan to be Assassinated" }
+        ]
+      },
+      {
+        "name": "The Reaction",
+        "children": [
+          { "name": "Vipul becomes Arrogant" },
+          { "name": "Vijan becomes Humble & Devout" }
+        ]
+      },
+      {
+        "name": "The Outcome",
+        "children": [
+          { "name": "Vipul finds Gold (not a Kingdom)" },
+          { "name": "Vijan is Wounded (not Killed)" }
+        ]
+      },
+      {
+        "name": "The Lesson",
+        "children": [
+          { "name": "Karma Changed Their Destinies" },
+          { "name": "Actions Matter More than Prophecy" }
+        ]
+      }
+    ]
+  },
+  "mindmapV2Data": {
+    "name": "Destiny and Karma",
+    "children": [
+      {
+        "name": "The Prophecy",
+        "children": [
+          { "name": "Kingship" },
+          { "name": "Assassination" }
+        ]
+      },
+      {
+        "name": "Two Paths Chosen",
+        "children": [
+          { "name": "Arrogance (Vipul)" },
+          { "name": "Humility (Vijan)" }
+        ]
+      },
+      {
+        "name": "Destiny Altered",
+        "children": [
+          { "name": "A Reduced Reward" },
+          { "name": "A Lesser Punishment" },
+          { "name": "The Power of Karma" }
+        ]
+      }
+    ]
+  },
+  "graphicsData": [
+    {
+      "title": "The Hermit's Prediction",
+      "description": "Lost in a forest, two friends, Vipul and Vijan, receive a dramatic prophecy from a hermit: one will be a king, the other will be killed.",
+      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Hermit's+Prophecy",
+      "imageAlt": "A wise hermit pointing at two young men, one looking joyous and the other looking fearful."
+    },
+    {
+      "title": "An Arrogant Future King",
+      "description": "Believing he is destined to be king, Vipul becomes arrogant, squandering his time and threatening the villagers.",
+      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Vipul's+Arrogance",
+      "imageAlt": "A man acting haughty and boastful in a village square."
+    },
+    {
+      "title": "A Humble Teacher",
+      "description": "Accepting his grim fate, the teacher Vijan spends his remaining time in prayer and humble service to his community.",
+      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Vijan's+Humility",
+      "imageAlt": "A humble teacher helping people and praying peacefully."
+    },
+    {
+      "title": "A Lesser Fate",
+      "description": "Vipul's 'crown' turns out to be a pot of gold, while Vijan's 'assassination' is reduced to a minor wound from a robber.",
+      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Pot+of+Gold+and+the+Wound",
+      "imageAlt": "A split image showing a man finding a pot of gold, and another man with a simple bandage on his shoulder."
+    },
+    {
+      "title": "The Power of Karma Explained",
+      "description": "The two friends return to the hermit, who explains that their own actions—Vipul's arrogance and Vijan's piety—rewrote their destinies.",
+      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Hermit's+Explanation",
+      "imageAlt": "A hermit explaining something profound to two men who are listening with dawning understanding."
+    },
+    {
+      "title": "Two Paths, Two Outcomes",
+      "description": "The story shows how two different reactions to the same knowledge led to vastly different outcomes, highlighting the power of one's own deeds.",
+      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Destiny+Rewritten+by+Actions",
+      "imageAlt": "A branching path, with one side leading to a simple pot of gold and the other to a safe and peaceful life."
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jain History Timeline</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="./js/cache-bust.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50, consistent with timeline_duration-junior.html */
+        }
+        /* Tooltip styles (copied from timeline_duration-junior.html for consistency if needed) */
+        .tooltip-container {
+            position: relative;
+            cursor: pointer;
+        }
+        .tooltip-text {
+            visibility: hidden;
+            width: 160px;
+            background-color: #1f2937; /* gray-800 */
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 10;
+            bottom: 110%;
+            left: 50%;
+            margin-left: -80px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip-container:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* Timeline specific styles (adapted from timeline_duration-junior.html) */
+        .timeline-container::before { /* This is the central line */
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background-color: #cbd5e1; /* slate-300 */
+            z-index: 0; /* Ensure line is behind dots */
+        }
+        .century-container { /* For century headers */
+            position: relative;
+            z-index: 5; /* Above the timeline line */
+        }
+        .timeline-item {
+            position: relative;
+            width: 50%; /* Each item takes half width */
+            padding: 20px 40px; /* Padding around content */
+            box-sizing: border-box;
+        }
+        .timeline-item.left {
+            left: 0;
+            padding-right: 50px; /* Space for the dot */
+            text-align: right; /* Align text to the right for left items */
+        }
+        .timeline-item.right {
+            left: 50%; /* Start from the middle */
+            padding-left: 50px; /* Space for the dot */
+            text-align: left; /* Align text to the left for right items */
+        }
+        .timeline-item::after { /* This is the dot on the timeline */
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #f8fafc; /* Match body background */
+            border: 4px solid #2563eb; /* blue-600 */
+            top: 50%; /* Center vertically */
+            transform: translateY(-50%);
+            border-radius: 50%;
+            z-index: 1; /* Above the timeline line but below content */
+        }
+        .timeline-item.left::after {
+            right: -10px; /* Position dot for left items */
+        }
+        .timeline-item.right::after {
+            left: -10px; /* Position dot for right items */
+        }
+       
+        @media (max-width: 768px) {
+            .timeline-container::before {
+                left: 20px; /* Adjust line position for mobile */
+                transform: translateX(0);
+            }
+            .timeline-item,
+            .timeline-item.left,
+            .timeline-item.right {
+                width: 100%; /* Full width on mobile */
+                left: 0;
+                padding-left: 50px; /* Space for dot */
+                padding-right: 20px;
+                text-align: left; /* All text left-aligned on mobile */
+            }
+            .timeline-item::after,
+            .timeline-item.left::after,
+            .timeline-item.right::after {
+                left: 20px; /* Align dot with the line */
+                transform: translateX(-50%) translateY(-50%);
+                right: auto;
+            }
+            .timeline-item .timeline-content { /* Ensure content is to the right of the dot */
+                 margin-left: 0; /* Reset margin if any was set by desktop rules */
+            }
+        }
+
+        /* Styles for pill tabs (from timeline_duration-junior.html) */
+        .tab-button-item {
+            padding: 0.5rem 1.5rem;
+            margin: 0 0.25rem;
+            border: none;
+            background-color: #f3f4f6; /* gray-100 */
+            color: #1d4ed8;    /* blue-700 */
+            font-weight: 500;
+            font-size: 0.9rem;
+            border-radius: 9999px; /* Full pill */
+            cursor: pointer;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            line-height: 1.5;
+        }
+        .tab-button-item:hover {
+            background-color: #e5e7eb; /* gray-200 */
+            color: #1e40af; 
+        }
+        .tab-button-item.tab-active { /* Restyled .tab-active */
+            background-color: #2563eb; /* blue-600 */
+            color: white;
+            font-weight: 600;
+            border-color: transparent !important; /* Remove any inherited border */
+        }
+        /* Remove bottom border from the tab group container */
+        .tabs-bar-container > div {
+            border-bottom: none !important;
+        }
+    </style>
+</head>
+<body class="bg-slate-50"> <!-- Ensured bg-slate-50 and removed padding -->
+
+    <!-- Added Navigation Overlay for Mobile -->
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
+    
+    <!-- Added Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    
+    <!-- Added Desktop Navigation -->
+    <div id="desktop-nav-container"></div>
+    
+    <!-- Added Mobile Navigation -->
+    <div id="mobile-nav-container"></div>
+    
+    <!-- Added Main Content Wrapper -->
+    <div class="main-content" id="mainContent">
+        <div class="max-w-7xl mx-auto"> <!-- Added max-width container like in junior -->
+            <!-- Header Section - Styled like junior -->
+            <header class="bg-blue-600 text-white p-6 rounded-xl shadow-lg mb-8">
+                <h1 class="text-3xl font-bold text-center">Timeline of Jain History</h1>
+                <p class="text-md text-blue-100 text-center mt-1">Events from Jain Academic Bowl Manual - Sections K to M</p>
+            </header>
+
+            <!-- Tabs Navigation - Added from timeline_duration-junior.html -->
+            <div class="tabs-bar-container bg-white p-3 rounded-lg shadow-md mb-8">
+                <div class="flex justify-center space-x-1">
+                    <button id="tab-timeline" class="tab-button-item tab-active">Timeline</button>
+                    <button id="tab-quiz" class="tab-button-item">Quiz</button>
+                </div>
+            </div>
+
+            <!-- Timeline Content -->
+            <div id="content-timeline">
+                <!-- The main timeline content will be rendered inside #timeline-container-render -->
+                <div id="timeline-container-render" class="relative timeline-container mx-auto px-4 py-8">
+                    <!-- Events will be injected here by JavaScript -->
+                </div>
+                
+                <!-- Unsorted Dates Section - Styled like junior\'s content blocks -->
+                <div class="bg-white p-4 md:p-6 rounded-xl shadow-lg my-8">
+                    <div class="text-center mb-6">
+                        <h2 class="text-2xl font-bold text-blue-700">Durations & Unsorted Eras</h2>
+                        <p class="text-slate-600 mt-1">Events that represent durations or eras rather than specific points in time.</p>
+                    </div>
+                    <div id="unsorted-events" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                         <!-- Unsorted events will be injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Content -->
+            <div id="content-quiz" class="hidden">
+                <h2 class="text-2xl font-bold text-center text-blue-700 mb-6">Test Your Knowledge!</h2>
+                <div id="quiz-container-render" class="space-y-8 px-4 md:px-0">
+                    <!-- Quiz questions will be generated here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const events = [
+            // Data from the immersive artifact
+            { date: "3500-3000 BC", event: "Recorded history of Jainism and period of the Indus Valley Civilization, where relics suggest Jain prevalence.", section: "L.1.2, L.1.3", page: "381" },
+            { date: "3000 BC", event: "Approximate time yoga was practiced in ancient India, based on archaeological evidence.", section: "K.6.3.4", page: "363" },
+            { date: "tenth century B.C.", event: "King Nebuchadnezzar is said to have visited a temple of Neminäth.", section: "L.1.4.1", page: "382" },
+            { date: "642-413 B.C.", event: "Shishunäg dynasty, whose kings Bimbisär and Ajätashatru supported Jainism.", section: "L.1.7.1", page: "388" },
+            { date: "599 B.C.", event: "Approximate birth year of Bhagawän Mahävir.", section: "L.1.4.3", page: "383" },
+            { date: "567-487 B.C.", event: "Probable life period of Buddha, a contemporary of Bhagawän Mahävir.", section: "L.1.4.3", page: "383" },
+            { date: "527 B.C.", event: "Nirväna of Bhagawän Mahävir. The fifth Ärä began three years and eight months after this date.", section: "L.1.3, L.1.4.3", page: "382, 383" },
+            { date: "64 years after Mahävir\\'s Nirväna", event: "Jambu Swämi, the last omniscient of this half cycle, attained salvation.", section: "L.1.4.3", page: "383" },
+            { date: "413-322 B.C.", event: "Nanda dynasty; King Nanda brought an idol of Rishabhadev from Kalinga.", section: "L.1.7.1", page: "388" },
+            { date: "approx 367 BC", event: "Pätliputra Recension (First Vächanä) was held.", section: "L.2.3", page: "393" },
+            { date: "about 160 years after Mahävir\\'s Nirväna", event: "Time until which Ägam Sutras were passed on orally in their entirety.", section: "L.2.1", page: "391" },
+            { date: "345 years after Mahävir\\'s Nirväna", event: "Dharmasen, the last of the Das-purvi according to Digambars, died.", section: "L.2.2.3", page: "393" },
+            { date: "322-298 B.C.", event: "Reign of Emperor Chandragupta Maurya, who abdicated his throne and migrated to the South.", section: "L.1.5", page: "384" },
+            { date: "by 300 B.C.", event: "Jain migrations from eastern India to western India likely took place.", section: "L.1.7.3", page: "389" },
+            { date: "215 years after Mahävir\\'s Nirväna", event: "Death of Sthulibhadra.", section: "L.2.3.1", page: "394" },
+            { date: "3rd century B.C.", event: "The process of the split between Shvetämbar and Digambar started; Ächärya Bhadrabähu predicted a famine.", section: "L.1.5", page: "384" },
+            { date: "3rd century B.C.", event: "Ächärya Bhadrabähu composed the Kalpa Sutra.", section: "L.2.11.2", page: "408" },
+            { date: "297 B.C.", event: "Death of Guru Bhadrabähu. His disciple Chandragupta died a few years later.", section: "L.1.5", page: "384" },
+            { date: "273-236 B.C.", event: "Reign of Emperor Ashok, who embraced Jainism before his conversion to Buddhism.", section: "L.1.7.1", page: "388" },
+            { date: "2nd century BC to 2nd century AD", event: "Period when the 12th Anga Ägam (Drashtiväd) is believed to have been lost.", section: "L.2.1", page: "391" },
+            { date: "second century B.C.", event: "Kalinga was the center of a powerful empire ruled by Kharavela, a great patron of the Jain faith.", section: "L.1.7.1", page: "388" },
+            { date: "middle of the second century B.C.", event: "A branch of Jains was firmly established in North India in the Mathurä region.", section: "L.1.7.4", page: "389" },
+            { date: "161 B.C.", event: "King Kharavela of Kalinga, in his second invasion of Magadh, brought back an idol of Agra-Jina (Rishabhadev).", section: "L.1.3", page: "381" },
+            { date: "150 B.C.", event: "Fall of the Mauryan dynasty, leading to a large-scale migration of Jains.", section: "L.2.3.2", page: "394" },
+            { date: "57 BC", event: "Beginning of the Vikram Samvat or era.", section: "L.1.4.3", page: "383" },
+            { date: "first century", event: "Time Umäsväti\\'s Tattvärtha-sutra was written, before the final division of Shvetämbar and Digambar.", section: "L.1.5.1", page: "385" },
+            { date: "early second century AD or late first century AD", event: "Possible time period for Ächärya Umäsväti based on inscriptions.", section: "L.2.11.4", page: "409" },
+            { date: "50-80 A.D.", event: "Period when Shatakhandägam was written.", section: "M.1.1", page: "423" },
+            { date: "114 Vikram Samvat (584 years after Mahävir\\'s Nirväna)", event: "Death of Ächärya Vajra, ending the series of Das-purvi according to Shvetämbars.", section: "L.2.2.3", page: "393" },
+            { date: "600 years after Mahävir\\'s Nirväna", event: "Approximate time the Jain religion was split into Digambar and Shvetämbar sects.", section: "L.1.5", page: "384" },
+            { date: "100 AD", event: "Works like Niyamsär, Panchästikäy, Pravachansär, Samaysär written by Kundkund.", section: "L.2.9.1.3.4, L.2.11.3", page: "406, 408" },
+            { date: "100 to 1000 AD", event: "Period when great Ächäryas wrote scriptures that Digambars follow today.", section: "L.2.4.2, L.2.9", page: "395, 404" },
+            { date: "160 AD", event: "Shatakhandägam written by Ächäryas Pushpadanta and Bhutabali.", section: "L.2.9.1, L.2.9.1.1", page: "404" },
+            { date: "200 AD", event: "Tattvärtha-sutra written by Umäsväti.", section: "L.2.9.1.3.4", page: "406" },
+            { date: "200-400 AD", event: "Probable composition period for Tattvärtha Sutra.", section: "L.2.11.4", page: "409" },
+            { date: "third century A.D.", event: "Powerful dynasties in Maharashtra like Sätavähana, Chälukya, Rästrakut, etc., extended patronage to Jainism.", section: "L.1.7.3", page: "389" },
+            { date: "3rd to the 6th century A.D.", event: "Period of the Kadamba rulers of Banaväsi, some of whom were devout Jains.", section: "L.1.7.2", page: "388" },
+            { date: "around 300 AD", event: "Memorized Shvetämbar Ägam-sutras were written down.", section: "L.2.1", page: "391" },
+            { date: "about 830 years after Mahävir\\'s Nirväna", event: "Monks assembled in Mathurä for the second recension. (approx 303 A.D.)", section: "L.2.3.2", page: "394" },
+            { date: "303 A.D.", event: "The second Vächanä (Recension) writing of Ägam took place in Mathurä.", section: "L.1.7.4, L.2.3", page: "389, 393" },
+            { date: "350 to 999 A.D.", event: "Ganga Rulers of Talakada in Karnataka patronized the Jain religion.", section: "L.1.7.2", page: "388" },
+            { date: "980 years after Mahävir\\'s Nirväna", event: "Jain canon was first written down at the council of Vallabhi. (approx 453 A.D.)", section: "L.1.7.3, L.2.3.3", page: "389, 395" },
+            { date: "453 AD", event: "Third Vächanä at Vallabhi where available scriptures were documented.", section: "L.2.3, L.2.11.2", page: "393, 408" },
+            { date: "up to 500 A.D.", event: "Mathurä was a stronghold of Jains for nearly 1000 years.", section: "L.1.7.4", page: "389" },
+            { date: "500 to 757 A.D.", event: "Chälukya rulers of Badami in Karnataka were pro-Jain.", section: "L.1.7.2", page: "388" },
+            { date: "5th century", event: "Jain monks added more rites and rituals to stop the outflow of Jains to Hinduism.", section: "L.1.6", page: "387" },
+            { date: "fifth century B.C.", event: "Time when Rishabhadev was worshipped and his idol was highly valued by his followers.", section: "L.1.3", page: "381" },
+            { date: "5th and 16th centuries", event: "Period of noteworthy Jain logicians from Siddhasen to Yashovijayaji.", section: "K.1.1", page: "314" },
+            { date: "5th or 6th century", event: "Sarvärtha Siddhi of Pujyapäd-swämi was written.", section: "M.1.1", page: "423" },
+            { date: "7th AD", event: "Time of Jain Ächärya Shri Haribhadra-suri, who sanctioned Patanjali\\'s Ashtanga Yoga.", section: "K.6.3.4", page: "363" },
+            { date: "600 A.D.", event: "Mulächär, Trivarnächär by Vattaura; Ratna-karanda Shrävakächär, Äpta-mimämsä by Samantabhadra.", section: "L.2.9.1.3.2, L.2.9.1.3.4", page: "405, 406" },
+            { date: "650 AD", event: "Padma Purän written by Ravisen.", section: "L.2.9.1.3.1", page: "405" },
+            { date: "7th or the 8th century", event: "Period to which the available Churni commentaries belong.", section: "L.2.8", page: "402" },
+            { date: "700 AD", event: "Commentary on Tattvärtha-sutra by Pujyapäd.", section: "L.2.9.1.3.4", page: "406" },
+            { date: "757 V.S and 857 V.S.", event: "Assigned period for Ächärya Haribhadra-suri, who wrote Sanskrit commentaries.", section: "L.2.8", page: "402" },
+            { date: "750 AD", event: "Commentaries on Tattvärtha-sutra and Äpta-mimämsä by Akalank.", section: "L.2.9.1.3.4", page: "406" },
+            { date: "757 to 973 A.D.", event: "Rästrakut of Malakhed in Karnataka were pro-Jain.", section: "L.1.7.2", page: "388" },
+            { date: "770-850", event: "Life period of Digambar Ächärya Jinsen, author of Mahä-Purän.", section: "M.1.1", page: "423" },
+            { date: "780 AD", event: "Ächärya Virsen and Jinsen wrote commentaries Dhavalä-tikä, Mahä-dhavalä-tikä, and Jay-dhavalä-tikä.", section: "L.2.9.1.1, L.2.9.1.2, L.2.9.1.3.3", page: "404-405" },
+            { date: "783 AD", event: "Harivamsa Purän and Ädi Purän written by Jinsen.", section: "L.2.9.1.3.1", page: "405" },
+            { date: "8th century", event: "Ächärya Haribhadra-suri wrote Shad-darshan Samuchchaya and Yoga Drashti Samuchchaya.", section: "M.1.1", page: "423" },
+            { date: "800 AD", event: "Commentaries on Tattvärtha-sutra and Äpta-mimämsä by Vidyanand.", section: "L.2.9.1.3.4", page: "406" },
+            { date: "800 A.D.", event: "A Jain temple recently discovered in Gujarat was said to have been built in this year.", section: "L.1.7.4", page: "389" },
+            { date: "879 AD", event: "Uttar Purän written by Gunabhadra.", section: "L.2.9.1.3.1", page: "405" },
+            { date: "ninth century AD", event: "Earliest date commentaries on Uttarädhyayan-sutra were written.", section: "L.2.11.1", page: "407" },
+            { date: "10th to the 12th century A.D.", event: "Western Chälukya rulers of Kalyän showed a liberal attitude to Jainism.", section: "L.1.7.2", page: "388" },
+            { date: "10th century", event: "Shri Amritachandra Ächärya wrote a critique on Samaysär called Ätmäkhyäti.", section: "L.2.11.3", page: "408" },
+            { date: "tenth century", event: "Shilänk-suri wrote Sanskrit commentaries.", section: "L.2.8", page: "402" },
+            { date: "1000 AD", event: "Gommatsär written by Nemichandra Siddhänt.", section: "L.2.9.1.3.3", page: "405" },
+            { date: "1006 to 1345 A.D.", event: "Hoyasala rulers of Halebid in Karnataka extended their support to Jainism.", section: "L.1.7.2", page: "388" },
+            { date: "1072 to 1134 V.S.", event: "Life period of the commentator Abhaydev, who wrote on nine Anga.", section: "L.2.8", page: "402" },
+            { date: "1088-1173", event: "Life period of Hemchandra-ächärya, author of Trishashti Shaläkä Purush.", section: "M.1.1", page: "423" },
+            { date: "11th century", event: "Vardhamänsuri made efforts to curtail the excesses of Yatis.", section: "M.1.1", page: "423" },
+            { date: "Around 1100 A.D.", event: "Jainism gained ascendancy under Chalukya kings Siddharäj and Kumärpäl.", section: "L.1.7.3", page: "389" },
+            { date: "about 1150", event: "Jindatta-suri (Dada Gurudev) founded the Kharatar Gachchha.", section: "M.1.1", page: "423" },
+            { date: "1156 to 1183 A.D.", event: "Kalachuri rulers of Kalyän were Jains, and Jainism was the state religion.", section: "L.1.7.2", page: "388" },
+            { date: "12th and 13th centuries", event: "Period when it became difficult to protect Jain temples and literature; Chaityaväsi and Bhattärak roles created.", section: "L.1.6", page: "387" },
+            { date: "12th century", event: "Decline of Jainism started in South India due to the growing importance of Srivaisnavism and Virasaivism.", section: "L.1.7.2", page: "388" },
+            { date: "After 12th century", event: "Significant impact of Vedic and Muslim religions on non-Vedic religions like Jainism.", section: "L.1.6", page: "387" },
+            { date: "twelfth century", event: "Maladhäri Hemchandra was a Sanskrit commentator and scholar.", section: "L.2.8", page: "402" },
+            { date: "13th century A.D.", event: "Jainism received patronage through ministers Vastupäl and Tejpäl during the days of Vaghela.", section: "L.1.7.3", page: "389" },
+            { date: "14th century A.D.", event: "Jainism played an important role in the overall history of south India up to this time.", section: "L.1.7.2", page: "388" },
+            { date: "1448-1515 A.D.", event: "Life period of Tarana-Swämi, founder of the Täranapantha sub-tradition.", section: "L.1.5.3.3", page: "387" },
+            { date: "Around 1450", event: "A layman, Lonkäshah of Ahmedabad, began to dispute temple rituals, leading to a new tradition.", section: "L.1.5.2", page: "385" },
+            { date: "1474", event: "Sthänakaväsi tradition came into existence as non-idol worshippers.", section: "L.1.5.2", page: "385" },
+            { date: "16th century", event: "Hirvijay-suri impressed Mughal emperor Akbar.", section: "M.1.1", page: "423" },
+            { date: "late sixteenth century", event: "Digambars experienced a significant revival.", section: "L.1.5.3", page: "386" },
+            { date: "1583 A.D.", event: "Emperor Akbar prohibited animal slaughter during Paryushan.", section: "L.1.7.4", page: "389" },
+            { date: "1610 A.D.", event: "A Jain deputation visited Emperor Jahangir and secured a ruling prohibiting animal slaughter during Paryushan.", section: "L.1.7.4", page: "389" },
+            { date: "1627 A.D.", event: "Teräpantha (Digambar) arose in North India as a revolt against the conduct of Bhattäraks.", section: "L.1.5.3.2", page: "387" },
+            { date: "1760 A.D.", event: "Swämi Bhikshu Mahäräj founded the Teräpantha tradition.", section: "L.1.5.2.3", page: "386" },
+            { date: "18th century", event: "Dharmasinha Muni wrote his own interpretations of commentaries.", section: "L.2.8", page: "402" },
+            { date: "eighteenth century", event: "The Teräpanthi tradition separated from the Sthänakaväsi tradition.", section: "L.1.5.2.3", page: "386" },
+            { date: "nineteenth century", event: "Shrimad believed the decline of Jainism was due to excessive sectarianism and temple rituals.", section: "M.2.9", page: "428" },
+            { date: "19th and 20th centuries", event: "Jain scholarship, education, and writings became popular and available in many foreign languages.", section: "L.1.8", page: "390" },
+            { date: "August 25, 1864, to August 7, 1901", event: "Life and mission period of Virchand R. Gandhi.", section: "M.3.1", page: "430" },
+            { date: "1867 to 1901 A.D.", event: "Life period of Shrimad Räjchandra.", section: "M.2.1", page: "424" },
+            { date: "1924 V.S. (November 9, 1867)", event: "Birth of Shrimad Räjchandra.", section: "M.2.2", page: "424" },
+            { date: "1884", event: "Virchand Gandhi graduated with a B.A. from the University of Bombay.", section: "M.3.1", page: "430" },
+            { date: "1884", event: "Publication of the first two volumes of Jain Sutras, translated into English by Hermann Jacobi.", section: "L.1.8", page: "390" },
+            { date: "1885", event: "Virchand Gandhi became the first honorary secretary of the Jain Association of India at age 21.", section: "M.3.1", page: "430" },
+            { date: "1886", event: "Essay \\\"Radvä Kutväni Hänikärak Chäl\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1888 A.D.", event: "Shrimad Räjchandra married Zabakben and became a partner in a gemstone business.", section: "M.2.3", page: "425" },
+            { date: "1889-1980 A.D.", event: "Life period of Shri Känji Swämi.", section: "M.1.2", page: "423" },
+            { date: "1890 A.D.", event: "Death of Joothäbhai, a close disciple of Shrimad Räjchandra.", section: "M.2.7.4", page: "427" },
+            { date: "1891", event: "An Englishman set up a pig slaughterhouse at Sametshikhar; Virchand Gandhi got it shut down.", section: "M.3.1", page: "430" },
+            { date: "1891 A.D.", event: "Shrimad Räjchandra is believed to have attained Samyag Darshan at age 23.", section: "M.2.6", page: "426" },
+            { date: "1893", event: "World Parliament of Religions was held in the United States; Virchand Gandhi was the Jain representative.", section: "L.1.8", page: "390" },
+            { date: "September 11, 1893", event: "Opening day of the Parliament of World Religions Conference in Chicago.", section: "M.3.1", page: "430" },
+            { date: "1894", event: "\\\"The Unknown Life of Jesus Christ\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1895", event: "First English translation of Uttarädhyayan-sutra was published.", section: "L.2.11.1", page: "407" },
+            { date: "1896", event: "Virchand Gandhi collected grain and money for famine relief in India while in the U.S.", section: "M.3.1", page: "431" },
+            { date: "1896", event: "Shrimad Räjchandra composed \\\"Ätmasiddhi-shästra\\\".", section: "M.2.5", page: "425" },
+            { date: "1899 A.D.", event: "Shrimad Räjchandra retired from business at age 31.", section: "M.2.3, M.2.6", page: "425, 426" },
+            { date: "This century (20th)", event: "Shri Känji-swämi gave a detailed analysis on Samaysär.", section: "L.2.11.3", page: "408" },
+            { date: "1902/1989", event: "\\\"Savirya Dhyän\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1905 A.D.", event: "Death of Ambälälbhai, a devoted disciple of Shrimad Räjchandra.", section: "M.2.7.3", page: "427" },
+            { date: "1907", event: "\\\"Jaina Philosophy\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1912/1993", event: "\\\"Yoga Philosophy\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1913", event: "\\\"Karma Philosophy\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1915", event: "Mrs. Sinclair Stevenson published the book \\\"The Heart of Jainism\\\".", section: "L.1.8", page: "390" },
+            { date: "1916", event: "\\\"Concentration – 12 Lectures on Meditation\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1925", event: "Helmuth Von Glasenapp wrote the book \\\"Jainism An Indian Religion of Salvation\\\" in German.", section: "L.1.8", page: "390" },
+            { date: "1934", event: "Movement started by Känji Swämi stressing inward thought rather than external rituals.", section: "M.1.2", page: "423" },
+            { date: "1936", event: "Ächärya Tulsi, at 21, took over the Teräpanthi sect.", section: "L.1.5.2.3", page: "386" },
+            { date: "1949", event: "Ächärya Tulsi initiated the Anuvrat movement for moral upliftment.", section: "L.1.5.2.3", page: "386" },
+            { date: "1961/1983", event: "\\\"Herbert Warren’s Jainism\\\" published.", section: "M.3.2", page: "432" },
+            { date: "1963", event: "\\\"Selected speeches of V. R. Gandhi\\\" published.", section: "M.3.2", page: "432" },
+            { date: "1970/1993", event: "\\\"The Systems of Indian Philosophy\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "1974", event: "The book Saman-Suttam was created during the 2500th Nirväna anniversary of Bhagawän Mahävir.", section: "L.2.11.5", page: "411" },
+            { date: "1980", event: "Ächärya Tulsi introduced a new order of Shraman and Shramani.", section: "L.1.5.2.3", page: "386" },
+            { date: "28 November 1980", event: "Death of Känji Swämi in Mumbai.", section: "M.1.2", page: "423" },
+            { date: "1993", event: "\\\"Religion and Philosophy of Jains\\\" by V.R. Gandhi published.", section: "M.3.2", page: "432" },
+            { date: "2010", event: "Ächärya Mahäshramanji took over the leadership of the Teräpanthi sect.", section: "L.1.5.2.3", page: "386" },
+            { date: "2011", event: "Year of the Government of India\\'s Census that recorded the Jain population.", section: "L.1.8", page: "390" }
+        ];
+
+        const unsortedEvents = [
+            { date: "3rd Ärä or 4th Ärä", event: "Eras in which one has to be born to attain everlasting (Kshäyik) Samyaktva.", section: "K.4.2.4", page: "341" },
+            { date: "5th Ärä of Avasarpini", event: "Current time period; no one can go higher than the seventh Gunasthän from Bharat or Airävat Kshetra.", section: "K.4.2.7", page: "342" },
+            { date: "250 years", event: "Time by which Bhagawän Pärshvanäth preceded Bhagawän Mahävir.", section: "L.1.4.2", page: "382" },
+            { date: "12-year period", event: "Duration of the famine in Magadh, after which the returning monks noticed changes in practices.", section: "L.1.5", page: "384" },
+            { date: "150 years", event: "Time between the second (Mathurä/Vallabhi) and third (Vallabhi) recensions.", section: "L.2.3.3", page: "395" }
+        ];
+        
+        const quizData = [
+            { q: "When was the recorded history of Jainism and the period of the Indus Valley Civilization?", a: "3500-3000 BC" },
+            { q: "Around what time was yoga practiced in ancient India, based on archaeological evidence?", a: "3000 BC" },
+            { q: "Which king is said to have visited a temple of Neminäth in the tenth century B.C.?", a: "King Nebuchadnezzar" },
+            { q: "What was the approximate birth year of Bhagawän Mahävir?", a: "599 B.C." },
+            { q: "When did Bhagawän Mahävir attain Nirväna?", a: "527 B.C." },
+            { q: "Who was the last omniscient of this half cycle, attaining salvation 64 years after Mahävir's Nirväna?", a: "Jambu Swämi" },
+            { q: "When was the Pätliputra Recension (First Vächanä) held?", a: "approx 367 BC" },
+            { q: "Who reigned from 322-298 B.C. and later abdicated his throne, migrating to the South?", a: "Emperor Chandragupta Maurya" },
+            { q: "When did the process of the split between Shvetämbar and Digambar start?", a: "3rd century B.C." },
+            { q: "Who composed the Kalpa Sutra in the 3rd century B.C.?", a: "Ächärya Bhadrabähu" },
+            { q: "When did King Kharavela bring back an idol of Agra-Jina (Rishabhadev) from Magadh?", a: "161 B.C." },
+            { q: "When did the Vikram Samvat era begin?", a: "57 BC" },
+            { q: "When was Umäsväti's Tattvärtha-sutra written, according to one source?", a: "first century" },
+            { q: "When was Shatakhandägam written?", a: "50-80 A.D." },
+            { q: "Around what time was the Jain religion split into Digambar and Shvetämbar sects?", a: "600 years after Mahävir's Nirväna" },
+            { q: "Who wrote works like Niyamsär and Samaysär around 100 AD?", a: "Kundkund" },
+            { q: "When was Tattvärtha-sutra written by Umäsväti, according to another source?", a: "200 AD" },
+            { q: "When did the second Vächanä (Recension) of Ägam take place in Mathurä?", a: "303 A.D." },
+            { q: "When was the Jain canon first written down at the council of Vallabhi?", a: "980 years after Mahävir's Nirväna (approx 453 A.D.)" },
+            { q: "For how long was Mathurä a stronghold of Jains?", a: "nearly 1000 years (up to 500 A.D.)" },
+            { q: "Who wrote Sarvärtha Siddhi in the 5th or 6th century?", a: "Pujyapäd-swämi" },
+            { q: "Who wrote Padma Purän around 650 AD?", a: "Ravisen" },
+            { q: "What is the life period of Digambar Ächärya Jinsen, author of Mahä-Purän?", a: "770-850" },
+            { q: "Who wrote commentaries Dhavalä-tikä, Mahä-dhavalä-tikä, and Jay-dhavalä-tikä around 780 AD?", a: "Ächärya Virsen and Jinsen" },
+            { q: "When did Shrimad Räjchandra compose \\\"Ätmasiddhi-shästra\\\"?", a: "1896" },
+            { q: "When did Virchand R. Gandhi represent Jains at the World Parliament of Religions?", a: "1893" },
+            { q: "When was the book Saman-Suttam created?", a: "1974 (during the 2500th Nirväna anniversary of Bhagawän Mahävir)" },
+            { q: "When did Ächärya Tulsi initiate the Anuvrat movement?", a: "1949" },
+            { q: "What is the life period of Shrimad Räjchandra?", a: "1867 to 1901 A.D." },
+            { q: "When did Shrimad Räjchandra attain Samyag Darshan, according to belief?", a: "1891 A.D." }
+        ];
+        
+        // Function to show specific content and hide others
+        function showContent(contentId) {
+            const contents = ['content-timeline', 'content-quiz'];
+            const tabs = ['tab-timeline', 'tab-quiz'];
+            
+            contents.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.classList.add('hidden');
+            });
+            tabs.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.classList.remove('tab-active');
+            });
+            
+            const activeContent = document.getElementById(contentId);
+            if (activeContent) activeContent.classList.remove('hidden');
+            
+            const activeTab = document.getElementById('tab-' + contentId.split('-')[1]);
+            if (activeTab) activeTab.classList.add('tab-active');
+        }
+
+        function renderTimeline() {
+            // Ensure it targets 'timeline-container-render'
+            const timelineRenderContainer = document.getElementById('timeline-container-render');
+            if (!timelineRenderContainer) return; // Added safety check
+
+            // Function to create a sortable century label from a date string
+            function getCenturyLabel(dateStr) {
+                const lowerDate = dateStr.toLowerCase();
+                
+                // Handle special cases first
+                if (lowerDate.includes("v.s.")) return "Vikram Samvat Era";
+                if (lowerDate.includes("after mahävir's nirväna")) return "Relative to Mahavir's Nirväna";
+
+                // Word to number map for centuries
+                const centuryWords = {
+                    'first': 1, 'second': 2, 'third': 3, 'fourth': 4, 'fifth': 5, 'sixth': 6, 'seventh': 7, 'eighth': 8, 'ninth': 9, 'tenth': 10,
+                    'eleventh': 11, 'twelfth': 12, 'thirteenth': 13, 'fourteenth': 14, 'fifteenth': 15, 'sixteenth': 16,
+                    'seventeenth': 17, 'eighteenth': 18, 'nineteenth': 19, 'twentieth': 20, '21st': 21
+                };
+
+                let centuryNum = null;
+
+                // Check for spelled-out centuries first
+                for (const word in centuryWords) {
+                    if (lowerDate.includes(word)) {
+                        centuryNum = centuryWords[word];
+                        break;
+                    }
+                }
+
+                // If not found, check for numeric years
+                if (centuryNum === null) {
+                    const yearMatch = lowerDate.match(/(\d+)/);
+                    if (yearMatch) {
+                        const year = parseInt(yearMatch[0]);
+                        centuryNum = Math.ceil(Math.abs(year) / 100) || 1;
+                    } else {
+                        return "Uncategorized"; // Fallback for dates with no number/word
+                    }
+                }
+
+                const suffix = (centuryNum % 10 === 1 && centuryNum % 100 !== 11) ? 'st'
+                            : (centuryNum % 10 === 2 && centuryNum % 100 !== 12) ? 'nd'
+                            : (centuryNum % 10 === 3 && centuryNum % 100 !== 13) ? 'rd'
+                            : 'th';
+
+                if (lowerDate.includes('bc') || lowerDate.includes('b.c.')) {
+                    return `${centuryNum}${suffix} Century BC`;
+                } else {
+                    return `${centuryNum}${suffix} Century AD`;
+                }
+            }
+            
+            // Group events by century
+            const groupedEvents = events.reduce((acc, event) => {
+                const century = getCenturyLabel(event.date);
+                if (!acc[century]) {
+                    acc[century] = [];
+                }
+                acc[century].push(event);
+                return acc;
+            }, {});
+
+            // Sort centuries chronologically
+            const sortedCenturies = Object.keys(groupedEvents).sort((a, b) => {
+                const isSpecial = (key) => !key.includes('Century'); // Any key without "Century" is special
+
+                if (isSpecial(a) && !isSpecial(b)) return 1;
+                if (!isSpecial(a) && isSpecial(b)) return -1;
+                if (isSpecial(a) && isSpecial(b)) {
+                    return a.localeCompare(b); // Sort special cases alphabetically
+                }
+                
+                const aIsBC = a.includes('BC');
+                const bIsBC = b.includes('BC');
+                
+                if (aIsBC && !bIsBC) return -1; // BC comes before AD
+                if (!aIsBC && bIsBC) return 1;  // AD comes after BC
+
+                const aNumMatch = a.match(/\d+/);
+                const bNumMatch = b.match(/\d+/);
+
+                if (!aNumMatch || !bNumMatch) return 0; // Should not happen due to isSpecial check, but for safety
+
+                const aNum = parseInt(aNumMatch[0]);
+                const bNum = parseInt(bNumMatch[0]);
+
+                // If both are BC, sort descending by number. If both are AD, sort ascending.
+                return aIsBC ? bNum - aNum : aNum - bNum;
+            });
+
+
+            let timelineHTML = ''; // Removed the outer div, it's now timeline-container-render
+            let eventSide = 'left'; // To alternate sides, starting with left
+
+            sortedCenturies.forEach(century => {
+                if (century === "Uncategorized") return; 
+
+                timelineHTML += `
+                    <div class="century-container mb-8 flex justify-center">
+                        <div class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-full shadow-lg">
+                            ${century}
+                        </div>
+                    </div>
+                `;
+                groupedEvents[century].forEach((event) => {
+                    // const itemSideClass = eventCounter % 2 === 0 ? 'timeline-item-odd' : 'timeline-item-even'; // Old logic
+                    const itemClass = eventSide; // Use 'left' or 'right'
+                    const contentAlignmentClass = eventSide === 'left' ? 'md:text-right' : 'md:text-left';
+                    const cardMarginClass = eventSide === 'left' ? 'md:mr-[calc(50%+2rem)]' : 'md:ml-[calc(50%+2rem)]';
+
+
+                    timelineHTML += `
+                        <div class="timeline-item ${itemClass} mb-8">
+                            <div class="timeline-content bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ${contentAlignmentClass}">
+                                <h3 class="font-bold text-lg text-indigo-700">${event.date}</h3>
+                                <p class="mt-2 text-slate-700">${event.event}</p>
+                                <p class="mt-4 text-xs text-slate-500">Ref: ${event.section}, p${event.page}</p>
+                            </div>
+                        </div>
+                    `;
+                    eventSide = (eventSide === 'left') ? 'right' : 'left'; // Alternate side
+                });
+            });
+            // timelineHTML += '</div>'; // Removed closing tag for the outer div
+            timelineRenderContainer.innerHTML = timelineHTML;
+
+            // Render unsorted events
+            const unsortedContainer = document.getElementById('unsorted-events');
+            let unsortedHTML = '';
+            unsortedEvents.forEach(event => {
+                unsortedHTML += `
+                    <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <h3 class="font-bold text-lg text-indigo-700">${event.date}</h3>
+                        <p class="mt-2 text-slate-700">${event.event}</p>
+                        <p class="mt-4 text-xs text-slate-500">Ref: ${event.section}, p${event.page}</p>
+                    </div>
+                `;
+            });
+            unsortedContainer.innerHTML = unsortedHTML;
+        }
+
+
+        function renderQuiz() {
+            const quizContainer = document.getElementById('quiz-container-render');
+            if (!quizContainer) return;
+            quizContainer.innerHTML = ''; // Clear previous content
+
+            quizData.forEach((item, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.className = 'bg-blue-50 p-6 rounded-lg shadow-md';
+
+                const questionText = document.createElement('p');
+                questionText.className = 'text-lg font-semibold text-blue-800 mb-3';
+                questionText.textContent = `Q${index + 1}: ${item.q}`;
+
+                const answerDiv = document.createElement('div');
+                answerDiv.className = 'text-gray-700 mt-2 hidden pl-4 border-l-4 border-blue-300';
+                answerDiv.textContent = item.a;
+
+                const toggleButton = document.createElement('button');
+                toggleButton.className = 'mt-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md shadow-sm transition duration-150 ease-in-out';
+                toggleButton.textContent = 'Show Answer';
+
+                toggleButton.addEventListener('click', () => {
+                    const isHidden = answerDiv.classList.toggle('hidden');
+                    toggleButton.textContent = isHidden ? 'Show Answer' : 'Hide Answer';
+                });
+
+                questionDiv.appendChild(questionText);
+                questionDiv.appendChild(toggleButton);
+                questionDiv.appendChild(answerDiv);
+                quizContainer.appendChild(questionDiv);
+            });
+        }
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            // Original timeline rendering logic from the file
+            function getCenturyLabel(dateStr) {
+                const lowerDate = dateStr.toLowerCase();
+                if (lowerDate.includes("v.s.")) return "Vikram Samvat Era";
+                if (lowerDate.includes("after mahävir's nirväna")) return "Relative to Mahavir's Nirväna";
+                const centuryWords = {
+                    'first': 1, 'second': 2, 'third': 3, 'fourth': 4, 'fifth': 5, 'sixth': 6, 'seventh': 7, 'eighth': 8, 'ninth': 9, 'tenth': 10,
+                    'eleventh': 11, 'twelfth': 12, 'thirteenth': 13, 'fourteenth': 14, 'fifteenth': 15, 'sixteenth': 16,
+                    'seventeenth': 17, 'eighteenth': 18, 'nineteenth': 19, 'twentieth': 20, '21st': 21
+                };
+                let centuryNum = null;
+                for (const word in centuryWords) {
+                    if (lowerDate.includes(word)) {
+                        centuryNum = centuryWords[word];
+                        break;
+                    }
+                }
+                if (centuryNum === null) {
+                    const yearMatch = lowerDate.match(/(\\d+)/);
+                    if (yearMatch) {
+                        const year = parseInt(yearMatch[0]);
+                        centuryNum = Math.ceil(Math.abs(year) / 100) || 1;
+                    } else {
+                        return "Uncategorized";
+                    }
+                }
+                const suffix = (centuryNum % 10 === 1 && centuryNum % 100 !== 11) ? 'st'
+                            : (centuryNum % 10 === 2 && centuryNum % 100 !== 12) ? 'nd'
+                            : (centuryNum % 10 === 3 && centuryNum % 100 !== 13) ? 'rd'
+                            : 'th';
+                if (lowerDate.includes('bc') || lowerDate.includes('b.c.')) {
+                    return `${centuryNum}${suffix} Century BC`;
+                } else {
+                    return `${centuryNum}${suffix} Century AD`;
+                }
+            }
+            
+            const groupedEvents = events.reduce((acc, event) => {
+                const century = getCenturyLabel(event.date);
+                if (!acc[century]) {
+                    acc[century] = [];
+                }
+                acc[century].push(event);
+                return acc;
+            }, {});
+
+            const sortedCenturies = Object.keys(groupedEvents).sort((a, b) => {
+                const isSpecial = (key) => !key.includes('Century');
+                if (isSpecial(a) && !isSpecial(b)) return 1;
+                if (!isSpecial(a) && isSpecial(b)) return -1;
+                if (isSpecial(a) && isSpecial(b)) {
+                    return a.localeCompare(b); 
+                }
+                const aIsBC = a.includes('BC');
+                const bIsBC = b.includes('BC');
+                if (aIsBC && !bIsBC) return -1; 
+                if (!aIsBC && bIsBC) return 1;  
+                const aNumMatch = a.match(/\\d+/);
+                const bNumMatch = b.match(/\\d+/);
+                if (!aNumMatch || !bNumMatch) return 0; 
+                const aNum = parseInt(aNumMatch[0]);
+                const bNum = parseInt(bNumMatch[0]);
+                return aIsBC ? bNum - aNum : aNum - bNum;
+            });
+
+            const timelineRenderContainer = document.getElementById('timeline-container-render');
+            if (timelineRenderContainer) { // Check if container exists
+                let timelineHTML = ''; 
+                let eventSide = 'left'; 
+                sortedCenturies.forEach(century => {
+                    if (century === "Uncategorized") return; 
+                    timelineHTML += `
+                        <div class="century-container mb-8 flex justify-center">
+                            <div class="bg-indigo-600 text-white font-bold py-2 px-6 rounded-full shadow-lg">
+                                ${century}
+                            </div>
+                        </div>
+                    `;
+                    groupedEvents[century].forEach((event) => {
+                        const itemClass = eventSide; 
+                        const contentAlignmentClass = eventSide === 'left' ? 'md:text-right' : 'md:text-left';
+                        timelineHTML += `
+                            <div class="timeline-item ${itemClass} mb-8">
+                                <div class="timeline-content bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ${contentAlignmentClass}">
+                                    <h3 class="font-bold text-lg text-indigo-700">${event.date}</h3>
+                                    <p class="mt-2 text-slate-700">${event.event}</p>
+                                    <p class="mt-4 text-xs text-slate-500">Ref: ${event.section}, p${event.page}</p>
+                                </div>
+                            </div>
+                        `;
+                        eventSide = (eventSide === 'left') ? 'right' : 'left'; 
+                    });
+                });
+                timelineRenderContainer.innerHTML = timelineHTML;
+            }
+
+
+            const unsortedContainer = document.getElementById('unsorted-events');
+            if (unsortedContainer) { // Check if container exists
+                let unsortedHTML = '';
+                unsortedEvents.forEach(event => {
+                    unsortedHTML += `
+                        <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                            <h3 class="font-bold text-lg text-indigo-700">${event.date}</h3>
+                            <p class="mt-2 text-slate-700">${event.event}</p>
+                            <p class="mt-4 text-xs text-slate-500">Ref: ${event.section}, p${event.page}</p>
+                        </div>
+                    `;
+                });
+                unsortedContainer.innerHTML = unsortedHTML;
+            }
+            
+            // Setup tab listeners
+            const tabTimeline = document.getElementById('tab-timeline');
+            const tabQuiz = document.getElementById('tab-quiz');
+
+            if (tabTimeline) tabTimeline.addEventListener('click', () => showContent('content-timeline'));
+            if (tabQuiz) tabQuiz.addEventListener('click', () => showContent('content-quiz'));
+
+            // Initial content display
+            showContent('content-timeline'); // Show timeline by default
+            // renderTimeline(); // Timeline is already rendered by the original logic above
+            renderQuiz(); 
+        });
+
+    </script>
+    <!-- Added main navigation script -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
