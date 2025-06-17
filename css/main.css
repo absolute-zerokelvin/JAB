@@ -151,8 +151,10 @@ footer.bg-emerald-700 {
     transition: left 0.3s ease;
 }
 
-.mobile-nav.active {
+.mobile-nav.active,
+nav#mobileNavigation.active {
     left: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .nav-overlay {
@@ -263,13 +265,29 @@ footer.bg-emerald-700 {
     transition: background-color 0.2s ease;
 }
 
+.mobile-nav .section-header {
+    cursor: default;
+    background: var(--primary-blue-light);
+    color: white;
+}
+
 .section-header:hover {
     background: var(--light-blue);
+}
+
+.mobile-nav .section-header:hover {
+    background: var(--primary-blue-light);
 }
 
 .section-title {
     font-weight: 600;
     color: var(--primary-blue-dark);
+}
+
+.mobile-nav .section-title {
+    font-weight: 700;
+    color: white;
+    font-size: 1.1rem;
 }
 
 .section-toggle {
@@ -334,6 +352,7 @@ footer.bg-emerald-700 {
     position: fixed;
     top: 1rem;
     left: 1rem;
+    z-index: 1200;
     background: var(--primary-blue);
     color: white;
     border: none;
@@ -349,6 +368,7 @@ footer.bg-emerald-700 {
     margin-left: 280px;
     padding: 2rem;
     min-height: 100vh;
+    transition: margin-left 0.3s ease;
 }
 
 .main-content.full-width {

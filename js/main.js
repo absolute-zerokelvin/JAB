@@ -27,16 +27,18 @@ function createNavigationHTML(navData, isMobile = false) {
     const mobileClass = isMobile ? 'mobile-nav' : 'desktop-nav';
     
     let html = `
-        <nav class="navigation ${mobileClass}" id="mainNavigation">
+        <nav class="navigation ${mobileClass}" id="${isMobile ? 'mobileNavigation' : 'mainNavigation'}">
             <div class="nav-container">
                 ${isMobile ? '<button class="nav-close" onclick="toggleMobileNav()">&times;</button>' : ''}
                 <div class="nav-header">
                     <h3 class="nav-title"><a href="./index.html" class="nav-home-link">${nav.title}</a></h3>
                     <p class="nav-subtitle">${nav.subtitle}</p>
+                    ${isMobile ? '' : `
                     <div class="nav-controls">
                         <button class="nav-expand-all" onclick="expandAllSections()">Expand All</button>
                         <button class="nav-collapse-all" onclick="collapseAllSections()">Collapse All</button>
                     </div>
+                    `}
                 </div>
                 <ul class="nav-sections">
     `;
@@ -45,9 +47,9 @@ function createNavigationHTML(navData, isMobile = false) {
     nav.sections.forEach(section => {
         html += `
             <li class="nav-section">
-                <div class="section-header" onclick="toggleSection('${section.id}')">
+                <div class="section-header" ${isMobile ? '' : `onclick="toggleSection('${section.id}')"`}>
                     <span class="section-title">${section.title}</span>
-                    <span class="section-toggle">▼</span>
+                    ${isMobile ? '' : `<span class="section-toggle">▼</span>`}
                 </div>
                 <ul class="nav-subsections" id="${section.id}-subsections">
         `;
@@ -139,7 +141,7 @@ function collapseAllSections() {
 
 // Toggle mobile navigation
 function toggleMobileNav() {
-    const nav = document.getElementById('mainNavigation');
+    const nav = document.getElementById('mobileNavigation');
     const overlay = document.getElementById('navOverlay');
     
     if (nav && overlay) {
@@ -165,11 +167,18 @@ async function initializeNavigation() {
         mobileNavContainer.innerHTML = createNavigationHTML(navData, true);
     }
     
-    // Initialize sections as collapsed
+    // Initialize sections as collapsed for desktop but expanded for mobile
     navData.navigation.sections.forEach(section => {
-        const subsections = document.getElementById(section.id + '-subsections');
-        if (subsections) {
-            subsections.style.display = 'none';
+        // For desktop navigation - collapsed
+        const desktopSubsections = document.querySelector('#mainNavigation #' + section.id + '-subsections');
+        if (desktopSubsections) {
+            desktopSubsections.style.display = 'none';
+        }
+        
+        // For mobile navigation - expanded
+        const mobileSubsections = document.querySelector('#mobileNavigation #' + section.id + '-subsections');
+        if (mobileSubsections) {
+            mobileSubsections.style.display = 'block';
         }
     });
     
