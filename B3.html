@@ -72,12 +72,12 @@
     <div class="main-content">
         
         <header class="text-center mb-8">
-            <h1 class="text-3xl md:text-5xl font-bold text-blue-900">B.3. Jain Path of Liberation: Ratna-trayi</h1>
-            <p class="text-lg md:text-xl text-blue-700 mt-2">An Interactive Study Guide for Ratna-Trayi B.3 section</p>
+            <h1 class="text-3xl md:text-5xl font-bold text-blue-900">The Path to Liberation</h1>
+            <p class="text-lg md:text-xl text-blue-700 mt-2">An Interactive Study Guide for Ratna-Trayi</p>
         </header>
 
         <div class="mb-8 sticky top-2 z-10">
-            <ul id="tabs" class="flex flex-wrap justify-center items-center gap-x-2 p-2 bg-white rounded-2xl shadow-md h-16 border border-blue-200">
+            <ul id="tabs" class="flex flex-wrap justify-center items-center gap-x-2 p-2 bg-white rounded-2xl shadow-md">
                 <li><a href="#" class="tab-link active bg-blue-600 text-white rounded-full shadow-md px-4 py-2 font-semibold transition-colors duration-300" data-tab="three-jewels">The Three Jewels</a></li>
                 <li><a href="#" class="tab-link text-blue-700 px-4 py-2 font-semibold transition-colors duration-300" data-tab="soul">The Soul (Ätmä)</a></li>
                 <li><a href="#" class="tab-link text-blue-700 px-4 py-2 font-semibold transition-colors duration-300" data-tab="path">The Spiritual Path</a></li>
@@ -95,26 +95,28 @@
                     <p class="text-sm not-italic mt-1">– Tattvärtha Sutra</p>
                 </div>
                 
-                <div class="mt-8 flex justify-center items-center">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-0.5 text-center">
-                        <div class="p-6 bg-blue-100 rounded-t-lg md:rounded-t-none md:rounded-l-lg">
-                            <h3 class="font-bold text-blue-900 text-xl">Samyag Darshan</h3>
-                            <p class="text-blue-800 font-semibold">(Right Perception)</p>
-                            <p class="mt-2 text-sm text-gray-600">Seeing the true nature of reality without bias. It is the foundation.</p>
-                        </div>
-                        <div class="p-6 bg-blue-200">
-                            <h3 class="font-bold text-blue-900 text-xl">Samyag Jnän</h3>
-                            <p class="text-blue-800 font-semibold">(Right Knowledge)</p>
-                             <p class="mt-2 text-sm text-gray-600">The true knowledge of reality, the soul, and karma that compels proper action.</p>
-                        </div>
-                        <div class="p-6 bg-blue-100 rounded-b-lg md:rounded-b-none md:rounded-r-lg">
-                            <h3 class="font-bold text-blue-900 text-xl">Samyak Chäritra</h3>
-                            <p class="text-blue-800 font-semibold">(Right Conduct)</p>
-                             <p class="mt-2 text-sm text-gray-600">Living according to the principles of non-violence, self-control, and non-attachment.</p>
-                        </div>
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-0.5 text-center">
+                    <div class="p-6 bg-blue-100 rounded-t-lg md:rounded-t-none md:rounded-l-lg">
+                        <h3 class="font-bold text-blue-900 text-xl">Samyag Darshan</h3>
+                        <p class="text-blue-800 font-semibold">(Right Perception)</p>
+                        <p class="mt-2 text-sm text-gray-600">Seeing the true nature of reality without bias. It is the foundation.</p>
+                    </div>
+                    <div class="p-6 bg-blue-200">
+                        <h3 class="font-bold text-blue-900 text-xl">Samyag Jnän</h3>
+                        <p class="text-blue-800 font-semibold">(Right Knowledge)</p>
+                         <p class="mt-2 text-sm text-gray-600">The true knowledge of reality, the soul, and karma that compels proper action.</p>
+                    </div>
+                    <div class="p-6 bg-blue-100 rounded-b-lg md:rounded-b-none md:rounded-r-lg">
+                        <h3 class="font-bold text-blue-900 text-xl">Samyak Chäritra</h3>
+                        <p class="text-blue-800 font-semibold">(Right Conduct)</p>
+                         <p class="mt-2 text-sm text-gray-600">Living according to the principles of non-violence, self-control, and non-attachment.</p>
                     </div>
                 </div>
-                 <p class="mt-6 text-center text-gray-700">These three jewels are interdependent. Like three strands of a rope, they are strong together but weak alone.</p>
+                
+                <div class="mt-8 pt-6 border-t border-blue-200">
+                    <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">Five Internal Qualities (Lakshan) of Samyag Darshan</h3>
+                    <div id="samyag-darshan-cards" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"></div>
+                </div>
             </div>
 
             <div id="soul" class="tab-pane hidden">
@@ -144,55 +146,31 @@
                         </div>
                     </div>
                 </div>
+                 <div class="mt-8 pt-6 border-t border-blue-200">
+                    <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">The Nine Tattvas (Principles)</h3>
+                    <p class="text-center mb-4 text-sm text-gray-600">These define the relationship between the soul (Jiva) and karma.</p>
+                    <div id="nine-tattvas-cards" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4"></div>
+                </div>
             </div>
 
             <div id="path" class="tab-pane hidden">
                 <h2 class="text-2xl font-bold text-blue-800 mb-4">The Spiritual Path (Gunasthän)</h2>
                 <p class="mb-6 text-gray-700">The journey of the soul from complete wrong belief to total liberation is a step-by-step process through 14 spiritual stages, or Gunasthän. Here are the key milestones.</p>
-                
                 <div class="relative p-6">
                     <!-- The Ladder Line -->
                     <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-blue-200 -translate-x-1/2"></div>
-
-                    <!-- Stage 1 -->
-                    <div class="relative mb-8 flex justify-center">
-                        <div class="w-1/2 text-right pr-8"></div>
-                        <div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div>
-                        <div class="w-1/2 pl-8"><div class="p-3 bg-red-100 border-l-4 border-red-500 rounded-r-lg"><strong>Stage 1: Mithyätva</strong><p class="text-sm">Complete wrong belief. Starting point for all worldly souls.</p></div></div>
-                    </div>
-                     <!-- Stage 4 -->
-                    <div class="relative mb-8 flex justify-center">
-                        <div class="w-1/2 text-right pr-8"><div class="p-3 bg-yellow-100 border-r-4 border-yellow-500 rounded-l-lg"><strong>Stage 4: Samyaktva</strong><p class="text-sm">Attainment of Right Faith. Faith Deluding Karma is destroyed.</p></div></div>
-                        <div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div>
-                        <div class="w-1/2 pl-8"></div>
-                    </div>
-                    <!-- Stage 5-7 -->
-                    <div class="relative mb-8 flex justify-center">
-                         <div class="w-1/2 text-right pr-8"></div>
-                        <div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div>
-                        <div class="w-1/2 pl-8"><div class="p-3 bg-green-100 border-l-4 border-green-500 rounded-r-lg"><strong>Stages 5-7: Right Conduct Begins</strong><p class="text-sm">Adopts vows, becomes a lay follower (5), then an ascetic (6-7).</p></div></div>
-                    </div>
-                    <!-- Stage 12 -->
-                    <div class="relative mb-8 flex justify-center">
-                        <div class="w-1/2 text-right pr-8"><div class="p-3 bg-green-100 border-r-4 border-green-500 rounded-l-lg"><strong>Stage 12: Vitaräg</strong><p class="text-sm">Passionless state. All Conduct Deluding Karma is destroyed.</p></div></div>
-                        <div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div>
-                        <div class="w-1/2 pl-8"></div>
-                    </div>
-                    <!-- Stage 13 -->
-                    <div class="relative mb-8 flex justify-center">
-                        <div class="w-1/2 text-right pr-8"></div>
-                        <div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div>
-                        <div class="w-1/2 pl-8"><div class="p-3 bg-purple-100 border-l-4 border-purple-500 rounded-r-lg"><strong>Stage 13: Sayogi Kevali</strong><p class="text-sm">Attainment of Keval-jnän (Omniscience). All 4 Ghāti Karmas are destroyed.</p></div></div>
-                    </div>
-                    <!-- Stage 14 & Moksh -->
-                    <div class="relative mb-8 flex justify-center">
-                         <div class="w-1/2 text-right pr-8"><div class="p-3 bg-purple-100 border-r-4 border-purple-500 rounded-l-lg"><strong>Stage 14 & Moksh</strong><p class="text-sm">Ayogi Kevali stage (freezes activity), then sheds all 4 Aghāti Karmas at Nirvāna to attain total liberation.</p></div></div>
-                        <div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div>
-                        <div class="w-1/2 pl-8"></div>
-                    </div>
-
+                    <!-- Stages -->
+                    <div class="relative mb-8 flex justify-center"><div class="w-1/2 text-right pr-8"></div><div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div><div class="w-1/2 pl-8"><div class="p-3 bg-red-100 border-l-4 border-red-500 rounded-r-lg"><strong>Stage 1: Mithyätva</strong><p class="text-sm">Complete wrong belief. Starting point for all worldly souls.</p></div></div></div>
+                    <div class="relative mb-8 flex justify-center"><div class="w-1/2 text-right pr-8"><div class="p-3 bg-yellow-100 border-r-4 border-yellow-500 rounded-l-lg"><strong>Stage 4: Samyaktva</strong><p class="text-sm">Attainment of Right Faith. Faith Deluding Karma is destroyed.</p></div></div><div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div><div class="w-1/2 pl-8"></div></div>
+                    <div class="relative mb-8 flex justify-center"><div class="w-1/2 text-right pr-8"></div><div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div><div class="w-1/2 pl-8"><div class="p-3 bg-green-100 border-l-4 border-green-500 rounded-r-lg"><strong>Stages 5-7: Right Conduct Begins</strong><p class="text-sm">Adopts vows, becomes a lay follower (5), then an ascetic (6-7).</p></div></div></div>
+                    <div class="relative mb-8 flex justify-center"><div class="w-1/2 text-right pr-8"><div class="p-3 bg-green-100 border-r-4 border-green-500 rounded-l-lg"><strong>Stage 12: Vitaräg</strong><p class="text-sm">Passionless state. All Conduct Deluding Karma is destroyed.</p></div></div><div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div><div class="w-1/2 pl-8"></div></div>
+                    <div class="relative mb-8 flex justify-center"><div class="w-1/2 text-right pr-8"></div><div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div><div class="w-1/2 pl-8"><div class="p-3 bg-purple-100 border-l-4 border-purple-500 rounded-r-lg"><strong>Stage 13: Sayogi Kevali</strong><p class="text-sm">Attainment of Keval-jnän (Omniscience). All 4 Ghāti Karmas are destroyed.</p></div></div></div>
+                    <div class="relative mb-8 flex justify-center"><div class="w-1/2 text-right pr-8"><div class="p-3 bg-purple-100 border-r-4 border-purple-500 rounded-l-lg"><strong>Stage 14 & Moksh</strong><p class="text-sm">Ayogi Kevali stage (freezes activity), then sheds all 4 Aghāti Karmas at Nirvāna to attain total liberation.</p></div></div><div class="absolute w-4 h-4 rounded-full bg-blue-600 top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 border-2 border-white"></div><div class="w-1/2 pl-8"></div></div>
                 </div>
-
+                 <div class="mt-8 pt-6 border-t border-blue-200">
+                    <h3 class="text-xl font-bold text-blue-900 mb-4 text-center">Karma Destroyed & Quality Revealed</h3>
+                    <div id="karma-revealed-cards"></div>
+                </div>
             </div>
 
             <div id="quiz" class="tab-pane hidden">
@@ -211,8 +189,8 @@
                     <div class="max-w-xl mx-auto">
                         <div class="flashcard-container h-64 mb-4">
                             <div id="quiz-flashcard-b3" class="flashcard w-full h-full cursor-pointer">
-                                <div id="quiz-card-front-b3" class="flashcard-face bg-blue-500 text-white rounded-lg shadow-lg"></div>
-                                <div id="quiz-card-back-b3" class="flashcard-back bg-blue-700 text-white rounded-lg shadow-lg"></div>
+                                <div id="quiz-card-front-b3" class="flashcard-face bg-blue-500 text-white rounded-lg"></div>
+                                <div id="quiz-card-back-b3" class="flashcard-back bg-blue-700 text-white rounded-lg"></div>
                             </div>
                         </div>
                         <div class="flex justify-between items-center">
@@ -250,7 +228,10 @@
             document.getElementById('tab-content').addEventListener('click', e => {
                 const accordionButton = e.target.closest('.accordion-button');
                 const qaButton = e.target.closest('.qa-question-btn');
+                const flashcard = e.target.closest('.flashcard');
                 
+                if(flashcard) { flashcard.classList.toggle('is-flipped'); }
+
                 if (accordionButton) {
                     const targetId = accordionButton.dataset.target;
                     const content = document.getElementById(targetId);
@@ -268,6 +249,61 @@
                     text.textContent = isOpening ? 'Hide Answer' : 'Show Answer';
                 }
             });
+            
+            // --- DATA ---
+            const samyagDarshanQualities = [
+                { term: 'Upasham', def: 'Suppressing of passions (Kashäy)' },
+                { term: 'Samveg', def: 'Desire to achieve Moksh' },
+                { term: 'Nirved', def: 'Realization that the world is full of sorrow' },
+                { term: 'Anukampä', def: 'Empathy towards all living beings' },
+                { term: 'Ästikya', def: 'True faith in religion' }
+            ];
+            
+            const nineTattvas = [
+                { term: 'Jiva', def: 'Soul' }, { term: 'Ajiva', def: 'Non-living elements' },
+                { term: 'Äsrav', def: 'Influx of karma' }, { term: 'Bandh', def: 'Bondage of karma' },
+                { term: 'Punya', def: 'Virtue' }, { term: 'Päp', def: 'Sin' },
+                { term: 'Samvar', def: 'Stoppage of karma influx' }, { term: 'Nirjarä', def: 'Partial exhaustion of karma' },
+                { term: 'Moksh', def: 'Total liberation from karma' }
+            ];
+            
+            const karmaRevealed = [
+                 { karma: 'Mohaniya Karma Destroyed', quality: 'Anant-chäritra (Perfect Conduct)' },
+                 { karma: 'Jnänävaraniya Karma Destroyed', quality: 'Anant-jnän (Infinite Knowledge)' },
+                 { karma: 'Darshanävaraniya Karma Destroyed', quality: 'Anant-darshan (Infinite Perception)' },
+                 { karma: 'Antaräya Karma Destroyed', quality: 'Anant-virya (Infinite Energy)' },
+                 { karma: 'Vedaniya Karma Destroyed', quality: 'Avyäbädha-sukh (Eternal Happiness)' },
+                 { karma: 'Gotra Karma Destroyed', quality: 'Aguru-laghutva (Equalness)' },
+                 { karma: 'Näm Karma Destroyed', quality: 'Arupitva (Formlessness)' },
+                 { karma: 'Äyushya Karma Destroyed', quality: 'Akshay-sthiti (Immortality)' }
+            ];
+
+            // --- UI Builder Functions ---
+            function createDynamicFlashcards(containerId, dataArray, frontKey, backKey, cardHeightClass, gridClasses) {
+                const container = document.getElementById(containerId);
+                if (!container) return;
+                container.innerHTML = '';
+                container.className = gridClasses;
+                dataArray.forEach(item => {
+                    container.innerHTML += `
+                        <div class="flashcard-container ${cardHeightClass}">
+                            <div class="flashcard w-full h-full cursor-pointer">
+                                <div class="flashcard-face bg-blue-500 text-white font-semibold">
+                                    <p>${item[frontKey]}</p>
+                                </div>
+                                <div class="flashcard-back bg-blue-700 text-white">
+                                    <p>${item[backKey]}</p>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+
+            createDynamicFlashcards('samyag-darshan-cards', samyagDarshanQualities, 'term', 'def', 'h-28', 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4');
+            createDynamicFlashcards('nine-tattvas-cards', nineTattvas, 'term', 'def', 'h-28', 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4');
+            createDynamicFlashcards('karma-revealed-cards', karmaRevealed, 'karma', 'quality', 'h-32', 'grid grid-cols-2 md:grid-cols-4 gap-4');
+            
 
             // --- Quiz Data & Setup for Section B.3 ---
             const quizDataB3 = [
@@ -297,23 +333,23 @@
                 const qaSection = document.getElementById('quiz-qa-section-b3');
                 let currentIndex = 0;
 
+                if (!qaContainer) return; // Exit if not on the quiz page
+
                 // Build Q&A List
-                if (qaContainer) {
-                    qaContainer.innerHTML = '';
-                    quizDataB3.forEach((item, index) => {
-                        qaContainer.innerHTML += `
-                             <div class="qa-item border-b border-blue-200">
-                                <button class="qa-question-btn w-full text-left p-4 hover:bg-blue-50 flex justify-between items-center">
-                                    <span class="font-semibold">${index + 1}. ${item.q}</span>
-                                    <span class="text-blue-500 text-sm font-bold">Show Answer</span>
-                                </button>
-                                <div class="qa-answer bg-green-50/50 border-t border-green-200">
-                                   <p class="text-green-800 p-4">${item.a}</p>
-                                </div>
+                qaContainer.innerHTML = '';
+                quizDataB3.forEach((item, index) => {
+                    qaContainer.innerHTML += `
+                         <div class="qa-item border-b border-blue-200">
+                            <button class="qa-question-btn w-full text-left p-4 hover:bg-blue-50 flex justify-between items-center">
+                                <span class="font-semibold">${index + 1}. ${item.q}</span>
+                                <span class="text-blue-500 text-sm font-bold">Show Answer</span>
+                            </button>
+                            <div class="qa-answer bg-green-50/50 border-t border-green-200">
+                               <p class="text-green-800 p-4">${item.a}</p>
                             </div>
-                        `;
-                    });
-                }
+                        </div>
+                    `;
+                });
                 
                 // Update Flashcard UI
                 function updateFlashcard() {
