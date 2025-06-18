@@ -11,16 +11,23 @@
             {
                 "id": "B1",
                 "title": "B.1",
-                "name": "B.1. Introduction to Jainism",
+                "name": "Introduction to Jainism",
                 "url": "./B1.html?section=B1",
                 "dataFile": "B1.json"
             },
             {
                 "id": "B2",
                 "title": "B.2",
-                "name": " Panch Parameshthi",
+                "name": "Panch Parameshthi",
                 "url": "./B2.html?",
                 "dataFile": "B2.json"
+            },
+            {
+                "id": "B3",
+                "title": "B.3",
+                "name": "Jain Path of Liberation: Ratna-trayi",
+                "url": "./B3.html?section=B3",
+                "dataFile": "B3.json"
             }
         ]
       },
