@@ -28,6 +28,13 @@
                 "name": "Jain Path of Liberation: Ratna-trayi",
                 "url": "./B3.html?section=B3",
                 "dataFile": "B3.json"
+            },
+            {
+                "id": "B4",
+                "title": "B.4",
+                "name": "Shad Dravya I: Jiva",
+                "url": "./B4.html?section=B4",
+                "dataFile": "B4.json"
             }
         ]
       },
