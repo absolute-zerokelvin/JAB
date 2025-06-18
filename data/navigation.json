@@ -3,6 +3,27 @@
     "title": "JAB Story Explorer",
     "subtitle": " Mindmaps, Timelines & More",
     "sections": [
+        {
+        "id": "section-b",
+        "title": "Section B",
+        "description": "Stories and lessons from Section B",
+        "subsections": [
+            {
+                "id": "B1",
+                "title": "B.1",
+                "name": "B.1. Introduction to Jainism",
+                "url": "./B1.html?section=B1",
+                "dataFile": "B1.json"
+            },
+            {
+                "id": "B2",
+                "title": "B.2",
+                "name": " Panch Parameshthi",
+                "url": "./B2.html?",
+                "dataFile": "B2.json"
+            }
+        ]
+      },
 
       {
         "id": "section-e",

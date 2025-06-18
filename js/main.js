@@ -10,7 +10,7 @@ let navigationData = null;
 async function fetchNavigationData() {
     try {
         // Use cache-busted fetch if available
-        const response = await fetch('./data/navigation.json?v=' + Date.now());
+        const response = await fetch('/data/navigation.json?v=' + Date.now());
         navigationData = await response.json();
         return navigationData;
     } catch (error) {
@@ -239,6 +239,30 @@ async function renderHomepageContent() {
             </div>
         `;
     });
+    
+    // Render additional pages as a special section
+    if (navData.navigation.additionalPages && navData.navigation.additionalPages.length > 0) {
+        html += `
+            <div class="section-card">
+                <h2 class="section-card-title">Additional Resources</h2>
+                <p class="section-card-description">Timelines and other comprehensive resources</p>
+                <div class="subsection-grid">
+        `;
+        
+        navData.navigation.additionalPages.forEach(page => {
+            html += `
+                <a href="${page.url}" class="subsection-card">
+                    <h3 class="subsection-card-title">${page.title}</h3>
+                    <p class="subsection-card-name">${page.name || ''}</p>
+                </a>
+            `;
+        });
+        
+        html += `
+                </div>
+            </div>
+        `;
+    }
     
     contentContainer.innerHTML = html;
 }
