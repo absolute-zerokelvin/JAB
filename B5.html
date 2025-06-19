@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAB Chapter B.5: Shad Dravya II: Ajiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f8ff;
+        }
+        .jab-container {
+            max-width: 1024px;
+            margin: auto;
+            padding: 1.5rem 1rem;
+        }
+        .jab-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .jab-header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .jab-header p {
+            font-size: 1.125rem;
+            color: #3b82f6;
+        }
+        .jab-tabs {
+            background-color: #e0f2fe;
+            border-radius: 9999px;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .tab-button {
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: transparent;
+            color: #0369a1;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .tab-button.active {
+            background-color: #3b82f6;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .card {
+            background-color: white;
+            border: 1px solid #bfdbfe;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        }
+        .card-header {
+            background-color: #dbeafe;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #bfdbfe;
+        }
+        .card-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .flashcard-container { perspective: 1000px; }
+        .flashcard {
+            width: 100%;
+            height: 180px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 1rem;
+        }
+        .flashcard.flipped { transform: rotateY(180deg); }
+        .flashcard-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; border-radius: 1rem; }
+        .flashcard-front { font-size: 1.5rem; font-weight: bold; }
+        .flashcard-back { background-color: #2563eb; transform: rotateY(180deg); }
+        
+        #kalchakra-svg path { transition: all 0.3s ease-in-out; cursor: pointer; stroke: white; stroke-width: 0.75; }
+        #kalchakra-svg path:hover, #kalchakra-svg path.active-ara { transform: scale(1.02); stroke-width: 2.5; stroke: #1d4ed8; }
+        #ara-info { min-height: 180px; width: 100%; max-width: 350px; background-color: #eff6ff; border: 1px solid #bfdbfe; border-radius: 0.75rem; }
+        #ara-duration { font-weight: bold; color: #1e40af; }
+
+        #palyopam-animation { width: 100%; max-width: 400px; height: 250px; border: 3px solid #60a5fa; border-radius: 1rem; margin: 1rem auto; position: relative; overflow: hidden; background: #dbeafe; }
+        #pit { width: 80%; height: 150px; background: #9ca3af; border: 5px solid #6b7280; border-radius: 0 0 50px 50px; position: absolute; bottom: 0; left: 10%; }
+        #hairs { position: absolute; bottom: 5px; left: 12%; width: 76%; height: 140px; background: linear-gradient(to top, #4b5563, #6b7280); transition: height 1s linear; }
+        #hand { font-size: 3rem; position: absolute; top: 20px; left: -50px; transition: all 1s ease-in-out; }
+        #hair-tip { width: 2px; height: 10px; background: #374151; position: absolute; opacity: 0; transition: all 1s ease-in-out; }
+        #palyopam-text { text-align: center; font-size: 1.125rem; font-weight: bold; color: #1e40af; }
+
+        .time-unit-row { display: flex; align-items: center; margin-bottom: 0.75rem; font-size: 0.9rem; position: relative; }
+        .time-unit-label { width: 100px; flex-shrink: 0; font-weight: bold; }
+        .time-unit-bar-wrapper { flex-grow: 1; background-color: #e0f2fe; border-radius: 8px; overflow: hidden; }
+        .time-unit-bar { height: 25px; width: 0; border-radius: 8px; transition: width 1.5s ease-out; text-align: right; color: white; padding-right: 8px; line-height: 25px; font-size: 0.8rem; white-space: nowrap; cursor: help; }
+        .bar-broken { clip-path: polygon(0 0, 95% 0, 100% 50%, 95% 100%, 0 100%); }
+        #time-unit-tooltip { position: absolute; display: none; background-color: #1e293b; color: white; padding: 5px 10px; border-radius: 6px; font-size: 0.8rem; z-index: 10; pointer-events: none; }
+
+        .lokakash-container { position: relative; width: 100%; max-width: 500px; height: 650px; margin: 2rem auto; background: linear-gradient(to bottom, #f0f9ff, #e0f2fe); border-radius: 1rem; overflow: hidden; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .lokakash-label { position: absolute; background: rgba(255,255,255,0.7); padding: 2px 8px; border-radius: 6px; font-size: 0.9rem; animation: fadeIn 2s ease-in-out forwards; }
+        .lokakash-structure { position: absolute; left: 50%; transform: translateX(-50%); animation: fadeIn 1s ease-in-out forwards; }
+        #siddhashila { top: 40px; width: 80px; height: 40px; border: 2px solid #a16207; background: #fef08a; border-radius: 50% / 100%; border-bottom: 0; }
+        #devloka { top: 80px; width: 120px; height: 150px; background: #bae6fd; border: 2px solid #0ea5e9; clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%); }
+        #middle-world { top: 230px; width: 140px; height: 30px; background: #bbf7d0; border: 2px solid #22c55e; }
+        #naraka { top: 260px; width: 140px; height: 280px; background: #fecaca; border: 2px solid #ef4444; clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%); display: flex; flex-direction: column; }
+        .hell-level { flex-grow: 1; border-top: 1px solid #dc2626; }
+        #sun-glow { top: 10px; width: 120px; height: 60px; background: radial-gradient(circle, rgba(253,230,138,1) 0%, rgba(253,230,138,0) 70%); }
+        
+        .quiz-format-switcher {
+            display: flex;
+            justify-content: center;
+            background-color: #e0f2fe;
+            border-radius: 9999px;
+            padding: 0.25rem;
+            width: fit-content;
+            margin: 0 auto 1.5rem auto;
+        }
+        .quiz-format-btn {
+             padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: transparent;
+            color: #0369a1;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .quiz-format-btn.active {
+            background-color: white;
+            color: #3b82f6;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+        }
+        .quiz-format { display: none; }
+        .quiz-format.active { display: block; }
+
+    </style>
+</head>
+<body class="bg-blue-50">
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
+    
+    <!-- Added Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    
+    <!-- Added Desktop Navigation -->
+    <div id="desktop-nav-container"></div>
+    
+    <!-- Added Mobile Navigation -->
+    <div id="mobile-nav-container"></div>
+
+    <div class="main-content">
+        <header class="jab-header">
+            <h1>B.5 Shad Dravya II: Ajiva</h1>
+            <p>An Interactive Study Guide</p>
+        </header>
+
+        <div class="jab-tabs" id="tab-nav">
+            <button class="tab-button" data-tab="intro">Welcome!</button>
+            <button class="tab-button" data-tab="mindmap">5 Ajivas</button>
+            <button class="tab-button" data-tab="motion">Dharmästikäy</button>
+            <button class="tab-button" data-tab="rest">Adharmästikäy</button>
+            <button class="tab-button" data-tab="space">Äkäshästikäy</button>
+            <button class="tab-button" data-tab="matter">Pudgalästikäy</button>
+            <button class="tab-button" data-tab="time">Käl</button>
+            <button class="tab-button" data-tab="quiz">Quiz Time!</button>
+        </div>
+
+        <div id="tab-content-container">
+            <div id="intro" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>What is Ajiva? 🤔</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg">Ajiva means anything that is non-living. It doesn't have a soul (Jiva), so it can't feel happy or sad, and it doesn't have birth or death. Because it's inert (Achetan), it cannot accumulate any karma. Think of your toys, books, or a rock – they are all Ajiva!</p>
+                        <p class="text-lg mt-4">These substances make up the universe along with Jiva (living beings). Let's explore the five types of Ajiva together!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="mindmap" class="tab-content"><div class="card"><div class="card-header"><h2>The 5 Types of Ajiva</h2></div><div class="card-body"><div class="flex justify-center items-center"><svg width="100%" height="400" viewBox="0 0 800 400" style="max-width: 800px; margin: auto;"><circle cx="400" cy="200" r="60" fill="#3b82f6"></circle><text x="400" y="200" font-family="Inter" font-size="24" fill="white" text-anchor="middle" dy=".3em">Ajiva</text><line x1="400" y1="200" x2="200" y2="100" stroke="#93c5fd" stroke-width="2"></line><g transform="translate(160, 80)"><circle cx="0" cy="0" r="50" fill="#60a5fa"></circle><text x="0" y="0" font-family="Inter" font-size="14" fill="white" text-anchor="middle" dy=".3em">Dharmästikäy<tspan x="0" dy="1.2em">(Motion)</tspan></text></g><line x1="400" y1="200" x2="600" y2="100" stroke="#93c5fd" stroke-width="2"></line><g transform="translate(640, 80)"><circle cx="0" cy="0" r="50" fill="#60a5fa"></circle><text x="0" y="0" font-family="Inter" font-size="14" fill="white" text-anchor="middle" dy=".3em">Adharmästikäy<tspan x="0" dy="1.2em">(Rest)</tspan></text></g><line x1="400" y1="200" x2="150" y2="300" stroke="#93c5fd" stroke-width="2"></line><g transform="translate(110, 280)"><circle cx="0" cy="0" r="50" fill="#60a5fa"></circle><text x="0" y="0" font-family="Inter" font-size="16" fill="white" text-anchor="middle" dy=".3em">Äkäshästikäy<tspan x="0" dy="1.2em">(Space)</tspan></text></g><line x1="400" y1="200" x2="400" y2="350" stroke="#93c5fd" stroke-width="2"></line><g transform="translate(400, 370)"><circle cx="0" cy="0" r="50" fill="#60a5fa"></circle><text x="0" y="0" font-family="Inter" font-size="16" fill="white" text-anchor="middle" dy=".3em">Käl<tspan x="0" dy="1.2em">(Time)</tspan></text></g><line x1="400" y1="200" x2="650" y2="300" stroke="#93c5fd" stroke-width="2"></line><g transform="translate(690, 280)"><circle cx="0" cy="0" r="50" fill="#60a5fa"></circle><text x="0" y="0" font-family="Inter" font-size="14" fill="white" text-anchor="middle" dy=".3em">Pudgalästikäy<tspan x="0" dy="1.2em">(Matter)</tspan></text></g></svg></div></div></div></div>
+
+            <div id="motion" class="tab-content"><div class="card"><div class="card-header"><h2>Dharmästikäy: The Medium of Motion 🏃‍♀️</h2></div><div class="card-body"><p class="text-lg">This is what allows Jivas and Pudgal (matter) to move! It is made of two words: <span class="font-bold text-blue-700">Dharma</span> (medium of motion) + <span class="font-bold text-blue-700">Astikäy</span> (collection of spaces).</p><ul class="list-disc list-inside text-lg space-y-2 mt-4"><li>It does not <span class="font-bold">make</span> things move, but it <span class="font-bold">helps</span> them move.</li><li>It exists in the entire cosmic universe (<span class="font-bold">Lokäkäsh</span>).</li><li>It is absent in the trans-cosmic space (<span class="font-bold">Alokäkäsh</span>).</li></ul><div class="mt-6 p-6 bg-blue-50 rounded-lg text-center"><span class="text-6xl">🐠</span><p class="text-lg mt-2 text-blue-800">Without water, a fish can't swim. Without Dharmästikäy, we couldn't move!</p></div></div></div></div>
+            <div id="rest" class="tab-content"><div class="card"><div class="card-header"><h2>Adharmästikäy: The Medium of Rest 😴</h2></div><div class="card-body"><p class="text-lg">This substance helps moving things to stop and rest. It is made of two words: <span class="font-bold text-blue-700">Adharma</span> (medium of rest) + <span class="font-bold text-blue-700">Astikäy</span> (collection of spaces).</p><ul class="list-disc list-inside text-lg space-y-2 mt-4"><li>It does not <span class="font-bold">force</span> things to rest, but it <span class="font-bold">helps</span> them rest.</li><li>Like Dharmästikäy, it exists in the <span class="font-bold">Lokäkäsh</span> but is absent in the <span class="font-bold">Alokäkäsh</span>.</li></ul><div class="mt-6 p-6 bg-blue-50 rounded-lg text-center"><span class="text-6xl">🌳</span><p class="text-lg mt-2 text-blue-800">A tired traveler rests under the shade of a tree. The shade doesn't make them rest, but it helps them rest. Adharmästikäy is like that tree's shade for the universe!</p></div></div></div></div>
+            
+            <div id="space" class="tab-content"><div class="card"><div class="card-header"><h2>Äkäshästikäy: Space 🌌</h2></div><div class="card-body"><p class="text-lg mb-6">This is the space that gives room to all the other substances. It's everywhere! It is divided into two parts:</p><div class="grid md:grid-cols-2 gap-6 text-center"><div class="p-6 bg-blue-100 rounded-xl"><h3 class="text-xl font-bold text-blue-800">Lokäkäsh (Universe)</h3><p>The part of space where all the other 5 substances exist.</p></div><div class="p-6 bg-gray-200 rounded-xl"><h3 class="text-xl font-bold text-gray-800">Alokäkäsh (Empty Space)</h3><p>The infinite, empty space beyond the Lokäkäsh.</p></div></div><h3 class="text-2xl font-bold text-blue-800 mt-12 mb-4 text-center">Visualizing the Universe</h3><div class="lokakash-container"><div class="lokakash-label" style="top: 10px; left: 10px;">Alokäkäsh<br/>(Empty Space)</div><div class="lokakash-label" style="top: 300px; left: 10px;">Lokäkäsh<br/>(The Universe)</div><div class="lokakash-label" style="top: 10px; right: 10px;">Siddhashila - Abode of<br/>liberated beings</div><div class="lokakash-label" style="top: 150px; right: 10px;">Devloka - Abode of<br/>celestial beings</div><div class="lokakash-label" style="top: 235px; right: 10px;">Middle World - Abode<br/>of Humans & Animals</div><div class="lokakash-label" style="bottom: 100px; left: 10px;">Naraka - Abode of<br/>the Hellish beings</div><div id="sun-glow" class="lokakash-structure"></div><div id="siddhashila" class="lokakash-structure"></div><div id="devloka" class="lokakash-structure"></div><div id="middle-world" class="lokakash-structure"></div><div id="naraka" class="lokakash-structure"><div class="hell-level"></div><div class="hell-level"></div><div class="hell-level"></div><div class="hell-level"></div><div class="hell-level"></div><div class="hell-level"></div></div></div></div></div></div>
+            
+            <div id="matter" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Pudgalästikäy: Matter ✨</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-6">Pudgal is everything you can see, touch, taste, or smell! It's the only substance with a physical body. Sound, light, and even darkness are types of matter.</p>
+                        <h3 class="text-xl font-bold text-blue-800 mt-8 mb-4">8 Varganäs (Special Matter)</h3>
+                        <p class="mb-6">The soul interacts with these 8 special types of matter. Use the buttons to navigate through the flashcards!</p>
+                        <div id="vargana-flashcard-area" class="text-center">
+                            <div class="flashcard-container mx-auto max-w-md">
+                                <div id="vargana-flashcard" class="flashcard">
+                                    <div id="vargana-front" class="flashcard-face flashcard-front"></div>
+                                    <div id="vargana-back" class="flashcard-face flashcard-back"></div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <button id="prev-vargana" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Prev</button>
+                                <span id="vargana-counter" class="mx-4 font-bold"></span>
+                                <button id="next-vargana" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="time" class="tab-content">
+                 <div class="card">
+                    <div class="card-header"><h2>Käl: The Interactive Wheel of Time ⏳</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-6 text-center">Time measures changes. It's a giant wheel (Kälchakra) that's always turning. Hover over a slice of the wheel, or click the buttons to start an animated tour!</p>
+                        <div id="kalchakra-container" class="flex flex-col md:flex-row items-center justify-center gap-8">
+                            <div id="kalchakra-graphic"><svg id="kalchakra-svg" width="300" height="300" viewBox="0 0 100 100"></svg></div>
+                            <div id="ara-info" class="p-4 rounded-lg"><h3 id="ara-title" class="text-2xl font-bold text-blue-800">Hover on the wheel!</h3><p id="ara-desc" class="mt-2 text-blue-700"></p><p id="ara-duration" class="mt-2"></p></div>
+                        </div>
+                        <div class="flex justify-center gap-4 mt-4">
+                            <button id="start-avasarpini" class="bg-red-400 hover:bg-red-500 text-white font-bold py-2 px-4 rounded-full transition">Start Avsarpini Cycle</button>
+                            <button id="start-utsarpini" class="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full transition">Start Utsarpini Cycle</button>
+                        </div>
+                        <hr class="my-8">
+                        <h3 class="text-2xl font-bold text-blue-800 mt-8 mb-4 text-center">Units of Time: From Tiny to Immense</h3>
+                        <div id="time-unit-tooltip"></div><div id="time-units-container" class="mt-6"></div>
+                        <hr class="my-8">
+                        <h3 class="text-2xl font-bold text-blue-800 mt-8 mb-4 text-center">What is a Palyopam?</h3>
+                        <p class="text-center mb-4">Palyopam is a mind-bogglingly HUGE unit of time. Imagine a giant pit, one yojana (about 8 miles) wide and deep, packed with tiny hair tips. The time it takes to empty this pit by taking out just <span class="font-bold">one hair tip every 100 years</span> is one Palyopam.</p>
+                        <div id="palyopam-animation"><div id="pit"></div> <div id="hairs"></div> <div id="hand">✋</div> <div id="hair-tip"></div></div>
+                        <div id="palyopam-text" class="h-6 mt-2">Click the button to start!</div>
+                        <div class="text-center mt-2"><button id="start-palyopam" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Start Animation</button></div>
+                    </div>
+                 </div>
+            </div>
+
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Quiz Time! 🧠</h2></div>
+                    <div class="card-body">
+                         <div class="quiz-format-switcher">
+                            <button class="quiz-format-btn active" data-format="qa">Q & A</button>
+                            <button class="quiz-format-btn" data-format="flash">Flashcards</button>
+                        </div>
+                        <div id="qa-format" class="quiz-format active">
+                            <div class="space-y-4" id="qa-questions"></div>
+                        </div>
+                        <div id="flash-format" class="quiz-format">
+                            <div id="quiz-flashcard-area" class="text-center">
+                                <div class="flashcard-container mx-auto max-w-md">
+                                    <div id="quiz-flashcard" class="flashcard !bg-teal-500">
+                                        <div id="quiz-front" class="flashcard-face flashcard-front !text-lg"></div>
+                                        <div id="quiz-back" class="flashcard-face flashcard-back !bg-teal-600 !text-lg"></div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <button id="prev-quiz" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Prev</button>
+                                    <span id="quiz-counter" class="mx-4 font-bold"></span>
+                                    <button id="next-quiz" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tabNav = document.getElementById('tab-nav');
+        const tabContents = document.querySelectorAll('.tab-content');
+        function switchTab(targetTabId) {
+            tabNav.querySelectorAll('.tab-button').forEach(button => button.classList.toggle('active', button.dataset.tab === targetTabId));
+            tabContents.forEach(content => content.classList.toggle('active', content.id === targetTabId));
+        }
+        tabNav.addEventListener('click', (e) => { if (e.target.matches('.tab-button')) { switchTab(e.target.dataset.tab); } });
+        switchTab('intro');
+
+        // --- Vargana Flashcard Logic ---
+        const varganas = [ { term: 'Audärik Varganä', definition: 'Makes a physical body for humans and animals.' }, { term: 'Vaikriya Varganä', definition: 'Makes a special body for heavenly and infernal beings.' }, { term: 'Ähärak Varganä', definition: 'Makes a special body for advanced monks to travel long distances.' }, { term: 'Tejas Varganä', definition: 'Responsible for heat and digestion power.' }, { term: 'Bhäshä Varganä', definition: 'Responsible for speech.' }, { term: 'Mana Varganä', definition: 'Responsible for the physical mind.' }, { term: 'Shväso-chchhväs Varganä', definition: 'Responsible for breathing.' }, { term: 'Kärman Varganä', definition: 'Makes the Karmic body (our karma!).' } ];
+        let currentVarganaIndex = 0;
+        const varganaFlashcard = document.getElementById('vargana-flashcard');
+        const varganaFront = document.getElementById('vargana-front');
+        const varganaBack = document.getElementById('vargana-back');
+        const varganaCounter = document.getElementById('vargana-counter');
+        const showVarganaCard = (index) => {
+            const card = varganas[index];
+            varganaFront.textContent = card.term;
+            varganaBack.textContent = card.definition;
+            varganaCounter.textContent = `${index + 1} / ${varganas.length}`;
+            varganaFlashcard.classList.remove('flipped');
+        };
+        if(varganaFlashcard) {
+            varganaFlashcard.addEventListener('click', () => varganaFlashcard.classList.toggle('flipped'));
+            document.getElementById('next-vargana').addEventListener('click', () => { currentVarganaIndex = (currentVarganaIndex + 1) % varganas.length; showVarganaCard(currentVarganaIndex); });
+            document.getElementById('prev-vargana').addEventListener('click', () => { currentVarganaIndex = (currentVarganaIndex - 1 + varganas.length) % varganas.length; showVarganaCard(currentVarganaIndex); });
+            showVarganaCard(0);
+        }
+
+        // --- Quiz Logic ---
+        const quizQuestions = [ { q: 'What does Ajiva literally mean?', a: 'Without a soul' }, { q: 'Which substance is the medium of motion?', a: 'Dharmästikäy' }, { q: 'Which substance is the medium of rest?', a: 'Adharmästikäy' }, { q: 'What gives room to all other substances?', a: 'Äkäshästikäy (Space)' }, { q: 'The infinite empty space is called...', a: 'Alokäkäsh' }, { q: 'In which part of the universe can a soul achieve liberation?', a: 'Middle World (in Lokäkäsh)' }, { q: 'What is the word for Matter?', a: 'Pudgalästikäy' }, { q: 'A whole object, like a stick, is called...', a: 'Skandha' }, { q: 'What is the smallest, indivisible particle of matter called?', a: 'Paramänu or Anu' }, { q: 'The Varganä responsible for speech is...', a: 'Bhäshä Varganä' }, { q: 'The Varganä that makes our Karmic body is...', a: 'Kärman Varganä' }, { q: 'What is the Jain term for Time?', a: 'Käl' }, { q: 'What is the smallest indivisible unit of time?', a: 'Samay' }, { q: 'A period of 48 minutes is called a...', a: 'Muhurt' }, { q: 'What is the name of the current descending half-cycle of time?', a: 'Avasarpini' }, { q: 'Which Ärä are we currently in?', a: 'The 5th, Dukham Käl' }, { q: 'In which Ärä was the first Tirthankar born?', a: '3rd, Sukham Dukham Käl' }, { q: 'Which two words make up "Pudgal"?', a: 'Pud (combine) and Gal (dissociate)' } ];
+        const qaContainer = document.getElementById('qa-questions');
+        if (qaContainer) {
+            qaContainer.innerHTML = ''; // Clear previous content
+            quizQuestions.forEach((item, index) => { 
+                qaContainer.innerHTML += `<div class="p-4 border rounded-lg"><p class="font-bold">${index + 1}. ${item.q}</p><button class="mt-2 bg-gray-200 text-sm px-3 py-1 rounded-full" onclick="toggleAnswer(${index})">Show Answer</button><div class="p-3 bg-blue-50 mt-2 rounded-lg" id="answer-${index}" style="display: none;"><p class="font-bold text-blue-800">${item.a}</p></div></div>`; 
+            });
+        }
+        function toggleAnswer(index) { const answerEl = document.getElementById(`answer-${index}`); answerEl.style.display = answerEl.style.display === 'block' ? 'none' : 'block'; }
+        
+        // Quiz Flashcard Logic
+        let currentQuizIndex = 0;
+        const quizFlashcard = document.getElementById('quiz-flashcard');
+        const quizFront = document.getElementById('quiz-front');
+        const quizBack = document.getElementById('quiz-back');
+        const quizCounter = document.getElementById('quiz-counter');
+        const showQuizCard = (index) => {
+            const card = quizQuestions[index];
+            quizFront.textContent = card.q;
+            quizBack.textContent = card.a;
+            quizCounter.textContent = `${index + 1} / ${quizQuestions.length}`;
+            quizFlashcard.classList.remove('flipped');
+        };
+        if(quizFlashcard) {
+            quizFlashcard.addEventListener('click', () => quizFlashcard.classList.toggle('flipped'));
+            document.getElementById('next-quiz').addEventListener('click', () => { currentQuizIndex = (currentQuizIndex + 1) % quizQuestions.length; showQuizCard(currentQuizIndex); });
+            document.getElementById('prev-quiz').addEventListener('click', () => { currentQuizIndex = (currentQuizIndex - 1 + quizQuestions.length) % quizQuestions.length; showQuizCard(currentQuizIndex); });
+            showQuizCard(0);
+        }
+
+        // Quiz format switcher
+        document.querySelectorAll('.quiz-format-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                document.querySelectorAll('.quiz-format-btn').forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+                const format = e.target.dataset.format;
+                document.querySelectorAll('.quiz-format').forEach(div => div.classList.remove('active'));
+                document.getElementById(`${format}-format`).classList.add('active');
+            });
+        });
+
+        // --- Interactive Kalchakra Logic ---
+        const araData = { 'avasarpini': [ { name: '1. Sukham Sukham', desc: 'Happy-Happy.', duration: '4 KKS*' }, { name: '2. Sukham', desc: 'Happy.', duration: '3 KKS*' }, { name: '3. Sukham Dukham', desc: 'Happy-Sad.', duration: '2 KKS*' }, { name: '4. Dukham Sukham', desc: 'Sad-Happy.', duration: '1 KKS* (- 42k yrs)' }, { name: '5. Dukham', desc: 'Sad. Our current Ärä.', duration: '21,000 Years' }, { name: '6. Dukham Dukham', desc: 'Sad-Sad.', duration: '21,000 Years' }, ], 'utsarpini': [ { name: '1. Dukham Dukham', desc: 'Sad-Sad.', duration: '21,000 Years' }, { name: '2. Dukham', desc: 'Sad.', duration: '21,000 Years' }, { name: '3. Dukham Sukham', desc: 'Sad-Happy.', duration: '1 KKS* (- 42k yrs)' }, { name: '4. Sukham Dukham', desc: 'Happy-Sad.', duration: '2 KKS*' }, { name: '5. Sukham', desc: 'Happy.', duration: '3 KKS*' }, { name: '6. Sukham Sukham', desc: 'Happy-Happy.', duration: '4 KKS*' }, ] };
+        const araTitle = document.getElementById('ara-title');
+        const araDesc = document.getElementById('ara-desc');
+        const araDuration = document.getElementById('ara-duration');
+        const kalchakraSVG = document.getElementById('kalchakra-svg');
+        const colors = { avsarpini: ['#fca5a5', '#fdba74', '#fde047', '#bbf7d0', '#a7f3d0', '#99f6e4'], utsarpini: ['#a5f3fc', '#a5b4fc', '#c4b5fd', '#f0abfc', '#f9a8d4', '#fda4af'] };
+        
+        function getCoords(deg) { const rad = (deg - 90) * Math.PI / 180; return [50 + 50 * Math.cos(rad), 50 + 50 * Math.sin(rad)]; }
+        let currentAngle = 0;
+        for (let i = 0; i < 12; i++) {
+            const start = getCoords(currentAngle);
+            const end = getCoords(currentAngle + 30);
+            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            path.setAttribute("d", `M50 50 L${start[0]} ${start[1]} A50 50 0 0 1 ${end[0]} ${end[1]} Z`);
+            path.setAttribute("data-ara", i + 1);
+            path.setAttribute("fill", i < 6 ? colors.avsarpini[i] : colors.utsarpini[i - 6]);
+            kalchakraSVG.appendChild(path);
+            currentAngle += 30;
+        }
+        const kalchakraPaths = document.querySelectorAll('#kalchakra-svg path');
+
+        function updateAraInfo(path) {
+            const araIndex = parseInt(path.dataset.ara);
+            const isAvsarpini = araIndex <= 6;
+            const cycle = isAvsarpini ? 'avasarpini' : 'utsarpini';
+            const data = araData[cycle][isAvsarpini ? araIndex - 1 : araIndex - 7];
+            araTitle.textContent = `${data.name}`;
+            araDesc.textContent = `(${isAvsarpini ? 'Avsarpini' : 'Utsarpini'}) ${data.desc}`;
+            araDuration.innerHTML = `Duration: ${data.duration}<br/><span class='text-xs'>*KKS = Kodä Kodi Sägaropam</span>`;
+        }
+        kalchakraPaths.forEach(path => path.addEventListener('mouseover', (e) => updateAraInfo(e.target)));
+        
+        let cycleInterval;
+        function startCycleAnimation(type) {
+            clearInterval(cycleInterval);
+            const cycleButtons = [document.getElementById('start-avasarpini'), document.getElementById('start-utsarpini')];
+            cycleButtons.forEach(b => { b.disabled = true; b.classList.add('opacity-50'); });
+            const paths = type === 'avasarpini' ? Array.from(kalchakraPaths).slice(0, 6) : Array.from(kalchakraPaths).slice(6, 12);
+            let currentIndex = 0;
+            const animate = () => {
+                kalchakraPaths.forEach(p => p.classList.remove('active-ara'));
+                const currentPath = paths[currentIndex];
+                currentPath.classList.add('active-ara');
+                updateAraInfo(currentPath);
+                currentIndex++;
+                if (currentIndex >= paths.length) {
+                    clearInterval(cycleInterval);
+                    setTimeout(() => { kalchakraPaths.forEach(p => p.classList.remove('active-ara')); cycleButtons.forEach(b => { b.disabled = false; b.classList.remove('opacity-50'); }); }, 2500);
+                }
+            };
+            animate();
+            cycleInterval = setInterval(animate, 2500);
+        }
+        document.getElementById('start-avasarpini').addEventListener('click', () => startCycleAnimation('avasarpini'));
+        document.getElementById('start-utsarpini').addEventListener('click', () => startCycleAnimation('utsarpini'));
+
+        // --- Time Units Bar Chart ---
+        const timeUnits = [ { label: 'Samay', value: 'Smallest Unit', width: '5%', color: 'bg-teal-400', detail: 'The smallest, indivisible portion of time.'}, { label: 'Ävali', value: 'Innumerable Samay', width: '10%', color: 'bg-cyan-500', detail: 'About the time it takes to blink.' }, { label: 'Antarmuhurt', value: '> 1 Samay, < 48 Min', width: '20%', color: 'bg-sky-500', detail: 'An intermediate duration.' }, { label: 'Muhurt', value: '48 Minutes', width: '30%', color: 'bg-sky-600', detail: '16,777,216 Ävali' }, { label: 'Yug', value: '5 Years', width: '40%', color: 'bg-blue-600', detail: 'A small cycle of years.' }, { label: 'Purva', value: '70.56 Trillion Years', width: '60%', color: 'bg-indigo-600', detail: '7.056 x 10¹³ Years' }, { label: 'Palyopam', value: 'Innumerable Years', width: '100%', color: 'bg-violet-600', broken: true, detail: 'A giant pit of hair tips emptied over eons.' }, { label: 'Sägaropam', value: '10 KKP*', width: '100%', color: 'bg-purple-600', broken: true, detail: '10 x 10¹⁴ Palyopam' }, { label: 'Avasarpini', value: '10 KKS*', width: '100%', color: 'bg-fuchsia-600', broken: true, detail: '10 x 10¹⁴ Sägaropam' }, ];
+        const timeUnitsContainer = document.getElementById('time-units-container');
+        const tooltip = document.getElementById('time-unit-tooltip');
+        timeUnits.forEach(unit => { timeUnitsContainer.innerHTML += `<div class="time-unit-row"><div class="time-unit-label">${unit.label}</div><div class="time-unit-bar-wrapper"><div class="time-unit-bar ${unit.color} ${unit.broken ? 'bar-broken' : ''}" data-width="${unit.width}" data-detail="${unit.detail}">${unit.value}</div></div></div>`; });
+        timeUnitsContainer.innerHTML += `<p class="text-xs text-right mt-2">*KKP = Kodä Kodi Palyopam, KKS = Kodä Kodi Sägaropam</p>`;
+        document.querySelectorAll('.time-unit-bar').forEach(bar => { bar.addEventListener('mousemove', e => { tooltip.style.display = 'block'; tooltip.textContent = e.target.dataset.detail; tooltip.style.left = `${e.pageX + 10}px`; tooltip.style.top = `${e.pageY - 30}px`; }); bar.addEventListener('mouseleave', () => { tooltip.style.display = 'none'; }); });
+        const observer = new IntersectionObserver((entries) => { entries.forEach(entry => { if (entry.isIntersecting) { document.querySelectorAll('.time-unit-bar').forEach(bar => { bar.style.width = bar.dataset.width; }); observer.unobserve(entry.target); } }); }, { threshold: 0.5 });
+        if(timeUnitsContainer) observer.observe(timeUnitsContainer);
+
+        // --- Palyopam Animation Logic ---
+        const startBtn = document.getElementById('start-palyopam');
+        const hand = document.getElementById('hand');
+        const hairTip = document.getElementById('hair-tip');
+        const hairs = document.getElementById('hairs');
+        const palyopamText = document.getElementById('palyopam-text');
+        let isPalyopamAnimating = false;
+        startBtn.addEventListener('click', () => { if (isPalyopamAnimating) return; isPalyopamAnimating = true; startBtn.disabled = true; startBtn.classList.add('opacity-50'); let years = 0; let hairHeight = 100; hairs.style.height = `${hairHeight}%`; palyopamText.textContent = `Years passed: 0`; const animationInterval = setInterval(() => { if (years >= 300) { clearInterval(animationInterval); palyopamText.textContent = `...and so on for innumerable years!`; isPalyopamAnimating = false; startBtn.disabled = false; startBtn.classList.remove('opacity-50'); return; } hand.style.transition = 'none'; hand.style.left = '-50px'; hairTip.style.opacity = '0'; setTimeout(() => { hand.style.transition = 'all 1s ease-in-out'; hand.style.left = 'calc(50% - 20px)'; }, 100); setTimeout(() => { hairHeight -= 5; hairs.style.height = `${hairHeight}%`; hairTip.style.left = 'calc(50% - 1px)'; hairTip.style.top = `calc(100% - ${hairHeight}% - 15px)`; hairTip.style.opacity = '1'; }, 1100); setTimeout(() => { hand.style.left = 'calc(100% + 50px)'; hairTip.style.top = '-20px'; hairTip.style.opacity = '0'; years += 100; palyopamText.textContent = `Years passed: ${years}`; }, 2100); }, 3200); });
+    </script>
+        <script src="./js/main.js"></script>
+</body>
+</html>

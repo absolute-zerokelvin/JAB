@@ -35,6 +35,13 @@
                 "name": "Shad Dravya I: Jiva",
                 "url": "./B4.html?section=B4",
                 "dataFile": "B4.json"
+            },
+            {
+                "id": "B5",
+                "title": "B.5",
+                "name": "Shad Dravya II: Ajiva",
+                "url": "./B5.html?section=B5",
+                "dataFile": "B5.json"
             }
         ]
       },
