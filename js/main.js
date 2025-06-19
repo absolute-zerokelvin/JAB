@@ -206,9 +206,12 @@ async function renderHomepageContent() {
                 to life through engaging digital experiences to help prepare for JAB.
             </p>
             <p class="section-card-description">
-                This interactive manual was developed with valuable input and guidance from the JAB Teachers of JCNC (Jain Center of Northern California).
+                By no means this interactive guide is meant to be exhaustive or a replacement for the manual, but just an aid in helping revise the material already studied through the manual.
             </p>
             <p class="section-card-description">
+                This interactive manual was developed with valuable input and guidance from the JAB Teachers of JCNC (Jain Center of Northern California).
+            </p>
+            <p class="section-card-description important-notice">
                 <strong>Important Notice:</strong> Content is generated through LLM and spot checked, but it's possible that due to hallucination or wrong prompts, there may be factual errors with respect to what is in the source manual. If you notice errors, please report them as issues on GitHub  <a href="https://github.com/absolute-zerokelvin/JAB/issues" target="_blank" rel="noopener noreferrer">https://github.com/absolute-zerokelvin/JAB/issues</a> Feel free to submit a PR as well with changes.
             </p>
         </div>
