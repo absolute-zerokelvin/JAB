@@ -42,8 +42,21 @@
                 "name": "Shad Dravya II: Ajiva",
                 "url": "./B5.html?section=B5",
                 "dataFile": "B5.json"
-            }
-        ]
+            },
+            {
+                "id": "B6",
+                "title": "B.6",
+                "name": "Nav Tattva Part I",
+                "url": "./B6.html?section=B6",
+                "dataFile": "B6.json"
+            },
+            {
+                "id": "B7",
+                "title": "B.7",
+                "name": "Nav Tattva Part II: Punya and Päp",
+                "url": "./B7.html?section=B7",
+                "dataFile": "B7.json"
+            }        ]
       },
 
       {

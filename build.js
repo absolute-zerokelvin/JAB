@@ -153,7 +153,15 @@ class JABBuilder {
             'story.html',
             'timeline_duration-junior.html', 
             'timeline_duration-senior.html',
-            'timeline-k-to-m.html'];
+            'timeline-k-to-m.html',
+            'B1.html',
+            'B2.html',
+            'B3.html',
+            'B4.html',
+            'B5.html',
+            'B6.html',
+            'B7.html'
+        ];
         
         for (const file of htmlFiles) {
             const srcPath = path.join(this.sourceDir, file);

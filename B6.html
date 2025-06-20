@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAB Chapter B.6: Nav Tattva Part I</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f8ff;
+        }
+        .jab-container {
+            max-width: 1024px;
+            margin: auto;
+            padding: 1.5rem 1rem;
+        }
+        .jab-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .jab-header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .jab-header p {
+            font-size: 1.125rem;
+            color: #3b82f6;
+        }
+        .jab-tabs {
+            background-color: #e0f2fe;
+            border-radius: 9999px;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .tab-button {
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: transparent;
+            color: #0369a1;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .tab-button.active {
+            background-color: #3b82f6;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .card {
+            background-color: white;
+            border: 1px solid #bfdbfe;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            margin-bottom: 2rem;
+        }
+        .card-header {
+            background-color: #dbeafe;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #bfdbfe;
+        }
+        .card-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .flashcard-container { perspective: 1000px; }
+        .flashcard {
+            width: 100%;
+            height: 180px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 1rem;
+        }
+        .flashcard.flipped { transform: rotateY(180deg); }
+        .flashcard-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; border-radius: 1rem; }
+        .flashcard-front { font-size: 1.5rem; font-weight: bold; }
+        .flashcard-back { background-color: #2563eb; transform: rotateY(180deg); font-size: 1.1rem; }
+        
+        .quiz-format-switcher { display: flex; justify-content: center; background-color: #e0f2fe; border-radius: 9999px; padding: 0.25rem; width: fit-content; margin: 0 auto 1.5rem auto; }
+        .quiz-format-btn { padding: 0.5rem 1rem; border-radius: 9999px; border: none; background-color: transparent; color: #0369a1; font-weight: 500; cursor: pointer; transition: all 0.3s ease; }
+        .quiz-format-btn.active { background-color: white; color: #3b82f6; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); }
+        .quiz-format { display: none; }
+        .quiz-format.active { display: block; }
+        .quiz-answer { display: none; }
+
+        /* New Mind Map / Chart Styles */
+        .chart-container {
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            background-color: #f9fafb;
+        }
+        .chart-node {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem;
+            border-radius: 0.375rem;
+            margin-bottom: 0.25rem;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        .chart-node:hover {
+            background-color: #f3f4f6;
+        }
+        .chart-node-label {
+            flex-grow: 1;
+        }
+        .chart-node-toggle {
+            font-family: monospace;
+            font-weight: bold;
+            color: #6b7280;
+        }
+        .chart-children {
+            margin-left: 2rem;
+            border-left: 2px solid #e5e7eb;
+            padding-left: 1rem;
+            display: none; /* Hidden by default */
+        }
+        .chart-node-wrapper.open > .chart-children {
+            display: block; /* Show children when open */
+        }
+        /* Level-specific styles */
+        .level-0 > .chart-node { background-color: #dbeafe; color: #1e3a8a; }
+        .level-1 > .chart-node { background-color: #c7d2fe; color: #3730a3; }
+        .level-2 > .chart-node { background-color: #ffffff; }
+    </style>
+</head>
+<body class="bg-blue-50">
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
+    
+    <!-- Added Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    
+    <!-- Added Desktop Navigation -->
+    <div id="desktop-nav-container"></div>
+    
+    <!-- Added Mobile Navigation -->
+    <div id="mobile-nav-container"></div>
+
+    <div class="main-content">        
+        <header class="jab-header">
+            <h1>B.6 Nav Tattva Part I</h1>
+            <p>An Interactive Study Guide for Introduction, Äsrav, & Bandh</p>
+        </header>
+
+        <div class="jab-tabs" id="tab-nav">
+            <button class="tab-button" data-tab="intro">Intro & Chart</button>
+            <button class="tab-button" data-tab="punya-pap">Punya & Päp</button>
+            <button class="tab-button" data-tab="asrav">Äsrav (Influx)</button>
+            <button class="tab-button" data-tab="bandh">Bandh (Bondage)</button>
+            <button class="tab-button" data-tab="quiz">Quiz Time!</button>
+        </div>
+
+        <div id="tab-content-container">
+            <div id="intro" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Introduction to Nav Tattva (Nine Fundamentals)</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg">The Nav Tattva, or nine fundamentals, are the essence of Jain philosophy. They explain the theory of karma, which is the basis for understanding how a soul can achieve liberation (Moksh). By understanding these principles, we can learn how to stop new karma from coming in (<span class="font-bold text-blue-700">Samvar</span>) and how to remove old karma (<span class="font-bold text-blue-700">Nirjarä</span>).</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header flex justify-between items-center">
+                        <h2>Interactive Nav Tattva Chart</h2>
+                        <div class="flex gap-2">
+                             <button id="expand-all" class="text-xs bg-white text-blue-600 px-3 py-1 rounded-full shadow-sm">Expand All</button>
+                             <button id="collapse-all" class="text-xs bg-white text-blue-600 px-3 py-1 rounded-full shadow-sm">Collapse All</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center mb-4">Click on any item with a <span class="font-mono font-bold">[+]</span> or <span class="font-mono font-bold">[-]</span> to expand or collapse the category.</p>
+                        <div id="nav-tattva-chart" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="punya-pap" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Punya (Virtue) and Päp (Sin)</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-4">As long as a soul is embodied, it's always performing some activity (physical or mental). These activities attract karma.</p>
+                        <div class="grid md:grid-cols-2 gap-6 text-center">
+                            <div class="p-6 bg-green-100 rounded-xl">
+                                <h3 class="text-xl font-bold text-green-800">Punya (Virtue)</h3>
+                                <p>Meritorious or virtuous deeds (<span class="font-semibold">Shubh</span>) done with good intentions lead to Punya. This results in happy and comfortable situations, like good health and a beautiful body.</p>
+                            </div>
+                            <div class="p-6 bg-red-100 rounded-xl">
+                                <h3 class="text-xl font-bold text-red-800">Päp (Sin)</h3>
+                                <p>Evil or vicious acts (<span class="font-semibold">Ashubh</span>) lead to Päp. This results in unhappy and miserable situations, like illness and poverty.</p>
+                            </div>
+                        </div>
+                        <p class="text-lg mt-6">Crucially, it's the <span class="font-bold">intention</span> behind an act, not just the act itself, that determines the type of karma acquired.</p>
+                    </div>
+                </div>
+                 <div class="card">
+                    <div class="card-header"><h2>The Story of the Two Monks</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-4">This story shows how intention is more important than action. Two monks, Suresh muni and Raman muni, came to a flooded river where a young girl was afraid to cross.</p>
+                        <ul class="list-decimal list-inside space-y-3 text-lg">
+                            <li><span class="font-bold text-blue-600">Suresh muni</span>, seeing her distress, helped her across the river, even carrying her when the water got deep. His intention was pure help, with no attachment or passion. He let go of the girl and the thought of her immediately.</li>
+                            <li><span class="font-bold text-red-600">Raman muni</span> objected to the physical contact, but he himself kept thinking about the girl and the act for an hour afterward, creating passionate thoughts in his mind.</li>
+                        </ul>
+                        <p class="text-lg mt-4 font-bold text-center">In this case, Suresh muni earned Punya for his selfless help, while Raman muni, despite not touching the girl, acquired Päp due to his impure thoughts and intentions.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="asrav" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Äsrav: The Inflow of Karma</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg">Äsrav is the process by which new karmic particles are attracted to the soul. Think of the soul as a boat and karma as water. Äsrav is the holes in the boat that let the water in.</p>
+                        <h3 class="text-xl font-bold text-blue-800 mt-8 mb-4">The 5 Causes of Influx (Flashcards)</h3>
+                        <p class="mb-6">These are the "holes" that let karma in. Use the buttons to navigate through the flashcards!</p>
+                        <div id="asrav-flashcard-area" class="text-center">
+                            <div class="flashcard-container mx-auto max-w-md">
+                                <div id="asrav-flashcard" class="flashcard !bg-orange-400">
+                                    <div id="asrav-front" class="flashcard-face flashcard-front"></div>
+                                    <div id="asrav-back" class="flashcard-face flashcard-back !bg-orange-500"></div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <button id="prev-asrav" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Prev</button>
+                                <span id="asrav-counter" class="mx-4 font-bold"></span>
+                                <button id="next-asrav" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bandh" class="tab-content">
+                 <div class="card">
+                    <div class="card-header"><h2>Bandh: The Bondage of Karma</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg">Bandh is the actual attachment of karmic particles to the soul. This process determines four key characteristics of the karma, just like when you get medicine.</p>
+                         <h3 class="text-xl font-bold text-blue-800 mt-8 mb-4">The 4 Characteristics of Bondage (Flashcards)</h3>
+                        <p class="mb-6">Every karma that binds has these four properties. Use the buttons to navigate through the flashcards!</p>
+                        <div id="bandh-flashcard-area" class="text-center">
+                            <div class="flashcard-container mx-auto max-w-md">
+                                <div id="bandh-flashcard" class="flashcard !bg-rose-400">
+                                    <div id="bandh-front" class="flashcard-face flashcard-front"></div>
+                                    <div id="bandh-back" class="flashcard-face flashcard-back !bg-rose-500"></div>
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <button id="prev-bandh" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Prev</button>
+                                <span id="bandh-counter" class="mx-4 font-bold"></span>
+                                <button id="next-bandh" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Quiz Time! 🧠</h2></div>
+                    <div class="card-body">
+                         <div class="quiz-format-switcher">
+                            <button class="quiz-format-btn active" data-format="qa">Q & A</button>
+                            <button class="quiz-format-btn" data-format="flash">Flashcards</button>
+                        </div>
+                        <div id="qa-format" class="quiz-format active">
+                            <div class="space-y-4" id="qa-questions"></div>
+                        </div>
+                        <div id="flash-format" class="quiz-format">
+                            <div id="quiz-flashcard-area" class="text-center">
+                                <div class="flashcard-container mx-auto max-w-md">
+                                    <div id="quiz-flashcard" class="flashcard !bg-teal-500">
+                                        <div id="quiz-front" class="flashcard-face flashcard-front !text-lg"></div>
+                                        <div id="quiz-back" class="flashcard-face flashcard-back !bg-teal-600 !text-lg"></div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <button id="prev-quiz" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Prev</button>
+                                    <span id="quiz-counter" class="mx-4 font-bold"></span>
+                                    <button id="next-quiz" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tabNav = document.getElementById('tab-nav');
+        const tabContents = document.querySelectorAll('.tab-content');
+        function switchTab(targetTabId) {
+            tabNav.querySelectorAll('.tab-button').forEach(button => button.classList.toggle('active', button.dataset.tab === targetTabId));
+            tabContents.forEach(content => content.classList.toggle('active', content.id === targetTabId));
+        }
+        tabNav.addEventListener('click', (e) => { if (e.target.matches('.tab-button')) { switchTab(e.target.dataset.tab); } });
+        switchTab('intro');
+
+        // --- New Mind Map / Chart Logic ---
+        const chartData = {
+            text: 'Nav Tattva (Nine Fundamentals)',
+            children: [
+                { text: 'Jneya - meaning those to be known', children: [
+                    { text: 'Jiva - Soul or living being (Consciousness)' },
+                    { text: 'Ajiva - Non-living substances' }
+                ]},
+                { text: 'Heya - meaning those to be avoided', children: [
+                    { text: 'Äsrav - Influx of karma' },
+                    { text: 'Bandha - Bondage of karma' },
+                    { text: 'Päp - Sin' }
+                ]},
+                { text: 'Upädeya - meaning those to be adopted', children: [
+                    { text: 'Punya - Virtue' },
+                    { text: 'Samvar - Stoppage of the influx of karma' },
+                    { text: 'Nirjarä - Partial eradication of the accumulated karma' },
+                    { text: 'Moksh - Total liberation from karma' }
+                ]}
+            ]
+        };
+
+        const chartContainer = document.getElementById('nav-tattva-chart');
+        
+        function createChartNode(nodeData, level) {
+            const nodeWrapper = document.createElement('div');
+            nodeWrapper.className = `chart-node-wrapper level-${level}`;
+
+            const nodeElement = document.createElement('div');
+            nodeElement.className = 'chart-node';
+
+            const label = document.createElement('span');
+            label.className = 'chart-node-label';
+            label.textContent = nodeData.text;
+            nodeElement.appendChild(label);
+
+            if (nodeData.children && nodeData.children.length > 0) {
+                const toggle = document.createElement('span');
+                toggle.className = 'chart-node-toggle';
+                toggle.textContent = '[-]';
+                nodeElement.appendChild(toggle);
+                
+                nodeWrapper.appendChild(nodeElement);
+                
+                const childrenContainer = document.createElement('div');
+                childrenContainer.className = 'chart-children';
+                nodeData.children.forEach(child => {
+                    childrenContainer.appendChild(createChartNode(child, level + 1));
+                });
+                nodeWrapper.appendChild(childrenContainer);
+                
+                nodeElement.addEventListener('click', () => {
+                    nodeWrapper.classList.toggle('open');
+                    toggle.textContent = nodeWrapper.classList.contains('open') ? '[-]' : '[+]';
+                });
+                nodeWrapper.classList.add('open');
+            } else {
+                nodeWrapper.appendChild(nodeElement);
+            }
+            
+            return nodeWrapper;
+        }
+
+        if(chartContainer) {
+            chartContainer.innerHTML = '';
+            chartContainer.appendChild(createChartNode(chartData, 0));
+            
+            document.getElementById('expand-all').addEventListener('click', () => {
+                document.querySelectorAll('.chart-node-wrapper').forEach(n => {
+                    n.classList.add('open');
+                    const toggle = n.querySelector('.chart-node-toggle');
+                    if(toggle) toggle.textContent = '[-]';
+                });
+            });
+
+            document.getElementById('collapse-all').addEventListener('click', () => {
+                document.querySelectorAll('.chart-node-wrapper').forEach(n => {
+                    if(!n.classList.contains('level-2')) {
+                      n.classList.remove('open');
+                      const toggle = n.querySelector('.chart-node-toggle');
+                      if(toggle) toggle.textContent = '[+]';
+                    }
+                });
+            });
+        }
+        
+        // --- Flashcard Factory Function ---
+        function setupFlashcards(containerId, data, cardId, frontId, backId, counterId, nextId, prevId) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            
+            let currentIndex = 0;
+            const flashcard = document.getElementById(cardId);
+            const front = document.getElementById(frontId);
+            const back = document.getElementById(backId);
+            const counter = document.getElementById(counterId);
+
+            const showCard = (index) => {
+                const cardData = data[index];
+                front.textContent = cardData.term;
+                back.textContent = cardData.definition;
+                counter.textContent = `${index + 1} / ${data.length}`;
+                flashcard.classList.remove('flipped');
+            };
+
+            flashcard.addEventListener('click', () => flashcard.classList.toggle('flipped'));
+            document.getElementById(nextId).addEventListener('click', () => { currentIndex = (currentIndex + 1) % data.length; showCard(currentIndex); });
+            document.getElementById(prevId).addEventListener('click', () => { currentIndex = (currentIndex - 1 + data.length) % data.length; showCard(currentIndex); });
+            
+            showCard(0);
+        }
+
+        // --- Setup Asrav Flashcards ---
+        const asravData = [
+            { term: 'Mithyätva', definition: 'Wrong Faith. Ignorance or delusion about the true nature of the soul.' },
+            { term: 'Avirati', definition: 'Lack of Self-Restraint. Not taking vows to abstain from sinful activities.' },
+            { term: 'Pramäd', definition: 'Spiritual Laziness. Negligence in religious duties (caused by addiction, passions, sleep, etc.).' },
+            { term: 'Kashäy', definition: 'Passions. The four main passions: Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed).' },
+            { term: 'Yoga', definition: 'Activities. The actions of our mind, speech, and body which attract karma.' }
+        ];
+        setupFlashcards('asrav-flashcard-area', asravData, 'asrav-flashcard', 'asrav-front', 'asrav-back', 'asrav-counter', 'next-asrav', 'prev-asrav');
+
+        // --- Setup Bandh Flashcards ---
+        const bandhData = [
+             { term: 'Prakriti Bandh', definition: 'Nature of Karma. Determines the type of karma, e.g., knowledge-obscuring.' },
+             { term: 'Pradesh Bandh', definition: 'Quantity of Karma. Determines how many karmic particles attach to the soul.' },
+             { term: 'Sthiti Bandh', definition: 'Duration of Karma. Determines how long the karma will stay with the soul.' },
+             { term: 'Rasa Bandh', definition: 'Intensity of Karma. Determines how strong the karma\'s effect will be.' }
+        ];
+        setupFlashcards('bandh-flashcard-area', bandhData, 'bandh-flashcard', 'bandh-front', 'bandh-back', 'bandh-counter', 'next-bandh', 'prev-bandh');
+
+
+        // --- Quiz Logic ---
+        const quizQuestions = [
+            { q: 'What is the collective name for the nine fundamentals of Jainism?', a: 'Nav Tattva' },
+            { q: 'What are the two fundamentals to be known (Jneya)?', a: 'Jiva (soul) and Ajiva (non-soul)' },
+            { q: 'Which category of fundamentals should be avoided (Heya)?', a: 'Päp (sin), Äsrav (influx), and Bandh (bondage)' },
+            { q: 'Which category of fundamentals should be adopted (Upädeya)?', a: 'Punya (virtue), Samvar (stoppage), Nirjarä (eradication), and Moksh (liberation)' },
+            { q: 'What is the inflow of karma into the soul called?', a: 'Äsrav' },
+            { q: 'What is the actual bondage of karmic particles to the soul called?', a: 'Bandh' },
+            { q: 'What is the most important factor in determining Punya or Päp karma?', a: 'The intention behind the action' },
+            { q: 'Name the five causes of Äsrav (influx of karma).', a: 'Mithyätva, Avirati, Pramäd, Kashäy, and Yoga' },
+            { q: 'What does Mithyätva mean?', a: 'Wrong faith or delusion about the soul\'s true nature' },
+            { q: 'What are the four main passions (Kashäy)?', a: 'Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed)' },
+            { q: 'Which characteristic of bondage determines the "type" of karma?', a: 'Prakriti Bandh (Nature)' },
+            { q: 'Which characteristic of bondage determines "how many" karmic particles attach?', a: 'Pradesh Bandh (Quantity)' },
+            { q: 'Which characteristic of bondage determines "how long" karma will stay with the soul?', a: 'Sthiti Bandh (Duration)' },
+            { q: 'Which characteristic of bondage determines "how strong" the karma\'s effect will be?', a: 'Rasa Bandh (Intensity)' },
+            { q: 'What aspect of our actions determines the Prakriti and Pradesh of karma?', a: 'Yoga (activities of mind, speech, and body)' },
+            { q: 'What aspect of our being determines the Sthiti and Rasa of karma?', a: 'Kashäy (passions)' }
+        ];
+
+        const qaContainer = document.getElementById('qa-questions');
+        if (qaContainer) {
+            qaContainer.innerHTML = '';
+            quizQuestions.forEach((item, index) => { 
+                qaContainer.innerHTML += `<div class="p-4 border rounded-lg"><p class="font-bold">${index + 1}. ${item.q}</p><button class="mt-2 bg-gray-200 text-sm px-3 py-1 rounded-full" onclick="toggleAnswer(${index})">Show Answer</button><div class="quiz-answer p-3 bg-blue-50 mt-2 rounded-lg" id="answer-${index}"><p class="font-bold text-blue-800">${item.a}</p></div></div>`; 
+            });
+        }
+        function toggleAnswer(index) { const answerEl = document.getElementById(`answer-${index}`); answerEl.style.display = answerEl.style.display === 'block' ? 'none' : 'block'; }
+        
+        setupFlashcards('quiz-flashcard-area', quizQuestions.map(i => ({term: i.q, definition: i.a})), 'quiz-flashcard', 'quiz-front', 'quiz-back', 'quiz-counter', 'next-quiz', 'prev-quiz');
+
+        document.querySelectorAll('.quiz-format-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                document.querySelectorAll('.quiz-format-btn').forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+                const format = e.target.dataset.format;
+                document.querySelectorAll('.quiz-format').forEach(div => div.classList.remove('active'));
+                document.getElementById(`${format}-format`).classList.add('active');
+            });
+        });
+    </script>
+            <script src="./js/main.js"></script>
+</body>
+</html>

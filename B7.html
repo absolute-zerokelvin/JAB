@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAB Chapter B.7: Nav Tattva Part II: Punya and Päp</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f8ff;
+        }
+        .jab-container {
+            max-width: 1024px;
+            margin: auto;
+            padding: 1.5rem 1rem;
+        }
+        .jab-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .jab-header h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .jab-header p {
+            font-size: 1.125rem;
+            color: #3b82f6;
+        }
+        .jab-tabs {
+            background-color: #e0f2fe;
+            border-radius: 9999px;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .tab-button {
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            border: none;
+            background-color: transparent;
+            color: #0369a1;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .tab-button.active {
+            background-color: #3b82f6;
+            color: white;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .card {
+            background-color: white;
+            border: 1px solid #bfdbfe;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+            margin-bottom: 2rem;
+        }
+        .card-header {
+            background-color: #dbeafe;
+            padding: 1rem 1.5rem;
+            border-bottom: 1px solid #bfdbfe;
+        }
+        .card-header h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1e3a8a;
+        }
+        .card-body {
+            padding: 1.5rem;
+        }
+        .flashcard-container { perspective: 1000px; }
+        .flashcard {
+            width: 100%;
+            height: 180px;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            background-color: #3b82f6;
+            color: white;
+            border-radius: 1rem;
+            cursor: pointer;
+        }
+        .flashcard.flipped { transform: rotateY(180deg); }
+        .flashcard-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; border-radius: 1rem; }
+        .flashcard-front { font-size: 1.5rem; font-weight: bold; }
+        .flashcard-back { background-color: #2563eb; transform: rotateY(180deg); font-size: 1.1rem; }
+        
+        .quiz-format-switcher { display: flex; justify-content: center; background-color: #e0f2fe; border-radius: 9999px; padding: 0.25rem; width: fit-content; margin: 0 auto 1.5rem auto; }
+        .quiz-format-btn { padding: 0.5rem 1rem; border-radius: 9999px; border: none; background-color: transparent; color: #0369a1; font-weight: 500; cursor: pointer; transition: all 0.3s ease; }
+        .quiz-format-btn.active { background-color: white; color: #3b82f6; box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); }
+        .quiz-format { display: none; }
+        .quiz-format.active { display: block; }
+        .quiz-answer { display: none; }
+
+        /* Accordion Styles */
+        .accordion-item { border-bottom: 1px solid #dbeafe; }
+        .accordion-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem; cursor: pointer; }
+        .accordion-header:hover { background-color: #f0f8ff; }
+        .accordion-title { font-weight: 700; color: #1e3a8a; }
+        .accordion-icon { font-weight: bold; transition: transform 0.3s; }
+        .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background-color: #f9fafb; }
+        .accordion-content-inner { padding: 1.5rem; }
+        .accordion-item.open .accordion-icon { transform: rotate(45deg); }
+        .accordion-item.open .accordion-content { max-height: 1000px; /* Adjust as needed */ }
+
+        /* Chart Styles */
+        .chart-container { border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 1rem; background-color: #f9fafb; }
+        .chart-node { display: flex; align-items: center; padding: 0.75rem; border-radius: 0.375rem; margin-bottom: 0.25rem; cursor: pointer; transition: background-color 0.2s; }
+        .chart-node:hover { background-color: #f3f4f6; }
+        .chart-node-label { flex-grow: 1; }
+        .chart-node-toggle { font-family: monospace; font-weight: bold; color: #6b7280; }
+        .chart-children { margin-left: 2rem; border-left: 2px solid #e5e7eb; padding-left: 1rem; display: none; }
+        .chart-node-wrapper.open > .chart-children { display: block; }
+        .level-0 > .chart-node { background-color: #dbeafe; color: #1e3a8a; }
+        .level-1 > .chart-node { background-color: #c7d2fe; color: #3730a3; }
+        .level-2 > .chart-node { background-color: #ffffff; }
+
+    </style>
+</head>
+<body class="bg-blue-50">
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
+    
+    <!-- Added Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    
+    <!-- Added Desktop Navigation -->
+    <div id="desktop-nav-container"></div>
+    
+    <!-- Added Mobile Navigation -->
+    <div id="mobile-nav-container"></div>
+
+    <div class="main-content">   
+        <header class="jab-header">
+            <h1>B.7 Nav Tattva Part II: Punya & Päp</h1>
+            <p>An Interactive Study Guide</p>
+        </header>
+
+        <div class="jab-tabs" id="tab-nav">
+            <button class="tab-button" data-tab="punya">Punya (Virtue)</button>
+            <button class="tab-button" data-tab="pap">Päp (Sin)</button>
+            <button class="tab-button" data-tab="combinations">4-Fold Combinations</button>
+            <button class="tab-button" data-tab="karma-chart">Karma Chart</button>
+            <button class="tab-button" data-tab="quiz">Quiz Time!</button>
+        </div>
+
+        <div id="tab-content-container">
+            <div id="punya" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Ways of Acquiring Punya</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-6">Punya karma is earned when our activities are good and comforting to others. The Sthänänga Sutra describes nine ways to acquire Punya, primarily through offering (<span class="font-semibold">Dän</span>) to deserving people (<span class="font-semibold">Supätra</span>) like Jain ascetics and people in need. Click on each card to see the meaning!</p>
+                        <div id="punya-flashcards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <!-- Punya flashcards will be injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="pap" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>The 18 Päpasthänak (Sinful Activities)</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-6">Jain scriptures describe eighteen kinds of activities that are the main sources of sin (Päp). These should be avoided as they lead to suffering in this life and future lives. Click on each sin to learn more about it.</p>
+                        <div id="pap-accordion" class="border border-blue-200 rounded-lg">
+                            <!-- Päp accordion items will be injected here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="combinations" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>The Four-Fold Combinations of Punya and Päp</h2></div>
+                    <div class="card-body">
+                        <p class="text-lg mb-6">The bondage of new karma depends on our soul's reflections (<span class="font-semibold">Anubandh</span>) while experiencing the fruits of past karma. This creates four combinations:</p>
+                        <div class="space-y-4">
+                            <div class="p-6 bg-green-100 rounded-lg">
+                                <h3 class="font-bold text-xl text-green-800">1. Punyänubandhi Punya (Virtue leading to Virtue)</h3>
+                                <p>While enjoying the fruits of past Punya (e.g., wealth), one performs more righteous deeds, like charity. This is the best state.</p>
+                            </div>
+                            <div class="p-6 bg-orange-100 rounded-lg">
+                                <h3 class="font-bold text-xl text-orange-800">2. Päpänubandhi Punya (Virtue leading to Sin)</h3>
+                                <p>While enjoying the fruits of past Punya, one becomes arrogant and indulges in non-virtuous activities. This is the most common state for worldly beings.</p>
+                            </div>
+                            <div class="p-6 bg-blue-100 rounded-lg">
+                                <h3 class="font-bold text-xl text-blue-800">3. Punyänubandhi Päp (Sin leading to Virtue)</h3>
+                                <p>While suffering the fruits of past Päp (e.g., poverty), one remains calm, accepts it as their own doing, and continues to live virtuously. This is a rare and noble state.</p>
+                            </div>
+                            <div class="p-6 bg-red-100 rounded-lg">
+                                <h3 class="font-bold text-xl text-red-800">4. Päpänubandhi Päp (Sin leading to Sin)</h3>
+                                <p>While suffering the fruits of past Päp, one becomes bitter, blames others, and commits more sinful acts. This is the worst state, leading to a downward spiral.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="karma-chart" class="tab-content">
+                 <div class="card">
+                    <div class="card-header flex justify-between items-center">
+                        <h2>Interactive Karma Chart</h2>
+                        <div class="flex gap-2">
+                             <button id="expand-all-karma" class="text-xs bg-white text-blue-600 px-3 py-1 rounded-full shadow-sm">Expand All</button>
+                             <button id="collapse-all-karma" class="text-xs bg-white text-blue-600 px-3 py-1 rounded-full shadow-sm">Collapse All</button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-center mb-4">Click on any item with a <span class="font-mono font-bold">[+]</span> or <span class="font-mono font-bold">[-]</span> to expand or collapse the category.</p>
+                        <div id="karma-chart-container" class="chart-container"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <div class="card-header"><h2>Quiz Time! 🧠</h2></div>
+                    <div class="card-body">
+                         <div class="quiz-format-switcher">
+                            <button class="quiz-format-btn active" data-format="qa">Q & A</button>
+                            <button class="quiz-format-btn" data-format="flash">Flashcards</button>
+                        </div>
+                        <div id="qa-format" class="quiz-format active">
+                            <div class="space-y-4" id="qa-questions"></div>
+                        </div>
+                        <div id="flash-format" class="quiz-format">
+                            <div id="quiz-flashcard-area" class="text-center">
+                                <div class="flashcard-container mx-auto max-w-md">
+                                    <div id="quiz-flashcard" class="flashcard !bg-teal-500">
+                                        <div id="quiz-front" class="flashcard-face flashcard-front !text-lg"></div>
+                                        <div id="quiz-back" class="flashcard-face flashcard-back !bg-teal-600 !text-lg"></div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <button id="prev-quiz" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Prev</button>
+                                    <span id="quiz-counter" class="mx-4 font-bold"></span>
+                                    <button id="next-quiz" class="px-4 py-2 bg-gray-200 rounded-full font-semibold">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const tabNav = document.getElementById('tab-nav');
+        const tabContents = document.querySelectorAll('.tab-content');
+        function switchTab(targetTabId) {
+            tabNav.querySelectorAll('.tab-button').forEach(button => button.classList.toggle('active', button.dataset.tab === targetTabId));
+            tabContents.forEach(content => content.classList.toggle('active', content.id === targetTabId));
+        }
+        tabNav.addEventListener('click', (e) => { if (e.target.matches('.tab-button')) { switchTab(e.target.dataset.tab); } });
+        switchTab('punya');
+
+        // --- Punya Flashcards (Grid Layout) ---
+        const punyaData = [
+            { term: '1. Anna Punya', definition: 'Offering of pure, vegetarian food.' },
+            { term: '2. Pän Punya', definition: 'Offering of pure water.' },
+            { term: '3. Layan Punya', definition: 'Offering shelter.' },
+            { term: '4. Shayan Punya', definition: 'Offering a bed or place to rest.' },
+            { term: '5. Vastra Punya', definition: 'Offering clothes.' },
+            { term: '6. Mana Punya', definition: 'Having good thoughts and ideas for others.' },
+            { term: '7. Vachan Punya', definition: 'Speaking kind and meritorious words.' },
+            { term: '8. Käya Punya', definition: 'Performing virtuous and helpful physical activities.' },
+            { term: '9. Namaskär Punya', definition: 'Paying respect to the Panch Parameshthi.' }
+        ];
+        const punyaContainer = document.getElementById('punya-flashcards');
+        if(punyaContainer) {
+            punyaData.forEach(item => {
+                const cardHTML = `
+                    <div class="flashcard-container">
+                        <div class="flashcard !bg-green-500" onclick="this.classList.toggle('flipped')">
+                            <div class="flashcard-face flashcard-front !text-xl">${item.term}</div>
+                            <div class="flashcard-face flashcard-back !bg-green-600 !text-base">${item.definition}</div>
+                        </div>
+                    </div>`;
+                punyaContainer.innerHTML += cardHTML;
+            });
+        }
+        
+        // --- Päp Accordion ---
+        const papData = [
+            { title: '1. Pränätipät (Violence)', content: 'To injure or kill any of the ten vitalities (Prän) of a living being through non-vigilance or ignorance. This includes physical, verbal, and mental violence.' },
+            { title: '2. Mrushäväd (Untruthfulness)', content: 'To tell a lie. This includes spreading rumors, revealing secrets, writing false documents, or even speaking a truth that hurts others unnecessarily.' },
+            { title: '3. Adattädän (Theft)', content: 'To take something without the owner\'s permission. This also includes tax evasion, adulteration, and using false weights and measures.' },
+            { title: '4. Maithun (Unchastity)', content: 'Engaging in sensuous enjoyment and pre- or extra-marital relationships. It arises from excessive sensual desire.' },
+            { title: '5. Parigraha (Possessiveness)', content: 'Accumulating more worldly objects than one needs. Greed is the root cause of this sin.' },
+            { title: '6. Krodh (Anger)', content: 'The first passion (Kashäy). It destroys friendships and makes one unable to distinguish right from wrong. Should be overcome with forgiveness.' },
+            { title: '7. Män (Arrogance)', content: 'Ego, pride, or conceit. Thinking too much of oneself and looking down on others. It can be pride of family, knowledge, strength, etc.' },
+            { title: '8. Mäyä (Deceit)', content: 'To cheat or mislead others. A deceitful person is always restless and lacks peace of mind. The opposite is straightforwardness (Saralatä).' },
+            { title: '9. Lobh (Greed)', content: 'The desire for more than one needs. It is the root of all other passions and sins. One should cultivate contentment instead.' },
+            { title: '10. Räg (Attachment)', content: 'Developing a strong liking or craving for worldly objects, people, or beliefs. It is one of the hardest passions to identify and conquer.' },
+            { title: '11. Dvesh (Hatred)', content: 'Aversion, enmity, or jealousy towards others. It is the other side of the coin to attachment (Räg). Should be overcome with love and compassion.' },
+            { title: '12. Kalah (Quarreling)', content: 'Engaging in disputes and fights, often over trivial matters. It arises from frustration and anger.' },
+            { title: '13. Abhyäkhyän (Accusation)', content: 'Making false accusations against someone, often out of jealousy or to cover one\'s own faults.' },
+            { title: '14. Paishunya (Gossip)', content: 'Slandering someone or spreading rumors behind their back. It leads to unnecessary discord and quarrels.' },
+            { title: '15. Rati-Arati (Liking & Disliking)', content: 'Taking pleasure in sinful activities (Rati) and disliking religious or virtuous activities (Arati).' },
+            { title: '16. Par-pariväd (Criticism)', content: 'Finding fault in others and criticizing them with negative intent to put them down.' },
+            { title: '17. Mäyä-Mrushäväd (Malice)', content: 'Telling a malicious lie with the specific intent to cheat someone. It is a combination of deceit and untruthfulness.' },
+            { title: '18. Mithyätva-Shalya (Wrong Faith)', content: 'The most dangerous sin. Trusting a wrong god, wrong guru, or wrong religion. It is the root cause of all other sins.' },
+        ];
+        const papAccordion = document.getElementById('pap-accordion');
+        if(papAccordion) {
+            papData.forEach(item => {
+                const itemDiv = document.createElement('div');
+                itemDiv.className = 'accordion-item';
+                itemDiv.innerHTML = `
+                    <div class="accordion-header">
+                        <span class="accordion-title">${item.title}</span>
+                        <span class="accordion-icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner text-lg">${item.content}</div>
+                    </div>
+                `;
+                papAccordion.appendChild(itemDiv);
+            });
+            papAccordion.addEventListener('click', (e) => {
+                const header = e.target.closest('.accordion-header');
+                if (header) {
+                    const item = header.parentElement;
+                    item.classList.toggle('open');
+                    const icon = header.querySelector('.accordion-icon');
+                    icon.textContent = item.classList.contains('open') ? '-' : '+';
+                }
+            });
+        }
+        
+        // --- Karma Chart Logic ---
+        const karmaChartData = {
+            text: 'Karma',
+            children: [
+                { text: 'Punya Karma - Virtuous', children: punyaData.map(p => ({text: p.term})) },
+                { text: 'Päp Karma - Non-virtuous', children: papData.map(p => ({text: p.title})) }
+            ]
+        };
+        const karmaChartContainer = document.getElementById('karma-chart-container');
+        function createChartNode(nodeData, level) {
+            const nodeWrapper = document.createElement('div');
+            nodeWrapper.className = `chart-node-wrapper level-${level}`;
+            const nodeElement = document.createElement('div');
+            nodeElement.className = 'chart-node';
+            const label = document.createElement('span');
+            label.className = 'chart-node-label';
+            label.textContent = nodeData.text;
+            nodeElement.appendChild(label);
+            if (nodeData.children && nodeData.children.length > 0) {
+                const toggle = document.createElement('span');
+                toggle.className = 'chart-node-toggle';
+                toggle.textContent = '[-]';
+                nodeElement.appendChild(toggle);
+                nodeWrapper.appendChild(nodeElement);
+                const childrenContainer = document.createElement('div');
+                childrenContainer.className = 'chart-children';
+                nodeData.children.forEach(child => {
+                    childrenContainer.appendChild(createChartNode(child, level + 1));
+                });
+                nodeWrapper.appendChild(childrenContainer);
+                nodeElement.addEventListener('click', () => {
+                    nodeWrapper.classList.toggle('open');
+                    toggle.textContent = nodeWrapper.classList.contains('open') ? '[-]' : '[+]';
+                });
+                nodeWrapper.classList.add('open');
+            } else { nodeWrapper.appendChild(nodeElement); }
+            return nodeWrapper;
+        }
+        if(karmaChartContainer) {
+            karmaChartContainer.innerHTML = '';
+            karmaChartContainer.appendChild(createChartNode(karmaChartData, 0));
+            document.getElementById('expand-all-karma').addEventListener('click', () => {
+                document.querySelectorAll('#karma-chart-container .chart-node-wrapper').forEach(n => {
+                    n.classList.add('open');
+                    const toggle = n.querySelector('.chart-node-toggle');
+                    if(toggle) toggle.textContent = '[-]';
+                });
+            });
+            document.getElementById('collapse-all-karma').addEventListener('click', () => {
+                document.querySelectorAll('#karma-chart-container .chart-node-wrapper').forEach(n => {
+                    if(!n.classList.contains('level-2')) {
+                      n.classList.remove('open');
+                      const toggle = n.querySelector('.chart-node-toggle');
+                      if(toggle) toggle.textContent = '[+]';
+                    }
+                });
+            });
+        }
+        
+        // --- Quiz Logic ---
+        const quizQuestions = [
+            { q: 'What is the most desirable inner state of being (Bhäv)?', a: 'Pure Bhäv (Shuddha Bhäv)' },
+            { q: 'What does Punyänubandhi Punya mean?', a: 'Virtue leading to more virtue. Using the fruits of good karma to perform more good deeds.' },
+            { q: 'What does Päpänubandhi Päp mean?', a: 'Sin leading to more sin. Blaming others for misery and committing more sinful acts.' },
+            { q: 'Offering pure, vegetarian food is which type of Punya?', a: 'Anna Punya' },
+            { q: 'Offering shelter to those in need is which type of Punya?', a: 'Layan Punya' },
+            { q: 'What is the most dangerous of the 18 sins?', a: 'Mithyätva-Shalya (Wrong Faith)' },
+            { q: 'Which Päpasthänak means "possessiveness" or accumulating more than you need?', a: 'Parigraha' },
+            { q: 'Which Päpasthänak means telling a lie with the intent to cheat?', a: 'Mäyä-Mrushäväd (Malice)' },
+            { q: 'What is the opposite of Mäyä (Deceit)?', a: 'Saralatä (Straightforwardness)' },
+            { q: 'The story of the two monks illustrates that what is more important than the action itself?', a: 'The intention (Bhäv) behind the action' },
+            { q: 'What are the two components that make up the sin Pränätipät?', a: 'Prän (vitalities) and Atipäta (to kill or hurt)' },
+            { q: 'Which sin means to find fault and criticize others with negative intent?', a: 'Par-pariväd' },
+            { q: 'Which sin is described as trusting a wrong god, guru, or religion?', a: 'Mithyätva-Shalya' },
+            { q: 'What kind of karma is acquired by a person who enjoys the fruits of Punya but becomes arrogant and indulges in vices?', a: 'Päp karma (This is Päpänubandhi Punya)' },
+            { q: 'What kind of karma is acquired by a person who suffers due to past Päp but remains calm and continues to live virtuously?', a: 'Punya karma (This is Punyänubandhi Päp)' }
+        ];
+
+        function setupFlashcardQuiz(containerId, data, cardId, frontId, backId, counterId, nextId, prevId) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            let currentIndex = 0;
+            const flashcard = document.getElementById(cardId);
+            const front = document.getElementById(frontId);
+            const back = document.getElementById(backId);
+            const counter = document.getElementById(counterId);
+
+            const showCard = (index) => {
+                const cardData = data[index];
+                front.textContent = cardData.q;
+                back.textContent = cardData.a;
+                counter.textContent = `${index + 1} / ${data.length}`;
+                flashcard.classList.remove('flipped');
+            };
+
+            flashcard.addEventListener('click', () => flashcard.classList.toggle('flipped'));
+            document.getElementById(nextId).addEventListener('click', () => { currentIndex = (currentIndex + 1) % data.length; showCard(currentIndex); });
+            document.getElementById(prevId).addEventListener('click', () => { currentIndex = (currentIndex - 1 + data.length) % data.length; showCard(currentIndex); });
+            
+            showCard(0);
+        }
+
+        const qaContainer = document.getElementById('qa-questions');
+        if (qaContainer) {
+            qaContainer.innerHTML = '';
+            quizQuestions.forEach((item, index) => { 
+                qaContainer.innerHTML += `<div class="p-4 border rounded-lg"><p class="font-bold">${index + 1}. ${item.q}</p><button class="mt-2 bg-gray-200 text-sm px-3 py-1 rounded-full" onclick="toggleAnswer(${index})">Show Answer</button><div class="quiz-answer p-3 bg-blue-50 mt-2 rounded-lg" id="answer-${index}"><p class="font-bold text-blue-800">${item.a}</p></div></div>`; 
+            });
+        }
+        function toggleAnswer(index) { const answerEl = document.getElementById(`answer-${index}`); answerEl.style.display = answerEl.style.display === 'block' ? 'none' : 'block'; }
+        
+        setupFlashcardQuiz('quiz-flashcard-area', quizQuestions, 'quiz-flashcard', 'quiz-front', 'quiz-back', 'quiz-counter', 'next-quiz', 'prev-quiz');
+
+        document.querySelectorAll('.quiz-format-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                document.querySelectorAll('.quiz-format-btn').forEach(btn => btn.classList.remove('active'));
+                e.target.classList.add('active');
+                const format = e.target.dataset.format;
+                document.querySelectorAll('.quiz-format').forEach(div => div.classList.remove('active'));
+                document.getElementById(`${format}-format`).classList.add('active');
+            });
+        });
+    </script>
+                <script src="./js/main.js"></script>
+</body>
+</html>
