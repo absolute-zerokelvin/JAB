@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JAB Manual Interactive - Story</title>
+    <meta name="description" content="Explore interactive stories and study materials for the Jain Academic Bowl (JAB). Deep dive into JAB topics with timelines, mind maps, and quizzes.">
+    <meta name="keywords" content="JAB, Jain Academic Bowl, JAB Story, Jainism Stories, JAB Study Material">
+    <title>JAB Interactive Story - Jain Academic Bowl Guide</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Cache busting utility -->
@@ -11,6 +13,23 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/story.css">
     <link rel="stylesheet" href="./css/flashcard.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "JAB Interactive Story",
+      "author": {
+        "@type": "Organization",
+        "name": "JAB Interactive"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "JAB Interactive"
+      },
+      "description": "An interactive exploration of stories relevant to the Jain Academic Bowl, complete with timelines, character maps, and quizzes to enhance learning.",
+      "url": "https://jabeinteractive.org"
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation Overlay for Mobile -->
@@ -37,6 +56,10 @@
         </header>
 
         <main style="max-width: 4xl; margin: 0 auto; padding: 0 1rem;">
+            <div id="static-story-content" class="text-center p-8">
+                <h2 class="text-2xl font-bold mb-4">Loading Interactive Story...</h2>
+                <p>Please wait while we load the interactive story, timeline, and activities for the selected JAB section. If you have JavaScript disabled, you may not see the content.</p>
+            </div>
             <div class="tabs-container">
             </div>
 
