@@ -11,7 +11,17 @@
     <priority>0.90</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/B1.html</loc>
+    <loc>https://jabinteractive.org/timeline_duration-junior.html</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/timeline-k-to-m.html</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/B1.html?section=B1</loc>
     <lastmod>2025-06-21</lastmod>
     <priority>0.80</priority>
   </url>
@@ -21,38 +31,248 @@
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/B3.html</loc>
+    <loc>https://jabinteractive.org/B3.html?section=B3</loc>
     <lastmod>2025-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/B4.html</loc>
+    <loc>https://jabinteractive.org/B4.html?section=B4</loc>
     <lastmod>2025-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/B5.html</loc>
+    <loc>https://jabinteractive.org/B5.html?section=B5</loc>
     <lastmod>2025-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/B6.html</loc>
+    <loc>https://jabinteractive.org/B6.html?section=B6</loc>
     <lastmod>2025-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/B7.html</loc>
+    <loc>https://jabinteractive.org/B7.html?section=B7</loc>
     <lastmod>2025-06-21</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/timeline-k-to-m.html</loc>
+    <loc>https://jabinteractive.org/story.html?section=E1</loc>
     <lastmod>2025-06-21</lastmod>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://jabinteractive.org/timeline_duration-junior.html</loc>
+    <loc>https://jabinteractive.org/story.html?section=E2</loc>
     <lastmod>2025-06-21</lastmod>
-    <priority>0.70</priority>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=E3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=E4</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=E5</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F1</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F2</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F4</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F5</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F6</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=F7</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=G1</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=G2</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=G3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=G4</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=G5</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=G6</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H1</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H2</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H4</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H5</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H6</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H7</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H8</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H9</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H10</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H11</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H12</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H13</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=H14</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=I1</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=I2</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=I3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=I4</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=I5</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=J1</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=J2</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=J3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=J4</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=M1</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=M2</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://jabinteractive.org/story.html?section=M3</loc>
+    <lastmod>2025-06-21</lastmod>
+    <priority>0.85</priority>
   </url>
 </urlset>
