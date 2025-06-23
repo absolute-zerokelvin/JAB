@@ -14,12 +14,12 @@ export default defineConfig({
   reporter: [['html'], ['list']],
   
   use: {
-    baseURL: process.env.BASE_URL || 'http://localhost:3000',
-    trace: 'on',
-    screenshot: 'on',
-    video: 'on',
+    baseURL: 'http://localhost:3000',
+    trace: process.env.CI ? 'on-first-retry' : 'on',
+    screenshot: process.env.CI ? 'only-on-failure' : 'on',
+    video: process.env.CI ? 'on-first-retry' : 'on',
     launchOptions: {
-      slowMo: 100, // Slow down execution by 100ms
+      slowMo: process.env.CI ? 0 : 100, // Slow down execution locally but not in CI
     },
   },
 
@@ -45,8 +45,9 @@ export default defineConfig({
 
   /* Web server to use during testing */
   webServer: {
-    command: 'npm run preview',
+    command: 'npm run build && npx http-server dist -p 3000',
     port: 3000,
     reuseExistingServer: !process.env.CI,
+    timeout: 120 * 1000, // 2 minutes
   },
 });
