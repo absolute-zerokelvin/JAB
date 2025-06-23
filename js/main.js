@@ -51,13 +51,15 @@ function createNavigationHTML(navData, isMobile = false) {
                     <span class="section-title">${section.title}</span>
                     ${isMobile ? '' : `<span class="section-toggle">▼</span>`}
                 </div>
-                <ul class="nav-subsections" id="${section.id}-subsections">
+                <ul class="nav-subsections" id="${section.id}-subsections" style="display: none;">
         `;
         
         section.subsections.forEach(subsection => {
+            // Check if the URL already has parameters to use & or ? accordingly
+            const paramChar = subsection.url.includes('?') ? '&' : '?';
             html += `
                 <li class="nav-subsection">
-                    <a href="${subsection.url}&v=${Date.now()}" class="subsection-link">
+                    <a href="${subsection.url}${paramChar}v=${Date.now()}" class="subsection-link">
                         <span class="subsection-title">${subsection.title}</span>
                         <span class="subsection-name">${subsection.name}</span>
                     </a>
@@ -100,9 +102,11 @@ function toggleSection(sectionId) {
     
     if (subsections && toggle) {
         if (subsections.style.display === 'none' || subsections.style.display === '') {
+            // Expand section
             subsections.style.display = 'block';
             toggle.textContent = '▲';
         } else {
+            // Collapse section
             subsections.style.display = 'none';
             toggle.textContent = '▼';
         }
@@ -167,18 +171,23 @@ async function initializeNavigation() {
         mobileNavContainer.innerHTML = createNavigationHTML(navData, true);
     }
     
-    // Initialize sections as collapsed for desktop but expanded for mobile
+    // Initialize all sections as collapsed for both desktop and mobile views
     navData.navigation.sections.forEach(section => {
         // For desktop navigation - collapsed
         const desktopSubsections = document.querySelector('#mainNavigation #' + section.id + '-subsections');
         if (desktopSubsections) {
             desktopSubsections.style.display = 'none';
+            // Also make sure toggle icon shows collapsed state
+            const desktopToggle = document.querySelector(`#mainNavigation [onclick="toggleSection('${section.id}')"] .section-toggle`);
+            if (desktopToggle) {
+                desktopToggle.textContent = '▼';
+            }
         }
         
-        // For mobile navigation - expanded
+        // For mobile navigation - also collapsed (changed from previous behavior)
         const mobileSubsections = document.querySelector('#mobileNavigation #' + section.id + '-subsections');
         if (mobileSubsections) {
-            mobileSubsections.style.display = 'block';
+            mobileSubsections.style.display = 'none';
         }
     });
     
