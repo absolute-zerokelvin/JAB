@@ -424,6 +424,20 @@
             }
 
         ]
+      },
+      {
+        "id": "section-l",
+        "title": "Section L",
+        "description": "Stories and lessons from Section L",
+        "subsections": [
+            {
+                "id": "L2",
+                "title": "L.2",
+                "name": "L.2: Jain Scriptures and Literature",
+                "url": "./L2.html?section=L2",
+                "dataFile": "L2.json"
+            }
+        ]
       }
     ],
     "additionalPages": [
