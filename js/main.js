@@ -51,7 +51,7 @@ function createNavigationHTML(navData, isMobile = false) {
                     <span class="section-title">${section.title}</span>
                     ${isMobile ? '' : `<span class="section-toggle">▼</span>`}
                 </div>
-                <ul class="nav-subsections" id="${section.id}-subsections" style="display: none;">
+                <ul class="nav-subsections" id="${section.id}-subsections" style="${isMobile ? '' : 'display: none;'}">
         `;
         
         section.subsections.forEach(subsection => {
@@ -80,6 +80,7 @@ function createNavigationHTML(navData, isMobile = false) {
                 <li class="nav-section">
                     <a href="${page.url}" class="section-link">
                         <span class="section-title">${page.title}</span>
+                        ${page.name ? `<span class="subsection-name">${page.name}</span>` : ''}
                     </a>
                 </li>
             `;
@@ -171,23 +172,23 @@ async function initializeNavigation() {
         mobileNavContainer.innerHTML = createNavigationHTML(navData, true);
     }
     
-    // Initialize all sections as collapsed for both desktop and mobile views
+    // Initialize sections with different defaults for desktop and mobile
     navData.navigation.sections.forEach(section => {
-        // For desktop navigation - collapsed
+        // For desktop navigation - collapsed by default
         const desktopSubsections = document.querySelector('#mainNavigation #' + section.id + '-subsections');
         if (desktopSubsections) {
             desktopSubsections.style.display = 'none';
-            // Also make sure toggle icon shows collapsed state
+            // Make sure toggle icon shows collapsed state
             const desktopToggle = document.querySelector(`#mainNavigation [onclick="toggleSection('${section.id}')"] .section-toggle`);
             if (desktopToggle) {
                 desktopToggle.textContent = '▼';
             }
         }
         
-        // For mobile navigation - also collapsed (changed from previous behavior)
+        // For mobile navigation - expanded by default
         const mobileSubsections = document.querySelector('#mobileNavigation #' + section.id + '-subsections');
         if (mobileSubsections) {
-            mobileSubsections.style.display = 'none';
+            mobileSubsections.style.display = 'block'; // Keep expanded for mobile
         }
     });
     

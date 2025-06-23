@@ -309,6 +309,18 @@ nav#mobileNavigation.active {
     background: var(--light-blue);
 }
 
+/* Specific styling for mobile navigation additional pages */
+.mobile-nav .section-link {
+    background: var(--primary-blue-light);
+    color: white;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.mobile-nav .section-link:hover {
+    background: var(--primary-blue);
+}
+
 .nav-subsections {
     list-style: none;
     padding: 0;
