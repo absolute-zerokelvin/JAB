@@ -47,8 +47,6 @@ jobs:
         continue-on-error: true
         env:
           BASE_URL: http://localhost:3000
-        env:
-          BASE_URL: http://localhost:3000
           CI: true
       
       - name: Upload Test Results
