@@ -397,6 +397,27 @@
             ]
         },
       {
+        "id": "section-l",
+        "title": "Section L",
+        "description": "Lessons from Section L",
+        "subsections": [
+            {
+                "id": "L1",
+                "title": "L.1",
+                "name": "L.1: History of Jain Traditions and Sects",
+                "url": "./L1.html?section=L1",
+                "dataFile": "L1.json"
+            },
+            {
+                "id": "L2",
+                "title": "L.2",
+                "name": "L.2: Jain Scriptures and Literature",
+                "url": "./L2.html?section=L2",
+                "dataFile": "L2.json"
+            }
+        ]
+      },        
+      {
         "id": "section-m",
         "title": "Section M",
         "description": "Stories and lessons from Section M", 
@@ -423,20 +444,6 @@
                 "dataFile": "M3.json"
             }
 
-        ]
-      },
-      {
-        "id": "section-l",
-        "title": "Section L",
-        "description": "Stories and lessons from Section L",
-        "subsections": [
-            {
-                "id": "L2",
-                "title": "L.2",
-                "name": "L.2: Jain Scriptures and Literature",
-                "url": "./L2.html?section=L2",
-                "dataFile": "L2.json"
-            }
         ]
       }
     ],

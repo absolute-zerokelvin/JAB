@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jain History & Traditions Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/main.css">
+
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f9ff; /* very light blue */
+        }
+        .tab-btn {
+            transition: all 0.3s ease;
+        }
+        .tab-btn.active {
+            border-color: #3b82f6; /* blue-500 */
+            background-color: #3b82f6;
+            color: white;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .accordion-button.open .accordion-icon {
+            transform: rotate(180deg);
+        }
+        .accordion-icon {
+            transition: transform 0.3s ease;
+        }
+        .quiz-sub-tab.active { background-color: #e0e7ff; border-color: #3b82f6; }
+        .q-answer { max-height: 0; overflow: hidden; transition: max-height 0.5s ease-in-out; }
+        .flashcard-container { perspective: 1000px; }
+        .flashcard { width: 100%; height: 220px; position: relative; transform-style: preserve-3d; transition: transform 0.6s; cursor: pointer; }
+        .flashcard.is-flipped { transform: rotateY(180deg); }
+        .flashcard-face { position: absolute; width: 100%; height: 100%; backface-visibility: hidden; display: flex; justify-content: center; align-items: center; padding: 1.5rem; border-radius: 0.75rem; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); text-align: center; }
+        .flashcard-front { background-color: #ffffff; color: #1e3a8a; }
+        .flashcard-back { background-color: #dbeafe; color: #1e3a8a; transform: rotateY(180deg); }
+        .timeline-container { position: relative; max-width: 100%; margin: 0 auto; }
+        .timeline-container::after { content: ''; position: absolute; width: 4px; background-color: #60a5fa; top: 0; bottom: 0; left: 50%; margin-left: -2px; }
+        .timeline-item { padding: 10px 40px; position: relative; background-color: inherit; width: 50%; }
+        .timeline-item::after { content: ''; position: absolute; width: 20px; height: 20px; right: -10px; background-color: white; border: 4px solid #2563eb; top: 24px; border-radius: 50%; z-index: 1; }
+        .timeline-left { left: 0; }
+        .timeline-right { left: 50%; }
+        .timeline-left::before { content: " "; height: 0; position: absolute; top: 32px; width: 0; z-index: 1; right: 30px; border: medium solid white; border-width: 10px 0 10px 10px; border-color: transparent transparent transparent white; }
+        .timeline-right::before { content: " "; height: 0; position: absolute; top: 32px; width: 0; z-index: 1; left: 30px; border: medium solid white; border-width: 10px 10px 10px 0; border-color: transparent white transparent transparent; }
+        .timeline-right::after { left: -10px; }
+        .timeline-content { padding: 20px; background-color: white; position: relative; border-radius: 8px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); border: 1px solid #e2e8f0; }
+         @media screen and (max-width: 768px) {
+             .timeline-container::after { left: 26px; }
+             .timeline-item { width: 100%; padding-left: 60px; padding-right: 15px; }
+             .timeline-item::before { left: 50px; border: medium solid white; border-width: 10px 10px 10px 0; border-color: transparent white transparent transparent; }
+             .timeline-left::after, .timeline-right::after { left: 16px; }
+             .timeline-right { left: 0%; }
+         }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
+    
+    <!-- Added Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+    
+    <!-- Added Desktop Navigation -->
+    <div id="desktop-nav-container"></div>
+    
+    <!-- Added Mobile Navigation -->
+    <div id="mobile-nav-container"></div>
+
+    <div class="main-content">
+        <header class="bg-blue-600 text-white p-6">
+            <h1 class="text-2xl md:text-3xl font-bold text-center">L.1 History of Jain Traditions and Sects</h1>
+            <p class="text-center text-blue-100 mt-1">An interactive guide for JAB preparation (L.1)</p>
+        </header>
+
+        <main>
+            <!-- Tab Buttons -->
+            <div class="flex flex-wrap justify-center border-b border-gray-200 bg-blue-50">
+                <button class="tab-btn p-4 font-semibold text-blue-700 border-b-4 border-transparent hover:bg-blue-100" data-tab="tab1">Introduction</button>
+                <button class="tab-btn p-4 font-semibold text-blue-700 border-b-4 border-transparent hover:bg-blue-100" data-tab="tab2">Key People</button>
+                <button class="tab-btn p-4 font-semibold text-blue-700 border-b-4 border-transparent hover:bg-blue-100" data-tab="tab3">Key Events & Timeline</button>
+                <button class="tab-btn p-4 font-semibold text-blue-700 border-b-4 border-transparent hover:bg-blue-100" data-tab="tab4">Traditions & Sects</button>
+                <button class="tab-btn p-4 font-semibold text-blue-700 border-b-4 border-transparent hover:bg-blue-100" data-tab="tab5">Jainism Across India</button>
+                <button class="tab-btn p-4 font-semibold text-blue-700 border-b-4 border-transparent hover:bg-blue-100" data-tab="tab6">Quiz</button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="p-6 md:p-8">
+                <!-- Tab 1: Introduction -->
+                <div id="tab1" class="tab-content">
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">An Eternal Religion</h2>
+                    <p class="text-gray-700 mb-4">
+                        Indian culture has two main trends: <b class="font-semibold">Brahmanik</b> (Vedic traditions) and <b class="font-semibold">Shramanik</b> (ascetic traditions like Jainism and Buddhism). Jainism is an ancient, independent religion belonging to the Shramanik trend.
+                    </p>
+                    <p class="text-gray-700 mb-6">
+                        It's a common misconception that Bhagawän Mahävir founded Jainism. In reality, Jainism is considered an <b class="font-semibold">eternal religion</b> that has always existed and will always exist. It is re-established in every time cycle by 24 Tirthankars. Archaeological evidence from the Indus Valley Civilization (3500-3000 BC) suggests the worship of the first Tirthankar, Rishabhadev, long before Mahävir's time.
+                    </p>
+                    <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
+                        <h3 class="font-bold text-blue-900">The Time Cycles (Käl)</h3>
+                        <p class="text-gray-700 mt-2">The universe goes through infinite time cycles. Each cycle is divided into two half-cycles:</p>
+                        <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
+                            <li><b class="font-semibold">Utsarpini:</b> Ascending half-cycle, where happiness and virtues gradually increase.</li>
+                            <li><b class="font-semibold">Avasarpini:</b> Descending half-cycle, where happiness and virtues gradually decrease. We are currently in the 5th Ärä (Dukham Ärä) of the Avasarpini cycle.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Key People -->
+                <div id="tab2" class="tab-content">
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">Key People in Jain History</h2>
+                    <p class="text-gray-600 mb-6">From Tirthankars to modern reformers, many individuals have shaped Jain history.</p>
+                    <div class="space-y-4">
+                        <div class="accordion-item bg-white border border-blue-200 rounded-lg">
+                            <button class="accordion-button w-full text-left p-4 font-semibold text-lg text-blue-900 flex justify-between items-center hover:bg-blue-50">
+                                <span>The 24 Tirthankars</span>
+                                <svg class="accordion-icon w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="accordion-content p-4 pt-0">
+                                <p class="text-gray-700 mb-2">Bridge builders who re-establish Jainism in each half-cycle.</p>
+                                <ul class="list-disc list-inside space-y-1 text-gray-700">
+                                    <li><b class="font-semibold">Rishabhadev (1st):</b> His worship is evidenced in the Indus Valley. India is named Bharat-varsha after his son, Bharat.</li>
+                                    <li><b class="font-semibold">Neminäth (22nd):</b> Cousin of Lord Krishna. Attained liberation on Mount Girnär.</li>
+                                    <li><b class="font-semibold">Pärshvanäth (23rd):</b> Lived 250 years before Mahävir and preached four vows (non-violence, truth, non-stealing, non-possession).</li>
+                                    <li><b class="font-semibold">Mahävir (24th):</b> Revived the Jain path and added the fifth vow of celibacy (Brahmacharya).</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-white border border-blue-200 rounded-lg">
+                            <button class="accordion-button w-full text-left p-4 font-semibold text-lg text-blue-900 flex justify-between items-center hover:bg-blue-50">
+                                <span>Important Ächäryas</span>
+                                <svg class="accordion-icon w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="accordion-content p-4 pt-0">
+                                <ul class="list-disc list-inside space-y-1 text-gray-700">
+                                     <li><b class="font-semibold">Ächärya Bhadrabähu:</b> The Shrut-kevali who predicted a famine and led the migration to South India.</li>
+                                     <li><b class="font-semibold">Ächärya Sthulibhadra:</b> Led the monks who remained in the north during the famine and headed the first council at Pätliputra.</li>
+                                     <li><b class="font-semibold">Keshi Ganadhar:</b> Head of Bhagawän Pärshvanäth's followers who merged his community with Bhagawän Mahävir's.</li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="accordion-item bg-white border border-blue-200 rounded-lg">
+                            <button class="accordion-button w-full text-left p-4 font-semibold text-lg text-blue-900 flex justify-between items-center hover:bg-blue-50">
+                                <span>Royal Patrons & Key Figures</span>
+                                <svg class="accordion-icon w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="accordion-content p-4 pt-0">
+                                <ul class="list-disc list-inside space-y-1 text-gray-700">
+                                     <li><b class="font-semibold">Chandragupta Maurya:</b> The emperor who abdicated his throne to become a Jain monk under Ächärya Bhadrabähu.</li>
+                                     <li><b class="font-semibold">King Kharavela of Kalinga:</b> A great royal patron of Jainism in the 2nd century BC.</li>
+                                     <li><b class="font-semibold">Lonkäshah:</b> A layman whose study of scriptures led to the formation of the non-idol worshipping Sthänakaväsi sect.</li>
+                                     <li><b class="font-semibold">Virchand Gandhi:</b> Represented Jainism at the 1893 World Parliament of Religions in Chicago and delivered 535 lectures in the USA and England.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Key Events & Timeline -->
+                <div id="tab3" class="tab-content">
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">Key Events & Timeline</h2>
+                    <p class="text-gray-600 mb-6">Jain history is marked by several pivotal events that shaped its traditions and spread.</p>
+                    <div class="accordion-item bg-white border border-blue-200 rounded-lg mb-8">
+                        <button class="accordion-button w-full text-left p-4 font-semibold text-lg text-blue-900 flex justify-between items-center hover:bg-blue-50">
+                            <span>The Great Split: A Turning Point</span>
+                            <svg class="accordion-icon w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div class="accordion-content p-4 pt-0">
+                           <p class="text-gray-700">Around 300 BC, a 12-year famine in Magadh led to a critical division in the Jain Sangh. Ächärya Bhadrabähu led a large group of monks south to Shravanbelgola to survive, while Ächärya Sthulibhadra stayed in the north. The southern group strictly maintained the original practices, including nudity for monks. The northern group, facing harsh conditions, adopted the practice of wearing white cloth. When the southern group returned, they could not accept the changes, leading to the schism between the <b class="font-semibold">Digambar</b> (sky-clad) and <b class="font-semibold">Shvetämbar</b> (white-clad) traditions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container">
+                        <div class="timeline-item timeline-left">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">527 BC</h3>
+                                <p class="text-gray-700">Nirväna of Bhagawän Mahävir.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item timeline-right">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">~322-298 BC</h3>
+                                <p class="text-gray-700">Emperor Chandragupta Maurya reigns, later becoming a Jain monk.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item timeline-left">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">~300 BC</h3>
+                                <p class="text-gray-700">The Great Famine begins, leading to the migration led by Ächärya Bhadrabähu and the eventual split.</p>
+                            </div>
+                        </div>
+                         <div class="timeline-item timeline-right">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">1474 AD</h3>
+                                <p class="text-gray-700">The Sthänakaväsi tradition is formally established, based on the teachings of Lonkäshah.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item timeline-left">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">1627 AD</h3>
+                                <p class="text-gray-700">The Digambar Teräpantha sub-sect is formed as a revolt against the authority of Bhattäraks.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item timeline-right">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">1760 AD</h3>
+                                <p class="text-gray-700">The Shvetämbar Teräpanthi sub-sect is founded by Swämi Bhikshu Mahäräj.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item timeline-left">
+                            <div class="timeline-content">
+                                <h3 class="font-bold text-lg text-blue-800">1893 AD</h3>
+                                <p class="text-gray-700">Virchand Gandhi represents Jainism at the World Parliament of Religions in Chicago.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Traditions & Sects -->
+                <div id="tab4" class="tab-content">
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">Traditions & Sects</h2>
+                    <p class="text-gray-600 mb-6">While the core philosophy remains the same, Jainism is primarily divided into two main traditions, which are further divided into sub-sects based on ritualistic differences.</p>
+                    <div class="mt-2">
+                        <h3 class="text-xl font-bold text-blue-800 mb-4">Key Differences: Digambar vs. Shvetämbar</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-white p-4 border border-gray-200 rounded-lg">
+                                <h4 class="font-bold text-lg text-center text-blue-900">Digambar</h4>
+                                <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                                    <li>Monks are completely naked (sky-clad).</li>
+                                    <li>Believe women cannot attain liberation in their female form.</li>
+                                    <li>Believe the original Ägam scriptures are lost.</li>
+                                    <li>Believe Mahävir was not married.</li>
+                                    <li>Idols are plain, undecorated, with downcast eyes.</li>
+                                </ul>
+                            </div>
+                            <div class="bg-white p-4 border border-gray-200 rounded-lg">
+                                <h4 class="font-bold text-lg text-center text-blue-900">Shvetämbar</h4>
+                                <ul class="list-disc list-inside mt-2 space-y-2 text-gray-700">
+                                    <li>Monks and nuns wear simple white clothes.</li>
+                                    <li>Believe women can attain liberation.</li>
+                                    <li>Believe the 19th Tirthankar, Mallinäth, was a woman.</li>
+                                    <li>Accept the existing Ägam scriptures as authentic.</li>
+                                    <li>Believe Mahävir was married and had a daughter.</li>
+                                    <li>Idols are decorated and have wide-open eyes.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+                        <div>
+                             <h3 class="text-xl font-semibold text-blue-700 mb-4">Shvetämbar Sub-Sects</h3>
+                             <div class="space-y-4">
+                                 <div class="bg-blue-50 p-4 rounded-lg">
+                                     <h4 class="font-bold">Murtipujak</h4>
+                                     <p class="text-sm">The original Shvetämbar tradition. They worship idols (<i class="italic">murtis</i>) of Tirthankars, offering flowers, fruits, and adorning them with jewels.</p>
+                                 </div>
+                                 <div class="bg-blue-50 p-4 rounded-lg">
+                                     <h4 class="font-bold">Sthänakaväsi</h4>
+                                     <p class="text-sm">Arose in 1474 as a reform movement led by <b class="font-semibold">Lonkäshah</b>. They do not worship idols and emphasize meditation. Their ascetics wear a Muhapatti (mouth-cloth) at all times.</p>
+                                 </div>
+                                 <div class="bg-blue-50 p-4 rounded-lg">
+                                     <h4 class="font-bold">Teräpanthi</h4>
+                                     <p class="text-sm">Founded in 1760 by <b class="font-semibold">Swämi Bhikshu Mahäräj</b>, who split from the Sthänakaväsi tradition. They are also non-idol worshippers and are known for their highly organized structure under a single Ächärya.</p>
+                                 </div>
+                             </div>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-blue-700 mb-4">Digambar Sub-Sects</h3>
+                            <div class="space-y-4">
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                     <h4 class="font-bold">Bisapantha</h4>
+                                     <p class="text-sm">They support the authority of <b class="font-semibold">Bhattäraks</b> (heads of religious monasteries or Mathas). They use fresh fruits and flowers when worshipping idols.</p>
+                                 </div>
+                                 <div class="bg-blue-50 p-4 rounded-lg">
+                                     <h4 class="font-bold">Teräpantha</h4>
+                                     <p class="text-sm">(Different from Shvetämbar Teräpanthi) Arose in 1627 as a revolt against the authority of Bhattäraks. They worship idols but do not use fresh fruits or flowers.</p>
+                                 </div>
+                                 <div class="bg-blue-50 p-4 rounded-lg">
+                                     <h4 class="font-bold">Täranapantha</h4>
+                                     <p class="text-sm">Founded by <b class="font-semibold">Tarana-Swämi</b>. They do not worship idols but worship sacred books instead.</p>
+                                 </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- Tab 5: Jainism Across India -->
+                <div id="tab5" class="tab-content">
+                    <h2 class="text-2xl font-bold text-blue-800 mb-4">Historical Strongholds of Jainism</h2>
+                    <p class="text-gray-600 mb-6">Jainism has flourished in various parts of India throughout history, often with the support of powerful kings and dynasties.</p>
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h3 class="font-semibold text-lg text-blue-900">East India (Magadh, Kalinga)</h3>
+                            <p class="mt-1 text-gray-700">The birthplace of Jainism. Kings like <b class="font-semibold">Shrenik (Bimbisär)</b> and dynasties like the <b class="font-semibold">Nandas</b> and <b class="font-semibold">Mauryas</b> (Chandragupta, Samprati) were great patrons. King Kharavela of Kalinga was another major royal patron.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h3 class="font-semibold text-lg text-blue-900">South India (Karnataka)</h3>
+                            <p class="mt-1 text-gray-700">Became a major center after Ächärya Bhadrabähu's migration. The <b class="font-semibold">Ganga</b>, <b class="font-semibold">Kadamba</b>, and <b class="font-semibold">Rästrakut</b> dynasties were great champions of Jainism. Shravanbelgola remains the most important center for Digambars.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg border">
+                            <h3 class="font-semibold text-lg text-blue-900">West India (Gujarat, Rajasthan)</h3>
+                            <p class="mt-1 text-gray-700">A stronghold for Shvetämbar Jains. Kings like <b class="font-semibold">Kumärpäl</b> and ministers like <b class="font-semibold">Vastupäl</b> and <b class="font-semibold">Tejpäl</b> helped build magnificent temple cities on Mount Girnär, Shatrunjay, and Äbu.</p>
+                        </div>
+                         <div class="bg-white p-4 rounded-lg border">
+                            <h3 class="font-semibold text-lg text-blue-900">North India (Mathurä)</h3>
+                            <p class="mt-1 text-gray-700">Mathurä was a major Jain center for almost 1000 years. The second recension of the scriptures was held here. Ujjayini was another important center, especially during Emperor Samprati's reign.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tab 6: Quiz -->
+                <div id="tab6" class="tab-content">
+                     <h2 class="text-2xl font-bold text-blue-800 mb-4">Test Your Knowledge</h2>
+                    <div class="border-b-2 border-gray-200 mb-4">
+                        <button class="quiz-sub-tab p-3 font-semibold border-b-4 border-transparent" data-quiz-tab="qna">Q&A Format</button>
+                        <button class="quiz-sub-tab p-3 font-semibold border-b-4 border-transparent" data-quiz-tab="flashcards">Flashcard Format</button>
+                    </div>
+
+                    <div id="qna" class="quiz-content">
+                        <div id="qna-container" class="space-y-4"></div>
+                    </div>
+
+                    <div id="flashcards" class="quiz-content hidden">
+                        <div id="flashcard-quiz-container" class="max-w-md mx-auto">
+                            <div id="flashcard-deck" class="relative"></div>
+                            <div id="flashcard-nav" class="flex justify-between items-center mt-4 hidden">
+                                <button id="prev-card" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:bg-gray-300">Previous</button>
+                                <span id="card-counter" class="text-gray-600 font-semibold"></span>
+                                <button id="next-card" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 disabled:bg-gray-300">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const quizQuestions = [
+                { q: "Jainism belongs to which of the two main trends of Indian culture?", a: "Shramanik" },
+                { q: "Who is the first Tirthankar of the current Avasarpini cycle?", a: "Rishabhadev" },
+                { q: "What is India named after, according to Jain tradition?", a: "Bharat (the eldest son of Rishabhadev)" },
+                { q: "Which Tirthankar was a cousin of Lord Krishna?", a: "22nd Tirthankar, Neminäth" },
+                { q: "On which mountain did Neminäth attain liberation?", a: "Mount Girnär" },
+                { q: "How many years before Bhagawän Mahävir did Pärshvanäth live?", a: "250 years" },
+                { q: "What were the four vows preached by Pärshvanäth?", a: "Ahimsa (non-violence), Satya (truth), Asteya (non-stealing), Aparigraha (non-possession)" },
+                { q: "Which fifth vow did Bhagawän Mahävir add?", a: "Brahmacharya (Celibacy)" },
+                { q: "Who was the leader of Pärshvanäth's followers at the time of Mahävir?", a: "Keshi Ganadhar" },
+                { q: "What are the four parts of the Jain four-fold order (Sangh)?", a: "Sädhus (monks), Sädhvis (nuns), Shrävaks (laymen), Shrävikäs (laywomen)" },
+                { q: "Which two of Mahävir's 11 Ganadhars survived him?", a: "Gautam Swämi and Sudharmä Swämi" },
+                { q: "Who was the last omniscient (Kevali) of this half cycle?", a: "Jambu Swämi" },
+                { q: "In Buddhist books, how is Bhagawän Mahävir described?", a: "Niggantha Nätaputta" },
+                { q: "Which Ächärya predicted a 12-year famine and led a migration to South India?", a: "Ächärya Bhadrabähu" },
+                { q: "Which Mauryan emperor abdicated his throne to become a Jain monk with Bhadrabähu?", a: "Chandragupta Maurya" },
+                { q: "Where did the group of monks led by Bhadrabähu migrate to?", a: "Shravanbelgola, Karnataka" },
+                { q: "Who led the group of monks that stayed behind in the north during the famine?", a: "Ächärya Sthulibhadra" },
+                { q: "What are the two main sects of Jainism that formed after the great split?", a: "Digambar and Shvetämbar" },
+                { q: "Which sect believes that women cannot attain liberation in their female form?", a: "Digambar" },
+                { q: "Which sect believes that the 19th Tirthankar, Mallinäth, was a woman?", a: "Shvetämbar" },
+                { q: "Who started the Sthänakaväsi reform movement?", a: "Lonkäshah" },
+                { q: "In which year did the Sthänakaväsi tradition come into existence?", a: "1474 AD" },
+                { q: "Who founded the Shvetämbar Teräpanthi sub-sect?", a: "Swämi Bhikshu Mahäräj" },
+                { q: "Which Digambar sub-sect worships sacred books instead of idols?", a: "Täranapantha" },
+                { q: "Who represented Jainism at the 1893 World Parliament of Religions?", a: "Virchand Gandhi" }
+            ];
+
+            // --- Tab Navigation ---
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const tabId = button.dataset.tab;
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    tabContents.forEach(content => {
+                        content.classList.remove('active');
+                        if (content.id === tabId) content.classList.add('active');
+                    });
+                });
+            });
+            document.querySelector('.tab-btn[data-tab="tab1"]').click();
+
+            // --- Accordion Logic ---
+            document.querySelectorAll('.accordion-button').forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    button.classList.toggle('open');
+                    content.style.maxHeight = content.style.maxHeight ? null : content.scrollHeight + "px";
+                });
+            });
+
+             // --- Quiz Tab Logic ---
+            const quizSubTabs = document.querySelectorAll('.quiz-sub-tab');
+            const quizContents = document.querySelectorAll('.quiz-content');
+            quizSubTabs.forEach(button => {
+                button.addEventListener('click', () => {
+                    quizSubTabs.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    const targetId = button.dataset.quizTab;
+                    quizContents.forEach(content => {
+                        content.id === targetId ? content.classList.remove('hidden') : content.classList.add('hidden');
+                    });
+                });
+            });
+
+            // Q&A Functionality
+            const qnaContainer = document.getElementById('qna-container');
+            function loadQuestions(questions) {
+                qnaContainer.innerHTML = '';
+                questions.forEach((item, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'bg-slate-50 p-4 rounded-lg border border-slate-200';
+                    div.innerHTML = `
+                        <p class="font-semibold text-gray-800 mb-2">Q${index + 1}: ${item.q}</p>
+                        <button class="show-answer-btn px-3 py-1 bg-blue-500 text-white text-sm rounded hover:bg-blue-600">Show Answer</button>
+                        <div class="q-answer mt-2 text-blue-800 font-medium">
+                            <p>${item.a}</p>
+                        </div>
+                    `;
+                    qnaContainer.appendChild(div);
+                });
+            }
+
+            qnaContainer.addEventListener('click', (e) => {
+                if (e.target.classList.contains('show-answer-btn')) {
+                    const answerDiv = e.target.nextElementSibling;
+                    if (answerDiv.style.maxHeight) {
+                        answerDiv.style.maxHeight = null;
+                        e.target.textContent = 'Show Answer';
+                    } else {
+                        answerDiv.style.maxHeight = answerDiv.scrollHeight + 'px';
+                        e.target.textContent = 'Hide Answer';
+                    }
+                }
+            });
+
+            // Flashcard Quiz Functionality
+            let currentDeck = [];
+            let currentIndex = 0;
+            const flashcardDeck = document.getElementById('flashcard-deck');
+            const flashcardNav = document.getElementById('flashcard-nav');
+            const prevCardBtn = document.getElementById('prev-card');
+            const nextCardBtn = document.getElementById('next-card');
+            const cardCounter = document.getElementById('card-counter');
+            
+            function loadFlashcard() {
+                if (currentDeck.length === 0) {
+                    flashcardDeck.innerHTML = '<p class="text-center text-gray-500">Quiz loaded. Good luck!</p>';
+                    flashcardNav.classList.add('hidden');
+                    return;
+                }
+                flashcardNav.classList.remove('hidden');
+                const item = currentDeck[currentIndex];
+                flashcardDeck.innerHTML = `
+                    <div class="flashcard">
+                        <div class="flashcard-face flashcard-front">
+                            <h3 class="text-xl font-bold">${item.q}</h3>
+                        </div>
+                        <div class="flashcard-face flashcard-back">
+                            <p class="text-lg">${item.a}</p>
+                        </div>
+                    </div>`;
+                flashcardDeck.querySelector('.flashcard').addEventListener('click', e => e.currentTarget.classList.toggle('is-flipped'));
+                updateNav();
+            }
+
+            function updateNav() {
+                cardCounter.textContent = `${currentIndex + 1} / ${currentDeck.length}`;
+                prevCardBtn.disabled = currentIndex === 0;
+                nextCardBtn.disabled = currentIndex === currentDeck.length - 1;
+            }
+
+            prevCardBtn.addEventListener('click', () => { if (currentIndex > 0) { currentIndex--; loadFlashcard(); } });
+            nextCardBtn.addEventListener('click', () => { if (currentIndex < currentDeck.length - 1) { currentIndex++; loadFlashcard(); } });
+            
+            // --- Default initializations ---
+            loadQuestions(quizQuestions);
+            currentDeck = quizQuestions;
+            loadFlashcard();
+            document.querySelector('.quiz-sub-tab[data-quiz-tab="qna"]').click();
+        });
+    </script>
+        <script src="./js/main.js"></script>
+</body>
+</html>
