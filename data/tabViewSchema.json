@@ -1,0 +1,279 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": ["sectionTitle", "tabs"],
+    "properties": {
+      "sectionTitle": {
+        "type": "string",
+        "description": "The title of the section"
+      },
+      "tabs": {
+        "type": "array",
+        "description": "Array of tabs containing different types of content",
+        "items": {
+          "type": "object",
+          "required": ["tabName", "contentType"],
+          "properties": {
+            "tabName": {
+              "type": "string",
+              "description": "Name of the tab to be displayed"
+            },
+            "contentType": {
+              "type": "string",
+              "enum": ["text", "quiz", "mindmap", "accordian", "flashCards", "timeline", "table"],
+              "description": "The type of content to be displayed in this tab"
+            },
+            "caption": {
+              "type": "string",
+              "description": "Optional caption text for the tab content, can include HTML"
+            },
+            "tabData": {
+              "description": "Content data specific to the tab type",
+              "oneOf": [
+                {
+                  "description": "Structure for text content type",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["tagType", "tagHTML"],
+                    "properties": {
+                      "tagType": {
+                        "type": "string",
+                        "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p", "hr", "img", "ul", "ol"],
+                        "description": "HTML tag type for the content"
+                      },
+                      "tagHTML": {
+                        "type": "string",
+                        "description": "HTML content to be rendered within the tag"
+                      }
+                    }
+                  }
+                },
+                {
+                  "description": "Structure for quiz content type",
+                  "type": "object",
+                  "required": ["title", "questions"],
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "description": "Title of the quiz"
+                    },
+                    "questions": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["question", "options", "answer"],
+                        "properties": {
+                          "question": {
+                            "type": "string",
+                            "description": "The question text"
+                          },
+                          "options": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            },
+                            "description": "Array of possible answers. Do not use All of the Above, None, A & B etc"
+                          },
+                          "answer": {
+                            "type": "string",
+                            "description": "The correct answer (must match one of the options and repeat the value and not index)"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "description": "Structure for mindmap content type",
+                  "type": "object",
+                  "required": ["title", "nodes"],
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "description": "Title of the mind map"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Description of the mind map"
+                    },
+                    "nodes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["id", "text"],
+                        "properties": {
+                          "id": {
+                            "type": "string",
+                            "description": "Unique identifier for the node"
+                          },
+                          "text": {
+                            "type": "string",
+                            "description": "Text content of the node"
+                          },
+                          "parent": {
+                            "type": ["string", "null"],
+                            "description": "ID of the parent node, or null for root nodes"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "description": "Structure for accordian content type",
+                  "type": "object",
+                  "required": ["title", "items"],
+                  "properties": {
+                    "title": {
+                      "type": "string",
+                      "description": "Title of the accordion"
+                    },
+                    "description": {
+                      "type": "string",
+                      "description": "Description of the accordion"
+                    },
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["header", "content"],
+                        "properties": {
+                          "header": {
+                            "type": "string",
+                            "description": "Header text for the accordion item"
+                          },
+                          "content": {
+                            "type": "string",
+                            "description": "Content text for the accordion item"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "description": "Structure for flashCards content type",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["title", "cards"],
+                    "properties": {
+                      "title": {
+                        "type": "string",
+                        "description": "Title of the flashcard set"
+                      },
+                      "description": {
+                        "type": "string",
+                        "description": "Description of the flashcard set"
+                      },
+                      "flippable": {
+                        "type": "boolean",
+                        "description": "Whether the cards can be flipped"
+                      },
+                      "frontColor": {
+                        "type": "string",
+                        "description": "Color for the front of the cards (hex code)"
+                      },
+                      "backColor": {
+                        "type": "string",
+                        "description": "Color for the back of the cards (hex code)"
+                      },
+                      "cards": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["front", "back"],
+                          "properties": {
+                            "front": {
+                              "type": "string",
+                              "description": "Content for the front of the card"
+                            },
+                            "back": {
+                              "type": "string",
+                              "description": "Content for the back of the card"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "description": "Structure for timeline content type",
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["era", "period", "events"],
+                    "properties": {
+                      "era": {
+                        "type": "string",
+                        "description": "Name of the historical era"
+                      },
+                      "period": {
+                        "type": "string",
+                        "description": "Time period of the era"
+                      },
+                      "events": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["title", "description"],
+                          "properties": {
+                            "title": {
+                              "type": "string",
+                              "description": "Title of the historical event"
+                            },
+                            "description": {
+                              "type": "string",
+                              "description": "Description of the historical event"
+                            },
+                            "characters": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              },
+                              "description": "Key characters involved in the event"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "description": "Structure for table content type",
+                  "type": "object",
+                  "required": ["headers", "rows"],
+                  "properties": {
+                    "headers": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      },
+                      "description": "Column headers for the table"
+                    },
+                    "rows": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "A row of data in the table"
+                      },
+                      "description": "Rows of data for the table"
+                    },
+                    "footnote": {
+                      "type": "string",
+                      "description": "Optional footnote text for the table"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }

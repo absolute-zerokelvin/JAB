@@ -83,6 +83,13 @@
             "name": "Going to the Temple & Pujä Rituals",
             "url": "./tabTemplate.html?section=D3.json",
             "dataFile": "D3.json"
+          },
+          {
+            "id": "D4",
+            "title": "D.4",
+            "name": "Six Ävashyak (Six Essential Observances)",
+            "url": "./tabTemplate.html?section=D4.json",
+            "dataFile": "D4.json"
           }
         ]
       },
