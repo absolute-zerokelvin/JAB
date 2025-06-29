@@ -194,6 +194,59 @@ function renderMindmap(mindmapData, containerElement) {
         return;
     }
 
+    // Add CSS for tooltips if not already present
+    if (!document.getElementById('mindmap-tooltip-styles')) {
+        const styleElement = document.createElement('style');
+        styleElement.id = 'mindmap-tooltip-styles';
+        styleElement.textContent = `
+            .mind-map-node {
+                position: relative;
+            }
+            .info-icon {
+                display: inline-block;
+                margin-left: 5px;
+                width: 16px;
+                height: 16px;
+                background-color: #3498db;
+                color: white;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 16px;
+                font-size: 12px;
+                cursor: help;
+            }
+            .tooltip {
+                visibility: hidden;
+                position: absolute;
+                background-color: #1a4b8c; /* Dark blue background */
+                color: white; /* White text */
+                border: 1px solid #0d3266;
+                border-radius: 4px;
+                padding: 10px 15px;
+                font-size: 1rem; /* At least 1rem font size */
+                z-index: 100;
+                max-width: 300px; /* Increased width */
+                width: max-content;
+                box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+                opacity: 0;
+                transition: opacity 0.3s;
+                text-align: left;
+                white-space: normal;
+                left: 100%;
+                top: 0;
+                margin-left: 10px;
+                line-height: 1.4;
+            }
+            /* Show tooltip on hover of the node or info icon */
+            .mind-map-node[data-has-description]:hover > .tooltip,
+            .info-icon:hover + .tooltip {
+                visibility: visible;
+                opacity: 1;
+            }
+        `;
+        document.head.appendChild(styleElement);
+    }
+
     // Convert flat nodes to hierarchical tree
     function buildTree(nodes) {
         const map = new Map();
@@ -230,7 +283,28 @@ function renderMindmap(mindmapData, containerElement) {
     // Create main node
     const mainNode = document.createElement('div');
     mainNode.className = 'mind-map-node main';
-    mainNode.textContent = mainNodeData.text; // Use 'text' for content
+    
+    // Create text content
+    const textSpan = document.createElement('span');
+    textSpan.textContent = mainNodeData.text;
+    mainNode.appendChild(textSpan);
+    
+    // Add description tooltip if available
+    if (mainNodeData.description) {
+        const infoIcon = document.createElement('span');
+        infoIcon.className = 'info-icon';
+        infoIcon.textContent = 'i';
+        mainNode.appendChild(infoIcon);
+        
+        const tooltip = document.createElement('div');
+        tooltip.className = 'tooltip';
+        tooltip.textContent = mainNodeData.description;
+        mainNode.appendChild(tooltip);
+        
+        // Add data attribute to indicate this node has a description
+        mainNode.setAttribute('data-has-description', 'true');
+    }
+    
     mapContainer.appendChild(mainNode);
     
     // Create branches recursively
@@ -239,7 +313,33 @@ function renderMindmap(mindmapData, containerElement) {
         
         if (item.children && item.children.length > 0) {
             node.className = 'mind-map-node toggle-node';
-            node.innerHTML = item.text + '<span class="toggle-icon">+</span>'; // Use 'text' for content
+            
+            // Create text content
+            const textSpan = document.createElement('span');
+            textSpan.textContent = item.text;
+            node.appendChild(textSpan);
+            
+            // Add toggle icon
+            const toggleIcon = document.createElement('span');
+            toggleIcon.className = 'toggle-icon';
+            toggleIcon.textContent = '+';
+            node.appendChild(toggleIcon);
+            
+            // Add description tooltip if available
+            if (item.description) {
+                const infoIcon = document.createElement('span');
+                infoIcon.className = 'info-icon';
+                infoIcon.textContent = 'i';
+                node.appendChild(infoIcon);
+                
+                const tooltip = document.createElement('div');
+                tooltip.className = 'tooltip';
+                tooltip.textContent = item.description;
+                node.appendChild(tooltip);
+                
+                // Add data attribute to indicate this node has a description
+                node.setAttribute('data-has-description', 'true');
+            }
             
             const subBranches = document.createElement('div');
             subBranches.className = 'mind-map-sub-branches hidden';
@@ -250,6 +350,12 @@ function renderMindmap(mindmapData, containerElement) {
             });
             
             node.addEventListener('click', function(e) {
+                // Don't toggle if clicking on the info icon
+                if (e.target.classList.contains('info-icon')) {
+                    e.stopPropagation();
+                    return;
+                }
+                
                 e.stopPropagation();
                 const subBranchesElement = this.nextElementSibling;
                 subBranchesElement.classList.toggle('hidden');
@@ -260,7 +366,28 @@ function renderMindmap(mindmapData, containerElement) {
             return [node, subBranches];
         } else {
             node.className = 'mind-map-node';
-            node.textContent = item.text; // Use 'text' for content
+            
+            // Create text content
+            const textSpan = document.createElement('span');
+            textSpan.textContent = item.text;
+            node.appendChild(textSpan);
+            
+            // Add description tooltip if available
+            if (item.description) {
+                const infoIcon = document.createElement('span');
+                infoIcon.className = 'info-icon';
+                infoIcon.textContent = 'i';
+                node.appendChild(infoIcon);
+                
+                const tooltip = document.createElement('div');
+                tooltip.className = 'tooltip';
+                tooltip.textContent = item.description;
+                node.appendChild(tooltip);
+                
+                // Add data attribute to indicate this node has a description
+                node.setAttribute('data-has-description', 'true');
+            }
+            
             return [node];
         }
     }

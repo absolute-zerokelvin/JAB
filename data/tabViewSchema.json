@@ -111,6 +111,10 @@
                             "type": "string",
                             "description": "Text content of the node"
                           },
+                          "description": {
+                            "type": "string",
+                            "description": "Description of the node to be shown on the mouseover of node"
+                          },
                           "parent": {
                             "type": ["string", "null"],
                             "description": "ID of the parent node, or null for root nodes"

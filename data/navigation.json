@@ -4,6 +4,20 @@
     "subtitle": " Mindmaps, Timelines, Quiz & More",
     "sections": [
         {
+            "id": "section-a",
+            "title": "Section A",
+            "description": "Stories and lessons from Section A",
+            "subsections": [
+                {
+                    "id": "A1",
+                    "title": "A.1",
+                    "name": "Jain Prayers",
+                    "url": "./tabTemplate.html?section=A1.json",
+                    "dataFile": "A1.json"
+                }
+            ]
+        },
+        {
         "id": "section-b",
         "title": "Section B",
         "description": "Stories and lessons from Section B",
@@ -56,7 +70,15 @@
                 "name": "Nav Tattva Part II: Punya and Päp",
                 "url": "./B7.html?section=B7",
                 "dataFile": "B7.json"
-            }        ]
+            },
+            {
+                "id": "B8",
+                "title": "B.8",
+                "name": "Nav Tattva Part III: Samvar, Nirjarä, and Moksh",
+                "url": "./tabTemplate.html?section=B8.json",
+                "dataFile": "B8.json"
+            }
+         ]
       },
       {
         "id": "section-c",
