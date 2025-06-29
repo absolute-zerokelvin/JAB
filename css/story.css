@@ -275,6 +275,100 @@
     color: var(--primary-blue-dark); display: none;
 }
 
+/* --- Table Styles --- */
+.tabulator-blue-theme {
+    --tabulator-header-background-color: #3b82f6; /* Tailwind blue-500 */
+    --tabulator-header-text-color: #ffffff;
+    --tabulator-row-even-background-color: #eff6ff; /* Tailwind blue-50 */
+    --tabulator-row-odd-background-color: #ffffff;
+    --tabulator-border-color: #bfdbfe; /* Tailwind blue-200 */
+    --tabulator-active-color: #2563eb; /* Tailwind blue-600 */
+    --tabulator-text-color: #1f2937; /* Tailwind gray-800 */
+    --tabulator-placeholder-color: #6b7280; /* Tailwind gray-500 */
+    --tabulator-page-button-background-color: #dbeafe; /* Tailwind blue-100 */
+    --tabulator-page-button-hover-background-color: #bfdbfe; /* Tailwind blue-200 */
+    --tabulator-page-button-active-background-color: #2563eb; /* Tailwind blue-600 */
+    --tabulator-page-button-active-text-color: #ffffff;
+    --tabulator-filter-placeholder-color: #9ca3af; /* Tailwind gray-400 */
+}
+
+.tabulator-blue-theme.tabulator {
+    border: 1px solid var(--tabulator-border-color);
+    font-family: 'Inter', sans-serif; /* Example font */
+}
+
+.tabulator-blue-theme .tabulator-header .tabulator-col {
+    background-color: var(--tabulator-header-background-color);
+    color: var(--tabulator-header-text-color);
+    border-right: 1px solid var(--tabulator-border-color);
+}
+
+.tabulator-blue-theme .tabulator-header .tabulator-col.tabulator-sortable:hover {
+    background-color: var(--tabulator-active-color);
+}
+
+.tabulator-blue-theme .tabulator-tableHolder {
+    border-top: 1px solid var(--tabulator-border-color);
+}
+
+.tabulator-blue-theme .tabulator-row.tabulator-row-even {
+    background-color: var(--tabulator-row-even-background-color);
+}
+
+.tabulator-blue-theme .tabulator-row.tabulator-row-odd {
+    background-color: var(--tabulator-row-odd-background-color);
+}
+
+.tabulator-blue-theme .tabulator-row.tabulator-selected {
+    background-color: var(--tabulator-row-even-background-color); /* Use a light blue for selected */
+}
+
+.tabulator-blue-theme .tabulator-footer {
+    background-color: var(--tabulator-header-background-color);
+    color: var(--tabulator-header-text-color);
+}
+
+.tabulator-blue-theme .tabulator-page {
+    background-color: var(--tabulator-page-button-background-color);
+    color: var(--tabulator-text-color);
+    border: 1px solid var(--tabulator-border-color);
+}
+
+.tabulator-blue-theme .tabulator-page.active {
+    background-color: var(--tabulator-page-button-active-background-color);
+    color: var(--tabulator-page-button-active-text-color);
+}
+
+.tabulator-blue-theme .tabulator-page:not(.active):hover {
+    background-color: var(--tabulator-page-button-hover-background-color);
+}
+
+.tabulator-blue-theme .tabulator-input {
+    border: 1px solid var(--tabulator-border-color);
+    color: var(--tabulator-text-color);
+    background-color: var(--tabulator-row-odd-background-color);
+}
+
+.tabulator-blue-theme .tabulator-input::placeholder {
+    color: var(--tabulator-filter-placeholder-color);
+}
+
+/* Remove old custom-table styles as they are no longer needed for Tabulator */
+.custom-table,
+.custom-table thead tr,
+.custom-table th,
+.custom-table td,
+.custom-table tbody tr,
+.custom-table tbody .even-row,
+.custom-table tbody .odd-row,
+.custom-table tbody tr:last-of-type,
+.custom-table tbody tr.active-row,
+.table-responsive {
+    /* These styles are now handled by Tabulator's internal styling and the .tabulator-blue-theme classes */
+    /* You can remove or comment them out if no other custom tables use them */
+    /* For now, I'm just making them empty to override any lingering effects */
+}
+
 /* Responsive design */
 @media screen and (max-width: 768px) {
     .timeline-container::after { left: 20px; margin-left: 0; }

@@ -174,7 +174,7 @@ class JABBuilder {
                 
                 // Update CSS references
                 for (const [original, hashed] of cssMap) {
-                    const regex = new RegExp(`href="\\./css/${original}"`, 'g');
+                    const regex = new RegExp(`href="\.?/css/${original}"`, 'g');
                     content = content.replace(regex, `href="./css/${hashed}"`);
                 }
                 
