@@ -90,6 +90,34 @@
             "name": "Six Ävashyak (Six Essential Observances)",
             "url": "./tabTemplate.html?section=D4.json",
             "dataFile": "D4.json"
+          },
+          {
+            "id": "D5",
+            "title": "D.5",
+            "name": "Paryushan and Das Lakshan Parva",
+            "url": "./tabTemplate.html?section=D5.json",
+            "dataFile": "D5.json"
+          },
+          {
+            "id": "D6",
+            "title": "D.6",
+            "name": "Jain Festivals (Parva) and Celebrations",
+            "url": "./tabTemplate.html?section=D6.json",
+            "dataFile": "D6.json"
+          },
+          {
+            "id": "D7",
+            "title": "D.7",
+            "name": "Jain Temples and Pilgrimage Place",
+            "url": "./tabTemplate.html?section=D7.json",
+            "dataFile": "D7.json"
+          },
+          {
+            "id": "D8",
+            "title": "D.8",
+            "name": "Yaksha and Yakshini",
+            "url": "./tabTemplate.html?section=D8.json",
+            "dataFile": "D8.json"
           }
         ]
       },

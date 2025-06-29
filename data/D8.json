@@ -1,0 +1,407 @@
+{
+    "sectionTitle": "D.8: Yaksha and Yakshini",
+    "tabs": [
+      {
+        "tabName": "Deity Checklist",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h3",
+            "tagHTML": "Goddess Attribute Matrix"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "Use this matrix to compare and memorize the key attributes of the major Yakshinis."
+          },
+          {
+            "tagType": "html",
+            "tagHTML": "<div style='overflow-x: auto; font-family: sans-serif;'><style>table.deity-matrix { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.9em; } table.deity-matrix th, table.deity-matrix td { border: 1px solid #ddd; padding: 8px; text-align: center; vertical-align: top; } table.deity-matrix th { background-color: #f2f2f2; } table.deity-matrix tr:nth-child(even) { background-color: #f9f9f9; } table.deity-matrix td:first-child { text-align: left; font-weight: bold; background-color: #f2f2f2;}</style><table class='deity-matrix'><thead><tr><th>Attribute</th><th>Padmävati Devi</th><th>Lakshmi Devi</th><th>Chakreshwari Devi</th><th>Saraswati Devi</th><th>Ambikä Devi</th></tr></thead><tbody><tr><td>Attendant to</td><td>Pärshvanāth</td><td>N/A</td><td>Ādināth</td><td>N/A</td><td>Nemināth</td></tr><tr><td>Also Known As</td><td>-</td><td>-</td><td>Apratichakrā</td><td>-</td><td>Āmra Kushmāndini</td></tr><tr><td>Color</td><td>Golden</td><td>N/A</td><td>Golden</td><td>N/A</td><td>Golden</td></tr><tr><td>Vehicle</td><td>Snake</td><td>N/A</td><td>Eagle</td><td>Peacock / Swan</td><td>Lion</td></tr><tr><td>Arms</td><td>4</td><td>4</td><td>8</td><td>4</td><td>4</td></tr><tr><td>Holding in Right Hands</td><td>(unspecified)</td><td>Showering Coins, Lotus</td><td>Blessing Mudrā, Arrow, Rope, Wheel</td><td>Book, Veenä</td><td>Mango, Mango Branch</td></tr><tr><td>Holding in Left Hands</td><td>Fruit, Rein</td><td>Pot of Coins, Lotus</td><td>Rein, Bow, Indra's Weapon, Wheel</td><td>Rosary, Veenä</td><td>Rein, Two Sons</td></tr></tbody></table></div>"
+          }
+        ]
+      },
+      {
+        "tabName": "Introduction",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h2",
+            "tagHTML": "Yaksha and Yakshini: The Guardian Deities"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "In Jain temples, alongside the idols of the Jinas, we often see images of <b>Yaksha</b> (male) and <b>Yakshini</b> (female) deities. These beings are not eternal or divine like the Jinas; they are heavenly beings from the Vyantar group who are also on the path to liberation and are filled with devotion for the Tirthankars."
+          },
+          {
+            "tagType": "h3",
+            "tagHTML": "Role and Placement"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "Also known as <b>Shāsan-devtās</b> and <b>Shāsan-devis</b>, they act as guardian angels. Though a Tirthankar, as a detached soul, cannot intervene in worldly affairs, these deities take it upon themselves to protect the Tirthankars and the Jain religion. This is why Jains respect them. In a temple, the Yaksha is typically placed on the right side of the Jina idol and the Yakshini on the left, always at a lower level to signify their status as devotees."
+          },
+          {
+            "tagType": "h3",
+            "tagHTML": "Benevolent vs. Malicious Deities"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "The deities found in temples are benevolent. However, Jain scriptures also reference malicious Yakshas who caused suffering, such as Yaksha Sulpäni who troubled Bhagawän Mahävir during his meditation."
+          }
+        ]
+      },
+      {
+        "tabName": "Deity Mind Map",
+        "contentType": "mindmap",
+        "tabData": {
+          "title": "A Map of Yakshas and Yakshinis",
+          "description": "Visualize the relationships and attributes of the guardian deities.",
+          "nodes": [
+            {
+              "id": "root",
+              "text": "Yaksha & Yakshini",
+              "parent": null
+            },
+            {
+              "id": "chakreshwari",
+              "text": "Chakreshwari Devi",
+              "parent": "root"
+            },
+            {
+              "id": "ambika",
+              "text": "Ambikä Devi",
+              "parent": "root"
+            },
+            {
+              "id": "padmavati",
+              "text": "Padmävati Devi",
+              "parent": "root"
+            },
+            {
+              "id": "saraswati",
+              "text": "Saraswati Devi",
+              "parent": "root"
+            },
+            {
+              "id": "lakshmi",
+              "text": "Lakshmi Devi",
+              "parent": "root"
+            },
+            {
+              "id": "other",
+              "text": "Other Deities",
+              "parent": "root"
+            },
+            {
+              "id": "c1",
+              "text": "Attendant to: Ādināth",
+              "parent": "chakreshwari"
+            },
+            {
+              "id": "c2",
+              "text": "Vehicle: Eagle",
+              "parent": "chakreshwari"
+            },
+            {
+              "id": "c3",
+              "text": "Arms: 8",
+              "parent": "chakreshwari"
+            },
+            {
+              "id": "a1",
+              "text": "Attendant to: Nemināth",
+              "parent": "ambika"
+            },
+            {
+              "id": "a2",
+              "text": "Vehicle: Lion",
+              "parent": "ambika"
+            },
+            {
+              "id": "a3",
+              "text": "Arms: 4",
+              "parent": "ambika"
+            },
+            {
+              "id": "p1",
+              "text": "Attendant to: Pärshvanāth",
+              "parent": "padmavati"
+            },
+            {
+              "id": "p2",
+              "text": "Vehicle: Snake",
+              "parent": "padmavati"
+            },
+            {
+              "id": "p3",
+              "text": "Arms: 4",
+              "parent": "padmavati"
+            },
+            {
+              "id": "s1",
+              "text": "Goddess of Knowledge",
+              "parent": "saraswati"
+            },
+            {
+              "id": "s2",
+              "text": "Vehicle: Peacock or Swan",
+              "parent": "saraswati"
+            },
+            {
+              "id": "s3",
+              "text": "Holds: Book, Rosary, Veenä",
+              "parent": "saraswati"
+            },
+            {
+              "id": "l1",
+              "text": "Goddess of Wealth",
+              "parent": "lakshmi"
+            },
+            {
+              "id": "l2",
+              "text": "Holds: Lotuses, Pot of Coins",
+              "parent": "lakshmi"
+            },
+            {
+              "id": "o1",
+              "text": "Mänibhadra Vir",
+              "parent": "other"
+            },
+            {
+              "id": "o2",
+              "text": "Ghantäkarna Vir",
+              "parent": "other"
+            },
+            {
+              "id": "o3",
+              "text": "Näkodä Bhairava",
+              "parent": "other"
+            },
+            {
+              "id": "o4",
+              "text": "Bhomiyäji",
+              "parent": "other"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Deity Flashcards",
+        "contentType": "flashCards",
+        "tabData": [
+          {
+            "title": "Get to Know the Deities",
+            "description": "Learn the key features of each Yaksha and Yakshini.",
+            "flippable": true,
+            "cards": [
+              {
+                "front": "Chakreshwari Devi",
+                "back": "Attendant to Ādināth. Vehicle is an eagle. Has 8 arms and holds wheels (Chakra)."
+              },
+              {
+                "front": "Ambikä Devi",
+                "back": "Attendant to Nemināth. Vehicle is a lion. Has 4 arms and carries a mango and her two sons."
+              },
+              {
+                "front": "Padmävati Devi",
+                "back": "Attendant to Pärshvanāth. Vehicle is a snake. Has 4 arms and a golden color."
+              },
+              {
+                "front": "Saraswati Devi",
+                "back": "Goddess of knowledge. Vehicle is a peacock or swan. Holds a book, rosary, and a musical instrument (Veenä)."
+              },
+              {
+                "front": "Lakshmi Devi",
+                "back": "Goddess of wealth. Holds lotuses and a pot of coins, with coins showering from her hand."
+              },
+              {
+                "front": "Mänibhadra Vir",
+                "back": "A six-armed Yaksha whose vehicle is an elephant."
+              },
+              {
+                "front": "Ghantäkarna Vir",
+                "back": "Worshipped for protection from evil influences. His symbols are a bow, arrow, and a bell (Ghantä)."
+              },
+              {
+                "front": "Näkodä Bhairava",
+                "back": "A form of Bhairava found near temple entrances, worshipped for fulfillment of material desires."
+              },
+              {
+                "front": "Bhomiyäji",
+                "back": "The natural positive energy of the mountain Sametshikhar, guiding pilgrims. Represented in the shape of a mountain."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabName": "Quiz",
+        "contentType": "quiz",
+        "tabData": {
+          "title": "Test Your Knowledge on Yaksha and Yakshini",
+          "questions": [
+            {
+              "question": "In Jain temples, on which side of the Jina idol is the Yaksha usually found?",
+              "options": [
+                "The left side",
+                "The right side",
+                "Directly behind",
+                "Directly in front"
+              ],
+              "answer": "The right side"
+            },
+            {
+              "question": "Which deity is the attendant (Shāsan-devi) of Bhagawän Ādināth?",
+              "options": [
+                "Ambikä Devi",
+                "Padmävati Devi",
+                "Chakreshwari Devi",
+                "Saraswati Devi"
+              ],
+              "answer": "Chakreshwari Devi"
+            },
+            {
+              "question": "What is the vehicle of Ambikä Devi?",
+              "options": [
+                "An eagle",
+                "A lion",
+                "A snake",
+                "A peacock"
+              ],
+              "answer": "A lion"
+            },
+            {
+              "question": "Saraswati Devi, the goddess of knowledge, is often depicted holding which musical instrument?",
+              "options": [
+                "A flute",
+                "A drum",
+                "A sitar",
+                "A Veenä"
+              ],
+              "answer": "A Veenä"
+            },
+            {
+              "question": "Which deity is specifically worshipped for protection and to drive away evil influences?",
+              "options": [
+                "Mänibhadra Vir",
+                "Näkodä Bhairava",
+                "Ghantäkarna Vir",
+                "Bhomiyäji"
+              ],
+              "answer": "Ghantäkarna Vir"
+            },
+            {
+              "question": "Padmävati Devi is the dedicated deity of which Tirthankar?",
+              "options": [
+                "Ādināth",
+                "Nemināth",
+                "Pärshvanāth",
+                "Mahāvir"
+              ],
+              "answer": "Pärshvanāth"
+            },
+            {
+              "question": "How many arms does Chakreshwari Devi have?",
+              "options": [
+                "Two",
+                "Four",
+                "Six",
+                "Eight"
+              ],
+              "answer": "Eight"
+            },
+            {
+              "question": "Which deity is described as the 'natural positive energy of the mountain Sametshikhar'?",
+              "options": [
+                "Näkodä Bhairava",
+                "Bhomiyäji",
+                "Mänibhadra Vir",
+                "Ghantäkarna Vir"
+              ],
+              "answer": "Bhomiyäji"
+            },
+            {
+              "question": "What is another name for Yaksha and Yakshini?",
+              "options": [
+                "Tirthankars",
+                "Shāsan-devtā and Shāsan-devi",
+                "Ganadhars",
+                "Siddhas"
+              ],
+              "answer": "Shāsan-devtā and Shāsan-devi"
+            },
+            {
+              "question": "What is the vehicle of Padmävati Devi?",
+              "options": [
+                "A lion",
+                "An eagle",
+                "A snake",
+                "A swan"
+              ],
+              "answer": "A snake"
+            },
+            {
+              "question": "Ambikä Devi is famously depicted carrying her two sons and what specific fruit?",
+              "options": [
+                "An apple",
+                "A pomegranate",
+                "A mango",
+                "A coconut"
+              ],
+              "answer": "A mango"
+            },
+            {
+              "question": "The goddess Lakshmi Devi is worshipped as the representation of what?",
+              "options": [
+                "Knowledge",
+                "Protection",
+                "Wealth",
+                "Music"
+              ],
+              "answer": "Wealth"
+            },
+            {
+              "question": "What is the vehicle of the six-armed Yaksha, Mänibhadra Vir?",
+              "options": [
+                "An elephant",
+                "A horse",
+                "A bull",
+                "A tiger"
+              ],
+              "answer": "An elephant"
+            },
+            {
+              "question": "Besides a book and a Veenä, what else does Saraswati Devi hold?",
+              "options": [
+                "A sword",
+                "A rosary",
+                "A wheel",
+                "A rope"
+              ],
+              "answer": "A rosary"
+            },
+            {
+              "question": "Where is the deity Näkodä Bhairava usually found in a temple?",
+              "options": [
+                "Behind the main idol",
+                "On the temple roof",
+                "Near the entrance",
+                "In the meditation hall"
+              ],
+              "answer": "Near the entrance"
+            },
+            {
+              "question": "Jains worship idols of Jina for all the following reasons EXCEPT:",
+              "options": [
+                "He has attained Moksh.",
+                "He can intervene and respond to prayers for material gain.",
+                "He expounded the path of Liberation.",
+                "To get an inspiration to become like Him."
+              ],
+              "answer": "He can intervene and respond to prayers for material gain."
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
