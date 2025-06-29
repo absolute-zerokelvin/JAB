@@ -59,6 +59,62 @@
             }        ]
       },
       {
+        "id": "section-c",
+        "title": "Section C",
+        "description": "Ethics and Practices from Section C",
+        "subsections": [
+          {
+            "id": "C1",
+            "title": "C.1",
+            "name": "Jain Ascetics: Sädhu and Sädhvi",
+            "url": "./tabTemplate.html?section=C1.json",
+            "dataFile": "C1.json"
+          },
+          {
+            "id": "C2",
+            "title": "C.2",
+            "name": "Jain Laypeople: Shrävak and Shrävikä",
+            "url": "./tabTemplate.html?section=C2.json",
+            "dataFile": "C2.json"
+          },
+          {
+            "id": "C3",
+            "title": "C.3",
+            "name": "Bhävanä (Reflections)",
+            "url": "./tabTemplate.html?section=C3.json",
+            "dataFile": "C3.json"
+          },
+          {
+            "id": "C4",
+            "title": "C.4",
+            "name": "Leshyä (State of Mind)",
+            "url": "./tabTemplate.html?section=C4.json",
+            "dataFile": "C4.json"
+          },
+          {
+            "id": "C5",
+            "title": "C.5",
+            "name": "Jain Ethics and the Environment",
+            "url": "./tabTemplate.html?section=C5.json",
+            "dataFile": "C5.json"
+          },
+          {
+            "id": "C6",
+            "title": "C.6",
+            "name": "Application of Nonviolence",
+            "url": "./tabTemplate.html?section=C6.json",
+            "dataFile": "C6.json"
+          },
+          {
+            "id": "C7",
+            "title": "C.7",
+            "name": "Living Values",
+            "url": "./tabTemplate.html?section=C7.json",
+            "dataFile": "C7.json"
+          }
+        ]
+      },
+      {
         "id": "section-d",
         "title": "Section D",
         "description": "Rituals and Symbols from Section D",

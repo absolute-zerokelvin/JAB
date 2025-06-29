@@ -1,0 +1,188 @@
+{
+    "sectionTitle": "C.1: Jain Ascetics: Sädhu and Sädhvi",
+    "tabs": [
+      {
+        "tabName": "Introduction",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h2",
+            "tagHTML": "The Life of Renunciation"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "The Jain Sangh (four-fold order) consists of Sädhus (monks), Sädhvis (nuns), Shrävaks (laymen), and Shrävikäs (laywomen). When a person renounces all worldly attachments and responsibilities by taking <b>Dikshä</b>, they become a Sädhu or Sädhvi. They are completely detached from social and worldly activities, dedicating their lives to spiritual upliftment and guiding laypeople."
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "To achieve liberation, one must follow the path of Ratna-trayi: Right Faith, Right Knowledge, and Right Conduct. The foundation of Right Conduct for ascetics is the observance of the five <b>Mahävrat</b>, or great vows."
+          }
+        ]
+      },
+      {
+        "tabName": "The Five Mahävrat",
+        "contentType": "flashCards",
+        "tabData": [
+          {
+            "title": "The Five Great Vows (Mahävrat)",
+            "description": "These are the five major vows that Jain ascetics must follow completely and strictly in mind, speech, and body.",
+            "flippable": true,
+            "cards": [
+              {
+                "front": "1. Ahimsä Mahävrat",
+                "back": "<b>Absolute Non-violence.</b> Complete renunciation of harming, hurting, or causing pain to any living being, mobile or immobile."
+              },
+              {
+                "front": "2. Satya Mahävrat",
+                "back": "<b>Absolute Truth.</b> Complete renunciation of all forms of false speech arising from anger, greed, fear, or jest."
+              },
+              {
+                "front": "3. Achaurya Mahävrat",
+                "back": "<b>Absolute Non-stealing.</b> Complete renunciation of taking anything, no matter how small or valueless, that is not given by its owner."
+              },
+              {
+                "front": "4. Brahmacharya Mahävrat",
+                "back": "<b>Absolute Celibacy/Chastity.</b> Complete renunciation of all sensuous and sexual activities of any kind."
+              },
+              {
+                "front": "5. Aparigraha Mahävrat",
+                "back": "<b>Absolute Non-attachment/Non-possessiveness.</b> Complete renunciation of all attachments to people, places, and material things."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabName": "Rules of Conduct",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Daily Practices of an Ascetic",
+          "description": "In addition to the five great vows, Sädhus and Sädhvis follow many other strict rules.",
+          "items": [
+            {
+              "header": "Gochari (Receiving Alms)",
+              "content": "Jain ascetics do not cook or possess food. They practice <b>Gochari</b>, accepting small, pure vegetarian portions from multiple households, just as a cow grazes without depleting any single patch of grass. This ensures they are not the cause of any cooking-related violence."
+            },
+            {
+              "header": "Vihär (Travel)",
+              "content": "Ascetics always travel barefoot to avoid harming any living beings. They do not use vehicles. They do not stay in one place for more than a few days (except during the four-month rainy season, Chäturmäs) to avoid developing attachments."
+            },
+            {
+              "header": "Loch (Plucking of Hair)",
+              "content": "At their initiation (Dikshä) and at least once a year thereafter, ascetics pluck out their hair by hand. This practice, called <b>Kesha-lochan</b>, is an austerity that demonstrates forbearance of pain with complete equanimity."
+            },
+            {
+              "header": "Clothing and Possessions",
+              "content": "<b>Digambar</b> monks are sky-clad (wear no clothes) and carry a Morpichhi (peacock-feather broom) and a Kamandal (wooden water pot). <b>Shvetämbar</b> monks and nuns wear simple, unstitched white cotton clothes and carry an Ogho or Rajoharan (woolen broom) and a Muhapatti (cloth to cover the mouth)."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Spiritual Titles",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Hierarchy of Spiritual Attainment",
+          "description": "As ascetics advance in their spiritual study and practice, they may be conferred with special titles by their Guru.",
+          "items": [
+            {
+              "header": "Panyäs and Ganipad",
+              "content": "A Sädhu must have in-depth knowledge of specific Jain Ägams, such as the Bhagavati Sutra, to attain these ranks."
+            },
+            {
+              "header": "Upädhyäy",
+              "content": "This title is given to a Sädhu who has mastered all Jain scriptures and other philosophical systems. Their primary role is to teach other ascetics and laypeople."
+            },
+            {
+              "header": "Ächärya",
+              "content": "This is the highest rank and spiritual head of a Jain congregation. An Ächärya has profound scriptural knowledge and spiritual excellence, and they lead the entire four-fold Sangh."
+            },
+            {
+              "header": "Pravartini",
+              "content": "This is a title conferred upon Sädhvis who have attained deep knowledge of certain Ägam Sutras, such as the Ächäränga Sutra."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Quiz",
+        "contentType": "quiz",
+        "tabData": {
+          "title": "Test Your Knowledge on Jain Ascetics",
+          "questions": [
+            {
+              "question": "What is the collective term for the five great vows taken by Jain ascetics?",
+              "options": [
+                "Anuvrat",
+                "Guna Vrat",
+                "Shikshä Vrat",
+                "Mahävrat"
+              ],
+              "answer": "Mahävrat"
+            },
+            {
+              "question": "The practice of accepting small portions of food from different households is known as:",
+              "options": [
+                "Vihär",
+                "Loch",
+                "Gochari",
+                "Dikshä"
+              ],
+              "answer": "Gochari"
+            },
+            {
+              "question": "What is the name of the ritual where ascetics pluck out their hair?",
+              "options": [
+                "Kesha-lochan",
+                "Paushadh",
+                "Präyashchitta",
+                "Ächäränga"
+              ],
+              "answer": "Kesha-lochan"
+            },
+            {
+              "question": "Which of these items would a Digambar monk possess?",
+              "options": [
+                "White cotton clothes",
+                "Muhapatti",
+                "Ogho",
+                "Morpichhi"
+              ],
+              "answer": "Morpichhi"
+            },
+            {
+              "question": "What is the highest spiritual title that can be conferred upon a Jain Sädhu?",
+              "options": [
+                "Panyäs",
+                "Upädhyäy",
+                "Ächärya",
+                "Ganipad"
+              ],
+              "answer": "Ächärya"
+            },
+            {
+              "question": "The four-month rainy season retreat when ascetics stay in one place is called:",
+              "options": [
+                "Vihär",
+                "Upäshray",
+                "Chäturmäs",
+                "Dikshä"
+              ],
+              "answer": "Chäturmäs"
+            },
+            {
+              "question": "Which title is conferred upon Sädhvis for their scriptural knowledge?",
+              "options": [
+                "Äryä",
+                "Ächärya",
+                "Pravartini",
+                "Shramani"
+              ],
+              "answer": "Pravartini"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

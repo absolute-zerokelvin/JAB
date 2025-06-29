@@ -1,0 +1,135 @@
+{
+    "sectionTitle": "C.7: Living Values",
+    "tabs": [
+      {
+        "tabName": "Introduction",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h2",
+            "tagHTML": "Cultivating Virtues to Overcome Passions"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "We have all learned about the four passions (<b>Kashäy</b>): Anger, Ego, Deceit, and Greed. Overcoming these is the key to liberation. While it can take lifetimes of spiritual effort, Jainism provides the keys to unlock this path: the four virtues. By incorporating these virtues into our lives, we can begin to free ourselves from the grip of the passions."
+          },
+          {
+            "tagType": "html",
+            "tagHTML": "<p>As the Dasha-valkälika Sutra states: <i>'Destroy anger through calmness/forgiveness; ego by humility; deceit by straightforwardness/honesty; and overcome greed by contentment.'</i></p>"
+          }
+        ]
+      },
+      {
+        "tabName": "The Four Virtues",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "The Antidotes to Passion",
+          "description": "Each virtue directly counteracts one of the four main passions.",
+          "items": [
+            {
+              "header": "1. Kshamä (Forgiveness) - Overcomes Anger (Krodh)",
+              "content": "Anger arises when our desires are thwarted. While it's easy to get angry, it takes courage and strength to forgive. Forgiveness is not something we do for others; it's a gift to ourselves, freeing us from the weight of resentment and pain. By forgiving, we advance on the path to liberation."
+            },
+            {
+              "header": "2. Vinay (Humility) - Overcomes Ego (Män)",
+              "content": "Pride and ego make our achievements useless and prevent us from seeing the truth. Humility is recognizing our own insignificance in the vast universe and showing respect for all. To be humble, one must abandon the eight types of pride, such as pride of knowledge, appearance, or family status."
+            },
+            {
+              "header": "3. Saralatä (Straightforwardness) - Overcomes Deceit (Mäyä)",
+              "content": "This is the virtue of honesty in thought, word, and deed. Deceit creates a world of lies that is impossible to escape, filled with guilt and fear. Straightforwardness, on the other hand, makes life natural, worry-free, and peaceful, earning the trust and love of others."
+            },
+            {
+              "header": "4. Santosh (Contentment) - Overcomes Greed (Lobh)",
+              "content": "Greed is the father of all sins, an endless desire for more. Contentment is the key to breaking this cycle. It doesn't mean not earning a living, but being satisfied with what one has and limiting possessions to what is necessary. True happiness comes from within, not from material acquisitions."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Life Lessons",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Stories and Parables on Living Values",
+          "description": "Illustrations of key values through timeless stories.",
+          "items": [
+            {
+              "header": "Compassion (Karunä)",
+              "content": "We should feel compassion for the miseries of all living beings and help them however we can. The greatest compassion is helping others find the true spiritual path. When Swämi Dayänand Saraswati saw bulls suffering to pull a cart from mud, his heart filled with compassion, and he freed the bulls and pulled the cart out himself."
+            },
+            {
+              "header": "Friendship (Maitri)",
+              "content": "Learn to write your hurts in the sand where the winds of forgiveness can erase them, but engrave blessings in stone where no wind can ever erase them. Our relationships with others are what truly endure when the castles we build in the sand are washed away by the waves of life."
+            },
+            {
+              "header": "Determination",
+              "content": "The story of the little boy who was badly burned in a fire and told he would never walk again, but through sheer determination learned to walk and then run, becoming the world's fastest miler. This teaches us that with an iron will, we can overcome incredible obstacles."
+            },
+            {
+              "header": "Self-Reliance",
+              "content": "The story of the man who 'helped' a butterfly out of its cocoon by snipping it open. The butterfly emerged easily but could never fly, because the struggle to get out is what strengthens its wings. Sometimes, struggles are exactly what we need in our lives to become strong."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Quiz",
+        "contentType": "quiz",
+        "tabData": {
+          "title": "Test Your Knowledge on Living Values",
+          "questions": [
+            {
+              "question": "Which virtue is considered the antidote to the passion of Anger (Krodh)?",
+              "options": [
+                "Vinay (Humility)",
+                "Saralatä (Straightforwardness)",
+                "Santosh (Contentment)",
+                "Kshamä (Forgiveness)"
+              ],
+              "answer": "Kshamä (Forgiveness)"
+            },
+            {
+              "question": "Overcoming the eight types of pride, such as pride of knowledge and appearance, helps cultivate which virtue?",
+              "options": [
+                "Vinay (Humility)",
+                "Kshamä (Forgiveness)",
+                "Saralatä (Straightforwardness)",
+                "Santosh (Contentment)"
+              ],
+              "answer": "Vinay (Humility)"
+            },
+            {
+              "question": "Which passion is known as the 'father of all sins'?",
+              "options": [
+                "Anger (Krodh)",
+                "Ego (Män)",
+                "Deceit (Mäyä)",
+                "Greed (Lobh)"
+              ],
+              "answer": "Greed (Lobh)"
+            },
+            {
+              "question": "The story of writing hurts in the sand and blessings in stone illustrates the power of what?",
+              "options": [
+                "Determination",
+                "Self-Reliance",
+                "Friendship and Forgiveness",
+                "Compassion"
+              ],
+              "answer": "Friendship and Forgiveness"
+            },
+            {
+              "question": "The parable of the butterfly and the cocoon teaches the importance of what value?",
+              "options": [
+                "Compassion",
+                "Self-Reliance",
+                "Humility",
+                "Friendship"
+              ],
+              "answer": "Self-Reliance"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

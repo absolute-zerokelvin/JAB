@@ -1,0 +1,223 @@
+{
+    "sectionTitle": "C.2: Jain Laypeople: Shrävak and Shrävikä",
+    "tabs": [
+      {
+        "tabName": "Introduction",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h2",
+            "tagHTML": "The Path for Householders"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "Jainism provides a path for everyone, including those with family and social responsibilities. A layperson, known as a <b>Shrävak</b> (male) or <b>Shrävikä</b> (female), follows rules of conduct that are less rigid than those for ascetics but are designed to lead toward the same ultimate goal of liberation. These rules are outlined in the twelve vows of a householder."
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "These twelve vows are divided into three categories: five main vows of limited nature (<b>Anuvrat</b>), three merit vows (<b>Guna Vrat</b>) that enhance the main vows, and four disciplinary vows (<b>Shikshä Vrat</b>) that train a person for the life of an ascetic."
+          }
+        ]
+      },
+      {
+        "tabName": "The 12 Vows",
+        "contentType": "mindmap",
+        "tabData": {
+          "title": "The Twelve Vows of a Layperson",
+          "description": "A visual guide to the vows undertaken by Shrävaks and Shrävikäs.",
+          "nodes": [
+            {
+              "id": "root",
+              "text": "The 12 Vows",
+              "parent": null
+            },
+            {
+              "id": "anuvrat",
+              "text": "5 Anuvrat (Minor Vows)",
+              "parent": "root"
+            },
+            {
+              "id": "gunavrat",
+              "text": "3 Guna Vrat (Merit Vows)",
+              "parent": "root"
+            },
+            {
+              "id": "shikshavrat",
+              "text": "4 Shikshä Vrat (Disciplinary Vows)",
+              "parent": "root"
+            },
+            {
+              "id": "a1",
+              "text": "1. Ahimsä Anuvrat (Non-violence)",
+              "parent": "anuvrat"
+            },
+            {
+              "id": "a2",
+              "text": "2. Satya Anuvrat (Truthfulness)",
+              "parent": "anuvrat"
+            },
+            {
+              "id": "a3",
+              "text": "3. Achaurya Anuvrat (Non-stealing)",
+              "parent": "anuvrat"
+            },
+            {
+              "id": "a4",
+              "text": "4. Brahmacharya Anuvrat (Celibacy)",
+              "parent": "anuvrat"
+            },
+            {
+              "id": "a5",
+              "text": "5. Aparigraha Anuvrat (Non-possessiveness)",
+              "parent": "anuvrat"
+            },
+            {
+              "id": "g1",
+              "text": "6. Dig Parimän Vrat (Limited Area)",
+              "parent": "gunavrat"
+            },
+            {
+              "id": "g2",
+              "text": "7. Bhoga-Upbhoga Parimän Vrat (Limited Consumption)",
+              "parent": "gunavrat"
+            },
+            {
+              "id": "g3",
+              "text": "8. Anartha-danda Viraman Vrat (Avoid Purposeless Sins)",
+              "parent": "gunavrat"
+            },
+            {
+              "id": "s1",
+              "text": "9. Sämäyik Vrat (Limited Meditation)",
+              "parent": "shikshavrat"
+            },
+            {
+              "id": "s2",
+              "text": "10. Desävakäsik Vrat (Stricter Limits)",
+              "parent": "shikshavrat"
+            },
+            {
+              "id": "s3",
+              "text": "11. Paushadh Vrat (Limited Ascetic Life)",
+              "parent": "shikshavrat"
+            },
+            {
+              "id": "s4",
+              "text": "12. Atithi Samvibhäg Vrat (Charity)",
+              "parent": "shikshavrat"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "The Vows Explained",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Understanding the Vows for Laypeople",
+          "description": "A detailed look at the three categories of vows.",
+          "items": [
+            {
+              "header": "The Five Anuvrat (Minor Vows)",
+              "content": "These are the core vows, adapted for householders. They include limited non-violence (avoiding intentional harm), limited truthfulness (avoiding malicious lies), limited non-stealing (not taking what isn't given), limited celibacy (chastity within marriage), and limited non-possessiveness (setting a limit on wealth and possessions)."
+            },
+            {
+              "header": "The Three Guna Vrat (Merit Vows)",
+              "content": "These vows support and strengthen the Anuvrats. They include <b>Dig Parimän Vrat</b> (limiting one's worldly activities to a specific geographical area), <b>Bhoga-Upbhoga Parimän Vrat</b> (limiting the use of consumable and non-consumable items), and <b>Anartha-danda Viraman Vrat</b> (avoiding purposeless sins like carelessness or manufacturing weapons)."
+            },
+            {
+              "header": "The Four Shikshä Vrat (Disciplinary Vows)",
+              "content": "These vows provide training for a more spiritual life. They include <b>Sämäyik Vrat</b> (meditating in equanimity for at least 48 minutes), <b>Desävakäsik Vrat</b> (imposing stricter, temporary limits on activity), <b>Paushadh Vrat</b> (living the life of a monk for a limited period), and <b>Atithi Samvibhäg Vrat</b> (giving charity, especially to monks and the needy)."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Sanlekhanä",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h3",
+            "tagHTML": "Sanlekhanä: The Vow of a Peaceful Death"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "<b>Sanlekhanä</b> is a highly advanced spiritual practice for a householder or ascetic who has followed the vows diligently. It is a well-ordered, voluntary death undertaken in a state of complete awareness and meditation, usually when old age or incurable disease prevents further spiritual progress and makes one a burden on society. It is performed under the supervision of a guru and involves a gradual withdrawal from food and water."
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "This practice is fundamentally different from suicide. Suicide is the result of passion, anger, or depression, while Sanlekhanä is the ultimate act of dispassion, involving a calm renunciation of the body without fear or sorrow."
+          }
+        ]
+      },
+      {
+        "tabName": "Quiz",
+        "contentType": "quiz",
+        "tabData": {
+          "title": "Test Your Knowledge on the Vows of a Layperson",
+          "questions": [
+            {
+              "question": "The five main vows of limited nature for laypeople are called:",
+              "options": [
+                "Mahävrat",
+                "Guna Vrat",
+                "Shikshä Vrat",
+                "Anuvrat"
+              ],
+              "answer": "Anuvrat"
+            },
+            {
+              "question": "Which vow involves limiting one's activities to a specific geographical area?",
+              "options": [
+                "Sämäyik Vrat",
+                "Aparigraha Anuvrat",
+                "Dig Parimän Vrat",
+                "Paushadh Vrat"
+              ],
+              "answer": "Dig Parimän Vrat"
+            },
+            {
+              "question": "What is the minimum duration for performing Sämäyik?",
+              "options": [
+                "24 minutes",
+                "36 minutes",
+                "48 minutes",
+                "60 minutes"
+              ],
+              "answer": "48 minutes"
+            },
+            {
+              "question": "The vow to live like a monk for a limited period is called:",
+              "options": [
+                "Desävakäsik Vrat",
+                "Sämäyik Vrat",
+                "Paushadh Vrat",
+                "Atithi Samvibhäg Vrat"
+              ],
+              "answer": "Paushadh Vrat"
+            },
+            {
+              "question": "Sanlekhanä is best described as:",
+              "options": [
+                "A form of suicide",
+                "A required end-of-life ritual",
+                "A voluntary, peaceful death achieved through meditation",
+                "A vow of complete silence"
+              ],
+              "answer": "A voluntary, peaceful death achieved through meditation"
+            },
+            {
+              "question": "Which of these is a Guna Vrat (Merit Vow)?",
+              "options": [
+                "Satya Anuvrat (Truthfulness)",
+                "Sämäyik Vrat (Meditation)",
+                "Anartha-danda Viraman Vrat (Avoid Purposeless Sins)",
+                "Brahmacharya Anuvrat (Celibacy)"
+              ],
+              "answer": "Anartha-danda Viraman Vrat (Avoid Purposeless Sins)"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
