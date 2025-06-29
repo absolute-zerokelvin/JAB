@@ -1,0 +1,368 @@
+{
+  "sectionTitle": "D2: Tirthankars, Emblems & Dreams",
+  "tabs": [
+    {
+     "tabName":"About Tirthankars",
+      "contentType": "text",
+      "tabData": [
+        {
+          "tagType": "p",
+          "tagHTML": "<p><b>Länchhan (Emblems or Symbols)</b></p>"
+        },
+        {
+          "tagType": "p",
+          "tagHTML": "<p>Tirthankar idols are identified by a unique symbol (Länchhan) engraved at their base. This symbol corresponds to a birthmark on the Tirthankar's right thigh. For example, Bhagawän Mahävir Swämi's idol has a lion symbol. Digambar idols are unadorned with semi-closed eyes, representing a liberated soul. Shvetämbar idols are elegantly adorned, representing a spiritual king.</p>"
+        },
+        {
+          "tagType": "p",
+          "tagHTML": "<p><b>Who are Tirthankars?</b></p>"
+        },
+        {
+          "tagType": "p",
+          "tagHTML": "<p>Time moves in cycles of rising (Utsarpini) and declining (Avasarpini) eras. In the 3rd and 4th Äräs of each half-cycle, 24 souls become Tirthankars in our region (Bharat Kshetra). They are humans who, through intense spiritual purification over many lives, acquire Tirthankar Näm Karma. After attaining omniscience (Keval-jnän), they re-establish the four-fold Jain order (Sädhus, Sädhvis, Shrävaks, Shrävikäs). They are also known as Arihants, Jinas, and Vitarägis.</p>"
+        },
+        {
+          "tagType": "p",
+          "tagHTML": "<p><b>Number of Tirthankars</b></p>"
+        },
+        {
+          "tagType": "p",
+          "tagHTML": "<p>While 24 Tirthankars appear in our region during specific eras, Tirthankars can exist in other regions of the universe. In the 5 Mahä-videha Kshetras, conditions are always conducive for Tirthankars. Currently, there are 20 living Tirthankars in these regions, including Shri Simandhar Swämi.</p>"
+        }
+      ]
+    },
+    {
+     "tabName":"Symbols & Colors",
+      "contentType": "table",
+      "tabData": {
+        "headers": ["#", "Name", "Symbol (Shvetämbar)", "Symbol (Digambar)", "Color"],
+        "rows": [
+          ["1", "Rishabhadev or Ädinäth", "Bull", "Bull", "Gold"],
+          ["2", "Ajitnäth", "Elephant", "Elephant", "Gold"],
+          ["3", "Sambhavnäth", "Horse", "Horse", "Gold"],
+          ["4", "Abhinandan Swämi", "Monkey", "Monkey", "Gold"],
+          ["5", "Sumatinäth", "Curlew Bird", "Red goose (Chakvä)*", "Gold"],
+          ["6", "Padmaprabha Swämi", "Red Lotus", "Red Lotus", "Red"],
+          ["7", "Supärshvanäth", "Swastik", "Swastik", "Gold/Green*"],
+          ["8", "Chandraprabha Swämi", "Crescent Moon", "Crescent Moon", "White"],
+          ["9", "Suvidhinäth or Pushpadanta", "Crocodile", "Crocodile", "White"],
+          ["10", "Shitalnäth", "Shrivatsa", "Kalpa-vruksha*", "Gold"],
+          ["11", "Shreyänsnäth", "Rhinoceros", "Rhinoceros", "Gold"],
+          ["12", "Väsupujya Swämi", "Buffalo", "Buffalo", "Red"],
+          ["13", "Vimalnäth", "Pig-Boar", "Pig-Boar", "Gold"],
+          ["14", "Anantnäth", "Eagle", "Hawk*", "Gold"],
+          ["15", "Dharmanäth", "Vajra", "Vajra", "Gold"],
+          ["16", "Shäntinäth", "Deer", "Deer", "Gold"],
+          ["17", "Kunthunäth", "Goat", "Goat", "Gold"],
+          ["18", "Aranäth", "Nandävarta", "Fish*", "Gold"],
+          ["19", "Mallinäth", "Pot", "Kumbha", "Blue/Gold*"],
+          ["20", "Munisuvrat Swämi", "Tortoise", "Tortoise", "Black"],
+          ["21", "Naminäth", "Blue Lotus", "Blue Lotus", "Gold"],
+          ["22", "Neminäth", "Conch Shell", "Conch Shell", "Black"],
+          ["23", "Pärshvanäth", "Snake", "Snake", "Blue/Green*"],
+          ["24", "Mahävirswämi", "Lion", "Lion", "Gold"]
+        ],
+        "footnote": "*Different from Shvetämbar tradition"
+      }
+    },
+    {
+     "tabName":"Family & Places",
+      "contentType": "table",
+      "tabData": {
+        "headers": ["#", "Name", "Father", "Mother", "Birth Place", "Dikshä Place", "Nirväna Place"],
+        "rows": [
+          ["1", "Rishabhadev", "Näbhiräyä", "Marudevi", "Ayodhyä", "Ayodhyä", "Ashtäpad"],
+          ["2", "Ajitnäth", "Jitshatru", "Vijayä", "Ayodhyä", "Ayodhyä", "Sametshikhar"],
+          ["3", "Sambhavnäth", "Jitäri", "Senä", "Shrävasti", "Shrävasti", "Sametshikhar"],
+          ["4", "Abhinandan Swämi", "Samvar", "Siddhärtha", "Ayodhyä", "Ayodhyä", "Sametshikhar"],
+          ["5", "Sumatinäth", "Meghrath", "Mangalä Devi", "Ayodhyä", "Ayodhyä", "Sametshikhar"],
+          ["6", "Padmaprabha-swämi", "Shridhar", "Susimä Devi", "Kaushämbi", "Kaushämbi", "Sametshikhar"],
+          ["7", "Supärshvanäth", "Pratishtha", "Prithvi Devi", "Väränasi", "Väränasi", "Sametshikhar"],
+          ["8", "Chandraprabha", "Mahäsen", "Lakshmanä", "Chandrapuri", "Chandrapuri", "Sametshikhar"],
+          ["9", "Suvidhinäth / Pushpadanta", "Sugriva", "Rämä Räni", "Käkandi", "Käkandi", "Sametshikhar"],
+          ["10", "Shitalnäth", "Dhadharath", "Nandä Räni", "Bhadrilpur", "Bhadrilpur", "Sametshikhar"],
+          ["11", "Shreyänsnäth", "Vishnu", "Vishnu Devi", "Simhapuri", "Simhapuri", "Sametshikhar"],
+          ["12", "Väsupujya-Swämi", "Väsupujya", "Jayä Devi", "Champäpuri", "Champäpuri", "Champäpuri"],
+          ["13", "Vimalnäth", "Krutavarma", "Shyämä-devi", "Kämpilyapur", "Kämpilyapur", "Sametshikhar"],
+          ["14", "Anantnäth", "Sinhasen", "Suyasha", "Ayodhyä", "Ayodhyä", "Sametshikhar"],
+          ["15", "Dharmnäth", "Bhänu", "Suvrata", "Ratnapur", "Ratnapur", "Sametshikhar"],
+          ["16", "Shäntinäth", "Vishvasen", "Achirä", "Hastinäpur", "Hastinäpur", "Sametshikhar"],
+          ["17", "Kunthunäth", "Surasen", "Shree-Devi", "Hastinäpur", "Hastinäpur", "Sametshikhar"],
+          ["18", "Aranäth", "Sudarshan", "Devi Räni", "Hastinäpur", "Hastinäpur", "Sametshikhar"],
+          ["19", "Mallinäth", "Kumbha", "Prabhävati", "Mithilä", "Mithilä", "Sametshikhar"],
+          ["20", "Munisuvrat-swämi", "Sumitra", "Padmävati", "Räjgrihi", "Räjgrihi", "Sametshikhar"],
+          ["21", "Naminäth", "Vijay", "Viprä", "Mithilä", "Mithilä", "Sametshikhar"],
+          ["22", "Neminäth", "Samudravijay", "Shivädevi", "Sauripur", "Girnär", "Sametshikhar"],
+          ["23", "Pärshvanäth", "Ashvasen", "Vämädevi", "Väränasi", "Väränasi", "Sametshikhar"],
+          ["24", "Mahävirswämi", "Siddhärtha", "Trishalä", "Kshatriya-kund", "Kshatriya-kund", "Päväpuri"]
+        ]
+      }
+    },
+    {
+     "tabName":"Auspicious Dreams",
+            "contentType": "accordian",
+      "tabData": {
+        "title": "Auspicious Dreams of Tirthankars",
+        "description": "These are the dreams seen by the mother of a Tirthankar before their birth, indicating the greatness of the child.",
+        "items": [
+          {
+            "header": "1. Gajwar (Elephant)",
+            "content": "<b>Meaning:</b> A big, tall, impetuous elephant with four tusks, whiter than a heap of pearls. <br><b>Indication:</b> The child will have an exceptionally high character and will guide the four-fold spiritual order (monks, nuns, laymen, laywomen)."
+          },
+          {
+            "header": "2. Vrushabh (Bull)",
+            "content": "<b>Meaning:</b> A white bull with a majestic hump and sharp horns. <br><b>Indication:</b> The child will be a great spiritual teacher, revered by all, including celestial beings."
+          },
+          {
+            "header": "3. Sinh (Lion)",
+            "content": "<b>Meaning:</b> A powerful lion descending from the sky into the mother's mouth. <br><b>Indication:</b> The child will be as mighty as a lion, fearless, and capable of establishing the Jain order."
+          },
+          {
+            "header": "4. Lakshmi (Goddess of Wealth)",
+            "content": "<b>Meaning:</b> The Goddess Lakshmi, seated on a lotus, being bathed by two elephants. <br><b>Indication:</b> The child will possess immense wealth of knowledge and spiritual virtues."
+          },
+          {
+            "header": "5. Pushpa Mälä (Garland of Flowers)",
+            "content": "<b>Meaning:</b> A beautiful, fragrant garland of various flowers. <br><b>Indication:</b> The child will be gentle, popular, and will spread the fragrance of spiritual teachings."
+          },
+          {
+            "header": "6. Purnachandra (Full Moon)",
+            "content": "<b>Meaning:</b> A full, radiant moon. <br><b>Indication:</b> The child will bring peace and tranquility to the world, alleviating suffering."
+          },
+          {
+            "header": "7. Surya (Sun)",
+            "content": "<b>Meaning:</b> A brilliant, rising sun. <br><b>Indication:</b> The child will dispel the darkness of ignorance and spread the light of knowledge."
+          },
+          {
+            "header": "8. Mahädhvaj (Grand Flag)",
+            "content": "<b>Meaning:</b> A grand, fluttering flag. <br><b>Indication:</b> The child will be a great leader, establishing the flag of dharma (righteousness) in the world."
+          },
+          {
+            "header": "9. Kalash (Golden Urn)",
+            "content": "<b>Meaning:</b> Two golden urns filled with divine water. <br><b>Indication:</b> The child will bring prosperity and auspiciousness to all beings."
+          },
+          {
+            "header": "10. Padma Sarovar (Lotus Lake)",
+            "content": "<b>Meaning:</b> A vast lake with thousands of blooming lotuses and aquatic animals. <br><b>Indication:</b> The son will be beyond worldly attachments and help liberate others from the cycle of birth and death."
+          },
+          {
+            "header": "11. Sägar (Ocean)",
+            "content": "<b>Meaning:</b> A milky white ocean with high, moving waves. <br><b>Indication:</b> The son will have a serene personality and achieve infinite perception and knowledge (Moksh)."
+          },
+          {
+            "header": "12. Vimän (Celestial Plane)",
+            "content": "<b>Meaning:</b> A celestial plane with divine music and aroma, decorated with gold and jewels. <br><b>Indication:</b> All celestial beings in heaven will respect and honor the son's spiritual teachings."
+          },
+          {
+            "header": "13. Ratna Räshi (Heap of Jewels)",
+            "content": "<b>Meaning:</b> An enormous, radiant heap of precious jewels. <br><b>Indication:</b> The son will have infinite virtues and wisdom and will attain the supreme spirit."
+          },
+          {
+            "header": "14. Nirdhuma Agni (Smokeless Fire)",
+            "content": "<b>Meaning:</b> A fire burning with great intensity but without any smoke. <br><b>Indication:</b> The son will reform the religious order, destroy his karma, and attain salvation."
+          },
+          {
+            "header": "15. Minayugal (Pair of Fish) (Digambar)",
+            "content": "<b>Meaning:</b> A pair of fish. <br><b>Indication:</b> The son will be extremely handsome."
+          },
+          {
+            "header": "16. Sinhäsan (Lofty Throne) (Digambar)",
+            "content": "<b>Meaning:</b> A lofty throne. <br><b>Indication:</b> The son will have a very high spiritual status."
+          }
+        ]
+      }
+    },
+    {
+     "tabName":"Key Facts",
+      "contentType": "flashCards",
+      "tabData": [
+        {
+          "title": "Key Facts about Tirthankars",
+          "description": "Test your knowledge about Tirthankars with these flashcards!",
+          "flippable": true,
+          "frontColor": "#D1FAE5",
+          "backColor": "#10B981",
+          "cards": [
+            {
+              "front": "Who was the first person to attain liberation in this era, according to Shvetämbar tradition?",
+              "back": "Marudevi Mätä, mother of Tirthankar Rishabhadev."
+            },
+            {
+              "front": "Who was the first person to attain liberation in this era, according to Digambar tradition?",
+              "back": "Bähubali, son of Tirthankar Rishabhadev."
+            },
+            {
+              "front": "Bharat (India) is named after whom?",
+              "back": "Bharat, the eldest son of Tirthankar Rishabhadev and the first Chakravarti king."
+            },
+            {
+              "front": "Which Tirthankar do Shvetämbars believe was a female?",
+              "back": "Tirthankar Mallinäth."
+            },
+            {
+              "front": "Lord Räm was a contemporary of which Tirthankar?",
+              "back": "Tirthankar Munisuvrat-swämi."
+            },
+            {
+              "front": "Tirthankar Neminäth was a cousin of which famous figure?",
+              "back": "Lord Krishna."
+            },
+            {
+              "front": "Which Tirthankar attained omniscience (Keval-jnän) while standing?",
+              "back": "Tirthankar Rishabhadev."
+            },
+            {
+              "front": "Which Tirthankar is associated with the city of Päväpuri?",
+              "back": "Bhagawän Mahävir Swämi (where he attained Nirväna)."
+            },
+            {
+              "front": "How many Tirthankars are there in each half-cycle of time in Bharat Kshetra?",
+              "back": "24."
+            },
+            {
+              "front": "What is the symbol of Bhagawän Pärshvanäth?",
+              "back": "Snake."
+            },
+            {
+              "front": "What is the symbol of Bhagawän Mahävir Swämi?",
+              "back": "Lion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+     "tabName":"Quiz",
+      "contentType": "quiz",
+      "tabData": {
+        "questions": [
+          {
+            "question": "What is the Länchhan (symbol) of Bhagawän Mahävir Swämi?",
+            "options": ["Elephant", "Lion", "Bull", "Snake"],
+            "answer": 1
+          },
+          {
+            "question": "What is the color associated with Tirthankar Munisuvrat Swämi?",
+            "options": ["Gold", "White", "Red", "Black"],
+            "answer": 3
+          },
+          {
+            "question": "Who was the father of Tirthankar Rishabhadev?",
+            "options": ["Siddhärtha", "Näbhiräyä", "Jitshatru", "Meghrath"],
+            "answer": 1
+          },
+          {
+            "question": "Where did Tirthankar Väsupujya-Swämi attain Nirväna?",
+            "options": ["Sametshikhar", "Ashtäpad", "Päväpuri", "Champäpuri"],
+            "answer": 3
+          },
+          {
+            "question": "Which dream signifies that the Tirthankar will guide the four-fold spiritual order?",
+            "options": ["Vrushabh (Bull)", "Seenh (Lion)", "Gajwar (Elephant)", "Dhwajä (Flag)"],
+            "answer": 2
+          },
+          {
+            "question": "In which Äräs of the time cycle are Tirthankars born in Bharat Kshetra?",
+            "options": ["1st and 2nd", "3rd and 4th", "5th and 6th", "2nd and 3rd"],
+            "answer": 1
+          },
+          {
+            "question": "What is the Indian name for the dream of a 'Smokeless Fire'?'",
+            "options": ["Surya", "Agni", "Nirdhuma Agni", "Ratna Räshi"],
+            "answer": 2
+          },
+          {
+            "question": "Who was the mother of Tirthankar Pärshvanäth?",
+            "options": ["Trishalä", "Vämädevi", "Marudevi", "Vijayä"],
+            "answer": 1
+          },
+          {
+            "question": "Which Tirthankar has the symbol of a 'Swastik'?",
+            "options": ["Supärshvanäth", "Shitalnäth", "Padmaprabha Swämi", "Chandraprabha Swämi"],
+            "answer": 0
+          },
+          {
+            "question": "In what year did Bhagawän Mahävirswämi attain Nirväna?",
+            "options": ["599 BC", "877 BC", "777 BC", "527 BC"],
+            "answer": 3
+          },
+          {
+            "question": "What is the Nirväna place of Tirthankar Neminäth?",
+            "options": ["Girnär", "Päväpuri", "Sametshikhar", "Ayodhyä"],
+            "answer": 0
+          },
+          {
+            "question": "Which Tirthankar is associated with the color 'Red'?",
+            "options": ["Ajitnäth", "Sumatinäth", "Padmaprabha Swämi", "Shitalnäth"],
+            "answer": 2
+          },
+          {
+            "question": "Who was the first Chakravarti king of this era?",
+            "options": ["Rishabhadev", "Bähubali", "Bharat", "Nayasär"],
+            "answer": 2
+          },
+          {
+            "question": "The dream of a 'Lotus Lake' (Padma Sarovar) indicates the son would be...?",
+            "options": ["Perfect in all virtues", "Beyond worldly attachment", "A great spiritual teacher", "Powerful and strong"],
+            "answer": 1
+          },
+          {
+            "question": "What is the symbol for Tirthankar Mallinäth according to the Shvetämbar tradition?",
+            "options": ["Kumbha", "Goat", "Fish", "Pot"],
+            "answer": 3
+          },
+          {
+            "question": "Who was the father of Tirthankar Mahävirswämi?",
+            "options": ["Samudravijay", "Ashvasen", "Siddhärtha", "Näbhiräyä"],
+            "answer": 2
+          },
+          {
+            "question": "Which living Tirthankar is mentioned as currently preaching in Mahä-videha Kshetra?",
+            "options": ["Simandhar Swämi", "Änandghanji", "Mänatungasuri", "Bähubali"],
+            "answer": 0
+          },
+          {
+            "question": "The dream of a 'Flag' (Dhwajä) indicates the son would...?",
+            "options": ["Enjoy great wealth", "Have supreme knowledge", "Carry the banner of the religion", "Have a serene personality"],
+            "answer": 2
+          },
+          {
+            "question": "What is the birth place of Tirthankar Sambhavnäth?",
+            "options": ["Ayodhyä", "Shrävasti", "Kaushämbi", "Väränasi"],
+            "answer": 1
+          },
+          {
+            "question": "Which Tirthankar's symbol is a 'Conch Shell'?",
+            "options": ["Munisuvrat Swämi", "Naminäth", "Neminäth", "Pärshvanäth"],
+            "answer": 2
+          },
+          {
+            "question": "Who was the mother of Tirthankar Ajitnäth?",
+            "options": ["Vijayä", "Senä", "Siddhärtha", "Mangalä Devi"],
+            "answer": 0
+          },
+          {
+            "question": "The dream of a 'Heap of Jewels' (Ratna Räshi) indicates the son would have...?",
+            "options": ["Infinite virtues and wisdom", "A pleasing physical structure", "Great wealth and splendor", "High character"],
+            "answer": 0
+          },
+          {
+            "question": "What is the Digambar symbol for Tirthankar Shitalnäth?",
+            "options": ["Shrivatsa", "Kalpa-vruksha", "Crocodile", "Rhinoceros"],
+            "answer": 1
+          },
+          {
+            "question": "Which Tirthankar was a cousin of Lord Krishna?",
+            "options": ["Munisuvrat-swämi", "Neminäth", "Pärshvanäth", "Mahävirswämi"],
+            "answer": 1
+          },
+          {
+            "question": "Where did Tirthankar Rishabhadev attain Nirväna?",
+            "options": ["Sametshikhar", "Päväpuri", "Girnär", "Ashtäpad"],
+            "answer": 3
+          }
+        ]
+      }
+    }
+  ]
+}

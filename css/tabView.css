@@ -69,7 +69,8 @@
 }
 
 .flashcard-front {
-    background-color: white; /* Set background for quiz flashcard front */
+    background-color: var(--primary-blue-dark); /* Set background for quiz flashcard front */
+    color: var(--text-primary-dark); /* Ensure text is visible */
     transform: rotateY(0deg);
 }
 

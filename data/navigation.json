@@ -69,6 +69,13 @@
             "name": "Jain Symbols",
             "url": "./tabTemplate.html?section=D1.json",
             "dataFile": "D1.json"
+          },
+          {
+            "id": "D2",
+            "title": "D.2",
+            "name": "Tirthankars, Emblems & Dreams",
+            "url": "./tabTemplate.html?section=D2.json",
+            "dataFile": "D2.json"
           }
         ]
       },

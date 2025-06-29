@@ -72,6 +72,12 @@ function renderQuiz(quizData, containerElement) {
                 showAnswerBtn.textContent = 'Show Answer';
             }
         });
+
+        // No direct check logic here, as the user just wants to reveal the answer
+        // The answer is already in quizAnswerDiv.innerHTML = `${q.answer}`;
+        // The change to string answers only affects the D2.json structure, not this display logic.
+        // If there was a 'check answer' button for Q&A list, this would be the place to modify it.
+        // However, based on the provided code, it's just a 'show answer' button.
     });
 
     // Flashcard logic
@@ -384,7 +390,70 @@ function renderTimeline(timelineData, containerElement) {
     containerElement.appendChild(timelineContainer);
 }
 
-function renderFlashCards(flashCardsData, containerElement) {
+function renderTable(tableData, containerElement) {
+    if (!tableData || !tableData.headers || !tableData.rows) {
+        containerElement.innerHTML = '<p>No table data available.</p>';
+        return;
+    }
+
+    // Clear previous content
+    containerElement.innerHTML = '';
+
+    // Add caption if present
+    if (tableData.caption) {
+        const captionElement = document.createElement('div');
+        captionElement.className = 'table-caption';
+        captionElement.innerHTML = tableData.caption;
+        containerElement.appendChild(captionElement);
+    }
+
+    // Create a div for Tabulator to render into
+    const tableDiv = document.createElement('div');
+    tableDiv.id = 'tabulator-table'; // Give it an ID for Tabulator
+    containerElement.appendChild(tableDiv);
+
+    // Prepare columns for Tabulator
+    const columns = tableData.headers.map((header, index) => ({
+        title: header,
+        field: `col${index}`,
+        sorter: "string", // Enable sorting for all columns
+        headerFilter: "input", // Enable filtering for all columns
+    }));
+
+    // Prepare data for Tabulator
+    const data = tableData.rows.map(row => {
+        const rowObject = {};
+        row.forEach((cell, index) => {
+            rowObject[`col${index}`] = cell;
+        });
+        return rowObject;
+    });
+
+    // Initialize Tabulator
+    const table = new Tabulator(tableDiv, {
+        data: data,
+        columns: columns,
+        layout: "fitColumns", // Fit columns to width of table
+        pagination: "local", // Enable local pagination
+        paginationSize: 50, // Show 50 rows per page
+        paginationSizeSelector: [10, 25, 50, 100], // Allow user to select pagination size
+        movableColumns: true, // Allow columns to be reordered
+        resizableColumns: true, // Allow columns to be resized
+        // Add a theme class for custom styling
+        // This will apply a class to the top-level Tabulator element
+        // You can then target this class in your CSS
+        cssClass: "tabulator-blue-theme",
+    });
+
+    if (tableData.footnote) {
+        const footnote = document.createElement('p');
+        footnote.className = 'table-footnote';
+        footnote.innerHTML = tableData.footnote;
+        containerElement.appendChild(footnote);
+    }
+}
+
+function renderFlashcards(flashCardsData, containerElement) {
     if (!flashCardsData || flashCardsData.length === 0) {
         containerElement.innerHTML = '<p>No flashcard groups available.</p>';
         return;
