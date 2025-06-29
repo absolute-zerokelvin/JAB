@@ -202,6 +202,22 @@ function renderMindmap(mindmapData, containerElement) {
             .mind-map-node {
                 position: relative;
             }
+            /* Styling for non-leaf nodes (with children) */
+            .mind-map-node.toggle-node {
+                background-color: #e6f0ff; /* Light blue background */
+                border-left: 3px solid #3498db; /* Blue left border */
+            }
+            /* Styling for leaf nodes (without children) */
+            .mind-map-node.leaf-node {
+                background-color: #f5f5f5; /* Light gray background */
+                border-left: 3px solid #aaaaaa; /* Gray left border */
+            }
+            .toggle-icon {
+                display: inline-block;
+                margin-left: 5px;
+                font-weight: bold;
+                color: #3498db;
+            }
             .info-icon {
                 display: inline-block;
                 margin-left: 5px;
@@ -365,7 +381,7 @@ function renderMindmap(mindmapData, containerElement) {
             
             return [node, subBranches];
         } else {
-            node.className = 'mind-map-node';
+            node.className = 'mind-map-node leaf-node';
             
             // Create text content
             const textSpan = document.createElement('span');

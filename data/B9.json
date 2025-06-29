@@ -1,0 +1,380 @@
+{
+    "sectionTitle": "B.9: Karma Theory",
+    "tabs": [
+      {
+        "tabName": "Introduction",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h2",
+            "tagHTML": "The Law of Karma"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "The doctrine of karma is the single most important subject in Jain philosophy. It provides a rational explanation for the cycle of birth and death, happiness and misery, and the inequalities we see in the world. Jainism believes that from eternity, every soul is bound by karma, which are subtle particles of matter that attach to the soul due to its thoughts, words, and actions, especially those driven by passion."
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "This is not a system of reward and punishment from a divine being, but a natural law of cause and effect. Every action and, more importantly, the intention behind it, has consequences that the soul must bear. Understanding this law is the first step toward liberation."
+          }
+        ]
+      },
+      {
+        "tabName": "Ghäti & Aghäti Karma",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "The Two Major Categories of Karma",
+          "description": "The eight types of karma are divided into two main groups: Ghäti (destructive) and Aghäti (non-destructive).",
+          "items": [
+            {
+              "header": "Ghäti Karma (Destructive)",
+              "content": "These four karmas directly obscure the natural qualities of the soul, such as its infinite knowledge, perception, bliss, and energy. They are the primary obstacles to self-realization and are all considered sinful (Päp). Destroying the Ghäti karmas leads to omniscience (Keval-jnän).<br><br><b>The four Ghäti karmas are:</b><br>1. Jnänävaraniya (Knowledge-Obscuring)<br>2. Darshanävaraniya (Perception-Obscuring)<br>3. Mohaniya (Deluding)<br>4. Antaräya (Obstructing)"
+            },
+            {
+              "header": "Aghäti Karma (Non-Destructive)",
+              "content": "These four karmas do not affect the qualities of the soul directly but are responsible for the physical body, its lifespan, its environment, and its social status. They determine the 'vessel' in which the soul resides. These can be either meritorious (Punya) or sinful (Päp).<br><br><b>The four Aghäti karmas are:</b><br>1. Vedaniya (Feeling-Pertaining)<br>2. Näm (Body-Determining)<br>3. Gotra (Status-Determining)<br>4. Äyushya (Lifespan-Determining)"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Jnänävaraniya Karma",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "1. Jnänävaraniya Karma (Knowledge-Obscuring)",
+          "description": "This Ghäti karma obscures the soul's innate quality of infinite knowledge. It is like a cloud covering the sun.",
+          "items": [
+            {
+              "header": "Effect",
+              "content": "This karma obstructs the five types of knowledge. Those with less of this karma are more intelligent and learn easily, while those with more have difficulty retaining knowledge. Upon its complete destruction, one attains Keval-jnän (omniscience)."
+            },
+            {
+              "header": "Five Subtypes",
+              "content": "It obstructs the five types of knowledge:<br>1. <b>Mati-jnänävaraniya:</b> Obscures empirical knowledge gained through senses and mind.<br>2. <b>Shrut-jnänävaraniya:</b> Obscures knowledge from scriptures or symbols.<br>3. <b>Avadhi-jnänävaraniya:</b> Obscures clairvoyance (knowledge of material things at a distance).<br>4. <b>Manah-paryav-jnänävaraniya:</b> Obscures telepathy (knowledge of others' thoughts).<br>5. <b>Keval-jnänävaraniya:</b> Obscures omniscience (perfect, complete knowledge)."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Darshanävaraniya Karma",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "2. Darshanävaraniya Karma (Perception-Obscuring)",
+          "description": "This Ghäti karma obscures the soul's innate quality of infinite perception (vision). Perception is the initial, general cognition of an object, which precedes specific knowledge.",
+          "items": [
+            {
+              "header": "Effect",
+              "content": "This karma diminishes the power of perception through the senses and mind. It can also induce different states of sleep. Upon its complete destruction, one attains Keval-darshan (infinite perception)."
+            },
+            {
+              "header": "Nine Subtypes",
+              "content": "It has four subtypes that obscure perception and five that relate to sleep:<br>1. <b>Chakshu-darshanävaraniya:</b> Obscures vision through the eyes.<br>2. <b>Achakshu-darshanävaraniya:</b> Obscures perception through other senses and the mind.<br>3. <b>Avadhi-darshanävaraniya:</b> Obscures clairvoyant perception.<br>4. <b>Keval-darshanävaraniya:</b> Obscures omniscient perception.<br>5. <b>Nidrä:</b> Light sleep.<br>6. <b>Nidrä-nidrä:</b> Deep sleep.<br>7. <b>Prachalä:</b> Sound sleep, even while sitting or standing.<br>8. <b>Prachalä-prachalä:</b> Exceedingly intense sleep.<br>9. <b>Styänarddhi-nidrä:</b> Somnambulistic (sleep-walking) sleep, where one performs actions with immense strength."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Mohaniya Karma",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "3. Mohaniya Karma (Deluding)",
+          "description": "This is the most dangerous Ghäti karma. It deludes the soul, making it identify with the body and external objects, thus destroying Right Faith and Right Conduct.",
+          "items": [
+            {
+              "header": "Darshan Mohaniya (Faith-Deluding)",
+              "content": "This obstructs the soul's ability to have true faith in reality. It is the root cause of delusion (Mithyätva) and prevents self-realization. It has three subtypes: <b>Mithyätva</b> (complete false faith), <b>Mishra</b> (mixed/wavering faith), and <b>Samyaktva</b> (a state with minor imperfections in faith)."
+            },
+            {
+              "header": "Chäritra Mohaniya (Conduct-Deluding)",
+              "content": "This obstructs right conduct, giving rise to passions and pseudo-passions. It has two main sub-categories: Kashäy and Nokashäy."
+            },
+            {
+              "header": "Kashäy (The Four Passions)",
+              "content": "These are the four main passions: Anger (Krodh), Ego (Män), Deceit (Mäyä), and Greed (Lobh). Each is further divided into four levels of intensity (from most to least severe):<br>1. <b>Anantänu-bandhi:</b> Prevents right faith.<br>2. <b>Apratyäkhyänävarni:</b> Prevents even partial vows.<br>3. <b>Pratyäkhyänävarani:</b> Prevents complete vows.<br>4. <b>Sanjvalan:</b> Causes subtle breaches in the conduct of an ascetic."
+            },
+            {
+              "header": "Nokashäy (The Nine Pseudo-Passions)",
+              "content": "These nine supporting passions intensify the main four. They are: Laughter (Häsya), Liking (Rati), Disliking (Arati), Fear (Bhaya), Grief (Shok), Hatred (Jugupsä), and the three types of sexual desire (Purush-ved, Stree-ved, Napunsak-ved)."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Antaräya Karma",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "4. Antaräya Karma (Obstructing)",
+          "description": "This Ghäti karma obstructs the soul's infinite energy and power, creating obstacles in its path.",
+          "items": [
+            {
+              "header": "Effect",
+              "content": "This karma prevents one from doing good deeds, even if they have the desire and the means. It creates obstacles in charity, gain, and enjoyment. Upon its complete destruction, the soul attains Anant-virya (infinite energy)."
+            },
+            {
+              "header": "Five Subtypes",
+              "content": "1. <b>Dänäntaräya:</b> Obstructs charity.<br>2. <b>Läbhäntaräya:</b> Obstructs gain.<br>3. <b>Bhogäntaräya:</b> Obstructs the enjoyment of consumable items (e.g., food).<br>4. <b>Upabhogäntaräya:</b> Obstructs the enjoyment of non-consumable items (e.g., clothes).<br>5. <b>Viryäntaräya:</b> Obstructs one's willpower and energy."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Aghäti Karmas",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "The Four Non-Destructive Karmas",
+          "description": "These karmas determine the physical circumstances of the soul's embodiment.",
+          "items": [
+            {
+              "header": "Vedaniya Karma (Feeling-Pertaining)",
+              "content": "This karma determines feelings of pain (<b>Ashätä</b>) and pleasure (<b>Shätä</b>) experienced through the body and senses. It creates favorable or unfavorable physical environments. For a deluded soul, this leads to mental happiness and sorrow, but for a Kevali, who has no Mohaniya karma, it is merely a physical sensation."
+            },
+            {
+              "header": "Näm Karma (Body-Determining)",
+              "content": "This karma determines the type of body the soul will occupy. It has many subtypes that decide one's destiny (human, animal, etc.), number of senses, physical structure, complexion, popularity, and even whether one will become a Tirthankar."
+            },
+            {
+              "header": "Gotra Karma (Status-Determining)",
+              "content": "This karma determines whether one is born into a high-status (<b>Uchcha Gotra</b>) or low-status (<b>Neech Gotra</b>) family and social environment. Having pride leads to low status, while humility leads to high status."
+            },
+            {
+              "header": "Äyushya Karma (Lifespan-Determining)",
+              "content": "This karma determines the exact duration of a soul's life in a particular birth. Unlike other karmas which are accumulated continuously, Äyushya karma for the next life is bound only once in the current life, typically when two-thirds of the current life has passed."
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Karma Summary",
+        "contentType": "table",
+        "tabData": {
+          "headers": ["Karma Type", "Main Function", "Category", "Result of Destruction"],
+          "rows": [
+            ["Jnänävaraniya", "Obscures Knowledge", "Ghäti", "Omniscience (Keval-jnän)"],
+            ["Darshanävaraniya", "Obscures Perception", "Ghäti", "Infinite Perception (Keval-darshan)"],
+            ["Mohaniya", "Deludes Faith & Conduct", "Ghäti", "Passionless State (Vitarägatva)"],
+            ["Antaräya", "Obstructs Energy/Power", "Ghäti", "Infinite Energy (Anant-virya)"],
+            ["Vedaniya", "Determines Physical Pain/Pleasure", "Aghäti", "Shed at time of Nirväna"],
+            ["Näm", "Determines Body/Physique", "Aghäti", "Shed at time of Nirväna"],
+            ["Gotra", "Determines Social Status", "Aghäti", "Shed at time of Nirväna"],
+            ["Äyushya", "Determines Lifespan", "Aghäti", "Shed at time of Nirväna"]
+          ],
+          "footnote": "The four Ghäti karmas are destroyed to become an Arihant. The four Aghäti karmas are destroyed at the end of life to attain Moksh."
+        }
+      },
+      {
+        "tabName": "Karma Mind Map",
+        "contentType": "mindmap",
+        "tabData": {
+          "title": "The Hierarchy of Karma",
+          "description": "An overview of the eight main karmas and their subdivisions. Mouse over each node for a description.",
+          "nodes": [
+            { "id": "karma", "text": "8 Karmas", "parent": null, "description": "The eight fundamental types of karmic matter." },
+            { "id": "ghati", "text": "Ghäti (Destructive)", "parent": "karma", "description": "Karmas that obscure the true nature of the soul." },
+            { "id": "aghati", "text": "Aghäti (Non-destructive)", "parent": "karma", "description": "Karmas that determine the physical embodiment and circumstances of the soul." },
+            { "id": "jnan", "text": "Jnänävaraniya", "parent": "ghati", "description": "Knowledge-Obscuring Karma" },
+            { "id": "jnan_mati", "text": "Mati-jnänävaraniya", "parent": "jnan", "description": "Obscures empirical knowledge" },
+            { "id": "jnan_shrut", "text": "Shrut-jnänävaraniya", "parent": "jnan", "description": "Obscures scriptural knowledge" },
+            { "id": "jnan_avadhi", "text": "Avadhi-jnänävaraniya", "parent": "jnan", "description": "Obscures clairvoyance" },
+            { "id": "jnan_manah", "text": "Manah-paryav-jnänävaraniya", "parent": "jnan", "description": "Obscures telepathy" },
+            { "id": "jnan_keval", "text": "Keval-jnänävaraniya", "parent": "jnan", "description": "Obscures omniscience" },
+            { "id": "darshan", "text": "Darshanävaraniya", "parent": "ghati", "description": "Perception-Obscuring Karma" },
+            { "id": "darshan_chakshu", "text": "Chakshu-Darshanävaraniya", "parent": "darshan", "description": "Obscures vision perception" },
+            { "id": "darshan_achakshu", "text": "Achakshu-Darshanävaraniya", "parent": "darshan", "description": "Obscures non-vision perception" },
+            { "id": "darshan_avadhi", "text": "Avadhi-Darshanävaraniya", "parent": "darshan", "description": "Obscures clairvoyant perception" },
+            { "id": "darshan_keval", "text": "Keval-Darshanävaraniya", "parent": "darshan", "description": "Obscures omniscient perception" },
+            { "id": "darshan_nidra1", "text": "Nidrä", "parent": "darshan", "description": "Light sleep producing" },
+            { "id": "darshan_nidra2", "text": "Nidrä-Nidrä", "parent": "darshan", "description": "Deep sleep producing" },
+            { "id": "darshan_prachala1", "text": "Prachalä", "parent": "darshan", "description": "Sound sleep producing" },
+            { "id": "darshan_prachala2", "text": "Prachalä-prachalä", "parent": "darshan", "description": "Exceedingly intense sleep producing" },
+            { "id": "darshan_styanarddhi", "text": "Styänarddhi Nidrä", "parent": "darshan", "description": "Somnambulistic sleep producing" },
+            { "id": "antaraya", "text": "Antaräya", "parent": "ghati", "description": "Obstructing Karma" },
+            { "id": "antaraya_dan", "text": "Dänäntaräya", "parent": "antaraya", "description": "Obstructs charity" },
+            { "id": "antaraya_labh", "text": "Läbhäntaräya", "parent": "antaraya", "description": "Obstructs gain" },
+            { "id": "antaraya_bhog", "text": "Bhogäntaräya", "parent": "antaraya", "description": "Obstructs enjoyment of consumable items" },
+            { "id": "antaraya_upabhog", "text": "Upabhogänträya", "parent": "antaraya", "description": "Obstructs enjoyment of non-consumable items" },
+            { "id": "antaraya_virya", "text": "Viryänträya", "parent": "antaraya", "description": "Obstructs willpower" },
+            { "id": "mohaniya", "text": "Mohaniya", "parent": "ghati", "description": "Deluding Karma - the most dangerous type." },
+            { "id": "d_mohaniya", "text": "Darshan Mohaniya", "parent": "mohaniya", "description": "Faith-Deluding" },
+            { "id": "dm_mithyatva", "text": "Mithyätva", "parent": "d_mohaniya", "description": "False Faith Deluding" },
+            { "id": "dm_mishra", "text": "Mishra", "parent": "d_mohaniya", "description": "Mixed Deluding" },
+            { "id": "dm_samyaktva", "text": "Samyaktva", "parent": "d_mohaniya", "description": "Right Faith Deluding" },
+            { "id": "c_mohaniya", "text": "Chäritra Mohaniya", "parent": "mohaniya", "description": "Conduct-Deluding" },
+            { "id": "kashay", "text": "16 Kashäy (Passions)", "parent": "c_mohaniya", "description": "The four main passions, each with four levels of intensity." },
+            { "id": "kashay_krodh", "text": "Krodh (Anger)", "parent": "kashay" },
+            { "id": "kashay_man", "text": "Män (Ego)", "parent": "kashay" },
+            { "id": "kashay_maya", "text": "Mäyä (Deceit)", "parent": "kashay" },
+            { "id": "kashay_lobh", "text": "Lobh (Greed)", "parent": "kashay" },
+            { "id": "nokashay", "text": "9 Nokashäy (Pseudo-Passions)", "parent": "c_mohaniya", "description": "The nine supporting passions." },
+            { "id": "nokashay_hasya", "text": "Häsya", "parent": "nokashay", "description": "Laughter" },
+            { "id": "nokashay_rati", "text": "Rati", "parent": "nokashay", "description": "Attraction/Liking" },
+            { "id": "nokashay_arati", "text": "Arati", "parent": "nokashay", "description": "Aversion/Disliking" },
+            { "id": "nokashay_bhaya", "text": "Bhaya", "parent": "nokashay", "description": "Fear" },
+            { "id": "nokashay_shok", "text": "Shok", "parent": "nokashay", "description": "Grief" },
+            { "id": "nokashay_jugupsa", "text": "Jugupsä", "parent": "nokashay", "description": "Hatred/Disgust" },
+            { "id": "nokashay_purush", "text": "Purushved", "parent": "nokashay", "description": "Physical attraction for a female" },
+            { "id": "nokashay_stree", "text": "Streeved", "parent": "nokashay", "description": "Physical attraction for a male" },
+            { "id": "nokashay_napunsak", "text": "Napunsakved", "parent": "nokashay", "description": "Physical attraction for both male and female" },
+            { "id": "vedaniya", "text": "Vedaniya", "parent": "aghati", "description": "Feeling-Pertaining Karma" },
+            { "id": "vedaniya_shata", "text": "Shätä", "parent": "vedaniya", "description": "Pleasure producing" },
+            { "id": "vedaniya_ashata", "text": "Ashätä", "parent": "vedaniya", "description": "Pain producing" },
+            { "id": "nam", "text": "Näm", "parent": "aghati", "description": "Body-Determining Karma" },
+            { "id": "nam_shubh", "text": "Shubh Näm", "parent": "nam", "description": "Happy Physique" },
+            { "id": "nam_ashubh", "text": "Ashubh Näm", "parent": "nam", "description": "Unhappy Physique" },
+            { "id": "gotra", "text": "Gotra", "parent": "aghati", "description": "Status-Determining Karma" },
+            { "id": "gotra_uchcha", "text": "Uchcha Gotra", "parent": "gotra", "description": "High Status Determining" },
+            { "id": "gotra_neech", "text": "Neech Gotra", "parent": "gotra", "description": "Low Status Determining" },
+            { "id": "ayushya", "text": "Äyushya", "parent": "aghati", "description": "Lifespan-Determining Karma" },
+            { "id": "ayushya_narak", "text": "Narak Äyushya", "parent": "ayushya", "description": "Infernal Lifespan" },
+            { "id": "ayushya_tiryancha", "text": "Tiryancha Äyushya", "parent": "ayushya", "description": "Sub-Human Lifespan" },
+            { "id": "ayushya_manushya", "text": "Manushya Äyushya", "parent": "ayushya", "description": "Human Lifespan" },
+            { "id": "ayushya_dev", "text": "Dev Äyushya", "parent": "ayushya", "description": "Celestial Lifespan" }
+          ]
+        }
+      },
+      {
+        "tabName": "Quiz",
+        "contentType": "quiz",
+        "tabData": {
+          "title": "Test Your Knowledge on Karma Theory",
+          "questions": [
+            {
+              "question": "The eight types of karma are broadly divided into which two categories?",
+              "options": ["Punya and Päp", "Dravya and Bhäv", "Ghäti and Aghäti", "Good and Bad"],
+              "answer": "Ghäti and Aghäti"
+            },
+            {
+              "question": "Which karma obscures the soul's innate quality of infinite knowledge?",
+              "options": ["Darshanävaraniya Karma", "Jnänävaraniya Karma", "Mohaniya Karma", "Antaräya Karma"],
+              "answer": "Jnänävaraniya Karma"
+            },
+            {
+              "question": "Which karma is considered the most dangerous and difficult to overcome?",
+              "options": ["Vedaniya Karma", "Gotra Karma", "Äyushya Karma", "Mohaniya Karma"],
+              "answer": "Mohaniya Karma"
+            },
+            {
+              "question": "The feeling of physical pain or pleasure is determined by which karma?",
+              "options": ["Vedaniya Karma", "Mohaniya Karma", "Näm Karma", "Gotra Karma"],
+              "answer": "Vedaniya Karma"
+            },
+            {
+              "question": "Which karma determines the social status (high or low) one is born into?",
+              "options": ["Äyushya Karma", "Näm Karma", "Gotra Karma", "Antaräya Karma"],
+              "answer": "Gotra Karma"
+            },
+            {
+              "question": "A person becoming a Tirthankar is determined by which karma?",
+              "options": ["Gotra Karma", "Vedaniya Karma", "Näm Karma", "Äyushya Karma"],
+              "answer": "Näm Karma"
+            },
+            {
+              "question": "How many subtypes does Darshanävaraniya (Perception-Obscuring) Karma have?",
+              "options": ["Four", "Five", "Eight", "Nine"],
+              "answer": "Nine"
+            },
+            {
+              "question": "Styänarddhi-nidrä, or somnambulistic sleep, is a subtype of which karma?",
+              "options": ["Jnänävaraniya Karma", "Darshanävaraniya Karma", "Mohaniya Karma", "Vedaniya Karma"],
+              "answer": "Darshanävaraniya Karma"
+            },
+            {
+              "question": "Which karma creates obstacles and obstructs one's willpower?",
+              "options": ["Antaräya Karma", "Mohaniya Karma", "Gotra Karma", "Näm Karma"],
+              "answer": "Antaräya Karma"
+            },
+            {
+              "question": "Mohaniya Karma is divided into which two main subtypes?",
+              "options": ["Kashäy and Nokashäy", "Shätä and Ashätä", "Darshan Mohaniya and Chäritra Mohaniya", "Uchcha and Neech"],
+              "answer": "Darshan Mohaniya and Chäritra Mohaniya"
+            },
+            {
+              "question": "The four passions of Anger, Ego, Deceit, and Greed are subtypes of which karma?",
+              "options": ["Darshan Mohaniya Karma", "Chäritra Mohaniya Karma", "Antaräya Karma", "Vedaniya Karma"],
+              "answer": "Chäritra Mohaniya Karma"
+            },
+            {
+              "question": "Which level of intensity of passion (Kashäy) prevents one from achieving Right Faith?",
+              "options": ["Sanjvalan", "Pratyäkhyänävarani", "Apratyäkhyänävarni", "Anantänu-bandhi"],
+              "answer": "Anantänu-bandhi"
+            },
+            {
+              "question": "How many Nokashäy (pseudo-passions) are there?",
+              "options": ["4", "9", "16", "25"],
+              "answer": "9"
+            },
+            {
+              "question": "Which karma determines the length of one's life in a particular birth?",
+              "options": ["Vedaniya Karma", "Näm Karma", "Gotra Karma", "Äyushya Karma"],
+              "answer": "Äyushya Karma"
+            },
+            {
+              "question": "When are the four Ghäti karmas completely destroyed?",
+              "options": ["At the time of taking Dikshä", "Upon attaining the Vitaräg state, leading to Keval-jnän", "At the time of death (Nirväna)", "They are never completely destroyed"],
+              "answer": "Upon attaining the Vitaräg state, leading to Keval-jnän"
+            },
+            {
+              "question": "The term 'Mithyätva' refers to what?",
+              "options": ["Correct Conduct", "False Faith", "Deep Sleep", "High Status"],
+              "answer": "False Faith"
+            },
+            {
+              "question": "The obstruction of charity (Dänäntaräya) is a subtype of which karma?",
+              "options": ["Mohaniya Karma", "Antaräya Karma", "Gotra Karma", "Vedaniya Karma"],
+              "answer": "Antaräya Karma"
+            },
+            {
+              "question": "Which Aghäti karma can be either Punya (meritorious) or Päp (sinful)?",
+              "options": ["Vedaniya Karma", "Näm Karma", "Gotra Karma", "All of the above"],
+              "answer": "All of the above"
+            },
+            {
+              "question": "A soul that has attained Keval-jnän but still has a physical body is called what?",
+              "options": ["Siddha", "Ächärya", "Arihant", "Sädhu"],
+              "answer": "Arihant"
+            },
+            {
+              "question": "A person's physical appearance and the number of senses they have is determined by which karma?",
+              "options": ["Gotra Karma", "Näm Karma", "Vedaniya Karma", "Äyushya Karma"],
+              "answer": "Näm Karma"
+            },
+            {
+              "question": "Which of the following is one of the nine Nokashäy (pseudo-passions)?",
+              "options": ["Anger (Krodh)", "Greed (Lobh)", "Fear (Bhaya)", "Ego (Män)"],
+              "answer": "Fear (Bhaya)"
+            },
+            {
+              "question": "Which of the four main passions is divided into Anantänu-bandhi, Apratyäkhyänävarni, Pratyäkhyänävarani, and Sanjvalan?",
+              "options": ["Anger only", "Greed only", "Deceit only", "All four passions"],
+              "answer": "All four passions"
+            },
+            {
+              "question": "Which karma is bound only once in a lifetime for the next life?",
+              "options": ["Mohaniya Karma", "Vedaniya Karma", "Äyushya Karma", "Gotra Karma"],
+              "answer": "Äyushya Karma"
+            },
+            {
+              "question": "The term 'Bhäv Karma' refers to what?",
+              "options": ["The physical karmic particles", "The thoughts and passions that cause bondage", "Non-destructive karmas", "Destructive karmas"],
+              "answer": "The thoughts and passions that cause bondage"
+            },
+            {
+              "question": "What happens when the four Aghäti karmas are destroyed?",
+              "options": ["One attains Keval-jnän", "One becomes an Ächärya", "One attains final liberation (Moksh)", "One is reborn as a human"],
+              "answer": "One attains final liberation (Moksh)"
+            },
+            {
+              "question": "Which of the following is an example of Shätä Vedaniya Karma's effect?",
+              "options": ["Sickness", "Poverty", "Good sound health", "Birth in hell"],
+              "answer": "Good sound health"
+            },
+            {
+              "question": "Having pride of one's knowledge or family status leads to the bondage of which karma?",
+              "options": ["Uchcha Gotra Karma", "Neech Gotra Karma", "Shubh Näm Karma", "Ashubh Näm Karma"],
+              "answer": "Neech Gotra Karma"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  

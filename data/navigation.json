@@ -77,6 +77,13 @@
                 "name": "Nav Tattva Part III: Samvar, Nirjarä, and Moksh",
                 "url": "./tabTemplate.html?section=B8.json",
                 "dataFile": "B8.json"
+            },
+            {
+                "id": "B9",
+                "title": "B.9",
+                "name": "Karma Theory",
+                "url": "./tabTemplate.html?section=B9.json",
+                "dataFile": "B9.json"
             }
          ]
       },
