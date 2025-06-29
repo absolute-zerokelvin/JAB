@@ -76,6 +76,13 @@
             "name": "Tirthankars, Emblems & Dreams",
             "url": "./tabTemplate.html?section=D2.json",
             "dataFile": "D2.json"
+          },
+          {
+            "id": "D3",
+            "title": "D.3",
+            "name": "Going to the Temple & Pujä Rituals",
+            "url": "./tabTemplate.html?section=D3.json",
+            "dataFile": "D3.json"
           }
         ]
       },

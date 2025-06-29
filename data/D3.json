@@ -1,0 +1,667 @@
+{
+    "sectionTitle": "D.3: Going to the Temple & Pujä Rituals",
+    "tabs": [
+      {
+        "tabName": "Introduction",
+        "contentType": "text",
+        "tabData": [
+          {
+            "tagType": "h2",
+            "tagHTML": "The Jain Temple: A Place of Serenity and Reflection"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "A Jain temple, known as a <b>Mandir</b> or <b>Deräsar</b>, is a place of worship designed for peace and serenity. [cite: 2, 17] It serves as a beautiful and quiet space to reflect upon one's own nature and soul. [cite: 2] The goal is to foster introspection and the understanding that God resides within one's own soul, encouraging a path of purification from anger, ego, deceit, and greed. [cite: 3, 4]"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "The temple is often viewed as a replica of the <b>Samavasaran</b>, the divine preaching hall of a living Tirthankar (Jina). [cite: 18] The layperson approaches the idol as if approaching a living Jina, using the image as a tangible aid to visualize the sacred being and awaken their own soul. [cite: 19, 20]"
+          },
+          {
+            "tagType": "h3",
+            "tagHTML": "The Role of Idols (Murti)"
+          },
+          {
+            "tagType": "p",
+            "tagHTML": "Idol worship is a prominent feature in the path of devotion. [cite: 12] An idol (murti) in Jainism is not a representation of a Tirthankar's physical body, but rather symbolizes their qualities and the pure state attainable by all souls. [cite: 21, 25] This is why the idols of all Tirthankars look similar. [cite: 22] Looking at the idol's meditative posture reminds us of our own inner pure state and inspires us to achieve it. [cite: 24, 26]"
+          }
+        ]
+      },
+      {
+        "tabName": "Temple Etiquette",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Rules of Conduct in a Jain Temple",
+          "description": "To maintain the sanctity of the temple, there are special rules one should follow. [cite: 29]",
+          "items": [
+            {
+              "header": "Proper Attire",
+              "content": "One should wear clean, simple clothes. [cite: 6] Items made from animal products like silk, leather, fur, and pearls are prohibited as they are obtained through violence. [cite: 7] It is recommended to have specific clothes designated just for Pujä. [cite: 47]"
+            },
+            {
+              "header": "Entering the Temple",
+              "content": "Before entering, you must take off your shoes. [cite: 8] Upon entering, you should say <b>'Nissihi'</b> three times. This signifies that you are leaving worldly relations and vices like anger, ego, deceit, and greed outside the temple. [cite: 9]"
+            },
+            {
+              "header": "Conduct Inside",
+              "content": "Eating, drinking, or chewing anything is not allowed. [cite: 10] One should not run, shout, or socialize inside the temple. [cite: 10] The atmosphere should be kept quiet and conducive to meditation and reflection. [cite: 2] When leaving, one should walk backwards a few steps before turning their back to the main idols. [cite: 68]"
+            },
+            {
+              "header": "Worship Practices",
+              "content": "Before performing Pujä, one should bathe. [cite: 45] If cleaning idols, use a wet cloth gently and a soft brush for thorough cleaning. [cite: 49, 50] If an idol needs to be moved, it should be carried with reverence, supported by both hands from underneath. [cite: 52] Cover your mouth and nose with a multi-layered handkerchief during certain rituals to avoid violence to microscopic beings. [cite: 64, 65]"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Tirthankar Idols",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Understanding Tirthankar Idols (Murti)",
+          "description": "Tirthankar idols are central to Jain worship. They are typically carved from marble or cast in metal and represent the qualities of a Tirthankar, not their physical body. [cite: 39]",
+          "items": [
+            {
+              "header": "Shvetämbar vs. Digambar Idols",
+              "content": "There are distinct differences between the idols in the two main traditions. <br><ul><li><b>Shvetämbar Idols:</b> They are beautifully decorated and depicted with wide-open eyes. [cite: 33] The luxurious decoration symbolizes that although Tirthankars were often kings with royal wealth, they renounced it all to find true happiness. [cite: 35, 36]</li><li><b>Digambar Idols:</b> They are presented in their natural, undecorated form. [cite: 34] Their eyes are semi-closed, representing a state of deep meditation. [cite: 34]</li></ul>Both traditions create idols that are either sitting in the Padmäsan (lotus) posture or standing straight, illustrating deep meditation and showering the devotee with compassion. [cite: 37, 38]"
+            },
+            {
+              "header": "Identifying Tirthankars: The Länchhan",
+              "content": "Since all Tirthankar idols appear similar, each one has a unique emblem or symbol called a <b>Länchhan</b> that distinguishes them. [cite: 22] This symbol is carved on the base of the idol. [cite: 23] For example, a bull emblem indicates the idol is of Rishabhadev (Ädinäth), the first Tirthankar. [cite: 28]"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Shvetämbar: Das-Jintrik",
+        "contentType": "mindmap",
+        "tabData": {
+          "title": "The Ten Rituals of the Temple (Das-Jintrik)",
+          "description": "In the Shvetämbar tradition, upon seeing the Tirthankar idol, one should recite 'Namo Jinänam' and then perform ten specific rituals known as Das-Jintrik. [cite: 70]",
+          "nodes": [
+            {
+              "id": "root",
+              "text": "Das-Jintrik (Ten Temple Rituals)",
+              "parent": null
+            },
+            {
+              "id": "1",
+              "text": "1. Nissihi (Renunciation)",
+              "parent": "root"
+            },
+            {
+              "id": "2",
+              "text": "2. Pradakshinä (Circumambulation)",
+              "parent": "root"
+            },
+            {
+              "id": "3",
+              "text": "3. Pranäm (Salutation)",
+              "parent": "root"
+            },
+            {
+              "id": "4",
+              "text": "4. Pujä (Worship)",
+              "parent": "root"
+            },
+            {
+              "id": "5",
+              "text": "5. Avasthä-chintan (Contemplation)",
+              "parent": "root"
+            },
+            {
+              "id": "6",
+              "text": "6. Dishä-tyäg (Concentration)",
+              "parent": "root"
+            },
+            {
+              "id": "7",
+              "text": "7. Pramärjanä (Cleaning Floor)",
+              "parent": "root"
+            },
+            {
+              "id": "8",
+              "text": "8. Älamban (Mental Support)",
+              "parent": "root"
+            },
+            {
+              "id": "9",
+              "text": "9. Mudrä (Postures)",
+              "parent": "root"
+            },
+            {
+              "id": "10",
+              "text": "10. Pranidhän (Meditation)",
+              "parent": "root"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Shvetämbar: Ashta Prakäri Pujä",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "The Eight-Fold Worship (Ashta Prakäri Pujä)",
+          "description": "This worship is performed daily using eight different substances. [cite: 114, 120] Each substance is a symbolic representation used to acquire virtues and reflect on spiritual improvement, not to get something in return. [cite: 117]",
+          "items": [
+            {
+              "header": "1. Jal Pujä (Water)",
+              "content": "<b>Symbolizes:</b> Purity. [cite: 286] <br><b>Meaning:</b> Offering water symbolizes cleansing the soul of karmic impurities. [cite: 125] It reminds us to live a life as pure as water and to cross the ocean of birth and death to attain liberation. [cite: 126, 127]"
+            },
+            {
+              "header": "2. Chandan Pujä (Sandalwood)",
+              "content": "<b>Symbolizes:</b> Tranquility and Knowledge. [cite: 286] <br><b>Meaning:</b> Offering cool sandalwood paste represents the desire to quell the sufferings of the world and attain tranquility within our soul. [cite: 131, 132] This puja is associated with reflecting on Samyag Jnän (Right Knowledge). [cite: 133] During this, <b>Nav-anga (9 parts) Pujä</b> is performed by anointing nine parts of the idol while reciting mantras. [cite: 91, 135]"
+            },
+            {
+              "header": "3. Pushpa Pujä (Flower)",
+              "content": "<b>Symbolizes:</b> Good Conduct. [cite: 142, 286] <br><b>Meaning:</b> Offering a flower reminds us that our conduct should be like a flower, offering fragrance and beauty to all without discrimination. [cite: 143] To minimize violence, only naturally fallen flowers should be used. [cite: 58]"
+            },
+            {
+              "header": "4. Dhoop Pujä (Incense)",
+              "content": "<b>Symbolizes:</b> Life of an ascetic. [cite: 149, 286] <br><b>Meaning:</b> As incense burns itself to provide fragrance, a monk's life is spent selflessly for the benefit of all. [cite: 149] The upward-moving smoke also symbolizes our spiritual journey towards Siddha-kshetra. [cite: 147]"
+            },
+            {
+              "header": "5. Deepak Pujä (Lamp)",
+              "content": "<b>Symbolizes:</b> Pure Consciousness / Liberated Soul. [cite: 152, 286] <br><b>Meaning:</b> The lamp's flame represents the light of knowledge that destroys the darkness of ignorance and false beliefs. [cite: 155] It reminds us to follow the five great vows to attain liberation. [cite: 158]"
+            },
+            {
+              "header": "6. Akshat Pujä (Rice)",
+              "content": "<b>Symbolizes:</b> The end of the cycle of birth and death. [cite: 163, 286] <br><b>Meaning:</b> Unbroken, husked rice (Akshat) cannot be seeded to grow a new plant. [cite: 162, 163] This offering represents the goal to live in such a way that this is our final birth. [cite: 164]"
+            },
+            {
+              "header": "7. Naivedya Pujä (Sweet)",
+              "content": "<b>Symbolizes:</b> Detachment from tasty food. [cite: 170, 286] <br><b>Meaning:</b> Offering sweets symbolizes the desire to renounce the attachment to food and attain a state where there is no desire for it, a state of a liberated soul. [cite: 169, 172]"
+            },
+            {
+              "header": "8. Fal Pujä (Fruit)",
+              "content": "<b>Symbolizes:</b> Moksh (Liberation). [cite: 175, 286] <br><b>Meaning:</b> A fruit is the ultimate result of a plant's life. This offering symbolizes Moksh, the ultimate fruit and achievement of our spiritual life, which is attained by living without attachment or expectation of rewards. [cite: 176]"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Digambar: Puja Rituals",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "An Overview of Digambar Puja",
+          "description": "Dev Pujä is one of the six daily essentials for a Jain householder in the Digambar tradition. [cite: 224] It can be done with offerings (Dravya-Pujä) or without (Bhäv-Pujä), and typically takes place in a temple but can also be performed at home. [cite: 225, 226]",
+          "items": [
+            {
+              "header": "Preparation and Entry",
+              "content": "A devotee must bathe and wear clean clothes. [cite: 227] Upon entering the temple, one chants 'Nissihi, Nissihi, Nissihi', rings the bells, recites the Namokär Mantra three times, and circumambulates the main altar three times clockwise. [cite: 231, 232] Before the main worship, a Swastik is made with rice grains to signify that the purpose of the puja is to attain liberation. [cite: 233, 234]"
+            },
+            {
+              "header": "Abhishek (Prakshäl)",
+              "content": "This is the ritual of bathing the idol, usually with pure water. [cite: 236] The main purpose is to purify our own soul and mind. [cite: 239] On special occasions, Panchämrit Abhishek (using five substances) may be performed, though modern dairy products are discouraged due to violence in the industry. [cite: 237, 238] After bathing, the idol is dried with a clean cloth (Prakshalan). [cite: 243, 244]"
+            },
+            {
+              "header": "Ashta Dravya Pujä (Main Worship)",
+              "content": "This is the main puja done with eight substances (Ashta-Dravya). [cite: 248] Only the initial Jal Pujä (Abhishek) involves touching the idol, and is performed only by male members. [cite: 249, 250] The other seven offerings are placed before the idol and can be done by all. [cite: 251] The order and some substances differ from the Shvetämbar tradition. For example, flowers and fruits may be replaced with colored rice and cloves/coconut pieces. [cite: 248]"
+            },
+            {
+              "header": "Concluding Rituals",
+              "content": "The main worship is followed by <b>Jayamälä</b> (reciting the Tirthankar's virtues), <b>Shänti Path</b> (a peace prayer for all living beings), <b>Visarjan</b> (a concluding prayer asking for forgiveness for any mistakes), and <b>Äarti</b> (waving a lamp). [cite: 275, 276, 278, 279] The entire process is integrated with Swädhyäy (study of scriptures). [cite: 280]"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Puja Offerings Compared",
+        "contentType": "table",
+        "tabData": {
+          "headers": [
+            "Puja",
+            "Offering",
+            "Digambar Alternate",
+            "Symbolic Significance",
+            "Spiritual Benefit"
+          ],
+          "rows": [
+            [
+              "Jal (Water)",
+              "Water",
+              "Same",
+              "Purity",
+              "To overcome the cycle of birth, aging, and death. [cite: 253, 286]"
+            ],
+            [
+              "Chandan (Sandalwood)",
+              "Sandalwood Paste",
+              "Same",
+              "Tranquility / Knowledge",
+              "To subside worldly sufferings and the passion of anger. [cite: 256, 286]"
+            ],
+            [
+              "Akshat (Rice)",
+              "Unbroken White Rice",
+              "Same",
+              "End of Birth/Death Cycle",
+              "To attain the final state (Akshay Pad); to live so this is the last life. [cite: 258, 286]"
+            ],
+            [
+              "Pushpa (Flower)",
+              "Flower",
+              "Saffron colored rice",
+              "Good Conduct / Abandoning Passion",
+              "To abandon passions and the deceit that causes karma accumulation. [cite: 260, 286]"
+            ],
+            [
+              "Naivedya (Sweet)",
+              "Sweet food",
+              "White coconut pieces",
+              "Detachment from Food",
+              "To overcome the disease of hunger (kshudhä) and give up the passion of greed. [cite: 262, 286]"
+            ],
+            [
+              "Deepak (Lamp)",
+              "Ghee/Oil Lamp",
+              "Saffron colored coconut pieces",
+              "Pure Consciousness",
+              "To destroy the darkness of ignorance and false beliefs (Mithyätva). [cite: 265, 286]"
+            ],
+            [
+              "Dhoop (Incense)",
+              "Incense",
+              "Cloves or Sandalwood dust",
+              "Ascetic Life / Destroying Karma",
+              "To destroy the eight types of Karma (Ashtakarma Vinäshanäya). [cite: 267, 287]"
+            ],
+            [
+              "Fal (Fruit)",
+              "Fruit",
+              "Almonds or Coconut",
+              "Moksh (Liberation)",
+              "To attain the ultimate fruit of all actions: Moksh. [cite: 269, 286]"
+            ]
+          ],
+          "footnote": "The order of pujas differs between traditions. The Shvetämbar order is Jal, Chandan, Pushpa, Dhoop, Deepak, Akshat, Naivedya, Fal. [cite: 286] The Digambar order is Jal, Chandan, Akshat, Pushpa, Naivedya, Deepak, Dhoop, Fal. [cite: 286]"
+        }
+      },
+      {
+        "tabName": "Special Pujas",
+        "contentType": "accordian",
+        "tabData": {
+          "title": "Pujas for Special Occasions and Festivals",
+          "description": "Besides daily worship, there are many special pujas and more elaborate ceremonies (Pujan) performed on auspicious occasions. [cite: 283]",
+          "items": [
+            {
+              "header": "Shvetämbar Special Pujas",
+              "content": "<ul><li><b>Snätra Pujä:</b> Symbolizes the bathing of a newborn Tirthankar on Mount Meru. It is performed before many special occasions. [cite: 292]</li><li><b>Panch Kalyänak Pujä:</b> Commemorates the five major life events of a Tirthankar: conception, birth, renunciation, omniscience, and liberation (Moksh). [cite: 294]</li><li><b>Antaräya Karma Pujä:</b> Performed to remove obstructive (Antaräya) karma. [cite: 296, 297]</li><li><b>Sattarabhedi Pujä:</b> A puja with seventeen different offerings, often performed on a temple's anniversary. [cite: 300, 301]</li><li><b>Nav-pad Pujä:</b> Worship of the nine supreme entities (Panch Parameshthi, and the three jewels of right faith, knowledge, conduct, and right austerity). [cite: 306]</li></ul>"
+            },
+            {
+              "header": "Digambar Special Pujas",
+              "content": "<ul><li><b>Dev Shästra Guru Pujä:</b> Worship of the true God (Vitaräg), Scriptures (Shästra), and Teacher (Guru). [cite: 319]</li><li><b>Panch Kalyänak Pujä:</b> Adoration of the five auspicious life events of a Tirthankar. [cite: 321]</li><li><b>Das Lakshan Pujä:</b> Adoration of the ten great virtues of an ascetic, such as forgiveness and humility. [cite: 327]</li><li><b>Ratna-traya Pujä:</b> Worship of the 'three jewels' - Right Faith, Right Knowledge, and Right Conduct, which form the path to liberation. [cite: 329]</li><li><b>Solähkaran Pujä:</b> Reflecting on the 16 reasons or deep thoughts that lead to acquiring Tirthankar Näm-karma. [cite: 332]</li></ul>"
+            }
+          ]
+        }
+      },
+      {
+        "tabName": "Key Vocabulary",
+        "contentType": "flashCards",
+        "tabData": [
+          {
+            "title": "Jain Ritual Terminology",
+            "flippable": true,
+            "cards": [
+              {
+                "front": "Deräsar",
+                "back": "A term for a Jain temple, particularly in the Jain tradition. [cite: 17]"
+              },
+              {
+                "front": "Samavasaran",
+                "back": "The divine preaching hall of a Tirthankar. A Jain temple is considered a replica of this. [cite: 18]"
+              },
+              {
+                "front": "Länchhan",
+                "back": "The unique emblem or symbol at the base of a Tirthankar idol used for identification. [cite: 22, 23]"
+              },
+              {
+                "front": "Nissihi",
+                "back": "Meaning 'renunciation'. It is said three times when entering a temple to discard worldly thoughts. [cite: 9, 73]"
+              },
+              {
+                "front": "Pradakshinä",
+                "back": "Circumambulation. Going around the Jina idols three times, symbolizing the three jewels of Jainism. [cite: 80, 81]"
+              },
+              {
+                "front": "Gabhäro",
+                "back": "The sanctum or area where the Jina idols are placed. [cite: 75, 88]"
+              },
+              {
+                "front": "Dravya-Pujä",
+                "back": "Physical worship performed with material substances or offerings. [cite: 77, 94]"
+              },
+              {
+                "front": "Bhäv-Pujä",
+                "back": "Internal or devotional worship, done through reflection, contemplation, and Chaitya-vandan. [cite: 77, 95]"
+              },
+              {
+                "front": "Akshat",
+                "back": "Pure, unbroken rice grains used in Pujä, symbolizing the end of the cycle of birth and death. [cite: 162]"
+              },
+              {
+                "front": "Panchäng-pranipät Pranäm",
+                "back": "A type of salutation done by touching five body parts (2 knees, 2 hands, forehead) to the ground. Also known as Khamäsamanu. [cite: 90]"
+              },
+              {
+                "front": "Ashta-prakäri Pujä",
+                "back": "The eight-fold worship performed using eight different symbolic substances. [cite: 93, 114]"
+              },
+              {
+                "front": "Swädhyäy",
+                "back": "The study of scriptures, which is an essential part of Jain practice and is often integrated with Pujä. [cite: 280]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabName": "Quiz",
+        "contentType": "quiz",
+        "tabData": {
+          "title": "Test Your Knowledge on Temple Rituals",
+          "questions": [
+            {
+              "question": "What is the term for the unique emblem found at the base of a Tirthankar idol for identification?",
+              "options": [
+                "Murti",
+                "Länchhan",
+                "Shikhar",
+                "Gabhäro"
+              ],
+              "answer": "Länchhan"
+            },
+            {
+              "question": "What does one say upon entering a Jain temple to signify the renunciation of worldly affairs?",
+              "options": [
+                "Namo Jinänam",
+                "Jai Jinendra",
+                "Nissihi",
+                "Pranäm"
+              ],
+              "answer": "Nissihi"
+            },
+            {
+              "question": "In the Shvetämbar tradition, how are the eyes of Tirthankar idols typically depicted?",
+              "options": [
+                "Semi-closed in meditation",
+                "Fully open",
+                "Looking downwards",
+                "Closed completely"
+              ],
+              "answer": "Fully open"
+            },
+            {
+              "question": "Which of the eight offerings in Ashta Prakäri Pujä symbolizes Moksh or Liberation?",
+              "options": [
+                "Jal (Water)",
+                "Deepak (Lamp)",
+                "Akshat (Rice)",
+                "Fal (Fruit)"
+              ],
+              "answer": "Fal (Fruit)"
+            },
+            {
+              "question": "How many times does one circumambulate (Pradakshinä) the Jina idols?",
+              "options": [
+                "One time",
+                "Three times",
+                "Five times",
+                "Seven times"
+              ],
+              "answer": "Three times"
+            },
+            {
+              "question": "What does the offering of Akshat (unbroken rice) symbolize in Pujä?",
+              "options": [
+                "Purity of soul",
+                "The end of the cycle of birth and death",
+                "The light of knowledge",
+                "Detachment from food"
+              ],
+              "answer": "The end of the cycle of birth and death"
+            },
+            {
+              "question": "Which of these materials is explicitly forbidden to be worn in a Jain temple?",
+              "options": [
+                "Cotton",
+                "Gold",
+                "Leather",
+                "Jute"
+              ],
+              "answer": "Leather"
+            },
+            {
+              "question": "In the Digambar tradition, what is the ritual of bathing the idol called?",
+              "options": [
+                "Prakshäl",
+                "Jayamälä",
+                "Sthäpanä",
+                "Visarjan"
+              ],
+              "answer": "Prakshäl"
+            },
+            {
+              "question": "The Jain temple is considered a replica of what divine structure?",
+              "options": [
+                "Siddha-kshetra",
+                "Mount Meru",
+                "Samavasaran",
+                "Nandishwar Dweep"
+              ],
+              "answer": "Samavasaran"
+            },
+            {
+              "question": "What is the term for internal, devotional worship that involves reflection rather than physical items?",
+              "options": [
+                "Dravya-Pujä",
+                "Bhäv-Pujä",
+                "Anga Pujä",
+                "Agra Pujä"
+              ],
+              "answer": "Bhäv-Pujä"
+            },
+            {
+              "question": "What Länchhan (emblem) identifies the idol of Ädinäth or Rishabhadev?",
+              "options": [
+                "A lion",
+                "A bull",
+                "A serpent",
+                "A crescent moon"
+              ],
+              "answer": "A bull"
+            },
+            {
+              "question": "Which type of salutation (Pranäm) involves touching five body parts to the ground?",
+              "options": [
+                "Anjali Baddha Pranäm",
+                "Ardhävanat Pranäm",
+                "Panchäng-pranipät Pranäm",
+                "Yoga Mudrä"
+              ],
+              "answer": "Panchäng-pranipät Pranäm"
+            },
+            {
+              "question": "In Digambar Ashta Dravya Pujä, what are flowers (Pushpa) often replaced with?",
+              "options": [
+                "Cloves",
+                "Saffron colored rice",
+                "Sandalwood dust",
+                "Pieces of coconut"
+              ],
+              "answer": "Saffron colored rice"
+            },
+            {
+              "question": "Which special Shvetämbar puja symbolizes the bathing of a newborn Tirthankar by heavenly beings?",
+              "options": [
+                "Nav-pad Pujä",
+                "Snätra Pujä",
+                "Västu Pujä",
+                "Antaräya Karma Pujä"
+              ],
+              "answer": "Snätra Pujä"
+            },
+            {
+              "question": "What should be used for a lamp (Divo) instead of ghee, according to modern recommendations?",
+              "options": [
+                "Mustard oil",
+                "Coconut oil",
+                "Vegetable oil or Castor oil",
+                "Only a candle"
+              ],
+              "answer": "Vegetable oil or Castor oil"
+            },
+            {
+              "question": "The three circumambulations (Pradakshinä) remind the worshipper of what?",
+              "options": [
+                "The three worlds (heaven, earth, hell)",
+                "Past, present, and future",
+                "Right Faith, Right Knowledge, and Right Conduct",
+                "Conception, Birth, and Death"
+              ],
+              "answer": "Right Faith, Right Knowledge, and Right Conduct"
+            },
+            {
+              "question": "Which puja in the Digambar tradition focuses on the ten great virtues of an ascetic?",
+              "options": [
+                "Ratna-traya Pujä",
+                "Panch Kalyänak Pujä",
+                "Das Lakshan Pujä",
+                "Dev Shästra Guru Puja"
+              ],
+              "answer": "Das Lakshan Pujä"
+            },
+            {
+              "question": "During Chandan Pujä, how many parts of the idol are anointed in the Nav-anga Pujä?",
+              "options": [
+                "Five",
+                "Seven",
+                "Eight",
+                "Nine"
+              ],
+              "answer": "Nine"
+            },
+            {
+              "question": "What is the name for the posture used during Käyotsarg, where one stands with hands hanging down and eyes on the tip of the nose?",
+              "options": [
+                "Padmäsan",
+                "Yoga Mudrä",
+                "Jina Mudrä",
+                "Muktä-shukti Mudrä"
+              ],
+              "answer": "Jina Mudrä"
+            },
+            {
+              "question": "What does the offering of Dhoop (incense) symbolize?",
+              "options": [
+                "Purity and tranquility",
+                "An ascetic life and spiritual progress upwards",
+                "The end of the karmic cycle",
+                "Illuminating knowledge"
+              ],
+              "answer": "An ascetic life and spiritual progress upwards"
+            },
+            {
+              "question": "In Digambar Pujä, what does offering Naivedya (coconut pieces) signify?",
+              "options": [
+                "Overcoming the disease of hunger (Kshudhä rog Vinäshanäya)",
+                "Destroying all eight karmas",
+                "Attaining the ultimate fruit of Moksh",
+                "Abandoning all passions"
+              ],
+              "answer": "Overcoming the disease of hunger (Kshudhä rog Vinäshanäya)"
+            },
+            {
+              "question": "Which of these is NOT one of the ten rituals (Das-Jintrik) of the temple?",
+              "options": [
+                "Pradakshinä (Circumambulation)",
+                "Pramärjanä (Cleaning the floor)",
+                "Älamban (Mental support)",
+                "Swädhyäy (Scriptural study)"
+              ],
+              "answer": "Swädhyäy (Scriptural study)"
+            },
+            {
+              "question": "What is the term for the concluding ritual in Digambar puja where one asks for forgiveness for any mistakes?",
+              "options": [
+                "Jayamälä",
+                "Visarjan",
+                "Ähawänan",
+                "Shänti Path"
+              ],
+              "answer": "Visarjan"
+            },
+            {
+              "question": "Which special puja commemorates the five major life events (Kalyänaks) of a Tirthankar?",
+              "options": [
+                "Sattarabhedi Pujä",
+                "Panch Kalyänak Pujä",
+                "Nav-pad Pujä",
+                "Bär Vrat Pujä"
+              ],
+              "answer": "Panch Kalyänak Pujä"
+            },
+            {
+              "question": "In which tradition are Tirthankar idols kept in their natural, undecorated form?",
+              "options": [
+                "Shvetämbar",
+                "Digambar",
+                "Sthänakaväsi",
+                "Teräpanthi"
+              ],
+              "answer": "Digambar"
+            },
+            {
+              "question": "The third 'Nissihi' in the Shvetämbar tradition is said at what point?",
+              "options": [
+                "When first entering the temple compound",
+                "When entering the Gabhäro (idol sanctum)",
+                "Right before starting internal worship (Bhäv-Pujä)",
+                "Just before leaving the temple"
+              ],
+              "answer": "Right before starting internal worship (Bhäv-Pujä)"
+            },
+            {
+              "question": "According to the text, which product's production involves the use of cow intestines, making it unsuitable for idol decoration?",
+              "options": [
+                "Sandalwood paste",
+                "Saffron",
+                "Silver or gold foil (Varakh)",
+                "Rice grains"
+              ],
+              "answer": "Silver or gold foil (Varakh)"
+            },
+            {
+              "question": "The nine supreme entities, including the Panch Parameshthi, are worshipped in which puja?",
+              "options": [
+                "Das Lakshan Pujä",
+                "Nav Devtä Pujä",
+                "Ratna-traya Pujä",
+                "Solähkaran Pujä"
+              ],
+              "answer": "Nav Devtä Pujä"
+            },
+            {
+              "question": "Which finger of the right hand is recommended for applying Chandan during pujä?",
+              "options": [
+                "Index finger",
+                "Middle finger",
+                "Ring finger",
+                "Thumb"
+              ],
+              "answer": "Ring finger"
+            },
+            {
+              "question": "In the Digambar tradition, what is Arghya Pujä?",
+              "options": [
+                "A puja performed only with water",
+                "A concluding puja with a mixture of all eight substances",
+                "A puja to ask for forgiveness",
+                "The first puja performed in the morning"
+              ],
+              "answer": "A concluding puja with a mixture of all eight substances"
+            }
+          ]
+        }
+      }
+    ]
+  }

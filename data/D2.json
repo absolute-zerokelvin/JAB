@@ -34,8 +34,9 @@
     {
      "tabName":"Symbols & Colors",
       "contentType": "table",
+      "caption": "<p>This table lists the 24 Tirthankars along with their symbols and colors. You can sort columns by clicking on the headers and filter by typing in the input fields below the headers.</p>",
       "tabData": {
-        "headers": ["#", "Name", "Symbol (Shvetämbar)", "Symbol (Digambar)", "Color"],
+        "headers": ["Tirthankar #", "Name", "Symbol (Shvetämbar)", "Symbol (Digambar)", "Color"],
         "rows": [
           ["1", "Rishabhadev or Ädinäth", "Bull", "Bull", "Gold"],
           ["2", "Ajitnäth", "Elephant", "Elephant", "Gold"],
@@ -68,8 +69,9 @@
     {
      "tabName":"Family & Places",
       "contentType": "table",
+      "caption": "<p>This table lists the 24 Tirthankars along with their family details and places. You can sort columns by clicking on the headers and filter by typing in the input fields below the headers.</p>",
       "tabData": {
-        "headers": ["#", "Name", "Father", "Mother", "Birth Place", "Dikshä Place", "Nirväna Place"],
+        "headers": ["Tirthankar #", "Name", "Father", "Mother", "Birth Place", "Dikshä Place", "Nirväna Place"],
         "rows": [
           ["1", "Rishabhadev", "Näbhiräyä", "Marudevi", "Ayodhyä", "Ayodhyä", "Ashtäpad"],
           ["2", "Ajitnäth", "Jitshatru", "Vijayä", "Ayodhyä", "Ayodhyä", "Sametshikhar"],
