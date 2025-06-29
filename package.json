@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "node build.js",
-    "dev": "node build.js --dev",
+    "dev": "nodemon --watch . --ext js,html,css,json --ignore dist/ --exec 'node build.js --dev'",
+    "watch": "nodemon --watch . --ext js,html,css,json --ignore dist/ --exec 'npm run build'",
+
     "preview": "node build.js && npx http-server dist -p 3000",
     "clean": "rm -rf dist",
     "deploy": "npm run build && npm run deploy:gh-pages",
@@ -26,6 +28,7 @@
   "author": "JAB Manual Team",
   "license": "MIT",
   "devDependencies": {
+    "nodemon": "^3.1.4",
     "@playwright/test": "^1.53.1",
     "autoprefixer": "^10.4.16",
     "cheerio": "^1.0.0-rc.12",
@@ -34,7 +37,7 @@
     "fs-extra": "^11.2.0",
     "gh-pages": "^6.1.1",
     "http-server": "^14.1.1",
-    "nodemon": "^3.1.10",
+
     "postcss": "^8.4.32"
   },
   "engines": {

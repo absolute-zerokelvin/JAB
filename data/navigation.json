@@ -58,7 +58,20 @@
                 "dataFile": "B7.json"
             }        ]
       },
-
+      {
+        "id": "section-d",
+        "title": "Section D",
+        "description": "Rituals and Symbols from Section D",
+        "subsections": [
+          {
+            "id": "D1",
+            "title": "D.1",
+            "name": "Jain Symbols",
+            "url": "./tabTemplate.html?section=D1.json",
+            "dataFile": "D1.json"
+          }
+        ]
+      },
       {
         "id": "section-e",
         "title": "Section E",

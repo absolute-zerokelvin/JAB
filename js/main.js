@@ -175,18 +175,18 @@ async function initializeNavigation() {
     // Initialize sections with different defaults for desktop and mobile
     navData.navigation.sections.forEach(section => {
         // For desktop navigation - collapsed by default
-        const desktopSubsections = document.querySelector('#mainNavigation #' + section.id + '-subsections');
+        const desktopSubsections = document.querySelector(`#mainNavigation #${section.id}-subsections`);
         if (desktopSubsections) {
             desktopSubsections.style.display = 'none';
             // Make sure toggle icon shows collapsed state
-            const desktopToggle = document.querySelector(`#mainNavigation [onclick="toggleSection('${section.id}')"] .section-toggle`);
+            const desktopToggle = document.querySelector(`#mainNavigation .section-header[onclick="toggleSection('${section.id}')"] .section-toggle`);
             if (desktopToggle) {
                 desktopToggle.textContent = '▼';
             }
         }
         
         // For mobile navigation - expanded by default
-        const mobileSubsections = document.querySelector('#mobileNavigation #' + section.id + '-subsections');
+        const mobileSubsections = document.querySelector(`#mobileNavigation #${section.id}-subsections`);
         if (mobileSubsections) {
             mobileSubsections.style.display = 'block'; // Keep expanded for mobile
         }

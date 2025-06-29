@@ -162,7 +162,8 @@ class JABBuilder {
             'B6.html',
             'B7.html',
             'L1.html',
-            'L2.html'
+            'L2.html',
+            'tabTemplate.html'
         ];
         
         for (const file of htmlFiles) {
