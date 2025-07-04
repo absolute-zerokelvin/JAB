@@ -1,0 +1,601 @@
+{
+  "sectionTitle": "K.4: Fourteen Gunasthän - Stages of Spiritual Development",
+  "tabs": [
+    {
+      "tabName": "Introduction",
+      "contentType": "accordian",
+      "caption": "Foundational concepts of the Gunasthans, the soul's journey from impurity to liberation.",
+      "tabData": {
+        "title": "Understanding the Spiritual Path",
+        "items": [
+          {
+            "header": "What is a Gunasthän?",
+            "content": "A <b>Gunasthän</b> (literally 'stage of virtue') represents a specific psychical condition or spiritual stage of a soul in its journey towards liberation (Moksha). It is a measure on a spiritual yardstick, determined by the state of the soul's beliefs, conduct, and the influence of karmic matter. The journey progresses from a state of complete wrong belief (Mithyātva) to the state of a liberated soul (Paramātmā). This progression is influenced by the fruition (<i>Uday</i>), suppression (<i>Upasham</i>), and perishing (<i>Kshayopasham</i>) of karmas."
+          },
+          {
+            "header": "The Soul's Journey & States",
+            "content": "The soul's journey through the Gunasthans is not a simple, linear ascent. A soul can move up and down the stages based on its internal state and karmic load. There are three primary states of the soul corresponding to these stages:<br><ul><li><span style='color:#C0392B;'><b>Bahirātmā (Extrovert Soul):</b></span> Stages 1-3. The soul is engrossed in external objects and activities, identifying itself with the body and worldly possessions.</li><li><span style='color:#2980B9;'><b>Antarātmā (Introvert Soul):</b></span> Stages 4-12. The soul turns inward, concerned with its own spiritual welfare and purification. It differentiates itself from the body and karma.</li><li><span style='color:#F1C40F;'><b>Paramātmā (Perfect Soul):</b></span> Stages 13-14. The soul attains Godhood, becoming an omniscient, perfect being, free from all defiling karmas.</li></ul>"
+          },
+          {
+            "header": "The Role of Karma",
+            "content": "Gunasthans are directly tied to karma bondage. The primary karma influencing these stages is <span style='color:#8E44AD;'><b>Mohaniya (Deluding) Karma</b></span>, which has two main sub-types:<br>1. <b>Darshan Mohaniya:</b> Faith-deluding karma, which causes wrong belief (Mithyātva).<br>2. <b>Chāritra Mohaniya:</b> Conduct-deluding karma, which obstructs right conduct and gives rise to passions (Kashāy).<br>Progress through the Gunasthans involves systematically suppressing or eradicating these karmas."
+          },
+          {
+            "header": "The Five Causes of Āsrav",
+            "content": "The spiritual state is also defined by the presence or absence of the five causes of karmic influx (Āsrav). Progressing to higher Gunasthans requires eliminating these causes one by one:<br>1. <b>Mithyātva</b> (Wrong Faith)<br>2. <b>Avirati</b> (Vowlessness / Indiscipline)<br>3. <b>Pramād</b> (Negligence / Laziness)<br>4. <b>Kashāy</b> (Passions: Anger, Pride, Deceit, Greed)<br>5. <b>Yoga</b> (Activities of mind, body, and speech)"
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "The 14 Stages",
+      "contentType": "mindmap",
+      "caption": "A hierarchical overview of the fourteen stages of spiritual development.",
+      "tabData": {
+        "title": "Fourteen Gunasthāns Mind Map",
+        "description": "Visualizing the soul's journey from the lowest state of wrong faith to the final state of liberation.",
+        "nodes": [
+          {
+            "id": "root",
+            "text": "14 Gunasthāns",
+            "description": "The Fourteen Stages of Spiritual Development",
+            "parent": null
+          },
+          {
+            "id": "1",
+            "text": "1. Mithyā-drashti",
+            "description": "Wrong Faith: The soul has a perverse attitude towards truth.",
+            "parent": "root"
+          },
+          {
+            "id": "2",
+            "text": "2. Sāsvādan Samyag-drashti",
+            "description": "Lingering Taste of True Faith: A brief, transitory stage while falling from a higher state.",
+            "parent": "root"
+          },
+          {
+            "id": "3",
+            "text": "3. Samyag Mithyā-drashti",
+            "description": "Mixed Faith: A state of indifference, mixing belief and non-belief.",
+            "parent": "root"
+          },
+          {
+            "id": "4",
+            "text": "4. Avirat Samyag-drashti",
+            "description": "Right Faith without Vows: The soul has right faith but lacks the self-control to take vows.",
+            "parent": "root"
+          },
+          {
+            "id": "5",
+            "text": "5. Desha-virat Shrāvak",
+            "description": "Partial Renunciation: A layman (Shrāvak) who has taken minor vows (Anu-vratas).",
+            "parent": "root"
+          },
+          {
+            "id": "6",
+            "text": "6. Pramatta-Sanyat",
+            "description": "Full Renunciation with Less Awareness: An ascetic (Sādhu) who has taken major vows but is still prone to negligence (Pramād).",
+            "parent": "root"
+          },
+          {
+            "id": "7",
+            "text": "7. Apramatta-Sanyat",
+            "description": "Renunciation with Full Awareness: An ascetic free from negligence (Pramād).",
+            "parent": "root"
+          },
+          {
+            "id": "8",
+            "text": "8. Apurva-karan",
+            "description": "Meditative State: Unprecedented spiritual purification and thoughts occur.",
+            "parent": "root"
+          },
+          {
+            "id": "9",
+            "text": "9. Anivritti-bādar",
+            "description": "Advanced Meditative State: Further purification where passions are nearly eliminated.",
+            "parent": "root"
+          },
+          {
+            "id": "10",
+            "text": "10. Sukshma-samparāy",
+            "description": "Subtle Greed: Only a subtle form of greed remains as a passion.",
+            "parent": "root"
+          },
+          {
+            "id": "11",
+            "text": "11. Upashānt-moha",
+            "description": "Suppressed Passions: All passions are suppressed, but not yet eradicated. (Only on Upasham Shreni).",
+            "parent": "root"
+          },
+          {
+            "id": "12",
+            "text": "12. Kshina-moha",
+            "description": "Passionless Stage: All deluding (Mohaniya) karmas are completely eradicated. (Only on Kshapak Shreni).",
+            "parent": "root"
+          },
+          {
+            "id": "13",
+            "text": "13. Sayogi Kevali",
+            "description": "Active Omniscience: The soul is an omniscient being (Kevali) with activities (Yoga) of mind, body, and speech. This is an Arihant.",
+            "parent": "root"
+          },
+          {
+            "id": "14",
+            "text": "14. Ayogi Kevali",
+            "description": "Inactive Omniscience: All activities cease. This is the final, momentary stage before attaining Moksha (liberation).",
+            "parent": "root"
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Detailed Breakdown",
+      "contentType": "accordian",
+      "caption": "An in-depth look at each Gunasthan, its characteristics, and the karmas involved.",
+      "tabData": {
+        "title": "The Fourteen Stages in Detail",
+        "items": [
+          {
+            "header": "1. Mithyā-drashti Gunasthān (Wrong Faith)",
+            "content": "This is the lowest stage where the soul, due to the manifestation of <b style='color:#C0392B;'>Mithyātva Mohaniya Karma</b>, has a perverse attitude towards truth. All five causes of Āsrav are present. A soul can be in this stage from eternity. From here, a soul rises directly to the 4th stage."
+          },
+          {
+            "header": "2. Sāsvādan Samyag-drashti Gunasthān (Lingering Taste of True Faith)",
+            "content": "A very brief, transitory stage (max 6 Āvalikā) experienced only when a soul is falling from the 4th stage (or higher). The soul temporarily loses right faith but retains a memory or 'taste' of it before falling back to the 1st stage. This happens if <b style='color:#E67E22;'>Anantānu-bandhi Kashāy</b> becomes operative before Mithyātva Mohaniya Karma."
+          },
+          {
+            "header": "3. Samyag Mithyā-drashti Gunasthān (Mixed Faith)",
+            "content": "A transitory stage (less than 48 minutes) of indifference, a mix of belief and non-belief. This occurs when falling from the 4th stage due to the re-emergence of <b style='color:#F1C40F;'>Mishra Mohaniya Karma</b>. From here, the soul can fall to the 1st stage or rise back to the 4th."
+          },
+          {
+            "header": "4. Avirat Samyag-drashti Gunasthān (Right Faith without Vows)",
+            "content": "The soul attains Right Faith (Samyaktva) for the first time by suppressing the <b style='color:#27AE60;'>Darshan Saptak</b> (3 Darshan Mohaniya + 4 Anantānu-bandhi Kashāy). However, due to remaining conduct-deluding karmas, it cannot take any vows (Avirati). This is the first stage of being an <i style='color:#2980B9;'>Antarātmā</i>."
+          },
+          {
+            "header": "5. Desha-virat Shrāvak Gunasthān (Partial Renunciation)",
+            "content": "The stage of a layman (Shrāvak) who adopts partial vows (Anu-vratas). This is achieved by suppressing or eradicating the four types of <b style='color:#27AE60;'>Apratyākhyāni Kashāy</b>. This is the highest stage possible for a householder."
+          },
+          {
+            "header": "6. Pramatta-Sanyat Gunasthän (Full Renunciation with Less Awareness)",
+            "content": "The stage of an ascetic (Sādhu) who has taken the five great vows (Mahā-vratas) but is still susceptible to <b style='color:#E67E22;'>Pramād</b> (negligence, laziness). This is achieved by overcoming the four types of <b style='color:#27AE60;'>Pratyākhyāni Kashāy</b>."
+          },
+          {
+            "header": "7. Apramatta-Sanyat Gunasthän (Renunciation with Full Awareness)",
+            "content": "An ascetic who is completely free from <b style='color:#27AE60;'>Pramād</b> (negligence). The soul is constantly vigilant and absorbed in spiritual pursuits. This stage is the gateway to the two higher spiritual ladders (Shrenis)."
+          },
+          {
+            "header": "8. Apurva-karan Gunasthän (Meditative State with Unprecedented Purity)",
+            "content": "The soul experiences <b style='color:#2980B9;'>Apurva</b> (unprecedented) purity and thoughts. It begins the rapid shedding of karmas. This is the first step on either the Upasham or Kshapak Shreni."
+          },
+          {
+            "header": "9. Anivritti-bādar Gunasthän (Advanced Meditative State)",
+            "content": "Further spiritual advancement where passions, except for subtle greed, are eliminated. The thought processes of all souls in this stage at a particular time are identical."
+          },
+          {
+            "header": "10. Sukshma-samparäy Gunasthän (Stage of Subtle Greed)",
+            "content": "Only the slightest, most subtle form of greed (<b style='color:#E67E22;'>Sanjvalan Lobh</b>) remains from the conduct-deluding karma. All other passions have been quelled."
+          },
+          {
+            "header": "11. Upashānt-moha Gunasthän (Suppressed Passions State)",
+            "content": "This stage is only reached via the <b style='color:#3498DB;'>Upasham Shreni</b> (ladder of suppression). All Mohaniya karma, including subtle greed, is completely suppressed but not destroyed. Like dirt settling in water, it will inevitably re-emerge, causing the soul to fall to a lower stage."
+          },
+          {
+            "header": "12. Kshina-moha Gunasthän (Passionless Stage)",
+            "content": "This stage is only reached via the <b style='color:#9B59B6;'>Kshapak Shreni</b> (ladder of destruction). All 28 types of Mohaniya Karma are completely and permanently eradicated (<b style='color:#9B59B6;'>Kshina</b>). The soul is now free of passions and delusion. From here, there is no falling back."
+          },
+          {
+            "header": "13. Sayogi Kevali Gunasthän (Active Omniscience State)",
+            "content": "The stage of a <b style='color:#F1C40F;'>Keval-jnāni</b> (Omniscient Being), also known as an Arihant or Jina. The four Ghāti (destructive) karmas are destroyed. The soul possesses perfect knowledge and perception but still has a body and exhibits <b style='color:#16A085;'>Yoga</b> (activities of mind, speech, and body). This is the state of a <i style='color:#F1C40F;'>Paramātmā</i>."
+          },
+          {
+            "header": "14. Ayogi Kevali Gunasthän (Inactive Omniscience State)",
+            "content": "The final, momentary stage before liberation. The Kevali ceases all <b style='color:#C0392B;'>Yoga</b> (activities) in a process called <b style='color:#8E44AD;'>Shaileshi-karan</b>. The soul remains in this state for the time it takes to utter five short vowels, then sheds the remaining Aghāti karmas and the physical body to achieve <b style='color:#BDC3C7;'>Moksha</b>."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Key Terms",
+      "contentType": "flashCards",
+      "caption": "Memorize key terminology related to the Gunasthans. Click to flip the cards.",
+      "tabData": [
+        {
+          "title": "Gunasthan Concepts",
+          "description": "Fundamental terms for understanding the stages of spiritual development.",
+          "frontColor": "#5DADE2",
+          "backColor": "#AED6F1",
+          "cards": [
+            {
+              "front": "Gunasthän",
+              "back": "A stage of spiritual development on the path to liberation, defined by the soul's purity and karmic state."
+            },
+            {
+              "front": "Mithyātva",
+              "back": "Wrong faith; a perverse attitude towards truth. The defining characteristic of the 1st Gunasthan."
+            },
+            {
+              "front": "Mohaniya Karma",
+              "back": "Deluding Karma. The primary karma that obstructs right faith and right conduct, governing the Gunasthans."
+            },
+            {
+              "front": "Darshan Saptak",
+              "back": "A group of 7 karmas (3 faith-deluding + 4 Anantānu-bandhi passions) whose suppression allows the soul to reach the 4th Gunasthan."
+            },
+            {
+              "front": "Bahirātmā",
+              "back": "'Extrovert' Soul (Stages 1-3). A soul focused on external objects and identifying with the body."
+            },
+            {
+              "front": "Antarātmā",
+              "back": "'Introvert' Soul (Stages 4-12). A soul focused on its own spiritual purification."
+            },
+            {
+              "front": "Paramātmā",
+              "back": "'Perfect' Soul (Stages 13-14). A liberated or near-liberated soul; a God."
+            },
+            {
+              "front": "Upasham Shreni",
+              "back": "The 'Ladder of Suppression'. A spiritual ascent to the 11th stage where karmas are suppressed, not destroyed. The soul will inevitably fall from this ladder."
+            },
+            {
+              "front": "Kshapak Shreni",
+              "back": "The 'Ladder of Destruction'. A spiritual ascent to the 12th stage where deluding karmas are permanently destroyed, ensuring liberation."
+            },
+            {
+              "front": "Sayogi Kevali",
+              "back": "13th Gunasthan. An 'Active Omniscient Being' (Arihant) who still has activities of mind, body, and speech."
+            },
+            {
+              "front": "Ayogi Kevali",
+              "back": "14th Gunasthan. An 'Inactive Omniscient Being' who has ceased all activities just before attaining Moksha."
+            },
+            {
+              "front": "Shaileshi-karan",
+              "back": "A state of absolute motionlessness achieved in the 14th Gunasthan, where all physical, vocal, and mental activities stop."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabName": "Gunasthän Relationships",
+      "contentType": "table",
+      "caption": "A summary of how each Gunasthan relates to the causes of Āsrav, Meditation, Leshyā, and the State of the Soul.",
+      "tabData": {
+        "headers": [
+          "No.",
+          "Gunasthän",
+          "Causes of Karma Āsrav Present",
+          "Meditation (Dhyän)",
+          "Leshyā (States of Mind)",
+          "State of Soul"
+        ],
+        "rows": [
+          [
+            "1",
+            "Mithyā-drashti",
+            "All five (Mithyātva, Avirati, Pramād, Kashāy & Yoga)",
+            "Ārta & Raudra",
+            "All Six (Krishna, Neel, Kapot, Tejo, Padma & Shukla)",
+            "Bahirätmä (Extrovert)"
+          ],
+          [
+            "2",
+            "Sāsvādan Samyag-drashti",
+            "Avirati, Pramād, Kashāy & Yoga",
+            "Ārta & Raudra",
+            "All Six (Krishna, Neel, Kapot, Tejo, Padma & Shukla)",
+            "Bahirätmä (Extrovert)"
+          ],
+          [
+            "3",
+            "Samyag Mithyā-drashti",
+            "All five (Mithyātva, Avirati, Pramād, Kashāy & Yoga)",
+            "Ārta & Raudra",
+            "All Six (Krishna, Neel, Kapot, Tejo, Padma & Shukla)",
+            "Bahirätmä (Extrovert)"
+          ],
+          [
+            "4",
+            "Avirat Samyag-drashti",
+            "Avirati, Pramād, Kashāy & Yoga",
+            "Ārta, Raudra & Dharma",
+            "All Six (Krishna, Neel, Kapot, Tejo, Padma & Shukla)",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "5",
+            "Desha-virat Shrāvak",
+            "Avirati, Pramād, Kashāy & Yoga",
+            "Ārta, Raudra & Dharma",
+            "All Six (Krishna, Neel, Kapot, Tejo, Padma & Shukla)",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "6",
+            "Pramatta-Sanyat",
+            "Pramād, Kashāy & Yoga",
+            "Ārta & Dharma",
+            "All Six (Krishna, Neel, Kapot, Tejo, Padma & Shukla)",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "7",
+            "Apramatta-Sanyat",
+            "Kashāy & Yoga",
+            "Dharma",
+            "Only Auspicious ones (Tejo, Padma & Shukla)",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "8",
+            "Apurva-karan",
+            "Kashāy & Yoga",
+            "Dharma",
+            "Shukla",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "9",
+            "Anivritti-bādar",
+            "Kashāy & Yoga",
+            "Dharma",
+            "Shukla",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "10",
+            "Sukshma-samparäy",
+            "Kashāy & Yoga",
+            "Dharma",
+            "Shukla",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "11",
+            "Upashānt-moha",
+            "Yoga",
+            "Dharma & Shukla",
+            "Shukla",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "12",
+            "Kshina-moha",
+            "Yoga",
+            "Dharma & Shukla",
+            "Shukla",
+            "Antarätmä (Introvert)"
+          ],
+          [
+            "13",
+            "Sayogi Kevali",
+            "Yoga",
+            "Shukla",
+            "Param Shukla",
+            "Paramätmä (Perfect Soul)"
+          ],
+          [
+            "14",
+            "Ayogi Kevali",
+            "None",
+            "Shukla",
+            "None (Aleshi - no Leshyā)",
+            "Paramätmä (Perfect Soul)"
+          ]
+        ],
+        "footnote": "This table shows the relationship between the Gunasthan, the active causes of karmic influx (Āsrav), the predominant type of meditation (Dhyän), the possible states of mind (Leshyā), and the overall state of the soul."
+      }
+    },
+    {
+      "tabName": "Quiz",
+      "contentType": "quiz",
+      "caption": "Test your knowledge of the Fourteen Gunasthans!",
+      "tabData": {
+        "title": "Gunasthän Knowledge Check",
+        "questions": [
+          {
+            "question": "What is the name of the first Gunasthan, characterized by wrong faith?",
+            "options": [
+              "Sāsvādan Samyag-drashti",
+              "Mithyā-drashti Gunasthän",
+              "Avirat Samyag-drashti",
+              "Samyag Mithyā-drashti"
+            ],
+            "answer": "Mithyā-drashti Gunasthän"
+          },
+          {
+            "question": "Suppression of which group of seven karmas is essential to attain the 4th Gunasthan?",
+            "options": [
+              "Jnānāvaraniya Karma",
+              "Darshan Saptak",
+              "Chāritra Mohaniya",
+              "Antarāya Karma"
+            ],
+            "answer": "Darshan Saptak"
+          },
+          {
+            "question": "Which Gunasthan is known as the 'Mixed Faith Stage'?",
+            "options": [
+              "Sāsvādan Samyag-drashti Gunasthän",
+              "Avirat Samyag-drashti Gunasthän",
+              "Samyag Mithyā-drashti Gunasthän",
+              "Desha-virat Shrāvak Gunasthän"
+            ],
+            "answer": "Samyag Mithyā-drashti Gunasthän"
+          },
+          {
+            "question": "A householder (Shrāvak) who has taken partial vows is at which Gunasthan?",
+            "options": [
+              "Pramatta-Sanyat Gunasthän",
+              "Avirat Samyag-drashti Gunasthän",
+              "Desha-virat Shrāvak Gunasthän",
+              "Apramatta-Sanyat Gunasthän"
+            ],
+            "answer": "Desha-virat Shrāvak Gunasthän"
+          },
+          {
+            "question": "The soul state known as 'Antarātmā' or the 'Introvert Soul' begins at which Gunasthan?",
+            "options": [
+              "1st Gunasthan",
+              "13th Gunasthan",
+              "4th Gunasthan",
+              "7th Gunasthan"
+            ],
+            "answer": "4th Gunasthan"
+          },
+          {
+            "question": "An ascetic who is free from negligence (Pramād) is in which stage?",
+            "options": [
+              "Pramatta-Sanyat Gunasthän",
+              "Apurva-karan Gunasthän",
+              "Apramatta-Sanyat Gunasthän",
+              "Anivritti-bādar Gunasthän"
+            ],
+            "answer": "Apramatta-Sanyat Gunasthän"
+          },
+          {
+            "question": "Which Gunasthan is known as the 'Stage of Subtle Greed'?",
+            "options": [
+              "Anivritti-bādar Gunasthän",
+              "Sukshma-samparäy Gunasthän",
+              "Upashānt-moha Gunasthän",
+              "Kshina-moha Gunasthän"
+            ],
+            "answer": "Sukshma-samparäy Gunasthän"
+          },
+          {
+            "question": "The spiritual ladder that leads to the 11th stage through suppression of karma is called what?",
+            "options": [
+              "Kshapak Shreni",
+              "Dharma Dhyan",
+              "Shukla Dhyan",
+              "Upasham Shreni"
+            ],
+            "answer": "Upasham Shreni"
+          },
+          {
+            "question": "In which Gunasthan are all Mohaniya (deluding) karmas completely and permanently destroyed?",
+            "options": [
+              "Sukshma-samparäy Gunasthän",
+              "Upashānt-moha Gunasthän",
+              "Kshina-moha Gunasthän",
+              "Sayogi Kevali Gunasthän"
+            ],
+            "answer": "Kshina-moha Gunasthän"
+          },
+          {
+            "question": "An Arihant, or an active omniscient being, corresponds to which Gunasthan?",
+            "options": [
+              "Kshina-moha Gunasthän",
+              "Ayogi Kevali Gunasthän",
+              "Upashānt-moha Gunasthän",
+              "Sayogi Kevali Gunasthän"
+            ],
+            "answer": "Sayogi Kevali Gunasthän"
+          },
+          {
+            "question": "What is the final, momentary Gunasthan just before a soul attains Moksha?",
+            "options": [
+              "Sayogi Kevali Gunasthän",
+              "Ayogi Kevali Gunasthän",
+              "Kshina-moha Gunasthän",
+              "Siddha"
+            ],
+            "answer": "Ayogi Kevali Gunasthän"
+          },
+          {
+            "question": "The process of ceasing all mental, vocal, and physical activities in the 14th Gunasthan is known as?",
+            "options": [
+              "Samavasaran",
+              "Keval-jnān",
+              "Shaileshi-karan",
+              "Pudgal Parāvartan"
+            ],
+            "answer": "Shaileshi-karan"
+          },
+          {
+            "question": "From the 7th stage to the 10th stage, which two causes of Āsrav remain?",
+            "options": [
+              "Mithyātva and Kashāy",
+              "Avirati and Pramād",
+              "Kashāy and Yoga",
+              "Pramād and Yoga"
+            ],
+            "answer": "Kashāy and Yoga"
+          },
+          {
+            "question": "A soul in the 2nd Gunasthan, Sāsvādan Samyag-drashti, is on which path?",
+            "options": [
+              "Ascending from the 1st stage",
+              "Descending from the 4th stage",
+              "Stationary in the 2nd stage",
+              "Ascending from the 3rd stage"
+            ],
+            "answer": "Descending from the 4th stage"
+          },
+          {
+            "question": "The soul state called 'Paramātmā' or the Perfect Soul, corresponds to which Gunasthans?",
+            "options": [
+              "Stages 11-12",
+              "Stages 10-14",
+              "Stages 13-14",
+              "Stage 12 only"
+            ],
+            "answer": "Stages 13-14"
+          },
+          {
+            "question": "The duration of the 2nd Gunasthan is a maximum of how many Āvalikā?",
+            "options": [
+              "48 minutes",
+              "One Samay",
+              "6",
+              "33 Sägaropam"
+            ],
+            "answer": "6"
+          },
+          {
+            "question": "Which of the five causes of Āsrav is eliminated to move from the 5th to the 6th Gunasthan?",
+            "options": [
+              "Mithyātva",
+              "Pramād",
+              "Kashāy",
+              "Avirati"
+            ],
+            "answer": "Avirati"
+          },
+          {
+            "question": "Which meditation type is predominant from the 8th Gunasthan onwards?",
+            "options": [
+              "Ārta Dhyān",
+              "Raudra Dhyān",
+              "Dharma Dhyān",
+              "Shukla Dhyān"
+            ],
+            "answer": "Shukla Dhyān"
+          },
+          {
+            "question": "From the 1st Gunasthan, a soul progressing upwards goes directly to which stage?",
+            "options": [
+              "2nd Gunasthan",
+              "3rd Gunasthan",
+              "4th Gunasthan",
+              "5th Gunasthan"
+            ],
+            "answer": "4th Gunasthan"
+          },
+          {
+            "question": "In which Gunasthan are there no Leshyās (states of mind)?",
+            "options": [
+              "12th Gunasthan (Kshina-moha)",
+              "13th Gunasthan (Sayogi Kevali)",
+              "11th Gunasthan (Upashānt-moha)",
+              "14th Gunasthan (Ayogi Kevali)"
+            ],
+            "answer": "14th Gunasthan (Ayogi Kevali)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "sectionTitle": "K.5: Panchächär - The Five Codes of Conduct",
+  "tabs": [
+    {
+      "tabName": "Overview",
+      "contentType": "accordian",
+      "caption": "An introduction to the fivefold code of conduct in Jainism, forming the path to liberation (Moksha).",
+      "tabData": {
+        "title": "Understanding Panchächär: The Fivefold Path",
+        "items": [
+          {
+            "header": "What is Panchächär?",
+            "content": "Panchächär, meaning 'five conducts', represents the practical observance of Jainism. It is a comprehensive framework guiding a soul towards liberation. As stated by Ächārya Umāsvāti in the Tattvārtha-sutra: '<i>Samyag Darshan, Samyag Jnän and Samyak Chäritra constitute the path of liberation.</i>' While these are the three core jewels, Jainism expands this into a fivefold code by including two significant aspects of conduct: Austerities (Tap) and Vigor (Virya). These five codes are Jnänächär, Darshanächär, Chäriträchär, Tapächär, and Viryächär."
+          },
+          {
+            "header": "1. Jnänächär - Code of Acquiring Right Knowledge",
+            "content": "This code lays down the norms for acquiring right knowledge (Samyag Jnän). It involves understanding the five types of knowledge, from sensory perception to ultimate omniscience, and practicing the eightfold disciplines like studying at the proper time, showing reverence to teachers, and understanding the true meaning of scriptures. The goal is to overcome the knowledge-obscuring (Jnänävaraniya) karma."
+          },
+          {
+            "header": "2. Darshanächär - Code of Gaining Right Faith",
+            "content": "This code focuses on developing right faith or conviction (Samyag Darshan). It involves cultivating an unwavering belief in the principles of Jainism, free from doubt, expectation, or influence from other doctrines. The eight aspects of Darshanächär guide a person from initial belief to profound self-realization."
+          },
+          {
+            "header": "3. Chäriträchär - Code of Acquiring Right Conduct",
+            "content": "This is the code of right conduct (Samyak Chäritra), where knowledge and faith are put into practice. It involves living life in accordance with Jain principles. For monastics, this includes observing the five Samitis (carefulness) and three Guptis (restraints), collectively known as Ashta Pravachan Mätä. For laypeople, it involves observing the twelve vows (Vrat)."
+          },
+          {
+            "header": "4. Tapächär - Code of Acquiring Right Austerities",
+            "content": "This code pertains to the practice of austerities (Tap). Austerities are physical and mental exercises designed to purify the soul and shed accumulated karmas (Nirjarä). Jainism outlines twelve types of austerities, divided into six external (Bähya) and six internal (Abhyantar), to aid in spiritual development."
+          },
+          {
+            "header": "5. Viryächär - Code of Exercising Right Vigor",
+            "content": "This code is about exercising one's physical, mental, and spiritual energy (Virya) appropriately and to its fullest potential towards the goal of liberation. It emphasizes avoiding laziness and negligence, and channeling all energy into observing the other four codes of conduct. It is the practice of conscious endeavor (Purushärth) to overcome karmic bondage."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "The Path of Knowledge",
+      "contentType": "mindmap",
+      "caption": "Explore the structure of knowledge (Jnän) in Jainism, from indirect sensory perception to direct, pure omniscience.",
+      "tabData": {
+        "title": "Jnänächär: The Hierarchy of Right Knowledge",
+        "description": "This mind map illustrates the five types of knowledge and the key concepts related to acquiring it.",
+        "nodes": [
+          {
+            "id": "1",
+            "text": "Jnänächär",
+            "description": "Code of Acquiring Right Knowledge. One of the five Panchächärs.",
+            "parent": null
+          },
+          {
+            "id": "2",
+            "text": "Paroksha Jnän",
+            "description": "Indirect Knowledge, gained through the senses and mind. It is subject to destruction.",
+            "parent": "1"
+          },
+          {
+            "id": "3",
+            "text": "Pratyaksha Jnän",
+            "description": "Direct Knowledge, which arises from spiritual development, independent of the senses.",
+            "parent": "1"
+          },
+          {
+            "id": "2.1",
+            "text": "Mati Jnän",
+            "description": "Sensory Knowledge: Acquired through the five senses and the mind (intellect).",
+            "parent": "2"
+          },
+          {
+            "id": "2.2",
+            "text": "Shrut Jnän",
+            "description": "Scriptural Knowledge: Gained by listening, reading, and studying scriptures.",
+            "parent": "2"
+          },
+          {
+            "id": "3.1",
+            "text": "Avadhi Jnän",
+            "description": "Clairvoyance: Extra-sensory knowledge of tangible things, limited by time and space.",
+            "parent": "3"
+          },
+          {
+            "id": "3.2",
+            "text": "Manah-paryav Jnän",
+            "description": "Telepathy: Knowledge of the thoughts and mental processes of other five-sensed beings.",
+            "parent": "3"
+          },
+          {
+            "id": "3.3",
+            "text": "Keval Jnän",
+            "description": "Omniscience: Pure, complete, and infinite knowledge of everything in the past, present, and future. Once attained, it is indestructible.",
+            "parent": "3"
+          },
+          {
+            "id": "4",
+            "text": "Jnänävaraniya Karma",
+            "description": "Knowledge-Obscuring Karma: The type of karma that prevents the soul from acquiring knowledge.",
+            "parent": "1"
+          },
+          {
+            "id": "5",
+            "text": "Purushärth",
+            "description": "Self-Effort/Endeavor: The effort made to break the bondage of karma, essential for gaining knowledge.",
+            "parent": "1"
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Faith & Conduct",
+      "contentType": "accordian",
+      "caption": "Delve into the codes for Right Faith (Darshanächär) and Right Conduct (Chäriträchär), the foundations of Jain practice.",
+      "tabData": {
+        "title": "Darshanächär & Chäriträchär",
+        "items": [
+          {
+            "header": "Darshanächär - The Eightfold Code of Right Faith",
+            "content": "Right Faith (Samyag Darshan) is the bedrock of the spiritual journey. Darshanächär provides an eight-step guide to cultivate unshakable conviction. The eight aspects are:<ul><li><b>Nissankia:</b> Doubtlessness; staying above all doubts about Jain principles.</li><li><b>Nikkankhia:</b> Desirelessness; absence of expectation for worldly gains in return for faith.</li><li><b>Nirvichikitsä:</b> Unflinching faith; not being repulsed by the physical appearance or austerities of ascetics.</li><li><b>Amoodh-drashti:</b> Non-delusion; not being influenced by the glamour of false faiths or gurus.</li><li><b>Uvavooha (Upaguhan):</b> Adoration; praising the virtues of fellow Jains and concealing their shortcomings.</li><li><b>Sthirikaran:</b> Stabilization; helping to stabilize the faith of others who may be wavering.</li><li><b>Vätsalya:</b> Affection; showing selfless affection for coreligionists and spiritual aspirants.</li><li><b>Prabhävanä:</b> Glorification; raising the esteem for Jainism through devotion, charity, and spiritual activities.</li></ul>"
+          },
+          {
+            "header": "Chäriträchär - The Code of Right Conduct",
+            "content": "Chäriträchär is the practical application of Right Knowledge and Right Faith. It is the code that governs behavior. The conduct prescribed for ascetics is absolute and mandatory, while for laypeople it is modified to accommodate worldly life. The core of monastic conduct is the Ashta Pravachan Mätä."
+          },
+          {
+            "header": "Ashta Pravachan Mätä - The Eight Mother-like Teachings",
+            "content": "This eightfold monastic code of conduct is as fundamental and caring as a mother's teachings. It consists of five Samitis and three Guptis.<br><br><b>The Five Samitis (Carefulness):</b><br><b>1. Iryä Samiti:</b> Carefulness during physical movements to avoid harming any living being.<br><b>2. Bhäshä Samiti:</b> Carefulness during verbal movements, speaking truthfully, beneficially, and only when necessary.<br><b>3. Eshanä Samiti:</b> Carefulness while obtaining food and water, ensuring it is pure and obtained without causing harm.<br><b>4. Ädän Nikshep Samiti:</b> Carefulness during placement of objects, inspecting objects and places before placing/taking them.<br><b>5. Utsarga Samiti:</b> Carefulness in disposing of bodily wastes in a place free of living beings.<br><br><b>The Three Guptis (Restraints):</b><br><b>1. Mana Gupti:</b> Restraining the mind from impure thoughts like anger, greed, and ego.<br><b>2. Vachan Gupti:</b> Restraining speech, observing silence and controlling the urge to speak.<br><b>3. Käya Gupti:</b> Restraining the body, controlling physical activities and maintaining a steady posture to avoid harm."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Path of Austerity",
+      "contentType": "flashCards",
+      "caption": "Learn the twelve types of austerities (Tap) that help in purifying the soul and shedding karma.",
+      "tabData": [
+        {
+          "title": "Bähya Tap - External Austerities",
+          "description": "These six austerities are primarily related to physical discipline and are visible to others.",
+          "frontColor": "#FFF3E0",
+          "backColor": "#FFE0B2",
+          "cards": [
+            {
+              "front": "Anashan",
+              "back": "Fasting. Completely abstaining from food and water for a set period of time."
+            },
+            {
+              "front": "Unodari",
+              "back": "Eating less than one's normal diet or hunger."
+            },
+            {
+              "front": "Vritti-sankshep",
+              "back": "Curtailing desires by taking a vow to accept food only if certain conditions are met."
+            },
+            {
+              "front": "Rasatyäg",
+              "back": "Renouncing tasty and stimulating foods, such as milk, curd, ghee, oil, sugar, and fried foods. (e.g., Äyambil)."
+            },
+            {
+              "front": "Käya-klesh",
+              "back": "Voluntarily enduring bodily hardships and discomforts with equanimity."
+            },
+            {
+              "front": "Sanlinatä",
+              "back": "Restraining the senses and occupying a minimum amount of space, staying in a secluded place."
+            }
+          ]
+        },
+        {
+          "title": "Abhyantar Tap - Internal Austerities",
+          "description": "These six austerities are primarily related to mental and spiritual discipline and are not visible externally.",
+          "frontColor": "#E3F2FD",
+          "backColor": "#BBDEFB",
+          "cards": [
+            {
+              "front": "Präyashchitta",
+              "back": "Repentance. Confessing and atoning for transgressions committed knowingly or unknowingly."
+            },
+            {
+              "front": "Vinay",
+              "back": "Modesty/Humility. Showing respect towards gurus and those who are spiritually advanced."
+            },
+            {
+              "front": "Veyävachcha (Vaiyävruttya)",
+              "back": "Selfless service to monks, nuns, fellow aspirants, and the needy without any expectation."
+            },
+            {
+              "front": "Swädhyäy",
+              "back": "Study of self and religious scriptures to acquire right knowledge."
+            },
+            {
+              "front": "Dhyän",
+              "back": "Meditation. Concentrating the mind on a single object, leading to spiritual purification."
+            },
+            {
+              "front": "Käyotsarg (Vyutsarga)",
+              "back": "Renunciation of attachment to the physical body, standing or sitting motionless for a period."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabName": "Path of Vigor",
+      "contentType": "accordian",
+      "caption": "Understand the importance of using one's energy correctly (Viryächär) and learn to identify the vices that hinder spiritual growth.",
+      "tabData": {
+        "title": "Viryächär and Overcoming Spiritual Laziness",
+        "items": [
+          {
+            "header": "Viryächär - The Code of Right Vigor",
+            "content": "Viryächär is the code of exercising one's energy (Virya) in the right manner for spiritual upliftment. It requires using one's mental, verbal, and physical capabilities to their fullest potential in observing the other codes of conduct (knowledge, faith, conduct, austerities). It is the antidote to laziness, negligence, and lethargy. As Bhagawän Mahävir stated, one should not be lazy for even a single moment on the journey towards liberation."
+          },
+          {
+            "header": "Purushärth vs. Prärabdha - Endeavor vs. Destiny",
+            "content": "While Jainism believes in karma, it does not support passivity. Prärabdha (destiny) is the result of past karmas, but Purushärth (endeavor) is the conscious effort one makes in the present to overcome the effects of that karma. Viryächär is the essence of Purushärth, emphasizing that one should observe all spiritual codes with utmost vigor and determination, rather than being a helpless victim of past actions."
+          },
+          {
+            "header": "Five Vices (Pramäd) that Hinder Spiritual Growth",
+            "content": "Pramäd means negligence or spiritual laziness. To practice Viryächär, one must avoid these five major types of vices:<br><br><b>1. Vishay:</b> Indulgence in the five sensuous pleasures (sound, sight, smell, taste, touch).<br><b>2. Kashäy:</b> The four inner passions of Anger (Krodh), Ego (Män), Deceit (Mäyä), and Greed (Lobh).<br><b>3. Vikathä:</b> Indulging in unnecessary or sinful talk, such as gossip about politics, food, or nation.<br><b>4. Nidrä:</b> Excessive sleep or a state of non-alertness and lethargy.<br><b>5. Vyasan:</b> Addiction to material objects or harmful habits like gambling and smoking."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Quiz",
+      "contentType": "quiz",
+      "caption": "Test your knowledge on the Five Codes of Conduct. Good luck!",
+      "tabData": {
+        "title": "Panchächär Knowledge Bowl",
+        "questions": [
+          {
+            "question": "What are the five Ächärs that collectively form Panchächär?",
+            "options": [
+              "Jnänächär, Darshanächär, Chäriträchär, Tapächär, Viryächär",
+              "Ahimsa, Satya, Asteya, Brahmacharya, Aparigraha",
+              "Mati Jnän, Shrut Jnän, Avadhi Jnän, Manah-paryav Jnän, Keval Jnän",
+              "Samiti, Gupti, Vrat, Kashäy, Darshan"
+            ],
+            "answer": "Jnänächär, Darshanächär, Chäriträchär, Tapächär, Viryächär"
+          },
+          {
+            "question": "According to the Tattvärtha-sutra, what three things constitute the path to liberation (Mokshamārgah)?",
+            "options": [
+              "Right Faith, Right Knowledge, Right Conduct",
+              "Right Austerity, Right Vigor, Right Faith",
+              "Right Practice, Right Belief, Right Living",
+              "Right Mind, Right Speech, Right Action"
+            ],
+            "answer": "Right Faith, Right Knowledge, Right Conduct"
+          },
+          {
+            "question": "Which type of knowledge is known as scriptural knowledge gained by listening, reading, and studying?",
+            "options": [
+              "Mati Jnän",
+              "Shrut Jnän",
+              "Avadhi Jnän",
+              "Keval Jnän"
+            ],
+            "answer": "Shrut Jnän"
+          },
+          {
+            "question": "Which type of knowledge enables recognition of the thought processes of other beings?",
+            "options": [
+              "Avadhi Jnän",
+              "Keval Jnän",
+              "Mati Jnän",
+              "Manah-paryav Jnän"
+            ],
+            "answer": "Manah-paryav Jnän"
+          },
+          {
+            "question": "What is the term for the karma that prevents the soul from acquiring knowledge?",
+            "options": [
+              "Darshanävaraniya Karma",
+              "Mohaniya Karma",
+              "Jnänävaraniya Karma",
+              "Antaräy Karma"
+            ],
+            "answer": "Jnänävaraniya Karma"
+          },
+          {
+            "question": "Which aspect of Darshanächär means 'unflinching faith'?",
+            "options": [
+              "Nissankia",
+              "Nikkankhia",
+              "Nirvichikitsä",
+              "Amoodh-drashti"
+            ],
+            "answer": "Nirvichikitsä"
+          },
+          {
+            "question": "What is the collective name for the five Samitis and three Guptis?",
+            "options": [
+              "Panch Mahavrat",
+              "Ashta Pravachan Mätä",
+              "Twelve Vows of Laity",
+              "Ratnatraya"
+            ],
+            "answer": "Ashta Pravachan Mätä"
+          },
+          {
+            "question": "Which Samiti relates to carefulness while getting food or water?",
+            "options": [
+              "Iryä Samiti",
+              "Bhäshä Samiti",
+              "Eshanä Samiti",
+              "Ädän Nikshep Samiti"
+            ],
+            "answer": "Eshanä Samiti"
+          },
+          {
+            "question": "Which Gupti involves restraining the mind from impure thoughts?",
+            "options": [
+              "Mana Gupti",
+              "Vachan Gupti",
+              "Käya Gupti",
+              "Iryä Gupti"
+            ],
+            "answer": "Mana Gupti"
+          },
+          {
+            "question": "Which external austerity (Bähya Tap) involves relinquishing tasty foods, like in Äyambil?",
+            "options": [
+              "Anashan",
+              "Unodari",
+              "Rasatyäg",
+              "Käya-klesh"
+            ],
+            "answer": "Rasatyäg"
+          },
+          {
+            "question": "Which internal austerity (Abhyantar Tap) means 'repentance'?",
+            "options": [
+              "Vinay",
+              "Präyashchitta",
+              "Swädhyäy",
+              "Dhyän"
+            ],
+            "answer": "Präyashchitta"
+          },
+          {
+            "question": "How many total types of Tap (austerities) are prescribed in Jainism?",
+            "options": [
+              "Five",
+              "Eight",
+              "Ten",
+              "Twelve"
+            ],
+            "answer": "Twelve"
+          },
+          {
+            "question": "The code of exercising one's capabilities to the fullest is known as what?",
+            "options": [
+              "Tapächär",
+              "Chäriträchär",
+              "Viryächär",
+              "Jnänächär"
+            ],
+            "answer": "Viryächär"
+          },
+          {
+            "question": "Which of the five vices (Pramäd) refers to indulgence in unnecessary or sinful talk?",
+            "options": [
+              "Vishay",
+              "Kashäy",
+              "Vikathä",
+              "Nidrä"
+            ],
+            "answer": "Vikathä"
+          },
+          {
+            "question": "The endeavor to overcome the impact of karma is known as what?",
+            "options": [
+              "Prärabdha",
+              "Purushärth",
+              "Nirjarä",
+              "Bandha"
+            ],
+            "answer": "Purushärth"
+          },
+          {
+            "question": "Which type of knowledge is considered direct, extra-sensory, and arises by virtue of spiritual development?",
+            "options": [
+              "Paroksha Jnän",
+              "Mati Jnän",
+              "Shrut Jnän",
+              "Pratyaksha Jnän"
+            ],
+            "answer": "Pratyaksha Jnän"
+          },
+          {
+            "question": "The aspect of Darshanächär that involves affection for coreligionists is called:",
+            "options": [
+              "Prabhävanä",
+              "Sthirikaran",
+              "Vätsalya",
+              "Uvavooha"
+            ],
+            "answer": "Vätsalya"
+          },
+          {
+            "question": "Which internal austerity involves selfless service to monks, nuns, and the needy?",
+            "options": [
+              "Vinay",
+              "Veyävachcha",
+              "Swädhyäy",
+              "Käyotsarg"
+            ],
+            "answer": "Veyävachcha"
+          },
+          {
+            "question": "The person who attains Keval Jnän is known as Sarvajna, which means:",
+            "options": [
+              "All-Knowing or Omniscient",
+              "All-Powerful",
+              "Perfectly Pure",
+              "Eternally Blissful"
+            ],
+            "answer": "All-Knowing or Omniscient"
+          },
+          {
+            "question": "Which of the five vices (Pramäd) includes the four inner passions of anger, ego, deceit, and greed?",
+            "options": [
+              "Vishay",
+              "Kashäy",
+              "Vikathä",
+              "Vyasan"
+            ],
+            "answer": "Kashäy"
+          }
+        ]
+      }
+    }
+  ]
+}

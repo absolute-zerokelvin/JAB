@@ -1,0 +1,459 @@
+{
+  "sectionTitle": "Jainism in Action: A Guide to Health, Nutrition, and Yoga",
+  "tabs": [
+    {
+      "tabName": "Core Principles",
+      "contentType": "accordian",
+      "caption": "Explore the fundamental connections between Jain philosophy, physical health, and spiritual well-being.",
+      "tabData": {
+        "title": "The Jain Approach to Holistic Well-being",
+        "items": [
+          {
+            "header": "Spirituality and Health: The Intrinsic Link",
+            "content": "Jain principles emphasize that spiritual health and physical health are deeply interconnected. Research shows that spiritual practices like meditation can lead to better health outcomes, including faster recovery and greater happiness. Conversely, good physical health, maintained through proper nutrition and exercise, is crucial for fostering a healthy mind, which is essential for spiritual progress."
+          },
+          {
+            "header": "The Foundation: A Cruelty-Free Diet",
+            "content": "A cornerstone of Jain practice is a well-balanced, cruelty-free, and vegan diet. This diet not only aligns with the principle of Ahimsa (non-violence) but also promotes physical health. It focuses on plant-based foods that provide all essential nutrients without causing harm to other living beings."
+          },
+          {
+            "header": "The Power of Soy Protein",
+            "content": "Soy protein is highlighted as a superior alternative to animal-based proteins because it contains all the essential amino acids for human nutrition. The USDA recognizes that a daily intake of <span style='color: #007bff; font-weight: bold;'>25 grams of soy protein</span>, as part of a diet low in saturated fat and cholesterol, may significantly reduce the risk of heart disease."
+          },
+          {
+            "header": "Jain-Friendly Food Choices & Austerity",
+            "content": "A 'Jain-friendly' diet involves careful selection of ingredients. It strictly excludes animal products like gelatin, certain broths, and eggs. As an added austerity and to practice a higher level of non-violence, many Jains also avoid <span style='color: #dc3545; font-weight: bold;'>root vegetables</span> (like potatoes, onions, and garlic) because harvesting them can harm countless microorganisms in the soil."
+          },
+          {
+            "header": "Yoga: Exercise for Body and Soul",
+            "content": "Physical exercise, particularly Yoga, is presented as a vital component of a healthy lifestyle. The practice of various Āsans (postures) not only strengthens the body but also enhances mental conditioning, improves concentration, and prepares the individual for deeper meditation and introspection, thereby aiding spiritual growth."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Jain Food Guide",
+      "contentType": "mindmap",
+      "caption": "A visual breakdown of the recommended food groups for a balanced Jain vegetarian diet.",
+      "tabData": {
+        "title": "Visual Guide to a Balanced Jain Diet",
+        "description": "This mind map illustrates the key food groups and serving recommendations for a healthy, cruelty-free Jain lifestyle, adapted from USDA guidelines.",
+        "nodes": [
+          {
+            "id": "root",
+            "text": "Balanced Jain Diet",
+            "description": "A holistic approach to nutrition based on vegetarianism, health, and spiritual principles.",
+            "parent": null
+          },
+          {
+            "id": "grains",
+            "text": "Whole Grains",
+            "description": "The foundation of daily meals, rich in fiber, complex carbohydrates, and B vitamins.",
+            "parent": "root"
+          },
+          {
+            "id": "grains_servings",
+            "text": "5+ Servings a Day",
+            "description": "Serving sizes include 1/2 cup hot cereal, 1-ounce dry cereal, or 1 slice of bread.",
+            "parent": "grains"
+          },
+          {
+            "id": "grains_examples",
+            "text": "Examples",
+            "description": "Includes bread, rice, pasta, corn, millet, barley, and tortillas.",
+            "parent": "grains"
+          },
+          {
+            "id": "vegetables",
+            "text": "Vegetables",
+            "description": "Packed with essential nutrients like Vitamin C, beta-carotene, iron, and calcium.",
+            "parent": "root"
+          },
+          {
+            "id": "veg_servings",
+            "text": "3+ Servings a Day",
+            "description": "Serving sizes include 1 cup raw or 1/2 cup cooked vegetables.",
+            "parent": "vegetables"
+          },
+          {
+            "id": "veg_examples",
+            "text": "Examples",
+            "description": "Dark green leafy vegetables and dark yellow/orange vegetables are especially nutritious.",
+            "parent": "vegetables"
+          },
+          {
+            "id": "fruits",
+            "text": "Fruits",
+            "description": "Excellent sources of fiber, Vitamin C, and beta-carotene. Whole fruits are preferred over juices.",
+            "parent": "root"
+          },
+          {
+            "id": "fruits_servings",
+            "text": "3+ Servings a Day",
+            "description": "Serving sizes include one medium piece of fruit, 1/2 cup cooked fruit, or 4 ounces of juice.",
+            "parent": "fruits"
+          },
+          {
+            "id": "fruits_examples",
+            "text": "Examples",
+            "description": "Citrus fruits, melons, and strawberries are high in Vitamin C.",
+            "parent": "fruits"
+          },
+          {
+            "id": "protein",
+            "text": "Protein & Amino Acids",
+            "description": "Crucial for building and repairing tissues, includes a variety of plant-based sources.",
+            "parent": "root"
+          },
+          {
+            "id": "protein_servings",
+            "text": "2+ Servings a Day",
+            "description": "Serving sizes include 1/2 cup cooked beans, 4 ounces tofu, or 8 ounces soymilk.",
+            "parent": "protein"
+          },
+          {
+            "id": "protein_examples",
+            "text": "Examples",
+            "description": "Legumes (beans, peas, lentils), nuts, chickpeas, and soy products like Tofu and Tempeh.",
+            "parent": "protein"
+          },
+          {
+            "id": "fats",
+            "text": "Fats & Oils",
+            "description": "Should be used sparingly as they are high in calories. Avoid cooking at very high temperatures.",
+            "parent": "root"
+          },
+          {
+            "id": "austerity",
+            "text": "Jain Dietary Considerations",
+            "description": "Special considerations based on the principle of Ahimsa.",
+            "parent": "root"
+          },
+          {
+            "id": "austerity_root",
+            "text": "Avoid Root Vegetables",
+            "description": "An added austerity to prevent harm to microorganisms in the soil. Examples: Potatoes, onions, garlic.",
+            "parent": "austerity"
+          },
+          {
+            "id": "austerity_animal",
+            "text": "Avoid Animal Products",
+            "description": "Includes gelatin, beef/chicken broth, eggs, and collagen products.",
+            "parent": "austerity"
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Yoga Āsans",
+      "contentType": "accordian",
+      "caption": "A step-by-step guide to various yoga postures (Āsans) and their profound benefits for the body and mind.",
+      "tabData": {
+        "title": "A Guide to Jain Yoga Postures (Āsans)",
+        "items": [
+          {
+            "header": "Eye Exercises (Palming & Rolling)",
+            "content": "<h4>Purpose</h4><p>To strengthen eye muscles, prevent eyestrain, and improve eyesight.</p><h4>Steps</h4><ul><li><b>Rolling:</b> Without moving your head, look up/down, right/left, diagonally, and in circles (clockwise/anti-clockwise). Repeat 5 times.</li><li><b>Focusing:</b> Hold a thumb a foot from your face, focus on it, then on a distant object, then back. Repeat 5 times.</li><li><b>Palming:</b> Rub palms together until warm, then cup them gently over closed eyes to soothe and relax them.</li></ul>"
+          },
+          {
+            "header": "Tāḍāsan (Palm Tree Pose)",
+            "content": "<h4>Steps</h4><ol><li>Stand erect, feet together.</li><li>Inhale (2s), raising arms and heels simultaneously. Stretch arms up, palms inward.</li><li>Hold the maximum stretch, retaining breath for 4 seconds.</li><li>Exhale (2s), bringing arms and heels down. Repeat.</li></ol><h4>Benefits</h4><ul><li>Stretches the entire body and spine vertically.</li><li>Improves lung capacity and blood circulation.</li><li>Strengthens abdominal muscles and improves neuro-muscular coordination.</li></ul>"
+          },
+          {
+            "header": "Trikoṇāsan (Triangle Pose)",
+            "content": "<h4>Steps</h4><ol><li>Stand with feet 3-4 feet apart. Point right foot out.</li><li>Stretch arms to shoulder level. Bring left arm straight up. Inhale.</li><li>Exhale, bend to the right, sliding the right hand down the leg.</li><li>Look up at the left hand. Hold and breathe before repeating on the other side.</li></ol><h4>Benefits</h4><ul><li>Stretches and develops spinal muscles.</li><li>Tones foot and ankle muscles; makes hips and thighs more elastic.</li><li>Stimulates lumbar nerves and improves breathing and balance.</li></ul>"
+          },
+          {
+            "header": "Padmāsan (Lotus Posture)",
+            "content": "<h4>Steps</h4><ol><li>Sit with legs stretched out.</li><li>Fold the right leg, placing the foot on the opposite thigh.</li><li>Fold the left leg, placing it on the opposite thigh. Knees should touch the mat.</li><li>Keep spine erect, chest open. Rest hands on heels, palms up.</li><li>Hold for 10 minutes with normal breathing.</li></ol><h4>Benefits</h4><ul><li>Considered the best meditative posture.</li><li>Tones thighs and increases lower body flexibility.</li><li>Cures joint pains (ankles, knees) and relieves constipation.</li><li>Relaxes the mind, increases concentration, and reduces tension.</li></ul>"
+          },
+          {
+            "header": "Vajrāsan (Thunderbolt Pose)",
+            "content": "<h4>Steps</h4><ol><li>Sit kneeling, with heels apart and buttocks resting in the cavity between them.</li><li>Keep thighs together, spine erect. Rest hands on thighs.</li><li>Close eyes, breathe normally, and reflect on the previous day's events.</li><li>Hold for 10 minutes.</li></ol><h4>Benefits</h4><ul><li>Corrects posture and improves ankle/foot flexibility.</li><li>Strengthens leg and thigh muscles.</li><li>Aids mental conditioning and emotional control. Excellent preparation for meditation.</li><li>Develops awareness and aids introspection.</li></ul>"
+          },
+          {
+            "header": "Supta Vajrāsan (Supine Thunderbolt Pose)",
+            "content": "<h4>Steps</h4><ol><li>Begin in Vajrāsan (Thunderbolt Pose).</li><li>Holding your toes, lean back and lower your elbows to the floor.</li><li>Lower your entire body to the floor, retaining the leg position.</li><li>Hold for one minute, then return to Vajrāsan.</li></ol><h4>Benefits</h4><ul><li>Stretches ligaments and tendons, maintaining their elasticity.</li><li>Provides an outstanding effect on blood circulation.</li><li>Staying in the pose for 10-15 minutes can diminish pain in the feet.</li></ul>"
+          },
+          {
+            "header": "Sasaṅgāsan (Rabbit Pose)",
+            "content": "<h4>Steps</h4><ol><li>Begin in Vajrāsan (Thunderbolt Pose).</li><li>Inhale and raise your hands over your head.</li><li>Exhale, bend forward, touching your hands and forehead to the floor.</li><li>Hold for one minute, then return to Vajrāsan.</li></ol><h4>Benefits</h4><ul><li>Reduces high blood pressure.</li><li>Calms anger and helps maintain a state of peace.</li><li>Strengthens the muscles of the legs, thighs, and spine.</li></ul>"
+          },
+          {
+            "header": "Bhujaṅgāsan (Cobra Pose)",
+            "content": "<h4>Steps</h4><ol><li>Lie on your stomach, chin on the ground, hands by chest with palms down.</li><li>Inhale slowly, raising the head, trunk, and abdomen until the navel.</li><li>Lift only the upper body, like a cobra's head.</li><li>Hold the breath in the raised position.</li><li>Exhale slowly and return to the starting position.</li></ol><h4>Benefits</h4><ul><li>Keeps the dorsal spine elastic and flexible.</li><li>Reduces pain in the ribs and spinal cord.</li><li>Stretches abdominal muscles, relieving constipation and intestinal gas.</li><li>Eliminates feelings of uncertainty and inferiority.</li></ul>"
+          },
+          {
+            "header": "Dhanurāsan (Bow Pose)",
+            "content": "<h4>Steps</h4><ol><li>Lie on your stomach. Inhale and bend knees up.</li><li>Reach back and clasp your ankles. Exhale.</li><li>Inhale, raising your head and chest while pulling ankles up, lifting thighs off the floor to create an arch.</li><li>Hold for three deep breaths, then exhale and release.</li></ol><h4>Benefits</h4><ul><li>Prevents premature calcification of vertebral joints.</li><li>Strengthens ligaments, muscles, and nerves along the spine.</li><li>Improves blood flow to the digestive system and reduces anxiety.</li></ul>"
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Yoga Flashcards",
+      "contentType": "flashCards",
+      "caption": "Master the terminology of the yoga postures.",
+      "tabData": [
+        {
+          "title": "Yoga Āsan Names & Meanings",
+          "description": "Memorize the Sanskrit names and English translations of the yoga postures discussed in this section.",
+          "frontColor": "#e9f5ff",
+          "backColor": "#d0ebff",
+          "cards": [
+            {
+              "front": "Tāḍāsan",
+              "back": "Palm Tree Pose"
+            },
+            {
+              "front": "Trikoṇāsan",
+              "back": "Triangle Pose"
+            },
+            {
+              "front": "Padmāsan",
+              "back": "Lotus Posture"
+            },
+            {
+              "front": "Vajrāsan",
+              "back": "Thunderbolt Pose"
+            },
+            {
+              "front": "Supta Vajrāsan",
+              "back": "Supine Thunderbolt Pose"
+            },
+            {
+              "front": "Sasaṅgāsan",
+              "back": "Rabbit Pose"
+            },
+            {
+              "front": "Bhujaṅgāsan",
+              "back": "Cobra Pose"
+            },
+            {
+              "front": "Dhanurāsan",
+              "back": "Bow Pose"
+            },
+            {
+              "front": "Palming",
+              "back": "A relaxing eye exercise involving cupping warm palms over the eyes to soothe them."
+            },
+            {
+              "front": "Āsan",
+              "back": "A general Sanskrit term for a yoga posture or pose."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabName": "Quiz",
+      "contentType": "quiz",
+      "caption": "Test your knowledge on Jain nutrition and yoga practices.",
+      "tabData": {
+        "title": "Jainism in Action: Knowledge Check",
+        "questions": [
+          {
+            "question": "According to the USDA, how many grams of soy protein per day, as part of a low-fat diet, may reduce the risk of heart disease?",
+            "options": [
+              "15 grams",
+              "25 grams",
+              "35 grams",
+              "50 grams"
+            ],
+            "answer": "25 grams"
+          },
+          {
+            "question": "What is the recommended minimum number of daily servings for the Whole Grains food group?",
+            "options": [
+              "Two or more",
+              "Three or more",
+              "Four or more",
+              "Five or more"
+            ],
+            "answer": "Five or more"
+          },
+          {
+            "question": "Which yoga pose is also known as the 'Palm Tree Pose'?",
+            "options": [
+              "Trikoṇāsan",
+              "Vajrāsan",
+              "Tāḍāsan",
+              "Padmāsan"
+            ],
+            "answer": "Tāḍāsan"
+          },
+          {
+            "question": "Which yoga posture is specifically mentioned for reducing high blood pressure and calming anger?",
+            "options": [
+              "Bhujaṅgāsan",
+              "Sasaṅgāsan",
+              "Dhanurāsan",
+              "Supta Vajrāsan"
+            ],
+            "answer": "Sasaṅgāsan"
+          },
+          {
+            "question": "As an added austerity, what type of vegetables do some Jains avoid?",
+            "options": [
+              "Leafy green vegetables",
+              "Cruciferous vegetables",
+              "Root vegetables",
+              "Nightshade vegetables"
+            ],
+            "answer": "Root vegetables"
+          },
+          {
+            "question": "What is the English name for Bhujaṅgāsan?",
+            "options": [
+              "Bow Pose",
+              "Rabbit Pose",
+              "Cobra Pose",
+              "Triangle Pose"
+            ],
+            "answer": "Cobra Pose"
+          },
+          {
+            "question": "Which pose is described as a 'better meditative posture than any other Āsan'?",
+            "options": [
+              "Vajrāsan",
+              "Padmāsan",
+              "Tāḍāsan",
+              "Sasaṅgāsan"
+            ],
+            "answer": "Padmāsan"
+          },
+          {
+            "question": "What is the recommended number of daily servings for the Vegetables group?",
+            "options": [
+              "One or more",
+              "Two or more",
+              "Three or more",
+              "Five or more"
+            ],
+            "answer": "Three or more"
+          },
+          {
+            "question": "Which pose's name translates to 'Thunderbolt Pose'?",
+            "options": [
+              "Dhanurāsan",
+              "Vajrāsan",
+              "Trikoṇāsan",
+              "Bhujaṅgāsan"
+            ],
+            "answer": "Vajrāsan"
+          },
+          {
+            "question": "The Protein and Amino Acids group includes legumes, nuts, and which other major category?",
+            "options": [
+              "Dairy products",
+              "Root vegetables",
+              "Soy derivatives",
+              "Whole grains"
+            ],
+            "answer": "Soy derivatives"
+          },
+          {
+            "question": "What is the English name for Dhanurāsan?",
+            "options": [
+              "Bow Pose",
+              "Supine Thunderbolt Pose",
+              "Lotus Posture",
+              "Rabbit Pose"
+            ],
+            "answer": "Bow Pose"
+          },
+          {
+            "question": "In Tāḍāsan, for how many seconds should one retain the breath while at the maximum stretch?",
+            "options": [
+              "2 seconds",
+              "4 seconds",
+              "6 seconds",
+              "8 seconds"
+            ],
+            "answer": "4 seconds"
+          },
+          {
+            "question": "Which pose is said to cure pains in the joints, especially the ankles and knees?",
+            "options": [
+              "Trikoṇāsan",
+              "Bhujaṅgāsan",
+              "Vajrāsan",
+              "Padmāsan"
+            ],
+            "answer": "Padmāsan"
+          },
+          {
+            "question": "What is the serving size for cooked beans according to the text?",
+            "options": [
+              "1/4 cup",
+              "1/2 cup",
+              "1 cup",
+              "2 cups"
+            ],
+            "answer": "1/2 cup"
+          },
+          {
+            "question": "Which pose involves lying on the stomach and arching the back by holding onto the ankles?",
+            "options": [
+              "Bhujaṅgāsan",
+              "Dhanurāsan",
+              "Sasaṅgāsan",
+              "Supta Vajrāsan"
+            ],
+            "answer": "Dhanurāsan"
+          },
+          {
+            "question": "What is the English name for Trikoṇāsan?",
+            "options": [
+              "Triangle Pose",
+              "Tree Pose",
+              "Thunderbolt Pose",
+              "Cobra Pose"
+            ],
+            "answer": "Triangle Pose"
+          },
+          {
+            "question": "According to the text, a healthy body leads to a healthy mind, which is essential for what?",
+            "options": [
+              "Physical strength",
+              "Emotional stability",
+              "Financial success",
+              "Spiritual progress"
+            ],
+            "answer": "Spiritual progress"
+          },
+          {
+            "question": "Which pose is the 'Supine Thunderbolt Pose'?",
+            "options": [
+              "Vajrāsan",
+              "Supta Vajrāsan",
+              "Padmāsan",
+              "Sasaṅgāsan"
+            ],
+            "answer": "Supta Vajrāsan"
+          },
+          {
+            "question": "The text recommends limiting the use of what item to avoid acidity?",
+            "options": [
+              "Salt",
+              "Sugar",
+              "Spices",
+              "Oils"
+            ],
+            "answer": "Spices"
+          },
+          {
+            "question": "Which yoga pose is known as the Rabbit Pose?",
+            "options": [
+              "Dhanurāsan",
+              "Bhujaṅgāsan",
+              "Sasaṅgāsan",
+              "Tāḍāsan"
+            ],
+            "answer": "Sasaṅgāsan"
+          }
+        ]
+      }
+    }
+  ]
+}

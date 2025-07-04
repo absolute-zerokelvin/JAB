@@ -543,6 +543,62 @@
             }
             ]
         },
+        {
+          "id": "section-k",
+          "title": "Section K",
+          "description": "Lessons from Section K",
+          "subsections": [
+            {
+              "id": "K1",
+              "title": "K.1",
+              "name": "Anekāntavād I: Theory of Multiplicity",
+              "url": "./tabTemplate.html?section=K1.json",
+              "dataFile": "K1.json"
+            },
+            {
+              "id": "K2",
+              "title": "K.2",
+              "name": "Anekāntavāda II: Pramāṇa, Naya, and Syādvāda",
+              "url": "./tabTemplate.html?section=K2.json",
+              "dataFile": "K2.json"
+            },
+            {
+              "id": "K3",
+              "title": "K.3",
+              "name": "Anekāntavād III: The Five Samvāy (Causal Factors)",
+              "url": "./tabTemplate.html?section=K3.json",
+              "dataFile": "K3.json"
+            },
+            {
+              "id": "K4",
+              "title": "K.4",
+              "name": "Fourteen Gunasthän - Stages of Spiritual Development",
+              "url": "./tabTemplate.html?section=K4.json",
+              "dataFile": "K4.json"
+            },
+            {
+              "id": "K5",
+              "title": "K.5",
+              "name": "Panchächär - The Five Codes of Conduct",
+              "url": "./tabTemplate.html?section=K5.json",
+              "dataFile": "K5.json"
+            },
+            {
+              "id": "K6",
+              "title": "K.6",
+              "name": "Jain Yoga",
+              "url": "./tabTemplate.html?section=K6.json",
+              "dataFile": "K6.json"
+            },
+            {
+              "id": "K7",
+              "title": "K.7",
+              "name": "Jainism in Action: A Guide to Health, Nutrition, and Yoga",
+              "url": "./tabTemplate.html?section=K7.json",
+              "dataFile": "K7.json"
+            }
+          ]
+        },
       {
         "id": "section-l",
         "title": "Section L",

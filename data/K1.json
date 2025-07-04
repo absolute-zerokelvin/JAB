@@ -1,0 +1,501 @@
+{
+  "sectionTitle": "Anekāntavād I: Theory of Multiplicity",
+  "tabs": [
+    {
+      "tabName": "Core Philosophy",
+      "contentType": "accordian",
+      "caption": "An introduction to the foundational principles of Anekāntavād, the Jain theory of non-absolutism.",
+      "tabData": {
+        "title": "Understanding Anekāntavād",
+        "items": [
+          {
+            "header": "What is Anekāntavād?",
+            "content": "Anekāntavād, literally meaning 'the multiplicity and relativity of viewpoints,' is a central tenet of Jain philosophy. It posits that reality is complex and multifaceted, and truth can be viewed from various perspectives. From the Jain standpoint, it is possible to overcome the apparent inconsistencies between different views to grasp the underlying truth. It argues that any single viewpoint represents only a partial truth and that absolute truth is the sum of all these partial, relative viewpoints. This principle fosters tolerance and a comprehensive understanding of reality."
+          },
+          {
+            "header": "The Parable of the Blind Men and an Elephant",
+            "content": "This classic story elegantly demonstrates Anekāntavād. Six blind men each touch a different part of an elephant—the leg, tail, trunk, ear, belly, and tusk—and each concludes the elephant is like a pillar, a rope, a python, a fan, a drum, and a pipe, respectively. They argue, each certain of their own conclusion. A wise person explains they are all partially correct, as they only perceived a fraction of the whole reality. This teaches us that non-omniscient beings have limited knowledge. Only an <span style='color:#00796b;'>omniscient being (Kevali)</span> can perceive the whole truth. Thus, we should express our views with humility, acknowledging they are true only from our limited perspective."
+          },
+          {
+            "header": "Key Jain Logicians",
+            "content": "The tradition of Jain logic is rich and ancient. Key figures who shaped its development between the 5th and 16th centuries include: <ul><li><b>Shri Siddhasen Diwākar:</b> Author of the <span style='font-style:italic;'>Nyāyāvatāra</span>, the earliest systematic manual on Jain logic.</li><li><b>Mallavādi</b></li><li><b>Haribhadra-suri</b></li><li><b>Akalank</b></li><li><b>Virsen</b></li><li><b>Vidyānandi</b></li><li><b>Devasuri</b></li><li><b>Āchārya Hemchandra</b></li><li><b>Yashovijayaji:</b> A highly influential 16th-century logician who synthesized and advanced the work of his predecessors.</li></ul>"
+          },
+          {
+            "header": "Practical Application of Anekāntavād",
+            "content": "Anekāntavād is not just a philosophical doctrine but a guide for ethical living. Its application encourages one to: <ul><li>Develop a strong urge to seek truth.</li><li>Believe in many possibilities and not insist on a single approach.</li><li>Accept partial truths expressed by others, even adversaries.</li><li>Exercise equanimity towards all.</li></ul>When combined with <span style='color:#d32f2f;'>Ahimsā (non-violence)</span> and <span style='color:#f57c00;'>Aparigraha (non-possessiveness)</span>, it promotes universal friendship, social equity, reconciliation of differences, and ecological conservation."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Nature of Reality",
+      "contentType": "accordian",
+      "caption": "Explore the Tripadi—the three-fold principle of origination, destruction, and permanence that defines every substance.",
+      "tabData": {
+        "title": "Tripadi: The Three-fold Nature of Substance",
+        "items": [
+          {
+            "header": "The Tripadi of Lord Mahāvir",
+            "content": "Shraman Bhagawān Mahāvir established the foundation of Jain philosophy in three phrases, known as the Tripadi: <br>1. <span style='color:#2e7d32; font-weight:bold;'>Uppannei Vä (Utpād):</span> Origination. This denotes the emergence of a new mode or phase of a substance. <br>2. <span style='color:#c62828; font-weight:bold;'>Vigamei Vä (Vyaya):</span> Destruction. This denotes the disappearance or vanishing of an old mode. <br>3. <span style='color:#1565c0; font-weight:bold;'>Dhuvei Vä (Dhrauvya):</span> Permanence. This denotes that the original, essential qualities of the substance remain constant throughout the changes."
+          },
+          {
+            "header": "Dravya, Guna, and Paryāya",
+            "content": "The Jain term for a substance or existence is <span style='font-weight:bold;'>Sat</span>. Every Sat has three aspects: <br><b>Dravya (Substance):</b> The permanent, underlying substance itself which is not destroyable. <br><b>Guna (Qualities):</b> The inseparable and permanent essence or attributes of a substance. <br><b>Paryāya (Modes):</b> The constantly changing, transient forms or states of a substance. While modes (Paryāya) are always changing, the substance (Dravya) and its qualities (Guna) persist."
+          },
+          {
+            "header": "Examples Explained",
+            "content": "<b>Example 1: Gold</b><ul><li><b>Dravya:</b> Gold.</li><li><b>Guna:</b> Yellowness, malleability, etc.</li><li><b>Paryāya:</b> Bar, chain, bangle.</li></ul>When a gold bar (old Paryāya) is melted to make a chain (new Paryāya), the mode of 'bar' is destroyed (Vyaya) and the mode of 'chain' is originated (Utpād). Throughout this transformation, the gold itself (Dravya) and its inherent qualities (Guna) remain permanent (Dhrauvya).<br><br><b>Example 2: Soul</b><ul><li><b>Dravya:</b> Soul.</li><li><b>Guna:</b> Knowledge (Jnān), bliss (Ānand), energy (Virya).</li><li><b>Paryāya:</b> Childhood, youth, old age; a human body, a celestial body.</li></ul>The soul persists through different life stages and different bodies, which are all transient modes (Paryāya). The soul (Dravya) and its core qualities (Guna) are permanent."
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Framework of Knowledge",
+      "contentType": "mindmap",
+      "tabData": {
+        "title": "Jain Epistemology: How to Know a Substance",
+        "description": "This mindmap illustrates the four categories used in Jain philosophy to understand a substance completely, from its basic characteristics to the analysis of its meaning in different contexts.",
+        "nodes": [
+          {
+            "id": "1",
+            "text": "Knowing a Substance",
+            "parent": null
+          },
+          {
+            "id": "2",
+            "text": "Lakshan",
+            "description": "The unique characteristic present only in a specific substance and no other. E.g., consciousness (chetanā) is the Lakshan of a soul.",
+            "parent": "1"
+          },
+          {
+            "id": "3",
+            "text": "Pramān",
+            "description": "True and complete knowledge of a substance from all angles, without limitations or doubts.",
+            "parent": "1"
+          },
+          {
+            "id": "3a",
+            "text": "Pratyaksha Jnān",
+            "description": "Direct knowledge gained without the medium of senses or mind. Includes Avadhi Jnān, Manah-paryav Jnān, and Keval-jnān.",
+            "parent": "3"
+          },
+          {
+            "id": "3b",
+            "text": "Paroksha Jnān",
+            "description": "Indirect knowledge gained through the senses, mind, or scriptures. Includes Mati Jnān and Shrut-jnän.",
+            "parent": "3"
+          },
+          {
+            "id": "4",
+            "text": "Naya",
+            "description": "A partial point of view that grasps only one aspect of an object. It is a valid but incomplete truth.",
+            "parent": "1"
+          },
+          {
+            "id": "5",
+            "text": "Nikshep",
+            "description": "The analysis of truth through language; exploring how a single word can have different meanings based on context.",
+            "parent": "1"
+          },
+          {
+            "id": "5a",
+            "text": "Nām Nikshep (Name)",
+            "description": "Referring to an object by its conventional name, regardless of its qualities. E.g., calling a poor man 'Indra'.",
+            "parent": "5"
+          },
+          {
+            "id": "5b",
+            "text": "Sthāpanā Nikshep (Symbol)",
+            "description": "Referring to an object through its representation or symbol. E.g., an idol of Mahāvir Swāmi.",
+            "parent": "5"
+          },
+          {
+            "id": "5c",
+            "text": "Dravya Nikshep (Potentiality)",
+            "description": "Referring to an object based on its past or future state. E.g., calling a prince a 'king'.",
+            "parent": "5"
+          },
+          {
+            "id": "5d",
+            "text": "Bhāv Nikshep (Actuality)",
+            "description": "Referring to an object based on its present state and function. E.g., a person is a king only while actively ruling.",
+            "parent": "5"
+          }
+        ]
+      }
+    },
+    {
+      "tabName": "Key Terms",
+      "contentType": "flashCards",
+      "tabData": [
+        {
+          "title": "Fundamental Concepts in Anekāntavād",
+          "description": "Learn the essential Sanskrit terms and their meanings related to the Jain theory of multiplicity.",
+          "frontColor": "#e0f7fa",
+          "backColor": "#b2ebf2",
+          "cards": [
+            {
+              "front": "Anekāntavād",
+              "back": "The theory of multiplicity or non-absolutism; the doctrine that truth is multifaceted."
+            },
+            {
+              "front": "Dravya",
+              "back": "The underlying, permanent substance."
+            },
+            {
+              "front": "Guna",
+              "back": "The inherent, inseparable qualities or attributes of a substance."
+            },
+            {
+              "front": "Paryāya",
+              "back": "The transient modes, forms, or modifications of a substance."
+            },
+            {
+              "front": "Utpād",
+              "back": "Origination or emergence of a new mode (Paryāya)."
+            },
+            {
+              "front": "Vyaya",
+              "back": "Destruction or disappearance of an old mode (Paryāya)."
+            },
+            {
+              "front": "Dhrauvya",
+              "back": "Permanence; the constant nature of the substance (Dravya) through all changes."
+            },
+            {
+              "front": "Sat",
+              "back": "Existence or being; a substance that has the three aspects: Dravya, Guna, and Paryāya."
+            },
+            {
+              "front": "Naya",
+              "back": "A partial point of view; knowledge of a substance from a specific perspective."
+            },
+            {
+              "front": "Pramān",
+              "back": "Complete, true, and valid knowledge of a substance in its entirety."
+            },
+            {
+              "front": "Nikshep",
+              "back": "A method of analysis of truth; the four ways a word can convey meaning (Name, Symbol, Potentiality, Actuality)."
+            },
+            {
+              "front": "Nyāyāvatāra",
+              "back": "The earliest known Jain manual on logic, composed by Shri Siddhasen Diwākar."
+            },
+            {
+              "front": "Dravyārthik Naya",
+              "back": "The substantial point of view, which focuses on the permanence of the substance."
+            },
+            {
+              "front": "Paryāyārthik Naya",
+              "back": "The modal point of view, which focuses on the changing modes of the substance."
+            },
+            {
+              "front": "Lakshan",
+              "back": "The unique characteristic that defines a substance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabName": "Jain Logicians",
+      "contentType": "timeline",
+      "caption": "A brief timeline highlighting some of the most influential figures in the history of Jain logic.",
+      "tabData": [
+        {
+          "era": "The Golden Age of Jain Logic",
+          "period": "5th Century CE - 16th Century CE",
+          "events": [
+            {
+              "title": "The Pioneer: Siddhasen Diwākar (c. 5th Century CE)",
+              "description": "A Shvetāmbar Āchārya who is credited with composing the Nyāyāvatāra, the earliest systematic Jain manual on logic. He established a formal foundation for Jain epistemology, setting the stage for future philosophical discourse.",
+              "characters": [
+                "Siddhasen Diwākar"
+              ]
+            },
+            {
+              "title": "Era of Great Logicians (c. 6th - 13th Century CE)",
+              "description": "Following Siddhasen Diwākar, a series of brilliant Jain thinkers like Mallavādi, Haribhadra-suri, Akalank, Virsen, Vidyānandi, Devasuri, and Āchārya Hemchandra expanded upon and debated logical principles. They actively participated in philosophical dialogues with other Indian schools of thought, defending and refining Jain doctrines.",
+              "characters": [
+                "Mallavādi",
+                "Haribhadra-suri",
+                "Akalank",
+                "Virsen",
+                "Vidyānandi",
+                "Devasuri",
+                "Āchārya Hemchandra"
+              ]
+            },
+            {
+              "title": "The Great Synthesizer: Yashovijayaji (c. 16th Century CE)",
+              "description": "A prominent and prolific Jain philosopher and logician who is often seen as the culmination of this great logical tradition. He synthesized the works of his predecessors and made significant contributions to Jain philosophy, logic, and ethics, leaving a lasting impact.",
+              "characters": [
+                "Yashovijayaji"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tabName": "Quiz",
+      "contentType": "quiz",
+      "tabData": {
+        "title": "Anekāntavād Knowledge Challenge",
+        "questions": [
+          {
+            "question": "What is the literal translation of Anekāntavād?",
+            "options": [
+              "One-sidedness",
+              "Theory of Permanence",
+              "Multiplicity of viewpoints",
+              "Absolute Truth"
+            ],
+            "answer": "Multiplicity of viewpoints"
+          },
+          {
+            "question": "Who is the author of the Nyāyāvatāra, the earliest known Jain manual on logic?",
+            "options": [
+              "Āchārya Hemchandra",
+              "Siddhasen Diwākar",
+              "Kundkund Āchārya",
+              "Yashovijayaji"
+            ],
+            "answer": "Siddhasen Diwākar"
+          },
+          {
+            "question": "In the parable of the elephant and the blind men, what does the elephant represent?",
+            "options": [
+              "Absolute Truth",
+              "Partial Knowledge",
+              "The Universe",
+              "Reality in its entirety"
+            ],
+            "answer": "Reality in its entirety"
+          },
+          {
+            "question": "According to Jain philosophy, who can know the 'whole truth'?",
+            "options": [
+              "A learned scholar",
+              "A king",
+              "An omniscient being (Kevali)",
+              "A group of wise men"
+            ],
+            "answer": "An omniscient being (Kevali)"
+          },
+          {
+            "question": "Which term from the Tripadi signifies the emergence of a new phase or mode?",
+            "options": [
+              "Vyaya",
+              "Dhrauvya",
+              "Utpād",
+              "Paryāya"
+            ],
+            "answer": "Utpād"
+          },
+          {
+            "question": "Which term from the Tripadi signifies the permanence of the substance?",
+            "options": [
+              "Utpād",
+              "Laya",
+              "Vyaya",
+              "Dhrauvya"
+            ],
+            "answer": "Dhrauvya"
+          },
+          {
+            "question": "In the example of gold being made into a chain, what is the 'Dravya'?",
+            "options": [
+              "The chain",
+              "The goldsmith",
+              "The gold",
+              "The shape of the bar"
+            ],
+            "answer": "The gold"
+          },
+          {
+            "question": "In the same example, what is the 'Paryāya'?",
+            "options": [
+              "The yellowness of the gold",
+              "The gold itself",
+              "The chain",
+              "The value of the gold"
+            ],
+            "answer": "The chain"
+          },
+          {
+            "question": "The essential, inseparable qualities of a substance are known as what?",
+            "options": [
+              "Dravya",
+              "Paryāya",
+              "Guna",
+              "Sat"
+            ],
+            "answer": "Guna"
+          },
+          {
+            "question": "What is the Jain term for complete knowledge of a substance from all angles?",
+            "options": [
+              "Naya",
+              "Pramān",
+              "Nikshep",
+              "Lakshan"
+            ],
+            "answer": "Pramān"
+          },
+          {
+            "question": "Knowledge gained directly, without the medium of senses, like Keval-jnän, is called what?",
+            "options": [
+              "Paroksha Jnān",
+              "Shrut Jnān",
+              "Pratyaksha Jnān",
+              "Mati Jnān"
+            ],
+            "answer": "Pratyaksha Jnān"
+          },
+          {
+            "question": "A partial point of view, which grasps only one aspect of an object, is known as?",
+            "options": [
+              "Pramān",
+              "Naya",
+              "Dravya",
+              "Nikshep"
+            ],
+            "answer": "Naya"
+          },
+          {
+            "question": "When a Naya denies all other standpoints and puts forward its partial truth as the whole truth, it becomes a...",
+            "options": [
+              "Pramān",
+              "Pseudo-Naya",
+              "True Naya",
+              "Nikshep"
+            ],
+            "answer": "Pseudo-Naya"
+          },
+          {
+            "question": "What is the general term for the four-way analysis of truth through language?",
+            "options": [
+              "Tripadi",
+              "Naya",
+              "Nikshep",
+              "Pramān"
+            ],
+            "answer": "Nikshep"
+          },
+          {
+            "question": "Referring to a prince as 'the king' because he will be king in the future is an example of which Nikshep?",
+            "options": [
+              "Nām Nikshep",
+              "Sthāpanā Nikshep",
+              "Dravya Nikshep",
+              "Bhāv Nikshep"
+            ],
+            "answer": "Dravya Nikshep"
+          },
+          {
+            "question": "Worshipping a marble idol and calling it Mahāvir Swāmi is an example of which Nikshep?",
+            "options": [
+              "Nām Nikshep",
+              "Sthāpanā Nikshep",
+              "Dravya Nikshep",
+              "Bhāv Nikshep"
+            ],
+            "answer": "Sthāpanā Nikshep"
+          },
+          {
+            "question": "Calling a person 'king' only when he is actively ruling with his royal scepter is an example of which Nikshep?",
+            "options": [
+              "Nām Nikshep",
+              "Sthāpanā Nikshep",
+              "Dravya Nikshep",
+              "Bhāv Nikshep"
+            ],
+            "answer": "Bhāv Nikshep"
+          },
+          {
+            "question": "Which of the following is considered a 'Guna' of the soul?",
+            "options": [
+              "Human body",
+              "Childhood",
+              "Knowledge (Jnān)",
+              "A specific lifetime"
+            ],
+            "answer": "Knowledge (Jnān)"
+          },
+          {
+            "question": "The viewpoint that focuses on the permanent, unchanging nature of a substance is called?",
+            "options": [
+              "Paryāyārthik Naya",
+              "Dravyārthik Naya",
+              "Bhāv Nikshep",
+              "Utpād"
+            ],
+            "answer": "Dravyārthik Naya"
+          },
+          {
+            "question": "Anekāntavād, along with Ahimsā and Aparigraha, strengthens which belief?",
+            "options": [
+              "Every living being has a right to self-existence",
+              "Only humans have the right to think",
+              "Material possessions lead to happiness",
+              "Absolute truth is easy to find"
+            ],
+            "answer": "Every living being has a right to self-existence"
+          },
+          {
+            "question": "What does 'Vyaya' from the Tripadi signify?",
+            "options": [
+              "Creation of a new mode",
+              "Permanence of qualities",
+              "Destruction of an old mode",
+              "The substance itself"
+            ],
+            "answer": "Destruction of an old mode"
+          },
+          {
+            "question": "Knowledge gained through sensory organs and scriptures, like Mati Jnān and Shrut Jnān, is an example of what?",
+            "options": [
+              "Pratyaksha Jnān",
+              "Keval Jnān",
+              "Paroksha Jnān",
+              "Naya"
+            ],
+            "answer": "Paroksha Jnān"
+          },
+          {
+            "question": "The Jain term for 'substance' which is a combination of Dravya, Guna, and Paryāya is?",
+            "options": [
+              "Bhāv",
+              "Sat",
+              "Naya",
+              "Laya"
+            ],
+            "answer": "Sat"
+          },
+          {
+            "question": "Calling a poor person by the name 'Raja' (king) is an example of which Nikshep?",
+            "options": [
+              "Sthāpanā Nikshep",
+              "Dravya Nikshep",
+              "Bhāv Nikshep",
+              "Nām Nikshep"
+            ],
+            "answer": "Nām Nikshep"
+          },
+          {
+            "question": "According to Jainism, the total number of substances in the universe...",
+            "options": [
+              "Is constantly increasing",
+              "Is constantly decreasing",
+              "Remains constant",
+              "Changes with every cycle of time"
+            ],
+            "answer": "Remains constant"
+          }
+        ]
+      }
+    }
+  ]
+}
