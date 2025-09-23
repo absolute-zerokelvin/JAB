@@ -10,6 +10,7 @@
     "watch": "nodemon --watch . --ext js,html,css,json --ignore dist/ --exec 'npm run build'",
 
     "preview": "node build.js && npx http-server dist -p 3000",
+    "dev:preview": "concurrently \"npm:dev\" \"npx http-server dist -p 3000\"",
     "clean": "rm -rf dist",
     "deploy": "npm run build && npm run deploy:gh-pages",
     "deploy:gh-pages": "gh-pages -d dist",
