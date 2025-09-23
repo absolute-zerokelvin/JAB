@@ -7,6 +7,9 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+#generator for now
+generator/.env
+generator/aivertex.json
 # Build output
 dist/
 build/

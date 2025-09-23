@@ -1,200 +1,393 @@
 {
-  "title": "The Story of Sage Nandisen",
-  "subtitle": "Section G.3 from JAB Manual",
+  "id": "G3",
+  "title": "G.3. Sage Nandisen",
+  "subtitle": "A devoted sage, Nandisen, is tested by a demigod disguised as an ailing monk, showcasing his unwavering tolerance, compassion, and contentment.",
   "storyContent": [
     {
       "tagType": "h3",
-      "tagHTML": "A Devotion Praised in Heaven"
+      "tagHTML": "Praise in Heaven, Test on Earth"
     },
     {
       "tagType": "p",
-      "tagHTML": "Sage Nandisen was a great ascetic, renowned for his vow to serve other monks with utmost devotion. His dedication was so profound that it was commended by <span class=\"highlight\">Indra</span>, the king of the heavenly abode, in an assembly of demigods. One of these demigods, surprised that a mere mortal could warrant such high praise, decided to travel to Earth to test the Sage's worthiness."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
+      "tagHTML": "Sage Nandisen was a great ascetic and well versed in scriptures. He took a vow to serve other monks with utmost devotion. His devotion in serving the monks was popular even in the heavenly abode. One day, Indra commended his services during an assembly of demigods. One of the demigods was surprised at such high praise for a mere mortal. Therefore, he decided to see the worthiness of Sage Nandisen."
     },
     {
       "tagType": "h3",
-      "tagHTML": "The Ultimate Test of Patience"
+      "tagHTML": "The Call for Help"
     },
     {
       "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" /><path d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" /></svg>The demigod disguised himself as a very old, sick monk. As Sage Nandisen was about to break his fast, another monk (also the demigod in disguise) asked for help. Nandisen immediately went to the old monk, who greeted him with insults. Unoffended, Nandisen calmly offered him water and cleaning. The old monk grew more irritated, yet Nandisen offered to carry him on his shoulders to the <span class=\"highlight\">Upäshray</span> (monks' lodging)."
+      "tagHTML": "The demigod arrived at the outskirts of the village and assumed the form of two monks, one very old and injured and the other young and healthy. Sage Nandisen had just returned from collecting Gochari (alms) and was about to break his fast when the young monk came to him and said, “Oh blessed one! There is a very old monk suffering from diarrhea, extreme thirst, and hunger. He is weak and needs your help.”"
     },
     {
       "tagType": "p",
-      "tagHTML": "Determined to break his resolve, the demigod then <span class=\"highlight\">vomited, urinated, and defecated</span> all over Sage Nandisen while being carried. The old monk again hurled harsh words at him. Yet, Nandisen was not disturbed in the slightest. He simply said, “Pardon me. Let me clean your clothes again,” and continued on his way, thinking only of how to care for the sick monk."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
+      "tagHTML": "Hearing these words, Sage Nandisen immediately got up, took clean water, and went to the old monk."
     },
     {
       "tagType": "h3",
-      "tagHTML": "A Divine Reward Refused"
+      "tagHTML": "Trials of Patience"
     },
     {
       "tagType": "p",
-      "tagHTML": "Upon arriving at the Upäshray, the demigod revealed his true, angelic form. He bowed to Sage Nandisen, admitting that he had passed the test and truly deserved Indra's praise. The angel offered to grant Nandisen any wish he desired."
+      "tagHTML": "Seeing Nandisen, the old monk raged, “Oh you wretch, I am lying here suffering and you did not even care to see if anyone needs help.”"
     },
     {
       "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>Sage Nandisen replied with perfect tranquility, “Oh, heavenly angel, this human life is very precious. Nothing is more valuable than human existence. I am content. <span class=\"highlight\">I crave nothing.</span>” The astonished angel bowed once more and returned to heaven, praising the sage's incredible virtues of tolerance and contentment."
+      "tagHTML": "Sage Nandisen was not offended by these words due to his virtues of tolerance, forgiveness, and compassion. He calmly replied, “Oh, the best of monks, kindly excuse my oversight. I have brought clean water for you to drink.”"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "He helped the old monk drink the water, and then cleaned his clothes, his body, and helped him sit up. The old monk again became irritated. He frowned, “Oh you fool, do you not see that I am too weak to sit? What are you doing to me?”"
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Difficult Journey"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Sage Nandisen replied politely, “I will help you.” After helping the old monk sit up, he said, “Oh revered monk, if you desire, I shall carry you to the Upäshray (a place where monks stay temporarily) where you will be more comfortable.”"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The monk replied, “Why are you asking me? You may do so if you wish.”"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Sage Nandisen therefore seated the monk on his shoulders and slowly proceeded towards the Upäshray. He walked slowly, watching every step carefully."
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Unwavering Service"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "The demigod was determined to test him, so he vomited, urinated, and defecated on Sage Nandisen. The old monk said, “Oh you wretch, what is wrong with you? Can’t you see that I am sitting in my own filth? Is this the way to serve the sick?”"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "Despite the old monk’s actions and his harsh words, Sage Nandisen was not disturbed at all. He said, “Pardon me. Let me clean your clothes again.”"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "After cleaning the monk’s clothes, Sage Nandisen also cleaned his clothes and made sure the old monk was comfortable. Then he continued walking and took care not to offend the monk with any more of his actions. On the way, he thought of ways to cure the monk. During all this, the old monk was watching Sage Nandisen and did not see any change in the helping nature of the sage even after all the aggravation."
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "The Revelation"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "When they arrived at the Upäshray, the old monk turned back into an angel and bowed down at once to Sage Nandisen, saying, “You are blessed. Oh Sage, you are the illustration of a real monk. You deserve all the praise given by Indra. I am very pleased with you and will grant you whatever you wish.”"
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "A Sage's Contentment"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "“Oh, heavenly angel, this human life is very precious. Nothing is more valuable than human existence. I am content. I crave nothing,” said Sage Nandisen. The heavenly angel bowed his head at the feet of the Sage and returned to his abode, applauding the merits of the Sage."
+    },
+    {
+      "tagType": "h3",
+      "tagHTML": "Moral of the Story"
+    },
+    {
+      "tagType": "p",
+      "tagHTML": "This story teaches us the importance of tolerance, discipline, and contentment which are all fundamental values of Jainism. First and foremost, Sage Nandisen chose to devote his life to serving monks, an admirable goal requiring the utmost level of dedication and discipline. He demonstrated his tolerance and willingness to serve others without even knowing that the demigod was testing him. This means that he was truly dedicated to monks and believed in what he was doing. He also indicated his contentment with the human life when asked for a wish. This contentment is symbolic of the principle of non-possessiveness."
     }
   ],
   "timelineData": [
     {
-      "era": "A Reputation in Heaven",
-      "period": "Ancient times",
+      "era": "The Test of Sage Nandisen",
+      "period": "Heavenly Assembly & Earthly Arrival",
       "events": [
         {
-          "title": "Devotion Recognized",
-          "description": "Sage Nandisen's dedication to serving other monks becomes so renowned that it is praised by Indra, the king of gods.",
-          "characters": ["Sage Nandisen", "Indra"]
+          "id": "event1",
+          "title": "Indra's Praise & Demigod's Skepticism",
+          "description": "Indra praises Sage Nandisen's devotion in a heavenly assembly; a demigod becomes skeptical and decides to test him.",
+          "characters": ["Indra", "Demigod", "Sage Nandisen (mentioned)"]
         },
         {
-          "title": "A Divine Test",
-          "description": "A skeptical demigod decides to descend to Earth to test if a mortal is truly worthy of such high praise.",
-          "characters": ["The Demigod"]
+          "id": "event2",
+          "title": "Demigod's Disguise and Arrival",
+          "description": "The demigod arrives near the village and assumes the forms of a very old, injured monk and a young, healthy monk.",
+          "characters": ["Demigod (as Old Monk)", "Demigod (as Young Monk)"]
         }
       ]
     },
     {
-      "era": "The Earthly Trial",
-      "period": "The day of the test",
+      "era": "The Test of Sage Nandisen",
+      "period": "The Encounter and Initial Service",
       "events": [
         {
-          "title": "The Disguise",
-          "description": "The demigod takes the form of an old, sick monk. Sage Nandisen is called away from his meal to help.",
-          "characters": ["Sage Nandisen", "The Demigod (as monks)"]
+          "id": "event3",
+          "title": "Young Monk's Plea to Nandisen",
+          "description": "The young monk (demigod) approaches Sage Nandisen, who is about to break his fast, and informs him of the suffering old monk.",
+          "characters": ["Sage Nandisen", "Young Monk (Demigod)"]
         },
         {
-          "title": "Verbal Abuse",
-          "description": "The old monk hurls insults at Nandisen, who responds with perfect calm and compassion.",
-          "characters": ["Sage Nandisen", "The Demigod (as old monk)"]
-        },
-        {
-          "title": "Physical Defilement",
-          "description": "While being carried, the old monk vomits, urinates, and defecates on Sage Nandisen, who remains completely undisturbed.",
-          "characters": ["Sage Nandisen", "The Demigod (as old monk)"]
+          "id": "event4",
+          "title": "Nandisen's Immediate Response & Care",
+          "description": "Sage Nandisen immediately abandons his meal, takes clean water, goes to the old monk, and despite the monk's rebukes, calmly offers water, cleans him, and helps him sit up.",
+          "characters": ["Sage Nandisen", "Old Monk (Demigod)"]
         }
       ]
     },
     {
-      "era": "The Revelation",
-      "period": "Arrival at the Upäshray",
+      "era": "The Test of Sage Nandisen",
+      "period": "The Journey and Extreme Trials",
       "events": [
         {
-          "title": "True Form Revealed",
-          "description": "Having failed to break Nandisen's composure, the demigod transforms back into a celestial angel and bows to the sage.",
-          "characters": ["Sage Nandisen", "The Demigod"]
+          "id": "event5",
+          "title": "Offer to Carry to Upäshray",
+          "description": "Sage Nandisen politely offers to carry the old monk to the Upäshray for better comfort, which the monk passively accepts.",
+          "characters": ["Sage Nandisen", "Old Monk (Demigod)"]
         },
         {
-          "title": "A Wish is Offered",
-          "description": "Impressed beyond measure, the angel offers to grant Sage Nandisen any wish he desires as a reward.",
-          "characters": ["Sage Nandisen", "The Demigod"]
+          "id": "event6",
+          "title": "Extreme Tests During Journey",
+          "description": "While being carried, the demigod (as old monk) vomits, urinates, and defecates on Sage Nandisen and verbally abuses him.",
+          "characters": ["Sage Nandisen", "Old Monk (Demigod)"]
         },
         {
-          "title": "The Ultimate Contentment",
-          "description": "Sage Nandisen refuses the boon, stating that he craves nothing and is content with his human life, demonstrating perfect non-possessiveness.",
-          "characters": ["Sage Nandisen", "The Demigod"]
+          "id": "event7",
+          "title": "Nandisen's Unwavering Composure",
+          "description": "Sage Nandisen remains completely undisturbed, cleans the monk and himself again, and continues the journey with care, thinking of ways to cure the monk.",
+          "characters": ["Sage Nandisen", "Old Monk (Demigod)"]
+        }
+      ]
+    },
+    {
+      "era": "The Test of Sage Nandisen",
+      "period": "Revelation and Conclusion",
+      "events": [
+        {
+          "id": "event8",
+          "title": "Arrival and Divine Revelation",
+          "description": "Upon reaching the Upäshray, the old monk transforms back into a radiant angel (demigod) and bows to Sage Nandisen, praising his virtue.",
+          "characters": ["Sage Nandisen", "Demigod (Angel)"]
+        },
+        {
+          "id": "event9",
+          "title": "Wish Offered and Declined",
+          "description": "The angel offers Sage Nandisen any wish, but the sage expresses complete contentment with human life and craves nothing.",
+          "characters": ["Sage Nandisen", "Demigod (Angel)"]
+        },
+        {
+          "id": "event10",
+          "title": "Angel's Departure and Acclaim",
+          "description": "The angel bows to Sage Nandisen and returns to the heavenly abode, applauding the sage's merits.",
+          "characters": ["Demigod (Angel)", "Sage Nandisen (mentioned)"]
         }
       ]
     }
   ],
   "charactersData": [
     {
+      "id": "sage_nandisen",
       "name": "Sage Nandisen",
-      "description": "A great Jain ascetic whose defining vow was to serve other monks. His story is a powerful illustration of the virtues of tolerance, compassion, discipline, and contentment."
+      "description": "A great ascetic, well-versed in scriptures, who took a vow to serve other monks with utmost devotion. He exemplifies tolerance, forgiveness, compassion, and contentment.",
+      "type": "Human Sage"
     },
     {
-      "name": "The Demigod",
-      "description": "A heavenly being who, initially skeptical of Nandisen's greatness, disguised himself as a sick old monk to subject the sage to a series of extreme tests."
-    },
-    {
+      "id": "indra",
       "name": "Indra",
-      "description": "The king of the heavenly abode. His praise for Sage Nandisen in a celestial assembly is what initiated the story's main events."
+      "description": "King of the heavenly gods, who commended Sage Nandisen's services in an assembly of demigods.",
+      "type": "Deity"
+    },
+    {
+      "id": "demigod_tester",
+      "name": "Demigod (Tester/Angel)",
+      "description": "Initially surprised by Indra's praise for a mortal, this demigod decided to test Sage Nandisen. Later, impressed by the sage's virtue, he appeared as an angel and offered a wish.",
+      "type": "Deity/Angel"
+    },
+    {
+      "id": "old_monk_disguise",
+      "name": "Old Monk (Disguise)",
+      "description": "The form of a very old, injured, and irritable monk assumed by the demigod to test Sage Nandisen's patience and devotion.",
+      "type": "Disguise of Demigod"
+    },
+    {
+      "id": "young_monk_disguise",
+      "name": "Young Monk (Disguise)",
+      "description": "The form of a young, healthy monk assumed by the demigod to inform Sage Nandisen about the (fictional) suffering old monk.",
+      "type": "Disguise of Demigod"
     }
   ],
   "quizData": [
-    { "question": "What was the special vow that Sage Nandisen was famous for?", "answer": "To serve other monks with utmost devotion." },
-    { "question": "Who praised Sage Nandisen's service in the assembly of demigods?", "answer": "Indra, the king of the heavenly abode." },
-    { "question": "Why did one of the demigods decide to test Sage Nandisen?", "answer": "He was surprised at such high praise for a mere mortal and wanted to see if he was worthy." },
-    { "question": "What form did the demigod take to test Sage Nandisen?", "answer": "He took the form of two monks: one very old and sick, and one young and healthy." },
-    { "question": "What was Sage Nandisen about to do when he was called to help?", "answer": "He had just returned from collecting alms (Gochari) and was about to break his fast." },
-    { "question": "How did the old monk first greet Sage Nandisen?", "answer": "With harsh words and insults, calling him a wretch." },
-    { "question": "How did Sage Nandisen react to the old monk's harsh words?", "answer": "He was not offended and calmly replied, showing tolerance and compassion." },
-    { "question": "What extreme physical test did the demigod subject Sage Nandisen to while being carried?", "answer": "He vomited, urinated, and defecated on him." },
-    { "question": "Did Sage Nandisen get angry or disturbed by this physical defilement?", "answer": "No, he was not disturbed at all and offered to clean the monk's clothes again." },
-    { "question": "What did the demigod do when they finally arrived at the Upäshray?", "answer": "He turned back into an angel and bowed down to Sage Nandisen." },
-    { "question": "What did the angel offer Sage Nandisen as a reward for passing the test?", "answer": "He offered to grant him any wish he desired." },
-    { "question": "What was Sage Nandisen's reply to the angel's offer?", "answer": "He said, 'I am content. I crave nothing,' refusing the wish." },
-    { "question": "By refusing the wish, which fundamental Jain principle did Sage Nandisen demonstrate?", "answer": "Contentment and non-possessiveness (Aparigraha)." },
-    { "question": "What did Sage Nandisen say was the most precious and valuable thing?", "answer": "Human existence." }
+    {
+      "id": "q1",
+      "question": "Why did one of the demigods decide to test Sage Nandisen?",
+      "options": [
+        "Indra ordered the test.",
+        "The demigod was bored.",
+        "He was surprised at Indra's high praise for a mere mortal and wanted to see his worthiness.",
+        "Sage Nandisen had challenged the demigods."
+      ],
+      "answer": "He was surprised at Indra's high praise for a mere mortal and wanted to see his worthiness.",
+      "explanation": "The demigod was skeptical of Indra's commendation of Sage Nandisen and decided to verify the sage's virtues personally."
+    },
+    {
+      "id": "q2",
+      "question": "What was Sage Nandisen about to do when the young monk (demigod in disguise) approached him?",
+      "options": [
+        "Meditate",
+        "Teach scriptures",
+        "Break his fast after collecting alms",
+        "Go to sleep"
+      ],
+      "answer": "Break his fast after collecting alms",
+      "explanation": "Sage Nandisen had just returned from collecting Gochari (alms) and was about to break his fast when he was informed about the supposedly suffering monk."
+    },
+    {
+      "id": "q3",
+      "question": "How did Sage Nandisen react to the old monk's initial harsh words and accusations?",
+      "options": [
+        "He became angry and argued back.",
+        "He ignored the monk and left.",
+        "He was not offended and calmly offered help, excusing his perceived oversight.",
+        "He reported the monk to the authorities."
+      ],
+      "answer": "He was not offended and calmly offered help, excusing his perceived oversight.",
+      "explanation": "Due to his virtues of tolerance, forgiveness, and compassion, Sage Nandisen remained calm and continued his efforts to serve the monk."
+    },
+    {
+      "id": "q4",
+      "question": "What extreme actions did the demigod (disguised as the old monk) take while Sage Nandisen was carrying him?",
+      "options": [
+        "He praised Sage Nandisen continuously.",
+        "He fell asleep.",
+        "He vomited, urinated, and defecated on Sage Nandisen.",
+        "He offered Sage Nandisen gifts."
+      ],
+      "answer": "He vomited, urinated, and defecated on Sage Nandisen.",
+      "explanation": "To further test Sage Nandisen's patience and commitment, the demigod subjected him to these unpleasant acts."
+    },
+    {
+      "id": "q5",
+      "question": "What did Sage Nandisen say when the angel (demigod in his true form) offered him any wish?",
+      "options": [
+        "He asked for wealth and power.",
+        "He asked for a place in heaven.",
+        "He said he was content and craved nothing, valuing human existence.",
+        "He asked for the angel to serve him."
+      ],
+      "answer": "He said he was content and craved nothing, valuing human existence.",
+      "explanation": "Sage Nandisen demonstrated his contentment and understanding of the preciousness of human life by declining any material or heavenly boons."
+    }
   ],
   "mindmapV1Data": {
-    "name": "The Trial of Sage Nandisen",
+    "name": "Sage Nandisen: A Test of Virtue",
     "children": [
       {
-        "name": "The Premise",
+        "name": "Heavenly Context",
         "children": [
-          { "name": "Indra's Praise in Heaven" },
-          { "name": "A Demigod's Doubt" },
-          { "name": "The Test is Devised" }
+          {"name": "Nandisen's Renowned Devotion"},
+          {"name": "Indra's Commendation"},
+          {"name": "Demigod's Skepticism & Decision to Test"}
         ]
       },
       {
-        "name": "The Ordeal",
+        "name": "The Test Begins",
         "children": [
-          { "name": "The Disguise (Old Monk)" },
-          { "name": "Verbal Abuse" },
-          { "name": "Physical Defilement" },
-          { "name": "Nandisen's Perfect Equanimity" }
+          {"name": "Demigod's Disguise (Old & Young Monks)"},
+          {"name": "Young Monk Informs Nandisen"},
+          {"name": "Nandisen Abandons Fast, Goes to Help"}
         ]
       },
       {
-        "name": "The Revelation",
+        "name": "Trials of Endurance",
         "children": [
-          { "name": "The Angel Revealed" },
-          { "name": "The Offer of a Wish" },
-          { "name": "The Refusal (Contentment)" }
+          {"name": "Old Monk's Initial Anger & Accusations"},
+          {"name": "Nandisen's Calm Response & Care"},
+          {"name": "Old Monk's Continued Irritation"},
+          {"name": "Nandisen Offers to Carry Monk to Upäshray"},
+          {
+            "name": "Journey to Upäshray: Extreme Tests",
+            "children": [
+              {"name": "Physical Defilement (Vomit, Urine, etc.)"},
+              {"name": "Harsh Verbal Abuse"}
+            ]
+          },
+          {"name": "Nandisen's Unwavering Service & Composure"}
         ]
       },
       {
-        "name": "The Moral",
+        "name": "Revelation & Recognition",
         "children": [
-          { "name": "Tolerance" },
-          { "name": "Discipline" },
-          { "name": "Contentment" }
+          {"name": "Arrival at Upäshray"},
+          {"name": "Old Monk Transforms into Angel (Demigod)"},
+          {"name": "Angel Praises Nandisen's Virtues"}
+        ]
+      },
+      {
+        "name": "Nandisen's Wisdom & Contentment",
+        "children": [
+          {"name": "Angel Offers a Wish"},
+          {"name": "Nandisen Declines, Expresses Contentment with Human Life"}
+        ]
+      },
+      {
+        "name": "Conclusion",
+        "children": [
+          {"name": "Angel Returns to Heaven, Applauding Nandisen"},
+          {"name": "Moral: Importance of Tolerance, Discipline, Contentment"}
         ]
       }
     ]
   },
   "mindmapV2Data": {
-    "name": "Sage Nandisen's Unshakeable Virtue",
+    "name": "Core Virtues of Sage Nandisen",
     "children": [
       {
-        "name": "The Heavenly Challenge",
+        "name": "Devotion to Service (Sevä)",
         "children": [
-          { "name": "Indra's Praise" },
-          { "name": "The Test" }
+          {"name": "Vow to Serve Monks"},
+          {"name": "Immediate Response to Perceived Need"}
         ]
       },
       {
-        "name": "The Earthly Test",
+        "name": "Tolerance & Forgiveness (Kshamä)",
         "children": [
-          { "name": "Verbal Torment" },
-          { "name": "Physical Torment" },
-          { "name": "Perfect Patience" }
+          {"name": "Unaffected by Harsh Words"},
+          {"name": "Enduring Physical Discomfort & Defilement"},
+          {"name": "Calm Demeanor Throughout Trials"}
         ]
       },
       {
-        "name": "The Divine Reward",
+        "name": "Compassion (Karunä/Dayä)",
         "children": [
-          { "name": "The Revelation" },
-          { "name": "The Boon Offered" },
-          { "name": "The Contentment" }
+          {"name": "Gentle Care for the 'Sick' Monk"},
+          {"name": "Concern for Monk's Comfort & Cure"}
+        ]
+      },
+      {
+        "name": "Discipline & Equanimity (Sanyam)",
+        "children": [
+          {"name": "Maintaining Composure Under Extreme Provocation"},
+          {"name": "Focus on Duty Despite Aggravation"}
+        ]
+      },
+      {
+        "name": "Contentment & Non-Possessiveness (Santosh/Aparigraha)",
+        "children": [
+          {"name": "Declining Angel's Offer of a Wish"},
+          {"name": "Stating Value of Human Existence Over Boons"}
+        ]
+      },
+      {
+        "name": "The Nature of the Test",
+        "children": [
+          {"name": "Divine Scrutiny (Indra & Demigod)"},
+          {"name": "Purpose: To Verify True Virtue"},
+          {"name": "Method: Extreme Provocation via Disguise"}
+        ]
+      },
+      {
+        "name": "Outcome & Moral",
+        "children": [
+          {"name": "Divine Affirmation of Nandisen's Qualities"},
+          {"name": "Reinforcement of Jain Principles"}
         ]
       }
     ]
@@ -237,4 +430,5 @@
       "imageAlt": "A monk tenderly washing the feet of another, older monk."
     }
   ]
+
 }

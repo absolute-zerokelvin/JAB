@@ -32,6 +32,40 @@ body {
     font-size: 1.125rem; /* New base font size */
 }
 
+/* Story/Tab page header */
+.story-header {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-dark) 100%);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    transition: padding 0.2s ease, box-shadow 0.2s ease, backdrop-filter 0.2s ease;
+    backdrop-filter: saturate(120%);
+}
+
+.story-header.condensed {
+    padding: 0.75rem 1rem;
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.25);
+}
+
+.story-header .title {
+    margin: 0 0 0.25rem 0;
+}
+
+.story-header.condensed .title {
+    font-size: 1.5rem !important;
+}
+
+.story-header.condensed .subtitle {
+    font-size: 0.95rem !important;
+    opacity: 0.85 !important;
+}
+
 /* Common layout styles */
 .min-h-screen {
     min-height: 100vh;

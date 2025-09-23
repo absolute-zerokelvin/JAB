@@ -291,4 +291,19 @@ document.addEventListener('DOMContentLoaded', function() {
     if (document.getElementById('homepage-content')) {
         renderHomepageContent();
     }
+
+    // Compact header behavior on scroll for story/tab pages
+    const storyHeader = document.querySelector('.story-header');
+    if (storyHeader) {
+        const toggleCondensed = () => {
+            const y = window.scrollY || document.documentElement.scrollTop;
+            if (y > 40) {
+                storyHeader.classList.add('condensed');
+            } else {
+                storyHeader.classList.remove('condensed');
+            }
+        };
+        window.addEventListener('scroll', toggleCondensed, { passive: true });
+        toggleCondensed();
+    }
 });

@@ -533,7 +533,34 @@ function renderTimeline(timelineData, containerElement) {
     containerElement.appendChild(timelineContainer);
 }
 
-function renderTable(tableData, containerElement) {
+async function ensureTabulatorLoaded() {
+    if (window.Tabulator) return;
+
+    // Inject Tabulator CSS if not present
+    const existingCss = document.querySelector('link[data-tabulator-css]');
+    if (!existingCss) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://unpkg.com/tabulator-tables@5.5.1/dist/css/tabulator.min.css';
+        link.setAttribute('data-tabulator-css', 'true');
+        document.head.appendChild(link);
+    }
+
+    // Inject Tabulator JS if not present
+    if (!document.querySelector('script[data-tabulator-js]')) {
+        await new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://unpkg.com/tabulator-tables@5.5.1/dist/js/tabulator.min.js';
+            script.async = true;
+            script.setAttribute('data-tabulator-js', 'true');
+            script.onload = () => resolve();
+            script.onerror = () => reject(new Error('Failed to load Tabulator library'));
+            document.body.appendChild(script);
+        });
+    }
+}
+
+async function renderTable(tableData, containerElement) {
     if (!tableData || !tableData.headers || !tableData.rows) {
         containerElement.innerHTML = '<p>No table data available.</p>';
         return;
@@ -541,6 +568,15 @@ function renderTable(tableData, containerElement) {
 
     // Clear previous content
     containerElement.innerHTML = '';
+
+    // Lazy-load Tabulator assets
+    try {
+        await ensureTabulatorLoaded();
+    } catch (e) {
+        console.error(e);
+        containerElement.innerHTML = '<p>Table library failed to load. Please check your connection and try again.</p>';
+        return;
+    }
 
     // Add caption if present
     if (tableData.caption) {
