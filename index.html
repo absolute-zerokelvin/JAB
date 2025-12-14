@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="An interactive study guide for the Jain Academic Bowl (JAB). Access comprehensive resources, practice questions, and materials to prepare for the competition.">
+    <meta name="description"
+        content="An interactive study guide for the Jain Academic Bowl (JAB). Access comprehensive resources, practice questions, and materials to prepare for the competition.">
     <meta name="keywords" content="JAB, Jain Academic Bowl, Jainism, YJA, JAB Study Guide, JAB Interactive">
     <title>JAB Interactive Guide - Jain Academic Bowl</title>
     <!-- Tailwind CSS CDN -->
@@ -21,6 +23,71 @@
             transform: translateY(-2px) translateX(2px);
             box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
         }
+
+        /* Classroom button styles */
+        .classroom-button {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            display: inline-block;
+            padding: 0.75rem 1.25rem;
+            background: white;
+            color: #2563eb;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .classroom-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            background: #eff6ff;
+            color: #1e40af;
+        }
+
+        @media (max-width: 768px) {
+            .classroom-button {
+                font-size: 0.7rem;
+                padding: 0.5rem 0.75rem;
+                top: 0.75rem;
+                right: 0.75rem;
+            }
+
+            .page-title {
+                font-size: 3rem !important;
+                padding-right: 140px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-title {
+                font-size: 2.5rem !important;
+                padding-right: 120px;
+            }
+
+            .classroom-button {
+                font-size: 0.65rem;
+                padding: 0.45rem 0.65rem;
+                top: 0.65rem;
+                right: 0.65rem;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .page-title {
+                font-size: 2rem !important;
+                padding-right: 110px;
+            }
+
+            .classroom-button {
+                font-size: 0.6rem;
+                padding: 0.4rem 0.6rem;
+            }
+        }
     </style>
     <script type="application/ld+json">
     {
@@ -32,26 +99,31 @@
     }
     </script>
 </head>
+
 <body>
     <!-- Navigation Overlay for Mobile -->
     <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
-    
+
     <!-- Mobile Navigation Toggle -->
     <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
         </svg>
     </button>
-    
+
     <!-- Desktop Navigation -->
     <div id="desktop-nav-container"></div>
-    
+
     <!-- Mobile Navigation -->
     <div id="mobile-nav-container"></div>
-    
+
     <!-- Main Content -->
     <div class="main-content" id="mainContent">
-        <header class="page-header">
+        <header class="page-header" style="font-size:100px; position: relative;">
+            <a href="https://classroom.jabinteractive.org" target="_blank" class="classroom-button">
+                📚 JAB Classroom
+            </a>
             <h1 class="page-title" style="font-size:100px;">JAB Interactive</h1>
             <p class="page-subtitle">Jain Academic Bowl Interactive Guide</p>
             <p>Jai Jinendra!</p>
@@ -61,7 +133,8 @@
             <!-- Static content for SEO and for users with JavaScript disabled -->
             <div id="static-content">
                 <h2>Welcome to the JAB Interactive Guide</h2>
-                <p>This guide is an additional study resource for the Jain Academic Bowl (JAB). Explore study materials, practice questions, interactive guides, and flashcards to prepare for the official competition.</p>
+                <p>This guide is an additional study resource for the Jain Academic Bowl (JAB). Explore study materials,
+                    practice questions, interactive guides, and flashcards to prepare for the official competition.</p>
             </div>
             <!-- Content will be dynamically generated by JavaScript -->
         </main>
@@ -70,4 +143,5 @@
 
     <script src="./js/main.js"></script>
 </body>
+
 </html>
