@@ -61,81 +61,86 @@
         },
         {
             "tabName": "Namaskär Mantra",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Namaskär Mantra: The Great Prayer"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "This is the most revered prayer in Jainism. It's not a request, but a gesture of deep respect to the virtues of the five supreme beings."
-                }
-            ]
-        },
-        {
-            "tabName": "The Mantra",
-            "contentType": "flashCards",
-            "tabData": [
-                {
-                    "title": "Interactive Mantra Flashcards",
-                    "description": "Click a card to flip it and reveal the meaning.",
-                    "frontColor": "#3b82f6",
-                    "backColor": "#1d4ed8",
-                    "cards": [
-                        {
-                            "front": "Namo Arihantānam",
-                            "back": "I bow to all Arihants, the enlightened beings."
-                        },
-                        {
-                            "front": "Namo Siddhänam",
-                            "back": "I bow to all Siddhas, the liberated souls."
-                        },
-                        {
-                            "front": "Namo Āyariyänam",
-                            "back": "I bow to all Āchāryas, the spiritual leaders."
-                        },
-                        {
-                            "front": "Namo Uvajjhäyänam",
-                            "back": "I bow to all Upādhyāys, the ascetic teachers."
-                        },
-                        {
-                            "front": "Namo Loe Savva Sähunam",
-                            "back": "I bow to all Sādhus and Sādhvis in the universe."
-                        },
-                        {
-                            "front": "Eso Pancha Namukkäro",
-                            "back": "This five-fold obeisance..."
-                        },
-                        {
-                            "front": "Savva Pävappanäsano",
-                            "back": "...eradicates all sins."
-                        },
-                        {
-                            "front": "Mangalänam Cha Savvesim",
-                            "back": "Amongst all that is auspicious..."
-                        },
-                        {
-                            "front": "Padhamam Havai Mangalam",
-                            "back": "...this is the foremost."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Significance",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "The Power of the Mantra"
-                },
-                {
-                    "tagType": "ul",
-                    "tagHTML": "<li><span class='text-blue-600 font-bold'>➜</span> <strong>Eradicates Sins</strong></li><li><span class='text-blue-600 font-bold'>➜</span> <strong>Most Auspicious</strong></li><li><span class='text-blue-600 font-bold'>➜</span> <strong>Positive Vibrations</strong></li>"
-                }
-            ]
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Namaskär Mantra: The Great Prayer"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "This is the most revered prayer in Jainism. It's not a request, but a gesture of deep respect to the virtues of the five supreme beings."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "Interactive Mantra Flashcards",
+                                "description": "Click a card to flip it and reveal the meaning.",
+                                "frontColor": "#3b82f6",
+                                "backColor": "#1d4ed8",
+                                "cards": [
+                                    {
+                                        "front": "Namo Arihantānam",
+                                        "back": "I bow to all Arihants, the enlightened beings."
+                                    },
+                                    {
+                                        "front": "Namo Siddhänam",
+                                        "back": "I bow to all Siddhas, the liberated souls."
+                                    },
+                                    {
+                                        "front": "Namo Āyariyänam",
+                                        "back": "I bow to all Āchāryas, the spiritual leaders."
+                                    },
+                                    {
+                                        "front": "Namo Uvajjhäyänam",
+                                        "back": "I bow to all Upādhyāys, the ascetic teachers."
+                                    },
+                                    {
+                                        "front": "Namo Loe Savva Sähunam",
+                                        "back": "I bow to all Sādhus and Sādhvis in the universe."
+                                    },
+                                    {
+                                        "front": "Eso Pancha Namukkäro",
+                                        "back": "This five-fold obeisance..."
+                                    },
+                                    {
+                                        "front": "Savva Pävappanäsano",
+                                        "back": "...eradicates all sins."
+                                    },
+                                    {
+                                        "front": "Mangalänam Cha Savvesim",
+                                        "back": "Amongst all that is auspicious..."
+                                    },
+                                    {
+                                        "front": "Padhamam Havai Mangalam",
+                                        "back": "...this is the foremost."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h3",
+                                "tagHTML": "The Power of the Mantra"
+                            },
+                            {
+                                "tagType": "ul",
+                                "tagHTML": "<li><span class='text-blue-600 font-bold'>➜</span> <strong>Eradicates Sins</strong></li><li><span class='text-blue-600 font-bold'>➜</span> <strong>Most Auspicious</strong></li><li><span class='text-blue-600 font-bold'>➜</span> <strong>Positive Vibrations</strong></li>"
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "tabName": "108 Attributes",
@@ -173,288 +178,315 @@
         },
         {
             "tabName": "Arihant",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Arihant - The Enlightened Beings"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "An Arihant is a 'destroyer of inner enemies'. By destroying the four defiling (Ghati) karmas, they attain perfect knowledge (Keval-jnān)."
-                }
-            ]
-        },
-        {
-            "tabName": "Journey to Arihant",
-            "contentType": "timeline",
-            "tabData": [
-                {
-                    "era": "The Path to Enlightenment",
-                    "events": [
-                        {
-                            "title": "Soul with 8 Karmas",
-                            "description": "The soul is bound by 8 types of karma."
-                        },
-                        {
-                            "title": "Destroys 4 Ghāti Karmas",
-                            "description": "The soul sheds the four destructive karmas."
-                        },
-                        {
-                            "title": "Attains 4 Infinite Qualities",
-                            "description": "Infinite Knowledge, Perception, Conduct, and Energy."
-                        },
-                        {
-                            "title": "Becomes an Arihant",
-                            "description": "The soul attains the state of Arihant."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Arihant Details",
-            "contentType": "accordian",
+            "contentType": "mixed",
             "tabData": {
-                "title": "In-Depth: Arihant",
                 "items": [
                     {
-                        "header": "Ghāti vs. Aghāti Karmas",
-                        "content": "<p class='mb-4 text-center'>Karmas are divided into two main types.</p><div class='mt-6'><h4 class='text-lg font-bold text-red-800 mb-3 text-center'>Ghāti Karmas (Destructive)</h4><p class='text-center text-sm text-gray-600 mb-4'>These 4 karmas directly obscure the soul's true nature.</p><ul class='list-disc pl-5'><li>Jnänävaraniya (Knowledge-obscuring)</li><li>Darshanävaraniya (Perception-obscuring)</li><li>Mohaniya (Deluding)</li><li>Antaräya (Obstructing)</li></ul></div><div class='mt-8'><h4 class='text-lg font-bold text-green-800 mb-3 text-center'>Aghāti Karmas (Non-destructive)</h4><p class='text-center text-sm text-gray-600 mb-4'>These 4 karmas relate to the physical body.</p><ul class='list-disc pl-5'><li>Vedaniya (Feeling-pertaining)</li><li>Näm (Body-determining)</li><li>Gotra (Status-determining)</li><li>Āyushya (Lifespan-determining)</li></ul></div>"
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Arihant - The Enlightened Beings"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "An Arihant is a 'destroyer of inner enemies'. By destroying the four defiling (Ghati) karmas, they attain perfect knowledge (Keval-jnān)."
+                            }
+                        ]
                     },
                     {
-                        "header": "Sāmānya Kevali vs. Tirthankar Kevali",
-                        "content": "<p><b>Sāmānya (Ordinary) Kevali:</b> After enlightenment, they spend their lives in meditation until Nirvāna.<br><br><b>Tirthankar Kevali:</b> They have a special 'Tirthankar Nām-karma'. After enlightenment, they re-establish the Jain Sangh (four-fold order) and preach the path to liberation.</p>"
+                        "type": "timeline",
+                        "data": [
+                            {
+                                "era": "The Path to Enlightenment",
+                                "events": [
+                                    {
+                                        "title": "Soul with 8 Karmas",
+                                        "description": "The soul is bound by 8 types of karma."
+                                    },
+                                    {
+                                        "title": "Destroys 4 Ghāti Karmas",
+                                        "description": "The soul sheds the four destructive karmas."
+                                    },
+                                    {
+                                        "title": "Attains 4 Infinite Qualities",
+                                        "description": "Infinite Knowledge, Perception, Conduct, and Energy."
+                                    },
+                                    {
+                                        "title": "Becomes an Arihant",
+                                        "description": "The soul attains the state of Arihant."
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
-                        "header": "The Samavasaran (Divine Assembly Hall)",
-                        "content": "<p>A divine, three-layered assembly hall created for a Tirthankar's sermon. It accommodates all beings without any animosity.</p><ul><li><b>Uppermost Layer (Jewels):</b> For heavenly beings and human beings.</li><li><b>Middle Layer (Gold):</b> For animals.</li><li><b>Lowest Layer (Silver):</b> Parking for vehicles.</li></ul>"
-                    },
-                    {
-                        "header": "The 34 Atishay (Unique Attributes)",
-                        "content": "<p>Tirthankars have 34 extraordinary attributes. Examples include Simhāsan (divine seat), Bhāmandal (halo), Chhatra (umbrella), Ashok-vruksh (tree), Divya Dhvani (divine music), etc.</p>"
+                        "type": "accordian",
+                        "data": {
+                            "title": "In-Depth: Arihant",
+                            "items": [
+                                {
+                                    "header": "Ghāti vs. Aghāti Karmas",
+                                    "content": "<p class='mb-4 text-center'>Karmas are divided into two main types.</p><div class='mt-6'><h4 class='text-lg font-bold text-red-800 mb-3 text-center'>Ghāti Karmas (Destructive)</h4><p class='text-center text-sm text-gray-600 mb-4'>These 4 karmas directly obscure the soul's true nature.</p><ul class='list-disc pl-5'><li>Jnänävaraniya (Knowledge-obscuring)</li><li>Darshanävaraniya (Perception-obscuring)</li><li>Mohaniya (Deluding)</li><li>Antaräya (Obstructing)</li></ul></div><div class='mt-8'><h4 class='text-lg font-bold text-green-800 mb-3 text-center'>Aghāti Karmas (Non-destructive)</h4><p class='text-center text-sm text-gray-600 mb-4'>These 4 karmas relate to the physical body.</p><ul class='list-disc pl-5'><li>Vedaniya (Feeling-pertaining)</li><li>Näm (Body-determining)</li><li>Gotra (Status-determining)</li><li>Āyushya (Lifespan-determining)</li></ul></div>"
+                                },
+                                {
+                                    "header": "Sāmānya Kevali vs. Tirthankar Kevali",
+                                    "content": "<p><b>Sāmānya (Ordinary) Kevali:</b> After enlightenment, they spend their lives in meditation until Nirvāna.<br><br><b>Tirthankar Kevali:</b> They have a special 'Tirthankar Nām-karma'. After enlightenment, they re-establish the Jain Sangh (four-fold order) and preach the path to liberation.</p>"
+                                },
+                                {
+                                    "header": "The Samavasaran (Divine Assembly Hall)",
+                                    "content": "<p>A divine, three-layered assembly hall created for a Tirthankar's sermon. It accommodates all beings without any animosity.</p><ul><li><b>Uppermost Layer (Jewels):</b> For heavenly beings and human beings.</li><li><b>Middle Layer (Gold):</b> For animals.</li><li><b>Lowest Layer (Silver):</b> Parking for vehicles.</li></ul>"
+                                },
+                                {
+                                    "header": "The 34 Atishay (Unique Attributes)",
+                                    "content": "<p>Tirthankars have 34 extraordinary attributes. Examples include Simhāsan (divine seat), Bhāmandal (halo), Chhatra (umbrella), Ashok-vruksh (tree), Divya Dhvani (divine music), etc.</p>"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
         {
             "tabName": "Siddha",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Siddha - The Liberated Souls"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Siddhas are pure, liberated souls who have ended the cycle of birth and death forever. They reside in Siddha-kshetra, in a state of eternal bliss."
-                }
-            ]
-        },
-        {
-            "tabName": "Path to Siddha",
-            "contentType": "timeline",
-            "tabData": [
-                {
-                    "era": "Final Liberation",
-                    "events": [
-                        {
-                            "title": "Arihant",
-                            "description": "Still bound by 4 Aghāti Karmas (Body, Lifespan, Status, Feeling)."
-                        },
-                        {
-                            "title": "Sheds remaining 4 Aghāti Karmas",
-                            "description": "At the end of their lifespan, these physical karmas are shed."
-                        },
-                        {
-                            "title": "Becomes a Siddha",
-                            "description": "The soul is now completely free and reaches Siddha-kshetra."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Siddha Attributes",
-            "contentType": "flashCards",
-            "tabData": [
-                {
-                    "title": "The 8 Attributes of a Siddha",
-                    "description": "Qualities of a purely liberated soul.",
-                    "frontColor": "#f3e8ff",
-                    "backColor": "#6b21a8",
-                    "flippable": false,
-                    "cards": [
-                        {
-                            "front": "Anant-jnän",
-                            "back": "Infinite Knowledge"
-                        },
-                        {
-                            "front": "Anant-darshan",
-                            "back": "Infinite Perception"
-                        },
-                        {
-                            "front": "Avyäbädha-sukh",
-                            "back": "Eternal Happiness"
-                        },
-                        {
-                            "front": "Anant-chäritra",
-                            "back": "Perfect Conduct"
-                        },
-                        {
-                            "front": "Akshay-sthiti",
-                            "back": "Immortality"
-                        },
-                        {
-                            "front": "Arupitva",
-                            "back": "Formlessness"
-                        },
-                        {
-                            "front": "Aguru-laghutva",
-                            "back": "Equalness"
-                        },
-                        {
-                            "front": "Anant-virya",
-                            "back": "Infinite Energy"
-                        }
-                    ]
-                }
-            ]
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Siddha - The Liberated Souls"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Siddhas are pure, liberated souls who have ended the cycle of birth and death forever. They reside in Siddha-kshetra, in a state of eternal bliss."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "timeline",
+                        "data": [
+                            {
+                                "era": "Final Liberation",
+                                "events": [
+                                    {
+                                        "title": "Arihant",
+                                        "description": "Still bound by 4 Aghāti Karmas (Body, Lifespan, Status, Feeling)."
+                                    },
+                                    {
+                                        "title": "Sheds remaining 4 Aghāti Karmas",
+                                        "description": "At the end of their lifespan, these physical karmas are shed."
+                                    },
+                                    {
+                                        "title": "Becomes a Siddha",
+                                        "description": "The soul is now completely free and reaches Siddha-kshetra."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "The 8 Attributes of a Siddha",
+                                "description": "Qualities of a purely liberated soul.",
+                                "frontColor": "#f3e8ff",
+                                "backColor": "#6b21a8",
+                                "flippable": false,
+                                "cards": [
+                                    {
+                                        "front": "Anant-jnän",
+                                        "back": "Infinite Knowledge"
+                                    },
+                                    {
+                                        "front": "Anant-darshan",
+                                        "back": "Infinite Perception"
+                                    },
+                                    {
+                                        "front": "Avyäbädha-sukh",
+                                        "back": "Eternal Happiness"
+                                    },
+                                    {
+                                        "front": "Anant-chäritra",
+                                        "back": "Perfect Conduct"
+                                    },
+                                    {
+                                        "front": "Akshay-sthiti",
+                                        "back": "Immortality"
+                                    },
+                                    {
+                                        "front": "Arupitva",
+                                        "back": "Formlessness"
+                                    },
+                                    {
+                                        "front": "Aguru-laghutva",
+                                        "back": "Equalness"
+                                    },
+                                    {
+                                        "front": "Anant-virya",
+                                        "back": "Infinite Energy"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
         },
         {
             "tabName": "Āchārya",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Āchārya - The Spiritual Leaders"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Āchāryas are the heads of the Jain congregation (Sangh). They guide the entire community on the path of liberation and possess 36 special attributes."
-                }
-            ]
-        },
-        {
-            "tabName": "Āchārya Attributes",
-            "contentType": "accordian",
+            "contentType": "mixed",
             "tabData": {
-                "title": "The 36 Attributes",
                 "items": [
                     {
-                        "header": "Shvetämbar Tradition",
-                        "content": "<ul><li><b>5</b> Controls over senses</li><li><b>9</b> Guards of celibacy</li><li><b>4</b> Controls over passions</li><li><b>5</b> Great Vows (Mahävrat)</li><li><b>5</b> Codes of Conduct (Ächär)</li><li><b>5</b> Kinds of Carefulness (Samiti)</li><li><b>3</b> Restraints (Gupti)</li></ul>"
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Āchārya - The Spiritual Leaders"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Āchāryas are the heads of the Jain congregation (Sangh). They guide the entire community on the path of liberation and possess 36 special attributes."
+                            }
+                        ]
                     },
                     {
-                        "header": "Digambar Tradition",
-                        "content": "<ul><li><b>12</b> Austerities (6 external, 6 internal)</li><li><b>10</b> Supreme Virtues (Dharma)</li><li><b>5</b> Codes of Conduct (Ächär)</li><li><b>6</b> Essential Duties (Ävashyak)</li><li><b>3</b> Restraints (Gupti)</li></ul>"
+                        "type": "accordian",
+                        "data": {
+                            "title": "The 36 Attributes",
+                            "items": [
+                                {
+                                    "header": "Shvetämbar Tradition",
+                                    "content": "<ul><li><b>5</b> Controls over senses</li><li><b>9</b> Guards of celibacy</li><li><b>4</b> Controls over passions</li><li><b>5</b> Great Vows (Mahävrat)</li><li><b>5</b> Codes of Conduct (Ächär)</li><li><b>5</b> Kinds of Carefulness (Samiti)</li><li><b>3</b> Restraints (Gupti)</li></ul>"
+                                },
+                                {
+                                    "header": "Digambar Tradition",
+                                    "content": "<ul><li><b>12</b> Austerities (6 external, 6 internal)</li><li><b>10</b> Supreme Virtues (Dharma)</li><li><b>5</b> Codes of Conduct (Ächär)</li><li><b>6</b> Essential Duties (Ävashyak)</li><li><b>3</b> Restraints (Gupti)</li></ul>"
+                                }
+                            ]
+                        }
                     }
                 ]
             }
         },
         {
             "tabName": "Upādhyāy",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Upādhyāy - The Scholarly Teachers"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Upādhyāys are learned ascetics who have mastered the Jain scriptures (Āgams). Their role is to teach these scriptures. They possess 25 attributes."
-                }
-            ]
-        },
-        {
-            "tabName": "Upādhyāy Attributes",
-            "contentType": "flashCards",
-            "tabData": [
-                {
-                    "title": "The 25 Attributes",
-                    "description": "Symbolizing mastery of scriptures.",
-                    "frontColor": "#ffffff",
-                    "backColor": "#2563eb",
-                    "flippable": false,
-                    "cards": [
-                        {
-                            "front": "11",
-                            "back": "Anga Āgam"
-                        },
-                        {
-                            "front": "12",
-                            "back": "Upānga Āgam"
-                        },
-                        {
-                            "front": "1",
-                            "back": "Scripture on Conduct"
-                        },
-                        {
-                            "front": "1",
-                            "back": "Scripture on Rituals"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Sādhu/Sādhvi",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Sādhu/Sādhvi - The Ascetics"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Sādhus and Sādhvis have renounced worldly life to pursue spiritual upliftment. They strictly follow five great vows and have 27 core attributes."
-                }
-            ]
-        },
-        {
-            "tabName": "Mahāvratas",
-            "contentType": "flashCards",
-            "tabData": [
-                {
-                    "title": "The Five Great Vows (Mahāvratas)",
-                    "description": "The foundation of ascetic life.",
-                    "frontColor": "#dcfce7",
-                    "backColor": "#15803d",
-                    "flippable": false,
-                    "cards": [
-                        {
-                            "front": "Ahimsā",
-                            "back": "Non-violence"
-                        },
-                        {
-                            "front": "Satya",
-                            "back": "Truthfulness"
-                        },
-                        {
-                            "front": "Asteya",
-                            "back": "Non-stealing"
-                        },
-                        {
-                            "front": "Brahmacharya",
-                            "back": "Celibacy"
-                        },
-                        {
-                            "front": "Aparigraha",
-                            "back": "Non-possessiveness"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Sādhu Attributes",
-            "contentType": "accordian",
+            "contentType": "mixed",
             "tabData": {
-                "title": "The 27 Attributes",
                 "items": [
                     {
-                        "header": "Attributes List",
-                        "content": "<ul><li><b>5</b> Great Vows</li><li><b>6</b> Protections of living beings</li><li><b>5</b> Controls over senses</li><li><b>1</b> Carefulness (Samiti)</li><li><b>3</b> Restraints (Gupti)</li><li><b>7</b> Other qualities like Forgiveness, Purity, etc.</li></ul><p class='text-xs mt-4'>*Note: The breakdown of the 27 attributes can vary slightly between scriptures and traditions.</p>"
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Upādhyāy - The Scholarly Teachers"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Upādhyāys are learned ascetics who have mastered the Jain scriptures (Āgams). Their role is to teach these scriptures. They possess 25 attributes."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "The 25 Attributes",
+                                "description": "Symbolizing mastery of scriptures.",
+                                "frontColor": "#ffffff",
+                                "backColor": "#2563eb",
+                                "flippable": false,
+                                "cards": [
+                                    {
+                                        "front": "11",
+                                        "back": "Anga Āgam"
+                                    },
+                                    {
+                                        "front": "12",
+                                        "back": "Upānga Āgam"
+                                    },
+                                    {
+                                        "front": "1",
+                                        "back": "Scripture on Conduct"
+                                    },
+                                    {
+                                        "front": "1",
+                                        "back": "Scripture on Rituals"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Sadhu Sadhvi",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Sādhu/Sādhvi - The Ascetics"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Sādhus and Sādhvis have renounced worldly life to pursue spiritual upliftment. They strictly follow five great vows and have 27 core attributes."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "The Five Great Vows (Mahāvratas)",
+                                "description": "The foundation of ascetic life.",
+                                "frontColor": "#dcfce7",
+                                "backColor": "#15803d",
+                                "flippable": false,
+                                "cards": [
+                                    {
+                                        "front": "Ahimsā",
+                                        "back": "Non-violence"
+                                    },
+                                    {
+                                        "front": "Satya",
+                                        "back": "Truthfulness"
+                                    },
+                                    {
+                                        "front": "Asteya",
+                                        "back": "Non-stealing"
+                                    },
+                                    {
+                                        "front": "Brahmacharya",
+                                        "back": "Celibacy"
+                                    },
+                                    {
+                                        "front": "Aparigraha",
+                                        "back": "Non-possessiveness"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "The 27 Attributes",
+                            "items": [
+                                {
+                                    "header": "Attributes List",
+                                    "content": "<ul><li><b>5</b> Great Vows</li><li><b>6</b> Protections of living beings</li><li><b>5</b> Controls over senses</li><li><b>1</b> Carefulness (Samiti)</li><li><b>3</b> Restraints (Gupti)</li><li><b>7</b> Other qualities like Forgiveness, Purity, etc.</li></ul><p class='text-xs mt-4'>*Note: The breakdown of the 27 attributes can vary slightly between scriptures and traditions.</p>"
+                                }
+                            ]
+                        }
                     }
                 ]
             }

@@ -140,6 +140,50 @@ function renderQuiz(quizData, containerElement) {
     });
 
     updateFlashcard(); // Initial load of the first flashcard
+    updateFlashcard(); // Initial load of the first flashcard
+}
+
+function renderMixed(mixedData, containerElement) {
+    if (!mixedData || !mixedData.items || mixedData.items.length === 0) {
+        containerElement.innerHTML = '<p>No mixed content items available.</p>';
+        return;
+    }
+
+    mixedData.items.forEach(item => {
+        // Create a wrapper for each item to ensure separation
+        const itemContainer = document.createElement('div');
+        itemContainer.className = 'mixed-content-item mb-8'; // Add margin bottom for spacing
+        containerElement.appendChild(itemContainer);
+
+        switch (item.type) {
+            case 'text':
+                renderTextContent(item.data, itemContainer);
+                break;
+            case 'quiz':
+                renderQuiz(item.data, itemContainer);
+                break;
+            case 'mindmap':
+                renderMindmap(item.data, itemContainer);
+                break;
+            case 'accordian':
+                renderAccordian(item.data, itemContainer);
+                break;
+            case 'graphicsNovel':
+                renderGraphicsNovel(item.data, itemContainer);
+                break;
+            case 'timeline':
+                renderTimeline(item.data, itemContainer);
+                break;
+            case 'flashCards':
+                renderFlashcards(item.data, itemContainer);
+                break;
+            case 'table':
+                renderTable(item.data, itemContainer);
+                break;
+            default:
+                itemContainer.innerHTML = `<p>Unsupported content type in mixed view: ${item.type}</p>`;
+        }
+    });
 }
 
 // Add other render functions here as needed
@@ -292,122 +336,122 @@ function renderMindmap(mindmapData, containerElement) {
 
     const wrapper = document.createElement('div');
     wrapper.className = 'mind-map-wrapper';
-    
+
     const mapContainer = document.createElement('div');
     mapContainer.className = 'mind-map-container';
-    
+
     // Create main node
     const mainNode = document.createElement('div');
     mainNode.className = 'mind-map-node main';
-    
+
     // Create text content
     const textSpan = document.createElement('span');
     textSpan.textContent = mainNodeData.text;
     mainNode.appendChild(textSpan);
-    
+
     // Add description tooltip if available
     if (mainNodeData.description) {
         const infoIcon = document.createElement('span');
         infoIcon.className = 'info-icon';
         infoIcon.textContent = 'i';
         mainNode.appendChild(infoIcon);
-        
+
         const tooltip = document.createElement('div');
         tooltip.className = 'tooltip';
         tooltip.textContent = mainNodeData.description;
         mainNode.appendChild(tooltip);
-        
+
         // Add data attribute to indicate this node has a description
         mainNode.setAttribute('data-has-description', 'true');
     }
-    
+
     mapContainer.appendChild(mainNode);
-    
+
     // Create branches recursively
     function createBranch(item) {
         const node = document.createElement('div');
-        
+
         if (item.children && item.children.length > 0) {
             node.className = 'mind-map-node toggle-node';
-            
+
             // Create text content
             const textSpan = document.createElement('span');
             textSpan.textContent = item.text;
             node.appendChild(textSpan);
-            
+
             // Add toggle icon
             const toggleIcon = document.createElement('span');
             toggleIcon.className = 'toggle-icon';
             toggleIcon.textContent = '+';
             node.appendChild(toggleIcon);
-            
+
             // Add description tooltip if available
             if (item.description) {
                 const infoIcon = document.createElement('span');
                 infoIcon.className = 'info-icon';
                 infoIcon.textContent = 'i';
                 node.appendChild(infoIcon);
-                
+
                 const tooltip = document.createElement('div');
                 tooltip.className = 'tooltip';
                 tooltip.textContent = item.description;
                 node.appendChild(tooltip);
-                
+
                 // Add data attribute to indicate this node has a description
                 node.setAttribute('data-has-description', 'true');
             }
-            
+
             const subBranches = document.createElement('div');
             subBranches.className = 'mind-map-sub-branches hidden';
-            
+
             item.children.forEach(child => {
                 const childElements = createBranch(child);
                 childElements.forEach(element => subBranches.appendChild(element));
             });
-            
-            node.addEventListener('click', function(e) {
+
+            node.addEventListener('click', function (e) {
                 // Don't toggle if clicking on the info icon
                 if (e.target.classList.contains('info-icon')) {
                     e.stopPropagation();
                     return;
                 }
-                
+
                 e.stopPropagation();
                 const subBranchesElement = this.nextElementSibling;
                 subBranchesElement.classList.toggle('hidden');
                 const toggleIcon = this.querySelector('.toggle-icon');
                 toggleIcon.textContent = subBranchesElement.classList.contains('hidden') ? '+' : '-';
             });
-            
+
             return [node, subBranches];
         } else {
             node.className = 'mind-map-node leaf-node';
-            
+
             // Create text content
             const textSpan = document.createElement('span');
             textSpan.textContent = item.text;
             node.appendChild(textSpan);
-            
+
             // Add description tooltip if available
             if (item.description) {
                 const infoIcon = document.createElement('span');
                 infoIcon.className = 'info-icon';
                 infoIcon.textContent = 'i';
                 node.appendChild(infoIcon);
-                
+
                 const tooltip = document.createElement('div');
                 tooltip.className = 'tooltip';
                 tooltip.textContent = item.description;
                 node.appendChild(tooltip);
-                
+
                 // Add data attribute to indicate this node has a description
                 node.setAttribute('data-has-description', 'true');
             }
-            
+
             return [node];
         }
     }
-    
+
     // Build the mind map tree from the main node's children
     if (mainNodeData.children && mainNodeData.children.length) {
         mainNodeData.children.forEach(branch => {
@@ -415,7 +459,7 @@ function renderMindmap(mindmapData, containerElement) {
             elements.forEach(element => mapContainer.appendChild(element));
         });
     }
-    
+
     wrapper.appendChild(mapContainer);
     containerElement.appendChild(wrapper);
 }
@@ -487,49 +531,49 @@ function renderTimeline(timelineData, containerElement) {
     timelineData.forEach((era, eraIndex) => {
         const eraDiv = document.createElement('div');
         eraDiv.className = 'timeline-era';
-        
+
         const eraTitle = document.createElement('h2');
         eraTitle.textContent = era.era;
         eraDiv.appendChild(eraTitle);
-        
+
         timelineContainer.appendChild(eraDiv);
-        
+
         if (era.period) {
             const eraPeriod = document.createElement('p');
             eraPeriod.className = 'text-center text-gray-600 -mt-4 mb-8'; // Reusing classes from storyView.js
             eraPeriod.textContent = era.period;
             timelineContainer.appendChild(eraPeriod);
         }
-        
+
         era.events.forEach((event, eventIndex) => {
             const eventDiv = document.createElement('div');
             eventDiv.className = `timeline-event ${eventIndex % 2 === 0 ? 'left' : 'right'}`;
-            
+
             const contentDiv = document.createElement('div');
             contentDiv.className = 'timeline-content';
-            
+
             const title = document.createElement('h3');
             title.className = 'text-xl font-bold mb-2'; // Reusing classes from storyView.js
             title.style.color = 'var(--primary-blue-dark)';
             title.textContent = event.title;
             contentDiv.appendChild(title);
-            
+
             const description = document.createElement('p');
             description.innerHTML = event.description; // Use innerHTML to support rich content
             contentDiv.appendChild(description);
-            
+
             if (event.characters && event.characters.length) {
                 const chars = document.createElement('p');
                 chars.className = 'mt-3 text-sm text-gray-600'; // Reusing classes from storyView.js
                 chars.innerHTML = '<strong>People Involved:</strong> ' + event.characters.join(', ');
                 contentDiv.appendChild(chars);
             }
-            
+
             eventDiv.appendChild(contentDiv);
             timelineContainer.appendChild(eventDiv);
         });
     });
-    
+
     containerElement.appendChild(timelineContainer);
 }
 
@@ -670,7 +714,7 @@ function renderFlashcards(flashCardsData, containerElement) {
 
             const flashcardFront = document.createElement('div');
             flashcardFront.className = 'flashcard-front';
-            
+
             if (group.flippable === false) {
                 // For non-flippable, both front and back are visible in the 'front' div
                 flashcardFront.innerHTML = `
