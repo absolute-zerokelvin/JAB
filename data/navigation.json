@@ -33,7 +33,7 @@
             "id": "B2",
             "title": "B.2",
             "name": "Panch Parameshthi",
-            "url": "./B2.html?",
+            "url": "./tabTemplate.html?section=B2.json",
             "dataFile": "B2.json"
           },
           {

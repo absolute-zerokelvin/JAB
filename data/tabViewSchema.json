@@ -1,6 +1,9 @@
 {
   "type": "object",
-  "required": ["sectionTitle", "tabs"],
+  "required": [
+    "sectionTitle",
+    "tabs"
+  ],
   "properties": {
     "sectionTitle": {
       "type": "string",
@@ -11,7 +14,10 @@
       "description": "Array of tabs containing different types of content",
       "items": {
         "type": "object",
-        "required": ["tabName", "contentType"],
+        "required": [
+          "tabName",
+          "contentType"
+        ],
         "properties": {
           "tabName": {
             "type": "string",
@@ -19,7 +25,15 @@
           },
           "contentType": {
             "type": "string",
-            "enum": ["text", "quiz", "mindmap", "accordian", "flashCards", "timeline", "table"],
+            "enum": [
+              "text",
+              "quiz",
+              "mindmap",
+              "accordian",
+              "flashCards",
+              "timeline",
+              "table"
+            ],
             "description": "The type of content to be displayed in this tab"
           },
           "caption": {
@@ -34,11 +48,26 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["tagType", "tagHTML"],
+                  "required": [
+                    "tagType",
+                    "tagHTML"
+                  ],
                   "properties": {
                     "tagType": {
                       "type": "string",
-                      "enum": ["h1", "h2", "h3", "h4", "h5", "h6", "p", "hr", "img", "ul", "ol"],
+                      "enum": [
+                        "h1",
+                        "h2",
+                        "h3",
+                        "h4",
+                        "h5",
+                        "h6",
+                        "p",
+                        "hr",
+                        "img",
+                        "ul",
+                        "ol"
+                      ],
                       "description": "HTML tag type for the content"
                     },
                     "tagHTML": {
@@ -51,7 +80,10 @@
               {
                 "description": "Structure for quiz content type",
                 "type": "object",
-                "required": ["title", "questions"],
+                "required": [
+                  "title",
+                  "questions"
+                ],
                 "properties": {
                   "title": {
                     "type": "string",
@@ -61,7 +93,11 @@
                     "type": "array",
                     "items": {
                       "type": "object",
-                      "required": ["question", "options", "answer"],
+                      "required": [
+                        "question",
+                        "options",
+                        "answer"
+                      ],
                       "properties": {
                         "question": {
                           "type": "string",
@@ -86,7 +122,10 @@
               {
                 "description": "Structure for mindmap content type",
                 "type": "object",
-                "required": ["title", "nodes"],
+                "required": [
+                  "title",
+                  "nodes"
+                ],
                 "properties": {
                   "title": {
                     "type": "string",
@@ -100,7 +139,10 @@
                     "type": "array",
                     "items": {
                       "type": "object",
-                      "required": ["id", "text"],
+                      "required": [
+                        "id",
+                        "text"
+                      ],
                       "properties": {
                         "id": {
                           "type": "string",
@@ -115,7 +157,10 @@
                           "description": "Description/Meaning or more info of the node"
                         },
                         "parent": {
-                          "type": ["string", "null"],
+                          "type": [
+                            "string",
+                            "null"
+                          ],
                           "description": "ID of the parent node, or null for root nodes"
                         }
                       }
@@ -126,7 +171,10 @@
               {
                 "description": "Structure for accordian content type",
                 "type": "object",
-                "required": ["title", "items"],
+                "required": [
+                  "title",
+                  "items"
+                ],
                 "properties": {
                   "title": {
                     "type": "string",
@@ -136,7 +184,10 @@
                     "type": "array",
                     "items": {
                       "type": "object",
-                      "required": ["header", "content"],
+                      "required": [
+                        "header",
+                        "content"
+                      ],
                       "properties": {
                         "header": {
                           "type": "string",
@@ -156,7 +207,10 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["title", "cards"],
+                  "required": [
+                    "title",
+                    "cards"
+                  ],
                   "properties": {
                     "title": {
                       "type": "string",
@@ -178,7 +232,10 @@
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "required": ["front", "back"],
+                        "required": [
+                          "front",
+                          "back"
+                        ],
                         "properties": {
                           "front": {
                             "type": "string",
@@ -199,7 +256,11 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["era", "period", "events"],
+                  "required": [
+                    "era",
+                    "period",
+                    "events"
+                  ],
                   "properties": {
                     "era": {
                       "type": "string",
@@ -213,7 +274,10 @@
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "required": ["title", "description"],
+                        "required": [
+                          "title",
+                          "description"
+                        ],
                         "properties": {
                           "title": {
                             "type": "string",
@@ -239,7 +303,10 @@
               {
                 "description": "Structure for table content type",
                 "type": "object",
-                "required": ["headers", "rows"],
+                "required": [
+                  "headers",
+                  "rows"
+                ],
                 "properties": {
                   "headers": {
                     "type": "array",
@@ -262,6 +329,78 @@
                   "footnote": {
                     "type": "string",
                     "description": "Optional footnote text for the table"
+                  }
+                }
+              },
+              {
+                "description": "Structure for mixed content type",
+                "type": "object",
+                "required": [
+                  "items"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "type",
+                        "data"
+                      ],
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "text",
+                            "quiz",
+                            "mindmap",
+                            "accordian",
+                            "flashCards",
+                            "timeline",
+                            "table"
+                          ]
+                        },
+                        "data": {
+                          "description": "Data structure corresponding to the specified type"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "description": "Structure for mixed content type",
+                "type": "object",
+                "required": [
+                  "items"
+                ],
+                "properties": {
+                  "items": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "required": [
+                        "type",
+                        "data"
+                      ],
+                      "properties": {
+                        "type": {
+                          "type": "string",
+                          "enum": [
+                            "text",
+                            "quiz",
+                            "mindmap",
+                            "accordian",
+                            "flashCards",
+                            "timeline",
+                            "table"
+                          ]
+                        },
+                        "data": {
+                          "description": "Data structure corresponding to the specified type"
+                        }
+                      }
+                    }
                   }
                 }
               }

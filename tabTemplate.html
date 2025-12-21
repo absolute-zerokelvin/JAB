@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAB Interactive - Dynamic Content</title>
     <script src="./js/cache-bust.js"></script>
- 
-    
- 
+
+
+
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/story.css">
     <link rel="stylesheet" href="./css/tabView.css">
 </head>
+
 <body>
     <!-- Navigation Overlay for Mobile -->
     <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
-    
+
     <!-- Mobile Navigation Toggle -->
     <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
         </svg>
     </button>
-    
+
     <!-- Desktop Navigation -->
     <div id="desktop-nav-container"></div>
-    
+
     <!-- Mobile Navigation -->
     <div id="mobile-nav-container"></div>
-    
+
     <!-- Main Content -->
     <div class="main-content" id="mainContent">
         <header class="story-header">
@@ -49,7 +52,7 @@
     <!-- Cache busting utility -->
     <!-- Include main navigation script -->
     <script src="./js/main.js"></script>
-    <script src="./js/tabView.js"></script>
+    <script src="./js/tabView.js?v=2"></script>
 
     <script>
         // Get section from URL parameters
@@ -68,18 +71,18 @@
                 }
 
                 const jsonPath = `./data/${sectionFile}?v=${Date.now()}`; // Cache busting with timestamp
-                
+
                 console.log(`Loading section data from: ${jsonPath}`);
-                
+
                 // Use cache-busted fetch if available
-                const response = window.cacheBuster ? 
-                    await window.cacheBuster.fetchWithCacheBust(jsonPath) : 
+                const response = window.cacheBuster ?
+                    await window.cacheBuster.fetchWithCacheBust(jsonPath) :
                     await fetch(jsonPath);
-                    
+
                 if (!response.ok) {
                     throw new Error(`Failed to fetch ${jsonPath}: ${response.status} ${response.statusText}`);
                 }
-                
+
                 const data = await response.json();
                 console.log('Fetched data:', data); // Debugging line
                 document.getElementById('sectionTitle').innerText = data.sectionTitle || 'Dynamic Section';
@@ -143,6 +146,9 @@
                         case 'table':
                             renderTable(tab.tabData, contentPane);
                             break;
+                        case 'mixed':
+                            renderMixed(tab.tabData, contentPane);
+                            break;
                         default:
                             contentPane.innerHTML = `<p>Unsupported content type: ${tab.contentType}</p>`;
                     }
@@ -158,4 +164,5 @@
         document.addEventListener('DOMContentLoaded', initializeTabTemplatePage);
     </script>
 </body>
+
 </html>
