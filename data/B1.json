@@ -1,0 +1,283 @@
+{
+    "sectionTitle": "B.1. Introduction to Jainism",
+    "tabs": [
+        {
+            "tabName": "What is Jainism?",
+            "contentType": "text",
+            "tabData": [
+                {
+                    "tagType": "h2",
+                    "tagHTML": "What is Jainism?"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "Jainism is the path shown by the Jinas (Victors). A Jina is one who has conquered their inner passions. Let's explore the key definitions."
+                },
+                {
+                    "tagType": "h3",
+                    "tagHTML": "Who is a Jina?"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "A Jina is a victor over their inner passions (Kashäy):"
+                },
+                {
+                    "tagType": "ul",
+                    "tagHTML": "<li>Krodh (Anger)</li><li>Män (Ego)</li><li>Mäyä (Deceit)</li><li>Lobh (Greed)</li>"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "Jinas are also called <strong>Tirthankars</strong> or <strong>Arihants</strong>."
+                },
+                {
+                    "tagType": "h3",
+                    "tagHTML": "Who is a Tirthankar?"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "A Tirthankar is a special Jina who establishes the four-fold Jain order:"
+                },
+                {
+                    "tagType": "ul",
+                    "tagHTML": "<li>Sädhu (Monks)</li><li>Sädhvi (Nuns)</li><li>Shrävak (Male lay followers)</li><li>Shrävikä (Female lay followers)</li>"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "There are 24 Tirthankars in each half time cycle."
+                },
+                {
+                    "tagType": "h3",
+                    "tagHTML": "The Concept of God in Jainism"
+                },
+                {
+                    "tagType": "ul",
+                    "tagHTML": "<li><strong>God is a Perfected Soul:</strong> Every soul in its purest form (a Siddha) is a God. They are knowers and observers, but not doers.</li><li><strong>No Creator God:</strong> Jains do not believe in a God who creates, preserves, or destroys the universe.</li><li><strong>Self-Reliance:</strong> Every soul creates its own destiny and is capable of becoming God by removing all karma.</li>"
+                }
+            ]
+        },
+        {
+            "tabName": "Core Principles",
+            "contentType": "accordian",
+            "tabData": {
+                "title": "The Three Core Principles",
+                "items": [
+                    {
+                        "header": "Ahimsä (Non-violence)",
+                        "content": "All life forms have a soul and should be treated with respect. This teaches universal love and compassion. Violence can be in thought, word, or action, with violent thoughts being the most damaging to one's own soul."
+                    },
+                    {
+                        "header": "Anekäntaväd (Non-absolutism)",
+                        "content": "Truth is relative to the viewpoint from which it is known. To understand reality, one must accept multiple perspectives. This leads to tolerance and harmony."
+                    },
+                    {
+                        "header": "Aparigraha (Non-attachment)",
+                        "content": "Attachment to material things and people leads to passions like anger and greed. Non-attachment leads to equanimity, which is essential for liberating the soul."
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Universe & Beliefs",
+            "contentType": "text",
+            "tabData": [
+                {
+                    "tagType": "h2",
+                    "tagHTML": "Universe, Soul & Karma"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "Jainism has a unique understanding of the universe, the substances within it, and the law of cause and effect (Karma)."
+                },
+                {
+                    "tagType": "h3",
+                    "tagHTML": "The Six Eternal Substances (Shad Dravya)"
+                },
+                {
+                    "tagType": "ul",
+                    "tagHTML": "<li><strong>Jiva</strong> (Soul / Living)</li><li><strong>Pudgal</strong> (Matter)</li><li><strong>Dharma</strong> (Motion)</li><li><strong>Adharma</strong> (Rest)</li><li><strong>Äkäsh</strong> (Space)</li><li><strong>Käl</strong> (Time)</li>"
+                },
+                {
+                    "tagType": "h3",
+                    "tagHTML": "The Soul: Pure vs. Impure"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "<strong>Pure Soul (Siddha)</strong><br>No karma, infinite knowledge, perception, energy, and bliss. No physical body."
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "<strong>Impure Soul (Worldly)</strong><br>Bound by karma, limited knowledge, has a physical body, experiences pleasure and pain."
+                },
+                {
+                    "tagType": "h3",
+                    "tagHTML": "Karma Theory Simplified"
+                },
+                {
+                    "tagType": "ul",
+                    "tagHTML": "<li><strong>Soul</strong> = Magnet 🧲</li><li><strong>Karma</strong> = Iron Particles 🔩</li><li><strong>Kashäy</strong> (Passions) = Magnetic Force ⚡️</li>"
+                },
+                {
+                    "tagType": "p",
+                    "tagHTML": "Our passions attract karma to the soul. The goal is to stop this attraction and shed existing karma."
+                }
+            ]
+        },
+        {
+            "tabName": "Quiz",
+            "contentType": "quiz",
+            "tabData": {
+                "title": "Test Your Knowledge",
+                "questions": [
+                    {
+                        "question": "What does the word 'Jina' mean?",
+                        "options": [
+                            "Victor.",
+                            "God.",
+                            "Soul.",
+                            "Priest."
+                        ],
+                        "answer": "Victor."
+                    },
+                    {
+                        "question": "What are the four inner passions, or Kashäy, that a Jina conquers?",
+                        "options": [
+                            "Love, Hate, Peace, War.",
+                            "Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed).",
+                            "Hunger, Thirst, Sleep, Fear.",
+                            "Earth, Water, Fire, Air."
+                        ],
+                        "answer": "Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed)."
+                    },
+                    {
+                        "question": "Besides Jina, what are two other names for those who have conquered their inner passions?",
+                        "options": [
+                            "Tirthankar and Arihant.",
+                            "Raja and Maharaja.",
+                            "Sadhu and Sadhvi.",
+                            "Guru and Shishya."
+                        ],
+                        "answer": "Tirthankar and Arihant."
+                    },
+                    {
+                        "question": "How many Tirthankars are there in each half time cycle?",
+                        "options": [
+                            "10.",
+                            "24.",
+                            "100.",
+                            "Infinite."
+                        ],
+                        "answer": "24."
+                    },
+                    {
+                        "question": "Does Jainism believe in a God who is a creator, destroyer, or preserver?",
+                        "options": [
+                            "Yes.",
+                            "No."
+                        ],
+                        "answer": "No."
+                    },
+                    {
+                        "question": "In Jainism, what is a soul in its purest form called?",
+                        "options": [
+                            "Siddha (who is a God).",
+                            "Human.",
+                            "Animal.",
+                            "Angel."
+                        ],
+                        "answer": "Siddha (who is a God)."
+                    },
+                    {
+                        "question": "What are the six fundamental substances of the universe collectively known as?",
+                        "options": [
+                            "Shad Dravya.",
+                            "Nav Tattva.",
+                            "Panch Mahavrat.",
+                            "Three Jewels."
+                        ],
+                        "answer": "Shad Dravya."
+                    },
+                    {
+                        "question": "Of the six fundamental substances, which is the only one with consciousness?",
+                        "options": [
+                            "Pudgal (Matter).",
+                            "Dharma (Motion).",
+                            "Jiva (Soul).",
+                            "Akash (Space)."
+                        ],
+                        "answer": "Jiva (Soul)."
+                    },
+                    {
+                        "question": "Name the three core principles of Jainism.",
+                        "options": [
+                            "Ahimsä, Anekäntaväd, and Aparigraha.",
+                            "Truth, Love, Charity.",
+                            "Knowledge, Faith, Conduct.",
+                            "Mind, Body, Soul."
+                        ],
+                        "answer": "Ahimsä, Anekäntaväd, and Aparigraha."
+                    },
+                    {
+                        "question": "What is the Jain concept that truth is relative to the viewpoint from which it is known?",
+                        "options": [
+                            "Anekäntaväd.",
+                            "Syadvada.",
+                            "Nayavada.",
+                            "Ahimsä."
+                        ],
+                        "answer": "Anekäntaväd."
+                    },
+                    {
+                        "question": "What is the term for non-attachment to both material things and people?",
+                        "options": [
+                            "Aparigraha.",
+                            "Brahmacharya.",
+                            "Satya.",
+                            "Asteya."
+                        ],
+                        "answer": "Aparigraha."
+                    },
+                    {
+                        "question": "According to the Karma Theory, what acts as the 'magnetic force' that attracts karma particles to the soul?",
+                        "options": [
+                            "Kashäy (passions like anger, greed, etc.).",
+                            "Gravity.",
+                            "Good deeds.",
+                            "Prayers."
+                        ],
+                        "answer": "Kashäy (passions like anger, greed, etc.)."
+                    },
+                    {
+                        "question": "What are the ancient Jain scriptures called?",
+                        "options": [
+                            "Ägam scriptures.",
+                            "Vedas.",
+                            "Upanishads.",
+                            "Tripitaka."
+                        ],
+                        "answer": "Ägam scriptures."
+                    },
+                    {
+                        "question": "In which language were the Ägam scriptures composed?",
+                        "options": [
+                            "Sanskrit.",
+                            "Ardha-mägadhi Präkrit.",
+                            "Hindi.",
+                            "Pali."
+                        ],
+                        "answer": "Ardha-mägadhi Präkrit."
+                    },
+                    {
+                        "question": "Name the four components of the four-fold order established by a Tirthankar.",
+                        "options": [
+                            "Sädhus, Sädhvis, Shrävaks, and Shrävikäs.",
+                            "Kings, Queens, Princes, Princesses.",
+                            "Rich, Poor, Young, Old.",
+                            "Men, Women, Boys, Girls."
+                        ],
+                        "answer": "Sädhus, Sädhvis, Shrävaks, and Shrävikäs."
+                    }
+                ]
+            }
+        }
+    ]
+}
