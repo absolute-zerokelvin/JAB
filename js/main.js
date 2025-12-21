@@ -22,10 +22,10 @@ async function fetchNavigationData() {
 // Create navigation HTML
 function createNavigationHTML(navData, isMobile = false) {
     if (!navData) return '';
-    
+
     const nav = navData.navigation;
     const mobileClass = isMobile ? 'mobile-nav' : 'desktop-nav';
-    
+
     let html = `
         <nav class="navigation ${mobileClass}" id="${isMobile ? 'mobileNavigation' : 'mainNavigation'}">
             <div class="nav-container">
@@ -42,7 +42,7 @@ function createNavigationHTML(navData, isMobile = false) {
                 </div>
                 <ul class="nav-sections">
     `;
-    
+
     // Add main sections
     nav.sections.forEach(section => {
         html += `
@@ -53,7 +53,7 @@ function createNavigationHTML(navData, isMobile = false) {
                 </div>
                 <ul class="nav-subsections" id="${section.id}-subsections" style="${isMobile ? '' : 'display: none;'}">
         `;
-        
+
         section.subsections.forEach(subsection => {
             // Check if the URL already has parameters to use & or ? accordingly
             const paramChar = subsection.url.includes('?') ? '&' : '?';
@@ -66,13 +66,13 @@ function createNavigationHTML(navData, isMobile = false) {
                 </li>
             `;
         });
-        
+
         html += `
                 </ul>
             </li>
         `;
     });
-    
+
     // Add additional pages
     if (nav.additionalPages) {
         nav.additionalPages.forEach(page => {
@@ -86,13 +86,13 @@ function createNavigationHTML(navData, isMobile = false) {
             `;
         });
     }
-    
+
     html += `
                 </ul>
             </div>
         </nav>
     `;
-    
+
     return html;
 }
 
@@ -100,7 +100,7 @@ function createNavigationHTML(navData, isMobile = false) {
 function toggleSection(sectionId) {
     const subsections = document.getElementById(sectionId + '-subsections');
     const toggle = document.querySelector(`[onclick="toggleSection('${sectionId}')"] .section-toggle`);
-    
+
     if (subsections && toggle) {
         if (subsections.style.display === 'none' || subsections.style.display === '') {
             // Expand section
@@ -117,11 +117,11 @@ function toggleSection(sectionId) {
 // Expand all navigation sections
 function expandAllSections() {
     if (!navigationData) return;
-    
+
     navigationData.navigation.sections.forEach(section => {
         const subsections = document.getElementById(section.id + '-subsections');
         const toggle = document.querySelector(`[onclick="toggleSection('${section.id}')"] .section-toggle`);
-        
+
         if (subsections && toggle) {
             subsections.style.display = 'block';
             toggle.textContent = '▲';
@@ -132,11 +132,11 @@ function expandAllSections() {
 // Collapse all navigation sections
 function collapseAllSections() {
     if (!navigationData) return;
-    
+
     navigationData.navigation.sections.forEach(section => {
         const subsections = document.getElementById(section.id + '-subsections');
         const toggle = document.querySelector(`[onclick="toggleSection('${section.id}')"] .section-toggle`);
-        
+
         if (subsections && toggle) {
             subsections.style.display = 'none';
             toggle.textContent = '▼';
@@ -148,7 +148,7 @@ function collapseAllSections() {
 function toggleMobileNav() {
     const nav = document.getElementById('mobileNavigation');
     const overlay = document.getElementById('navOverlay');
-    
+
     if (nav && overlay) {
         nav.classList.toggle('active');
         overlay.classList.toggle('active');
@@ -159,19 +159,19 @@ function toggleMobileNav() {
 async function initializeNavigation() {
     const navData = await fetchNavigationData();
     if (!navData) return;
-    
+
     // Create desktop navigation
     const desktopNavContainer = document.getElementById('desktop-nav-container');
     if (desktopNavContainer) {
         desktopNavContainer.innerHTML = createNavigationHTML(navData, false);
     }
-    
+
     // Create mobile navigation
     const mobileNavContainer = document.getElementById('mobile-nav-container');
     if (mobileNavContainer) {
         mobileNavContainer.innerHTML = createNavigationHTML(navData, true);
     }
-    
+
     // Initialize sections with different defaults for desktop and mobile
     navData.navigation.sections.forEach(section => {
         // For desktop navigation - collapsed by default
@@ -184,14 +184,14 @@ async function initializeNavigation() {
                 desktopToggle.textContent = '▼';
             }
         }
-        
+
         // For mobile navigation - expanded by default
         const mobileSubsections = document.querySelector(`#mobileNavigation #${section.id}-subsections`);
         if (mobileSubsections) {
             mobileSubsections.style.display = 'block'; // Keep expanded for mobile
         }
     });
-    
+
     // Store the navigation data globally for use in expand/collapse all functions
     navigationData = navData;
 }
@@ -200,12 +200,12 @@ async function initializeNavigation() {
 async function renderHomepageContent() {
     const navData = await fetchNavigationData();
     if (!navData) return;
-    
+
     const contentContainer = document.getElementById('homepage-content');
     if (!contentContainer) return;
-    
+
     let html = '';
-    
+
     // Add About section at the top
     html += `
         <div class="section-card" id="about">
@@ -226,7 +226,7 @@ async function renderHomepageContent() {
             </p>
         </div>
     `;
-    
+
     // Render sections after the About section
     navData.navigation.sections.forEach(section => {
         html += `
@@ -235,7 +235,7 @@ async function renderHomepageContent() {
                 <p class="section-card-description">${section.description}</p>
                 <div class="subsection-grid">
         `;
-        
+
         section.subsections.forEach(subsection => {
             const isComingSoon = subsection.name === 'Coming Soon';
             html += `
@@ -246,13 +246,13 @@ async function renderHomepageContent() {
                 </a>
             `;
         });
-        
+
         html += `
                 </div>
             </div>
         `;
     });
-    
+
     // Render additional pages as a special section
     if (navData.navigation.additionalPages && navData.navigation.additionalPages.length > 0) {
         html += `
@@ -261,7 +261,7 @@ async function renderHomepageContent() {
                 <p class="section-card-description">Timelines and other comprehensive resources</p>
                 <div class="subsection-grid">
         `;
-        
+
         navData.navigation.additionalPages.forEach(page => {
             html += `
                 <a href="${page.url}" class="subsection-card">
@@ -270,23 +270,23 @@ async function renderHomepageContent() {
                 </a>
             `;
         });
-        
+
         html += `
                 </div>
             </div>
         `;
     }
-    
+
     contentContainer.innerHTML = html;
 }
 
 // Add event listener when the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     console.log('JAB Manual - Scripts initialized');
-    
+
     // Initialize navigation
     initializeNavigation();
-    
+
     // Render homepage content if on homepage
     if (document.getElementById('homepage-content')) {
         renderHomepageContent();
@@ -297,13 +297,28 @@ document.addEventListener('DOMContentLoaded', function() {
     if (storyHeader) {
         const toggleCondensed = () => {
             const y = window.scrollY || document.documentElement.scrollTop;
-            if (y > 40) {
+            // Use hysteresis to prevent flickering at the threshold
+            // Add condensed class if scrolled down more than 100px
+            if (y > 100 && !storyHeader.classList.contains('condensed')) {
                 storyHeader.classList.add('condensed');
-            } else {
+            }
+            // Only remove condensed class if scrolled back up near the very top (less than 20px)
+            else if (y < 20 && storyHeader.classList.contains('condensed')) {
                 storyHeader.classList.remove('condensed');
             }
         };
-        window.addEventListener('scroll', toggleCondensed, { passive: true });
+        // Use requestAnimationFrame for smoother performance
+        let ticking = false;
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(() => {
+                    toggleCondensed();
+                    ticking = false;
+                });
+                ticking = true;
+            }
+        }, { passive: true });
+
         toggleCondensed();
     }
 });
