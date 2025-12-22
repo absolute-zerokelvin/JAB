@@ -1,0 +1,362 @@
+{
+    "tabView": true,
+    "pageTitle": "B.6 Nav Tattva Part I",
+    "sectionTitle": "B.6: Nav Tattva Part I",
+    "pageSubtitle": "An Interactive Study Guide for Introduction, Äsrav, & Bandh",
+    "tabs": [
+        {
+            "tabName": "Intro & Chart",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Introduction to Nav Tattva (Nine Fundamentals)"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "The Nav Tattva, or nine fundamentals, are the essence of Jain philosophy. They explain the theory of karma, which is the basis for understanding how a soul can achieve liberation (Moksh). By understanding these principles, we can learn how to stop new karma from coming in (<strong>Samvar</strong>) and how to remove old karma (<strong>Nirjarä</strong>)."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "Interactive Nav Tattva Chart",
+                            "items": [
+                                {
+                                    "header": "Jneya - Those to be known",
+                                    "content": "<ul class='list-disc pl-6 space-y-1'><li><strong>Jiva</strong> - Soul or living being (Consciousness)</li><li><strong>Ajiva</strong> - Non-living substances</li></ul>"
+                                },
+                                {
+                                    "header": "Heya - Those to be avoided",
+                                    "content": "<ul class='list-disc pl-6 space-y-1'><li><strong>Äsrav</strong> - Influx of karma</li><li><strong>Bandha</strong> - Bondage of karma</li><li><strong>Päp</strong> - Sin</li></ul>"
+                                },
+                                {
+                                    "header": "Upädeya - Those to be adopted",
+                                    "content": "<ul class='list-disc pl-6 space-y-1'><li><strong>Punya</strong> - Virtue</li><li><strong>Samvar</strong> - Stoppage of the influx of karma</li><li><strong>Nirjarä</strong> - Partial eradication of accumulated karma</li><li><strong>Moksh</strong> - Total liberation from karma</li></ul>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Punya & Päp",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Punya (Virtue) and Päp (Sin)"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "As long as a soul is embodied, it's always performing some activity (physical or mental). These activities attract karma."
+                            },
+                            {
+                                "tagType": "div",
+                                "tagHTML": "<div class='grid md:grid-cols-2 gap-6 text-center mt-4'><div class='p-6 bg-green-100 rounded-xl'><h3 class='text-xl font-bold text-green-800'>Punya (Virtue)</h3><p>Meritorious or virtuous deeds (<strong>Shubh</strong>) done with good intentions lead to Punya. This results in happy and comfortable situations, like good health and a beautiful body.</p></div><div class='p-6 bg-red-100 rounded-xl'><h3 class='text-xl font-bold text-red-800'>Päp (Sin)</h3><p>Evil or vicious acts (<strong>Ashubh</strong>) lead to Päp. This results in unhappy and miserable situations, like illness and poverty.</p></div></div>"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Crucially, it's the <strong>intention</strong> behind an act, not just the act itself, that determines the type of karma acquired."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "The Story of the Two Monks",
+                            "items": [
+                                {
+                                    "header": "The Story of the Two Monks",
+                                    "content": "<p class='mb-4'>This story shows how intention is more important than action. Two monks, Suresh muni and Raman muni, came to a flooded river where a young girl was afraid to cross.</p><ol class='list-decimal pl-6 space-y-2'><li><strong class='text-blue-600'>Suresh muni</strong>, seeing her distress, helped her across the river, even carrying her when the water got deep. His intention was pure help, with no attachment or passion. He let go of the girl and the thought of her immediately.</li><li><strong class='text-red-600'>Raman muni</strong> objected to the physical contact, but he himself kept thinking about the girl and the act for an hour afterward, creating passionate thoughts in his mind.</li></ol><p class='mt-4 font-bold text-center'>In this case, Suresh muni earned Punya for his selfless help, while Raman muni, despite not touching the girl, acquired Päp due to his impure thoughts and intentions.</p>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Äsrav (Influx)",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Äsrav: The Inflow of Karma"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Äsrav is the process by which new karmic particles are attracted to the soul. Think of the soul as a boat and karma as water. Äsrav is the holes in the boat that let the water in."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "The 5 Causes of Influx (Äsrav)",
+                                "description": "These are the 'holes' that let karma in.",
+                                "frontColor": "#fb923c",
+                                "backColor": "#f97316",
+                                "flippable": true,
+                                "cards": [
+                                    {
+                                        "front": "Mithyätva",
+                                        "back": "Wrong Faith. Ignorance or delusion about the true nature of the soul."
+                                    },
+                                    {
+                                        "front": "Avirati",
+                                        "back": "Lack of Self-Restraint. Not taking vows to abstain from sinful activities."
+                                    },
+                                    {
+                                        "front": "Pramäd",
+                                        "back": "Spiritual Laziness. Negligence in religious duties (caused by addiction, passions, sleep, etc.)."
+                                    },
+                                    {
+                                        "front": "Kashäy",
+                                        "back": "Passions. The four main passions: Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed)."
+                                    },
+                                    {
+                                        "front": "Yoga",
+                                        "back": "Activities. The actions of our mind, speech, and body which attract karma."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Bandh (Bondage)",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Bandh: The Bondage of Karma"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Bandh is the actual attachment of karmic particles to the soul. This process determines four key characteristics of the karma, just like when you get medicine."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "The 4 Characteristics of Bondage (Bandh)",
+                                "description": "Every karma that binds has these four properties.",
+                                "frontColor": "#fb7185",
+                                "backColor": "#f43f5e",
+                                "flippable": true,
+                                "cards": [
+                                    {
+                                        "front": "Prakriti Bandh",
+                                        "back": "Nature of Karma. Determines the type of karma, e.g., knowledge-obscuring."
+                                    },
+                                    {
+                                        "front": "Pradesh Bandh",
+                                        "back": "Quantity of Karma. Determines how many karmic particles attach to the soul."
+                                    },
+                                    {
+                                        "front": "Sthiti Bandh",
+                                        "back": "Duration of Karma. Determines how long the karma will stay with the soul."
+                                    },
+                                    {
+                                        "front": "Rasa Bandh",
+                                        "back": "Intensity of Karma. Determines how strong the karma's effect will be."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "p",
+                                "tagHTML": "<strong>Yoga</strong> (activities of mind, speech, and body) determines the <strong>Prakriti</strong> and <strong>Pradesh</strong> of karma."
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "<strong>Kashäy</strong> (passions) determines the <strong>Sthiti</strong> and <strong>Rasa</strong> of karma."
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Quiz Time!",
+            "contentType": "quiz",
+            "tabData": {
+                "title": "Quiz Time! 🧠",
+                "questions": [
+                    {
+                        "question": "What is the collective name for the nine fundamentals of Jainism?",
+                        "answer": "Nav Tattva",
+                        "options": [
+                            "Nav Tattva",
+                            "Shad Dravya",
+                            "Panch Parameshthi"
+                        ]
+                    },
+                    {
+                        "question": "What are the two fundamentals to be known (Jneya)?",
+                        "answer": "Jiva (soul) and Ajiva (non-soul)",
+                        "options": [
+                            "Jiva (soul) and Ajiva (non-soul)",
+                            "Punya and Päp",
+                            "Samvar and Nirjarä"
+                        ]
+                    },
+                    {
+                        "question": "Which category of fundamentals should be avoided (Heya)?",
+                        "answer": "Päp (sin), Äsrav (influx), and Bandh (bondage)",
+                        "options": [
+                            "Päp (sin), Äsrav (influx), and Bandh (bondage)",
+                            "Punya and Moksh",
+                            "Jiva and Ajiva"
+                        ]
+                    },
+                    {
+                        "question": "Which category of fundamentals should be adopted (Upädeya)?",
+                        "answer": "Punya (virtue), Samvar (stoppage), Nirjarä (eradication), and Moksh (liberation)",
+                        "options": [
+                            "Punya (virtue), Samvar (stoppage), Nirjarä (eradication), and Moksh (liberation)",
+                            "Äsrav and Bandh",
+                            "Jiva and Ajiva"
+                        ]
+                    },
+                    {
+                        "question": "What is the inflow of karma into the soul called?",
+                        "answer": "Äsrav",
+                        "options": [
+                            "Äsrav",
+                            "Bandh",
+                            "Nirjarä"
+                        ]
+                    },
+                    {
+                        "question": "What is the actual bondage of karmic particles to the soul called?",
+                        "answer": "Bandh",
+                        "options": [
+                            "Bandh",
+                            "Äsrav",
+                            "Samvar"
+                        ]
+                    },
+                    {
+                        "question": "What is the most important factor in determining Punya or Päp karma?",
+                        "answer": "The intention behind the action",
+                        "options": [
+                            "The intention behind the action",
+                            "The physical action itself",
+                            "The time of day"
+                        ]
+                    },
+                    {
+                        "question": "Name the five causes of Äsrav (influx of karma).",
+                        "answer": "Mithyätva, Avirati, Pramäd, Kashäy, and Yoga",
+                        "options": [
+                            "Mithyätva, Avirati, Pramäd, Kashäy, and Yoga",
+                            "Prakriti, Pradesh, Sthiti, Rasa",
+                            "Jiva, Ajiva, Punya, Päp"
+                        ]
+                    },
+                    {
+                        "question": "What does Mithyätva mean?",
+                        "answer": "Wrong faith or delusion about the soul's true nature",
+                        "options": [
+                            "Wrong faith or delusion about the soul's true nature",
+                            "Lack of self-restraint",
+                            "Spiritual laziness"
+                        ]
+                    },
+                    {
+                        "question": "What are the four main passions (Kashäy)?",
+                        "answer": "Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed)",
+                        "options": [
+                            "Krodh (Anger), Män (Ego), Mäyä (Deceit), and Lobh (Greed)",
+                            "Mithyätva, Avirati, Pramäd, Yoga",
+                            "Prakriti, Pradesh, Sthiti, Rasa"
+                        ]
+                    },
+                    {
+                        "question": "Which characteristic of bondage determines the 'type' of karma?",
+                        "answer": "Prakriti Bandh (Nature)",
+                        "options": [
+                            "Prakriti Bandh (Nature)",
+                            "Pradesh Bandh (Quantity)",
+                            "Sthiti Bandh (Duration)"
+                        ]
+                    },
+                    {
+                        "question": "Which characteristic of bondage determines 'how many' karmic particles attach?",
+                        "answer": "Pradesh Bandh (Quantity)",
+                        "options": [
+                            "Pradesh Bandh (Quantity)",
+                            "Prakriti Bandh (Nature)",
+                            "Rasa Bandh (Intensity)"
+                        ]
+                    },
+                    {
+                        "question": "Which characteristic of bondage determines 'how long' karma will stay with the soul?",
+                        "answer": "Sthiti Bandh (Duration)",
+                        "options": [
+                            "Sthiti Bandh (Duration)",
+                            "Pradesh Bandh (Quantity)",
+                            "Rasa Bandh (Intensity)"
+                        ]
+                    },
+                    {
+                        "question": "Which characteristic of bondage determines 'how strong' the karma's effect will be?",
+                        "answer": "Rasa Bandh (Intensity)",
+                        "options": [
+                            "Rasa Bandh (Intensity)",
+                            "Sthiti Bandh (Duration)",
+                            "Prakriti Bandh (Nature)"
+                        ]
+                    },
+                    {
+                        "question": "What aspect of our actions determines the Prakriti and Pradesh of karma?",
+                        "answer": "Yoga (activities of mind, speech, and body)",
+                        "options": [
+                            "Yoga (activities of mind, speech, and body)",
+                            "Kashäy (passions)",
+                            "Mithyätva (wrong faith)"
+                        ]
+                    },
+                    {
+                        "question": "What aspect of our being determines the Sthiti and Rasa of karma?",
+                        "answer": "Kashäy (passions)",
+                        "options": [
+                            "Kashäy (passions)",
+                            "Yoga (activities)",
+                            "Avirati (lack of restraint)"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
