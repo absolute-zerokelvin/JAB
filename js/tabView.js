@@ -2,6 +2,7 @@
  * JAB Manual - tabView.js
  * Contains functions to render dynamic content types for tabTemplate.html
  */
+console.log('tabView.js v7 loaded at', new Date().toISOString());
 
 /**
  * Renders quiz content with Q&A List and Flashcard formats.
@@ -28,16 +29,16 @@ function renderQuiz(quizData, containerElement) {
             </div>
             <div id="flashcards-view" class="quiz-view" style="display: none;">
                 <h3 class="quiz-format-title">Quiz: Flashcard Format</h3>
-                <div id="flashcard-container" class="flashcard-container">
-                    <div class="flashcard-card">
-                        <div class="flashcard-front">
+                <div id="flashcard-container" class="tv-flashcard-container">
+                    <div class="tv-flashcard-card">
+                        <div class="tv-flashcard-front">
                             <p id="flashcard-question"></p>
                         </div>
-                        <div class="flashcard-back">
+                        <div class="tv-flashcard-back">
                             <p id="flashcard-answer"></p>
                         </div>
                     </div>
-                    <div class="flashcard-controls">
+                    <div class="tv-flashcard-controls">
                         <button id="flashcard-prev" class="tab-button">Previous</button>
                         <span id="flashcard-counter"></span>
                         <button id="flashcard-next" class="tab-button">Next</button>
@@ -72,12 +73,6 @@ function renderQuiz(quizData, containerElement) {
                 showAnswerBtn.textContent = 'Show Answer';
             }
         });
-
-        // No direct check logic here, as the user just wants to reveal the answer
-        // The answer is already in quizAnswerDiv.innerHTML = `${q.answer}`;
-        // The change to string answers only affects the D2.json structure, not this display logic.
-        // If there was a 'check answer' button for Q&A list, this would be the place to modify it.
-        // However, based on the provided code, it's just a 'show answer' button.
     });
 
     // Flashcard logic
@@ -87,15 +82,12 @@ function renderQuiz(quizData, containerElement) {
     const flashcardCounter = containerElement.querySelector('#flashcard-counter');
     const flashcardPrevBtn = containerElement.querySelector('#flashcard-prev');
     const flashcardNextBtn = containerElement.querySelector('#flashcard-next');
-    const flashcardCard = containerElement.querySelector('.flashcard-card');
-    const flashcardFront = containerElement.querySelector('.flashcard-front');
-    const flashcardBack = containerElement.querySelector('.flashcard-back');
+    const flashcardCard = containerElement.querySelector('.tv-flashcard-card');
+    const flashcardFront = containerElement.querySelector('.tv-flashcard-front');
+    const flashcardBack = containerElement.querySelector('.tv-flashcard-back');
 
     function updateFlashcard() {
         const currentQuestion = quizData.questions[currentFlashcardIndex];
-        console.log('Updating flashcard. Current question:', currentQuestion);
-        console.log('flashcardQuestion element:', flashcardQuestion);
-        console.log('flashcardAnswer element:', flashcardAnswer);
         flashcardQuestion.textContent = currentQuestion.question;
         flashcardAnswer.textContent = currentQuestion.answer;
         flashcardCounter.textContent = `${currentFlashcardIndex + 1}/${quizData.questions.length}`;
@@ -139,7 +131,6 @@ function renderQuiz(quizData, containerElement) {
         updateFlashcard(); // Initialize flashcard view
     });
 
-    updateFlashcard(); // Initial load of the first flashcard
     updateFlashcard(); // Initial load of the first flashcard
 }
 
@@ -682,7 +673,7 @@ function renderFlashcards(flashCardsData, containerElement) {
         return;
     }
 
-    flashCardsData.forEach(group => {
+    flashCardsData.forEach((group, groupIndex) => {
         const groupDiv = document.createElement('div');
         groupDiv.className = 'flashcard-group';
 
@@ -700,58 +691,116 @@ function renderFlashcards(flashCardsData, containerElement) {
             groupDiv.appendChild(description);
         }
 
-        const cardsGrid = document.createElement('div');
-        cardsGrid.className = 'flashcards-grid';
+        // Create single flashcard container with navigation
+        const flashcardContainer = document.createElement('div');
+        flashcardContainer.className = 'tv-flashcard-container';
+        flashcardContainer.id = `tv-flashcard-container-${groupIndex}`;
 
-        group.cards.forEach(card => {
-            const flashcardCard = document.createElement('div');
-            flashcardCard.className = 'flashcard-card';
+        const flashcardCard = document.createElement('div');
+        flashcardCard.className = 'tv-flashcard-card';
+        flashcardCard.id = `tv-flashcard-card-${groupIndex}`;
 
-            // Apply custom colors if provided
-            if (group.frontColor) {
-                flashcardCard.style.backgroundColor = group.frontColor;
-            }
+        // Apply custom colors if provided
+        if (group.frontColor) {
+            flashcardCard.style.setProperty('--flashcard-front-color', group.frontColor);
+        }
+        if (group.backColor) {
+            flashcardCard.style.setProperty('--flashcard-back-color', group.backColor);
+        }
 
-            const flashcardFront = document.createElement('div');
-            flashcardFront.className = 'flashcard-front';
+        const flashcardFront = document.createElement('div');
+        flashcardFront.className = 'tv-flashcard-front';
+        flashcardFront.id = `tv-flashcard-front-${groupIndex}`;
+        if (group.frontColor) {
+            flashcardFront.style.backgroundColor = group.frontColor;
+            flashcardFront.style.color = '#ffffff'; // Force white text
+        }
 
-            if (group.flippable === false) {
-                // For non-flippable, both front and back are visible in the 'front' div
-                flashcardFront.innerHTML = `
-                    <p class="flashcard-non-flippable-front">${card.front}</p>
-                    <p class="flashcard-non-flippable-back">${card.back}</p>
-                `;
-                flashcardFront.style.backgroundColor = group.frontColor; // Use frontColor for background
-                flashcardFront.style.color = group.backColor; // Use backColor for text
-            } else {
-                flashcardFront.innerHTML = `<p>${card.front}</p>`;
-            }
+        const flashcardBack = document.createElement('div');
+        flashcardBack.className = 'tv-flashcard-back';
+        flashcardBack.id = `tv-flashcard-back-${groupIndex}`;
+        if (group.backColor) {
+            flashcardBack.style.backgroundColor = group.backColor;
+            flashcardBack.style.color = '#ffffff'; // Force white text
+        }
 
-            const flashcardBack = document.createElement('div');
-            flashcardBack.className = 'flashcard-back';
-            flashcardBack.innerHTML = `<p>${card.back}</p>`;
-            if (group.backColor) {
-                flashcardBack.style.backgroundColor = group.backColor;
-            }
+        flashcardCard.appendChild(flashcardFront);
+        flashcardCard.appendChild(flashcardBack);
+        flashcardContainer.appendChild(flashcardCard);
 
-            flashcardCard.appendChild(flashcardFront);
-            // Only append back if flippable
-            if (group.flippable !== false) {
-                flashcardCard.appendChild(flashcardBack);
-            }
+        // Create navigation controls
+        const controlsDiv = document.createElement('div');
+        controlsDiv.className = 'tv-flashcard-controls';
 
-            if (group.flippable !== false) {
-                flashcardCard.addEventListener('click', () => {
-                    flashcardCard.classList.toggle('flipped');
-                });
-            } else {
-                flashcardCard.classList.add('non-flippable-card');
-            }
+        // Inline styles for flex layout to ensure it works even if CSS is slow
+        controlsDiv.style.display = 'flex';
+        controlsDiv.style.justifyContent = 'space-between';
+        controlsDiv.style.width = '100%';
+        controlsDiv.style.maxWidth = '500px';
+        controlsDiv.style.marginTop = '6rem';
+        controlsDiv.style.alignItems = 'center';
 
-            cardsGrid.appendChild(flashcardCard);
+        const prevBtn = document.createElement('button');
+        prevBtn.className = 'tab-button';
+        prevBtn.textContent = 'Previous';
+        prevBtn.id = `flashcard-prev-${groupIndex}`;
+
+        const counter = document.createElement('span');
+        counter.id = `flashcard-counter-${groupIndex}`;
+        counter.className = 'flashcard-counter';
+        counter.style.fontSize = '1.1rem';
+        counter.style.fontWeight = '500';
+
+        const nextBtn = document.createElement('button');
+        nextBtn.className = 'tab-button';
+        nextBtn.textContent = 'Next';
+        nextBtn.id = `flashcard-next-${groupIndex}`;
+
+        controlsDiv.appendChild(prevBtn);
+        controlsDiv.appendChild(counter);
+        controlsDiv.appendChild(nextBtn);
+        flashcardContainer.appendChild(controlsDiv);
+
+        groupDiv.appendChild(flashcardContainer);
+        containerElement.appendChild(groupDiv);
+
+        // Initialize flashcard logic for this group
+        let currentIndex = 0;
+        const cards = group.cards;
+
+        if (!cards || cards.length === 0) {
+            return;
+        }
+
+        function updateCard() {
+            const card = cards[currentIndex];
+            flashcardFront.innerHTML = `<p style="margin:0; padding:10px;">${card.front}</p>`;
+            flashcardBack.innerHTML = `<p style="margin:0; padding:10px;">${card.back}</p>`;
+            counter.textContent = `${currentIndex + 1} / ${cards.length}`;
+            flashcardCard.classList.remove('flipped');
+        }
+
+        // Flip on click
+        if (group.flippable !== false) {
+            flashcardCard.addEventListener('click', () => {
+                flashcardCard.classList.toggle('flipped');
+            });
+        }
+
+        // Navigation
+        prevBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentIndex = (currentIndex - 1 + cards.length) % cards.length;
+            updateCard();
         });
 
-        groupDiv.appendChild(cardsGrid);
-        containerElement.appendChild(groupDiv);
+        nextBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            currentIndex = (currentIndex + 1) % cards.length;
+            updateCard();
+        });
+
+        // Initialize first card
+        updateCard();
     });
 }

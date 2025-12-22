@@ -1,21 +1,25 @@
 /* --- Flashcard Specific Styles --- */
-.flashcard-container {
+.tv-flashcard-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
-    perspective: 1000px; /* Add perspective for 3D effect */
+    perspective: 1000px;
+    /* Add perspective for 3D effect */
+    z-index: 10;
 }
 
-.flashcard-card {
+.tv-flashcard-card {
     width: 100%;
     max-width: 500px;
-    height: 200px;
+    height: 300px;
+    /* Increased height to 300px for better visibility */
     /* background-color will be set inline based on group.frontColor */
     color: white;
     border-radius: 12px;
     display: flex;
-    flex-direction: column; /* Allow content to stack */
+    flex-direction: column;
+    /* Allow content to stack */
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
@@ -29,12 +33,12 @@
     position: relative;
 }
 
-.flashcard-non-flippable-front {
+.tv-flashcard-non-flippable-front {
     font-size: 1.1em;
     font-weight: 600;
 }
 
-.flashcard-non-flippable-back {
+.tv-flashcard-non-flippable-back {
     font-size: 0.9em;
     font-weight: 400;
     margin-top: 0.5em;
@@ -42,67 +46,87 @@
 }
 
 /* Styles for non-flippable cards */
-.flashcard-card.non-flippable-card {
-    transform-style: flat; /* Disable 3D for non-flippable cards */
-    transition: none; /* No transition for non-flippable cards */
-    cursor: default; /* Change cursor for non-flippable cards */
+.tv-flashcard-card.non-flippable-card {
+    transform-style: flat;
+    /* Disable 3D for non-flippable cards */
+    transition: none;
+    /* No transition for non-flippable cards */
+    cursor: default;
+    /* Change cursor for non-flippable cards */
 }
 
-.flashcard-card.non-flippable-card .flashcard-front,
-.flashcard-card.non-flippable-card .flashcard-back {
-    transform: none; /* Remove any initial rotation */
+.tv-flashcard-card.non-flippable-card .tv-flashcard-front,
+.tv-flashcard-card.non-flippable-card .tv-flashcard-back {
+    transform: none;
+    /* Remove any initial rotation */
 }
 
-.flashcard-front, .flashcard-back {
+.tv-flashcard-front,
+.tv-flashcard-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     display: flex;
-    flex-direction: column; /* Ensure content stacks vertically */
+    flex-direction: column;
+    /* Ensure content stacks vertically */
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    /* Increased padding */
     /* Add transition for smooth flip of individual faces */
     transition: transform 0.6s;
-    color: var(--text-primary); /* Ensure text is visible */
+    color: #ffffff;
+    /* Ensure text is white for contrast against dark backgrounds */
+    border-radius: 12px;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    /* Allow scrolling for long content */
 }
 
-.flashcard-front {
-    background-color: var(--primary-blue-dark); /* Set background for quiz flashcard front */
-    color: var(--text-primary-dark); /* Ensure text is visible */
+.tv-flashcard-front {
+    background-color: var(--primary-blue-dark);
+    /* Set background for quiz flashcard front */
+    color: #ffffff;
     transform: rotateY(0deg);
 }
 
-.flashcard-back {
-    background-color: var(--light-blue); /* Keep existing background for back */
-    color: var(--primary-blue-dark);
+.tv-flashcard-back {
+    background-color: var(--primary-blue);
+    /* Default back color */
+    color: #ffffff;
     transform: rotateY(180deg);
 }
 
-.flashcard-card.flipped .flashcard-front {
+.tv-flashcard-card.flipped .tv-flashcard-front {
     transform: rotateY(-180deg);
 }
 
-.flashcard-card.flipped .flashcard-back {
+.tv-flashcard-card.flipped .tv-flashcard-back {
     transform: rotateY(0deg);
 }
 
-.flashcard-controls {
+.tv-flashcard-controls {
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 500px;
-    margin-top: 1.5rem;
+    margin-top: 6rem;
     align-items: center;
+    position: relative;
+    /* Ensure controls are positioned */
+    z-index: 20;
+    /* Ensure controls are above card if overlap happens */
 }
 
-.flashcard-controls .tab-button {
+.tv-flashcard-controls .tab-button {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
 }
 
-.flashcard-controls span {
+.tv-flashcard-controls span {
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--text-primary);
@@ -117,19 +141,23 @@
 }
 
 .flashcard-group-title {
-    font-size: 1.75rem; /* Tailwind text-2xl */
-    font-weight: 700; /* Tailwind font-bold */
+    font-size: 1.75rem;
+    /* Tailwind text-2xl */
+    font-weight: 700;
+    /* Tailwind font-bold */
     color: var(--primary-blue-dark);
     margin-bottom: 0.75rem;
 }
 
 .flashcard-group-description {
-    font-size: 1.125rem; /* Tailwind text-lg */
+    font-size: 1.125rem;
+    /* Tailwind text-lg */
     line-height: 1.6;
     color: var(--text-primary);
     margin-bottom: 1.5rem;
 }
 
+/* Grid styles maintained for legacy/other uses if needed, or update to tv- if grid used */
 .flashcards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -137,8 +165,9 @@
 }
 
 /* Adjust individual card styling within the grid */
-.flashcards-grid .flashcard-card {
-    height: 150px; /* Smaller height for grid cards */
+.flashcards-grid .tv-flashcard-card {
+    height: 150px;
+    /* Smaller height for grid cards */
     font-size: 1.2rem;
 }
 
@@ -173,8 +202,15 @@
     z-index: 1;
 }
 
-.timeline-event.left { left: 0; padding-right: 60px; }
-.timeline-event.right { left: 50%; padding-left: 60px; }
+.timeline-event.left {
+    left: 0;
+    padding-right: 60px;
+}
+
+.timeline-event.right {
+    left: 50%;
+    padding-left: 60px;
+}
 
 .timeline-event::after {
     content: '';
@@ -188,8 +224,15 @@
     z-index: 1;
 }
 
-.timeline-event.left::after { right: -10px; transform: translateX(50%); }
-.timeline-event.right::after { left: 10px; transform: translateX(-50%); }
+.timeline-event.left::after {
+    right: -10px;
+    transform: translateX(50%);
+}
+
+.timeline-event.right::after {
+    left: 10px;
+    transform: translateX(-50%);
+}
 
 .timeline-content {
     background-color: #ffffff;
@@ -200,24 +243,39 @@
 }
 
 .timeline-event.left .timeline-content::before {
-    content: ''; position: absolute; top: 25px; right: -15px;
-    border-width: 15px 0 15px 15px; border-style: solid;
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: -15px;
+    border-width: 15px 0 15px 15px;
+    border-style: solid;
     border-color: transparent transparent transparent #ffffff;
 }
 
 .timeline-event.right .timeline-content::before {
-    content: ''; position: absolute; top: 25px; left: -15px;
-    border-width: 15px 15px 15px 0; border-style: solid;
+    content: '';
+    position: absolute;
+    top: 25px;
+    left: -15px;
+    border-width: 15px 15px 15px 0;
+    border-style: solid;
     border-color: transparent #ffffff transparent transparent;
 }
 
 .timeline-era {
-    text-align: center; margin: 40px 0; position: relative; z-index: 2;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .timeline-era h2 {
-    background-color: var(--primary-blue); color: #ffffff; display: inline-block;
-    padding: 10px 20px; border-radius: 9999px; font-weight: 700;
+    background-color: var(--primary-blue);
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    font-weight: 700;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -298,8 +356,10 @@
 }
 
 .quiz-main-title {
-    font-size: 2rem; /* Tailwind text-2xl */
-    font-weight: 700; /* Tailwind font-bold */
+    font-size: 2rem;
+    /* Tailwind text-2xl */
+    font-weight: 700;
+    /* Tailwind font-bold */
     color: var(--primary-blue-dark);
     text-align: center;
     margin-bottom: 1rem;
@@ -324,8 +384,10 @@
 }
 
 .quiz-format-title {
-    font-size: 1.5rem; /* Tailwind text-xl */
-    font-weight: 600; /* Tailwind font-semibold */
+    font-size: 1.5rem;
+    /* Tailwind text-xl */
+    font-weight: 600;
+    /* Tailwind font-semibold */
     color: var(--primary-blue);
     margin-top: 1.5rem;
     margin-bottom: 1rem;
