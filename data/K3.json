@@ -1,387 +1,387 @@
 {
-  "sectionTitle": "Anekāntavād III: The Five Samvāy (Causal Factors)",
-  "tabs": [
-    {
-      "tabName": "Introduction",
-      "contentType": "accordian",
-      "caption": "Get started with the fundamental concepts of Jain causality and the principle of Anekāntavād.",
-      "tabData": {
-        "title": "Core Concepts of Jain Causality",
-        "items": [
-          {
-            "header": "Jain View of the Universe vs. Other Beliefs",
-            "content": "Jain philosophy posits that the universe is eternal and uncreated. It operates according to natural laws and is composed of six basic, indestructible substances: <span style='color: #9c27b0;'>Jīvāstikāy</span> (Soul), <span style='color: #9c27b0;'>Pudgalāstikāy</span> (Material atoms), <span style='color: #9c27b0;'>Dharmāstikāy</span> (Medium of motion), <span style='color: #9c27b0;'>Adharmāstikāy</span> (Medium of rest), <span style='color: #9c27b0;'>Ākāshāstikāy</span> (Space), and <span style='color: #9c27b0;'>Kāl</span> (Time). This contrasts with beliefs that a divine being created and manages the universe. In Jainism, every individual experiences the results of their own Karma."
-          },
-          {
-            "header": "What is Samvāy?",
-            "content": "<span style='color: #d32f2f; font-weight: bold;'>Samvāy</span> is the name for the collective group of five distinct causal factors that function simultaneously to bring about any event or situation in the universe. No action can take place without these five causes being present and interacting. The principle of <span style='color: #d32f2f; font-weight: bold;'>Anekāntavād</span> (multiplicity of viewpoints) teaches us to consider all five factors rather than isolating just one as the sole cause."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Mind Map",
-      "contentType": "mindmap",
-      "caption": "Explore the hierarchical relationship of the Five Causal Factors.",
-      "tabData": {
-        "title": "The Five Samvāy (Causal Factors)",
-        "description": "A visual breakdown of Samvāy, the five simultaneous causes that collectively explain the occurrence of any event in Jain philosophy.",
-        "nodes": [
-          {
-            "id": "1",
-            "text": "Samvāy",
-            "description": "The group of five causal factors that must operate simultaneously for any action or reaction to occur.",
-            "parent": null
-          },
-          {
-            "id": "2",
-            "text": "Kāl",
-            "description": "Time. It provides sequence and maturity to events. The fruits of karma manifest at a specific time, not immediately.",
-            "parent": "1"
-          },
-          {
-            "id": "3",
-            "text": "Svabhāv",
-            "description": "Nature of a Substance. The inherent, unchangeable quality of an object or being. For example, a dog barks due to its nature.",
-            "parent": "1"
-          },
-          {
-            "id": "4",
-            "text": "Niyati",
-            "description": "Destiny or Fate. Certain events that are predetermined and unalterable, such as the aging process.",
-            "parent": "1"
-          },
-          {
-            "id": "5",
-            "text": "Nimitta / Prārabdha",
-            "description": "External Circumstances or Karma. An apparent or catalytic cause. It can be external (like a teacher's guidance) or internal (one's own past Karma).",
-            "parent": "1"
-          },
-          {
-            "id": "6",
-            "text": "Purushārth",
-            "description": "Self-Effort or Free Will. The special place of individual effort and initiative, which is crucial for spiritual progress and overcoming Karma.",
-            "parent": "1"
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Flashcards",
-      "contentType": "flashCards",
-      "caption": "Master the key terms and their definitions.",
-      "tabData": [
-        {
-          "title": "The Five Samvāy",
-          "description": "Use these flashcards to memorize the five causal factors and their English meanings.",
-          "frontColor": "#e3f2fd",
-          "backColor": "#bbdefb",
-          "cards": [
-            {
-              "front": "Samvāy",
-              "back": "The collective group of five simultaneous causal factors."
-            },
-            {
-              "front": "Kāl",
-              "back": "Time; the factor that gives sequence and determines when events occur."
-            },
-            {
-              "front": "Svabhāv",
-              "back": "Nature of a Substance; the inherent and unchangeable quality of something."
-            },
-            {
-              "front": "Niyati",
-              "back": "Destiny or Fate; predetermined and unalterable events."
-            },
-            {
-              "front": "Nimitta / Prārabdha",
-              "back": "External Circumstances or Karma; a catalytic or apparent cause."
-            },
-            {
-              "front": "Purushārth",
-              "back": "Self-Effort or Free Will; individual initiative, crucial for spiritual progress."
-            },
-            {
-              "front": "What is an example of Svabhāv?",
-              "back": "A lemon tree cannot grow mangoes; thorns are inherently sharp."
-            },
-            {
-              "front": "What is an example of Niyati?",
-              "back": "The aging process, which cannot be prevented despite all efforts."
-            },
-            {
-              "front": "What are the two types of Nimitta?",
-              "back": "External (a person, object, or event) and Internal (one's own Karma)."
-            },
-            {
-              "front": "The philosophy of multiplicity of viewpoints is called...",
-              "back": "Anekāntavād"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "tabName": "Detailed Analysis",
-      "contentType": "accordian",
-      "caption": "Dive deep into the meaning and examples of each of the five causal factors.",
-      "tabData": {
-        "title": "In-Depth Look at Each Causal Factor",
-        "items": [
-          {
-            "header": "1. Kāl (Time)",
-            "content": "Kāl acts as the <span style='color: #1976d2; font-weight: bold;'>controlling principle of sequence</span>. Just as a seed needs time to grow into a tree and bear fruit, the effects of our Karma require time to manifest. One cannot expect results the moment an action is performed. Understanding the role of time teaches patience and prevents disappointment from unrealistic expectations."
-          },
-          {
-            "header": "2. Svabhāv (Nature of a Substance)",
-            "content": "Every substance has an <span style='color: #1976d2; font-weight: bold;'>inherent nature</span> that dictates its properties and effects. Why are thorns sharp? Why do flowers have beautiful colors? This is due to their Svabhāv. Nothing can generate an effect that goes against its fundamental nature, even if all other factors like time and effort are present. You cannot grow mangoes on a lemon tree."
-          },
-          {
-            "header": "3. Niyati (Destiny)",
-            "content": "Niyati refers to events that are <span style='color: #1976d2; font-weight: bold;'>predetermined and unalterable</span>. These are things beyond our control, no matter how much effort we apply. The most universal example is the aging process. While we control many aspects of our lives, acknowledging Niyati helps us accept the things we cannot change. In Jain terminology, this is linked to unalterable Karma (Niyat Nikachit Karma)."
-          },
-          {
-            "header": "4. Nimitta / Prārabdha (External Circumstances / Karma)",
-            "content": "Nimitta is an <span style='color: #1976d2; font-weight: bold;'>apparent or catalytic cause</span>. It can be <span style='font-style: italic;'>external</span>, such as the guidance of a Guru, a helpful object, or a specific event. It can also be <span style='font-style: italic;'>internal</span>, which is one's own past Karma. For example, two twins born to the same mother may have vastly different lives; Jainism attributes this to their individual internal Nimitta (Karma)."
-          },
-          {
-            "header": "5. Purushārth (Self-Effort / Free Will)",
-            "content": "Jain philosophy places immense emphasis on Purushārth. It is the <span style='color: #1976d2; font-weight: bold;'>individual effort and initiative</span> that drives progress. Human civilization has advanced solely through Purushārth. Critically, it is only human effort that can wage war against Karma, destroy it, and lead the soul to liberation (<span style='color: #d32f2f;'>Siddha-shilā</span>). Relying solely on other factors leads to indolence and failure."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Spiritual Application",
-      "contentType": "accordian",
-      "caption": "Learn how understanding Samvāy can enhance spiritual progress and dissolve ego.",
-      "tabData": {
-        "title": "Putting Philosophy into Practice",
-        "items": [
-          {
-            "header": "The Balanced Viewpoint",
-            "content": "The theory of Anekāntavād warns against the <span style='color: #d32f2f;'>illusion</span> of focusing on a single cause. To say 'time is everything' or 'it's all destiny' is a wrong view. The right view acknowledges that all five factors contribute to every outcome. While all are present, their level of importance can vary; for a specific effect, one factor may be principal while the others are subordinate."
-          },
-          {
-            "header": "A Tool for Humility and Responsibility",
-            "content": "For spiritual growth, one should reflect on the causes in a way that minimizes vice and ego. The suggested reflection is: <br> • <b>If the result is positive:</b> 'My success was due to the help from others (external Nimitta).' This cultivates humility. <br> • <b>If the result is negative:</b> 'My failure was due to my past Karma (internal Nimitta), destiny (Niyati), or my effort was inadequate (Purushārth).' This promotes self-responsibility and prevents blaming others."
-          },
-          {
-            "header": "The Path to Liberation",
-            "content": "Progress from the lowest state of ignorance (<span style='color: #9c27b0;'>1st Gunasthān</span>) to higher spiritual states requires <span style='color: #00796b; font-weight: bold;'>Purushārth</span> (self-effort). We can actively change two of the five causes: our <span style='color: #00796b;'>Purushārth</span> and our surrounding environment (<span style='color: #00796b;'>Nimitta</span>). By applying effort and choosing a proper environment, the effects of negative Karma are reduced, and the soul's purity increases, leading towards liberation."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Quiz",
-      "contentType": "quiz",
-      "caption": "Test your knowledge on the Five Samvāy. Good luck!",
-      "tabData": {
-        "title": "Jain Academic Bowl: Five Samvāy Challenge",
-        "questions": [
-          {
-            "question": "What is the collective name for the five causal factors that operate simultaneously for any event to occur?",
-            "options": [
-              "Anekāntavād",
-              "Samvāy",
-              "Purushārth",
-              "Niyati"
-            ],
-            "answer": "Samvāy"
-          },
-          {
-            "question": "Which causal factor represents the inherent nature of a substance, such as the heat of fire?",
-            "options": [
-              "Kāl",
-              "Nimitta",
-              "Svabhāv",
-              "Niyati"
-            ],
-            "answer": "Svabhāv"
-          },
-          {
-            "question": "The unalterable aging process is a classic example of which Samvāy?",
-            "options": [
-              "Purushārth",
-              "Niyati",
-              "Svabhāv",
-              "Kāl"
-            ],
-            "answer": "Niyati"
-          },
-          {
-            "question": "Which factor is defined as self-effort or free will and is considered most crucial for destroying Karma?",
-            "options": [
-              "Prārabdha",
-              "Samvāy",
-              "Purushārth",
-              "Svabhāv"
-            ],
-            "answer": "Purushārth"
-          },
-          {
-            "question": "The manifestation of the fruits of Karma at a specific time is governed by which factor?",
-            "options": [
-              "Kāl",
-              "Destiny",
-              "Nimitta",
-              "Free Will"
-            ],
-            "answer": "Kāl"
-          },
-          {
-            "question": "An individual's own past actions (Karma) acting as a cause for a present event is considered which type of Nimitta?",
-            "options": [
-              "External Nimitta",
-              "Future Nimitta",
-              "Internal Nimitta",
-              "Svabhāvic Nimitta"
-            ],
-            "answer": "Internal Nimitta"
-          },
-          {
-            "question": "What is the Jain term for the philosophy of multiplicity of viewpoints, which underlies the concept of Samvāy?",
-            "options": [
-              "Samyak Darshan",
-              "Anekāntavād",
-              "Moksha Mārga",
-              "Gunasthān"
-            ],
-            "answer": "Anekāntavād"
-          },
-          {
-            "question": "According to the text, which two Samvāy factors can we continuously change?",
-            "options": [
-              "Niyati and Kāl",
-              "Kāl and Svabhāv",
-              "Purushārth and Nimitta",
-              "Niyati and Svabhāv"
-            ],
-            "answer": "Purushārth and Nimitta"
-          },
-          {
-            "question": "Guidance from a Guru or a scripture is an example of what?",
-            "options": [
-              "Purushārth",
-              "Svabhāv",
-              "Niyati",
-              "External Nimitta"
-            ],
-            "answer": "External Nimitta"
-          },
-          {
-            "question": "What is the alternate name for Nimitta mentioned in the text?",
-            "options": [
-              "Prārabdha",
-              "Kāl",
-              "Purva",
-              "Agami"
-            ],
-            "answer": "Prārabdha"
-          },
-          {
-            "question": "The idea that you cannot grow mangoes on a lemon tree demonstrates the principle of which causal factor?",
-            "options": [
-              "Time (Kāl)",
-              "Destiny (Niyati)",
-              "Nature of a Substance (Svabhāv)",
-              "Effort (Purushārth)"
-            ],
-            "answer": "Nature of a Substance (Svabhāv)"
-          },
-          {
-            "question": "To reduce ego after a success, one should attribute the positive result to which factor?",
-            "options": [
-              "One's own great effort (Purushārth)",
-              "One's destiny (Niyati)",
-              "Help from others (External Nimitta)",
-              "One's inherent nature (Svabhāv)"
-            ],
-            "answer": "Help from others (External Nimitta)"
-          },
-          {
-            "question": "The state of liberation where the soul goes after destroying all karma is known as...",
-            "options": [
-              "Samsāra",
-              "Gunasthān",
-              "Siddha-shilā",
-              "Naraka"
-            ],
-            "answer": "Siddha-shilā"
-          },
-          {
-            "question": "Believing that only one of the five factors is the sole cause of all events is described as a...",
-            "options": [
-              "Right View",
-              "Wrong View",
-              "Spiritual View",
-              "Balanced View"
-            ],
-            "answer": "Wrong View"
-          },
-          {
-            "question": "What does Prārabdha mean in the context of the five causal factors?",
-            "options": [
-              "Free Will",
-              "Karma or External Circumstances",
-              "Time",
-              "Destiny"
-            ],
-            "answer": "Karma or External Circumstances"
-          },
-          {
-            "question": "To progress spiritually from the 1st Gunasthān, a person primarily needs which factor?",
-            "options": [
-              "Niyati",
-              "Purushārth",
-              "Svabhāv",
-              "Kāl"
-            ],
-            "answer": "Purushārth"
-          },
-          {
-            "question": "When a person fails, the text suggests they should blame their past karma, which is a form of what?",
-            "options": [
-              "External Nimitta",
-              "Purushārth",
-              "Svabhāv",
-              "Internal Nimitta"
-            ],
-            "answer": "Internal Nimitta"
-          },
-          {
-            "question": "Which of the six eternal substances, as listed in the introduction, is also one of the five Samvāy?",
-            "options": [
-              "Jīvāstikāy",
-              "Pudgalāstikāy",
-              "Ākāshāstikāy",
-              "Kāl"
-            ],
-            "answer": "Kāl"
-          },
-          {
-            "question": "According to the text, depending solely on Karma makes a person...",
-            "options": [
-              "Enlightened and wise",
-              "Despondent and indolent",
-              "Humble and spiritual",
-              "Effortful and successful"
-            ],
-            "answer": "Despondent and indolent"
-          },
-          {
-            "question": "The Jain philosophy does not believe a God created the universe, but that it is composed of how many eternal substances?",
-            "options": [
-              "Five",
-              "One",
-              "Six",
-              "Three"
-            ],
-            "answer": "Six"
-          }
-        ]
-      }
-    }
-  ]
+"sectionTitle":"Anekāntavād III: The Five Samvāy (Causal Factors)",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"accordian",
+"caption":"Get started with the fundamental concepts of Jain causality and the principle of Anekāntavād.",
+"tabData": {
+"title":"Core Concepts of Jain Causality",
+"items": [
+ {
+"header":"Jain View of the Universe vs. Other Beliefs",
+"content":"Jain philosophy posits that the universe is eternal and uncreated. It operates according to natural laws and is composed of six basic, indestructible substances: <span style='color: #9c27b0;'>Jīvāstikāy</span> (Soul), <span style='color: #9c27b0;'>Pudgalāstikāy</span> (Material atoms), <span style='color: #9c27b0;'>Dharmāstikāy</span> (Medium of motion), <span style='color: #9c27b0;'>Adharmāstikāy</span> (Medium of rest), <span style='color: #9c27b0;'>Ākāshāstikāy</span> (Space), and <span style='color: #9c27b0;'>Kāl</span> (Time). This contrasts with beliefs that a divine being created and manages the universe. In Jainism, every individual experiences the results of their own Karma."
+ },
+ {
+"header":"What is Samvāy?",
+"content":"<span style='color: #d32f2f; font-weight: bold;'>Samvāy</span> is the name for the collective group of five distinct causal factors that function simultaneously to bring about any event or situation in the universe. No action can take place without these five causes being present and interacting. The principle of <span style='color: #d32f2f; font-weight: bold;'>Anekāntavād</span> (multiplicity of viewpoints) teaches us to consider all five factors rather than isolating just one as the sole cause."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Mind Map",
+"contentType":"mindmap",
+"caption":"Explore the hierarchical relationship of the Five Causal Factors.",
+"tabData": {
+"title":"The Five Samvāy (Causal Factors)",
+"description":"A visual breakdown of Samvāy, the five simultaneous causes that collectively explain the occurrence of any event in Jain philosophy.",
+"nodes": [
+ {
+"id":"1",
+"text":"Samvāy",
+"description":"The group of five causal factors that must operate simultaneously for any action or reaction to occur.",
+"parent": null
+ },
+ {
+"id":"2",
+"text":"Kāl",
+"description":"Time. It provides sequence and maturity to events. The fruits of karma manifest at a specific time, not immediately.",
+"parent":"1"
+ },
+ {
+"id":"3",
+"text":"Svabhāv",
+"description":"Nature of a Substance. The inherent, unchangeable quality of an object or being. For example, a dog barks due to its nature.",
+"parent":"1"
+ },
+ {
+"id":"4",
+"text":"Niyati",
+"description":"Destiny or Fate. Certain events that are predetermined and unalterable, such as the aging process.",
+"parent":"1"
+ },
+ {
+"id":"5",
+"text":"Nimitta / Prārabdha",
+"description":"External Circumstances or Karma. An apparent or catalytic cause. It can be external (like a teacher's guidance) or internal (one's own past Karma).",
+"parent":"1"
+ },
+ {
+"id":"6",
+"text":"Purushārth",
+"description":"Self-Effort or Free Will. The special place of individual effort and initiative, which is crucial for spiritual progress and overcoming Karma.",
+"parent":"1"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Flashcards",
+"contentType":"flashCards",
+"caption":"Master the key terms and their definitions.",
+"tabData": [
+ {
+"title":"The Five Samvāy",
+"description":"Use these flashcards to memorize the five causal factors and their English meanings.",
+"frontColor":"#e3f2fd",
+"backColor":"#bbdefb",
+"cards": [
+ {
+"front":"Samvāy",
+"back":"The collective group of five simultaneous causal factors."
+ },
+ {
+"front":"Kāl",
+"back":"Time; the factor that gives sequence and determines when events occur."
+ },
+ {
+"front":"Svabhāv",
+"back":"Nature of a Substance; the inherent and unchangeable quality of something."
+ },
+ {
+"front":"Niyati",
+"back":"Destiny or Fate; predetermined and unalterable events."
+ },
+ {
+"front":"Nimitta / Prārabdha",
+"back":"External Circumstances or Karma; a catalytic or apparent cause."
+ },
+ {
+"front":"Purushārth",
+"back":"Self-Effort or Free Will; individual initiative, crucial for spiritual progress."
+ },
+ {
+"front":"What is an example of Svabhāv?",
+"back":"A lemon tree cannot grow mangoes; thorns are inherently sharp."
+ },
+ {
+"front":"What is an example of Niyati?",
+"back":"The aging process, which cannot be prevented despite all efforts."
+ },
+ {
+"front":"What are the two types of Nimitta?",
+"back":"External (a person, object, or event) and Internal (one's own Karma)."
+ },
+ {
+"front":"The philosophy of multiplicity of viewpoints is called...",
+"back":"Anekāntavād"
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Detailed Analysis",
+"contentType":"accordian",
+"caption":"Dive deep into the meaning and examples of each of the five causal factors.",
+"tabData": {
+"title":"In-Depth Look at Each Causal Factor",
+"items": [
+ {
+"header":"1. Kāl (Time)",
+"content":"Kāl acts as the <span style='color: #1976d2; font-weight: bold;'>controlling principle of sequence</span>. Just as a seed needs time to grow into a tree and bear fruit, the effects of our Karma require time to manifest. One cannot expect results the moment an action is performed. Understanding the role of time teaches patience and prevents disappointment from unrealistic expectations."
+ },
+ {
+"header":"2. Svabhāv (Nature of a Substance)",
+"content":"Every substance has an <span style='color: #1976d2; font-weight: bold;'>inherent nature</span> that dictates its properties and effects. Why are thorns sharp? Why do flowers have beautiful colors? This is due to their Svabhāv. Nothing can generate an effect that goes against its fundamental nature, even if all other factors like time and effort are present. You cannot grow mangoes on a lemon tree."
+ },
+ {
+"header":"3. Niyati (Destiny)",
+"content":"Niyati refers to events that are <span style='color: #1976d2; font-weight: bold;'>predetermined and unalterable</span>. These are things beyond our control, no matter how much effort we apply. The most universal example is the aging process. While we control many aspects of our lives, acknowledging Niyati helps us accept the things we cannot change. In Jain terminology, this is linked to unalterable Karma (Niyat Nikachit Karma)."
+ },
+ {
+"header":"4. Nimitta / Prārabdha (External Circumstances / Karma)",
+"content":"Nimitta is an <span style='color: #1976d2; font-weight: bold;'>apparent or catalytic cause</span>. It can be <span style='font-style: italic;'>external</span>, such as the guidance of a Guru, a helpful object, or a specific event. It can also be <span style='font-style: italic;'>internal</span>, which is one's own past Karma. For example, two twins born to the same mother may have vastly different lives; Jainism attributes this to their individual internal Nimitta (Karma)."
+ },
+ {
+"header":"5. Purushārth (Self-Effort / Free Will)",
+"content":"Jain philosophy places immense emphasis on Purushārth. It is the <span style='color: #1976d2; font-weight: bold;'>individual effort and initiative</span> that drives progress. Human civilization has advanced solely through Purushārth. Critically, it is only human effort that can wage war against Karma, destroy it, and lead the soul to liberation (<span style='color: #d32f2f;'>Siddha-shilā</span>). Relying solely on other factors leads to indolence and failure."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Spiritual Application",
+"contentType":"accordian",
+"caption":"Learn how understanding Samvāy can enhance spiritual progress and dissolve ego.",
+"tabData": {
+"title":"Putting Philosophy into Practice",
+"items": [
+ {
+"header":"The Balanced Viewpoint",
+"content":"The theory of Anekāntavād warns against the <span style='color: #d32f2f;'>illusion</span> of focusing on a single cause. To say'time is everything' or'it's all destiny' is a wrong view. The right view acknowledges that all five factors contribute to every outcome. While all are present, their level of importance can vary; for a specific effect, one factor may be principal while the others are subordinate."
+ },
+ {
+"header":"A Tool for Humility and Responsibility",
+"content":"For spiritual growth, one should reflect on the causes in a way that minimizes vice and ego. The suggested reflection is: <br> • <b>If the result is positive:</b>'My success was due to the help from others (external Nimitta).' This cultivates humility. <br> • <b>If the result is negative:</b>'My failure was due to my past Karma (internal Nimitta), destiny (Niyati), or my effort was inadequate (Purushārth).' This promotes self-responsibility and prevents blaming others."
+ },
+ {
+"header":"The Path to Liberation",
+"content":"Progress from the lowest state of ignorance (<span style='color: #9c27b0;'>1st Gunasthān</span>) to higher spiritual states requires <span style='color: #00796b; font-weight: bold;'>Purushārth</span> (self-effort). We can actively change two of the five causes: our <span style='color: #00796b;'>Purushārth</span> and our surrounding environment (<span style='color: #00796b;'>Nimitta</span>). By applying effort and choosing a proper environment, the effects of negative Karma are reduced, and the soul's purity increases, leading towards liberation."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"caption":"Test your knowledge on the Five Samvāy. Good luck!",
+"tabData": {
+"title":"Jain Academic Bowl: Five Samvāy Challenge",
+"questions": [
+ {
+"question":"What is the collective name for the five causal factors that operate simultaneously for any event to occur?",
+"options": [
+"Anekāntavād",
+"Samvāy",
+"Purushārth",
+"Niyati"
+ ],
+"answer":"Samvāy"
+ },
+ {
+"question":"Which causal factor represents the inherent nature of a substance, such as the heat of fire?",
+"options": [
+"Kāl",
+"Nimitta",
+"Svabhāv",
+"Niyati"
+ ],
+"answer":"Svabhāv"
+ },
+ {
+"question":"The unalterable aging process is a classic example of which Samvāy?",
+"options": [
+"Purushārth",
+"Niyati",
+"Svabhāv",
+"Kāl"
+ ],
+"answer":"Niyati"
+ },
+ {
+"question":"Which factor is defined as self-effort or free will and is considered most crucial for destroying Karma?",
+"options": [
+"Prārabdha",
+"Samvāy",
+"Purushārth",
+"Svabhāv"
+ ],
+"answer":"Purushārth"
+ },
+ {
+"question":"The manifestation of the fruits of Karma at a specific time is governed by which factor?",
+"options": [
+"Kāl",
+"Destiny",
+"Nimitta",
+"Free Will"
+ ],
+"answer":"Kāl"
+ },
+ {
+"question":"An individual's own past actions (Karma) acting as a cause for a present event is considered which type of Nimitta?",
+"options": [
+"External Nimitta",
+"Future Nimitta",
+"Internal Nimitta",
+"Svabhāvic Nimitta"
+ ],
+"answer":"Internal Nimitta"
+ },
+ {
+"question":"What is the Jain term for the philosophy of multiplicity of viewpoints, which underlies the concept of Samvāy?",
+"options": [
+"Samyak Darshan",
+"Anekāntavād",
+"Moksha Mārga",
+"Gunasthān"
+ ],
+"answer":"Anekāntavād"
+ },
+ {
+"question":"According to the text, which two Samvāy factors can we continuously change?",
+"options": [
+"Niyati and Kāl",
+"Kāl and Svabhāv",
+"Purushārth and Nimitta",
+"Niyati and Svabhāv"
+ ],
+"answer":"Purushārth and Nimitta"
+ },
+ {
+"question":"Guidance from a Guru or a scripture is an example of what?",
+"options": [
+"Purushārth",
+"Svabhāv",
+"Niyati",
+"External Nimitta"
+ ],
+"answer":"External Nimitta"
+ },
+ {
+"question":"What is the alternate name for Nimitta mentioned in the text?",
+"options": [
+"Prārabdha",
+"Kāl",
+"Purva",
+"Agami"
+ ],
+"answer":"Prārabdha"
+ },
+ {
+"question":"The idea that you cannot grow mangoes on a lemon tree demonstrates the principle of which causal factor?",
+"options": [
+"Time (Kāl)",
+"Destiny (Niyati)",
+"Nature of a Substance (Svabhāv)",
+"Effort (Purushārth)"
+ ],
+"answer":"Nature of a Substance (Svabhāv)"
+ },
+ {
+"question":"To reduce ego after a success, one should attribute the positive result to which factor?",
+"options": [
+"One's own great effort (Purushārth)",
+"One's destiny (Niyati)",
+"Help from others (External Nimitta)",
+"One's inherent nature (Svabhāv)"
+ ],
+"answer":"Help from others (External Nimitta)"
+ },
+ {
+"question":"The state of liberation where the soul goes after destroying all karma is known as...",
+"options": [
+"Samsāra",
+"Gunasthān",
+"Siddha-shilā",
+"Naraka"
+ ],
+"answer":"Siddha-shilā"
+ },
+ {
+"question":"Believing that only one of the five factors is the sole cause of all events is described as a...",
+"options": [
+"Right View",
+"Wrong View",
+"Spiritual View",
+"Balanced View"
+ ],
+"answer":"Wrong View"
+ },
+ {
+"question":"What does Prārabdha mean in the context of the five causal factors?",
+"options": [
+"Free Will",
+"Karma or External Circumstances",
+"Time",
+"Destiny"
+ ],
+"answer":"Karma or External Circumstances"
+ },
+ {
+"question":"To progress spiritually from the 1st Gunasthān, a person primarily needs which factor?",
+"options": [
+"Niyati",
+"Purushārth",
+"Svabhāv",
+"Kāl"
+ ],
+"answer":"Purushārth"
+ },
+ {
+"question":"When a person fails, the text suggests they should blame their past karma, which is a form of what?",
+"options": [
+"External Nimitta",
+"Purushārth",
+"Svabhāv",
+"Internal Nimitta"
+ ],
+"answer":"Internal Nimitta"
+ },
+ {
+"question":"Which of the six eternal substances, as listed in the introduction, is also one of the five Samvāy?",
+"options": [
+"Jīvāstikāy",
+"Pudgalāstikāy",
+"Ākāshāstikāy",
+"Kāl"
+ ],
+"answer":"Kāl"
+ },
+ {
+"question":"According to the text, depending solely on Karma makes a person...",
+"options": [
+"Enlightened and wise",
+"Despondent and indolent",
+"Humble and spiritual",
+"Effortful and successful"
+ ],
+"answer":"Despondent and indolent"
+ },
+ {
+"question":"The Jain philosophy does not believe a God created the universe, but that it is composed of how many eternal substances?",
+"options": [
+"Five",
+"One",
+"Six",
+"Three"
+ ],
+"answer":"Six"
+ }
+ ]
+ }
+ }
+ ]
 }

@@ -1,288 +1,288 @@
 {
-    "sectionTitle": "D.7: Jain Temples and Pilgrimage Places",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "The Sacred Journey: Tirth Yäträ"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Pilgrimage to sacred places, or <b>Tirth Yäträ</b>, is a foundational tradition in Jainism, as it is in many world religions. These journeys are more than just travel; they are a discipline for the body and a way to strengthen one's faith in the company of fellow pilgrims. Praying at a place where great Tirthankars and saints once stood is an inspiring and uplifting experience that brings peace to the mind and merit to the soul."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Jain shrines across India are deeply connected to the lives of the Tirthankars. Places where they were born, attained Dikshä, or achieved Nirväna hold special importance. The art and architecture of these temples, often funded by devout merchants and princes, are a stunning reflection of religious devotion and tell the immortal stories of those who showed the path to liberation."
-          }
-        ]
-      },
-      {
-        "tabName": "Major Tirthas",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "A Guide to Major Jain Pilgrimage Sites",
-          "description": "Explore some of the most significant Jain Tirthas, their locations, and their principal deities (Mulnāyaks).",
-          "items": [
-            {
-              "header": "Shri Pälitänä Tirtha, Gujarat",
-              "content": "<b>Mulnāyak:</b> Bhagawän Ädināth. Located on the magnificent Mt. Shatrunjay, this 'city of temples' has about 900 temples, making it an awe-inspiring spectacle. It is considered an eternal Tirth."
-            },
-            {
-              "header": "Shri Shankheshwar Tirtha, Gujarat",
-              "content": "<b>Mulnāyak:</b> Bhagawän Shankheshwar Pärshvanāth. An ancient and miraculous Tirth, famous for its majestic temple and the divine power of its idol, which is said to heal and protect devotees."
-            },
-            {
-              "header": "Shri Äbu Delwädä Tirtha, Rajasthan",
-              "content": "<b>Mulnāyak:</b> Bhagawän Ädināth. Located on Mount Äbu, the Delwädä temples are world-renowned for their stunning and intricate marble carvings, representing the pinnacle of Jain artistry."
-            },
-            {
-              "header": "Shri Ranakpur Tirtha, Rajasthan",
-              "content": "<b>Mulnāyak:</b> Bhagawän Ädināth. Famed for its grand temple built in the 15th century, which features 1,444 uniquely carved pillars and four entrances, symbolizing a Chaumukha (four-faced) temple."
-            },
-            {
-              "header": "Shri Shravanbelgola Tirtha, Karnataka",
-              "content": "<b>Mulnāyak:</b> Bhagawän Bähubali (Gommateshwar). Home to the colossal 57-foot monolithic statue of Lord Bähubali. The Mahä Mastakäbhishek ceremony is held here every 12 years."
-            },
-            {
-              "header": "Shri Sametshikhar Tirtha, Bihar",
-              "content": "<b>Mulnāyak:</b> Bhagawän Pärshvanāth. The holy land where twenty of the twenty-four Tirthankars attained Nirväna. Every particle of this sacred mountain is considered precious."
-            },
-            {
-              "header": "Shri Päväpuri Tirtha, Bihar",
-              "content": "<b>Mulnāyak:</b> Foot-idols of Mahävir Swämi. The sacred place where Bhagawän Mahävir attained his Nirväna. The beautiful Jal Mandir (Water Temple) stands in the center of a lotus-filled lake."
-            },
-            {
-              "header": "Shri Girnär Tirtha, Gujarat",
-              "content": "<b>Mulnāyak:</b> Bhagawän Nemināth. The site of the Dikshä, Keval-jnän, and Moksh Kalyänaks of the 22nd Tirthankar, Nemināth. This five-peaked mountain is a major pilgrimage site."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Historical Timeline",
-        "contentType": "timeline",
-        "tabData": [
-          {
-            "era": "Ancient & Medieval Period",
-            "period": "10th - 15th Century",
-            "events": [
-              {
-                "title": "981 A.D. - Shri Shravanbelgola Tirtha",
-                "description": "The colossal statue of Lord Bähubali is created under the inspiration of Chämundaräy's mother."
-              },
-              {
-                "title": "11th Century - Shri Shankheshwar & Äbu Delwädä",
-                "description": "Major renovation of Shankheshwar is done by Sajjan Shah. At Äbu, the Vimal Vasahi temple is built by Vimal Shah in honor of Bhagawän Ädināth.",
-                "characters": ["Sajjan Shah", "Vimal Shah"]
-              },
-              {
-                "title": "1128 A.D. - Shri Girnär Tirtha",
-                "description": "The black granite temple of Bhagawän Nemināth is constructed on the first peak of Mount Girnär."
-              },
-              {
-                "title": "1165 A.D. - Shri Tärangä Tirtha",
-                "description": "Under the guidance of Shri Hemchandra Ächārya, King Kumärpäl builds the magnificent temple of Bhagawän Ajitnäth.",
-                "characters": ["Hemchandra Ächārya", "King Kumärpäl"]
-              },
-              {
-                "title": "1230 A.D. - Shri Äbu Delwädä Tirtha",
-                "description": "The Lunaga Vasahi temple is built by the brothers Vastupäl and Tejpäl in honor of Bhagawän Nemināth. Tejpäl's wife, Anupamä-devi, supervises the construction.",
-                "characters": ["Vastupäl", "Tejpäl", "Anupamä-devi"]
-              },
-              {
-                "title": "15th Century - Shri Ranakpur Tirtha",
-                "description": "During the reign of Ränä Kumbha, the Jain businessman Dharna Shah builds the grand, three-story temple of Ranakpur.",
-                "characters": ["Dharna Shah", "Ränä Kumbha"]
-              }
-            ]
-          },
-          {
-            "era": "Modern Period",
-            "period": "18th - 20th Century",
-            "events": [
-              {
-                "title": "1760 A.D. - Shri Shankheshwar Tirtha",
-                "description": "The vast and beautiful temple of Shankheshwar is expanded to include 52 surrounding small temples."
-              },
-              {
-                "title": "1766 A.D. - Shri Sametshikhar Tirtha",
-                "description": "Following an auspicious dream, Sheth Khushaldas of Murshidabad builds small temples with foot-idols at the exact Nirväna locations of the Tirthankars."
-              },
-              {
-                "title": "1934 A.D. - Shri Sametshikhar Tirtha",
-                "description": "With the inspiration of Ächārya Sägaränand Suri, the Tirth undergoes its 23rd major renovation."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Architectural Marvels",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Feats of Art and Sculpture",
-          "description": "Jain temples are renowned for their breathtaking artistry. Explore some of the most famous examples.",
-          "items": [
-            {
-              "header": "Äbu Delwädä: The Epitome of Marble Carving",
-              "content": "The Delwädä temples are famous for their stunning use of white marble. The carving is so minute and delicate that it appears translucent. Key features include:<br><ul><li><b>Rang Mandap:</b> A grand hall with a breathtaking central dome and 12 decorated pillars.</li><li><b>Navchowki:</b> A collection of nine rectangular ceilings, each with unique and beautiful designs.</li><li><b>Deräni-Jethäni Niches:</b> Found in the Lunaga Vasahi temple, these recesses show exceptional and delicate marble cutting.</li></ul>"
-            },
-            {
-              "header": "Ranakpur: The Temple of 1,444 Pillars",
-              "content": "The temple at Ranakpur is an architectural wonder, renowned for its scale and complexity. Key features include:<br><ul><li><b>1,444 Pillars:</b> The temple is supported by over 1,444 intricately carved columns, and no two are alike.</li><li><b>Uninterrupted View:</b> The pillars are arranged so skillfully that the main idol is visible from any spot within the temple.</li><li><b>Intricate Carvings:</b> The temple features countless sculptures, including a famous stone slab depicting a thousand-hooded snake sheltering Lord Pärshvanāth.</li></ul>"
-            },
-            {
-              "header": "Shravanbelgola: The Colossal Monolith",
-              "content": "The 57-foot statue of Lord Bähubali is carved from a single stone (monolith). Its beautifully chiseled features express deep serenity and detachment, making it an outstanding example of Indian sculpture."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Kalyänak Lands",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "Lands of Auspicious Events",
-            "description": "Certain Tirthas are especially holy as they are the sites of multiple Kalyänaks of different Tirthankars.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "Shri Ayodhyä Tirtha",
-                "back": "The site of the Chyavan, birth, and Dikshä Kalyänaks of Bhagawän Ädināth, and four Kalyänaks each for Ajitnāth, Abhinandan Swāmi, Sumatināth, and Anantnāth."
-              },
-              {
-                "front": "Shri Hastinäpur Tirtha",
-                "back": "The site of four Kalyänaks (all but Nirväna) for Bhagawän Shāntināth, Kunthunāth, and Aranāth. It is also where Rishabhadev broke his year-long fast."
-              },
-              {
-                "front": "Shri Päväpuri Tirtha",
-                "back": "The place of Bhagawän Mahävir's final sermon and his Nirväna Kalyänak, making it one of the most sacred sites."
-              },
-              {
-                "front": "Shri Girnär Tirtha",
-                "back": "The site of the Dikshä, Keval-jnän, and Nirväna Kalyänaks of the 22nd Tirthankar, Bhagawän Nemināth."
-              },
-              {
-                "front": "Shri Sametshikhar Tirtha",
-                "back": "Known as the land of Nirväna, where an incredible twenty Tirthankars attained their final liberation (Nirväna Kalyänak)."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Jain Tirthas",
-          "questions": [
-            {
-              "question": "Which Tirtha is known for its magnificent complex of about 900 temples on a single mountain?",
-              "options": [
-                "Girnär",
-                "Sametshikhar",
-                "Pälitänä",
-                "Ranakpur"
-              ],
-              "answer": "Pälitänä"
-            },
-            {
-              "question": "The world-famous Delwädä temples, known for their marble carvings, are located near which mountain?",
-              "options": [
-                "Mt. Shatrunjay",
-                "Mt. Meru",
-                "Mt. Girnär",
-                "Mt. Äbu"
-              ],
-              "answer": "Mt. Äbu"
-            },
-            {
-              "question": "How many Tirthankars are said to have attained Nirväna at Sametshikhar?",
-              "options": [
-                "One (Mahävir Swämi)",
-                "Five",
-                "Ten",
-                "Twenty"
-              ],
-              "answer": "Twenty"
-            },
-            {
-              "question": "The Ranakpur temple is famous for having how many intricately carved pillars?",
-              "options": [
-                "108",
-                "1,008",
-                "1,444",
-                "3,745"
-              ],
-              "answer": "1,444"
-            },
-            {
-              "question": "The Mahä Mastakäbhishek, a head-anointing ceremony held every 12 years, honors the statue of which figure?",
-              "options": [
-                "Bhagawän Ädināth",
-                "Bhagawän Pärshvanāth",
-                "Bhagawän Bähubali",
-                "Bhagawän Mahävir"
-              ],
-              "answer": "Bhagawän Bähubali"
-            },
-            {
-              "question": "Which holy site is revered as the place of Bhagawän Mahävir's Nirväna?",
-              "options": [
-                "Ayodhyä",
-                "Päväpuri",
-                "Hastinäpur",
-                "Sametshikhar"
-              ],
-              "answer": "Päväpuri"
-            },
-            {
-              "question": "The Vimal Vasahi and Lunaga Vasahi temples are part of which larger Tirtha complex?",
-              "options": [
-                "Ranakpur",
-                "Pälitänä",
-                "Äbu Delwädä",
-                "Girnär"
-              ],
-              "answer": "Äbu Delwädä"
-            },
-            {
-              "question": "Which Tirthankar's Dikshä, Keval-jnän, and Moksh Kalyänaks all took place at Mt. Girnär?",
-              "options": [
-                "Ädināth",
-                "Pärshvanāth",
-                "Nemināth",
-                "Mahävir"
-              ],
-              "answer": "Nemināth"
-            },
-            {
-              "question": "In which state are the pilgrimage sites of Pälitänä, Shankheshwar, and Girnär located?",
-              "options": [
-                "Rajasthan",
-                "Bihar",
-                "Karnataka",
-                "Gujarat"
-              ],
-              "answer": "Gujarat"
-            },
-            {
-              "question": "The temple at Tärangä was built under the inspiration of which famous Ächārya?",
-              "options": [
-                "Bhadrabähu",
-                "Sägaränand Suri",
-                "Hemchandra Ächārya",
-                "Vimal Shah"
-              ],
-              "answer": "Hemchandra Ächārya"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"D.7: Jain Temples and Pilgrimage Places",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"The Sacred Journey: Tirth Yäträ"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Pilgrimage to sacred places, or <b>Tirth Yäträ</b>, is a foundational tradition in Jainism, as it is in many world religions. These journeys are more than just travel; they are a discipline for the body and a way to strengthen one's faith in the company of fellow pilgrims. Praying at a place where great Tirthankars and saints once stood is an inspiring and uplifting experience that brings peace to the mind and merit to the soul."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jain shrines across India are deeply connected to the lives of the Tirthankars. Places where they were born, attained Dikshä, or achieved Nirväna hold special importance. The art and architecture of these temples, often funded by devout merchants and princes, are a stunning reflection of religious devotion and tell the immortal stories of those who showed the path to liberation."
+ }
+ ]
+ },
+ {
+"tabName":"Major Tirthas",
+"contentType":"accordian",
+"tabData": {
+"title":"A Guide to Major Jain Pilgrimage Sites",
+"description":"Explore some of the most significant Jain Tirthas, their locations, and their principal deities (Mulnāyaks).",
+"items": [
+ {
+"header":"Shri Pälitänä Tirtha, Gujarat",
+"content":"<b>Mulnāyak:</b> Bhagawän Ädināth. Located on the magnificent Mt. Shatrunjay, this'city of temples' has about 900 temples, making it an awe-inspiring spectacle. It is considered an eternal Tirth."
+ },
+ {
+"header":"Shri Shankheshwar Tirtha, Gujarat",
+"content":"<b>Mulnāyak:</b> Bhagawän Shankheshwar Pärshvanāth. An ancient and miraculous Tirth, famous for its majestic temple and the divine power of its idol, which is said to heal and protect devotees."
+ },
+ {
+"header":"Shri Äbu Delwädä Tirtha, Rajasthan",
+"content":"<b>Mulnāyak:</b> Bhagawän Ädināth. Located on Mount Äbu, the Delwädä temples are world-renowned for their stunning and intricate marble carvings, representing the pinnacle of Jain artistry."
+ },
+ {
+"header":"Shri Ranakpur Tirtha, Rajasthan",
+"content":"<b>Mulnāyak:</b> Bhagawän Ädināth. Famed for its grand temple built in the 15th century, which features 1,444 uniquely carved pillars and four entrances, symbolizing a Chaumukha (four-faced) temple."
+ },
+ {
+"header":"Shri Shravanbelgola Tirtha, Karnataka",
+"content":"<b>Mulnāyak:</b> Bhagawän Bähubali (Gommateshwar). Home to the colossal 57-foot monolithic statue of Lord Bähubali. The Mahä Mastakäbhishek ceremony is held here every 12 years."
+ },
+ {
+"header":"Shri Sametshikhar Tirtha, Bihar",
+"content":"<b>Mulnāyak:</b> Bhagawän Pärshvanāth. The holy land where twenty of the twenty-four Tirthankars attained Nirväna. Every particle of this sacred mountain is considered precious."
+ },
+ {
+"header":"Shri Päväpuri Tirtha, Bihar",
+"content":"<b>Mulnāyak:</b> Foot-idols of Mahävir Swämi. The sacred place where Bhagawän Mahävir attained his Nirväna. The beautiful Jal Mandir (Water Temple) stands in the center of a lotus-filled lake."
+ },
+ {
+"header":"Shri Girnär Tirtha, Gujarat",
+"content":"<b>Mulnāyak:</b> Bhagawän Nemināth. The site of the Dikshä, Keval-jnän, and Moksh Kalyänaks of the 22nd Tirthankar, Nemināth. This five-peaked mountain is a major pilgrimage site."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Historical Timeline",
+"contentType":"timeline",
+"tabData": [
+ {
+"era":"Ancient & Medieval Period",
+"period":"10th - 15th Century",
+"events": [
+ {
+"title":"981 A.D. - Shri Shravanbelgola Tirtha",
+"description":"The colossal statue of Lord Bähubali is created under the inspiration of Chämundaräy's mother."
+ },
+ {
+"title":"11th Century - Shri Shankheshwar & Äbu Delwädä",
+"description":"Major renovation of Shankheshwar is done by Sajjan Shah. At Äbu, the Vimal Vasahi temple is built by Vimal Shah in honor of Bhagawän Ädināth.",
+"characters": ["Sajjan Shah","Vimal Shah"]
+ },
+ {
+"title":"1128 A.D. - Shri Girnär Tirtha",
+"description":"The black granite temple of Bhagawän Nemināth is constructed on the first peak of Mount Girnär."
+ },
+ {
+"title":"1165 A.D. - Shri Tärangä Tirtha",
+"description":"Under the guidance of Shri Hemchandra Ächārya, King Kumärpäl builds the magnificent temple of Bhagawän Ajitnäth.",
+"characters": ["Hemchandra Ächārya","King Kumärpäl"]
+ },
+ {
+"title":"1230 A.D. - Shri Äbu Delwädä Tirtha",
+"description":"The Lunaga Vasahi temple is built by the brothers Vastupäl and Tejpäl in honor of Bhagawän Nemināth. Tejpäl's wife, Anupamä-devi, supervises the construction.",
+"characters": ["Vastupäl","Tejpäl","Anupamä-devi"]
+ },
+ {
+"title":"15th Century - Shri Ranakpur Tirtha",
+"description":"During the reign of Ränä Kumbha, the Jain businessman Dharna Shah builds the grand, three-story temple of Ranakpur.",
+"characters": ["Dharna Shah","Ränä Kumbha"]
+ }
+ ]
+ },
+ {
+"era":"Modern Period",
+"period":"18th - 20th Century",
+"events": [
+ {
+"title":"1760 A.D. - Shri Shankheshwar Tirtha",
+"description":"The vast and beautiful temple of Shankheshwar is expanded to include 52 surrounding small temples."
+ },
+ {
+"title":"1766 A.D. - Shri Sametshikhar Tirtha",
+"description":"Following an auspicious dream, Sheth Khushaldas of Murshidabad builds small temples with foot-idols at the exact Nirväna locations of the Tirthankars."
+ },
+ {
+"title":"1934 A.D. - Shri Sametshikhar Tirtha",
+"description":"With the inspiration of Ächārya Sägaränand Suri, the Tirth undergoes its 23rd major renovation."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Architectural Marvels",
+"contentType":"accordian",
+"tabData": {
+"title":"Feats of Art and Sculpture",
+"description":"Jain temples are renowned for their breathtaking artistry. Explore some of the most famous examples.",
+"items": [
+ {
+"header":"Äbu Delwädä: The Epitome of Marble Carving",
+"content":"The Delwädä temples are famous for their stunning use of white marble. The carving is so minute and delicate that it appears translucent. Key features include:<br><ul><li><b>Rang Mandap:</b> A grand hall with a breathtaking central dome and 12 decorated pillars.</li><li><b>Navchowki:</b> A collection of nine rectangular ceilings, each with unique and beautiful designs.</li><li><b>Deräni-Jethäni Niches:</b> Found in the Lunaga Vasahi temple, these recesses show exceptional and delicate marble cutting.</li></ul>"
+ },
+ {
+"header":"Ranakpur: The Temple of 1,444 Pillars",
+"content":"The temple at Ranakpur is an architectural wonder, renowned for its scale and complexity. Key features include:<br><ul><li><b>1,444 Pillars:</b> The temple is supported by over 1,444 intricately carved columns, and no two are alike.</li><li><b>Uninterrupted View:</b> The pillars are arranged so skillfully that the main idol is visible from any spot within the temple.</li><li><b>Intricate Carvings:</b> The temple features countless sculptures, including a famous stone slab depicting a thousand-hooded snake sheltering Lord Pärshvanāth.</li></ul>"
+ },
+ {
+"header":"Shravanbelgola: The Colossal Monolith",
+"content":"The 57-foot statue of Lord Bähubali is carved from a single stone (monolith). Its beautifully chiseled features express deep serenity and detachment, making it an outstanding example of Indian sculpture."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Kalyänak Lands",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"Lands of Auspicious Events",
+"description":"Certain Tirthas are especially holy as they are the sites of multiple Kalyänaks of different Tirthankars.",
+"flippable": true,
+"cards": [
+ {
+"front":"Shri Ayodhyä Tirtha",
+"back":"The site of the Chyavan, birth, and Dikshä Kalyänaks of Bhagawän Ädināth, and four Kalyänaks each for Ajitnāth, Abhinandan Swāmi, Sumatināth, and Anantnāth."
+ },
+ {
+"front":"Shri Hastinäpur Tirtha",
+"back":"The site of four Kalyänaks (all but Nirväna) for Bhagawän Shāntināth, Kunthunāth, and Aranāth. It is also where Rishabhadev broke his year-long fast."
+ },
+ {
+"front":"Shri Päväpuri Tirtha",
+"back":"The place of Bhagawän Mahävir's final sermon and his Nirväna Kalyänak, making it one of the most sacred sites."
+ },
+ {
+"front":"Shri Girnär Tirtha",
+"back":"The site of the Dikshä, Keval-jnän, and Nirväna Kalyänaks of the 22nd Tirthankar, Bhagawän Nemināth."
+ },
+ {
+"front":"Shri Sametshikhar Tirtha",
+"back":"Known as the land of Nirväna, where an incredible twenty Tirthankars attained their final liberation (Nirväna Kalyänak)."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Jain Tirthas",
+"questions": [
+ {
+"question":"Which Tirtha is known for its magnificent complex of about 900 temples on a single mountain?",
+"options": [
+"Girnär",
+"Sametshikhar",
+"Pälitänä",
+"Ranakpur"
+ ],
+"answer":"Pälitänä"
+ },
+ {
+"question":"The world-famous Delwädä temples, known for their marble carvings, are located near which mountain?",
+"options": [
+"Mt. Shatrunjay",
+"Mt. Meru",
+"Mt. Girnär",
+"Mt. Äbu"
+ ],
+"answer":"Mt. Äbu"
+ },
+ {
+"question":"How many Tirthankars are said to have attained Nirväna at Sametshikhar?",
+"options": [
+"One (Mahävir Swämi)",
+"Five",
+"Ten",
+"Twenty"
+ ],
+"answer":"Twenty"
+ },
+ {
+"question":"The Ranakpur temple is famous for having how many intricately carved pillars?",
+"options": [
+"108",
+"1,008",
+"1,444",
+"3,745"
+ ],
+"answer":"1,444"
+ },
+ {
+"question":"The Mahä Mastakäbhishek, a head-anointing ceremony held every 12 years, honors the statue of which figure?",
+"options": [
+"Bhagawän Ädināth",
+"Bhagawän Pärshvanāth",
+"Bhagawän Bähubali",
+"Bhagawän Mahävir"
+ ],
+"answer":"Bhagawän Bähubali"
+ },
+ {
+"question":"Which holy site is revered as the place of Bhagawän Mahävir's Nirväna?",
+"options": [
+"Ayodhyä",
+"Päväpuri",
+"Hastinäpur",
+"Sametshikhar"
+ ],
+"answer":"Päväpuri"
+ },
+ {
+"question":"The Vimal Vasahi and Lunaga Vasahi temples are part of which larger Tirtha complex?",
+"options": [
+"Ranakpur",
+"Pälitänä",
+"Äbu Delwädä",
+"Girnär"
+ ],
+"answer":"Äbu Delwädä"
+ },
+ {
+"question":"Which Tirthankar's Dikshä, Keval-jnän, and Moksh Kalyänaks all took place at Mt. Girnär?",
+"options": [
+"Ädināth",
+"Pärshvanāth",
+"Nemināth",
+"Mahävir"
+ ],
+"answer":"Nemināth"
+ },
+ {
+"question":"In which state are the pilgrimage sites of Pälitänä, Shankheshwar, and Girnär located?",
+"options": [
+"Rajasthan",
+"Bihar",
+"Karnataka",
+"Gujarat"
+ ],
+"answer":"Gujarat"
+ },
+ {
+"question":"The temple at Tärangä was built under the inspiration of which famous Ächārya?",
+"options": [
+"Bhadrabähu",
+"Sägaränand Suri",
+"Hemchandra Ächārya",
+"Vimal Shah"
+ ],
+"answer":"Hemchandra Ächārya"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

@@ -1,569 +1,569 @@
 {
-    "sectionTitle": "D.4: Six Ävashyak (Six Essential Observances)",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "The Six Essential Daily Observances"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Jainism is a practical religion where daily rituals are interwoven into the life of a devotee. The ultimate goal is to purify the soul, which in its pure form has infinite perception, knowledge, vigor, and bliss. A worldly soul is covered with karmas, primarily due to <b>Mithyätva</b> (wrong faith) and the four passions known as <b>Kashäy</b> (anger, ego, deceit, and greed)."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "To free the soul, Tirthankars have expounded many methods, one of which is the daily practice of six essential rites, or <b>Ävashyak</b>. These practices help free the mind from attachment and hatred, fostering spiritual progress. While both Shvetämbar and Digambar traditions advocate for six essentials, the specific observances differ between them."
-          }
-        ]
-      },
-      {
-        "tabName": "Shvetämbar Ävashyak",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "The Six Essentials of the Shvetämbar Tradition",
-            "description": "These are the six obligatory duties a Shvetämbar Jain layperson is required to perform daily. Click on a card to flip it and see the meaning.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "1. Sämäyik",
-                "back": "To remain in a state of equanimity for 48 minutes, with an oath of non-violence."
-              },
-              {
-                "front": "2. Chauvisattho",
-                "back": "To pray to and appreciate the qualities of the twenty-four Tirthankars."
-              },
-              {
-                "front": "3. Vandan",
-                "back": "To show devotion and service to Guru Mahäräj (ascetics)."
-              },
-              {
-                "front": "4. Pratikraman",
-                "back": "To repent, reproach, and reflect upon past wrong thoughts, words, and deeds."
-              },
-              {
-                "front": "5. Käyotsarg",
-                "back": "Non-attachment to the body by standing or sitting motionless and meditating for a set period."
-              },
-              {
-                "front": "6. Pratyäkhyän (Pachchakkhän)",
-                "back": "Taking religious vows to renounce certain activities or foods for a set period to instill discipline."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Sämäyik: Equanimity",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Understanding Sämäyik - The Vow of Equanimity",
-          "description": "Sämäyik is the process of enhancing the quality of equanimity and is considered the essence of a Tirthankar's teachings. No one can attain Moksh without its practice.",
-          "items": [
-            {
-              "header": "What is Sämäyik?",
-              "content": "Sämäyik is the act of remaining calm and undisturbed, treating all living beings as equal to oneself. For a minimum duration of 48 minutes, a devotee renounces worldly activities and lives the life of an ascetic, controlling their mind, speech, and body. This ritual is essential for removing Mithyätva and Kashäy, which ultimately removes all Karma."
-            },
-            {
-              "header": "The Practice of Sämäyik",
-              "content": "During Sämäyik, one should not think about worldly affairs. Instead, one meditates on key Sutras: <ul><li><b>'NÄ-HAM'</b> (I am not that) - To detach from the body and worldly relationships.</li><li><b>'SO-HAM'</b> (I am that) - To reinforce identification with the soul's true qualities of infinite knowledge, vision, bliss, and power.</li></ul>"
-            },
-            {
-              "header": "Types of Sämäyik",
-              "content": "There are two types of Sämäyik: <ul><li><b>Complete Sämäyik:</b> This relates to monks and nuns who practice equanimity at all times, having taken a vow to remain in Sämäyik for their entire lives.</li><li><b>Partial Sämäyik:</b> This is for lay people (Shrävaks and Shrävikäs) to learn gradual detachment. The minimum duration is 48 minutes.</li></ul>"
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "32 Faults of Sämäyik",
-        "contentType": "mindmap",
-        "tabData": {
-          "title": "Faults to be Avoided During Sämäyik",
-          "description": "Jain scriptures describe 32 faults of the mind, speech, and body that one must avoid to perform Sämäyik correctly.",
-          "nodes": [
-            {
-              "id": "root",
-              "text": "The 32 Faults of Sämäyik",
-              "parent": null
-            },
-            {
-              "id": "mind",
-              "text": "10 Faults of the Mind",
-              "parent": "root"
-            },
-            {
-              "id": "speech",
-              "text": "10 Faults of Speech",
-              "parent": "root"
-            },
-            {
-              "id": "body",
-              "text": "12 Faults of the Body",
-              "parent": "root"
-            },
-            {
-              "id": "mind1",
-              "text": "Without respect",
-              "parent": "mind"
-            },
-            {
-              "id": "mind2",
-              "text": "For prestige",
-              "parent": "mind"
-            },
-            {
-              "id": "mind3",
-              "text": "Out of greed",
-              "parent": "mind"
-            },
-            {
-              "id": "mind4",
-              "text": "For vanity",
-              "parent": "mind"
-            },
-            {
-              "id": "mind5",
-              "text": "Out of fear",
-              "parent": "mind"
-            },
-            {
-              "id": "mind6",
-              "text": "For material rewards",
-              "parent": "mind"
-            },
-            {
-              "id": "mind7",
-              "text": "With doubts",
-              "parent": "mind"
-            },
-            {
-              "id": "mind8",
-              "text": "With anger",
-              "parent": "mind"
-            },
-            {
-              "id": "mind9",
-              "text": "With impertinence",
-              "parent": "mind"
-            },
-            {
-              "id": "mind10",
-              "text": "Without conviction",
-              "parent": "mind"
-            },
-            {
-              "id": "speech1",
-              "text": "Offensive speech",
-              "parent": "speech"
-            },
-            {
-              "id": "speech2",
-              "text": "Speaking without thinking",
-              "parent": "speech"
-            },
-            {
-              "id": "speech3",
-              "text": "Arousing emotions",
-              "parent": "speech"
-            },
-            {
-              "id": "speech4",
-              "text": "Condensed sutras",
-              "parent": "speech"
-            },
-            {
-              "id": "speech5",
-              "text": "Quarrelsome language",
-              "parent": "speech"
-            },
-            {
-              "id": "speech6",
-              "text": "Gossip",
-              "parent": "speech"
-            },
-            {
-              "id": "speech7",
-              "text": "Mocking language",
-              "parent": "speech"
-            },
-            {
-              "id": "speech8",
-              "text": "Hasty/unclear speech",
-              "parent": "speech"
-            },
-            {
-              "id": "speech9",
-              "text": "Irrational speech",
-              "parent": "speech"
-            },
-            {
-              "id": "speech10",
-              "text": "Ambiguous speech",
-              "parent": "speech"
-            },
-            {
-              "id": "body1",
-              "text": "Improper posture",
-              "parent": "body"
-            },
-            {
-              "id": "body2",
-              "text": "Unsteady posture",
-              "parent": "body"
-            },
-            {
-              "id": "body3",
-              "text": "Wavering eyesight",
-              "parent": "body"
-            },
-            {
-              "id": "body4",
-              "text": "Deviating for work",
-              "parent": "body"
-            },
-            {
-              "id": "body5",
-              "text": "Leaning on things",
-              "parent": "body"
-            },
-            {
-              "id": "body6",
-              "text": "Stretching without reason",
-              "parent": "body"
-            },
-            {
-              "id": "body7",
-              "text": "Stretching lazily/sleeping",
-              "parent": "body"
-            },
-            {
-              "id": "body8",
-              "text": "Cracking knuckles",
-              "parent": "body"
-            },
-            {
-              "id": "body9",
-              "text": "Removing dirt from body",
-              "parent": "body"
-            },
-            {
-              "id": "body10",
-              "text": "Hand on head/forehead",
-              "parent": "body"
-            },
-            {
-              "id": "body11",
-              "text": "Sleeping or being idle",
-              "parent": "body"
-            },
-            {
-              "id": "body12",
-              "text": "Being served by others",
-              "parent": "body"
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Pratikraman: Repentance",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Understanding Pratikraman - The Path to Purity",
-          "description": "Pratikraman is the most important of the six essentials. 'Prati' means 'back' and 'kraman' means 'to go,' so Pratikraman means to go back, reflect, and review.",
-          "items": [
-            {
-              "header": "What is Pratikraman?",
-              "content": "It is a process of repentance and sincere confession for past sinful deeds, asking for forgiveness, and forgiving others. It helps stop the influx of new karma and allows us to shed old karma through penance. During Pratikraman, a layperson reflects on the 12 vows and repents for any minor violations (Atichar) committed knowingly or unknowingly."
-            },
-            {
-              "header": "Types of Pratikraman",
-              "content": "It is recommended to do Pratikraman twice daily: <b>Räi Pratikraman</b> (morning) for sins of the night, and <b>Devasi Pratikraman</b> (evening) for sins of the day. If this isn't possible, there are special Pratikramans for every fortnight (<b>Pakkhi</b>), four months (<b>Chaumäsi</b>), and annually (<b>Samvatsari</b>). The Samvatsari Pratikraman, performed on the last day of Paryushan, is one that all Jains should strive to observe."
-            },
-            {
-              "header": "Dravya vs. Bhäv Pratikraman",
-              "content": "<ul><li><b>Dravya Pratikraman (External):</b> Performing the ritual just for show, confessing sins but readily committing them again. This is considered harmful as it deceives oneself.</li><li><b>Bhäv Pratikraman (Internal):</b> Performing the ritual sincerely, which results in minimizing or eliminating sinful activities in real life. This is very useful for the purification of the soul.</li></ul>"
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Ritual Items",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Spiritual Meaning of Items for Sämäyik & Pratikraman",
-          "description": "Certain items are used during these rituals, each with a practical and spiritual purpose.",
-          "items": [
-            {
-              "header": "Charavalo",
-              "content": "A small whisk made of soft, white yarn strings attached to a wooden handle. It is used to gently clean a space before sitting to ensure no tiny living beings are harmed. Spiritually, it symbolizes non-violence and the cleansing of our soul from karmic particles."
-            },
-            {
-              "header": "Katäsanu (Äsan)",
-              "content": "A small mat, typically of white wool, to sit on. It insulates the body, preserving the spiritual energy generated during Sämäyik, and protects subtle living beings on the ground. The white color promotes peace."
-            },
-            {
-              "header": "Muhapatti",
-              "content": "A square piece of white cloth, folded and held over the mouth while reciting sutras. It serves multiple purposes: preventing harm to air micro-organisms from our warm breath, stopping saliva from falling on books, and reminding us to restrain our speech and speak humbly."
-            },
-            {
-              "header": "Sthäpanächärya",
-              "content": "Represents the presence of a Guru. If a Guru is not physically present, a religious book with the Namokär Mahämantra is placed on a stand (Sapada). This helps one maintain discipline and develop humility."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Digambar Ävashyak",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "The Six Essentials of the Digambar Tradition",
-            "description": "The Digambar tradition's list of essentials emphasizes the popular aspects of ritual and constitutes the fundamental modes of religious expression for the laity.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "1. Dev Pujä",
-                "back": "To pray and appreciate the qualities of the twenty-four Tirthankars."
-              },
-              {
-                "front": "2. Guru-upästi",
-                "back": "Devotion and service to Guru Mahäräj (ascetics)."
-              },
-              {
-                "front": "3. Swädhyäy",
-                "back": "Studying of Scriptures."
-              },
-              {
-                "front": "4. Sanyam",
-                "back": "Self-restraint; to conduct the householder's life with self-discipline."
-              },
-              {
-                "front": "5. Tap",
-                "back": "Penance or Austerities, which include Pratikraman, Pratyäkhyän, and Käyotsarg."
-              },
-              {
-                "front": "6. Dän",
-                "back": "Charity - giving alms to mendicants and the needy."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Digambar Essentials Explained",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "A Closer Look at the Digambar Essentials",
-          "description": "These six practices form the core of daily religious life for the Digambar Jain laity.",
-          "items": [
-            {
-              "header": "Dev Pujä & Guru-upästi",
-              "content": "<b>Dev Pujä</b> is the worship of the supreme soul to purify thoughts and develop spiritual powers. <b>Guru-upästi</b> is venerating and serving saints, as well as one's mother, father, teachers, and elders to gain knowledge and ennoble one's life."
-            },
-            {
-              "header": "Swädhyäy & Sanyam",
-              "content": "<b>Swädhyäy</b> means 'study of one's own self' ('Sva' + 'Adhyäya') and involves reading and reflecting on spiritual teachings to understand the soul. <b>Sanyam</b> is control over the sense organs, mind, speech, and passions like anger and greed."
-            },
-            {
-              "header": "Tap & Dän",
-              "content": "<b>Tap</b> is austerity, such as fasting (Upaväs), which means 'to stay near' the soul. It also includes devotion to one's duty and rendering service to others. <b>Dän</b> is charity, offering one's possessions acquired through legitimate means to the deserving. The donation of knowledge is considered highly superior to the donation of money."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on the Six Ävashyak",
-          "questions": [
-            {
-              "question": "What is the minimum duration for a lay person's Sämäyik?",
-              "options": [
-                "24 minutes",
-                "48 minutes",
-                "60 minutes",
-                "There is no minimum"
-              ],
-              "answer": "48 minutes"
-            },
-            {
-              "question": "Which of the 32 faults of Sämäyik is a fault of the mind?",
-              "options": [
-                "Using quarrelsome language",
-                "Performing Sämäyik for prestige",
-                "Sitting with an unsteady posture",
-                "Cracking knuckles"
-              ],
-              "answer": "Performing Sämäyik for prestige"
-            },
-            {
-              "question": "What is the name for the Shvetämbar essential observance that involves repenting for past wrong deeds?",
-              "options": [
-                "Sämäyik",
-                "Vandan",
-                "Käyotsarg",
-                "Pratikraman"
-              ],
-              "answer": "Pratikraman"
-            },
-            {
-              "question": "The annual Pratikraman that all Jains should strive to observe is called:",
-              "options": [
-                "Devasi Pratikraman",
-                "Chaumäsi Pratikraman",
-                "Pakkhi Pratikraman",
-                "Samvatsari Pratikraman"
-              ],
-              "answer": "Samvatsari Pratikraman"
-            },
-            {
-              "question": "Which item used during Pratikraman spiritually symbolizes non-violence and cleansing the soul of karma?",
-              "options": [
-                "Muhapatti",
-                "Katäsanu",
-                "Charavalo",
-                "Sthäpanächärya"
-              ],
-              "answer": "Charavalo"
-            },
-            {
-              "question": "What does the Sutra 'SO-HAM' mean in the context of Sämäyik meditation?",
-              "options": [
-                "I am not that",
-                "I am that",
-                "I am everywhere",
-                "I am nothing"
-              ],
-              "answer": "I am that"
-            },
-            {
-              "question": "Which of these is one of the Six Essential Observances in the Digambar tradition?",
-              "options": [
-                "Chauvisattho",
-                "Swädhyäy",
-                "Vandan",
-                "Sämäyik"
-              ],
-              "answer": "Swädhyäy"
-            },
-            {
-              "question": "In the Digambar tradition, what does 'Tap' (Austerity) include?",
-              "options": [
-                "Only fasting",
-                "Giving charity and studying scriptures",
-                "Forgetting hunger and thirst while engrossed in a noble task",
-                "Worshipping the Tirthankars"
-              ],
-              "answer": "Forgetting hunger and thirst while engrossed in a noble task"
-            },
-            {
-              "question": "What is the term for minor violations of vows that one repents for during Pratikraman?",
-              "options": [
-                "Kashäy",
-                "Mithyätva",
-                "Atichar",
-                "Anuvrat"
-              ],
-              "answer": "Atichar"
-            },
-            {
-              "question": "What is the meaning of 'Käyotsarg'?",
-              "options": [
-                "To go back and review",
-                "Respecting ascetics",
-                "Rising above bodily activities to focus on the inner self",
-                "Taking religious vows"
-              ],
-              "answer": "Rising above bodily activities to focus on the inner self"
-            },
-            {
-              "question": "A Pratikraman performed sincerely, leading to a change in behavior, is called:",
-              "options": [
-                "Dravya Pratikraman",
-                "Bhäv Pratikraman",
-                "Räi Pratikraman",
-                "Devasi Pratikraman"
-              ],
-              "answer": "Bhäv Pratikraman"
-            },
-            {
-              "question": "Which Digambar essential involves the study of one's own self or soul?",
-              "options": [
-                "Dev Pujä",
-                "Guru-upästi",
-                "Sanyam",
-                "Swädhyäy"
-              ],
-              "answer": "Swädhyäy"
-            },
-            {
-              "question": "A Muhapatti is used to cover the mouth during recitation primarily as an act of:",
-              "options": [
-                "Humility",
-                "Non-violence towards air microorganisms",
-                "Keeping warm",
-                "Discipline"
-              ],
-              "answer": "Non-violence towards air microorganisms"
-            },
-            {
-              "question": "Which of these is NOT one of the 12 faults of the body during Sämäyik?",
-              "options": [
-                "Leaning against something",
-                "To use hasty speech without clarity",
-                "To sit with wavering eyesight",
-                "To stretch the body lazily or to sleep"
-              ],
-              "answer": "To use hasty speech without clarity"
-            },
-            {
-              "question": "In the Digambar tradition, the donation of what is considered highly superior to the donation of money?",
-              "options": [
-                "Food",
-                "Clothes",
-                "Shelter",
-                "Knowledge"
-              ],
-              "answer": "Knowledge"
-            },
-            {
-              "question": "What is 'Pratyäkhyän'?",
-              "options": [
-                "Repenting for sins",
-                "Taking vows to renounce certain things for a set time",
-                "Meditating on the soul",
-                "Praising the 24 Tirthankars"
-              ],
-              "answer": "Taking vows to renounce certain things for a set time"
-            },
-            {
-              "question": "According to the Digambar tradition, who are considered the foremost gurus to be served in Guru-upästi?",
-              "options": [
-                "Teachers of art and sciences",
-                "Family elders",
-                "Saints who preach religion",
-                "Mother and father"
-              ],
-              "answer": "Mother and father"
-            },
-            {
-              "question": "Pratikraman is said to cover the other five Shvetämbar essentials. When does one perform the Sämäyik essential in relation to Pratikraman?",
-              "options": [
-                "After Pratikraman is finished",
-                "In the middle of Pratikraman",
-                "A vow of Sämäyik must be taken before Pratikraman begins",
-                "It is not related"
-              ],
-              "answer": "A vow of Sämäyik must be taken before Pratikraman begins"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"D.4: Six Ävashyak (Six Essential Observances)",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"The Six Essential Daily Observances"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jainism is a practical religion where daily rituals are interwoven into the life of a devotee. The ultimate goal is to purify the soul, which in its pure form has infinite perception, knowledge, vigor, and bliss. A worldly soul is covered with karmas, primarily due to <b>Mithyätva</b> (wrong faith) and the four passions known as <b>Kashäy</b> (anger, ego, deceit, and greed)."
+ },
+ {
+"tagType":"p",
+"tagHTML":"To free the soul, Tirthankars have expounded many methods, one of which is the daily practice of six essential rites, or <b>Ävashyak</b>. These practices help free the mind from attachment and hatred, fostering spiritual progress. While both Shvetämbar and Digambar traditions advocate for six essentials, the specific observances differ between them."
+ }
+ ]
+ },
+ {
+"tabName":"Shvetämbar Ävashyak",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"The Six Essentials of the Shvetämbar Tradition",
+"description":"These are the six obligatory duties a Shvetämbar Jain layperson is required to perform daily. Click on a card to flip it and see the meaning.",
+"flippable": true,
+"cards": [
+ {
+"front":"1. Sämäyik",
+"back":"To remain in a state of equanimity for 48 minutes, with an oath of non-violence."
+ },
+ {
+"front":"2. Chauvisattho",
+"back":"To pray to and appreciate the qualities of the twenty-four Tirthankars."
+ },
+ {
+"front":"3. Vandan",
+"back":"To show devotion and service to Guru Mahäräj (ascetics)."
+ },
+ {
+"front":"4. Pratikraman",
+"back":"To repent, reproach, and reflect upon past wrong thoughts, words, and deeds."
+ },
+ {
+"front":"5. Käyotsarg",
+"back":"Non-attachment to the body by standing or sitting motionless and meditating for a set period."
+ },
+ {
+"front":"6. Pratyäkhyän (Pachchakkhän)",
+"back":"Taking religious vows to renounce certain activities or foods for a set period to instill discipline."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Sämäyik: Equanimity",
+"contentType":"accordian",
+"tabData": {
+"title":"Understanding Sämäyik - The Vow of Equanimity",
+"description":"Sämäyik is the process of enhancing the quality of equanimity and is considered the essence of a Tirthankar's teachings. No one can attain Moksh without its practice.",
+"items": [
+ {
+"header":"What is Sämäyik?",
+"content":"Sämäyik is the act of remaining calm and undisturbed, treating all living beings as equal to oneself. For a minimum duration of 48 minutes, a devotee renounces worldly activities and lives the life of an ascetic, controlling their mind, speech, and body. This ritual is essential for removing Mithyätva and Kashäy, which ultimately removes all Karma."
+ },
+ {
+"header":"The Practice of Sämäyik",
+"content":"During Sämäyik, one should not think about worldly affairs. Instead, one meditates on key Sutras: <ul><li><b>'NÄ-HAM'</b> (I am not that) - To detach from the body and worldly relationships.</li><li><b>'SO-HAM'</b> (I am that) - To reinforce identification with the soul's true qualities of infinite knowledge, vision, bliss, and power.</li></ul>"
+ },
+ {
+"header":"Types of Sämäyik",
+"content":"There are two types of Sämäyik: <ul><li><b>Complete Sämäyik:</b> This relates to monks and nuns who practice equanimity at all times, having taken a vow to remain in Sämäyik for their entire lives.</li><li><b>Partial Sämäyik:</b> This is for lay people (Shrävaks and Shrävikäs) to learn gradual detachment. The minimum duration is 48 minutes.</li></ul>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"32 Faults of Sämäyik",
+"contentType":"mindmap",
+"tabData": {
+"title":"Faults to be Avoided During Sämäyik",
+"description":"Jain scriptures describe 32 faults of the mind, speech, and body that one must avoid to perform Sämäyik correctly.",
+"nodes": [
+ {
+"id":"root",
+"text":"The 32 Faults of Sämäyik",
+"parent": null
+ },
+ {
+"id":"mind",
+"text":"10 Faults of the Mind",
+"parent":"root"
+ },
+ {
+"id":"speech",
+"text":"10 Faults of Speech",
+"parent":"root"
+ },
+ {
+"id":"body",
+"text":"12 Faults of the Body",
+"parent":"root"
+ },
+ {
+"id":"mind1",
+"text":"Without respect",
+"parent":"mind"
+ },
+ {
+"id":"mind2",
+"text":"For prestige",
+"parent":"mind"
+ },
+ {
+"id":"mind3",
+"text":"Out of greed",
+"parent":"mind"
+ },
+ {
+"id":"mind4",
+"text":"For vanity",
+"parent":"mind"
+ },
+ {
+"id":"mind5",
+"text":"Out of fear",
+"parent":"mind"
+ },
+ {
+"id":"mind6",
+"text":"For material rewards",
+"parent":"mind"
+ },
+ {
+"id":"mind7",
+"text":"With doubts",
+"parent":"mind"
+ },
+ {
+"id":"mind8",
+"text":"With anger",
+"parent":"mind"
+ },
+ {
+"id":"mind9",
+"text":"With impertinence",
+"parent":"mind"
+ },
+ {
+"id":"mind10",
+"text":"Without conviction",
+"parent":"mind"
+ },
+ {
+"id":"speech1",
+"text":"Offensive speech",
+"parent":"speech"
+ },
+ {
+"id":"speech2",
+"text":"Speaking without thinking",
+"parent":"speech"
+ },
+ {
+"id":"speech3",
+"text":"Arousing emotions",
+"parent":"speech"
+ },
+ {
+"id":"speech4",
+"text":"Condensed sutras",
+"parent":"speech"
+ },
+ {
+"id":"speech5",
+"text":"Quarrelsome language",
+"parent":"speech"
+ },
+ {
+"id":"speech6",
+"text":"Gossip",
+"parent":"speech"
+ },
+ {
+"id":"speech7",
+"text":"Mocking language",
+"parent":"speech"
+ },
+ {
+"id":"speech8",
+"text":"Hasty/unclear speech",
+"parent":"speech"
+ },
+ {
+"id":"speech9",
+"text":"Irrational speech",
+"parent":"speech"
+ },
+ {
+"id":"speech10",
+"text":"Ambiguous speech",
+"parent":"speech"
+ },
+ {
+"id":"body1",
+"text":"Improper posture",
+"parent":"body"
+ },
+ {
+"id":"body2",
+"text":"Unsteady posture",
+"parent":"body"
+ },
+ {
+"id":"body3",
+"text":"Wavering eyesight",
+"parent":"body"
+ },
+ {
+"id":"body4",
+"text":"Deviating for work",
+"parent":"body"
+ },
+ {
+"id":"body5",
+"text":"Leaning on things",
+"parent":"body"
+ },
+ {
+"id":"body6",
+"text":"Stretching without reason",
+"parent":"body"
+ },
+ {
+"id":"body7",
+"text":"Stretching lazily/sleeping",
+"parent":"body"
+ },
+ {
+"id":"body8",
+"text":"Cracking knuckles",
+"parent":"body"
+ },
+ {
+"id":"body9",
+"text":"Removing dirt from body",
+"parent":"body"
+ },
+ {
+"id":"body10",
+"text":"Hand on head/forehead",
+"parent":"body"
+ },
+ {
+"id":"body11",
+"text":"Sleeping or being idle",
+"parent":"body"
+ },
+ {
+"id":"body12",
+"text":"Being served by others",
+"parent":"body"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Pratikraman: Repentance",
+"contentType":"accordian",
+"tabData": {
+"title":"Understanding Pratikraman - The Path to Purity",
+"description":"Pratikraman is the most important of the six essentials.'Prati' means'back' and'kraman' means'to go,' so Pratikraman means to go back, reflect, and review.",
+"items": [
+ {
+"header":"What is Pratikraman?",
+"content":"It is a process of repentance and sincere confession for past sinful deeds, asking for forgiveness, and forgiving others. It helps stop the influx of new karma and allows us to shed old karma through penance. During Pratikraman, a layperson reflects on the 12 vows and repents for any minor violations (Atichar) committed knowingly or unknowingly."
+ },
+ {
+"header":"Types of Pratikraman",
+"content":"It is recommended to do Pratikraman twice daily: <b>Räi Pratikraman</b> (morning) for sins of the night, and <b>Devasi Pratikraman</b> (evening) for sins of the day. If this isn't possible, there are special Pratikramans for every fortnight (<b>Pakkhi</b>), four months (<b>Chaumäsi</b>), and annually (<b>Samvatsari</b>). The Samvatsari Pratikraman, performed on the last day of Paryushan, is one that all Jains should strive to observe."
+ },
+ {
+"header":"Dravya vs. Bhäv Pratikraman",
+"content":"<ul><li><b>Dravya Pratikraman (External):</b> Performing the ritual just for show, confessing sins but readily committing them again. This is considered harmful as it deceives oneself.</li><li><b>Bhäv Pratikraman (Internal):</b> Performing the ritual sincerely, which results in minimizing or eliminating sinful activities in real life. This is very useful for the purification of the soul.</li></ul>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Ritual Items",
+"contentType":"accordian",
+"tabData": {
+"title":"Spiritual Meaning of Items for Sämäyik & Pratikraman",
+"description":"Certain items are used during these rituals, each with a practical and spiritual purpose.",
+"items": [
+ {
+"header":"Charavalo",
+"content":"A small whisk made of soft, white yarn strings attached to a wooden handle. It is used to gently clean a space before sitting to ensure no tiny living beings are harmed. Spiritually, it symbolizes non-violence and the cleansing of our soul from karmic particles."
+ },
+ {
+"header":"Katäsanu (Äsan)",
+"content":"A small mat, typically of white wool, to sit on. It insulates the body, preserving the spiritual energy generated during Sämäyik, and protects subtle living beings on the ground. The white color promotes peace."
+ },
+ {
+"header":"Muhapatti",
+"content":"A square piece of white cloth, folded and held over the mouth while reciting sutras. It serves multiple purposes: preventing harm to air micro-organisms from our warm breath, stopping saliva from falling on books, and reminding us to restrain our speech and speak humbly."
+ },
+ {
+"header":"Sthäpanächärya",
+"content":"Represents the presence of a Guru. If a Guru is not physically present, a religious book with the Namokär Mahämantra is placed on a stand (Sapada). This helps one maintain discipline and develop humility."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Digambar Ävashyak",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"The Six Essentials of the Digambar Tradition",
+"description":"The Digambar tradition's list of essentials emphasizes the popular aspects of ritual and constitutes the fundamental modes of religious expression for the laity.",
+"flippable": true,
+"cards": [
+ {
+"front":"1. Dev Pujä",
+"back":"To pray and appreciate the qualities of the twenty-four Tirthankars."
+ },
+ {
+"front":"2. Guru-upästi",
+"back":"Devotion and service to Guru Mahäräj (ascetics)."
+ },
+ {
+"front":"3. Swädhyäy",
+"back":"Studying of Scriptures."
+ },
+ {
+"front":"4. Sanyam",
+"back":"Self-restraint; to conduct the householder's life with self-discipline."
+ },
+ {
+"front":"5. Tap",
+"back":"Penance or Austerities, which include Pratikraman, Pratyäkhyän, and Käyotsarg."
+ },
+ {
+"front":"6. Dän",
+"back":"Charity - giving alms to mendicants and the needy."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Digambar Essentials Explained",
+"contentType":"accordian",
+"tabData": {
+"title":"A Closer Look at the Digambar Essentials",
+"description":"These six practices form the core of daily religious life for the Digambar Jain laity.",
+"items": [
+ {
+"header":"Dev Pujä & Guru-upästi",
+"content":"<b>Dev Pujä</b> is the worship of the supreme soul to purify thoughts and develop spiritual powers. <b>Guru-upästi</b> is venerating and serving saints, as well as one's mother, father, teachers, and elders to gain knowledge and ennoble one's life."
+ },
+ {
+"header":"Swädhyäy & Sanyam",
+"content":"<b>Swädhyäy</b> means'study of one's own self' ('Sva' +'Adhyäya') and involves reading and reflecting on spiritual teachings to understand the soul. <b>Sanyam</b> is control over the sense organs, mind, speech, and passions like anger and greed."
+ },
+ {
+"header":"Tap & Dän",
+"content":"<b>Tap</b> is austerity, such as fasting (Upaväs), which means'to stay near' the soul. It also includes devotion to one's duty and rendering service to others. <b>Dän</b> is charity, offering one's possessions acquired through legitimate means to the deserving. The donation of knowledge is considered highly superior to the donation of money."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on the Six Ävashyak",
+"questions": [
+ {
+"question":"What is the minimum duration for a lay person's Sämäyik?",
+"options": [
+"24 minutes",
+"48 minutes",
+"60 minutes",
+"There is no minimum"
+ ],
+"answer":"48 minutes"
+ },
+ {
+"question":"Which of the 32 faults of Sämäyik is a fault of the mind?",
+"options": [
+"Using quarrelsome language",
+"Performing Sämäyik for prestige",
+"Sitting with an unsteady posture",
+"Cracking knuckles"
+ ],
+"answer":"Performing Sämäyik for prestige"
+ },
+ {
+"question":"What is the name for the Shvetämbar essential observance that involves repenting for past wrong deeds?",
+"options": [
+"Sämäyik",
+"Vandan",
+"Käyotsarg",
+"Pratikraman"
+ ],
+"answer":"Pratikraman"
+ },
+ {
+"question":"The annual Pratikraman that all Jains should strive to observe is called:",
+"options": [
+"Devasi Pratikraman",
+"Chaumäsi Pratikraman",
+"Pakkhi Pratikraman",
+"Samvatsari Pratikraman"
+ ],
+"answer":"Samvatsari Pratikraman"
+ },
+ {
+"question":"Which item used during Pratikraman spiritually symbolizes non-violence and cleansing the soul of karma?",
+"options": [
+"Muhapatti",
+"Katäsanu",
+"Charavalo",
+"Sthäpanächärya"
+ ],
+"answer":"Charavalo"
+ },
+ {
+"question":"What does the Sutra'SO-HAM' mean in the context of Sämäyik meditation?",
+"options": [
+"I am not that",
+"I am that",
+"I am everywhere",
+"I am nothing"
+ ],
+"answer":"I am that"
+ },
+ {
+"question":"Which of these is one of the Six Essential Observances in the Digambar tradition?",
+"options": [
+"Chauvisattho",
+"Swädhyäy",
+"Vandan",
+"Sämäyik"
+ ],
+"answer":"Swädhyäy"
+ },
+ {
+"question":"In the Digambar tradition, what does'Tap' (Austerity) include?",
+"options": [
+"Only fasting",
+"Giving charity and studying scriptures",
+"Forgetting hunger and thirst while engrossed in a noble task",
+"Worshipping the Tirthankars"
+ ],
+"answer":"Forgetting hunger and thirst while engrossed in a noble task"
+ },
+ {
+"question":"What is the term for minor violations of vows that one repents for during Pratikraman?",
+"options": [
+"Kashäy",
+"Mithyätva",
+"Atichar",
+"Anuvrat"
+ ],
+"answer":"Atichar"
+ },
+ {
+"question":"What is the meaning of'Käyotsarg'?",
+"options": [
+"To go back and review",
+"Respecting ascetics",
+"Rising above bodily activities to focus on the inner self",
+"Taking religious vows"
+ ],
+"answer":"Rising above bodily activities to focus on the inner self"
+ },
+ {
+"question":"A Pratikraman performed sincerely, leading to a change in behavior, is called:",
+"options": [
+"Dravya Pratikraman",
+"Bhäv Pratikraman",
+"Räi Pratikraman",
+"Devasi Pratikraman"
+ ],
+"answer":"Bhäv Pratikraman"
+ },
+ {
+"question":"Which Digambar essential involves the study of one's own self or soul?",
+"options": [
+"Dev Pujä",
+"Guru-upästi",
+"Sanyam",
+"Swädhyäy"
+ ],
+"answer":"Swädhyäy"
+ },
+ {
+"question":"A Muhapatti is used to cover the mouth during recitation primarily as an act of:",
+"options": [
+"Humility",
+"Non-violence towards air microorganisms",
+"Keeping warm",
+"Discipline"
+ ],
+"answer":"Non-violence towards air microorganisms"
+ },
+ {
+"question":"Which of these is NOT one of the 12 faults of the body during Sämäyik?",
+"options": [
+"Leaning against something",
+"To use hasty speech without clarity",
+"To sit with wavering eyesight",
+"To stretch the body lazily or to sleep"
+ ],
+"answer":"To use hasty speech without clarity"
+ },
+ {
+"question":"In the Digambar tradition, the donation of what is considered highly superior to the donation of money?",
+"options": [
+"Food",
+"Clothes",
+"Shelter",
+"Knowledge"
+ ],
+"answer":"Knowledge"
+ },
+ {
+"question":"What is'Pratyäkhyän'?",
+"options": [
+"Repenting for sins",
+"Taking vows to renounce certain things for a set time",
+"Meditating on the soul",
+"Praising the 24 Tirthankars"
+ ],
+"answer":"Taking vows to renounce certain things for a set time"
+ },
+ {
+"question":"According to the Digambar tradition, who are considered the foremost gurus to be served in Guru-upästi?",
+"options": [
+"Teachers of art and sciences",
+"Family elders",
+"Saints who preach religion",
+"Mother and father"
+ ],
+"answer":"Mother and father"
+ },
+ {
+"question":"Pratikraman is said to cover the other five Shvetämbar essentials. When does one perform the Sämäyik essential in relation to Pratikraman?",
+"options": [
+"After Pratikraman is finished",
+"In the middle of Pratikraman",
+"A vow of Sämäyik must be taken before Pratikraman begins",
+"It is not related"
+ ],
+"answer":"A vow of Sämäyik must be taken before Pratikraman begins"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

@@ -1,0 +1,85 @@
+/* Word Cloud Styles - Side by Side Reference Style */
+.word-cloud-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 8px 16px !important;
+    padding: 24px !important;
+    border-radius: 12px !important;
+    background-color: #fcfcfc !important;
+    /* Near white as in reference */
+    border: 1px solid #eef2f7 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03) !important;
+    text-align: center !important;
+    min-height: 250px !important;
+}
+
+.word-cloud-container span {
+    display: inline-block !important;
+    padding: 4px 8px !important;
+    line-height: 1.1 !important;
+    transition: transform 0.2s ease !important;
+    cursor: default !important;
+}
+
+.word-cloud-container span:hover {
+    transform: scale(1.05) !important;
+}
+
+.wc-size-1 {
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+    color: #7f8c8d !important;
+    opacity: 0.8;
+}
+
+.wc-size-2 {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: #34495e !important;
+}
+
+.wc-size-3 {
+    font-size: 1.8rem !important;
+    font-weight: 700 !important;
+    color: #2c3e50 !important;
+}
+
+.wc-size-4 {
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    color: #2980b9 !important;
+}
+
+.wc-size-5 {
+    font-size: 2.8rem !important;
+    font-weight: 800 !important;
+    color: #3498db !important;
+}
+
+/* Dark mode overrides for word clouds */
+.dark .word-cloud-container {
+    background-color: #1a202c !important;
+    border-color: #2d3748 !important;
+}
+
+.dark .wc-size-1 {
+    color: #a0aec0 !important;
+}
+
+.dark .wc-size-2 {
+    color: #cbd5e0 !important;
+}
+
+.dark .wc-size-3 {
+    color: #edf2f7 !important;
+}
+
+.dark .wc-size-4 {
+    color: #63b3ed !important;
+}
+
+.dark .wc-size-5 {
+    color: #4299e1 !important;
+}

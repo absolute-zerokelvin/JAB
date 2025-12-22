@@ -4,7 +4,7 @@
 class CacheBuster {
     constructor() {
         // Manual version - increment this when you make significant changes
-        this.version = '1.0.2';
+        this.version = '1.0.4';
         // Build timestamp - automatically updated
         this.buildTime = '20250611001'; // Format: YYYYMMDDHHMM
         // Session timestamp for additional cache busting

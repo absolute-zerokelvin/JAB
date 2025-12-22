@@ -1,247 +1,247 @@
 {
-  "title": "The Story of Kamalsen",
-  "subtitle": "Section J.2 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "The Indifferent Son"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "A devout couple, Shripat Sheth and his wife Sundari, were deeply worried about their son, <span class=\"highlight\">Kamalsen</span>, who showed no interest in their religious life. They took him to hear a sermon by the great <span class=\"highlight\">Ächärya Shilandhar</span>, but Kamalsen paid no attention, admitting afterward that he was “too busy watching the movements of the Ächärya’s neck.”"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "His parents didn't give up. Soon after, another sage, <span class=\"highlight\">Ächärya Gunasägar-suri</span>, visited the town. This Ächärya told engaging stories of bravery and humor with religious messages. This approach captured Kamalsen's interest, and he began attending the sermons daily."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Ridiculous Vow"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z\" clip-rule=\"evenodd\" /></svg>When Ächärya Gunasägar-suri was preparing to leave, many people took vows. When asked, Kamalsen mockingly made several ridiculous pledges, such as not eating a whole watermelon in one bite. To repent for this behavior, he was prompted to take one real, albeit strange, vow: <span class=\"highlight\">he would not eat food without first looking at the bald head of Simelo, a local potter.</span> The Ächärya, pleased that he took any vow at all, accepted it."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "An Unexpected Reward"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "One day, Simelo the potter went to the forest. Kamalsen, about to eat lunch, was reminded of his vow and had to run to the forest to find him. He saw Simelo digging in the ground and uncovering a <span class=\"highlight\">pot full of treasure</span>. As Simelo tried to hide it, Kamalsen shouted, “Yes! I have seen it!”—referring to the potter's bald head."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The potter, thinking Kamalsen meant the treasure, offered him half of it to keep him quiet. Kamalsen gladly accepted. On his way home, he had a profound realization: “A simple vow taken as a joke brought me this wealth. Had I taken this vow seriously, I would have benefited a lot more.” This incident changed Kamalsen's life. He began to observe many meaningful vows and became very happy."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Uninterested Youth",
-      "period": "Kamalsen's early life",
-      "events": [
-        {
-          "title": "Parent's Concern",
-          "description": "The devout Shripat Sheth and Sundari are worried about their son Kamalsen's complete lack of interest in religion.",
-          "characters": ["Kamalsen", "Shripat Sheth", "Sundari"]
-        },
-        {
-          "title": "A Failed Sermon",
-          "description": "They take him to Ächärya Shilandhar, but Kamalsen admits he was too busy watching the monk's neck to listen.",
-          "characters": ["Kamalsen", "Ächärya Shilandhar"]
-        },
-        {
-          "title": "A Glimmer of Interest",
-          "description": "He becomes interested in the stories told by another sage, Ächärya Gunasägar-suri, and attends his sermons daily.",
-          "characters": ["Kamalsen", "Ächärya Gunasägar-suri"]
-        }
-      ]
-    },
-    {
-      "era": "The Strange Vow",
-      "period": "The Ächärya's departure",
-      "events": [
-        {
-          "title": "A Mocking Pledge",
-          "description": "When asked to take a vow, Kamalsen makes several ridiculous, nonsensical pledges.",
-          "characters": ["Kamalsen"]
-        },
-        {
-          "title": "A Serious Vow",
-          "description": "To repent for his mockery, he is prompted to take a peculiar but real vow: not to eat without first seeing the bald head of Simelo the potter.",
-          "characters": ["Kamalsen", "Ächärya Gunasägar-suri", "Simelo"]
-        }
-      ]
-    },
-    {
-      "era": "The Unexpected Outcome",
-      "period": "A fateful day",
-      "events": [
-        {
-          "title": "Fulfilling the Vow",
-          "description": "Needing to see Simelo before lunch, Kamalsen runs to the forest and finds him digging.",
-          "characters": ["Kamalsen", "Simelo"]
-        },
-        {
-          "title": "A Fortunate Misunderstanding",
-          "description": "Simelo finds a pot of treasure. When Kamalsen shouts 'I have seen it!' (meaning the bald head), Simelo thinks he means the treasure and offers him half.",
-          "characters": ["Kamalsen", "Simelo"]
-        },
-        {
-          "title": "A Life Changed",
-          "description": "Kamalsen realizes that if a joke vow brought him wealth, a serious vow could bring far greater benefits. This insight changes his life, and he becomes devout.",
-          "characters": ["Kamalsen"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Kamalsen",
-      "description": "The son of a devout merchant who was initially indifferent to religion. A strange and seemingly trivial vow led to an unexpected fortune and a profound realization that turned him into a devout follower."
-    },
-    {
-      "name": "Ächärya Gunasägar-suri",
-      "description": "A wise sage whose storytelling method captured Kamalsen's interest. He cleverly guided the mocking boy into taking one real, albeit unusual, vow."
-    },
-    {
-      "name": "Simelo, the Potter",
-      "description": "A local bald potter. He was the unwitting subject of Kamalsen's vow and the person who found the pot of treasure that changed Kamalsen's life."
-    },
-    {
-      "name": "Shripat Sheth & Sundari",
-      "description": "Kamalsen's devout parents, whose concern for their son's spiritual well-being set the story's events in motion."
-    }
-  ],
-  "quizData": [
-    { "question": "Who were Kamalsen's parents?", "answer": "Shripat Sheth and his wife Sundari." },
-    { "question": "Why were Kamalsen's parents unhappy with him?", "answer": "Because he had no interest in religion and did not observe any vows." },
-    { "question": "When Kamalsen first went to a sermon by Ächärya Shilandhar, what did he say he was doing instead of listening?", "answer": "He was watching the movements of the Ächärya’s neck." },
-    { "question": "Which Ächärya's storytelling method finally captured Kamalsen's interest?", "answer": "Ächärya Gunasägar-suri." },
-    { "question": "Name one of the ridiculous 'joke' vows Kamalsen first made.", "answer": "Not to tell a lie except during the day or night, not to put a whole watermelon in his mouth, or not to eat cow manure." },
-    { "question": "What was the one serious, though strange, vow that Kamalsen took?", "answer": "Not to eat food without first looking at the bald head of Simelo, the potter." },
-    { "question": "Why did Kamalsen have to run to the forest one day before lunch?", "answer": "To find Simelo and see his bald head in order to fulfill his vow and be able to eat." },
-    { "question": "What did Simelo the potter find while digging in the forest?", "answer": "A pot full of gems and precious stones." },
-    { "question": "When Kamalsen shouted, 'Yes! I have seen it!', what did he mean?", "answer": "He meant he had seen Simelo's bald head, thus fulfilling his vow." },
-    { "question": "What did Simelo the potter think Kamalsen meant?", "answer": "He thought Kamalsen meant he had seen the pot of treasure." },
-    { "question": "What did the potter offer Kamalsen to keep him quiet?", "answer": "Half of the treasure from the pot." },
-    { "question": "What was the final realization that changed Kamalsen's life?", "answer": "He thought that if a vow taken as a joke could bring him such wealth, a vow taken seriously would bring much greater spiritual benefit." },
-    { "question": "Did Kamalsen's parents' plan to get him interested in religion ultimately succeed?", "answer": "Yes, although in a very unexpected way." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Kamalsen",
-    "children": [
-      {
-        "name": "The Problem",
-        "children": [
-          { "name": "Kamalsen's Indifference to Religion" },
-          { "name": "Parents' Concern" },
-          { "name": "First Sermon Fails" }
-        ]
-      },
-      {
-        "name": "The Vow",
-        "children": [
-          { "name": "Interest in Ächärya Gunasägar's Stories" },
-          { "name": "Makes Mocking Pledges" },
-          { "name": "Takes a Strange but Real Vow (See Simelo's head)" }
-        ]
-      },
-      {
-        "name": "The Consequence",
-        "children": [
-          { "name": "Rushes to Forest to Fulfill Vow" },
-          { "name": "Simelo Finds Treasure" },
-          { "name": "A Fortunate Misunderstanding" }
-        ]
-      },
-      {
-        "name": "The Transformation",
-        "children": [
-          { "name": "Receives Half the Treasure" },
-          { "name": "Realizes the Power of Vows" },
-          { "name": "Becomes Devout" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Kamalsen: The Unexpected Vow",
-    "children": [
-      {
-        "name": "The Reluctant Son",
-        "children": [
-          { "name": "Indifference" },
-          { "name": "Mockery" }
-        ]
-      },
-      {
-        "name": "The Peculiar Pledge",
-        "children": [
-          { "name": "The Potter's Head" },
-          { "name": "The Forest Chase" }
-        ]
-      },
-      {
-        "name": "The Accidental Reward",
-        "children": [
-          { "name": "The Treasure" },
-          { "name": "The Misunderstanding" }
-        ]
-      },
-      {
-        "name": "The Sincere Believer",
-        "children": [
-          { "name": "The Realization" },
-          { "name": "The Change" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Parent's Plea",
-      "description": "The devout Shripat Sheth and Sundari express their worries to an Ächärya about their son Kamalsen's lack of interest in spiritual matters.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Parents+Speak+to+the+Ächärya",
-      "imageAlt": "A concerned couple speaking earnestly to a seated monk."
-    },
-    {
-      "title": "A Ridiculous Vow",
-      "description": "When asked to take a vow, a mocking Kamalsen makes absurd pledges, before being guided to take one strange but real vow: to see a potter's bald head before eating.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Kamalsen's+Strange+Vow",
-      "imageAlt": "A young man laughing while making a pledge in front of a slightly amused monk."
-    },
-    {
-      "title": "The Forest Chase",
-      "description": "Reminded of his vow at lunchtime, Kamalsen has no choice but to run to the forest to find Simelo the potter.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Kamalsen+Runs+to+the+Forest",
-      "imageAlt": "A young man running frantically into a forest."
-    },
-    {
-      "title": "The Hidden Treasure",
-      "description": "While digging for clay, Simelo the potter unearths a pot overflowing with precious gems, just as Kamalsen arrives.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Simelo+Finds+the+Treasure",
-      "imageAlt": "A potter looking shocked as he pulls a pot full of jewels from the ground."
-    },
-    {
-      "title": "A Fortunate Misunderstanding",
-      "description": "When Kamalsen yells 'I have seen it!', the potter thinks he means the treasure and offers him half to ensure his silence.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Offer+of+Treasure",
-      "imageAlt": "A nervous potter offering a bag of gems to a surprised Kamalsen."
-    },
-    {
-      "title": "A Life Transformed",
-      "description": "Kamalsen realizes that if a vow taken as a joke yielded such a reward, a sincere vow would bring immense spiritual benefit, changing his perspective forever.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Kamalsen's+Profound+Realization",
-      "imageAlt": "Kamalsen looking thoughtfully at a handful of gems, with a look of dawning understanding."
-    }
-  ]
+"title":"The Story of Kamalsen",
+"subtitle":"Section J.2 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"The Indifferent Son"
+ },
+ {
+"tagType":"p",
+"tagHTML":"A devout couple, Shripat Sheth and his wife Sundari, were deeply worried about their son, <span class=\"highlight\">Kamalsen</span>, who showed no interest in their religious life. They took him to hear a sermon by the great <span class=\"highlight\">Ächärya Shilandhar</span>, but Kamalsen paid no attention, admitting afterward that he was “too busy watching the movements of the Ächärya’s neck.”"
+ },
+ {
+"tagType":"p",
+"tagHTML":"His parents didn't give up. Soon after, another sage, <span class=\"highlight\">Ächärya Gunasägar-suri</span>, visited the town. This Ächärya told engaging stories of bravery and humor with religious messages. This approach captured Kamalsen's interest, and he began attending the sermons daily."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Ridiculous Vow"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM6.75 9.25a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-6.5z\" clip-rule=\"evenodd\" /></svg>When Ächärya Gunasägar-suri was preparing to leave, many people took vows. When asked, Kamalsen mockingly made several ridiculous pledges, such as not eating a whole watermelon in one bite. To repent for this behavior, he was prompted to take one real, albeit strange, vow: <span class=\"highlight\">he would not eat food without first looking at the bald head of Simelo, a local potter.</span> The Ächärya, pleased that he took any vow at all, accepted it."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"An Unexpected Reward"
+ },
+ {
+"tagType":"p",
+"tagHTML":"One day, Simelo the potter went to the forest. Kamalsen, about to eat lunch, was reminded of his vow and had to run to the forest to find him. He saw Simelo digging in the ground and uncovering a <span class=\"highlight\">pot full of treasure</span>. As Simelo tried to hide it, Kamalsen shouted, “Yes! I have seen it!”—referring to the potter's bald head."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The potter, thinking Kamalsen meant the treasure, offered him half of it to keep him quiet. Kamalsen gladly accepted. On his way home, he had a profound realization: “A simple vow taken as a joke brought me this wealth. Had I taken this vow seriously, I would have benefited a lot more.” This incident changed Kamalsen's life. He began to observe many meaningful vows and became very happy."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Uninterested Youth",
+"period":"Kamalsen's early life",
+"events": [
+ {
+"title":"Parent's Concern",
+"description":"The devout Shripat Sheth and Sundari are worried about their son Kamalsen's complete lack of interest in religion.",
+"characters": ["Kamalsen","Shripat Sheth","Sundari"]
+ },
+ {
+"title":"A Failed Sermon",
+"description":"They take him to Ächärya Shilandhar, but Kamalsen admits he was too busy watching the monk's neck to listen.",
+"characters": ["Kamalsen","Ächärya Shilandhar"]
+ },
+ {
+"title":"A Glimmer of Interest",
+"description":"He becomes interested in the stories told by another sage, Ächärya Gunasägar-suri, and attends his sermons daily.",
+"characters": ["Kamalsen","Ächärya Gunasägar-suri"]
+ }
+ ]
+ },
+ {
+"era":"The Strange Vow",
+"period":"The Ächärya's departure",
+"events": [
+ {
+"title":"A Mocking Pledge",
+"description":"When asked to take a vow, Kamalsen makes several ridiculous, nonsensical pledges.",
+"characters": ["Kamalsen"]
+ },
+ {
+"title":"A Serious Vow",
+"description":"To repent for his mockery, he is prompted to take a peculiar but real vow: not to eat without first seeing the bald head of Simelo the potter.",
+"characters": ["Kamalsen","Ächärya Gunasägar-suri","Simelo"]
+ }
+ ]
+ },
+ {
+"era":"The Unexpected Outcome",
+"period":"A fateful day",
+"events": [
+ {
+"title":"Fulfilling the Vow",
+"description":"Needing to see Simelo before lunch, Kamalsen runs to the forest and finds him digging.",
+"characters": ["Kamalsen","Simelo"]
+ },
+ {
+"title":"A Fortunate Misunderstanding",
+"description":"Simelo finds a pot of treasure. When Kamalsen shouts'I have seen it!' (meaning the bald head), Simelo thinks he means the treasure and offers him half.",
+"characters": ["Kamalsen","Simelo"]
+ },
+ {
+"title":"A Life Changed",
+"description":"Kamalsen realizes that if a joke vow brought him wealth, a serious vow could bring far greater benefits. This insight changes his life, and he becomes devout.",
+"characters": ["Kamalsen"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Kamalsen",
+"description":"The son of a devout merchant who was initially indifferent to religion. A strange and seemingly trivial vow led to an unexpected fortune and a profound realization that turned him into a devout follower."
+ },
+ {
+"name":"Ächärya Gunasägar-suri",
+"description":"A wise sage whose storytelling method captured Kamalsen's interest. He cleverly guided the mocking boy into taking one real, albeit unusual, vow."
+ },
+ {
+"name":"Simelo, the Potter",
+"description":"A local bald potter. He was the unwitting subject of Kamalsen's vow and the person who found the pot of treasure that changed Kamalsen's life."
+ },
+ {
+"name":"Shripat Sheth & Sundari",
+"description":"Kamalsen's devout parents, whose concern for their son's spiritual well-being set the story's events in motion."
+ }
+ ],
+"quizData": [
+ {"question":"Who were Kamalsen's parents?","answer":"Shripat Sheth and his wife Sundari." },
+ {"question":"Why were Kamalsen's parents unhappy with him?","answer":"Because he had no interest in religion and did not observe any vows." },
+ {"question":"When Kamalsen first went to a sermon by Ächärya Shilandhar, what did he say he was doing instead of listening?","answer":"He was watching the movements of the Ächärya’s neck." },
+ {"question":"Which Ächärya's storytelling method finally captured Kamalsen's interest?","answer":"Ächärya Gunasägar-suri." },
+ {"question":"Name one of the ridiculous'joke' vows Kamalsen first made.","answer":"Not to tell a lie except during the day or night, not to put a whole watermelon in his mouth, or not to eat cow manure." },
+ {"question":"What was the one serious, though strange, vow that Kamalsen took?","answer":"Not to eat food without first looking at the bald head of Simelo, the potter." },
+ {"question":"Why did Kamalsen have to run to the forest one day before lunch?","answer":"To find Simelo and see his bald head in order to fulfill his vow and be able to eat." },
+ {"question":"What did Simelo the potter find while digging in the forest?","answer":"A pot full of gems and precious stones." },
+ {"question":"When Kamalsen shouted,'Yes! I have seen it!', what did he mean?","answer":"He meant he had seen Simelo's bald head, thus fulfilling his vow." },
+ {"question":"What did Simelo the potter think Kamalsen meant?","answer":"He thought Kamalsen meant he had seen the pot of treasure." },
+ {"question":"What did the potter offer Kamalsen to keep him quiet?","answer":"Half of the treasure from the pot." },
+ {"question":"What was the final realization that changed Kamalsen's life?","answer":"He thought that if a vow taken as a joke could bring him such wealth, a vow taken seriously would bring much greater spiritual benefit." },
+ {"question":"Did Kamalsen's parents' plan to get him interested in religion ultimately succeed?","answer":"Yes, although in a very unexpected way." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Kamalsen",
+"children": [
+ {
+"name":"The Problem",
+"children": [
+ {"name":"Kamalsen's Indifference to Religion" },
+ {"name":"Parents' Concern" },
+ {"name":"First Sermon Fails" }
+ ]
+ },
+ {
+"name":"The Vow",
+"children": [
+ {"name":"Interest in Ächärya Gunasägar's Stories" },
+ {"name":"Makes Mocking Pledges" },
+ {"name":"Takes a Strange but Real Vow (See Simelo's head)" }
+ ]
+ },
+ {
+"name":"The Consequence",
+"children": [
+ {"name":"Rushes to Forest to Fulfill Vow" },
+ {"name":"Simelo Finds Treasure" },
+ {"name":"A Fortunate Misunderstanding" }
+ ]
+ },
+ {
+"name":"The Transformation",
+"children": [
+ {"name":"Receives Half the Treasure" },
+ {"name":"Realizes the Power of Vows" },
+ {"name":"Becomes Devout" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Kamalsen: The Unexpected Vow",
+"children": [
+ {
+"name":"The Reluctant Son",
+"children": [
+ {"name":"Indifference" },
+ {"name":"Mockery" }
+ ]
+ },
+ {
+"name":"The Peculiar Pledge",
+"children": [
+ {"name":"The Potter's Head" },
+ {"name":"The Forest Chase" }
+ ]
+ },
+ {
+"name":"The Accidental Reward",
+"children": [
+ {"name":"The Treasure" },
+ {"name":"The Misunderstanding" }
+ ]
+ },
+ {
+"name":"The Sincere Believer",
+"children": [
+ {"name":"The Realization" },
+ {"name":"The Change" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Parent's Plea",
+"description":"The devout Shripat Sheth and Sundari express their worries to an Ächärya about their son Kamalsen's lack of interest in spiritual matters.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Parents+Speak+to+the+Ächärya",
+"imageAlt":"A concerned couple speaking earnestly to a seated monk."
+ },
+ {
+"title":"A Ridiculous Vow",
+"description":"When asked to take a vow, a mocking Kamalsen makes absurd pledges, before being guided to take one strange but real vow: to see a potter's bald head before eating.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Kamalsen's+Strange+Vow",
+"imageAlt":"A young man laughing while making a pledge in front of a slightly amused monk."
+ },
+ {
+"title":"The Forest Chase",
+"description":"Reminded of his vow at lunchtime, Kamalsen has no choice but to run to the forest to find Simelo the potter.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Kamalsen+Runs+to+the+Forest",
+"imageAlt":"A young man running frantically into a forest."
+ },
+ {
+"title":"The Hidden Treasure",
+"description":"While digging for clay, Simelo the potter unearths a pot overflowing with precious gems, just as Kamalsen arrives.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Simelo+Finds+the+Treasure",
+"imageAlt":"A potter looking shocked as he pulls a pot full of jewels from the ground."
+ },
+ {
+"title":"A Fortunate Misunderstanding",
+"description":"When Kamalsen yells'I have seen it!', the potter thinks he means the treasure and offers him half to ensure his silence.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=The+Offer+of+Treasure",
+"imageAlt":"A nervous potter offering a bag of gems to a surprised Kamalsen."
+ },
+ {
+"title":"A Life Transformed",
+"description":"Kamalsen realizes that if a vow taken as a joke yielded such a reward, a sincere vow would bring immense spiritual benefit, changing his perspective forever.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Kamalsen's+Profound+Realization",
+"imageAlt":"Kamalsen looking thoughtfully at a handful of gems, with a look of dawning understanding."
+ }
+ ]
 }

@@ -1,534 +1,534 @@
 {
-    "sectionTitle": "D.1: Jain Symbols",
-    "tabs": [
-        {
-            "tabName": "Introduction",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "Understanding Jain Symbols"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Symbols are super important in religion! They show us big ideas in simple ways and give us a peek into a religion's culture and practices. Jain symbols help us understand the basic principles of Jainism."
-                }
-            ]
-        },
-        {
-            "tabName": "Jai Jinendra",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "Our Special Greeting"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "When Jains meet, we say <b>'Jai Jinendra'</b>! It means, 'May the religion established by the Jina prevail in our hearts.' We say this because we see a Jina (a winner over inner enemies) in everyone. Every soul can become a Jina and overcome anger, ego, deceit, and greed. Jinas are also called Arihant and Tirthankar, and we think of them as our Jain gods."
-                }
-            ]
-        },
-        {
-            "tabName": "Michchhämi Dukkadam",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "Asking for Forgiveness"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "<b>'Michchhämi Dukkadam'</b> is how we ask for forgiveness. It means 'Forgive my faults.' We usually say this after a special annual forgiveness ritual called Samvatsari Pratikraman. But we can also use it every day for mistakes we make, big or small. It's best to ask for forgiveness as soon as you realize you've made a mistake!"
-                }
-            ]
-        },
-        {
-            "tabName": "Jinälay - Jain Temple",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "Our Place of Worship"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "A <b>Jinälay</b>, also called a Deräsar or Mandir, is a Jain temple. It's a peaceful place where you can feel calm and serene. The statues of Tirthankars and the temple's quiet environment help us look inside ourselves and remember that God is within our own hearts. This helps us follow the right path to become pure and free ourselves from anger, ego, deceit, and greed."
-                }
-            ]
-        },
-        {
-            "tabName": "Om Symbol",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "The Sacred Om"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "The <b>'Om'</b> symbol is found in many Indian religions. In Jainism, it's a very special sound and symbol. When an Arihant (a perfect being) gains complete knowledge, their body makes a spontaneous, melodious sound called Divya Dhvani (Divine Sound). Everyone, including humans, animals, and heavenly beings, can understand this sound in their own language!"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "The sound 'Aum' is a salutation to the five supreme beings in Jainism. It's made up of five sounds:\n                   <ul>\n                        <li><b>A</b>: Represents <b>Arihant</b> (a living human who has conquered passions and realized their true self).</li>\n                        <li><b>A</b>: Represents <b>Ashariri</b> (<b>Siddha</b>, a liberated soul without a physical body).</li>\n                        <li><b>Ä</b>: Represents <b>Ächärya</b> (a spiritual leader of the Jain community).</li>\n                        <li><b>U</b>: Represents <b>Upädhyäy</b> (an ascetic teacher).</li>\n                        <li><b>M</b>: Represents <b>Muni</b> (Sädhus or Sädhvis who practice Jain principles).</li>\n                    </ul>\n                    Om is also a short form of the Namokär Mantra."
-                }
-            ]
-        },
-        {
-            "tabName": "Hrim & Arhum",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "Hrim: The Mystical Symbol"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "The word <b>'Hrim'</b> is a special seed mantra. It's like a mystical symbol for an invisible sound, endlessness, and the divine energy of the 24 Tirthankars. When you meditate on Hrim, you can feel the powerful energy of the Tirthankars."
-                },
-                {
-                    "tagType": "h3",
-                    "tagHTML": "Arhum: The Silent Sound"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "<b>'Arhum'</b> is another mantra that represents all the sounds in the Sanskrit alphabet, from the first vowel 'a' to the last consonant 'h'. When you meditate on Arhum, you focus on the silent sound of the universe."
-                }
-            ]
-        },
-        {
-            "tabName": "Swastik Symbol",
-            "contentType": "flashCards",
-            "tabData": [
-                {
-                    "title": "Meanings of the Swastik",
-                    "description": "The Swastik is a very important and auspicious symbol in Jainism. It has many meanings!",
-                    "frontColor": "#D1FAE5",
-                    "backColor": "#10B981",
-                    "cards": [
-                        {
-                            "front": "Four possible states of rebirth",
-                            "back": "Heavenly being, human, hellish being, animal"
-                        },
-                        {
-                            "front": "Four-fold Jain Sangh",
-                            "back": "Shrävak, Shrävikä, Sädhu, Sädhvi"
-                        },
-                        {
-                            "front": "Four arms also represent",
-                            "back": "Dän (charity), Sheel (virtue), Tap (austerities), Bhäv (noble thoughts)"
-                        }
-                    ]
-                },
-                {
-                    "title": "Three Dots & Crescent",
-                    "description": "Above the Swastik, there are more symbols!",
-                    "frontColor": "#DBEAFE",
-                    "backColor": "#3B82F6",
-                    "cards": [
-                        {
-                            "front": "Three dots represent",
-                            "back": "Three Jewels of Jainism: Samyag Darshan (perfect perception), Samyag Jnän (knowledge), Samyak Chäritra (conduct)"
-                        },
-                        {
-                            "front": "Crescent symbolizes",
-                            "back": "Siddha-shilä (abode of liberated souls)"
-                        },
-                        {
-                            "front": "Dot above crescent represents",
-                            "back": "Siddha (a liberated soul)"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Tilak",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "The Forehead Mark"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Many religions use special marks on the forehead called <b>Tilaks</b>. Jains use sandalwood paste mixed with saffron to make a Tilak between the eyebrows. This spot is a nerve center for decision-making and represents an 'inner sight' that sees beyond normal vision. It shows that Jains try to live by the teachings of the Tirthankars."
-                }
-            ]
-        },
-        {
-            "tabName": "Universal Jain Symbol",
-            "contentType": "accordian",
-            "tabData": {
-                "title": "The Big Picture Symbol",
-                "description": "This symbol combines many smaller symbols, each with a deep meaning. It was adopted during the 2500th Nirväna celebration of Bhagawän Mahävir.",
-                "items": [
-                    {
-                        "header": "Outline of the Symbol",
-                        "content": "The outline looks like the <b>Universe (Lok)</b>. The bottom part is the seven hells (Näraki). The middle part is Earth and planets (Manushya-lok). The top part is the heavenly homes (Devlok) of celestial beings, and even higher is the home of the Siddhas (Siddha-kshetra). Jains believe this universe is eternal – it was never created and can't be destroyed."
-                    },
-                    {
-                        "header": "Swastik & Ahimsa Hand",
-                        "content": "The <b>Swastik</b> is explained in another section. The word in the center of the raised hand and wheel is <b>'Ahimsä'</b>, meaning non-violence. This part reminds us to stop and think before doing anything, to make sure our thoughts, words, and actions don't cause harm."
-                    },
-                    {
-                        "header": "The Wheel & Motto",
-                        "content": "The <b>wheel</b> in the hand shows that if we are not careful, we will keep going through the cycle of birth and death. The words underneath, '<b>Parasparopagraho Jivänäm</b>,' mean 'Living Beings (souls) Render Service to One Another.'"
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "JAINA Logo",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "The Federation of JAINA Logo"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "The Federation of Jain Associations in North America (JAINA) uses its own symbol. In their logo, the Swastik from the main Jain symbol is replaced by the <b>'Aum' or 'Om'</b> symbol. This is because in the Western world, the Swastik is not always seen as a good symbol."
-                }
-            ]
-        },
-        {
-            "tabName": "Ärati",
-            "contentType": "accordian",
-            "tabData": {
-                "title": "The Ärati Ceremony",
-                "description": "The Ärati is a beautiful ceremony performed with lamps.",
-                "items": [
-                    {
-                        "header": "What is Ärati?",
-                        "content": "The <b>Ärati</b> has 5 lamps with oil-soaked cotton wicks. The lamps are waved in a circle in front of a Tirthankar's idol at the end of a ritual and at night before the temple closes. The light symbolizes good overcoming bad, courage overcoming fear, and knowledge overcoming ignorance."
-                    },
-                    {
-                        "header": "What do the 5 lamps symbolize?",
-                        "content": "The 5 lamps symbolize:\n                            <ul>\n                                <li><b>Panch Parameshthi</b> (five great personalities: Arihant, Siddha, Ächärya, Upädhyäy, Sädhu)</li>\n                                <li><b>Five types of jnän</b> (knowledge: Mati-jnän, Shrut-jnän, Avadhi-jnän, Manah-paryav jnän, Keval-jnän)</li>\n                                <li><b>Panch Mahävrat</b> (five great vows: Non-Violence, Non-stealing, Truthfulness, Celibacy, Non-possession)</li>\n                            </ul>"
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Mangal Deevo",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "The Auspicious Lamp"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "The <b>Mangal Deevo</b> is a lamp with one oil-soaked wick, lit and waved in a circle right after Ärati. When it's lit, the face of the Jina lights up. We hope this lights up our hearts with truth and compassion. The single lamp also symbolizes <b>Keval-jnän</b> (infinite knowledge) and a <b>Siddha</b> (liberated soul)."
-                }
-            ]
-        },
-        {
-            "tabName": "Ashta Mangal",
-            "contentType": "accordian",
-            "tabData": {
-                "title": "The Eight Auspicious Objects",
-                "description": "These eight unique objects are believed to bring good luck and happiness. They are often depicted with rice grains in front of Tirthankar’s idol, or engraved on wood/metal in temples, or hung over home thresholds.",
-                "items": [
-                    {
-                        "header": "Swastik",
-                        "content": "The Swastik symbolizes four destinies: human beings, heavenly beings, hellish beings, and remainder of living beings (Tiryancha). (See Swastik Symbol tab for more details)"
-                    },
-                    {
-                        "header": "Shrivatsa",
-                        "content": "Depicted on a Jina’s chest, the Shrivatsa is a mark that speaks to the highest knowledge manifested from the heart of the Jina. It symbolizes the endless cycle of rebirth."
-                    },
-                    {
-                        "header": "Nandävarta",
-                        "content": "This is a big Swastik with nine corners. It indicates treasures of nine kinds, including material, physical, mental, and spiritual wealth."
-                    },
-                    {
-                        "header": "Vardhamänak",
-                        "content": "Vardhamän means to increase. The Vardhamänak symbolizes increase in wealth, health, and, most importantly, spiritual progress."
-                    },
-                    {
-                        "header": "Kalash",
-                        "content": "The Kalash symbolizes all spiritual wealth, as well as a completeness of knowledge. Its mouth represents eternity, its throat represents losing old ways, and its base represents adopting new ways."
-                    },
-                    {
-                        "header": "Bhadräsan",
-                        "content": "Also called a Simhäsan, the Bhadrasan is a throne. It is considered auspicious since it is sanctified by the feet of the Jina."
-                    },
-                    {
-                        "header": "Minyugal",
-                        "content": "It symbolizes beings rescued from the ocean of misery, which stems from an earthly existence."
-                    },
-                    {
-                        "header": "Darpan",
-                        "content": "It symbolizes the true self – one's soul."
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Mäna-sthambha",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h3",
-                    "tagHTML": "The Pillar of Pride"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "The <b>Mäna-sthambha</b> is a pillar usually found in front of Digambar temples. It helps us overcome pride. The story goes that Indrabhuti Gautam, who was very proud of his knowledge, lost all his pride just by seeing this pillar in front of Bhagawän Mahävir's Samavasaran (assembly hall)."
-                }
-            ]
-        },
-        {
-            "tabName": "Quiz",
-            "contentType": "quiz",
-            "tabData": {
-                "title": "Test Your Knowledge on Jain Symbols",
-                "questions": [
-                    {
-                        "question": "What does 'Jai Jinendra' mean?",
-                        "options": [
-                            "Hello friend",
-                            "May the Jina prevail in our hearts",
-                            "Welcome to Jainism",
-                            "Peace be with you"
-                        ],
-                        "answer": "May the Jina prevail in our hearts"
-                    },
-                    {
-                        "question": "What is another name for a Jina?",
-                        "options": [
-                            "Muni",
-                            "Arihant",
-                            "Acharya",
-                            "Upadhyay"
-                        ],
-                        "answer": "Arihant"
-                    },
-                    {
-                        "question": "What does 'Michchhämi Dukkadam' mean?",
-                        "options": [
-                            "Thank you",
-                            "Forgive my faults",
-                            "Good luck",
-                            "Hello"
-                        ],
-                        "answer": "Forgive my faults"
-                    },
-                    {
-                        "question": "What is the annual forgiveness ritual called?",
-                        "options": [
-                            "Diwali",
-                            "Paryushan",
-                            "Samvatsari Pratikraman",
-                            "Mahavir Jayanti"
-                        ],
-                        "answer": "Samvatsari Pratikraman"
-                    },
-                    {
-                        "question": "What is a Jinälay?",
-                        "options": [
-                            "Jain scripture",
-                            "Jain temple",
-                            "Jain festival",
-                            "Jain food"
-                        ],
-                        "answer": "Jain temple"
-                    },
-                    {
-                        "question": "What other names are used for a Jinälay?",
-                        "options": [
-                            "Mandir",
-                            "Deräsar",
-                            "Temple",
-                            "Shrine"
-                        ],
-                        "answer": "Mandir, Deräsar"
-                    },
-                    {
-                        "question": "What does the outline of the Universal Jain Symbol represent?",
-                        "options": [
-                            "Earth",
-                            "Universe",
-                            "Heaven",
-                            "Hell"
-                        ],
-                        "answer": "Universe"
-                    },
-                    {
-                        "question": "What does the middle part of the Universal Jain Symbol contain?",
-                        "options": [
-                            "Heavenly abodes",
-                            "Seven hells",
-                            "Earth and planets",
-                            "Siddha-kshetra"
-                        ],
-                        "answer": "Earth and planets"
-                    },
-                    {
-                        "question": "What word is in the center of the raised hand and wheel in the Universal Jain Symbol?",
-                        "options": [
-                            "Om",
-                            "Hrim",
-                            "Ahimsa",
-                            "Arhum"
-                        ],
-                        "answer": "Ahimsa"
-                    },
-                    {
-                        "question": "What does 'Parasparopagraho Jivänäm' mean?",
-                        "options": [
-                            "Live and let live",
-                            "Truth is eternal",
-                            "Souls render service to one another",
-                            "Non-violence is supreme"
-                        ],
-                        "answer": "Living Beings (souls) Render Service to One Another"
-                    },
-                    {
-                        "question": "Why was the Swastik replaced by Om in the JAINA logo?",
-                        "options": [
-                            "It's a new design",
-                            "Swastik is not viewed as pious in the Western world",
-                            "Om is more traditional",
-                            "It's easier to draw"
-                        ],
-                        "answer": "Swastik is not viewed as pious in the Western world"
-                    },
-                    {
-                        "question": "How many lamps does the Ärati have?",
-                        "options": [
-                            "3",
-                            "5",
-                            "7",
-                            "9"
-                        ],
-                        "answer": "5"
-                    },
-                    {
-                        "question": "What do the 5 lamps of Ärati symbolize?",
-                        "options": [
-                            "Panch Parameshthi",
-                            "Five types of jnän",
-                            "Panch Mahävrat",
-                            "The three combined"
-                        ],
-                        "answer": "Panch Parameshthi, Five types of jnän, Panch Mahävrat"
-                    },
-                    {
-                        "question": "What does the Mangal Deevo symbolize?",
-                        "options": [
-                            "Keval-jnän",
-                            "Siddha",
-                            "Moksha",
-                            "Nirvana"
-                        ],
-                        "answer": "Keval-jnän, Siddha"
-                    },
-                    {
-                        "question": "How many auspicious objects are in Ashta Mangal?",
-                        "options": [
-                            "4",
-                            "6",
-                            "8",
-                            "10"
-                        ],
-                        "answer": "8"
-                    },
-                    {
-                        "question": "What does the Mäna-sthambha represent?",
-                        "options": [
-                            "Knowledge",
-                            "Pride",
-                            "Humility",
-                            "Wealth"
-                        ],
-                        "answer": "Pride"
-                    },
-                    {
-                        "question": "Who lost his pride at the sight of Mäna-sthambha?",
-                        "options": [
-                            "Bhagwan Mahavir",
-                            "Indrabhuti Gautam",
-                            "Sthulibhadra",
-                            "Jambuswami"
-                        ],
-                        "answer": "Indrabhuti Gautam"
-                    },
-                    {
-                        "question": "What sound does an Arihant's body emanate upon attaining omniscience?",
-                        "options": [
-                            "Om",
-                            "Hrim",
-                            "Arhum",
-                            "Ahimsa"
-                        ],
-                        "answer": "Om"
-                    },
-                    {
-                        "question": "Which of these is NOT represented by a sound in Om?",
-                        "options": [
-                            "Arihant",
-                            "Siddha",
-                            "Tirthankar",
-                            "Acharya"
-                        ],
-                        "answer": "Tirthankar"
-                    },
-                    {
-                        "question": "What is another name for Ashariri?",
-                        "options": [
-                            "Muni",
-                            "Siddha",
-                            "Acharya",
-                            "Upadhyay"
-                        ],
-                        "answer": "Siddha"
-                    },
-                    {
-                        "question": "What does the 'A' in Aum represent?",
-                        "options": [
-                            "Acharya",
-                            "Arihant",
-                            "Ahimsa",
-                            "Anekantavada"
-                        ],
-                        "answer": "Arihant"
-                    },
-                    {
-                        "question": "What does the 'Ä' in Aum represent?",
-                        "options": [
-                            "Arihant",
-                            "Acharya",
-                            "Ahimsa",
-                            "Aparigraha"
-                        ],
-                        "answer": "Ächärya"
-                    },
-                    {
-                        "question": "What does the 'U' in Aum represent?",
-                        "options": [
-                            "Upädhyäy",
-                            "Muni",
-                            "Acharya",
-                            "Siddha"
-                        ],
-                        "answer": "Upädhyäy"
-                    },
-                    {
-                        "question": "What does the 'M' in Aum represent?",
-                        "options": [
-                            "Muni",
-                            "Moksha",
-                            "Mahavir",
-                            "Mati-jnän"
-                        ],
-                        "answer": "Muni"
-                    }
-                ]
-            }
-        }
-    ]
+"sectionTitle":"D.1: Jain Symbols",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"Understanding Jain Symbols"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Symbols are super important in religion! They show us big ideas in simple ways and give us a peek into a religion's culture and practices. Jain symbols help us understand the basic principles of Jainism."
+ }
+ ]
+ },
+ {
+"tabName":"Jai Jinendra",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"Our Special Greeting"
+ },
+ {
+"tagType":"p",
+"tagHTML":"When Jains meet, we say <b>'Jai Jinendra'</b>! It means,'May the religion established by the Jina prevail in our hearts.' We say this because we see a Jina (a winner over inner enemies) in everyone. Every soul can become a Jina and overcome anger, ego, deceit, and greed. Jinas are also called Arihant and Tirthankar, and we think of them as our Jain gods."
+ }
+ ]
+ },
+ {
+"tabName":"Michchhämi Dukkadam",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"Asking for Forgiveness"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<b>'Michchhämi Dukkadam'</b> is how we ask for forgiveness. It means'Forgive my faults.' We usually say this after a special annual forgiveness ritual called Samvatsari Pratikraman. But we can also use it every day for mistakes we make, big or small. It's best to ask for forgiveness as soon as you realize you've made a mistake!"
+ }
+ ]
+ },
+ {
+"tabName":"Jinälay - Jain Temple",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"Our Place of Worship"
+ },
+ {
+"tagType":"p",
+"tagHTML":"A <b>Jinälay</b>, also called a Deräsar or Mandir, is a Jain temple. It's a peaceful place where you can feel calm and serene. The statues of Tirthankars and the temple's quiet environment help us look inside ourselves and remember that God is within our own hearts. This helps us follow the right path to become pure and free ourselves from anger, ego, deceit, and greed."
+ }
+ ]
+ },
+ {
+"tabName":"Om Symbol",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"The Sacred Om"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The <b>'Om'</b> symbol is found in many Indian religions. In Jainism, it's a very special sound and symbol. When an Arihant (a perfect being) gains complete knowledge, their body makes a spontaneous, melodious sound called Divya Dhvani (Divine Sound). Everyone, including humans, animals, and heavenly beings, can understand this sound in their own language!"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The sound'Aum' is a salutation to the five supreme beings in Jainism. It's made up of five sounds:\n <ul>\n <li><b>A</b>: Represents <b>Arihant</b> (a living human who has conquered passions and realized their true self).</li>\n <li><b>A</b>: Represents <b>Ashariri</b> (<b>Siddha</b>, a liberated soul without a physical body).</li>\n <li><b>Ä</b>: Represents <b>Ächärya</b> (a spiritual leader of the Jain community).</li>\n <li><b>U</b>: Represents <b>Upädhyäy</b> (an ascetic teacher).</li>\n <li><b>M</b>: Represents <b>Muni</b> (Sädhus or Sädhvis who practice Jain principles).</li>\n </ul>\n Om is also a short form of the Namokär Mantra."
+ }
+ ]
+ },
+ {
+"tabName":"Hrim & Arhum",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"Hrim: The Mystical Symbol"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The word <b>'Hrim'</b> is a special seed mantra. It's like a mystical symbol for an invisible sound, endlessness, and the divine energy of the 24 Tirthankars. When you meditate on Hrim, you can feel the powerful energy of the Tirthankars."
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Arhum: The Silent Sound"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<b>'Arhum'</b> is another mantra that represents all the sounds in the Sanskrit alphabet, from the first vowel'a' to the last consonant'h'. When you meditate on Arhum, you focus on the silent sound of the universe."
+ }
+ ]
+ },
+ {
+"tabName":"Swastik Symbol",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"Meanings of the Swastik",
+"description":"The Swastik is a very important and auspicious symbol in Jainism. It has many meanings!",
+"frontColor":"#D1FAE5",
+"backColor":"#10B981",
+"cards": [
+ {
+"front":"Four possible states of rebirth",
+"back":"Heavenly being, human, hellish being, animal"
+ },
+ {
+"front":"Four-fold Jain Sangh",
+"back":"Shrävak, Shrävikä, Sädhu, Sädhvi"
+ },
+ {
+"front":"Four arms also represent",
+"back":"Dän (charity), Sheel (virtue), Tap (austerities), Bhäv (noble thoughts)"
+ }
+ ]
+ },
+ {
+"title":"Three Dots & Crescent",
+"description":"Above the Swastik, there are more symbols!",
+"frontColor":"#DBEAFE",
+"backColor":"#3B82F6",
+"cards": [
+ {
+"front":"Three dots represent",
+"back":"Three Jewels of Jainism: Samyag Darshan (perfect perception), Samyag Jnän (knowledge), Samyak Chäritra (conduct)"
+ },
+ {
+"front":"Crescent symbolizes",
+"back":"Siddha-shilä (abode of liberated souls)"
+ },
+ {
+"front":"Dot above crescent represents",
+"back":"Siddha (a liberated soul)"
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Tilak",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"The Forehead Mark"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Many religions use special marks on the forehead called <b>Tilaks</b>. Jains use sandalwood paste mixed with saffron to make a Tilak between the eyebrows. This spot is a nerve center for decision-making and represents an'inner sight' that sees beyond normal vision. It shows that Jains try to live by the teachings of the Tirthankars."
+ }
+ ]
+ },
+ {
+"tabName":"Universal Jain Symbol",
+"contentType":"accordian",
+"tabData": {
+"title":"The Big Picture Symbol",
+"description":"This symbol combines many smaller symbols, each with a deep meaning. It was adopted during the 2500th Nirväna celebration of Bhagawän Mahävir.",
+"items": [
+ {
+"header":"Outline of the Symbol",
+"content":"The outline looks like the <b>Universe (Lok)</b>. The bottom part is the seven hells (Näraki). The middle part is Earth and planets (Manushya-lok). The top part is the heavenly homes (Devlok) of celestial beings, and even higher is the home of the Siddhas (Siddha-kshetra). Jains believe this universe is eternal – it was never created and can't be destroyed."
+ },
+ {
+"header":"Swastik & Ahimsa Hand",
+"content":"The <b>Swastik</b> is explained in another section. The word in the center of the raised hand and wheel is <b>'Ahimsä'</b>, meaning non-violence. This part reminds us to stop and think before doing anything, to make sure our thoughts, words, and actions don't cause harm."
+ },
+ {
+"header":"The Wheel & Motto",
+"content":"The <b>wheel</b> in the hand shows that if we are not careful, we will keep going through the cycle of birth and death. The words underneath,'<b>Parasparopagraho Jivänäm</b>,' mean'Living Beings (souls) Render Service to One Another.'"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"JAINA Logo",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"The Federation of JAINA Logo"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The Federation of Jain Associations in North America (JAINA) uses its own symbol. In their logo, the Swastik from the main Jain symbol is replaced by the <b>'Aum' or'Om'</b> symbol. This is because in the Western world, the Swastik is not always seen as a good symbol."
+ }
+ ]
+ },
+ {
+"tabName":"Ärati",
+"contentType":"accordian",
+"tabData": {
+"title":"The Ärati Ceremony",
+"description":"The Ärati is a beautiful ceremony performed with lamps.",
+"items": [
+ {
+"header":"What is Ärati?",
+"content":"The <b>Ärati</b> has 5 lamps with oil-soaked cotton wicks. The lamps are waved in a circle in front of a Tirthankar's idol at the end of a ritual and at night before the temple closes. The light symbolizes good overcoming bad, courage overcoming fear, and knowledge overcoming ignorance."
+ },
+ {
+"header":"What do the 5 lamps symbolize?",
+"content":"The 5 lamps symbolize:\n <ul>\n <li><b>Panch Parameshthi</b> (five great personalities: Arihant, Siddha, Ächärya, Upädhyäy, Sädhu)</li>\n <li><b>Five types of jnän</b> (knowledge: Mati-jnän, Shrut-jnän, Avadhi-jnän, Manah-paryav jnän, Keval-jnän)</li>\n <li><b>Panch Mahävrat</b> (five great vows: Non-Violence, Non-stealing, Truthfulness, Celibacy, Non-possession)</li>\n </ul>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Mangal Deevo",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"The Auspicious Lamp"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The <b>Mangal Deevo</b> is a lamp with one oil-soaked wick, lit and waved in a circle right after Ärati. When it's lit, the face of the Jina lights up. We hope this lights up our hearts with truth and compassion. The single lamp also symbolizes <b>Keval-jnän</b> (infinite knowledge) and a <b>Siddha</b> (liberated soul)."
+ }
+ ]
+ },
+ {
+"tabName":"Ashta Mangal",
+"contentType":"accordian",
+"tabData": {
+"title":"The Eight Auspicious Objects",
+"description":"These eight unique objects are believed to bring good luck and happiness. They are often depicted with rice grains in front of Tirthankar’s idol, or engraved on wood/metal in temples, or hung over home thresholds.",
+"items": [
+ {
+"header":"Swastik",
+"content":"The Swastik symbolizes four destinies: human beings, heavenly beings, hellish beings, and remainder of living beings (Tiryancha). (See Swastik Symbol tab for more details)"
+ },
+ {
+"header":"Shrivatsa",
+"content":"Depicted on a Jina’s chest, the Shrivatsa is a mark that speaks to the highest knowledge manifested from the heart of the Jina. It symbolizes the endless cycle of rebirth."
+ },
+ {
+"header":"Nandävarta",
+"content":"This is a big Swastik with nine corners. It indicates treasures of nine kinds, including material, physical, mental, and spiritual wealth."
+ },
+ {
+"header":"Vardhamänak",
+"content":"Vardhamän means to increase. The Vardhamänak symbolizes increase in wealth, health, and, most importantly, spiritual progress."
+ },
+ {
+"header":"Kalash",
+"content":"The Kalash symbolizes all spiritual wealth, as well as a completeness of knowledge. Its mouth represents eternity, its throat represents losing old ways, and its base represents adopting new ways."
+ },
+ {
+"header":"Bhadräsan",
+"content":"Also called a Simhäsan, the Bhadrasan is a throne. It is considered auspicious since it is sanctified by the feet of the Jina."
+ },
+ {
+"header":"Minyugal",
+"content":"It symbolizes beings rescued from the ocean of misery, which stems from an earthly existence."
+ },
+ {
+"header":"Darpan",
+"content":"It symbolizes the true self – one's soul."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Mäna-sthambha",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"The Pillar of Pride"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The <b>Mäna-sthambha</b> is a pillar usually found in front of Digambar temples. It helps us overcome pride. The story goes that Indrabhuti Gautam, who was very proud of his knowledge, lost all his pride just by seeing this pillar in front of Bhagawän Mahävir's Samavasaran (assembly hall)."
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Jain Symbols",
+"questions": [
+ {
+"question":"What does'Jai Jinendra' mean?",
+"options": [
+"Hello friend",
+"May the Jina prevail in our hearts",
+"Welcome to Jainism",
+"Peace be with you"
+ ],
+"answer":"May the Jina prevail in our hearts"
+ },
+ {
+"question":"What is another name for a Jina?",
+"options": [
+"Muni",
+"Arihant",
+"Acharya",
+"Upadhyay"
+ ],
+"answer":"Arihant"
+ },
+ {
+"question":"What does'Michchhämi Dukkadam' mean?",
+"options": [
+"Thank you",
+"Forgive my faults",
+"Good luck",
+"Hello"
+ ],
+"answer":"Forgive my faults"
+ },
+ {
+"question":"What is the annual forgiveness ritual called?",
+"options": [
+"Diwali",
+"Paryushan",
+"Samvatsari Pratikraman",
+"Mahavir Jayanti"
+ ],
+"answer":"Samvatsari Pratikraman"
+ },
+ {
+"question":"What is a Jinälay?",
+"options": [
+"Jain scripture",
+"Jain temple",
+"Jain festival",
+"Jain food"
+ ],
+"answer":"Jain temple"
+ },
+ {
+"question":"What other names are used for a Jinälay?",
+"options": [
+"Mandir",
+"Deräsar",
+"Temple",
+"Shrine"
+ ],
+"answer":"Mandir, Deräsar"
+ },
+ {
+"question":"What does the outline of the Universal Jain Symbol represent?",
+"options": [
+"Earth",
+"Universe",
+"Heaven",
+"Hell"
+ ],
+"answer":"Universe"
+ },
+ {
+"question":"What does the middle part of the Universal Jain Symbol contain?",
+"options": [
+"Heavenly abodes",
+"Seven hells",
+"Earth and planets",
+"Siddha-kshetra"
+ ],
+"answer":"Earth and planets"
+ },
+ {
+"question":"What word is in the center of the raised hand and wheel in the Universal Jain Symbol?",
+"options": [
+"Om",
+"Hrim",
+"Ahimsa",
+"Arhum"
+ ],
+"answer":"Ahimsa"
+ },
+ {
+"question":"What does'Parasparopagraho Jivänäm' mean?",
+"options": [
+"Live and let live",
+"Truth is eternal",
+"Souls render service to one another",
+"Non-violence is supreme"
+ ],
+"answer":"Living Beings (souls) Render Service to One Another"
+ },
+ {
+"question":"Why was the Swastik replaced by Om in the JAINA logo?",
+"options": [
+"It's a new design",
+"Swastik is not viewed as pious in the Western world",
+"Om is more traditional",
+"It's easier to draw"
+ ],
+"answer":"Swastik is not viewed as pious in the Western world"
+ },
+ {
+"question":"How many lamps does the Ärati have?",
+"options": [
+"3",
+"5",
+"7",
+"9"
+ ],
+"answer":"5"
+ },
+ {
+"question":"What do the 5 lamps of Ärati symbolize?",
+"options": [
+"Panch Parameshthi",
+"Five types of jnän",
+"Panch Mahävrat",
+"The three combined"
+ ],
+"answer":"Panch Parameshthi, Five types of jnän, Panch Mahävrat"
+ },
+ {
+"question":"What does the Mangal Deevo symbolize?",
+"options": [
+"Keval-jnän",
+"Siddha",
+"Moksha",
+"Nirvana"
+ ],
+"answer":"Keval-jnän, Siddha"
+ },
+ {
+"question":"How many auspicious objects are in Ashta Mangal?",
+"options": [
+"4",
+"6",
+"8",
+"10"
+ ],
+"answer":"8"
+ },
+ {
+"question":"What does the Mäna-sthambha represent?",
+"options": [
+"Knowledge",
+"Pride",
+"Humility",
+"Wealth"
+ ],
+"answer":"Pride"
+ },
+ {
+"question":"Who lost his pride at the sight of Mäna-sthambha?",
+"options": [
+"Bhagwan Mahavir",
+"Indrabhuti Gautam",
+"Sthulibhadra",
+"Jambuswami"
+ ],
+"answer":"Indrabhuti Gautam"
+ },
+ {
+"question":"What sound does an Arihant's body emanate upon attaining omniscience?",
+"options": [
+"Om",
+"Hrim",
+"Arhum",
+"Ahimsa"
+ ],
+"answer":"Om"
+ },
+ {
+"question":"Which of these is NOT represented by a sound in Om?",
+"options": [
+"Arihant",
+"Siddha",
+"Tirthankar",
+"Acharya"
+ ],
+"answer":"Tirthankar"
+ },
+ {
+"question":"What is another name for Ashariri?",
+"options": [
+"Muni",
+"Siddha",
+"Acharya",
+"Upadhyay"
+ ],
+"answer":"Siddha"
+ },
+ {
+"question":"What does the'A' in Aum represent?",
+"options": [
+"Acharya",
+"Arihant",
+"Ahimsa",
+"Anekantavada"
+ ],
+"answer":"Arihant"
+ },
+ {
+"question":"What does the'Ä' in Aum represent?",
+"options": [
+"Arihant",
+"Acharya",
+"Ahimsa",
+"Aparigraha"
+ ],
+"answer":"Ächärya"
+ },
+ {
+"question":"What does the'U' in Aum represent?",
+"options": [
+"Upädhyäy",
+"Muni",
+"Acharya",
+"Siddha"
+ ],
+"answer":"Upädhyäy"
+ },
+ {
+"question":"What does the'M' in Aum represent?",
+"options": [
+"Muni",
+"Moksha",
+"Mahavir",
+"Mati-jnän"
+ ],
+"answer":"Muni"
+ }
+ ]
+ }
+ }
+ ]
 }

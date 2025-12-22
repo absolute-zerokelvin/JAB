@@ -1,247 +1,247 @@
 {
-  "title": "The Story of Ächärya Kundkund",
-  "subtitle": "Section F.5 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "The Auspicious Scholar"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Ächärya Kundkund is so revered that he is mentioned in the auspicious blessing prayer (Mangalächaran) immediately after Bhagawän Mahävir and Ganadhar Gautam-swämi. Born around the first century A.D. in a place called <span class=\"highlight\">Konda-konda</span> in southern India, he was a descendant of Ächärya Bhadrabähu's lineage. His official monastic name was <span class=\"highlight\">Padma-nandi</span>, but he became famous by the name of his birthplace."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "He became a monk at the young age of 11. After 33 years of intense meditation and penance, he was honored with the title of <span class=\"highlight\">Ächärya</span> at age 44. His profound character and learning attracted many followers, including royalty like King Shiva Kumär."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Philosophical Revolution"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.362 1.096a.75.75 0 00-.724 0L2.538 5.449a.75.75 0 00-.388.657v7.788a.75.75 0 00.388.657l7.1 4.353a.75.75 0 00.724 0l7.1-4.353a.75.75 0 00.388-.657V6.107a.75.75 0 00-.388-.657L10.362 1.096zM12 9a2 2 0 11-4 0 2 2 0 014 0z\" /><path d=\"M18 9a2 2 0 11-4 0 2 2 0 014 0zM6 9a2 2 0 11-4 0 2 2 0 014 0z\" /></svg>Ächärya Kundkund was a great organizer of Jain philosophy. He wrote five renowned books in the <span class=\"highlight\">Saurseni Präkrit</span> language, systematizing complex Jain principles about the soul, the universe, and conduct. His major works are <span class=\"highlight\">Samaysär</span> (Treatise on the True Self), <span class=\"highlight\">Pravachansär</span>, <span class=\"highlight\">Niyamsär</span>, <span class=\"highlight\">Panchästikäy</span>, and <span class=\"highlight\">Ashta-pähuda</span>. His writings were so influential that they challenged Hindu and Buddhist thinkers and elevated the level of philosophical debate across India."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "His clear and structured explanations of Jain ideas were revolutionary. So profound was his impact that many later works written in a similar style were popularly attributed to him. In the Digambar tradition, he is considered so foundational that their order is sometimes called <span class=\"highlight\">Kundkund Anvaya</span> (the order of Kundkund)."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Light of this Dark Age"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Ächärya Kundkund has been called the <span class=\"highlight\">“Light of this Dark Age.”</span> It is said that through his spiritual powers, he traveled to another region of the universe called <span class=\"highlight\">Videha-kshetra</span> to listen directly to the sermons of a living Tirthankar, <span class=\"highlight\">Simandhar-swämi</span>, to further enlighten his knowledge. This ensured the purity of the teachings he presented."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M3.5 2.75a.75.75 0 00-1.5 0v14.5a.75.75 0 001.5 0V2.75z\" /><path d=\"M6.5 7.75a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0v-4.5z\" /><path d=\"M9.5 6.25a.75.75 0 00-1.5 0v7.5a.75.75 0 001.5 0v-7.5z\" /><path d=\"M12.5 4.25a.75.75 0 00-1.5 0v11.5a.75.75 0 001.5 0V4.25z\" /><path d=\"M15.5 7.75a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0v-4.5z\" /></svg>His influence continues to this day, inspiring countless scholars and spiritual leaders over the centuries. On the Ponnur Malai hill in southern India, an engraved pair of footprints under a Champä tree serves as a timeless monument to this great thinker who composed some of Jainism’s most important philosophical works."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "Early Life & Renunciation",
-      "period": "c. 1st Century A.D.",
-      "events": [
-        {
-          "title": "Birth in Konda-konda",
-          "description": "Kundkund is born in the village of Konda-konda in southern India. In a previous life, he was a cow herder who preserved ancient texts.",
-          "characters": ["Ächärya Kundkund"]
-        },
-        {
-          "title": "A Young Monk",
-          "description": "He renounces the world at the young age of 11 and takes the monastic name Padma-nandi.",
-          "characters": ["Ächärya Kundkund"]
-        }
-      ]
-    },
-    {
-      "era": "The Great Ächärya",
-      "period": "c. mid-1st Century A.D.",
-      "events": [
-        {
-          "title": "Bestowed with Honor",
-          "description": "After 33 years of penance, at the age of 44, he is given the title of Ächärya.",
-          "characters": ["Ächärya Kundkund"]
-        },
-        {
-          "title": "A Prolific Author",
-          "description": "He writes five major philosophical works, including the famous Samaysär, which systematize complex Jain concepts.",
-          "characters": ["Ächärya Kundkund"]
-        },
-        {
-          "title": "Legendary Journey",
-          "description": "It is said he used his spiritual powers to travel to Videha-kshetra to hear the sermons of the living Tirthankar, Simandhar-swämi.",
-          "characters": ["Ächärya Kundkund", "Simandhar-swämi"]
-        }
-      ]
-    },
-    {
-      "era": "Enduring Legacy",
-      "period": "c. late 1st Century A.D. to Present",
-      "events": [
-        {
-          "title": "A Foundational Figure",
-          "description": "His works elevate the level of philosophical debate in India. He is so revered he is mentioned in the main Jain blessing prayer.",
-          "characters": ["Ächärya Kundkund"]
-        },
-        {
-          "title": "The Light of the Age",
-          "description": "He is called the 'Light of this Dark Age', and his books, particularly Samaysär, continue to inspire scholars and spiritual seekers.",
-          "characters": ["Ächärya Kundkund"]
-        },
-        {
-          "title": "Nirväna",
-          "description": "He lived to the age of 95, passing on his lineage to his disciple Umäsvämi.",
-          "characters": ["Ächärya Kundkund", "Umäsvämi"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Ächärya Kundkund",
-      "description": "One of the most revered Jain Ächäryas, famous for his five seminal books that organized and explained complex Jain philosophy. Known as the 'Light of this Dark Age,' his influence is so great that he is mentioned in the core Jain blessing prayer."
-    },
-    {
-      "name": "Simandhar-swämi",
-      "description": "A living Tirthankar residing in another region of the universe (Videha-kshetra), whose sermons Ächärya Kundkund is said to have traveled to hear, ensuring the purity of his knowledge."
-    },
-    {
-      "name": "Umäsvämi",
-      "description": "The disciple of Ächärya Kundkund who received the status of Ächärya from him, continuing the spiritual lineage."
-    },
-    {
-      "name": "King Shiva Kumär",
-      "description": "A royal disciple who was attracted by Ächärya Kundkund's immense learning and moral character."
-    }
-  ],
-  "quizData": [
-    { "question": "In which part of India was Ächärya Kundkund born?", "answer": "In southern India, in a place named Konda-konda (Andhra Pradesh)." },
-    { "question": "What was Ächärya Kundkund's official name after becoming a monk?", "answer": "Padma-nandi." },
-    { "question": "At what age did Kundkund become a monk, and at what age did he become an Ächärya?", "answer": "He became a monk at 11 and an Ächärya at 44." },
-    { "question": "What is the name of Ächärya Kundkund's most famous book, which means 'Treatise on the True Self'?", "answer": "Samaysär." },
-    { "question": "Name two other books written by Ächärya Kundkund.", "answer": "Pravachansär, Niyamsär, Panchästikäy, or Ashta-pähuda." },
-    { "question": "In which ancient language did he write all his works?", "answer": "Saurseni Präkrit." },
-    { "question": "In the Digambar tradition's blessing prayer (Mangalächaran), whose names are mentioned just before Ächärya Kundkund?", "answer": "Bhagawän Mahävir and Ganadhar Gautam-swämi." },
-    { "question": "What is the nickname given to Ächärya Kundkund, reflecting his importance in our era?", "answer": "“Light of this Dark Age”." },
-    { "question": "According to legend, how did Ächärya Kundkund clarify his knowledge?", "answer": "He spiritually traveled to Videha-kshetra to listen to the sermons of the living Tirthankar, Simandhar-swämi." },
-    { "question": "Who was the royal disciple of Ächärya Kundkund?", "answer": "King Shiva Kumär." },
-    { "question": "What was Ächärya Kundkund in his previous life, according to one story?", "answer": "A cow herder who found and preserved ancient texts." },
-    { "question": "The Digambar tradition sometimes refers to their order or lineage by what name, in his honor?", "answer": "Kundkund Anvaya (the order of Kundkund)." },
-    { "question": "Who was the famous disciple to whom Ächärya Kundkund passed on his leadership?", "answer": "Umäsvämi." },
-    { "question": "What physical monument symbolizes Ächärya Kundkund's legacy on the Ponnur Malai hill?", "answer": "An engraved pair of footprints (Charan)." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Ächärya Kundkund",
-    "children": [
-      {
-        "name": "The Ascetic",
-        "children": [
-          { "name": "Born in Konda-konda" },
-          { "name": "Monk at age 11" },
-          { "name": "Ächärya at age 44" }
-        ]
-      },
-      {
-        "name": "The Philosopher",
-        "children": [
-          { "name": "Author of 5 Major Works" },
-          { "name": "Samaysär" },
-          { "name": "Systematized Jain Thought" },
-          { "name": "Elevated Indian Philosophical Debate" }
-        ]
-      },
-      {
-        "name": "The Legend",
-        "children": [
-          { "name": "Traveled to Videha-kshetra" },
-          { "name": "Heard Simandhar-swämi" },
-          { "name": "Called 'Light of this Dark Age'" }
-        ]
-      },
-      {
-        "name": "The Legacy",
-        "children": [
-          { "name": "Mentioned in Mangalächaran Prayer" },
-          { "name": "Influence on later scholars" },
-          { "name": "Disciple Umäsvämi" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Ächärya Kundkund: Light of an Era",
-    "children": [
-      {
-        "name": "The Man",
-        "children": [
-          { "name": "Early Renunciation" },
-          { "name": "A Life of Penance" }
-        ]
-      },
-      {
-        "name": "The Author",
-        "children": [
-          { "name": "The Five Treatises" },
-          { "name": "A System of Thought" }
-        ]
-      },
-      {
-        "name": "The Master",
-        "children": [
-          { "name": "The Journey for Knowledge" },
-          { "name": "The Revered Teacher" },
-          { "name": "An Enduring Influence" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Monk at Eleven",
-      "description": "At the remarkably young age of 11, Kundkund renounces worldly life to become a Jain monk, beginning a lifelong spiritual journey.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=A+Young+Boy+Becomes+a+Monk",
-      "imageAlt": "A very young boy having his head shaved to be initiated as a monk."
-    },
-    {
-      "title": "The Great Organizer",
-      "description": "Ächärya Kundkund sits, composing his seminal works like Samaysär, bringing structure and clarity to complex Jain philosophical concepts.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Kundkund+Writing+the+Scriptures",
-      "imageAlt": "A monk deeply focused on writing on palm leaves, surrounded by stacks of texts."
-    },
-    {
-      "title": "Elevating the Debate",
-      "description": "In the courts of ancient India, Ächärya Kundkund engages in philosophical debates with Hindu and Buddhist thinkers, elevating the discourse with his clear logic.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Kundkund+in+Philosophical+Debate",
-      "imageAlt": "A Jain monk calmly debating with scholars from other traditions in a royal court."
-    },
-    {
-      "title": "Journey to Videha-kshetra",
-      "description": "Through his immense spiritual power, Ächärya Kundkund's soul is said to travel to another realm to listen to the living Tirthankar, Simandhar-swämi.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Spiritual+Travel+to+Simandhar-swämi",
-      "imageAlt": "A meditating monk with a translucent, spiritual body rising and traveling through the cosmos."
-    },
-    {
-      "title": "Inspiring Future Generations",
-      "description": "Centuries later, modern spiritual leaders and scholars like Shrimad Räjchandra are deeply moved and inspired by reading Ächärya Kundkund's Samaysär.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Later+Scholars+Reading+Samaysär",
-      "imageAlt": "A scholar from a later era reading an ancient text with a look of profound inspiration."
-    },
-    {
-      "title": "The Footprints on the Hill",
-      "description": "On Ponnur Malai hill, the engraved footprints of Ächärya Kundkund remain, a lasting symbol of the great thinker's presence and legacy.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+Sacred+Footprints",
-      "imageAlt": "A pair of footprints carved into a large rock on a scenic hill."
-    }
-  ]
+"title":"The Story of Ächärya Kundkund",
+"subtitle":"Section F.5 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"The Auspicious Scholar"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Ächärya Kundkund is so revered that he is mentioned in the auspicious blessing prayer (Mangalächaran) immediately after Bhagawän Mahävir and Ganadhar Gautam-swämi. Born around the first century A.D. in a place called <span class=\"highlight\">Konda-konda</span> in southern India, he was a descendant of Ächärya Bhadrabähu's lineage. His official monastic name was <span class=\"highlight\">Padma-nandi</span>, but he became famous by the name of his birthplace."
+ },
+ {
+"tagType":"p",
+"tagHTML":"He became a monk at the young age of 11. After 33 years of intense meditation and penance, he was honored with the title of <span class=\"highlight\">Ächärya</span> at age 44. His profound character and learning attracted many followers, including royalty like King Shiva Kumär."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Philosophical Revolution"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.362 1.096a.75.75 0 00-.724 0L2.538 5.449a.75.75 0 00-.388.657v7.788a.75.75 0 00.388.657l7.1 4.353a.75.75 0 00.724 0l7.1-4.353a.75.75 0 00.388-.657V6.107a.75.75 0 00-.388-.657L10.362 1.096zM12 9a2 2 0 11-4 0 2 2 0 014 0z\" /><path d=\"M18 9a2 2 0 11-4 0 2 2 0 014 0zM6 9a2 2 0 11-4 0 2 2 0 014 0z\" /></svg>Ächärya Kundkund was a great organizer of Jain philosophy. He wrote five renowned books in the <span class=\"highlight\">Saurseni Präkrit</span> language, systematizing complex Jain principles about the soul, the universe, and conduct. His major works are <span class=\"highlight\">Samaysär</span> (Treatise on the True Self), <span class=\"highlight\">Pravachansär</span>, <span class=\"highlight\">Niyamsär</span>, <span class=\"highlight\">Panchästikäy</span>, and <span class=\"highlight\">Ashta-pähuda</span>. His writings were so influential that they challenged Hindu and Buddhist thinkers and elevated the level of philosophical debate across India."
+ },
+ {
+"tagType":"p",
+"tagHTML":"His clear and structured explanations of Jain ideas were revolutionary. So profound was his impact that many later works written in a similar style were popularly attributed to him. In the Digambar tradition, he is considered so foundational that their order is sometimes called <span class=\"highlight\">Kundkund Anvaya</span> (the order of Kundkund)."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Light of this Dark Age"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Ächärya Kundkund has been called the <span class=\"highlight\">“Light of this Dark Age.”</span> It is said that through his spiritual powers, he traveled to another region of the universe called <span class=\"highlight\">Videha-kshetra</span> to listen directly to the sermons of a living Tirthankar, <span class=\"highlight\">Simandhar-swämi</span>, to further enlighten his knowledge. This ensured the purity of the teachings he presented."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M3.5 2.75a.75.75 0 00-1.5 0v14.5a.75.75 0 001.5 0V2.75z\" /><path d=\"M6.5 7.75a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0v-4.5z\" /><path d=\"M9.5 6.25a.75.75 0 00-1.5 0v7.5a.75.75 0 001.5 0v-7.5z\" /><path d=\"M12.5 4.25a.75.75 0 00-1.5 0v11.5a.75.75 0 001.5 0V4.25z\" /><path d=\"M15.5 7.75a.75.75 0 00-1.5 0v4.5a.75.75 0 001.5 0v-4.5z\" /></svg>His influence continues to this day, inspiring countless scholars and spiritual leaders over the centuries. On the Ponnur Malai hill in southern India, an engraved pair of footprints under a Champä tree serves as a timeless monument to this great thinker who composed some of Jainism’s most important philosophical works."
+ }
+ ],
+"timelineData": [
+ {
+"era":"Early Life & Renunciation",
+"period":"c. 1st Century A.D.",
+"events": [
+ {
+"title":"Birth in Konda-konda",
+"description":"Kundkund is born in the village of Konda-konda in southern India. In a previous life, he was a cow herder who preserved ancient texts.",
+"characters": ["Ächärya Kundkund"]
+ },
+ {
+"title":"A Young Monk",
+"description":"He renounces the world at the young age of 11 and takes the monastic name Padma-nandi.",
+"characters": ["Ächärya Kundkund"]
+ }
+ ]
+ },
+ {
+"era":"The Great Ächärya",
+"period":"c. mid-1st Century A.D.",
+"events": [
+ {
+"title":"Bestowed with Honor",
+"description":"After 33 years of penance, at the age of 44, he is given the title of Ächärya.",
+"characters": ["Ächärya Kundkund"]
+ },
+ {
+"title":"A Prolific Author",
+"description":"He writes five major philosophical works, including the famous Samaysär, which systematize complex Jain concepts.",
+"characters": ["Ächärya Kundkund"]
+ },
+ {
+"title":"Legendary Journey",
+"description":"It is said he used his spiritual powers to travel to Videha-kshetra to hear the sermons of the living Tirthankar, Simandhar-swämi.",
+"characters": ["Ächärya Kundkund","Simandhar-swämi"]
+ }
+ ]
+ },
+ {
+"era":"Enduring Legacy",
+"period":"c. late 1st Century A.D. to Present",
+"events": [
+ {
+"title":"A Foundational Figure",
+"description":"His works elevate the level of philosophical debate in India. He is so revered he is mentioned in the main Jain blessing prayer.",
+"characters": ["Ächärya Kundkund"]
+ },
+ {
+"title":"The Light of the Age",
+"description":"He is called the'Light of this Dark Age', and his books, particularly Samaysär, continue to inspire scholars and spiritual seekers.",
+"characters": ["Ächärya Kundkund"]
+ },
+ {
+"title":"Nirväna",
+"description":"He lived to the age of 95, passing on his lineage to his disciple Umäsvämi.",
+"characters": ["Ächärya Kundkund","Umäsvämi"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Ächärya Kundkund",
+"description":"One of the most revered Jain Ächäryas, famous for his five seminal books that organized and explained complex Jain philosophy. Known as the'Light of this Dark Age,' his influence is so great that he is mentioned in the core Jain blessing prayer."
+ },
+ {
+"name":"Simandhar-swämi",
+"description":"A living Tirthankar residing in another region of the universe (Videha-kshetra), whose sermons Ächärya Kundkund is said to have traveled to hear, ensuring the purity of his knowledge."
+ },
+ {
+"name":"Umäsvämi",
+"description":"The disciple of Ächärya Kundkund who received the status of Ächärya from him, continuing the spiritual lineage."
+ },
+ {
+"name":"King Shiva Kumär",
+"description":"A royal disciple who was attracted by Ächärya Kundkund's immense learning and moral character."
+ }
+ ],
+"quizData": [
+ {"question":"In which part of India was Ächärya Kundkund born?","answer":"In southern India, in a place named Konda-konda (Andhra Pradesh)." },
+ {"question":"What was Ächärya Kundkund's official name after becoming a monk?","answer":"Padma-nandi." },
+ {"question":"At what age did Kundkund become a monk, and at what age did he become an Ächärya?","answer":"He became a monk at 11 and an Ächärya at 44." },
+ {"question":"What is the name of Ächärya Kundkund's most famous book, which means'Treatise on the True Self'?","answer":"Samaysär." },
+ {"question":"Name two other books written by Ächärya Kundkund.","answer":"Pravachansär, Niyamsär, Panchästikäy, or Ashta-pähuda." },
+ {"question":"In which ancient language did he write all his works?","answer":"Saurseni Präkrit." },
+ {"question":"In the Digambar tradition's blessing prayer (Mangalächaran), whose names are mentioned just before Ächärya Kundkund?","answer":"Bhagawän Mahävir and Ganadhar Gautam-swämi." },
+ {"question":"What is the nickname given to Ächärya Kundkund, reflecting his importance in our era?","answer":"“Light of this Dark Age”." },
+ {"question":"According to legend, how did Ächärya Kundkund clarify his knowledge?","answer":"He spiritually traveled to Videha-kshetra to listen to the sermons of the living Tirthankar, Simandhar-swämi." },
+ {"question":"Who was the royal disciple of Ächärya Kundkund?","answer":"King Shiva Kumär." },
+ {"question":"What was Ächärya Kundkund in his previous life, according to one story?","answer":"A cow herder who found and preserved ancient texts." },
+ {"question":"The Digambar tradition sometimes refers to their order or lineage by what name, in his honor?","answer":"Kundkund Anvaya (the order of Kundkund)." },
+ {"question":"Who was the famous disciple to whom Ächärya Kundkund passed on his leadership?","answer":"Umäsvämi." },
+ {"question":"What physical monument symbolizes Ächärya Kundkund's legacy on the Ponnur Malai hill?","answer":"An engraved pair of footprints (Charan)." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Ächärya Kundkund",
+"children": [
+ {
+"name":"The Ascetic",
+"children": [
+ {"name":"Born in Konda-konda" },
+ {"name":"Monk at age 11" },
+ {"name":"Ächärya at age 44" }
+ ]
+ },
+ {
+"name":"The Philosopher",
+"children": [
+ {"name":"Author of 5 Major Works" },
+ {"name":"Samaysär" },
+ {"name":"Systematized Jain Thought" },
+ {"name":"Elevated Indian Philosophical Debate" }
+ ]
+ },
+ {
+"name":"The Legend",
+"children": [
+ {"name":"Traveled to Videha-kshetra" },
+ {"name":"Heard Simandhar-swämi" },
+ {"name":"Called'Light of this Dark Age'" }
+ ]
+ },
+ {
+"name":"The Legacy",
+"children": [
+ {"name":"Mentioned in Mangalächaran Prayer" },
+ {"name":"Influence on later scholars" },
+ {"name":"Disciple Umäsvämi" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Ächärya Kundkund: Light of an Era",
+"children": [
+ {
+"name":"The Man",
+"children": [
+ {"name":"Early Renunciation" },
+ {"name":"A Life of Penance" }
+ ]
+ },
+ {
+"name":"The Author",
+"children": [
+ {"name":"The Five Treatises" },
+ {"name":"A System of Thought" }
+ ]
+ },
+ {
+"name":"The Master",
+"children": [
+ {"name":"The Journey for Knowledge" },
+ {"name":"The Revered Teacher" },
+ {"name":"An Enduring Influence" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Monk at Eleven",
+"description":"At the remarkably young age of 11, Kundkund renounces worldly life to become a Jain monk, beginning a lifelong spiritual journey.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=A+Young+Boy+Becomes+a+Monk",
+"imageAlt":"A very young boy having his head shaved to be initiated as a monk."
+ },
+ {
+"title":"The Great Organizer",
+"description":"Ächärya Kundkund sits, composing his seminal works like Samaysär, bringing structure and clarity to complex Jain philosophical concepts.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Kundkund+Writing+the+Scriptures",
+"imageAlt":"A monk deeply focused on writing on palm leaves, surrounded by stacks of texts."
+ },
+ {
+"title":"Elevating the Debate",
+"description":"In the courts of ancient India, Ächärya Kundkund engages in philosophical debates with Hindu and Buddhist thinkers, elevating the discourse with his clear logic.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Kundkund+in+Philosophical+Debate",
+"imageAlt":"A Jain monk calmly debating with scholars from other traditions in a royal court."
+ },
+ {
+"title":"Journey to Videha-kshetra",
+"description":"Through his immense spiritual power, Ächärya Kundkund's soul is said to travel to another realm to listen to the living Tirthankar, Simandhar-swämi.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Spiritual+Travel+to+Simandhar-swämi",
+"imageAlt":"A meditating monk with a translucent, spiritual body rising and traveling through the cosmos."
+ },
+ {
+"title":"Inspiring Future Generations",
+"description":"Centuries later, modern spiritual leaders and scholars like Shrimad Räjchandra are deeply moved and inspired by reading Ächärya Kundkund's Samaysär.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Later+Scholars+Reading+Samaysär",
+"imageAlt":"A scholar from a later era reading an ancient text with a look of profound inspiration."
+ },
+ {
+"title":"The Footprints on the Hill",
+"description":"On Ponnur Malai hill, the engraved footprints of Ächärya Kundkund remain, a lasting symbol of the great thinker's presence and legacy.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=The+Sacred+Footprints",
+"imageAlt":"A pair of footprints carved into a large rock on a scenic hill."
+ }
+ ]
 }

@@ -1,154 +1,154 @@
 {
-  "sectionTitle": "A.1: Jain Prayers",
-  "tabs": [
-    {
-      "tabName": "Namaskär Mahämangal",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Namaskär Mahämangal Sutra</h3><p class='prayer-text'><i>The fundamental and most important prayer in Jainism, offering obeisance to the five supreme beings (Panch Parameshthi).</i></p><hr><h4>Original Prayer & Pronunciation</h4><p class='prayer-text'><b>Namo Arihantänam</b><br><b>Namo Siddhänam</b><br><b>Namo Äyariyänam</b><br><b>Namo Uvajjhäyänam</b><br><b>Namo Loe Savva Sähunam</b></p><p class='prayer-text'><b>Eso Pancha Namukkäro</b><br><b>Savva Pävappanäsano</b><br><b>Mangalänam cha Savvesim</b><br><b>Padhamam Havai Mangalam</b></p><hr><h4>Meaning</h4><p class='prayer-text'>I bow to all Arihants (enlightened beings with a physical body).<br>I bow to all Siddhas (liberated souls).<br>I bow to all the Ächäryas (heads of the ascetic order).<br>I bow to all the Upädhyäys (ascetic teachers).<br>I bow to all the Sädhus and Sädhvis (monks and nuns) in the universe.</p><p class='prayer-text'>To these five types of great souls, I offer my prayers. May such prayer help diminish all my negative vibrations and sins. Amongst all auspicious benedictions, this prayer is the foremost.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Mängalik - Chattäri",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Mängalik - Chattäri Mangalam (Divine Refuge Prayer)</h3><p class='prayer-text'><i>This prayer identifies the four auspicious and supreme entities in the universe in whom a devotee takes refuge.</i></p><hr><h4>Original Prayer & Pronunciation</h4><p class='prayer-text'><b>Chattäri mangalam, Arihantä mangalam,</b><br><b>Siddhä mangalam, Sähu mangalam,</b><br><b>Kevali pannatto dhammo mangalam.</b></p><p class='prayer-text'><b>Chattäri loguttamä, Arihantä loguttamä,</b><br><b>Siddhä loguttamä, Sähu loguttamä,</b><br><b>Kevali pannatto dhammo loguttamo.</b></p><p class='prayer-text'><b>Chattäri saranam pavajjämi, Arihante saranam pavajjämi,</b><br><b>Siddhe saranam pavajjämi, Sähu saranam pavajjämi,</b><br><b>Kevali pannattam dhammam saranam pavajjämi.</b></p><hr><h4>Meaning</h4><p class='prayer-text'>There are four auspicious entities in the universe: Arihants, Siddhas, Sädhus/Sädhvis, and the religion explained by the omniscient.</p><p class='prayer-text'>There are four supreme entities in the universe: Arihants, Siddhas, Sädhus/Sädhvis, and the religion explained by the omniscient.</p><p class='prayer-text'>I take refuge in these four auspicious and supreme entities.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Khämemi Savva Jive",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Khämemi Savva Jive (Universal Forgiveness Prayer)</h3><p class='prayer-text'><i>A prayer to ask for forgiveness from all living beings and to grant forgiveness to all, fostering universal friendship.</i></p><hr><h4>Original Prayer & Pronunciation</h4><blockquote>Khämemi savva jive, savve jivä khamantu me,<br>Mitti me savva bhuyesu, veram majjha na kenai.</blockquote><hr><h4>Meaning</h4><p class='prayer-text'>I forgive all living beings, may all living beings forgive me.<br>My friendship is with all living beings, my enmity is nonexistent.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Peace & Friendship",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Reflections on Universal Peace & Friendship</h3><p class='prayer-text'><i>Two sutras that help spread peace and good wishes to all living beings in the universe.</i></p><hr><h4>Upsargäh Kshayam Yänti (For Peace)</h4><p class='prayer-text'><b>Upasargäh kshayam yänti, chidyante vighna-vallayah.<br>Manah prasannatämeti, pujyamäne jineshvare.</b></p><p class='prayer-text'><b>Meaning:</b> All problems get resolved; All obstacles get removed. The heart becomes full of joy, for those who get in touch with the inner higher self.</p><hr><h4>Shivmastu Sarva Jagatah (For Friendship)</h4><p class='prayer-text'><b>Shivmastu sarva jagatah, Parhit niratä bhavantu bhutaganäh,<br>Doshäh prayäntu näsham, Sarvatra sukhi bhavatu lokäh.</b></p><p class='prayer-text'><b>Meaning:</b> May the whole universe be blessed, May all beings engage in each other's well-being, May all weakness, sickness and faults diminish and vanish, May everyone be healthy, prosperous, blissful, and peaceful.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Religious Prayers 1",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Core Religious Prayers</h3><hr><h4>Mangalam Bhagawän Viro</h4><p class='prayer-text'><i>An auspicious prayer mentioning Lord Mahävir, Gautam Swämi, and great Ächäryas.</i></p><p class='prayer-text'><b>Shvetämbar:</b> Mangalam Bhagawän Viro, mangalam Gautam prabhu | Mangalam Sthulibhadrayä, Jain dharmostu mangalam ||<br><b>Digambar:</b> Mangalam Bhagawän Viro, mangalam Gautamo gani | Mangalam Kundakundäryo, Jain dharmostu mangalam ||</p><hr><h4>Arhanto Bhagavanta Indramahitäh</h4><p class='prayer-text'><i>A prayer to the five supreme beings (Panch Parameshthi).</i></p><p class='prayer-text'><b>Arhanto bhagavanta indramahitäh, Siddhäshcha siddhisthitä | Ächäryä jinashäsanonnatikaräh, püjyä Upädhyäyakäh | Shri siddhäntasupäthakä Munivarä, ratnatrayärädhakäh | Panchai te Parameshthinah pratidinam, kurvantu vo mangalam ||</b><br><b>Meaning:</b> May the five supreme beings (Tirthankars, Siddhas, Ächäryas, Upädhyäys, and all Sädhus/Sädhvis) bestow bliss every day.</p><hr><h4>Ädimam Pruthivinatha-Mädimam</h4><p class='prayer-text'><i>A prayer to the first Tirthankar, Rishabhadev.</i></p><p class='prayer-text'><b>Ädimam pruthivinatha-mädimam nishparigraham | Ädimam tirthanätham cha, Rushabhasväminam stumah ||</b><br><b>Meaning:</b> We pray to Bhagawän Rishabhadev who was the first king, the first to renounce, and the first Tirthankar.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Religious Prayers 2",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Prayers to Mahävir & the Guru</h3><hr><h4>Virah Sarvasuräsurendra</h4><p class='prayer-text'><i>A prayer bowing to the virtues and greatness of Bhagawän Mahävir.</i></p><p class='prayer-text'><b>Virah sarvasuräsurendra-mahito, Viram budhäh sanshritäh | Virenäbhihatah svakarma nichayo, Viräya nityam nama | Virät tirthamidam pravruttamatulam, Virasya ghoram tapo | Vire shri dhruti kirti känti nichayah, shri Vira bhadram dishah ||</b><br><b>Meaning:</b> I always bow down to Bhagawän Mahävir, who has eradicated all His Karma, is worshipped by all, and in whom the learned take refuge... Please guide me on the path to liberation.</p><hr><h4>Bhaktämar Stotra - Tubhyam</h4><p class='prayer-text'><i>A verse from the famous Bhaktämar Stotra, praising the Jina as the remover of miseries.</i></p><p class='prayer-text'><b>Tubhyam namastribhuvanärtiharäya nätha! | Tubhyam namakshititalämalabhushanäya | Tubhyam namastrijagatah parameshvaräya, | Tubhyam namo jina! bhavodadhi shoshanäya ||</b><br><b>Meaning:</b> My namaskär (bowing) to you, O Lord, because you destroy the miseries of the three worlds, you are the jewel of the earth, you are the Lord paramount, and you free us from the ocean of transmigration.</p><hr><h4>Ajnäna Timirändhänam</h4><p class='prayer-text'><i>A prayer of gratitude to the Guru (teacher) for opening one's eyes with the light of knowledge.</i></p><p class='prayer-text'><b>Ajnäna timirändhänam, jnänänjana shaläkayä | Netram unmilitam yena, tasmai shrigurave namah ||</b><br><b>Meaning:</b> My vision was blinded by the darkness of ignorance. The medicine of true Knowledge has been applied, and my inner eyes are now open. To that Master, I humbly offer my gratitude.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Soul & Teacher Reflections",
-      "contentType": "text",
-      "tabData": [
-        {
-          "tagType": "html",
-          "tagHTML": "<div class='prayer-card'><h3>Reflections on the Soul and the True Teacher</h3><hr><h4>Prayer on True Qualities of Our Soul</h4><p class='prayer-text'><i>A reflection on the virtues that lead to self-realization.</i></p><p class='prayer-text'><b>Kashäy-ni upashänta-tä, mätra moksh abhiläsha, | Bhave khed präni dayä, tyä ätmärtha niväsa.</b><br><b>Meaning:</b> Where there are no passions like anger and greed; where there is compassion for all; and where the only desire is for liberation, there is the abode of self-realization.</p><hr><h4>Sadguru Prayers (Reflection on a True Teacher)</h4><p class='prayer-text'><i>A prayer respecting the Guru who reveals the true nature of the soul.</i></p><p class='prayer-text'><b>Je svaroop samajyä vinä, pämyo dukha anant, | Samajävyu te pad namu, shri sadguru bhagavant.</b><br><b>Meaning:</b> I suffered infinite misery without understanding the true nature of the Soul; I bow to the feet of the Holy Teacher who explained it to me.</p><p class='prayer-text'><b>Deh chhatä jeni dashä, varte dehätit, | Te gnäninä charanmä, ho vandan aganit.</b><br><b>Meaning:</b> I bow countless times to the feet of the Holy Teacher who lives in a human body, but whose state is beyond all bodily attachments.</p></div>"
-        }
-      ]
-    },
-    {
-      "tabName": "Quiz",
-      "contentType": "quiz",
-      "tabData": {
-        "title": "Identify the Prayer",
-        "questions": [
-          {
-            "question": "Which prayer is the most fundamental, offering respect to the five supreme beings?",
-            "options": [
-              "Khämemi Savva Jive",
-              "Mängalik - Chattäri Mangalam",
-              "Namaskär Mahämangal Sutra",
-              "Shivmastu Sarva Jagatah"
-            ],
-            "answer": "Namaskär Mahämangal Sutra"
-          },
-          {
-            "question": "Which prayer is recited to ask for universal forgiveness and to offer friendship to all beings?",
-            "options": [
-              "Khämemi Savva Jive",
-              "Upsargäh Kshayam Yänti",
-              "Sadguru Prayers",
-              "Ajnäna Timirändhänam"
-            ],
-            "answer": "Khämemi Savva Jive"
-          },
-          {
-            "question": "Which prayer identifies the four auspicious and supreme entities in the universe?",
-            "options": [
-              "Namaskär Mahämangal Sutra",
-              "Arhanto Bhagavanta",
-              "Mängalik - Chattäri Mangalam",
-              "Virah Sarvasuräsurendra"
-            ],
-            "answer": "Mängalik - Chattäri Mangalam"
-          },
-          {
-            "question": "Which prayer wishes for the well-being of the entire universe, asking that all beings engage in helping each other?",
-            "options": [
-              "Khämemi Savva Jive",
-              "Bhaktämar Stotra - Tubhyam",
-              "Upsargäh Kshayam Yänti",
-              "Shivmastu Sarva Jagatah"
-            ],
-            "answer": "Shivmastu Sarva Jagatah"
-          },
-          {
-            "question": "Which prayer is an offering of gratitude to the Guru for removing the 'darkness of ignorance'?",
-            "options": [
-              "Sadguru Prayers",
-              "Ajnäna Timirändhänam",
-              "Ädimam Pruthivinatha",
-              "Mangalam Bhagawän Viro"
-            ],
-            "answer": "Ajnäna Timirändhänam"
-          },
-          {
-            "question": "The prayer beginning 'Ädimam pruthivinatha...' gives respect to which Tirthankar?",
-            "options": [
-              "Mahävir Swämi",
-              "Pärshvanāth",
-              "Nemināth",
-              "Rishabhadev"
-            ],
-            "answer": "Rishabhadev"
-          },
-          {
-            "question": "Which prayer describes the admirable qualities of a true teacher, such as self-realization and equanimity?",
-            "options": [
-              "Ajnäna Timirändhänam",
-              "Arhanto Bhagavanta",
-              "Sadguru Prayers",
-              "Khämemi Savva Jive"
-            ],
-            "answer": "Sadguru Prayers"
-          }
-        ]
-      }
-    }
-  ]
+"sectionTitle":"A.1: Jain Prayers",
+"tabs": [
+ {
+"tabName":"Namaskär Mahämangal",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Namaskär Mahämangal Sutra</h3><p class='prayer-text'><i>The fundamental and most important prayer in Jainism, offering obeisance to the five supreme beings (Panch Parameshthi).</i></p><hr><h4>Original Prayer & Pronunciation</h4><p class='prayer-text'><b>Namo Arihantänam</b><br><b>Namo Siddhänam</b><br><b>Namo Äyariyänam</b><br><b>Namo Uvajjhäyänam</b><br><b>Namo Loe Savva Sähunam</b></p><p class='prayer-text'><b>Eso Pancha Namukkäro</b><br><b>Savva Pävappanäsano</b><br><b>Mangalänam cha Savvesim</b><br><b>Padhamam Havai Mangalam</b></p><hr><h4>Meaning</h4><p class='prayer-text'>I bow to all Arihants (enlightened beings with a physical body).<br>I bow to all Siddhas (liberated souls).<br>I bow to all the Ächäryas (heads of the ascetic order).<br>I bow to all the Upädhyäys (ascetic teachers).<br>I bow to all the Sädhus and Sädhvis (monks and nuns) in the universe.</p><p class='prayer-text'>To these five types of great souls, I offer my prayers. May such prayer help diminish all my negative vibrations and sins. Amongst all auspicious benedictions, this prayer is the foremost.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Mängalik - Chattäri",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Mängalik - Chattäri Mangalam (Divine Refuge Prayer)</h3><p class='prayer-text'><i>This prayer identifies the four auspicious and supreme entities in the universe in whom a devotee takes refuge.</i></p><hr><h4>Original Prayer & Pronunciation</h4><p class='prayer-text'><b>Chattäri mangalam, Arihantä mangalam,</b><br><b>Siddhä mangalam, Sähu mangalam,</b><br><b>Kevali pannatto dhammo mangalam.</b></p><p class='prayer-text'><b>Chattäri loguttamä, Arihantä loguttamä,</b><br><b>Siddhä loguttamä, Sähu loguttamä,</b><br><b>Kevali pannatto dhammo loguttamo.</b></p><p class='prayer-text'><b>Chattäri saranam pavajjämi, Arihante saranam pavajjämi,</b><br><b>Siddhe saranam pavajjämi, Sähu saranam pavajjämi,</b><br><b>Kevali pannattam dhammam saranam pavajjämi.</b></p><hr><h4>Meaning</h4><p class='prayer-text'>There are four auspicious entities in the universe: Arihants, Siddhas, Sädhus/Sädhvis, and the religion explained by the omniscient.</p><p class='prayer-text'>There are four supreme entities in the universe: Arihants, Siddhas, Sädhus/Sädhvis, and the religion explained by the omniscient.</p><p class='prayer-text'>I take refuge in these four auspicious and supreme entities.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Khämemi Savva Jive",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Khämemi Savva Jive (Universal Forgiveness Prayer)</h3><p class='prayer-text'><i>A prayer to ask for forgiveness from all living beings and to grant forgiveness to all, fostering universal friendship.</i></p><hr><h4>Original Prayer & Pronunciation</h4><blockquote>Khämemi savva jive, savve jivä khamantu me,<br>Mitti me savva bhuyesu, veram majjha na kenai.</blockquote><hr><h4>Meaning</h4><p class='prayer-text'>I forgive all living beings, may all living beings forgive me.<br>My friendship is with all living beings, my enmity is nonexistent.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Peace & Friendship",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Reflections on Universal Peace & Friendship</h3><p class='prayer-text'><i>Two sutras that help spread peace and good wishes to all living beings in the universe.</i></p><hr><h4>Upsargäh Kshayam Yänti (For Peace)</h4><p class='prayer-text'><b>Upasargäh kshayam yänti, chidyante vighna-vallayah.<br>Manah prasannatämeti, pujyamäne jineshvare.</b></p><p class='prayer-text'><b>Meaning:</b> All problems get resolved; All obstacles get removed. The heart becomes full of joy, for those who get in touch with the inner higher self.</p><hr><h4>Shivmastu Sarva Jagatah (For Friendship)</h4><p class='prayer-text'><b>Shivmastu sarva jagatah, Parhit niratä bhavantu bhutaganäh,<br>Doshäh prayäntu näsham, Sarvatra sukhi bhavatu lokäh.</b></p><p class='prayer-text'><b>Meaning:</b> May the whole universe be blessed, May all beings engage in each other's well-being, May all weakness, sickness and faults diminish and vanish, May everyone be healthy, prosperous, blissful, and peaceful.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Religious Prayers 1",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Core Religious Prayers</h3><hr><h4>Mangalam Bhagawän Viro</h4><p class='prayer-text'><i>An auspicious prayer mentioning Lord Mahävir, Gautam Swämi, and great Ächäryas.</i></p><p class='prayer-text'><b>Shvetämbar:</b> Mangalam Bhagawän Viro, mangalam Gautam prabhu | Mangalam Sthulibhadrayä, Jain dharmostu mangalam ||<br><b>Digambar:</b> Mangalam Bhagawän Viro, mangalam Gautamo gani | Mangalam Kundakundäryo, Jain dharmostu mangalam ||</p><hr><h4>Arhanto Bhagavanta Indramahitäh</h4><p class='prayer-text'><i>A prayer to the five supreme beings (Panch Parameshthi).</i></p><p class='prayer-text'><b>Arhanto bhagavanta indramahitäh, Siddhäshcha siddhisthitä | Ächäryä jinashäsanonnatikaräh, püjyä Upädhyäyakäh | Shri siddhäntasupäthakä Munivarä, ratnatrayärädhakäh | Panchai te Parameshthinah pratidinam, kurvantu vo mangalam ||</b><br><b>Meaning:</b> May the five supreme beings (Tirthankars, Siddhas, Ächäryas, Upädhyäys, and all Sädhus/Sädhvis) bestow bliss every day.</p><hr><h4>Ädimam Pruthivinatha-Mädimam</h4><p class='prayer-text'><i>A prayer to the first Tirthankar, Rishabhadev.</i></p><p class='prayer-text'><b>Ädimam pruthivinatha-mädimam nishparigraham | Ädimam tirthanätham cha, Rushabhasväminam stumah ||</b><br><b>Meaning:</b> We pray to Bhagawän Rishabhadev who was the first king, the first to renounce, and the first Tirthankar.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Religious Prayers 2",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Prayers to Mahävir & the Guru</h3><hr><h4>Virah Sarvasuräsurendra</h4><p class='prayer-text'><i>A prayer bowing to the virtues and greatness of Bhagawän Mahävir.</i></p><p class='prayer-text'><b>Virah sarvasuräsurendra-mahito, Viram budhäh sanshritäh | Virenäbhihatah svakarma nichayo, Viräya nityam nama | Virät tirthamidam pravruttamatulam, Virasya ghoram tapo | Vire shri dhruti kirti känti nichayah, shri Vira bhadram dishah ||</b><br><b>Meaning:</b> I always bow down to Bhagawän Mahävir, who has eradicated all His Karma, is worshipped by all, and in whom the learned take refuge... Please guide me on the path to liberation.</p><hr><h4>Bhaktämar Stotra - Tubhyam</h4><p class='prayer-text'><i>A verse from the famous Bhaktämar Stotra, praising the Jina as the remover of miseries.</i></p><p class='prayer-text'><b>Tubhyam namastribhuvanärtiharäya nätha! | Tubhyam namakshititalämalabhushanäya | Tubhyam namastrijagatah parameshvaräya, | Tubhyam namo jina! bhavodadhi shoshanäya ||</b><br><b>Meaning:</b> My namaskär (bowing) to you, O Lord, because you destroy the miseries of the three worlds, you are the jewel of the earth, you are the Lord paramount, and you free us from the ocean of transmigration.</p><hr><h4>Ajnäna Timirändhänam</h4><p class='prayer-text'><i>A prayer of gratitude to the Guru (teacher) for opening one's eyes with the light of knowledge.</i></p><p class='prayer-text'><b>Ajnäna timirändhänam, jnänänjana shaläkayä | Netram unmilitam yena, tasmai shrigurave namah ||</b><br><b>Meaning:</b> My vision was blinded by the darkness of ignorance. The medicine of true Knowledge has been applied, and my inner eyes are now open. To that Master, I humbly offer my gratitude.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Soul & Teacher Reflections",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"html",
+"tagHTML":"<div class='prayer-card'><h3>Reflections on the Soul and the True Teacher</h3><hr><h4>Prayer on True Qualities of Our Soul</h4><p class='prayer-text'><i>A reflection on the virtues that lead to self-realization.</i></p><p class='prayer-text'><b>Kashäy-ni upashänta-tä, mätra moksh abhiläsha, | Bhave khed präni dayä, tyä ätmärtha niväsa.</b><br><b>Meaning:</b> Where there are no passions like anger and greed; where there is compassion for all; and where the only desire is for liberation, there is the abode of self-realization.</p><hr><h4>Sadguru Prayers (Reflection on a True Teacher)</h4><p class='prayer-text'><i>A prayer respecting the Guru who reveals the true nature of the soul.</i></p><p class='prayer-text'><b>Je svaroop samajyä vinä, pämyo dukha anant, | Samajävyu te pad namu, shri sadguru bhagavant.</b><br><b>Meaning:</b> I suffered infinite misery without understanding the true nature of the Soul; I bow to the feet of the Holy Teacher who explained it to me.</p><p class='prayer-text'><b>Deh chhatä jeni dashä, varte dehätit, | Te gnäninä charanmä, ho vandan aganit.</b><br><b>Meaning:</b> I bow countless times to the feet of the Holy Teacher who lives in a human body, but whose state is beyond all bodily attachments.</p></div>"
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Identify the Prayer",
+"questions": [
+ {
+"question":"Which prayer is the most fundamental, offering respect to the five supreme beings?",
+"options": [
+"Khämemi Savva Jive",
+"Mängalik - Chattäri Mangalam",
+"Namaskär Mahämangal Sutra",
+"Shivmastu Sarva Jagatah"
+ ],
+"answer":"Namaskär Mahämangal Sutra"
+ },
+ {
+"question":"Which prayer is recited to ask for universal forgiveness and to offer friendship to all beings?",
+"options": [
+"Khämemi Savva Jive",
+"Upsargäh Kshayam Yänti",
+"Sadguru Prayers",
+"Ajnäna Timirändhänam"
+ ],
+"answer":"Khämemi Savva Jive"
+ },
+ {
+"question":"Which prayer identifies the four auspicious and supreme entities in the universe?",
+"options": [
+"Namaskär Mahämangal Sutra",
+"Arhanto Bhagavanta",
+"Mängalik - Chattäri Mangalam",
+"Virah Sarvasuräsurendra"
+ ],
+"answer":"Mängalik - Chattäri Mangalam"
+ },
+ {
+"question":"Which prayer wishes for the well-being of the entire universe, asking that all beings engage in helping each other?",
+"options": [
+"Khämemi Savva Jive",
+"Bhaktämar Stotra - Tubhyam",
+"Upsargäh Kshayam Yänti",
+"Shivmastu Sarva Jagatah"
+ ],
+"answer":"Shivmastu Sarva Jagatah"
+ },
+ {
+"question":"Which prayer is an offering of gratitude to the Guru for removing the'darkness of ignorance'?",
+"options": [
+"Sadguru Prayers",
+"Ajnäna Timirändhänam",
+"Ädimam Pruthivinatha",
+"Mangalam Bhagawän Viro"
+ ],
+"answer":"Ajnäna Timirändhänam"
+ },
+ {
+"question":"The prayer beginning'Ädimam pruthivinatha...' gives respect to which Tirthankar?",
+"options": [
+"Mahävir Swämi",
+"Pärshvanāth",
+"Nemināth",
+"Rishabhadev"
+ ],
+"answer":"Rishabhadev"
+ },
+ {
+"question":"Which prayer describes the admirable qualities of a true teacher, such as self-realization and equanimity?",
+"options": [
+"Ajnäna Timirändhänam",
+"Arhanto Bhagavanta",
+"Sadguru Prayers",
+"Khämemi Savva Jive"
+ ],
+"answer":"Sadguru Prayers"
+ }
+ ]
+ }
+ }
+ ]
 }

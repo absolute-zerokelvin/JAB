@@ -164,7 +164,13 @@ function toggleTheme() {
     const currentTheme = html.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
 
+    console.log('Toggling theme to:', newTheme);
     html.setAttribute('data-theme', newTheme);
+    if (newTheme === 'dark') {
+        html.classList.add('dark');
+    } else {
+        html.classList.remove('dark');
+    }
     localStorage.setItem('theme', newTheme);
 
     // Update button icon
@@ -172,25 +178,39 @@ function toggleTheme() {
     btns.forEach(btn => {
         btn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
     });
+
+    // Force repaint to ensure Tailwind classes apply immediately in some browsers
+    void html.offsetHeight;
 }
 
 // Initialize Theme
 function initializeTheme() {
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
 
-    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    console.log('Initializing theme. savedTheme:', savedTheme, 'prefersDark:', prefersDark, 'isDark:', isDark);
+
+    if (isDark) {
         document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.classList.remove('dark');
     }
 
-    // Update button icons after nav rendering
-    setTimeout(() => {
+    // Update button icons immediately and again after nav rendering
+    const updateIcons = () => {
         const btns = document.querySelectorAll('.nav-theme-toggle');
-        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        const currentIsDark = document.documentElement.classList.contains('dark');
         btns.forEach(btn => {
-            btn.textContent = isDark ? '☀️' : '🌙';
+            btn.textContent = currentIsDark ? '☀️' : '🌙';
         });
-    }, 100);
+    };
+
+    updateIcons();
+    setTimeout(updateIcons, 100);
+    setTimeout(updateIcons, 500); // Third attempt for slower renders
 }
 
 // Initialize navigation

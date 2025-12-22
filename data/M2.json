@@ -1,280 +1,280 @@
 {
-  "title": "The Life of Shrimad Räjchandra",
-  "subtitle": "Section M.2 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "Birth and a Spiritual Awakening"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Shrimad Räjchandra, one of modern Jainism's most recognized legends, was born in 1867 in Vaväniä, Gujarat, to a Hindu father, Ravajibhai, and a Jain mother, <span class=\"highlight\">Devabä</span>. This dual upbringing exposed him to a unified culture of faith. He was an extraordinary child with a deep interest in spirituality."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 2a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 2zM5.205 5.205a.75.75 0 011.06 0l2.475 2.475a.75.75 0 01-1.06 1.06L5.205 6.265a.75.75 0 010-1.06zM2 10a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5h-3.5A.75.75 0 012 10zM14.795 5.205a.75.75 0 010 1.06l-2.475 2.475a.75.75 0 11-1.06-1.06L13.735 5.205a.75.75 0 011.06 0zM10 18a.75.75 0 01-.75-.75v-3.5a.75.75 0 011.5 0v3.5A.75.75 0 0110 18zM14.795 14.795a.75.75 0 01-1.06 0l-2.475-2.475a.75.75 0 011.06-1.06l2.475 2.475a.75.75 0 010 1.06zM18 10a.75.75 0 01-.75.75h-3.5a.75.75 0 010-1.5h3.5A.75.75 0 0118 10zM5.205 14.795a.75.75 0 010-1.06l2.475-2.475a.75.75 0 011.06 1.06l-2.475 2.475a.75.75 0 01-1.06 0z\" clip-rule=\"evenodd\" /></svg>A pivotal moment occurred when he was just seven. After witnessing the cremation of an acquaintance who died from a snakebite, he fell into deep contemplation and suddenly attained <span class=\"highlight\">Jäti-smaran Jnän</span>, the ability to recall his past lives. This experience gave him a profound understanding of karma and reincarnation and set the course for his spiritual life."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Prodigy and the Householder"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Shrimad was a child prodigy, completing seven years of schooling in just two. At 16, he wrote the spiritual text <span class=\"highlight\">Moksh-mälä</span>. At 19, he demonstrated the incredible feat of <span class=\"highlight\">Shatävadhän</span>—performing 100 different mental tasks simultaneously—in front of dignitaries in Mumbai. Though offered fame and fortune to demonstrate this power in Europe, he declined, choosing to focus on his spiritual progress."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "At age 20, he married <span class=\"highlight\">Zabakben</span> and later had four children. He entered the gemstone business, where he was known for his absolute honesty and integrity. Despite his deep inner detachment, he fulfilled his duties as a householder and businessman."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Literary and Spiritual Guide"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" /><path d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" /></svg>Shrimad's most famous work is the <span class=\"highlight\">Ätmasiddhi-shästra</span>, an epic 142-stanza poem summarizing the core truths of Jain philosophy, which he composed in less than 90 minutes. He wrote hundreds of letters and many poems, including <span class=\"highlight\">Apurva Avasar</span>, which are compiled in the <span class=\"highlight\">Vachanämrit</span>. He became a spiritual guide to many, most famously <span class=\"highlight\">Mahatma Gandhi</span>, who was deeply influenced by Shrimad's life and teachings on non-violence and compassion, corresponding with him from South Africa for guidance."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Final Years and Legacy"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "As his spiritual progress deepened, Shrimad spent more time in isolated meditation. He retired from business at age 31. Though he wished to take Dikshä (vows of renunciation), his mother did not give her permission. His health deteriorated, and he passed away in 1901 at the young age of 33. While he never formally preached to the masses, he emphasized the need for a true teacher (Sadguru). His closest followers, like <span class=\"highlight\">Sobhägbhai</span> and <span class=\"highlight\">Laghuräj Swämi</span>, preserved his writings, which continue to guide seekers on the path to liberation."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Prodigy",
-      "period": "1867 - 1887 A.D.",
-      "events": [
-        {
-          "title": "Birth and Jäti-smaran Jnän",
-          "description": "Born in Vaväniä, he attains the memory of his past lives at age seven after witnessing a cremation.",
-          "characters": ["Shrimad Räjchandra"]
-        },
-        {
-          "title": "Early Compositions",
-          "description": "He completes seven years of school in two, writes his first poem at eight, and composes the spiritual text 'Moksh-mälä' at sixteen.",
-          "characters": ["Shrimad Räjchandra"]
-        },
-        {
-          "title": "Shatävadhän",
-          "description": "At age nineteen, he publicly demonstrates the ability to perform 100 mental tasks simultaneously, but declines offers to tour Europe.",
-          "characters": ["Shrimad Räjchandra"]
-        }
-      ]
-    },
-    {
-      "era": "The Householder & Guru",
-      "period": "1888 - 1896 A.D.",
-      "events": [
-        {
-          "title": "Marriage and Business",
-          "description": "At age 20, he marries Zabakben and becomes a partner in a gemstone business in Mumbai, known for his honesty.",
-          "characters": ["Shrimad Räjchandra", "Zabakben"]
-        },
-        {
-          "title": "Samyag Darshan",
-          "description": "It is believed that at age 23 (1891 A.D.), he attains Samyag Darshan (right faith/self-realization).",
-          "characters": ["Shrimad Räjchandra"]
-        },
-        {
-          "title": "Spiritual Guide to Gandhi",
-          "description": "He begins corresponding with Mahatma Gandhi, who is in South Africa, offering spiritual guidance that deeply influences Gandhi's philosophy.",
-          "characters": ["Shrimad Räjchandra", "Mahatma Gandhi"]
-        },
-        {
-          "title": "Ätmasiddhi-shästra",
-          "description": "In 1896, at the request of his disciple Sobhägbhai, he composes his masterpiece, the Ätmasiddhi-shästra, in under 90 minutes.",
-          "characters": ["Shrimad Räjchandra", "Sobhägbhai"]
-        }
-      ]
-    },
-    {
-      "era": "The Final Years",
-      "period": "1897 - 1901 A.D.",
-      "events": [
-        {
-          "title": "Deepening Austerities",
-          "description": "He spends long periods in isolated meditation in places like Idar and Kavitha, detaching further from worldly life.",
-          "characters": ["Shrimad Räjchandra"]
-        },
-        {
-          "title": "Retirement and Denied Renunciation",
-          "description": "He retires from business at age 31 and asks his mother for permission to take Dikshä, which is denied.",
-          "characters": ["Shrimad Räjchandra", "Devabä"]
-        },
-        {
-          "title": "Early Passing",
-          "description": "His health fails, and he passes away in Rajkot at the young age of 33, leaving behind a vast literary and spiritual legacy.",
-          "characters": ["Shrimad Räjchandra"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Shrimad Räjchandra",
-      "description": "A 19th-century Jain poet, mystic, and philosopher. A child prodigy who possessed extraordinary mental powers and memory of past lives, he became a spiritual guide to Mahatma Gandhi and left behind profound writings on the nature of the soul."
-    },
-    {
-      "name": "Mahatma Gandhi",
-      "description": "A prominent figure in India's independence movement who revered Shrimad as his spiritual guide. He credited Shrimad for influencing his core principles like non-violence."
-    },
-    {
-      "name": "Sobhägbhai",
-      "description": "An elder and devoted disciple. Shrimad's masterpiece, the Ätmasiddhi-shästra, was composed at his request."
-    },
-    {
-      "name": "Laghuräj Swämi",
-      "description": "A Sthänakaväsi Jain monk who became a devoted disciple of Shrimad and founded the Agäs Äshram to preserve and propagate his teachings."
-    },
-    {
-      "name": "Devabä and Ravajibhai",
-      "description": "Shrimad's Jain mother and Hindu father, respectively. Their mixed-faith household provided a unified cultural upbringing for him."
-    },
-    {
-      "name": "Zabakben",
-      "description": "Shrimad's wife, with whom he had four children and lived the life of a householder while maintaining deep inner detachment."
-    }
-  ],
-  "quizData": [
-    { "question": "What was Shrimad Räjchandra's birth name?", "answer": "Laxminandan." },
-    { "question": "At what age did he attain Jäti-smaran Jnän (memory of past lives)?", "answer": "At age seven." },
-    { "question": "What event triggered his attainment of Jäti-smaran Jnän?", "answer": "Witnessing the cremation of a man who had died from a snakebite." },
-    { "question": "What is the name of the spiritual text he composed at the age of 16?", "answer": "Moksh-mälä." },
-    { "question": "What is 'Shatävadhän,' which Shrimad performed at age 19?", "answer": "The ability to perform 100 different mental tasks simultaneously." },
-    { "question": "Why did he decline the offer to demonstrate his Shatävadhän powers in Europe?", "answer": "He knew it would distract from his main objective of spiritual progress." },
-    { "question": "Who was Shrimad Räjchandra's wife?", "answer": "Zabakben." },
-    { "question": "What is the name of Shrimad's most famous epic poem, composed in less than 90 minutes?", "answer": "Ätmasiddhi-shästra." },
-    { "question": "What are the 'six-fold truths of the soul' described in the Ätmasiddhi-shästra?", "answer": "The soul exists, is eternal, is the doer of its actions, experiences the fruits of its actions, is pure consciousness, and can attain liberation." },
-    { "question": "Which famous world leader considered Shrimad his spiritual guide?", "answer": "Mahatma Gandhi." },
-    { "question": "Where was Mahatma Gandhi when he was corresponding with Shrimad for guidance?", "answer": "In South Africa." },
-    { "question": "What is the name of the compilation that contains Shrimad's letters and other writings?", "answer": "Vachanämrit." },
-    { "question": "At what age did Shrimad retire from his business?", "answer": "At age 31." },
-    { "question": "Why did Shrimad not formally become a monk by taking Dikshä?", "answer": "His mother denied his request for permission out of love and affection." },
-    { "question": "At what young age did Shrimad Räjchandra pass away?", "answer": "At the age of 33." },
-    { "question": "Who was the disciple that requested the composition of Ätmasiddhi-shästra?", "answer": "Shri Sobhägbhai." },
-    { "question": "Which disciple founded the Agäs Äshram to preserve Shrimad's writings?", "answer": "Shri Laghuräj Swämi." },
-    { "question": "Which disciple was entrusted with copying Shrimad's works because of his exceptional memory?", "answer": "Shri Ambälälbhai." },
-    { "question": "What did Shrimad emphasize as essential for making spiritual progress?", "answer": "The need for a true teacher, or Sadguru." },
-    { "question": "Despite his vast knowledge, why did Shrimad not preach to the masses?", "answer": "He maintained that since he had not taken the formal vows of a monk (Dikshä), he was not eligible to preach." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Life of Shrimad Räjchandra",
-    "children": [
-      {
-        "name": "The Child Prodigy",
-        "children": [
-          { "name": "Jäti-smaran Jnän at age 7" },
-          { "name": "Moksh-mälä at age 16" },
-          { "name": "Shatävadhän at age 19" }
-        ]
-      },
-      {
-        "name": "The Householder Guru",
-        "children": [
-          { "name": "Marriage & Business" },
-          { "name": "Samyag Darshan at age 23" },
-          { "name": "Guide to Mahatma Gandhi" }
-        ]
-      },
-      {
-        "name": "The Author",
-        "children": [
-          { "name": "Composes Ätmasiddhi-shästra (1896)" },
-          { "name": "Letters compiled in Vachanämrit" },
-          { "name": "Apurva Avasar" }
-        ]
-      },
-      {
-        "name": "The Ascetic",
-        "children": [
-          { "name": "Deep Meditation in Isolation" },
-          { "name": "Retires from Business" },
-          { "name": "Early Death at 33" },
-          { "name": "Legacy carried by followers" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Shrimad Räjchandra: A Modern Sage",
-    "children": [
-      {
-        "name": "Extraordinary Mind",
-        "children": [
-          { "name": "Memory of Past Lives" },
-          { "name": "100 Avadhäns" }
-        ]
-      },
-      {
-        "name": "Spiritual Life",
-        "children": [
-          { "name": "Householder's Detachment" },
-          { "name": "Quest for Self-Realization" },
-          { "name": "Guru to Gandhi" }
-        ]
-      },
-      {
-        "name": "Literary Legacy",
-        "children": [
-          { "name": "Ätmasiddhi-shästra" },
-          { "name": "Vachanämrit" },
-          { "name": "Moksh-mälä" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "Memory of Past Lives",
-      "description": "At a cremation, seven-year-old Räjchandra slips into a deep trance, suddenly recalling his past lives in a flash of divine knowledge (Jäti-smaran Jnän).",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Jäti-smaran+Jnän+at+Cremation",
-      "imageAlt": "A young boy looking intensely at a funeral pyre, with cosmic imagery in the background."
-    },
-    {
-      "title": "The Master of 100 Tasks",
-      "description": "At just nineteen, Shrimad stuns a learned audience in Mumbai by performing 'Shatävadhän,' flawlessly completing 100 mental challenges simultaneously.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Shatävadhän:+100+Avadhäns",
-      "imageAlt": "A young man sitting blindfolded on a stage, surrounded by people asking questions, playing chess, and ringing bells."
-    },
-    {
-      "title": "The Jewel of Self-Realization",
-      "description": "In a burst of inspiration, Shrimad composes his masterpiece, the Ätmasiddhi-shästra, in less than 90 minutes, encapsulating the entire path to liberation.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Composing+Ätmasiddhi-shästra",
-      "imageAlt": "A man writing furiously on a scroll, with a look of intense concentration and divine inspiration."
-    },
-    {
-      "title": "Guidance Across Continents",
-      "description": "Shrimad writes a letter of profound spiritual guidance to a young Mahatma Gandhi in South Africa, shaping the latter's views on non-violence and truth.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Letter+to+Gandhi+in+South+Africa",
-      "imageAlt": "A split image showing a sage writing in India and a young lawyer reading the letter intently in Africa."
-    },
-    {
-      "title": "Meditation in the Woods",
-      "description": "Seeking deeper truths, Shrimad retires from worldly life to spend months in isolated meditation in the forests of Gujarat.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Shrimad's+Meditation+in+Isolation",
-      "imageAlt": "A lone figure meditating deeply under a large tree in a secluded forest."
-    },
-    {
-      "title": "A Legacy Preserved",
-      "description": "After his early passing, devoted followers like Laghuräj Swämi and Ambälälbhai collect and preserve Shrimad's priceless writings for future generations.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Preserving+Shrimad's+Writings",
-      "imageAlt": "Disciples carefully collecting and compiling letters and manuscripts into a large book."
-    }
-  ]
+"title":"The Life of Shrimad Räjchandra",
+"subtitle":"Section M.2 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"Birth and a Spiritual Awakening"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Shrimad Räjchandra, one of modern Jainism's most recognized legends, was born in 1867 in Vaväniä, Gujarat, to a Hindu father, Ravajibhai, and a Jain mother, <span class=\"highlight\">Devabä</span>. This dual upbringing exposed him to a unified culture of faith. He was an extraordinary child with a deep interest in spirituality."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 2a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 2zM5.205 5.205a.75.75 0 011.06 0l2.475 2.475a.75.75 0 01-1.06 1.06L5.205 6.265a.75.75 0 010-1.06zM2 10a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5h-3.5A.75.75 0 012 10zM14.795 5.205a.75.75 0 010 1.06l-2.475 2.475a.75.75 0 11-1.06-1.06L13.735 5.205a.75.75 0 011.06 0zM10 18a.75.75 0 01-.75-.75v-3.5a.75.75 0 011.5 0v3.5A.75.75 0 0110 18zM14.795 14.795a.75.75 0 01-1.06 0l-2.475-2.475a.75.75 0 011.06-1.06l2.475 2.475a.75.75 0 010 1.06zM18 10a.75.75 0 01-.75.75h-3.5a.75.75 0 010-1.5h3.5A.75.75 0 0118 10zM5.205 14.795a.75.75 0 010-1.06l2.475-2.475a.75.75 0 011.06 1.06l-2.475 2.475a.75.75 0 01-1.06 0z\" clip-rule=\"evenodd\" /></svg>A pivotal moment occurred when he was just seven. After witnessing the cremation of an acquaintance who died from a snakebite, he fell into deep contemplation and suddenly attained <span class=\"highlight\">Jäti-smaran Jnän</span>, the ability to recall his past lives. This experience gave him a profound understanding of karma and reincarnation and set the course for his spiritual life."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Prodigy and the Householder"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Shrimad was a child prodigy, completing seven years of schooling in just two. At 16, he wrote the spiritual text <span class=\"highlight\">Moksh-mälä</span>. At 19, he demonstrated the incredible feat of <span class=\"highlight\">Shatävadhän</span>—performing 100 different mental tasks simultaneously—in front of dignitaries in Mumbai. Though offered fame and fortune to demonstrate this power in Europe, he declined, choosing to focus on his spiritual progress."
+ },
+ {
+"tagType":"p",
+"tagHTML":"At age 20, he married <span class=\"highlight\">Zabakben</span> and later had four children. He entered the gemstone business, where he was known for his absolute honesty and integrity. Despite his deep inner detachment, he fulfilled his duties as a householder and businessman."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Literary and Spiritual Guide"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" /><path d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" /></svg>Shrimad's most famous work is the <span class=\"highlight\">Ätmasiddhi-shästra</span>, an epic 142-stanza poem summarizing the core truths of Jain philosophy, which he composed in less than 90 minutes. He wrote hundreds of letters and many poems, including <span class=\"highlight\">Apurva Avasar</span>, which are compiled in the <span class=\"highlight\">Vachanämrit</span>. He became a spiritual guide to many, most famously <span class=\"highlight\">Mahatma Gandhi</span>, who was deeply influenced by Shrimad's life and teachings on non-violence and compassion, corresponding with him from South Africa for guidance."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Final Years and Legacy"
+ },
+ {
+"tagType":"p",
+"tagHTML":"As his spiritual progress deepened, Shrimad spent more time in isolated meditation. He retired from business at age 31. Though he wished to take Dikshä (vows of renunciation), his mother did not give her permission. His health deteriorated, and he passed away in 1901 at the young age of 33. While he never formally preached to the masses, he emphasized the need for a true teacher (Sadguru). His closest followers, like <span class=\"highlight\">Sobhägbhai</span> and <span class=\"highlight\">Laghuräj Swämi</span>, preserved his writings, which continue to guide seekers on the path to liberation."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Prodigy",
+"period":"1867 - 1887 A.D.",
+"events": [
+ {
+"title":"Birth and Jäti-smaran Jnän",
+"description":"Born in Vaväniä, he attains the memory of his past lives at age seven after witnessing a cremation.",
+"characters": ["Shrimad Räjchandra"]
+ },
+ {
+"title":"Early Compositions",
+"description":"He completes seven years of school in two, writes his first poem at eight, and composes the spiritual text'Moksh-mälä' at sixteen.",
+"characters": ["Shrimad Räjchandra"]
+ },
+ {
+"title":"Shatävadhän",
+"description":"At age nineteen, he publicly demonstrates the ability to perform 100 mental tasks simultaneously, but declines offers to tour Europe.",
+"characters": ["Shrimad Räjchandra"]
+ }
+ ]
+ },
+ {
+"era":"The Householder & Guru",
+"period":"1888 - 1896 A.D.",
+"events": [
+ {
+"title":"Marriage and Business",
+"description":"At age 20, he marries Zabakben and becomes a partner in a gemstone business in Mumbai, known for his honesty.",
+"characters": ["Shrimad Räjchandra","Zabakben"]
+ },
+ {
+"title":"Samyag Darshan",
+"description":"It is believed that at age 23 (1891 A.D.), he attains Samyag Darshan (right faith/self-realization).",
+"characters": ["Shrimad Räjchandra"]
+ },
+ {
+"title":"Spiritual Guide to Gandhi",
+"description":"He begins corresponding with Mahatma Gandhi, who is in South Africa, offering spiritual guidance that deeply influences Gandhi's philosophy.",
+"characters": ["Shrimad Räjchandra","Mahatma Gandhi"]
+ },
+ {
+"title":"Ätmasiddhi-shästra",
+"description":"In 1896, at the request of his disciple Sobhägbhai, he composes his masterpiece, the Ätmasiddhi-shästra, in under 90 minutes.",
+"characters": ["Shrimad Räjchandra","Sobhägbhai"]
+ }
+ ]
+ },
+ {
+"era":"The Final Years",
+"period":"1897 - 1901 A.D.",
+"events": [
+ {
+"title":"Deepening Austerities",
+"description":"He spends long periods in isolated meditation in places like Idar and Kavitha, detaching further from worldly life.",
+"characters": ["Shrimad Räjchandra"]
+ },
+ {
+"title":"Retirement and Denied Renunciation",
+"description":"He retires from business at age 31 and asks his mother for permission to take Dikshä, which is denied.",
+"characters": ["Shrimad Räjchandra","Devabä"]
+ },
+ {
+"title":"Early Passing",
+"description":"His health fails, and he passes away in Rajkot at the young age of 33, leaving behind a vast literary and spiritual legacy.",
+"characters": ["Shrimad Räjchandra"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Shrimad Räjchandra",
+"description":"A 19th-century Jain poet, mystic, and philosopher. A child prodigy who possessed extraordinary mental powers and memory of past lives, he became a spiritual guide to Mahatma Gandhi and left behind profound writings on the nature of the soul."
+ },
+ {
+"name":"Mahatma Gandhi",
+"description":"A prominent figure in India's independence movement who revered Shrimad as his spiritual guide. He credited Shrimad for influencing his core principles like non-violence."
+ },
+ {
+"name":"Sobhägbhai",
+"description":"An elder and devoted disciple. Shrimad's masterpiece, the Ätmasiddhi-shästra, was composed at his request."
+ },
+ {
+"name":"Laghuräj Swämi",
+"description":"A Sthänakaväsi Jain monk who became a devoted disciple of Shrimad and founded the Agäs Äshram to preserve and propagate his teachings."
+ },
+ {
+"name":"Devabä and Ravajibhai",
+"description":"Shrimad's Jain mother and Hindu father, respectively. Their mixed-faith household provided a unified cultural upbringing for him."
+ },
+ {
+"name":"Zabakben",
+"description":"Shrimad's wife, with whom he had four children and lived the life of a householder while maintaining deep inner detachment."
+ }
+ ],
+"quizData": [
+ {"question":"What was Shrimad Räjchandra's birth name?","answer":"Laxminandan." },
+ {"question":"At what age did he attain Jäti-smaran Jnän (memory of past lives)?","answer":"At age seven." },
+ {"question":"What event triggered his attainment of Jäti-smaran Jnän?","answer":"Witnessing the cremation of a man who had died from a snakebite." },
+ {"question":"What is the name of the spiritual text he composed at the age of 16?","answer":"Moksh-mälä." },
+ {"question":"What is'Shatävadhän,' which Shrimad performed at age 19?","answer":"The ability to perform 100 different mental tasks simultaneously." },
+ {"question":"Why did he decline the offer to demonstrate his Shatävadhän powers in Europe?","answer":"He knew it would distract from his main objective of spiritual progress." },
+ {"question":"Who was Shrimad Räjchandra's wife?","answer":"Zabakben." },
+ {"question":"What is the name of Shrimad's most famous epic poem, composed in less than 90 minutes?","answer":"Ätmasiddhi-shästra." },
+ {"question":"What are the'six-fold truths of the soul' described in the Ätmasiddhi-shästra?","answer":"The soul exists, is eternal, is the doer of its actions, experiences the fruits of its actions, is pure consciousness, and can attain liberation." },
+ {"question":"Which famous world leader considered Shrimad his spiritual guide?","answer":"Mahatma Gandhi." },
+ {"question":"Where was Mahatma Gandhi when he was corresponding with Shrimad for guidance?","answer":"In South Africa." },
+ {"question":"What is the name of the compilation that contains Shrimad's letters and other writings?","answer":"Vachanämrit." },
+ {"question":"At what age did Shrimad retire from his business?","answer":"At age 31." },
+ {"question":"Why did Shrimad not formally become a monk by taking Dikshä?","answer":"His mother denied his request for permission out of love and affection." },
+ {"question":"At what young age did Shrimad Räjchandra pass away?","answer":"At the age of 33." },
+ {"question":"Who was the disciple that requested the composition of Ätmasiddhi-shästra?","answer":"Shri Sobhägbhai." },
+ {"question":"Which disciple founded the Agäs Äshram to preserve Shrimad's writings?","answer":"Shri Laghuräj Swämi." },
+ {"question":"Which disciple was entrusted with copying Shrimad's works because of his exceptional memory?","answer":"Shri Ambälälbhai." },
+ {"question":"What did Shrimad emphasize as essential for making spiritual progress?","answer":"The need for a true teacher, or Sadguru." },
+ {"question":"Despite his vast knowledge, why did Shrimad not preach to the masses?","answer":"He maintained that since he had not taken the formal vows of a monk (Dikshä), he was not eligible to preach." }
+ ],
+"mindmapV1Data": {
+"name":"The Life of Shrimad Räjchandra",
+"children": [
+ {
+"name":"The Child Prodigy",
+"children": [
+ {"name":"Jäti-smaran Jnän at age 7" },
+ {"name":"Moksh-mälä at age 16" },
+ {"name":"Shatävadhän at age 19" }
+ ]
+ },
+ {
+"name":"The Householder Guru",
+"children": [
+ {"name":"Marriage & Business" },
+ {"name":"Samyag Darshan at age 23" },
+ {"name":"Guide to Mahatma Gandhi" }
+ ]
+ },
+ {
+"name":"The Author",
+"children": [
+ {"name":"Composes Ätmasiddhi-shästra (1896)" },
+ {"name":"Letters compiled in Vachanämrit" },
+ {"name":"Apurva Avasar" }
+ ]
+ },
+ {
+"name":"The Ascetic",
+"children": [
+ {"name":"Deep Meditation in Isolation" },
+ {"name":"Retires from Business" },
+ {"name":"Early Death at 33" },
+ {"name":"Legacy carried by followers" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Shrimad Räjchandra: A Modern Sage",
+"children": [
+ {
+"name":"Extraordinary Mind",
+"children": [
+ {"name":"Memory of Past Lives" },
+ {"name":"100 Avadhäns" }
+ ]
+ },
+ {
+"name":"Spiritual Life",
+"children": [
+ {"name":"Householder's Detachment" },
+ {"name":"Quest for Self-Realization" },
+ {"name":"Guru to Gandhi" }
+ ]
+ },
+ {
+"name":"Literary Legacy",
+"children": [
+ {"name":"Ätmasiddhi-shästra" },
+ {"name":"Vachanämrit" },
+ {"name":"Moksh-mälä" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"Memory of Past Lives",
+"description":"At a cremation, seven-year-old Räjchandra slips into a deep trance, suddenly recalling his past lives in a flash of divine knowledge (Jäti-smaran Jnän).",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Jäti-smaran+Jnän+at+Cremation",
+"imageAlt":"A young boy looking intensely at a funeral pyre, with cosmic imagery in the background."
+ },
+ {
+"title":"The Master of 100 Tasks",
+"description":"At just nineteen, Shrimad stuns a learned audience in Mumbai by performing'Shatävadhän,' flawlessly completing 100 mental challenges simultaneously.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Shatävadhän:+100+Avadhäns",
+"imageAlt":"A young man sitting blindfolded on a stage, surrounded by people asking questions, playing chess, and ringing bells."
+ },
+ {
+"title":"The Jewel of Self-Realization",
+"description":"In a burst of inspiration, Shrimad composes his masterpiece, the Ätmasiddhi-shästra, in less than 90 minutes, encapsulating the entire path to liberation.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Composing+Ätmasiddhi-shästra",
+"imageAlt":"A man writing furiously on a scroll, with a look of intense concentration and divine inspiration."
+ },
+ {
+"title":"Guidance Across Continents",
+"description":"Shrimad writes a letter of profound spiritual guidance to a young Mahatma Gandhi in South Africa, shaping the latter's views on non-violence and truth.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Letter+to+Gandhi+in+South+Africa",
+"imageAlt":"A split image showing a sage writing in India and a young lawyer reading the letter intently in Africa."
+ },
+ {
+"title":"Meditation in the Woods",
+"description":"Seeking deeper truths, Shrimad retires from worldly life to spend months in isolated meditation in the forests of Gujarat.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Shrimad's+Meditation+in+Isolation",
+"imageAlt":"A lone figure meditating deeply under a large tree in a secluded forest."
+ },
+ {
+"title":"A Legacy Preserved",
+"description":"After his early passing, devoted followers like Laghuräj Swämi and Ambälälbhai collect and preserve Shrimad's priceless writings for future generations.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Preserving+Shrimad's+Writings",
+"imageAlt":"Disciples carefully collecting and compiling letters and manuscripts into a large book."
+ }
+ ]
 }

@@ -1,233 +1,233 @@
 {
-  "title": "The Story of King Shrenik and Anäthi Muni",
-  "subtitle": "Section H.11 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "The King and the Young Monk"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "While riding through a garden, <span class=\"highlight\">King Shrenik</span> of Magadh came across a handsome young monk meditating under a tree. Impressed and curious, the king asked the monk why one so young, with such beauty, would forsake the world. The monk replied, “O king, I was absolutely lonely and helpless in this world. There were no protectors, nor friends... I abjured the worldly life because of such helplessness.”"
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Royal Offer"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" /><path d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" /></svg>King Shrenik laughed at this. “O monk, if you feel so unprotected (Anäth), I shall be your protector (Näth). Come with me and enjoy all the pleasures of my kingdom.” The young monk, now known as <span class=\"highlight\">Anäthi Muni</span>, politely refused."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The True Protector"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "The monk explained, “O king... how shall you be my protector when you yourself are unprotected? I also possessed great wealth. But when I once had severe pain in my eyes, none could help me. Not my father’s riches, nor medical help, nor my mother’s love. My devoted wife, my brothers, my sister—they all wept helplessly. I was helpless. They were helpless too.”"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>He continued, “To avoid such helplessness, I decided to take Dikshä... as the only unfailing remedy. I made a vow that if my pain subsided, I would renounce the world. The pain vanished completely by morning. As per my decision, I took Dikshä, and thus one totally unprotected (Anäth) found his protector (Näth) in <span class=\"highlight\">Bhagawän Mahävir</span>.” Deeply impressed, King Shrenik was inspired to seek refuge in Mahävir's teachings as well."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "A Life of Wealth",
-      "period": "Before renunciation",
-      "events": [
-        {
-          "title": "A Young Man's Illness",
-          "description": "The future Anäthi Muni, despite having a loving family and great riches, suffers from a severe, painful illness.",
-          "characters": ["Anäthi Muni (as a layman)"]
-        },
-        {
-          "title": "A Feeling of Helplessness",
-          "description": "He realizes that no amount of wealth or family love can cure his physical pain, making him feel completely unprotected and helpless.",
-          "characters": ["Anäthi Muni (as a layman)"]
-        }
-      ]
-    },
-    {
-      "era": "The Vow and Renunciation",
-      "period": "The turning point",
-      "events": [
-        {
-          "title": "A Vow is Made",
-          "description": "He makes a vow to renounce the world and take Dikshä if his pain subsides.",
-          "characters": ["Anäthi Muni (as a layman)"]
-        },
-        {
-          "title": "A Miraculous Cure",
-          "description": "The pain vanishes completely by the next morning.",
-          "characters": ["Anäthi Muni (as a layman)"]
-        },
-        {
-          "title": "A Promise Kept",
-          "description": "True to his word, he gives up his worldly life and becomes a monk.",
-          "characters": ["Anäthi Muni"]
-        }
-      ]
-    },
-    {
-      "era": "The King's Encounter",
-      "period": "After renunciation",
-      "events": [
-        {
-          "title": "A Royal Question",
-          "description": "King Shrenik finds the young monk meditating and asks why he renounced the world.",
-          "characters": ["King Shrenik", "Anäthi Muni"]
-        },
-        {
-          "title": "An Offer of Protection",
-          "description": "The king offers to be the monk's 'protector' and give him worldly pleasures.",
-          "characters": ["King Shrenik", "Anäthi Muni"]
-        },
-        {
-          "title": "A Profound Explanation",
-          "description": "Anäthi Muni explains that true protection comes not from kings or wealth, but from the spiritual path. This deeply impresses the king.",
-          "characters": ["Anäthi Muni", "King Shrenik"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Anäthi Muni",
-      "description": "A young monk who renounced the world after realizing that no amount of wealth or family love could protect him from physical suffering and helplessness. His story teaches that true protection (Sanäth) comes from the spiritual path, not worldly power."
-    },
-    {
-      "name": "King Shrenik",
-      "description": "The King of Magadh. He believed he was a 'protector' (Näth) who could offer security through wealth and power, but was humbled and inspired by Anäthi Muni's explanation of true helplessness (Anäth) and protection."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar, who Anäthi Muni identifies as his true protector, representing the spiritual path that offers refuge from all suffering."
-    }
-  ],
-  "quizData": [
-    { "question": "Who found Anäthi Muni meditating under a tree?", "answer": "King Shrenik of Magadh." },
-    { "question": "What was the king's initial question to the young monk?", "answer": "Why he had renounced the world at such a young age." },
-    { "question": "What reason did the monk give for renouncing the world?", "answer": "He said he was lonely, helpless, and had no protectors (Anäth)." },
-    { "question": "What did King Shrenik offer to the monk?", "answer": "To be his protector (Näth) and to give him worldly pleasures, friends, and family." },
-    { "question": "What was the monk's counter-argument to the king's offer?", "answer": "He asked how the king could be his protector when the king himself was unprotected from suffering." },
-    { "question": "What personal experience did Anäthi Muni use as an example of his helplessness?", "answer": "A time when he had severe pain in his eyes and limbs, and no one—not his rich father, doctors, or loving family—could help him." },
-    { "question": "What vow did the future monk make during his illness?", "answer": "He vowed to renounce the world (take Dikshä) if his pain subsided." },
-    { "question": "What happened the morning after he made his vow?", "answer": "His pain had vanished completely." },
-    { "question": "Who did Anäthi Muni say was his true protector (Näth)?", "answer": "Bhagawän Mahävir (representing the spiritual path)." },
-    { "question": "What effect did the monk's story have on King Shrenik?", "answer": "He was deeply impressed and decided to seek refuge in Bhagawän Mahävir's teachings." },
-    { "question": "What does the word 'Anäth' mean in the context of the story?", "answer": "Unprotected or helpless." },
-    { "question": "What does the word 'Sanäth' (the opposite of Anäth) mean?", "answer": "Protected, specifically by the awakening of one's own soul." },
-    { "question": "According to the story, what is the 'unfailing remedy' to all pains?", "answer": "Taking Dikshä (renouncing the world for the spiritual path)." },
-    { "question": "What was the ultimate spiritual achievement of Anäthi Muni?", "answer": "He achieved Siddha-pad, the everlasting state of bliss." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Anäthi Muni",
-    "children": [
-      {
-        "name": "The Worldly Man's Crisis",
-        "children": [
-          { "name": "Suffers a severe illness" },
-          { "name": "Realizes wealth & family cannot help" },
-          { "name": "Feels truly helpless (Anäth)" }
-        ]
-      },
-      {
-        "name": "The Spiritual Vow",
-        "children": [
-          { "name": "Vows to renounce if cured" },
-          { "name": "Pain vanishes" },
-          { "name": "Becomes a monk" }
-        ]
-      },
-      {
-        "name": "The King's Misunderstanding",
-        "children": [
-          { "name": "King Shrenik offers worldly protection" },
-          { "name": "Believes he can be the monk's 'Näth'" }
-        ]
-      },
-      {
-        "name": "The Monk's Wisdom",
-        "children": [
-          { "name": "Explains true helplessness" },
-          { "name": "Identifies the spiritual path as the only true protector" },
-          { "name": "Inspires the king" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Anäthi Muni: Finding the True Protector",
-    "children": [
-      {
-        "name": "The Illusion of Protection",
-        "children": [
-          { "name": "Worldly Wealth" },
-          { "name": "Family Love" },
-          { "name": "Royal Power" }
-        ]
-      },
-      {
-        "name": "The Reality of Helplessness",
-        "children": [
-          { "name": "Physical Suffering" },
-          { "name": "The 'Anäth' State" }
-        ]
-      },
-      {
-        "name": "The True Refuge",
-        "children": [
-          { "name": "The Spiritual Path" },
-          { "name": "The 'Sanäth' State" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Royal Encounter",
-      "description": "King Shrenik, out for a ride, is impressed by the sight of a handsome young monk meditating peacefully under a tree.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=King+Shrenik+Sees+the+Monk",
-      "imageAlt": "A king on a horse looking with curiosity at a young monk meditating."
-    },
-    {
-      "title": "An Offer of Protection",
-      "description": "Hearing the monk say he renounced due to being 'unprotected' (Anäth), the king laughs and offers his own royal protection and worldly wealth.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+King's+Offer",
-      "imageAlt": "A king gesturing grandly towards his city, offering it to a simple monk."
-    },
-    {
-      "title": "A Painful Memory",
-      "description": "The monk recounts his past illness, explaining how his loving family and vast riches were all helpless to ease his physical suffering.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=A+Memory+of+Helplessness",
-      "imageAlt": "A flashback scene of a young man in bed, in pain, while his family weeps around him."
-    },
-    {
-      "title": "A Vow for a Cure",
-      "description": "In his moment of desperation, the future monk vowed that if his pain went away, he would renounce the world and seek a true remedy.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Fateful+Vow",
-      "imageAlt": "A man in pain, making a solemn vow."
-    },
-    {
-      "title": "The True Protector",
-      "description": "Anäthi Muni explains to the king that his true protector (Näth) is not a person or wealth, but the spiritual path shown by Bhagawän Mahävir.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+True+Näth",
-      "imageAlt": "A monk pointing towards a symbolic path of light, explaining its importance to the king."
-    },
-    {
-      "title": "A King Inspired",
-      "description": "Deeply impressed by the monk's profound wisdom, King Shrenik's own spiritual journey is sparked, and he decides to seek the same refuge.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=King+Shrenik+is+Inspired",
-      "imageAlt": "A king bowing with newfound respect and understanding before the young monk."
-    }
-  ]
+"title":"The Story of King Shrenik and Anäthi Muni",
+"subtitle":"Section H.11 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"The King and the Young Monk"
+ },
+ {
+"tagType":"p",
+"tagHTML":"While riding through a garden, <span class=\"highlight\">King Shrenik</span> of Magadh came across a handsome young monk meditating under a tree. Impressed and curious, the king asked the monk why one so young, with such beauty, would forsake the world. The monk replied, “O king, I was absolutely lonely and helpless in this world. There were no protectors, nor friends... I abjured the worldly life because of such helplessness.”"
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Royal Offer"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" /><path d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" /></svg>King Shrenik laughed at this. “O monk, if you feel so unprotected (Anäth), I shall be your protector (Näth). Come with me and enjoy all the pleasures of my kingdom.” The young monk, now known as <span class=\"highlight\">Anäthi Muni</span>, politely refused."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The True Protector"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The monk explained, “O king... how shall you be my protector when you yourself are unprotected? I also possessed great wealth. But when I once had severe pain in my eyes, none could help me. Not my father’s riches, nor medical help, nor my mother’s love. My devoted wife, my brothers, my sister—they all wept helplessly. I was helpless. They were helpless too.”"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>He continued, “To avoid such helplessness, I decided to take Dikshä... as the only unfailing remedy. I made a vow that if my pain subsided, I would renounce the world. The pain vanished completely by morning. As per my decision, I took Dikshä, and thus one totally unprotected (Anäth) found his protector (Näth) in <span class=\"highlight\">Bhagawän Mahävir</span>.” Deeply impressed, King Shrenik was inspired to seek refuge in Mahävir's teachings as well."
+ }
+ ],
+"timelineData": [
+ {
+"era":"A Life of Wealth",
+"period":"Before renunciation",
+"events": [
+ {
+"title":"A Young Man's Illness",
+"description":"The future Anäthi Muni, despite having a loving family and great riches, suffers from a severe, painful illness.",
+"characters": ["Anäthi Muni (as a layman)"]
+ },
+ {
+"title":"A Feeling of Helplessness",
+"description":"He realizes that no amount of wealth or family love can cure his physical pain, making him feel completely unprotected and helpless.",
+"characters": ["Anäthi Muni (as a layman)"]
+ }
+ ]
+ },
+ {
+"era":"The Vow and Renunciation",
+"period":"The turning point",
+"events": [
+ {
+"title":"A Vow is Made",
+"description":"He makes a vow to renounce the world and take Dikshä if his pain subsides.",
+"characters": ["Anäthi Muni (as a layman)"]
+ },
+ {
+"title":"A Miraculous Cure",
+"description":"The pain vanishes completely by the next morning.",
+"characters": ["Anäthi Muni (as a layman)"]
+ },
+ {
+"title":"A Promise Kept",
+"description":"True to his word, he gives up his worldly life and becomes a monk.",
+"characters": ["Anäthi Muni"]
+ }
+ ]
+ },
+ {
+"era":"The King's Encounter",
+"period":"After renunciation",
+"events": [
+ {
+"title":"A Royal Question",
+"description":"King Shrenik finds the young monk meditating and asks why he renounced the world.",
+"characters": ["King Shrenik","Anäthi Muni"]
+ },
+ {
+"title":"An Offer of Protection",
+"description":"The king offers to be the monk's'protector' and give him worldly pleasures.",
+"characters": ["King Shrenik","Anäthi Muni"]
+ },
+ {
+"title":"A Profound Explanation",
+"description":"Anäthi Muni explains that true protection comes not from kings or wealth, but from the spiritual path. This deeply impresses the king.",
+"characters": ["Anäthi Muni","King Shrenik"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Anäthi Muni",
+"description":"A young monk who renounced the world after realizing that no amount of wealth or family love could protect him from physical suffering and helplessness. His story teaches that true protection (Sanäth) comes from the spiritual path, not worldly power."
+ },
+ {
+"name":"King Shrenik",
+"description":"The King of Magadh. He believed he was a'protector' (Näth) who could offer security through wealth and power, but was humbled and inspired by Anäthi Muni's explanation of true helplessness (Anäth) and protection."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar, who Anäthi Muni identifies as his true protector, representing the spiritual path that offers refuge from all suffering."
+ }
+ ],
+"quizData": [
+ {"question":"Who found Anäthi Muni meditating under a tree?","answer":"King Shrenik of Magadh." },
+ {"question":"What was the king's initial question to the young monk?","answer":"Why he had renounced the world at such a young age." },
+ {"question":"What reason did the monk give for renouncing the world?","answer":"He said he was lonely, helpless, and had no protectors (Anäth)." },
+ {"question":"What did King Shrenik offer to the monk?","answer":"To be his protector (Näth) and to give him worldly pleasures, friends, and family." },
+ {"question":"What was the monk's counter-argument to the king's offer?","answer":"He asked how the king could be his protector when the king himself was unprotected from suffering." },
+ {"question":"What personal experience did Anäthi Muni use as an example of his helplessness?","answer":"A time when he had severe pain in his eyes and limbs, and no one—not his rich father, doctors, or loving family—could help him." },
+ {"question":"What vow did the future monk make during his illness?","answer":"He vowed to renounce the world (take Dikshä) if his pain subsided." },
+ {"question":"What happened the morning after he made his vow?","answer":"His pain had vanished completely." },
+ {"question":"Who did Anäthi Muni say was his true protector (Näth)?","answer":"Bhagawän Mahävir (representing the spiritual path)." },
+ {"question":"What effect did the monk's story have on King Shrenik?","answer":"He was deeply impressed and decided to seek refuge in Bhagawän Mahävir's teachings." },
+ {"question":"What does the word'Anäth' mean in the context of the story?","answer":"Unprotected or helpless." },
+ {"question":"What does the word'Sanäth' (the opposite of Anäth) mean?","answer":"Protected, specifically by the awakening of one's own soul." },
+ {"question":"According to the story, what is the'unfailing remedy' to all pains?","answer":"Taking Dikshä (renouncing the world for the spiritual path)." },
+ {"question":"What was the ultimate spiritual achievement of Anäthi Muni?","answer":"He achieved Siddha-pad, the everlasting state of bliss." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Anäthi Muni",
+"children": [
+ {
+"name":"The Worldly Man's Crisis",
+"children": [
+ {"name":"Suffers a severe illness" },
+ {"name":"Realizes wealth & family cannot help" },
+ {"name":"Feels truly helpless (Anäth)" }
+ ]
+ },
+ {
+"name":"The Spiritual Vow",
+"children": [
+ {"name":"Vows to renounce if cured" },
+ {"name":"Pain vanishes" },
+ {"name":"Becomes a monk" }
+ ]
+ },
+ {
+"name":"The King's Misunderstanding",
+"children": [
+ {"name":"King Shrenik offers worldly protection" },
+ {"name":"Believes he can be the monk's'Näth'" }
+ ]
+ },
+ {
+"name":"The Monk's Wisdom",
+"children": [
+ {"name":"Explains true helplessness" },
+ {"name":"Identifies the spiritual path as the only true protector" },
+ {"name":"Inspires the king" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Anäthi Muni: Finding the True Protector",
+"children": [
+ {
+"name":"The Illusion of Protection",
+"children": [
+ {"name":"Worldly Wealth" },
+ {"name":"Family Love" },
+ {"name":"Royal Power" }
+ ]
+ },
+ {
+"name":"The Reality of Helplessness",
+"children": [
+ {"name":"Physical Suffering" },
+ {"name":"The'Anäth' State" }
+ ]
+ },
+ {
+"name":"The True Refuge",
+"children": [
+ {"name":"The Spiritual Path" },
+ {"name":"The'Sanäth' State" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Royal Encounter",
+"description":"King Shrenik, out for a ride, is impressed by the sight of a handsome young monk meditating peacefully under a tree.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=King+Shrenik+Sees+the+Monk",
+"imageAlt":"A king on a horse looking with curiosity at a young monk meditating."
+ },
+ {
+"title":"An Offer of Protection",
+"description":"Hearing the monk say he renounced due to being'unprotected' (Anäth), the king laughs and offers his own royal protection and worldly wealth.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=The+King's+Offer",
+"imageAlt":"A king gesturing grandly towards his city, offering it to a simple monk."
+ },
+ {
+"title":"A Painful Memory",
+"description":"The monk recounts his past illness, explaining how his loving family and vast riches were all helpless to ease his physical suffering.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=A+Memory+of+Helplessness",
+"imageAlt":"A flashback scene of a young man in bed, in pain, while his family weeps around him."
+ },
+ {
+"title":"A Vow for a Cure",
+"description":"In his moment of desperation, the future monk vowed that if his pain went away, he would renounce the world and seek a true remedy.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=The+Fateful+Vow",
+"imageAlt":"A man in pain, making a solemn vow."
+ },
+ {
+"title":"The True Protector",
+"description":"Anäthi Muni explains to the king that his true protector (Näth) is not a person or wealth, but the spiritual path shown by Bhagawän Mahävir.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=The+True+Näth",
+"imageAlt":"A monk pointing towards a symbolic path of light, explaining its importance to the king."
+ },
+ {
+"title":"A King Inspired",
+"description":"Deeply impressed by the monk's profound wisdom, King Shrenik's own spiritual journey is sparked, and he decides to seek the same refuge.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=King+Shrenik+is+Inspired",
+"imageAlt":"A king bowing with newfound respect and understanding before the young monk."
+ }
+ ]
 }

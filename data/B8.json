@@ -1,594 +1,594 @@
 {
-    "sectionTitle": "B.8: Nav Tattva Part III: Samvar, Nirjarä, and Moksh",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "The Path to Liberation"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "In the nine fundamentals (Nav Tattva), Samvar, Nirjarä, and Moksh are the three to be pursued (Upädeya). They represent the active path toward salvation. If Äsrav (influx of karma) is the door through which the disease of karma enters the soul, then:"
-          },
-          {
-            "tagType": "ul",
-            "tagHTML": "<li><b>Samvar</b> is the closing of that door to prevent new karma.</li><li><b>Nirjarä</b> is the medicine that cures the disease by eradicating existing karma.</li><li><b>Moksh</b> is the final state of perfect health—total liberation from all karma.</li>"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "The key to this process is equanimity. By viewing life's situations without attachment or aversion, we can prevent the passions (Kashäy) from arising, which stops the influx of karma (Samvar) and allows us to shed what has already accumulated (Nirjarä)."
-          }
-        ]
-      },
-      {
-        "tabName": "Samvar Mind Map",
-        "contentType": "mindmap",
-        "tabData": {
-          "title": "The 57 Ways of Samvar (Stoppage of Karma)",
-          "description": "Jain scriptures outline 57 ways to stop the influx of new karma. Mouse over each node for a description.",
-          "nodes": [
-            {
-              "id": "root",
-              "text": "Samvar: 57 Ways",
-              "parent": null,
-              "description": "Samvar is the process of stopping the influx of new karmic particles to the soul."
-            },
-            {
-              "id": "samiti",
-              "text": "5 Samiti",
-              "parent": "root",
-              "description": "Five types of carefulness or awareness in daily activities to ensure non-violence."
-            },
-            {
-              "id": "gupti",
-              "text": "3 Gupti",
-              "parent": "root",
-              "description": "Three types of restraint over the activities of mind, speech, and body."
-            },
-            {
-              "id": "dharma",
-              "text": "10 Yati Dharma",
-              "parent": "root",
-              "description": "Ten religious virtues that represent the pure, passionless conduct of the soul."
-            },
-            {
-              "id": "bhavana",
-              "text": "12 Bhävanä",
-              "parent": "root",
-              "description": "Twelve reflections or contemplations on the fundamental truths of life."
-            },
-            {
-              "id": "parishaha",
-              "text": "22 Parishaha-Jaya",
-              "parent": "root",
-              "description": "Endurance of 22 types of hardships with complete equanimity."
-            },
-            {
-              "id": "charitra",
-              "text": "5 Chäritra",
-              "parent": "root",
-              "description": "Five types of conduct, representing different levels of spiritual purity."
-            },
-            {
-              "id": "irya",
-              "text": "Iryä Samiti",
-              "parent": "samiti",
-              "description": "Proper care and watchfulness while walking to avoid harming any living beings."
-            },
-            {
-              "id": "bhasha",
-              "text": "Bhäshä Samiti",
-              "parent": "samiti",
-              "description": "Proper care in speaking to avoid lies, harsh words, or any speech that could cause harm."
-            },
-            {
-              "id": "eshana",
-              "text": "Eshanä Samiti",
-              "parent": "samiti",
-              "description": "Proper care in accepting alms (Gochari), ensuring the food is pure and offered correctly."
-            },
-            {
-              "id": "adan",
-              "text": "Ädän Nikshep Samiti",
-              "parent": "samiti",
-              "description": "Proper care in taking and keeping essential items like clothes or books, ensuring no harm is caused."
-            },
-            {
-              "id": "utsarga",
-              "text": "Utsarga Samiti",
-              "parent": "samiti",
-              "description": "Proper care in disposing of bodily waste in a secluded place to avoid harming any life."
-            },
-            {
-              "id": "mana",
-              "text": "Mana Gupti",
-              "parent": "gupti",
-              "description": "Proper control over the mind to prevent impure or sinful thoughts."
-            },
-            {
-              "id": "vachan",
-              "text": "Vachan Gupti",
-              "parent": "gupti",
-              "description": "Proper control over speech, often by observing silence."
-            },
-            {
-              "id": "kaya",
-              "text": "Käya Gupti",
-              "parent": "gupti",
-              "description": "Proper control over the body, keeping it steady and still."
-            },
-            {
-              "id": "k_kshama",
-              "text": "Kshamä",
-              "parent": "dharma",
-              "description": "Supreme Forgiveness"
-            },
-            {
-              "id": "k_mardav",
-              "text": "Märdav",
-              "parent": "dharma",
-              "description": "Supreme Humility"
-            },
-            {
-              "id": "k_arjav",
-              "text": "Ärjav",
-              "parent": "dharma",
-              "description": "Supreme Straightforwardness"
-            },
-            {
-              "id": "k_shaucha",
-              "text": "Shaucha",
-              "parent": "dharma",
-              "description": "Supreme Purity/Contentment"
-            },
-            {
-              "id": "k_satya",
-              "text": "Satya",
-              "parent": "dharma",
-              "description": "Supreme Truthfulness"
-            },
-            {
-              "id": "k_sanyam",
-              "text": "Sanyam",
-              "parent": "dharma",
-              "description": "Supreme Self-restraint"
-            },
-            {
-              "id": "k_tap",
-              "text": "Tap",
-              "parent": "dharma",
-              "description": "Supreme Austerities"
-            },
-            {
-              "id": "k_tyag",
-              "text": "Tyäg",
-              "parent": "dharma",
-              "description": "Supreme Renunciation"
-            },
-            {
-              "id": "k_akinchanya",
-              "text": "Äkinchanya",
-              "parent": "dharma",
-              "description": "Supreme Non-attachment"
-            },
-            {
-              "id": "k_brahmacharya",
-              "text": "Brahmacharya",
-              "parent": "dharma",
-              "description": "Supreme Celibacy"
-            },
-            {
-              "id": "b_anitya",
-              "text": "Anitya Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the impermanence of the world."
-            },
-            {
-              "id": "b_asharan",
-              "text": "Asharan Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the helplessness against death and disease."
-            },
-            {
-              "id": "b_samsar",
-              "text": "Sansär Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the endless cycle of birth and death."
-            },
-            {
-              "id": "b_ekatva",
-              "text": "Ekatva Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the solitude of the soul."
-            },
-            {
-              "id": "b_anyatva",
-              "text": "Anyatva Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the separateness of the soul from the body."
-            },
-            {
-              "id": "b_ashuchi",
-              "text": "Ashuchi Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the impurity of the body."
-            },
-            {
-              "id": "b_asrav",
-              "text": "Äsrav Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the influx of karma."
-            },
-            {
-              "id": "b_samvar",
-              "text": "Samvar Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the stoppage of the influx of karma."
-            },
-            {
-              "id": "b_nirjara",
-              "text": "Nirjarä Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the shedding of karma through austerities."
-            },
-            {
-              "id": "b_lok",
-              "text": "Lok-svabhäv Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the nature and transitoriness of the universe."
-            },
-            {
-              "id": "b_bodhi",
-              "text": "Bodhidurlabh Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the rarity of attaining enlightenment."
-            },
-            {
-              "id": "b_dharma",
-              "text": "Dharma Bhävanä",
-              "parent": "bhavana",
-              "description": "Contemplation on the rarity of acquiring true religion and a true preceptor."
-            },
-            {
-              "id": "c_samayik",
-              "text": "Sämäyik Chäritra",
-              "parent": "charitra",
-              "description": "To remain in a state of equanimity throughout life."
-            },
-            {
-              "id": "c_chhedo",
-              "text": "Chhedo-pasthäpan Chäritra",
-              "parent": "charitra",
-              "description": "To live the life of an ascetic, correcting any breaches in conduct."
-            },
-            {
-              "id": "c_parihar",
-              "text": "Parihära-vishuddhi Chäritra",
-              "parent": "charitra",
-              "description": "To follow special types of penance as an advanced ascetic."
-            },
-            {
-              "id": "c_sukshma",
-              "text": "Sukshma-samparäy Chäritra",
-              "parent": "charitra",
-              "description": "The conduct of an ascetic who has almost no passions left, except a subtle desire for Moksh."
-            },
-            {
-              "id": "c_yathakhyat",
-              "text": "Yathäkhyät Chäritra",
-              "parent": "charitra",
-              "description": "The perfect, natural conduct of a Kevali (omniscient being), totally free from passions."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Nirjarä Mind Map",
-        "contentType": "mindmap",
-        "tabData": {
-          "title": "The 12 Types of Nirjarä (Shedding of Karma)",
-          "description": "Nirjarä is the process of eradicating accumulated karma through austerities (Tap). Mouse over each node for a description.",
-          "nodes": [
-            {
-              "id": "root",
-              "text": "Nirjarä: 12 Ways",
-              "parent": null,
-              "description": "Nirjarä is the partial eradication of accumulated karma through deliberate effort (Sakäm Nirjarä)."
-            },
-            {
-              "id": "bahya",
-              "text": "6 Bähya Tap (External)",
-              "parent": "root",
-              "description": "External austerities primarily related to the physical body, which prepare one for internal austerities."
-            },
-            {
-              "id": "abhyantar",
-              "text": "6 Abhyantar Tap (Internal)",
-              "parent": "root",
-              "description": "Internal austerities related to purifying the mind and soul, which are the ultimate goal of Tap."
-            },
-            {
-              "id": "b_anashan",
-              "text": "Anashan",
-              "parent": "bahya",
-              "description": "Fasting; complete abstinence from food and/or water for a set period."
-            },
-            {
-              "id": "b_unodari",
-              "text": "Unodari",
-              "parent": "bahya",
-              "description": "Eating less than one's appetite to practice moderation."
-            },
-            {
-              "id": "b_vritti",
-              "text": "Vritti-sankshep",
-              "parent": "bahya",
-              "description": "Curtailing desires by limiting the number of food items or possessions."
-            },
-            {
-              "id": "b_rasatyag",
-              "text": "Rasatyäg",
-              "parent": "bahya",
-              "description": "Relinquishing tasty foods (like sweets, fried food, dairy) to conquer the sense of taste."
-            },
-            {
-              "id": "b_kayaklesh",
-              "text": "Käya-klesh",
-              "parent": "bahya",
-              "description": "Voluntarily enduring physical hardships with equanimity (e.g., meditating in heat/cold)."
-            },
-            {
-              "id": "b_sanlinata",
-              "text": "Sanlinatä",
-              "parent": "bahya",
-              "description": "Giving up pleasures of the five senses and occupying minimal space."
-            },
-            {
-              "id": "a_prayashchitta",
-              "text": "Präyashchitta",
-              "parent": "abhyantar",
-              "description": "Repentance and atonement for any breaches of vows or bad deeds."
-            },
-            {
-              "id": "a_vinay",
-              "text": "Vinay",
-              "parent": "abhyantar",
-              "description": "Modesty and showing appropriate respect to teachers, elders, and all deserving beings."
-            },
-            {
-              "id": "a_veyavachcha",
-              "text": "Veyävachcha",
-              "parent": "abhyantar",
-              "description": "Selfless service to monks, nuns, the needy, and those who are suffering."
-            },
-            {
-              "id": "a_swadhyay",
-              "text": "Swädhyäy",
-              "parent": "abhyantar",
-              "description": "Study of the self and religious scriptures to understand the true nature of the soul."
-            },
-            {
-              "id": "a_dhyan",
-              "text": "Dhyän",
-              "parent": "abhyantar",
-              "description": "Meditation, specifically virtuous meditation (Dharma Dhyän and Shukla Dhyän)."
-            },
-            {
-              "id": "a_kayotsarg",
-              "text": "Käyotsarg",
-              "parent": "abhyantar",
-              "description": "Renunciation of the physical body by withdrawing from all physical, verbal, and mental activities to stay absorbed in the soul."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Types of Fasts",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "A Guide to Common Austerities (Tapasyä)",
-          "description": "Jainism includes many types of fasts and dietary restrictions as part of its external austerities.",
-          "items": [
-            {
-              "header": "Daily Restrictions",
-              "content": "<b>Navakärashi:</b> Consuming food/water only 48 minutes after sunrise. <br><b>Chauvihär:</b> No food or water after sunset until sunrise the next day. <br><b>Tivihär:</b> No food after sunset, but water is permitted once before bed."
-            },
-            {
-              "header": "Partial Day Fasts",
-              "content": "<b>Porisi:</b> Consuming food/water only after the first Prahar (approx. 3 hours) of the day. <br><b>Purimuddha:</b> Consuming food/water only after two Prahars (midday)."
-            },
-            {
-              "header": "Single & Double Meal Fasts",
-              "content": "<b>Ekäsan:</b> Eating only one meal a day, in one sitting. <br><b>Biyäsan:</b> Eating two meals a day, in two sittings."
-            },
-            {
-              "header": "Full Day Fasts (Upaväs)",
-              "content": "<b>Upaväs:</b> A full day of fasting. A <b>Tivihär Upaväs</b> allows boiled water, while a <b>Chauvihär Upaväs</b> does not. <br><b>Chhath:</b> Two consecutive days of Upaväs. <br><b>Attham:</b> Three consecutive days of Upaväs."
-            },
-            {
-              "header": "Specialized Austerities",
-              "content": "<b>Äyambil:</b> A single meal of boiled or cooked food with no spices, oil, dairy, sugar, or green vegetables. <br><b>Navpad Oli:</b> Nine consecutive days of Äyambil. <br><b>Varsitap:</b> A year-long austerity of alternate-day fasting."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Moksh Tattva",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h3",
-            "tagHTML": "Moksh: The Ultimate Goal"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "<b>Moksh</b>, or liberation, is the ninth and final fundamental. It is the complete and total liberation of the soul from all karma. A soul that achieves Moksh is called a <b>Siddha</b>."
-          },
-          {
-            "tagType": "h4",
-            "tagHTML": "The State of a Siddha"
-          },
-          {
-            "tagType": "ul",
-            "tagHTML": "<li>The soul regains its original, pure attributes of infinite knowledge, infinite perception, infinite energy, and infinite bliss.</li><li>It is forever freed from the cycle of birth and death.</li><li>The liberated soul ascends to the top of the universe (Lokäkäsh) and resides there forever in a state of pure consciousness. This place is called <b>Siddha-kshetra</b>.</li>"
-          },
-          {
-            "tagType": "h4",
-            "tagHTML": "The Two Stages of Liberation"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "<b>1. Keval-jnän:</b> This is the state of omniscience, attained when the four defiling (Ghäti) karmas are destroyed. The soul in this state is an Arihant. <br><b>2. Nirväna (Moksh):</b> This is the final liberation, which occurs upon the death of an Arihant, when the remaining four non-defiling (Aghäti) karmas are destroyed."
-          }
-        ]
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Samvar, Nirjarä, and Moksh",
-          "questions": [
-            {
-              "question": "What is the Jain term for the stoppage of the influx of new karma?",
-              "options": ["Äsrav", "Bandh", "Samvar", "Nirjarä"],
-              "answer": "Samvar"
-            },
-            {
-              "question": "How many ways of Samvar are described in Jain literature?",
-              "options": ["12", "22", "57", "108"],
-              "answer": "57"
-            },
-            {
-              "question": "Which of the 5 Samitis refers to carefulness in walking?",
-              "options": ["Bhäshä Samiti", "Iryä Samiti", "Eshanä Samiti", "Utsarga Samiti"],
-              "answer": "Iryä Samiti"
-            },
-            {
-              "question": "Which of the 3 Guptis refers to control over the mind?",
-              "options": ["Käya Gupti", "Vachan Gupti", "Mana Gupti", "Dharma Gupti"],
-              "answer": "Mana Gupti"
-            },
-            {
-              "question": "Which of the 10 Yati Dharmas means 'Supreme Humility'?",
-              "options": ["Kshamä", "Ärjav", "Märdav", "Shaucha"],
-              "answer": "Märdav"
-            },
-            {
-              "question": "Contemplating on the impermanence of the world is which Bhävanä?",
-              "options": ["Anitya", "Asharan", "Ekatva", "Anyatva"],
-              "answer": "Anitya"
-            },
-            {
-              "question": "How many types of Parishaha-Jaya (endurance of hardships) are there?",
-              "options": ["10", "12", "22", "5"],
-              "answer": "22"
-            },
-            {
-              "question": "Which type of Chäritra (conduct) is the perfect, natural conduct of a Kevali?",
-              "options": ["Sämäyik Chäritra", "Chhedo-pasthäpan Chäritra", "Sukshma-samparäy Chäritra", "Yathäkhyät Chäritra"],
-              "answer": "Yathäkhyät Chäritra"
-            },
-            {
-              "question": "What is the Jain term for the eradication of accumulated karma?",
-              "options": ["Samvar", "Nirjarä", "Moksh", "Bandh"],
-              "answer": "Nirjarä"
-            },
-            {
-              "question": "What is the difference between Akäm Nirjarä and Sakäm Nirjarä?",
-              "options": ["One is for monks, the other for laity", "Akäm is automatic shedding, Sakäm is through deliberate effort", "Akäm sheds good karma, Sakäm sheds bad karma", "There is no difference"],
-              "answer": "Akäm is automatic shedding, Sakäm is through deliberate effort"
-            },
-            {
-              "question": "How many types of external (Bähya) and internal (Abhyantar) Tap are there?",
-              "options": ["5 external, 5 internal", "6 external, 6 internal", "7 external, 5 internal", "10 external, 2 internal"],
-              "answer": "6 external, 6 internal"
-            },
-            {
-              "question": "Which external austerity involves eating less than one's appetite?",
-              "options": ["Anashan", "Unodari", "Rasatyäg", "Käya-klesh"],
-              "answer": "Unodari"
-            },
-            {
-              "question": "What is the internal austerity of 'Präyashchitta'?",
-              "options": ["Selfless service", "Meditation", "Repentance", "Modesty"],
-              "answer": "Repentance"
-            },
-            {
-              "question": "The austerity of 'Äyambil' involves giving up what?",
-              "options": ["All food and water", "Only water", "Spices, oil, dairy, sugar, and green vegetables", "Walking"],
-              "answer": "Spices, oil, dairy, sugar, and green vegetables"
-            },
-            {
-              "question": "What is the ultimate internal austerity, involving the renunciation of all physical and mental activities?",
-              "options": ["Dhyän", "Vinay", "Swädhyäy", "Käyotsarg"],
-              "answer": "Käyotsarg"
-            },
-            {
-              "question": "What does the term 'Upaväs' literally mean?",
-              "options": ["No food", "No water", "To stay near the soul", "To torture the body"],
-              "answer": "To stay near the soul"
-            },
-            {
-              "question": "What is 'Attham'?",
-              "options": ["Fasting for one day", "Fasting for two consecutive days", "Fasting for three consecutive days", "Fasting for eight consecutive days"],
-              "answer": "Fasting for three consecutive days"
-            },
-            {
-              "question": "What is the name for the nine-day period of Äyambil?",
-              "options": ["Varsitap", "Navpad Oli", "Siddhi Tap", "Atthai"],
-              "answer": "Navpad Oli"
-            },
-            {
-              "question": "What is the final state of total liberation from all karma called?",
-              "options": ["Samvar", "Nirjarä", "Moksh", "Keval-jnän"],
-              "answer": "Moksh"
-            },
-            {
-              "question": "What is a liberated soul called?",
-              "options": ["Arihant", "Siddha", "Ächärya", "Tirthankar"],
-              "answer": "Siddha"
-            },
-            {
-              "question": "Where do liberated souls reside?",
-              "options": ["In heaven", "On Mount Meru", "At the top of the universe (Siddha-kshetra)", "They are reborn as humans"],
-              "answer": "At the top of the universe (Siddha-kshetra)"
-            },
-            {
-              "question": "The state of omniscience, achieved before final liberation, is called:",
-              "options": ["Moksh", "Nirväna", "Keval-jnän", "Siddha"],
-              "answer": "Keval-jnän"
-          },
-          {
-              "question": "Which four karmas are known as 'defiling' or 'Ghäti' karmas?",
-              "options": ["Knowledge-obscuring, Perception-obscuring, Deluding, and Obstructing", "Feeling-producing, Body-determining, Status-determining, and Lifespan-determining", "The four passions", "The four auxiliary reflections"],
-              "answer": "Knowledge-obscuring, Perception-obscuring, Deluding, and Obstructing"
-          },
-          {
-              "question": "The internal austerity 'Veyävachcha' refers to what?",
-              "options": ["Repentance", "Selfless service", "Meditation", "Religious study"],
-              "answer": "Selfless service"
-          },
-          {
-              "question": "Which austerity means 'curtailing desires' for food and possessions?",
-              "options": ["Anashan", "Rasatyäg", "Vritti-sankshep", "Käya-klesh"],
-              "answer": "Vritti-sankshep"
-          },
-          {
-              "question": "The analogy of a house during a dust storm is used to explain the Nav Tattvas. What does closing the doors and windows represent?",
-              "options": ["Äsrav", "Bandh", "Samvar", "Nirjarä"],
-              "answer": "Samvar"
-          },
-          {
-              "question": "In the same dust storm analogy, what does cleaning up the accumulated dust represent?",
-              "options": ["Äsrav", "Bandh", "Samvar", "Nirjarä"],
-              "answer": "Nirjarä"
-          }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"B.8: Nav Tattva Part III: Samvar, Nirjarä, and Moksh",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"The Path to Liberation"
+ },
+ {
+"tagType":"p",
+"tagHTML":"In the nine fundamentals (Nav Tattva), Samvar, Nirjarä, and Moksh are the three to be pursued (Upädeya). They represent the active path toward salvation. If Äsrav (influx of karma) is the door through which the disease of karma enters the soul, then:"
+ },
+ {
+"tagType":"ul",
+"tagHTML":"<li><b>Samvar</b> is the closing of that door to prevent new karma.</li><li><b>Nirjarä</b> is the medicine that cures the disease by eradicating existing karma.</li><li><b>Moksh</b> is the final state of perfect health—total liberation from all karma.</li>"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The key to this process is equanimity. By viewing life's situations without attachment or aversion, we can prevent the passions (Kashäy) from arising, which stops the influx of karma (Samvar) and allows us to shed what has already accumulated (Nirjarä)."
+ }
+ ]
+ },
+ {
+"tabName":"Samvar Mind Map",
+"contentType":"mindmap",
+"tabData": {
+"title":"The 57 Ways of Samvar (Stoppage of Karma)",
+"description":"Jain scriptures outline 57 ways to stop the influx of new karma. Mouse over each node for a description.",
+"nodes": [
+ {
+"id":"root",
+"text":"Samvar: 57 Ways",
+"parent": null,
+"description":"Samvar is the process of stopping the influx of new karmic particles to the soul."
+ },
+ {
+"id":"samiti",
+"text":"5 Samiti",
+"parent":"root",
+"description":"Five types of carefulness or awareness in daily activities to ensure non-violence."
+ },
+ {
+"id":"gupti",
+"text":"3 Gupti",
+"parent":"root",
+"description":"Three types of restraint over the activities of mind, speech, and body."
+ },
+ {
+"id":"dharma",
+"text":"10 Yati Dharma",
+"parent":"root",
+"description":"Ten religious virtues that represent the pure, passionless conduct of the soul."
+ },
+ {
+"id":"bhavana",
+"text":"12 Bhävanä",
+"parent":"root",
+"description":"Twelve reflections or contemplations on the fundamental truths of life."
+ },
+ {
+"id":"parishaha",
+"text":"22 Parishaha-Jaya",
+"parent":"root",
+"description":"Endurance of 22 types of hardships with complete equanimity."
+ },
+ {
+"id":"charitra",
+"text":"5 Chäritra",
+"parent":"root",
+"description":"Five types of conduct, representing different levels of spiritual purity."
+ },
+ {
+"id":"irya",
+"text":"Iryä Samiti",
+"parent":"samiti",
+"description":"Proper care and watchfulness while walking to avoid harming any living beings."
+ },
+ {
+"id":"bhasha",
+"text":"Bhäshä Samiti",
+"parent":"samiti",
+"description":"Proper care in speaking to avoid lies, harsh words, or any speech that could cause harm."
+ },
+ {
+"id":"eshana",
+"text":"Eshanä Samiti",
+"parent":"samiti",
+"description":"Proper care in accepting alms (Gochari), ensuring the food is pure and offered correctly."
+ },
+ {
+"id":"adan",
+"text":"Ädän Nikshep Samiti",
+"parent":"samiti",
+"description":"Proper care in taking and keeping essential items like clothes or books, ensuring no harm is caused."
+ },
+ {
+"id":"utsarga",
+"text":"Utsarga Samiti",
+"parent":"samiti",
+"description":"Proper care in disposing of bodily waste in a secluded place to avoid harming any life."
+ },
+ {
+"id":"mana",
+"text":"Mana Gupti",
+"parent":"gupti",
+"description":"Proper control over the mind to prevent impure or sinful thoughts."
+ },
+ {
+"id":"vachan",
+"text":"Vachan Gupti",
+"parent":"gupti",
+"description":"Proper control over speech, often by observing silence."
+ },
+ {
+"id":"kaya",
+"text":"Käya Gupti",
+"parent":"gupti",
+"description":"Proper control over the body, keeping it steady and still."
+ },
+ {
+"id":"k_kshama",
+"text":"Kshamä",
+"parent":"dharma",
+"description":"Supreme Forgiveness"
+ },
+ {
+"id":"k_mardav",
+"text":"Märdav",
+"parent":"dharma",
+"description":"Supreme Humility"
+ },
+ {
+"id":"k_arjav",
+"text":"Ärjav",
+"parent":"dharma",
+"description":"Supreme Straightforwardness"
+ },
+ {
+"id":"k_shaucha",
+"text":"Shaucha",
+"parent":"dharma",
+"description":"Supreme Purity/Contentment"
+ },
+ {
+"id":"k_satya",
+"text":"Satya",
+"parent":"dharma",
+"description":"Supreme Truthfulness"
+ },
+ {
+"id":"k_sanyam",
+"text":"Sanyam",
+"parent":"dharma",
+"description":"Supreme Self-restraint"
+ },
+ {
+"id":"k_tap",
+"text":"Tap",
+"parent":"dharma",
+"description":"Supreme Austerities"
+ },
+ {
+"id":"k_tyag",
+"text":"Tyäg",
+"parent":"dharma",
+"description":"Supreme Renunciation"
+ },
+ {
+"id":"k_akinchanya",
+"text":"Äkinchanya",
+"parent":"dharma",
+"description":"Supreme Non-attachment"
+ },
+ {
+"id":"k_brahmacharya",
+"text":"Brahmacharya",
+"parent":"dharma",
+"description":"Supreme Celibacy"
+ },
+ {
+"id":"b_anitya",
+"text":"Anitya Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the impermanence of the world."
+ },
+ {
+"id":"b_asharan",
+"text":"Asharan Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the helplessness against death and disease."
+ },
+ {
+"id":"b_samsar",
+"text":"Sansär Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the endless cycle of birth and death."
+ },
+ {
+"id":"b_ekatva",
+"text":"Ekatva Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the solitude of the soul."
+ },
+ {
+"id":"b_anyatva",
+"text":"Anyatva Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the separateness of the soul from the body."
+ },
+ {
+"id":"b_ashuchi",
+"text":"Ashuchi Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the impurity of the body."
+ },
+ {
+"id":"b_asrav",
+"text":"Äsrav Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the influx of karma."
+ },
+ {
+"id":"b_samvar",
+"text":"Samvar Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the stoppage of the influx of karma."
+ },
+ {
+"id":"b_nirjara",
+"text":"Nirjarä Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the shedding of karma through austerities."
+ },
+ {
+"id":"b_lok",
+"text":"Lok-svabhäv Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the nature and transitoriness of the universe."
+ },
+ {
+"id":"b_bodhi",
+"text":"Bodhidurlabh Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the rarity of attaining enlightenment."
+ },
+ {
+"id":"b_dharma",
+"text":"Dharma Bhävanä",
+"parent":"bhavana",
+"description":"Contemplation on the rarity of acquiring true religion and a true preceptor."
+ },
+ {
+"id":"c_samayik",
+"text":"Sämäyik Chäritra",
+"parent":"charitra",
+"description":"To remain in a state of equanimity throughout life."
+ },
+ {
+"id":"c_chhedo",
+"text":"Chhedo-pasthäpan Chäritra",
+"parent":"charitra",
+"description":"To live the life of an ascetic, correcting any breaches in conduct."
+ },
+ {
+"id":"c_parihar",
+"text":"Parihära-vishuddhi Chäritra",
+"parent":"charitra",
+"description":"To follow special types of penance as an advanced ascetic."
+ },
+ {
+"id":"c_sukshma",
+"text":"Sukshma-samparäy Chäritra",
+"parent":"charitra",
+"description":"The conduct of an ascetic who has almost no passions left, except a subtle desire for Moksh."
+ },
+ {
+"id":"c_yathakhyat",
+"text":"Yathäkhyät Chäritra",
+"parent":"charitra",
+"description":"The perfect, natural conduct of a Kevali (omniscient being), totally free from passions."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Nirjarä Mind Map",
+"contentType":"mindmap",
+"tabData": {
+"title":"The 12 Types of Nirjarä (Shedding of Karma)",
+"description":"Nirjarä is the process of eradicating accumulated karma through austerities (Tap). Mouse over each node for a description.",
+"nodes": [
+ {
+"id":"root",
+"text":"Nirjarä: 12 Ways",
+"parent": null,
+"description":"Nirjarä is the partial eradication of accumulated karma through deliberate effort (Sakäm Nirjarä)."
+ },
+ {
+"id":"bahya",
+"text":"6 Bähya Tap (External)",
+"parent":"root",
+"description":"External austerities primarily related to the physical body, which prepare one for internal austerities."
+ },
+ {
+"id":"abhyantar",
+"text":"6 Abhyantar Tap (Internal)",
+"parent":"root",
+"description":"Internal austerities related to purifying the mind and soul, which are the ultimate goal of Tap."
+ },
+ {
+"id":"b_anashan",
+"text":"Anashan",
+"parent":"bahya",
+"description":"Fasting; complete abstinence from food and/or water for a set period."
+ },
+ {
+"id":"b_unodari",
+"text":"Unodari",
+"parent":"bahya",
+"description":"Eating less than one's appetite to practice moderation."
+ },
+ {
+"id":"b_vritti",
+"text":"Vritti-sankshep",
+"parent":"bahya",
+"description":"Curtailing desires by limiting the number of food items or possessions."
+ },
+ {
+"id":"b_rasatyag",
+"text":"Rasatyäg",
+"parent":"bahya",
+"description":"Relinquishing tasty foods (like sweets, fried food, dairy) to conquer the sense of taste."
+ },
+ {
+"id":"b_kayaklesh",
+"text":"Käya-klesh",
+"parent":"bahya",
+"description":"Voluntarily enduring physical hardships with equanimity (e.g., meditating in heat/cold)."
+ },
+ {
+"id":"b_sanlinata",
+"text":"Sanlinatä",
+"parent":"bahya",
+"description":"Giving up pleasures of the five senses and occupying minimal space."
+ },
+ {
+"id":"a_prayashchitta",
+"text":"Präyashchitta",
+"parent":"abhyantar",
+"description":"Repentance and atonement for any breaches of vows or bad deeds."
+ },
+ {
+"id":"a_vinay",
+"text":"Vinay",
+"parent":"abhyantar",
+"description":"Modesty and showing appropriate respect to teachers, elders, and all deserving beings."
+ },
+ {
+"id":"a_veyavachcha",
+"text":"Veyävachcha",
+"parent":"abhyantar",
+"description":"Selfless service to monks, nuns, the needy, and those who are suffering."
+ },
+ {
+"id":"a_swadhyay",
+"text":"Swädhyäy",
+"parent":"abhyantar",
+"description":"Study of the self and religious scriptures to understand the true nature of the soul."
+ },
+ {
+"id":"a_dhyan",
+"text":"Dhyän",
+"parent":"abhyantar",
+"description":"Meditation, specifically virtuous meditation (Dharma Dhyän and Shukla Dhyän)."
+ },
+ {
+"id":"a_kayotsarg",
+"text":"Käyotsarg",
+"parent":"abhyantar",
+"description":"Renunciation of the physical body by withdrawing from all physical, verbal, and mental activities to stay absorbed in the soul."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Types of Fasts",
+"contentType":"accordian",
+"tabData": {
+"title":"A Guide to Common Austerities (Tapasyä)",
+"description":"Jainism includes many types of fasts and dietary restrictions as part of its external austerities.",
+"items": [
+ {
+"header":"Daily Restrictions",
+"content":"<b>Navakärashi:</b> Consuming food/water only 48 minutes after sunrise. <br><b>Chauvihär:</b> No food or water after sunset until sunrise the next day. <br><b>Tivihär:</b> No food after sunset, but water is permitted once before bed."
+ },
+ {
+"header":"Partial Day Fasts",
+"content":"<b>Porisi:</b> Consuming food/water only after the first Prahar (approx. 3 hours) of the day. <br><b>Purimuddha:</b> Consuming food/water only after two Prahars (midday)."
+ },
+ {
+"header":"Single & Double Meal Fasts",
+"content":"<b>Ekäsan:</b> Eating only one meal a day, in one sitting. <br><b>Biyäsan:</b> Eating two meals a day, in two sittings."
+ },
+ {
+"header":"Full Day Fasts (Upaväs)",
+"content":"<b>Upaväs:</b> A full day of fasting. A <b>Tivihär Upaväs</b> allows boiled water, while a <b>Chauvihär Upaväs</b> does not. <br><b>Chhath:</b> Two consecutive days of Upaväs. <br><b>Attham:</b> Three consecutive days of Upaväs."
+ },
+ {
+"header":"Specialized Austerities",
+"content":"<b>Äyambil:</b> A single meal of boiled or cooked food with no spices, oil, dairy, sugar, or green vegetables. <br><b>Navpad Oli:</b> Nine consecutive days of Äyambil. <br><b>Varsitap:</b> A year-long austerity of alternate-day fasting."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Moksh Tattva",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"Moksh: The Ultimate Goal"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<b>Moksh</b>, or liberation, is the ninth and final fundamental. It is the complete and total liberation of the soul from all karma. A soul that achieves Moksh is called a <b>Siddha</b>."
+ },
+ {
+"tagType":"h4",
+"tagHTML":"The State of a Siddha"
+ },
+ {
+"tagType":"ul",
+"tagHTML":"<li>The soul regains its original, pure attributes of infinite knowledge, infinite perception, infinite energy, and infinite bliss.</li><li>It is forever freed from the cycle of birth and death.</li><li>The liberated soul ascends to the top of the universe (Lokäkäsh) and resides there forever in a state of pure consciousness. This place is called <b>Siddha-kshetra</b>.</li>"
+ },
+ {
+"tagType":"h4",
+"tagHTML":"The Two Stages of Liberation"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<b>1. Keval-jnän:</b> This is the state of omniscience, attained when the four defiling (Ghäti) karmas are destroyed. The soul in this state is an Arihant. <br><b>2. Nirväna (Moksh):</b> This is the final liberation, which occurs upon the death of an Arihant, when the remaining four non-defiling (Aghäti) karmas are destroyed."
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Samvar, Nirjarä, and Moksh",
+"questions": [
+ {
+"question":"What is the Jain term for the stoppage of the influx of new karma?",
+"options": ["Äsrav","Bandh","Samvar","Nirjarä"],
+"answer":"Samvar"
+ },
+ {
+"question":"How many ways of Samvar are described in Jain literature?",
+"options": ["12","22","57","108"],
+"answer":"57"
+ },
+ {
+"question":"Which of the 5 Samitis refers to carefulness in walking?",
+"options": ["Bhäshä Samiti","Iryä Samiti","Eshanä Samiti","Utsarga Samiti"],
+"answer":"Iryä Samiti"
+ },
+ {
+"question":"Which of the 3 Guptis refers to control over the mind?",
+"options": ["Käya Gupti","Vachan Gupti","Mana Gupti","Dharma Gupti"],
+"answer":"Mana Gupti"
+ },
+ {
+"question":"Which of the 10 Yati Dharmas means'Supreme Humility'?",
+"options": ["Kshamä","Ärjav","Märdav","Shaucha"],
+"answer":"Märdav"
+ },
+ {
+"question":"Contemplating on the impermanence of the world is which Bhävanä?",
+"options": ["Anitya","Asharan","Ekatva","Anyatva"],
+"answer":"Anitya"
+ },
+ {
+"question":"How many types of Parishaha-Jaya (endurance of hardships) are there?",
+"options": ["10","12","22","5"],
+"answer":"22"
+ },
+ {
+"question":"Which type of Chäritra (conduct) is the perfect, natural conduct of a Kevali?",
+"options": ["Sämäyik Chäritra","Chhedo-pasthäpan Chäritra","Sukshma-samparäy Chäritra","Yathäkhyät Chäritra"],
+"answer":"Yathäkhyät Chäritra"
+ },
+ {
+"question":"What is the Jain term for the eradication of accumulated karma?",
+"options": ["Samvar","Nirjarä","Moksh","Bandh"],
+"answer":"Nirjarä"
+ },
+ {
+"question":"What is the difference between Akäm Nirjarä and Sakäm Nirjarä?",
+"options": ["One is for monks, the other for laity","Akäm is automatic shedding, Sakäm is through deliberate effort","Akäm sheds good karma, Sakäm sheds bad karma","There is no difference"],
+"answer":"Akäm is automatic shedding, Sakäm is through deliberate effort"
+ },
+ {
+"question":"How many types of external (Bähya) and internal (Abhyantar) Tap are there?",
+"options": ["5 external, 5 internal","6 external, 6 internal","7 external, 5 internal","10 external, 2 internal"],
+"answer":"6 external, 6 internal"
+ },
+ {
+"question":"Which external austerity involves eating less than one's appetite?",
+"options": ["Anashan","Unodari","Rasatyäg","Käya-klesh"],
+"answer":"Unodari"
+ },
+ {
+"question":"What is the internal austerity of'Präyashchitta'?",
+"options": ["Selfless service","Meditation","Repentance","Modesty"],
+"answer":"Repentance"
+ },
+ {
+"question":"The austerity of'Äyambil' involves giving up what?",
+"options": ["All food and water","Only water","Spices, oil, dairy, sugar, and green vegetables","Walking"],
+"answer":"Spices, oil, dairy, sugar, and green vegetables"
+ },
+ {
+"question":"What is the ultimate internal austerity, involving the renunciation of all physical and mental activities?",
+"options": ["Dhyän","Vinay","Swädhyäy","Käyotsarg"],
+"answer":"Käyotsarg"
+ },
+ {
+"question":"What does the term'Upaväs' literally mean?",
+"options": ["No food","No water","To stay near the soul","To torture the body"],
+"answer":"To stay near the soul"
+ },
+ {
+"question":"What is'Attham'?",
+"options": ["Fasting for one day","Fasting for two consecutive days","Fasting for three consecutive days","Fasting for eight consecutive days"],
+"answer":"Fasting for three consecutive days"
+ },
+ {
+"question":"What is the name for the nine-day period of Äyambil?",
+"options": ["Varsitap","Navpad Oli","Siddhi Tap","Atthai"],
+"answer":"Navpad Oli"
+ },
+ {
+"question":"What is the final state of total liberation from all karma called?",
+"options": ["Samvar","Nirjarä","Moksh","Keval-jnän"],
+"answer":"Moksh"
+ },
+ {
+"question":"What is a liberated soul called?",
+"options": ["Arihant","Siddha","Ächärya","Tirthankar"],
+"answer":"Siddha"
+ },
+ {
+"question":"Where do liberated souls reside?",
+"options": ["In heaven","On Mount Meru","At the top of the universe (Siddha-kshetra)","They are reborn as humans"],
+"answer":"At the top of the universe (Siddha-kshetra)"
+ },
+ {
+"question":"The state of omniscience, achieved before final liberation, is called:",
+"options": ["Moksh","Nirväna","Keval-jnän","Siddha"],
+"answer":"Keval-jnän"
+ },
+ {
+"question":"Which four karmas are known as'defiling' or'Ghäti' karmas?",
+"options": ["Knowledge-obscuring, Perception-obscuring, Deluding, and Obstructing","Feeling-producing, Body-determining, Status-determining, and Lifespan-determining","The four passions","The four auxiliary reflections"],
+"answer":"Knowledge-obscuring, Perception-obscuring, Deluding, and Obstructing"
+ },
+ {
+"question":"The internal austerity'Veyävachcha' refers to what?",
+"options": ["Repentance","Selfless service","Meditation","Religious study"],
+"answer":"Selfless service"
+ },
+ {
+"question":"Which austerity means'curtailing desires' for food and possessions?",
+"options": ["Anashan","Rasatyäg","Vritti-sankshep","Käya-klesh"],
+"answer":"Vritti-sankshep"
+ },
+ {
+"question":"The analogy of a house during a dust storm is used to explain the Nav Tattvas. What does closing the doors and windows represent?",
+"options": ["Äsrav","Bandh","Samvar","Nirjarä"],
+"answer":"Samvar"
+ },
+ {
+"question":"In the same dust storm analogy, what does cleaning up the accumulated dust represent?",
+"options": ["Äsrav","Bandh","Samvar","Nirjarä"],
+"answer":"Nirjarä"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

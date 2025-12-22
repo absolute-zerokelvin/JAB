@@ -1,222 +1,222 @@
 {
-  "title": "The Story of Puniä Shrävak",
-  "subtitle": "Section H.8 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "A Life of Contentment"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Puniä Shrävak and his wife chose to live a life of poverty. He took a vow to earn no more than the bare minimum needed for survival, which was 12 dokada a day. He also vowed to offer food to virtuous people daily. To fulfill this second vow with their limited means, <span class=\"highlight\">he and his wife would fast on alternate days</span>."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Puniä performed Sämäyik (48 minutes of equanimous meditation) daily. One day, his meditation was disturbed. He realized it was because his wife had picked up a piece of dry cow manure from the street to use as fuel. He explained that they should not take anything, no matter how worthless it seemed, that was not bought with their own earnings. It was this level of high morality that made his Sämäyik so pure that even <span class=\"highlight\">Bhagawän Mahävir</span> praised it."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A King's Request"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" ath d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" svg>One day, <span class=\"highlight\">King Shrenik</span> asked Mahävir how he could avoid his destiny of being born in hell. Mahävir, wanting to teach the king a lesson, said, “If you can buy the punya (merit) of one Sämäyik from Puniä Shrävak, then it may be possible.”"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "The king went to Puniä's humble hut and offered his entire kingdom in exchange for the merit of one Sämäyik. Puniä replied with great respect, “Sir, I do not need any money... However, I do not know how to give my Sämäyik punya to you. <span class=\"highlight\">Good karma cannot be purchased.</span> One has to do good karma personally.” King Shrenik left disappointed, but with a new understanding that all his wealth could not buy the spiritual merit earned by a poor man's sincere devotion."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "A Life of Vows",
-      "period": "Daily Life",
-      "events": [
-        {
-          "title": "A Vow of Poverty",
-          "description": "Puniä Shrävak takes a vow to earn only the bare minimum needed for survival each day.",
-          "characters": ["Puniä Shrävak"]
-        },
-        {
-          "title": "A Vow of Charity",
-          "description": "He and his wife also vow to offer food to virtuous people daily, which requires them to fast on alternate days.",
-          "characters": ["Puniä Shrävak", "Puniä's Wife"]
-        },
-        {
-          "title": "The Purest Sämäyik",
-          "description": "His morality is so high that he feels his meditation is disturbed by using a piece of ownerless cow manure, an act praised by Mahävir.",
-          "characters": ["Puniä Shrävak", "Bhagawän Mahävir"]
-        }
-      ]
-    },
-    {
-      "era": "The King's Dilemma",
-      "period": "A Fateful Day",
-      "events": [
-        {
-          "title": "A Question for Mahävir",
-          "description": "King Shrenik asks Mahävir how to change his karma to avoid being born in hell.",
-          "characters": ["King Shrenik", "Bhagawän Mahävir"]
-        },
-        {
-          "title": "A Wise Suggestion",
-          "description": "To teach a lesson, Mahävir suggests the king try to 'buy' the merit of one Sämäyik from Puniä Shrävak.",
-          "characters": ["King Shrenik", "Bhagawän Mahävir"]
-        }
-      ]
-    },
-    {
-      "era": "The Invaluable Treasure",
-      "period": "The Encounter",
-      "events": [
-        {
-          "title": "An Offer is Made",
-          "description": "The king goes to Puniä's hut and offers his entire kingdom in exchange for the merit of one Sämäyik.",
-          "characters": ["King Shrenik", "Puniä Shrävak"]
-        },
-        {
-          "title": "A Humble Refusal",
-          "description": "Puniä respectfully refuses, explaining that spiritual merit (punya) cannot be bought or sold; it must be earned personally.",
-          "characters": ["Puniä Shrävak", "King Shrenik"]
-        },
-        {
-          "title": "The King's Realization",
-          "description": "King Shrenik leaves with a profound understanding that spiritual wealth is more valuable than all his material riches.",
-          "characters": ["King Shrenik"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Puniä Shrävak",
-      "description": "A poor villager who lived a life of extreme contentment and high morals by his own choice. His Sämäyik was so pure that not even a king's entire wealth could purchase its merit."
-    },
-    {
-      "name": "King Shrenik",
-      "description": "A powerful king who was worried about his karma. He learned from Puniä that spiritual merit cannot be bought with material wealth but must be earned through personal deeds."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar, who used the example of Puniä's pure Sämäyik to teach King Shrenik a valuable lesson about the nature of karma."
-    }
-  ],
-  "quizData": [
-    { "question": "What was Puniä Shrävak's profession?", "answer": "He earned a living by spinning and selling cotton yarn." },
-    { "question": "What was the first vow Puniä had taken regarding his earnings?", "answer": "Not to earn more than the minimum needed to survive (12 dokada a day)." },
-    { "question": "What was his second vow regarding food?", "answer": "To offer food to virtuous people daily." },
-    { "question": "How did he and his wife manage to fulfill their second vow with their limited income?", "answer": "They fasted on alternate days." },
-    { "question": "What daily ritual did Puniä perform?", "answer": "Sämäyik (48 minutes of meditation and equanimity)." },
-    { "question": "What small act disturbed his Sämäyik one day?", "answer": "His wife had picked up dry cow manure from the street to use as cooking fuel." },
-    { "question": "This incident shows Puniä's strict adherence to which Jain principle?", "answer": "Asteya (non-stealing)." },
-    { "question": "Who praised Puniä's Sämäyik in his sermon?", "answer": "Bhagawän Mahävir." },
-    { "question": "What was King Shrenik worried about?", "answer": "That his bad karma would cause him to be born in hell in his next life." },
-    { "question": "What did Mahävir suggest King Shrenik do?", "answer": "Try to buy the merit (punya) of one Sämäyik from Puniä Shrävak." },
-    { "question": "What did King Shrenik offer to Puniä in exchange for his Sämäyik's merit?", "answer": "His entire kingdom." },
-    { "question": "What was Puniä's wise reply to the king's offer?", "answer": "He said good karma cannot be purchased; one has to do good karma personally." },
-    { "question": "What did King Shrenik realize from this encounter?", "answer": "That all his wealth could not buy the spiritual merit earned by a devout person." },
-    { "question": "The story says Puniä Shrävak followed two of the five Anuvrat (vows for householders). One was non-stealing. What was the other?", "answer": "Aparigraha (non-possessiveness)." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Puniä Shrävak",
-    "children": [
-      {
-        "name": "A Life of Vows",
-        "children": [
-          { "name": "Limited Earnings" },
-          { "name": "Daily Charity" },
-          { "name": "Pure Sämäyik" }
-        ]
-      },
-      {
-        "name": "The King's Problem",
-        "children": [
-          { "name": "Fears Hell" },
-          { "name": "Asks Mahävir for a Solution" }
-        ]
-      },
-      {
-        "name": "The Proposed Transaction",
-        "children": [
-          { "name": "King offers Kingdom" },
-          { "name": "Wants to 'Buy' Sämäyik's Merit" }
-        ]
-      },
-      {
-        "name": "The Invaluable Lesson",
-        "children": [
-          { "name": "Puniä refuses the offer" },
-          { "name": "Karma Cannot be Bought" },
-          { "name": "King learns the true value of piety" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "The Value of True Piety",
-    "children": [
-      {
-        "name": "Puniä's Wealth",
-        "children": [
-          { "name": "Spiritual (Sämäyik)" }
-        ]
-      },
-      {
-        "name": "King Shrenik's Wealth",
-        "children": [
-          { "name": "Material (Kingdom)" }
-        ]
-      },
-      {
-        "name": "The Encounter",
-        "children": [
-          { "name": "An Offer" },
-          { "name": "A Refusal" },
-          { "name": "A Realization" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Simple, Devout Life",
-      "description": "Puniä Shrävak and his wife live happily in a humble hut, choosing a life of minimal possessions and daily charity, fasting on alternate days.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Humble+Hut",
-      "imageAlt": "A couple living simply and peacefully in a small, rustic hut."
-    },
-    {
-      "title": "The Purest Meditation",
-      "description": "Puniä's Sämäyik is so pure that it is disturbed even by the use of a piece of ownerless cow manure found on the street.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Puniä's+Pure+Sämäyik",
-      "imageAlt": "A man in deep meditation, looking slightly troubled by a very minor thought."
-    },
-    {
-      "title": "A King's Fear",
-      "description": "The powerful King Shrenik, fearing his karmic destiny, asks the omniscient Bhagawän Mahävir for a way to avoid being born in hell.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=King+Shrenik+and+Mahävir",
-      "imageAlt": "A worried king speaking to a serene monk."
-    },
-    {
-      "title": "The Royal Offer",
-      "description": "Following Mahävir's advice, King Shrenik goes to Puniä's hut and offers his entire kingdom in exchange for the spiritual merit of a single Sämäyik.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=An+Offer+of+a+Kingdom",
-      "imageAlt": "A king holding out a crown and a deed to a poor man sitting outside a hut."
-    },
-    {
-      "title": "The Invaluable Treasure",
-      "description": "Puniä humbly refuses the king's offer, explaining that good karma is a treasure that cannot be bought or sold, but must be earned personally.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Karma+Cannot+be+Purchased",
-      "imageAlt": "A poor man gently refusing a king's lavish offer with a respectful gesture."
-    },
-    {
-      "title": "A King's Realization",
-      "description": "King Shrenik leaves with a newfound understanding that the true wealth of a poor, devout man is far greater than all his material riches.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+King's+New+Wisdom",
-      "imageAlt": "A king walking away from a hut, looking thoughtful and humbled."
-    }
-  ]
+"title":"The Story of Puniä Shrävak",
+"subtitle":"Section H.8 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"A Life of Contentment"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Puniä Shrävak and his wife chose to live a life of poverty. He took a vow to earn no more than the bare minimum needed for survival, which was 12 dokada a day. He also vowed to offer food to virtuous people daily. To fulfill this second vow with their limited means, <span class=\"highlight\">he and his wife would fast on alternate days</span>."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Puniä performed Sämäyik (48 minutes of equanimous meditation) daily. One day, his meditation was disturbed. He realized it was because his wife had picked up a piece of dry cow manure from the street to use as fuel. He explained that they should not take anything, no matter how worthless it seemed, that was not bought with their own earnings. It was this level of high morality that made his Sämäyik so pure that even <span class=\"highlight\">Bhagawän Mahävir</span> praised it."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A King's Request"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" ath d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" svg>One day, <span class=\"highlight\">King Shrenik</span> asked Mahävir how he could avoid his destiny of being born in hell. Mahävir, wanting to teach the king a lesson, said, “If you can buy the punya (merit) of one Sämäyik from Puniä Shrävak, then it may be possible.”"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The king went to Puniä's humble hut and offered his entire kingdom in exchange for the merit of one Sämäyik. Puniä replied with great respect, “Sir, I do not need any money... However, I do not know how to give my Sämäyik punya to you. <span class=\"highlight\">Good karma cannot be purchased.</span> One has to do good karma personally.” King Shrenik left disappointed, but with a new understanding that all his wealth could not buy the spiritual merit earned by a poor man's sincere devotion."
+ }
+ ],
+"timelineData": [
+ {
+"era":"A Life of Vows",
+"period":"Daily Life",
+"events": [
+ {
+"title":"A Vow of Poverty",
+"description":"Puniä Shrävak takes a vow to earn only the bare minimum needed for survival each day.",
+"characters": ["Puniä Shrävak"]
+ },
+ {
+"title":"A Vow of Charity",
+"description":"He and his wife also vow to offer food to virtuous people daily, which requires them to fast on alternate days.",
+"characters": ["Puniä Shrävak","Puniä's Wife"]
+ },
+ {
+"title":"The Purest Sämäyik",
+"description":"His morality is so high that he feels his meditation is disturbed by using a piece of ownerless cow manure, an act praised by Mahävir.",
+"characters": ["Puniä Shrävak","Bhagawän Mahävir"]
+ }
+ ]
+ },
+ {
+"era":"The King's Dilemma",
+"period":"A Fateful Day",
+"events": [
+ {
+"title":"A Question for Mahävir",
+"description":"King Shrenik asks Mahävir how to change his karma to avoid being born in hell.",
+"characters": ["King Shrenik","Bhagawän Mahävir"]
+ },
+ {
+"title":"A Wise Suggestion",
+"description":"To teach a lesson, Mahävir suggests the king try to'buy' the merit of one Sämäyik from Puniä Shrävak.",
+"characters": ["King Shrenik","Bhagawän Mahävir"]
+ }
+ ]
+ },
+ {
+"era":"The Invaluable Treasure",
+"period":"The Encounter",
+"events": [
+ {
+"title":"An Offer is Made",
+"description":"The king goes to Puniä's hut and offers his entire kingdom in exchange for the merit of one Sämäyik.",
+"characters": ["King Shrenik","Puniä Shrävak"]
+ },
+ {
+"title":"A Humble Refusal",
+"description":"Puniä respectfully refuses, explaining that spiritual merit (punya) cannot be bought or sold; it must be earned personally.",
+"characters": ["Puniä Shrävak","King Shrenik"]
+ },
+ {
+"title":"The King's Realization",
+"description":"King Shrenik leaves with a profound understanding that spiritual wealth is more valuable than all his material riches.",
+"characters": ["King Shrenik"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Puniä Shrävak",
+"description":"A poor villager who lived a life of extreme contentment and high morals by his own choice. His Sämäyik was so pure that not even a king's entire wealth could purchase its merit."
+ },
+ {
+"name":"King Shrenik",
+"description":"A powerful king who was worried about his karma. He learned from Puniä that spiritual merit cannot be bought with material wealth but must be earned through personal deeds."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar, who used the example of Puniä's pure Sämäyik to teach King Shrenik a valuable lesson about the nature of karma."
+ }
+ ],
+"quizData": [
+ {"question":"What was Puniä Shrävak's profession?","answer":"He earned a living by spinning and selling cotton yarn." },
+ {"question":"What was the first vow Puniä had taken regarding his earnings?","answer":"Not to earn more than the minimum needed to survive (12 dokada a day)." },
+ {"question":"What was his second vow regarding food?","answer":"To offer food to virtuous people daily." },
+ {"question":"How did he and his wife manage to fulfill their second vow with their limited income?","answer":"They fasted on alternate days." },
+ {"question":"What daily ritual did Puniä perform?","answer":"Sämäyik (48 minutes of meditation and equanimity)." },
+ {"question":"What small act disturbed his Sämäyik one day?","answer":"His wife had picked up dry cow manure from the street to use as cooking fuel." },
+ {"question":"This incident shows Puniä's strict adherence to which Jain principle?","answer":"Asteya (non-stealing)." },
+ {"question":"Who praised Puniä's Sämäyik in his sermon?","answer":"Bhagawän Mahävir." },
+ {"question":"What was King Shrenik worried about?","answer":"That his bad karma would cause him to be born in hell in his next life." },
+ {"question":"What did Mahävir suggest King Shrenik do?","answer":"Try to buy the merit (punya) of one Sämäyik from Puniä Shrävak." },
+ {"question":"What did King Shrenik offer to Puniä in exchange for his Sämäyik's merit?","answer":"His entire kingdom." },
+ {"question":"What was Puniä's wise reply to the king's offer?","answer":"He said good karma cannot be purchased; one has to do good karma personally." },
+ {"question":"What did King Shrenik realize from this encounter?","answer":"That all his wealth could not buy the spiritual merit earned by a devout person." },
+ {"question":"The story says Puniä Shrävak followed two of the five Anuvrat (vows for householders). One was non-stealing. What was the other?","answer":"Aparigraha (non-possessiveness)." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Puniä Shrävak",
+"children": [
+ {
+"name":"A Life of Vows",
+"children": [
+ {"name":"Limited Earnings" },
+ {"name":"Daily Charity" },
+ {"name":"Pure Sämäyik" }
+ ]
+ },
+ {
+"name":"The King's Problem",
+"children": [
+ {"name":"Fears Hell" },
+ {"name":"Asks Mahävir for a Solution" }
+ ]
+ },
+ {
+"name":"The Proposed Transaction",
+"children": [
+ {"name":"King offers Kingdom" },
+ {"name":"Wants to'Buy' Sämäyik's Merit" }
+ ]
+ },
+ {
+"name":"The Invaluable Lesson",
+"children": [
+ {"name":"Puniä refuses the offer" },
+ {"name":"Karma Cannot be Bought" },
+ {"name":"King learns the true value of piety" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"The Value of True Piety",
+"children": [
+ {
+"name":"Puniä's Wealth",
+"children": [
+ {"name":"Spiritual (Sämäyik)" }
+ ]
+ },
+ {
+"name":"King Shrenik's Wealth",
+"children": [
+ {"name":"Material (Kingdom)" }
+ ]
+ },
+ {
+"name":"The Encounter",
+"children": [
+ {"name":"An Offer" },
+ {"name":"A Refusal" },
+ {"name":"A Realization" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Simple, Devout Life",
+"description":"Puniä Shrävak and his wife live happily in a humble hut, choosing a life of minimal possessions and daily charity, fasting on alternate days.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Humble+Hut",
+"imageAlt":"A couple living simply and peacefully in a small, rustic hut."
+ },
+ {
+"title":"The Purest Meditation",
+"description":"Puniä's Sämäyik is so pure that it is disturbed even by the use of a piece of ownerless cow manure found on the street.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Puniä's+Pure+Sämäyik",
+"imageAlt":"A man in deep meditation, looking slightly troubled by a very minor thought."
+ },
+ {
+"title":"A King's Fear",
+"description":"The powerful King Shrenik, fearing his karmic destiny, asks the omniscient Bhagawän Mahävir for a way to avoid being born in hell.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=King+Shrenik+and+Mahävir",
+"imageAlt":"A worried king speaking to a serene monk."
+ },
+ {
+"title":"The Royal Offer",
+"description":"Following Mahävir's advice, King Shrenik goes to Puniä's hut and offers his entire kingdom in exchange for the spiritual merit of a single Sämäyik.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=An+Offer+of+a+Kingdom",
+"imageAlt":"A king holding out a crown and a deed to a poor man sitting outside a hut."
+ },
+ {
+"title":"The Invaluable Treasure",
+"description":"Puniä humbly refuses the king's offer, explaining that good karma is a treasure that cannot be bought or sold, but must be earned personally.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Karma+Cannot+be+Purchased",
+"imageAlt":"A poor man gently refusing a king's lavish offer with a respectful gesture."
+ },
+ {
+"title":"A King's Realization",
+"description":"King Shrenik leaves with a newfound understanding that the true wealth of a poor, devout man is far greater than all his material riches.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=The+King's+New+Wisdom",
+"imageAlt":"A king walking away from a hut, looking thoughtful and humbled."
+ }
+ ]
 }

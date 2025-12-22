@@ -1,226 +1,226 @@
 {
-  "title": "The Story of Chandkaushik",
-  "subtitle": "Section H.2 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "The Venomous Serpent"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "While traveling as a monk, Bhagawän Mahävir decided to pass through a forest feared by all. It was home to a terrifyingly poisonous snake named <span class=\"highlight\">Chandkaushik</span>, whose venomous gaze was said to kill any living being. Villagers begged Mahävir to take another route, but he, fearless and filled with universal compassion, proceeded into the snake's desolate territory."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Sensing an intruder, Chandkaushik slithered out of his burrow, furious at the man standing calmly in his domain. The snake hissed and blew his poison at Mahävir, but it had no effect. Enraged further by the monk's tranquility, Chandkaushik sank his fangs into Mahävir’s toe."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "An Awakening Through Compassion"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 2a.75.75 0 01.75.75v3.532a.75.75 0 01-.623.744l-4.5 1.125A.75.75 0 014.5 8.32V7.5a.75.75 0 01.75-.75h9.5a.75.75 0 010 1.5h-8.21l3.11-1.244a.75.75 0 01.85 1.6l-4.75 2.375a.75.75 0 01-.98-.98l4.25-4.25V2.75A.75.75 0 0110 2z\" ath d=\"M9.25 10.16a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zM10.875 12.03a.75.75 0 00-1.06 1.061l1.53 1.531-1.28 1.28a.75.75 0 001.06 1.061l1.28-1.28 1.53 1.531a.75.75 0 101.06-1.061l-1.53-1.531 1.28-1.28a.75.75 0 10-1.06-1.061l-1.28 1.28-1.53-1.531z\" ath d=\"M3.75 13.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H4.5a.75.75 0 01-.75-.75v-.008zM4.5 15.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75H4.5z\" svg>The snake was stunned to see not blood, but a milk-like substance flow from the wound. Mahävir opened his eyes and, with love and compassion, said, <span class=\"highlight\">“Bujh, Bujh, Chandkaushik”</span> (Realize, Realize, Chandkaushik). The gentle words and peaceful gaze calmed the snake's rage. He suddenly remembered his past two lives and understood that his intense anger and ego had caused his miserable rebirth as a snake."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Filled with repentance, Chandkaushik retreated to his hole and vowed to atone for his sins by harming no one and accepting all hardship. He peacefully endured being beaten by vengeful villagers and bitten by ants. Through this self-restraint, he destroyed much of his bad karma and, upon his death, was reborn in heaven."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Confrontation",
-      "period": "Mahävir's travels",
-      "events": [
-        {
-          "title": "Entering the Forest",
-          "description": "Ignoring warnings, Mahävir enters the forest home of the deadly snake, Chandkaushik.",
-          "characters": ["Bhagawän Mahävir", "The Villagers"]
-        },
-        {
-          "title": "A Furious Attack",
-          "description": "Enraged by Mahävir's fearless presence, Chandkaushik attacks him with venom and bites his toe.",
-          "characters": ["Chandkaushik", "Bhagawän Mahävir"]
-        }
-      ]
-    },
-    {
-      "era": "The Transformation",
-      "period": "The moment of insight",
-      "events": [
-        {
-          "title": "A Miraculous Sight",
-          "description": "Instead of blood, milk flows from Mahävir's toe, stunning the snake.",
-          "characters": ["Chandkaushik", "Bhagawän Mahävir"]
-        },
-        {
-          "title": "Words of Compassion",
-          "description": "Mahävir calmly speaks to the snake, 'Bujh, Bujh, Chandkaushik', urging him to realize his true nature.",
-          "characters": ["Bhagawän Mahävir", "Chandkaushik"]
-        },
-        {
-          "title": "Memory of Past Lives",
-          "description": "The words trigger a memory of his past two lives, and Chandkaushik understands how his anger led to his current state.",
-          "characters": ["Chandkaushik"]
-        }
-      ]
-    },
-    {
-      "era": "Atonement and Liberation",
-      "period": "After the encounter",
-      "events": [
-        {
-          "title": "A Vow of Penance",
-          "description": "Full of remorse, the snake retreats to its hole and peacefully endures all subsequent harm from villagers and insects.",
-          "characters": ["Chandkaushik", "The Villagers"]
-        },
-        {
-          "title": "Rebirth in Heaven",
-          "description": "Through this self-restraint and control, he sheds much of his bad karma and is reborn in heaven after his death.",
-          "characters": ["Chandkaushik"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Chandkaushik",
-      "description": "A highly venomous and feared snake whose intense anger was a result of his karma from previous lives. He was transformed by Mahävir's compassion and attained a heavenly birth through repentance."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar. His fearlessness and boundless compassion were so powerful that they could calm the most furious of creatures and awaken them to their spiritual path."
-    },
-    {
-      "name": "The Villagers",
-      "description": "People living in fear of the snake. They represent both the concern for Mahävir's safety and the vengeful anger towards Chandkaushik for the harm he had caused."
-    }
-  ],
-  "quizData": [
-    { "question": "What was the name of the poisonous snake?", "answer": "Chandkaushik." },
-    { "question": "What was Chandkaushik's gaze said to do?", "answer": "Kill a person or animal." },
-    { "question": "Did Mahävir listen to the villagers' warnings to take another route?", "answer": "No, he was fearless and proceeded into the forest." },
-    { "question": "How did Chandkaushik react when he first saw Mahävir?", "answer": "He became furious and started hissing to threaten him." },
-    { "question": "What happened when Chandkaushik blew his venom at Mahävir?", "answer": "It had no effect on Mahävir and did not disturb his meditation." },
-    { "question": "What flowed from Mahävir's toe when the snake bit him?", "answer": "Milk, instead of blood." },
-    { "question": "What were the compassionate words Mahävir spoke to the snake?", "answer": "“Bujh, Bujh, Chandkaushik” (Realize, Realize, Chandkaushik)." },
-    { "question": "What did the snake remember after hearing Mahävir's words?", "answer": "He remembered his two previous lives." },
-    { "question": "What did Chandkaushik realize was the cause of his rebirth as a snake?", "answer": "His anger and ego from his last two lives." },
-    { "question": "After his change of heart, how did Chandkaushik react when villagers threw stones and beat him?", "answer": "He willingly suffered the pain and remained at peace with no anger." },
-    { "question": "Where was Chandkaushik reborn after his death?", "answer": "In heaven." },
-    { "question": "What does the moral of the story say fear, hatred, and ego are?", "answer": "Violence to oneself." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Chandkaushik",
-    "children": [
-      {
-        "name": "The Confrontation",
-        "children": [
-          { "name": "Mahävir enters the forest" },
-          { "name": "Chandkaushik attacks" },
-          { "name": "The bite and the milk" }
-        ]
-      },
-      {
-        "name": "The Awakening",
-        "children": [
-          { "name": "Mahävir's compassionate words" },
-          { "name": "Snake recalls past lives" },
-          { "name": "Realizes error of anger" }
-        ]
-      },
-      {
-        "name": "The Atonement",
-        "children": [
-          { "name": "Retreats to his hole" },
-          { "name": "Peacefully endures attacks" },
-          { "name": "Destroys bad karma" }
-        ]
-      },
-      {
-        "name": "The Result",
-        "children": [
-          { "name": "Dies peacefully" },
-          { "name": "Reborn in heaven" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Chandkaushik: Anger to Atonement",
-    "children": [
-      {
-        "name": "Rage",
-        "children": [
-          { "name": "The Attack" }
-        ]
-      },
-      {
-        "name": "Compassion",
-        "children": [
-          { "name": "The Words" }
-        ]
-      },
-      {
-        "name": "Realization",
-        "children": [
-          { "name": "The Memory" }
-        ]
-      },
-      {
-        "name": "Penance",
-        "children": [
-          { "name": "The Endurance" }
-        ]
-      },
-      {
-        "name": "Liberation",
-        "children": [
-          { "name": "The Reward" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Fearless Path",
-      "description": "Despite warnings from fearful villagers, the serene Bhagawän Mahävir calmly walks into the dreaded forest of the venomous snake, Chandkaushik.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Mahävir+Enters+the+Forest",
-      "imageAlt": "A monk walking peacefully into a dark and ominous-looking forest."
-    },
-    {
-      "title": "A Vicious Attack",
-      "description": "Enraged by the intruder, Chandkaushik attacks Mahävir, first with poisonous venom and then by sinking his fangs into the monk's toe.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Chandkaushik+Attacks",
-      "imageAlt": "A large, angry cobra biting the foot of a meditating monk."
-    },
-    {
-      "title": "A Miraculous Sight",
-      "description": "The snake is shocked to see milk, not blood, flowing from the wound, a sign of the monk's divine purity and power.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Milk+Flows+From+the+Wound",
-      "imageAlt": "A close-up of a snake looking with surprise at a monk's foot, from which a white liquid flows."
-    },
-    {
-      "title": "Words of Awakening",
-      "description": "Mahävir opens his eyes and, with pure compassion, speaks the words 'Bujh, Bujh' (Realize, Realize), which pierces the snake's angry heart.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Bujh,+Bujh,+Chandkaushik",
-      "imageAlt": "A monk looking with love and compassion directly at an angry snake, calming it."
-    },
-    {
-      "title": "A Life of Repentance",
-      "description": "Filled with remorse, the transformed Chandkaushik retreats to his hole, peacefully accepting the stones and sticks of vengeful villagers as his penance.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Snake's+Atonement",
-      "imageAlt": "A snake lying peacefully with its head in a hole, while people in the background throw stones."
-    },
-    {
-      "title": "A Heavenly Reward",
-      "description": "Through his self-restraint and acceptance of suffering, Chandkaushik sheds his bad karma and is reborn in a heavenly realm.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Rebirth+in+Heaven",
-      "imageAlt": "A depiction of a snake's soul ascending to a beautiful celestial world."
-    }
-  ]
+"title":"The Story of Chandkaushik",
+"subtitle":"Section H.2 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"The Venomous Serpent"
+ },
+ {
+"tagType":"p",
+"tagHTML":"While traveling as a monk, Bhagawän Mahävir decided to pass through a forest feared by all. It was home to a terrifyingly poisonous snake named <span class=\"highlight\">Chandkaushik</span>, whose venomous gaze was said to kill any living being. Villagers begged Mahävir to take another route, but he, fearless and filled with universal compassion, proceeded into the snake's desolate territory."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Sensing an intruder, Chandkaushik slithered out of his burrow, furious at the man standing calmly in his domain. The snake hissed and blew his poison at Mahävir, but it had no effect. Enraged further by the monk's tranquility, Chandkaushik sank his fangs into Mahävir’s toe."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"An Awakening Through Compassion"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 2a.75.75 0 01.75.75v3.532a.75.75 0 01-.623.744l-4.5 1.125A.75.75 0 014.5 8.32V7.5a.75.75 0 01.75-.75h9.5a.75.75 0 010 1.5h-8.21l3.11-1.244a.75.75 0 01.85 1.6l-4.75 2.375a.75.75 0 01-.98-.98l4.25-4.25V2.75A.75.75 0 0110 2z\" ath d=\"M9.25 10.16a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zM10.875 12.03a.75.75 0 00-1.06 1.061l1.53 1.531-1.28 1.28a.75.75 0 001.06 1.061l1.28-1.28 1.53 1.531a.75.75 0 101.06-1.061l-1.53-1.531 1.28-1.28a.75.75 0 10-1.06-1.061l-1.28 1.28-1.53-1.531z\" ath d=\"M3.75 13.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H4.5a.75.75 0 01-.75-.75v-.008zM4.5 15.75a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75H4.5z\" svg>The snake was stunned to see not blood, but a milk-like substance flow from the wound. Mahävir opened his eyes and, with love and compassion, said, <span class=\"highlight\">“Bujh, Bujh, Chandkaushik”</span> (Realize, Realize, Chandkaushik). The gentle words and peaceful gaze calmed the snake's rage. He suddenly remembered his past two lives and understood that his intense anger and ego had caused his miserable rebirth as a snake."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Filled with repentance, Chandkaushik retreated to his hole and vowed to atone for his sins by harming no one and accepting all hardship. He peacefully endured being beaten by vengeful villagers and bitten by ants. Through this self-restraint, he destroyed much of his bad karma and, upon his death, was reborn in heaven."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Confrontation",
+"period":"Mahävir's travels",
+"events": [
+ {
+"title":"Entering the Forest",
+"description":"Ignoring warnings, Mahävir enters the forest home of the deadly snake, Chandkaushik.",
+"characters": ["Bhagawän Mahävir","The Villagers"]
+ },
+ {
+"title":"A Furious Attack",
+"description":"Enraged by Mahävir's fearless presence, Chandkaushik attacks him with venom and bites his toe.",
+"characters": ["Chandkaushik","Bhagawän Mahävir"]
+ }
+ ]
+ },
+ {
+"era":"The Transformation",
+"period":"The moment of insight",
+"events": [
+ {
+"title":"A Miraculous Sight",
+"description":"Instead of blood, milk flows from Mahävir's toe, stunning the snake.",
+"characters": ["Chandkaushik","Bhagawän Mahävir"]
+ },
+ {
+"title":"Words of Compassion",
+"description":"Mahävir calmly speaks to the snake,'Bujh, Bujh, Chandkaushik', urging him to realize his true nature.",
+"characters": ["Bhagawän Mahävir","Chandkaushik"]
+ },
+ {
+"title":"Memory of Past Lives",
+"description":"The words trigger a memory of his past two lives, and Chandkaushik understands how his anger led to his current state.",
+"characters": ["Chandkaushik"]
+ }
+ ]
+ },
+ {
+"era":"Atonement and Liberation",
+"period":"After the encounter",
+"events": [
+ {
+"title":"A Vow of Penance",
+"description":"Full of remorse, the snake retreats to its hole and peacefully endures all subsequent harm from villagers and insects.",
+"characters": ["Chandkaushik","The Villagers"]
+ },
+ {
+"title":"Rebirth in Heaven",
+"description":"Through this self-restraint and control, he sheds much of his bad karma and is reborn in heaven after his death.",
+"characters": ["Chandkaushik"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Chandkaushik",
+"description":"A highly venomous and feared snake whose intense anger was a result of his karma from previous lives. He was transformed by Mahävir's compassion and attained a heavenly birth through repentance."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar. His fearlessness and boundless compassion were so powerful that they could calm the most furious of creatures and awaken them to their spiritual path."
+ },
+ {
+"name":"The Villagers",
+"description":"People living in fear of the snake. They represent both the concern for Mahävir's safety and the vengeful anger towards Chandkaushik for the harm he had caused."
+ }
+ ],
+"quizData": [
+ {"question":"What was the name of the poisonous snake?","answer":"Chandkaushik." },
+ {"question":"What was Chandkaushik's gaze said to do?","answer":"Kill a person or animal." },
+ {"question":"Did Mahävir listen to the villagers' warnings to take another route?","answer":"No, he was fearless and proceeded into the forest." },
+ {"question":"How did Chandkaushik react when he first saw Mahävir?","answer":"He became furious and started hissing to threaten him." },
+ {"question":"What happened when Chandkaushik blew his venom at Mahävir?","answer":"It had no effect on Mahävir and did not disturb his meditation." },
+ {"question":"What flowed from Mahävir's toe when the snake bit him?","answer":"Milk, instead of blood." },
+ {"question":"What were the compassionate words Mahävir spoke to the snake?","answer":"“Bujh, Bujh, Chandkaushik” (Realize, Realize, Chandkaushik)." },
+ {"question":"What did the snake remember after hearing Mahävir's words?","answer":"He remembered his two previous lives." },
+ {"question":"What did Chandkaushik realize was the cause of his rebirth as a snake?","answer":"His anger and ego from his last two lives." },
+ {"question":"After his change of heart, how did Chandkaushik react when villagers threw stones and beat him?","answer":"He willingly suffered the pain and remained at peace with no anger." },
+ {"question":"Where was Chandkaushik reborn after his death?","answer":"In heaven." },
+ {"question":"What does the moral of the story say fear, hatred, and ego are?","answer":"Violence to oneself." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Chandkaushik",
+"children": [
+ {
+"name":"The Confrontation",
+"children": [
+ {"name":"Mahävir enters the forest" },
+ {"name":"Chandkaushik attacks" },
+ {"name":"The bite and the milk" }
+ ]
+ },
+ {
+"name":"The Awakening",
+"children": [
+ {"name":"Mahävir's compassionate words" },
+ {"name":"Snake recalls past lives" },
+ {"name":"Realizes error of anger" }
+ ]
+ },
+ {
+"name":"The Atonement",
+"children": [
+ {"name":"Retreats to his hole" },
+ {"name":"Peacefully endures attacks" },
+ {"name":"Destroys bad karma" }
+ ]
+ },
+ {
+"name":"The Result",
+"children": [
+ {"name":"Dies peacefully" },
+ {"name":"Reborn in heaven" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Chandkaushik: Anger to Atonement",
+"children": [
+ {
+"name":"Rage",
+"children": [
+ {"name":"The Attack" }
+ ]
+ },
+ {
+"name":"Compassion",
+"children": [
+ {"name":"The Words" }
+ ]
+ },
+ {
+"name":"Realization",
+"children": [
+ {"name":"The Memory" }
+ ]
+ },
+ {
+"name":"Penance",
+"children": [
+ {"name":"The Endurance" }
+ ]
+ },
+ {
+"name":"Liberation",
+"children": [
+ {"name":"The Reward" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Fearless Path",
+"description":"Despite warnings from fearful villagers, the serene Bhagawän Mahävir calmly walks into the dreaded forest of the venomous snake, Chandkaushik.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Mahävir+Enters+the+Forest",
+"imageAlt":"A monk walking peacefully into a dark and ominous-looking forest."
+ },
+ {
+"title":"A Vicious Attack",
+"description":"Enraged by the intruder, Chandkaushik attacks Mahävir, first with poisonous venom and then by sinking his fangs into the monk's toe.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Chandkaushik+Attacks",
+"imageAlt":"A large, angry cobra biting the foot of a meditating monk."
+ },
+ {
+"title":"A Miraculous Sight",
+"description":"The snake is shocked to see milk, not blood, flowing from the wound, a sign of the monk's divine purity and power.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Milk+Flows+From+the+Wound",
+"imageAlt":"A close-up of a snake looking with surprise at a monk's foot, from which a white liquid flows."
+ },
+ {
+"title":"Words of Awakening",
+"description":"Mahävir opens his eyes and, with pure compassion, speaks the words'Bujh, Bujh' (Realize, Realize), which pierces the snake's angry heart.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Bujh,+Bujh,+Chandkaushik",
+"imageAlt":"A monk looking with love and compassion directly at an angry snake, calming it."
+ },
+ {
+"title":"A Life of Repentance",
+"description":"Filled with remorse, the transformed Chandkaushik retreats to his hole, peacefully accepting the stones and sticks of vengeful villagers as his penance.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=The+Snake's+Atonement",
+"imageAlt":"A snake lying peacefully with its head in a hole, while people in the background throw stones."
+ },
+ {
+"title":"A Heavenly Reward",
+"description":"Through his self-restraint and acceptance of suffering, Chandkaushik sheds his bad karma and is reborn in a heavenly realm.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Rebirth+in+Heaven",
+"imageAlt":"A depiction of a snake's soul ascending to a beautiful celestial world."
+ }
+ ]
 }

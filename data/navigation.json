@@ -1,659 +1,659 @@
 {
-  "navigation": {
-    "title": "JAB Interactive",
-    "subtitle": " Mindmaps, Timelines, Quiz & More",
-    "sections": [
-      {
-        "id": "section-a",
-        "title": "Section A",
-        "description": "Stories and lessons from Section A",
-        "subsections": [
-          {
-            "id": "A1",
-            "title": "A.1",
-            "name": "Jain Prayers",
-            "url": "./tabTemplate.html?section=A1.json",
-            "dataFile": "A1.json"
-          }
-        ]
-      },
-      {
-        "id": "section-b",
-        "title": "Section B",
-        "description": "Stories and lessons from Section B",
-        "subsections": [
-          {
-            "id": "B1",
-            "title": "B.1",
-            "name": "Introduction to Jainism",
-            "url": "./tabTemplate.html?section=B1.json",
-            "dataFile": "B1.json"
-          },
-          {
-            "id": "B2",
-            "title": "B.2",
-            "name": "Panch Parameshthi",
-            "url": "./tabTemplate.html?section=B2.json",
-            "dataFile": "B2.json"
-          },
-          {
-            "id": "B3",
-            "title": "B.3",
-            "name": "B.3: Jain Path of Liberation: Ratna-trayi",
-            "url": "./tabTemplate.html?section=B3.json",
-            "dataFile": "B3.json"
-          },
-          {
-            "id": "B4",
-            "title": "B.4",
-            "name": "B.4: Shad Dravya I: Jiva",
-            "url": "./tabTemplate.html?section=B4.json",
-            "dataFile": "B4.json"
-          },
-          {
-            "id": "B5",
-            "title": "B.5",
-            "name": "B.5: Shad Dravya II: Ajiva",
-            "url": "./tabTemplate.html?section=B5.json",
-            "dataFile": "B5.json"
-          },
-          {
-            "id": "B6",
-            "title": "B.6",
-            "name": "B.6: Nav Tattva Part I",
-            "url": "./tabTemplate.html?section=B6.json",
-            "dataFile": "B6.json"
-          },
-          {
-            "id": "B7",
-            "title": "B.7",
-            "name": "B.7: Nav Tattva Part II: Punya & Päp",
-            "url": "./tabTemplate.html?section=B7.json",
-            "dataFile": "B7.json"
-          },
-          {
-            "id": "B8",
-            "title": "B.8",
-            "name": "Nav Tattva Part III: Samvar, Nirjarä, and Moksh",
-            "url": "./tabTemplate.html?section=B8.json",
-            "dataFile": "B8.json"
-          },
-          {
-            "id": "B9",
-            "title": "B.9",
-            "name": "Karma Theory",
-            "url": "./tabTemplate.html?section=B9.json",
-            "dataFile": "B9.json"
-          }
-        ]
-      },
-      {
-        "id": "section-c",
-        "title": "Section C",
-        "description": "Ethics and Practices from Section C",
-        "subsections": [
-          {
-            "id": "C1",
-            "title": "C.1",
-            "name": "Jain Ascetics: Sädhu and Sädhvi",
-            "url": "./tabTemplate.html?section=C1.json",
-            "dataFile": "C1.json"
-          },
-          {
-            "id": "C2",
-            "title": "C.2",
-            "name": "Jain Laypeople: Shrävak and Shrävikä",
-            "url": "./tabTemplate.html?section=C2.json",
-            "dataFile": "C2.json"
-          },
-          {
-            "id": "C3",
-            "title": "C.3",
-            "name": "Bhävanä (Reflections)",
-            "url": "./tabTemplate.html?section=C3.json",
-            "dataFile": "C3.json"
-          },
-          {
-            "id": "C4",
-            "title": "C.4",
-            "name": "Leshyä (State of Mind)",
-            "url": "./tabTemplate.html?section=C4.json",
-            "dataFile": "C4.json"
-          },
-          {
-            "id": "C5",
-            "title": "C.5",
-            "name": "Jain Ethics and the Environment",
-            "url": "./tabTemplate.html?section=C5.json",
-            "dataFile": "C5.json"
-          },
-          {
-            "id": "C6",
-            "title": "C.6",
-            "name": "Application of Nonviolence",
-            "url": "./tabTemplate.html?section=C6.json",
-            "dataFile": "C6.json"
-          },
-          {
-            "id": "C7",
-            "title": "C.7",
-            "name": "Living Values",
-            "url": "./tabTemplate.html?section=C7.json",
-            "dataFile": "C7.json"
-          }
-        ]
-      },
-      {
-        "id": "section-d",
-        "title": "Section D",
-        "description": "Rituals and Symbols from Section D",
-        "subsections": [
-          {
-            "id": "D1",
-            "title": "D.1",
-            "name": "Jain Symbols",
-            "url": "./tabTemplate.html?section=D1.json",
-            "dataFile": "D1.json"
-          },
-          {
-            "id": "D2",
-            "title": "D.2",
-            "name": "Tirthankars, Emblems & Dreams",
-            "url": "./tabTemplate.html?section=D2.json",
-            "dataFile": "D2.json"
-          },
-          {
-            "id": "D3",
-            "title": "D.3",
-            "name": "Going to the Temple & Pujä Rituals",
-            "url": "./tabTemplate.html?section=D3.json",
-            "dataFile": "D3.json"
-          },
-          {
-            "id": "D4",
-            "title": "D.4",
-            "name": "Six Ävashyak (Six Essential Observances)",
-            "url": "./tabTemplate.html?section=D4.json",
-            "dataFile": "D4.json"
-          },
-          {
-            "id": "D5",
-            "title": "D.5",
-            "name": "Paryushan and Das Lakshan Parva",
-            "url": "./tabTemplate.html?section=D5.json",
-            "dataFile": "D5.json"
-          },
-          {
-            "id": "D6",
-            "title": "D.6",
-            "name": "Jain Festivals (Parva) and Celebrations",
-            "url": "./tabTemplate.html?section=D6.json",
-            "dataFile": "D6.json"
-          },
-          {
-            "id": "D7",
-            "title": "D.7",
-            "name": "Jain Temples and Pilgrimage Place",
-            "url": "./tabTemplate.html?section=D7.json",
-            "dataFile": "D7.json"
-          },
-          {
-            "id": "D8",
-            "title": "D.8",
-            "name": "Yaksha and Yakshini",
-            "url": "./tabTemplate.html?section=D8.json",
-            "dataFile": "D8.json"
-          }
-        ]
-      },
-      {
-        "id": "section-e",
-        "title": "Section E",
-        "description": "Stories and lessons from Section E",
-        "subsections": [
-          {
-            "id": "E1",
-            "title": "E.1",
-            "name": "The Life of Bhagawän Mahävir",
-            "url": "./story.html?section=E1",
-            "dataFile": "E1.json"
-          },
-          {
-            "id": "E2",
-            "title": "E.2",
-            "name": "The Story of Bhagawän Pärshvanäth",
-            "url": "./story.html?section=E2",
-            "dataFile": "E2.json"
-          },
-          {
-            "id": "E3",
-            "title": "E.3",
-            "name": "The Story of Bhagawän Neminäth",
-            "url": "./story.html?section=E3",
-            "dataFile": "E3.json"
-          },
-          {
-            "id": "E4",
-            "title": "E.4",
-            "name": "The Story of Bhagawän Mallinäth",
-            "url": "./story.html?section=E4",
-            "dataFile": "E4.json"
-          },
-          {
-            "id": "E5",
-            "title": "E.5",
-            "name": "The Story of Bhagawän Rishabhadev",
-            "url": "./story.html?section=E5",
-            "dataFile": "E5.json"
-          }
-        ]
-      },
-      {
-        "id": " Section-f",
-        "title": "Section F",
-        "description": "Stories and lessons from Section F",
-        "subsections": [
-          {
-            "id": "F1",
-            "title": "F.1",
-            "name": "The Story of Ganadhar Gautam-swämi",
-            "url": "./story.html?section=F1",
-            "dataFile": "F1.json"
-          },
-          {
-            "id": "F2",
-            "title": "F.2",
-            "name": "The Story of Ganadhar Sudharmä-swämi",
-            "url": "./story.html?section=F2",
-            "dataFile": "F2.json"
-          },
-          {
-            "id": "F3",
-            "title": "F.3",
-            "name": "The Story of Kevali Jambuswämi",
-            "url": "./story.html?section=F3",
-            "dataFile": "F3.json"
-          },
-          {
-            "id": "F4",
-            "title": "F.4",
-            "name": "The Story of Ächärya Sthulibhadra",
-            "url": "./story.html?section=F4",
-            "dataFile": "F4.json"
-          },
-          {
-            "id": "F5",
-            "title": "F.5",
-            "name": "The Story of Ächärya Kundkund",
-            "url": "./story.html?section=F5",
-            "dataFile": "F5.json"
-          },
-          {
-            "id": "F6",
-            "title": "F.6",
-            "name": "The Story of Ächärya Haribhadra-suri",
-            "url": "./story.html?section=F6",
-            "dataFile": "F6.json"
-          },
-          {
-            "id": "F7",
-            "title": "F.7",
-            "name": "The Story of Ächärya Hemchandra",
-            "url": "./story.html?section=F7",
-            "dataFile": "F7.json"
-          }
-        ]
-      },
-      {
-        "id": "section-g",
-        "title": "Section G",
-        "description": "Stories and lessons from Section G",
-        "subsections": [
-          {
-            "id": "G1",
-            "title": "G.1",
-            "name": "The Story of Bharat and Bähubali",
-            "url": "./story.html?section=G1",
-            "dataFile": "G1.json"
-          },
-          {
-            "id": "G2",
-            "title": "G.2",
-            "name": "The Story of King Meghrath",
-            "url": "./story.html?section=G2",
-            "dataFile": "G2.json"
-          },
-          {
-            "id": "G3",
-            "title": "G.3",
-            "name": "The Story of Sage Nandisen",
-            "url": "./story.html?section=G3",
-            "dataFile": "G3.json"
-          },
-          {
-            "id": "G4",
-            "title": "G.4",
-            "name": "The Story of King Shripäl and Mayanä-sundari",
-            "url": "./story.html?section=G4",
-            "dataFile": "G4.json"
-          },
-          {
-            "id": "G5",
-            "title": "G.5",
-            "name": "The Story of Ilächikumar",
-            "url": "./story.html?section=G5",
-            "dataFile": "G5.json"
-          },
-          {
-            "id": "G6",
-            "title": "G.6",
-            "name": "The Story of Monk Kurgadu",
-            "url": "./story.html?section=G6",
-            "dataFile": "G6.json"
-          }
-        ]
-      },
-      {
-        "id": "section-h",
-        "title": "Section H",
-        "description": "Stories and lessons from Section H",
-        "subsections": [
-          {
-            "id": "H1",
-            "title": "H.1",
-            "name": "The Story of Mahävir-swämi and the Cow Herder",
-            "url": "./story.html?section=H1",
-            "dataFile": "H1.json"
-          },
-          {
-            "id": "H2",
-            "title": "H.2",
-            "name": "The Story of Chandkaushik",
-            "url": "./story.html?section=H2",
-            "dataFile": "H2.json"
-          },
-          {
-            "id": "H3",
-            "title": "H.3",
-            "name": "The Story of Chandanbälä",
-            "url": "./story.html?section=H3",
-            "dataFile": "H3.json"
-          },
-          {
-            "id": "H4",
-            "title": "H.4",
-            "name": "Nails in the Ears: Last Calamity for Bhagawän Mahävir",
-            "url": "./story.html?section=H4",
-            "dataFile": "H4.json"
-          },
-          {
-            "id": "H5",
-            "title": "H.5",
-            "name": "The Story of Meghkumär",
-            "url": "./story.html?section=H5",
-            "dataFile": "H5.json"
-          },
-          {
-            "id": "H6",
-            "title": "H.6",
-            "name": "The Story of Aimuttä Muni",
-            "url": "./story.html?section=H6",
-            "dataFile": "H6.json"
-          },
-          {
-            "id": "H7",
-            "title": "H.7",
-            "name": "The Story of Änand Shrävak",
-            "url": "./story.html?section=H7",
-            "dataFile": "H7.json"
-          },
-          {
-            "id": "H8",
-            "title": "H.8",
-            "name": "The Story of Puniä Shrävak",
-            "url": "./story.html?section=H8",
-            "dataFile": "H8.json"
-          },
-          {
-            "id": "H9",
-            "title": "H.9",
-            "name": "The Story of Shälibhadra",
-            "url": "./story.html?section=H9",
-            "dataFile": "H9.json"
-          },
-          {
-            "id": "H10",
-            "title": "H.10",
-            "name": "The Story of King Shrenik and Queen Chelnä",
-            "url": "./story.html?section=H10",
-            "dataFile": "H10.json"
-          },
-          {
-            "id": "H11",
-            "title": "H.11",
-            "name": "The Story of King Shrenik and Anäthi Muni",
-            "url": "./story.html?section=H11",
-            "dataFile": "H11.json"
-          },
-          {
-            "id": "H12",
-            "title": "H.12",
-            "name": "King Shrenik’s Destiny",
-            "url": "./story.html?section=H12",
-            "dataFile": "H12.json"
-          },
-          {
-            "id": "H13",
-            "title": "H.13",
-            "name": "Story of Monk Prasannachandra",
-            "url": "./story.html?section=H13",
-            "dataFile": "H13.json"
-          },
-          {
-            "id": "H14",
-            "title": "H.14",
-            "name": "Story of Abhaykumär and Thief Rohineya",
-            "url": "./story.html?section=H14",
-            "dataFile": "H14.json"
-          }
-        ]
-      },
-      {
-        "id": "section-i",
-        "title": "Section I",
-        "description": "Stories and lessons from Section I",
-        "subsections": [
-          {
-            "id": "I1",
-            "title": "I.1",
-            "name": "The Story of Vajrakumär",
-            "url": "./story.html?section=I1",
-            "dataFile": "I1.json"
-          },
-          {
-            "id": "I2",
-            "title": "I.2",
-            "name": "The Story of King Samprati",
-            "url": "./story.html?section=I2",
-            "dataFile": "I2.json"
-          },
-          {
-            "id": "I3",
-            "title": "I.3",
-            "name": "The Temples of Delwädä",
-            "url": "./story.html?section=I3",
-            "dataFile": "I3.json"
-          },
-          {
-            "id": "I4",
-            "title": "I.4",
-            "name": "Udayan Mantri and His Sons",
-            "url": "./story.html?section=I4",
-            "dataFile": "I4.json"
-          },
-          {
-            "id": "I5",
-            "title": "I.5",
-            "name": "The Nobility of Sävchand and Somchand",
-            "url": "./story.html?section=I5",
-            "dataFile": "I5.json"
-          }
-        ]
-      },
-      {
-        "id": "section-j",
-        "title": "Section J",
-        "description": "Stories and lessons from Section J",
-        "subsections": [
-          {
-            "id": "J1",
-            "title": "J.1",
-            "name": "The Story of King Hansa",
-            "url": "./story.html?section=J1",
-            "dataFile": "J1.json"
-          },
-          {
-            "id": "J2",
-            "title": "J.2",
-            "name": "The Story of Kamalsen",
-            "url": "./story.html?section=J2",
-            "dataFile": "J2.json"
-          },
-          {
-            "id": "J3",
-            "title": "J.3",
-            "name": "The Story of Vipul and Vijan",
-            "url": "./story.html?section=J3",
-            "dataFile": "J3.json"
-          },
-          {
-            "id": "J4",
-            "title": "J.4",
-            "name": "The Story of the Two Frogs",
-            "url": "./story.html?section=J4",
-            "dataFile": "J4.json"
-          }
-        ]
-      },
-      {
-        "id": "section-k",
-        "title": "Section K",
-        "description": "Lessons from Section K",
-        "subsections": [
-          {
-            "id": "K1",
-            "title": "K.1",
-            "name": "Anekāntavād I: Theory of Multiplicity",
-            "url": "./tabTemplate.html?section=K1.json",
-            "dataFile": "K1.json"
-          },
-          {
-            "id": "K2",
-            "title": "K.2",
-            "name": "Anekāntavāda II: Pramāṇa, Naya, and Syādvāda",
-            "url": "./tabTemplate.html?section=K2.json",
-            "dataFile": "K2.json"
-          },
-          {
-            "id": "K3",
-            "title": "K.3",
-            "name": "Anekāntavād III: The Five Samvāy (Causal Factors)",
-            "url": "./tabTemplate.html?section=K3.json",
-            "dataFile": "K3.json"
-          },
-          {
-            "id": "K4",
-            "title": "K.4",
-            "name": "Fourteen Gunasthän - Stages of Spiritual Development",
-            "url": "./tabTemplate.html?section=K4.json",
-            "dataFile": "K4.json"
-          },
-          {
-            "id": "K5",
-            "title": "K.5",
-            "name": "Panchächär - The Five Codes of Conduct",
-            "url": "./tabTemplate.html?section=K5.json",
-            "dataFile": "K5.json"
-          },
-          {
-            "id": "K6",
-            "title": "K.6",
-            "name": "Jain Yoga",
-            "url": "./tabTemplate.html?section=K6.json",
-            "dataFile": "K6.json"
-          },
-          {
-            "id": "K7",
-            "title": "K.7",
-            "name": "Jainism in Action: A Guide to Health, Nutrition, and Yoga",
-            "url": "./tabTemplate.html?section=K7.json",
-            "dataFile": "K7.json"
-          }
-        ]
-      },
-      {
-        "id": "section-l",
-        "title": "Section L",
-        "description": "Lessons from Section L",
-        "subsections": [
-          {
-            "id": "L1",
-            "title": "L.1",
-            "name": "L.1: History of Jain Traditions and Sects",
-            "url": "./L1.html?section=L1",
-            "dataFile": "L1.json"
-          },
-          {
-            "id": "L2",
-            "title": "L.2",
-            "name": "L.2: Jain Scriptures and Literature",
-            "url": "./L2.html?section=L2",
-            "dataFile": "L2.json"
-          }
-        ]
-      },
-      {
-        "id": "section-m",
-        "title": "Section M",
-        "description": "Stories and lessons from Section M",
-        "subsections": [
-          {
-            "id": "M1",
-            "title": "M.1",
-            "name": "Jain Monks: A Historical Overview",
-            "url": "./story.html?section=M1",
-            "dataFile": "M1.json"
-          },
-          {
-            "id": "M2",
-            "title": "M.2",
-            "name": "The Life of Shrimad Räjchandra",
-            "url": "./story.html?section=M2",
-            "dataFile": "M2.json"
-          },
-          {
-            "id": "M3",
-            "title": "M.3",
-            "name": "The Life of Virchand R. Gandhi",
-            "url": "./story.html?section=M3",
-            "dataFile": "M3.json"
-          }
-        ]
-      }
-    ],
-    "additionalPages": [
-      {
-        "id": "timeline_junior",
-        "title": "Timeline of Jain History (Setion A to J)",
-        "name": "Timeline of Jain History (Setion A to J)",
-        "url": "./timeline_duration-junior.html"
-      },
-      {
-        "id": "timeline_senior",
-        "title": "Timeline of Jain History (Section K to M)",
-        "name": "Timeline of Jain History (Section K to M)",
-        "url": "./timeline-k-to-m.html"
-      }
-    ]
-  }
+"navigation": {
+"title":"JAB Interactive",
+"subtitle":" Mindmaps, Timelines, Quiz & More",
+"sections": [
+ {
+"id":"section-a",
+"title":"Section A",
+"description":"Stories and lessons from Section A",
+"subsections": [
+ {
+"id":"A1",
+"title":"A.1",
+"name":"Jain Prayers",
+"url":"./tabTemplate.html?section=A1.json",
+"dataFile":"A1.json"
+ }
+ ]
+ },
+ {
+"id":"section-b",
+"title":"Section B",
+"description":"Stories and lessons from Section B",
+"subsections": [
+ {
+"id":"B1",
+"title":"B.1",
+"name":"Introduction to Jainism",
+"url":"./tabTemplate.html?section=B1.json",
+"dataFile":"B1.json"
+ },
+ {
+"id":"B2",
+"title":"B.2",
+"name":"Panch Parameshthi",
+"url":"./tabTemplate.html?section=B2.json",
+"dataFile":"B2.json"
+ },
+ {
+"id":"B3",
+"title":"B.3",
+"name":"B.3: Jain Path of Liberation: Ratna-trayi",
+"url":"./tabTemplate.html?section=B3.json",
+"dataFile":"B3.json"
+ },
+ {
+"id":"B4",
+"title":"B.4",
+"name":"B.4: Shad Dravya I: Jiva",
+"url":"./tabTemplate.html?section=B4.json",
+"dataFile":"B4.json"
+ },
+ {
+"id":"B5",
+"title":"B.5",
+"name":"B.5: Shad Dravya II: Ajiva",
+"url":"./tabTemplate.html?section=B5.json",
+"dataFile":"B5.json"
+ },
+ {
+"id":"B6",
+"title":"B.6",
+"name":"B.6: Nav Tattva Part I",
+"url":"./tabTemplate.html?section=B6.json",
+"dataFile":"B6.json"
+ },
+ {
+"id":"B7",
+"title":"B.7",
+"name":"B.7: Nav Tattva Part II: Punya & Päp",
+"url":"./tabTemplate.html?section=B7.json",
+"dataFile":"B7.json"
+ },
+ {
+"id":"B8",
+"title":"B.8",
+"name":"Nav Tattva Part III: Samvar, Nirjarä, and Moksh",
+"url":"./tabTemplate.html?section=B8.json",
+"dataFile":"B8.json"
+ },
+ {
+"id":"B9",
+"title":"B.9",
+"name":"Karma Theory",
+"url":"./tabTemplate.html?section=B9.json",
+"dataFile":"B9.json"
+ }
+ ]
+ },
+ {
+"id":"section-c",
+"title":"Section C",
+"description":"Ethics and Practices from Section C",
+"subsections": [
+ {
+"id":"C1",
+"title":"C.1",
+"name":"Jain Ascetics: Sädhu and Sädhvi",
+"url":"./tabTemplate.html?section=C1.json",
+"dataFile":"C1.json"
+ },
+ {
+"id":"C2",
+"title":"C.2",
+"name":"Jain Laypeople: Shrävak and Shrävikä",
+"url":"./tabTemplate.html?section=C2.json",
+"dataFile":"C2.json"
+ },
+ {
+"id":"C3",
+"title":"C.3",
+"name":"Bhävanä (Reflections)",
+"url":"./tabTemplate.html?section=C3.json",
+"dataFile":"C3.json"
+ },
+ {
+"id":"C4",
+"title":"C.4",
+"name":"Leshyä (State of Mind)",
+"url":"./tabTemplate.html?section=C4.json",
+"dataFile":"C4.json"
+ },
+ {
+"id":"C5",
+"title":"C.5",
+"name":"Jain Ethics and the Environment",
+"url":"./tabTemplate.html?section=C5.json",
+"dataFile":"C5.json"
+ },
+ {
+"id":"C6",
+"title":"C.6",
+"name":"Application of Nonviolence",
+"url":"./tabTemplate.html?section=C6.json",
+"dataFile":"C6.json"
+ },
+ {
+"id":"C7",
+"title":"C.7",
+"name":"Living Values",
+"url":"./tabTemplate.html?section=C7.json",
+"dataFile":"C7.json"
+ }
+ ]
+ },
+ {
+"id":"section-d",
+"title":"Section D",
+"description":"Rituals and Symbols from Section D",
+"subsections": [
+ {
+"id":"D1",
+"title":"D.1",
+"name":"Jain Symbols",
+"url":"./tabTemplate.html?section=D1.json",
+"dataFile":"D1.json"
+ },
+ {
+"id":"D2",
+"title":"D.2",
+"name":"Tirthankars, Emblems & Dreams",
+"url":"./tabTemplate.html?section=D2.json",
+"dataFile":"D2.json"
+ },
+ {
+"id":"D3",
+"title":"D.3",
+"name":"Going to the Temple & Pujä Rituals",
+"url":"./tabTemplate.html?section=D3.json",
+"dataFile":"D3.json"
+ },
+ {
+"id":"D4",
+"title":"D.4",
+"name":"Six Ävashyak (Six Essential Observances)",
+"url":"./tabTemplate.html?section=D4.json",
+"dataFile":"D4.json"
+ },
+ {
+"id":"D5",
+"title":"D.5",
+"name":"Paryushan and Das Lakshan Parva",
+"url":"./tabTemplate.html?section=D5.json",
+"dataFile":"D5.json"
+ },
+ {
+"id":"D6",
+"title":"D.6",
+"name":"Jain Festivals (Parva) and Celebrations",
+"url":"./tabTemplate.html?section=D6.json",
+"dataFile":"D6.json"
+ },
+ {
+"id":"D7",
+"title":"D.7",
+"name":"Jain Temples and Pilgrimage Place",
+"url":"./tabTemplate.html?section=D7.json",
+"dataFile":"D7.json"
+ },
+ {
+"id":"D8",
+"title":"D.8",
+"name":"Yaksha and Yakshini",
+"url":"./tabTemplate.html?section=D8.json",
+"dataFile":"D8.json"
+ }
+ ]
+ },
+ {
+"id":"section-e",
+"title":"Section E",
+"description":"Stories and lessons from Section E",
+"subsections": [
+ {
+"id":"E1",
+"title":"E.1",
+"name":"The Life of Bhagawän Mahävir",
+"url":"./story.html?section=E1",
+"dataFile":"E1.json"
+ },
+ {
+"id":"E2",
+"title":"E.2",
+"name":"The Story of Bhagawän Pärshvanäth",
+"url":"./story.html?section=E2",
+"dataFile":"E2.json"
+ },
+ {
+"id":"E3",
+"title":"E.3",
+"name":"The Story of Bhagawän Neminäth",
+"url":"./story.html?section=E3",
+"dataFile":"E3.json"
+ },
+ {
+"id":"E4",
+"title":"E.4",
+"name":"The Story of Bhagawän Mallinäth",
+"url":"./story.html?section=E4",
+"dataFile":"E4.json"
+ },
+ {
+"id":"E5",
+"title":"E.5",
+"name":"The Story of Bhagawän Rishabhadev",
+"url":"./story.html?section=E5",
+"dataFile":"E5.json"
+ }
+ ]
+ },
+ {
+"id":" Section-f",
+"title":"Section F",
+"description":"Stories and lessons from Section F",
+"subsections": [
+ {
+"id":"F1",
+"title":"F.1",
+"name":"The Story of Ganadhar Gautam-swämi",
+"url":"./story.html?section=F1",
+"dataFile":"F1.json"
+ },
+ {
+"id":"F2",
+"title":"F.2",
+"name":"The Story of Ganadhar Sudharmä-swämi",
+"url":"./story.html?section=F2",
+"dataFile":"F2.json"
+ },
+ {
+"id":"F3",
+"title":"F.3",
+"name":"The Story of Kevali Jambuswämi",
+"url":"./story.html?section=F3",
+"dataFile":"F3.json"
+ },
+ {
+"id":"F4",
+"title":"F.4",
+"name":"The Story of Ächärya Sthulibhadra",
+"url":"./story.html?section=F4",
+"dataFile":"F4.json"
+ },
+ {
+"id":"F5",
+"title":"F.5",
+"name":"The Story of Ächärya Kundkund",
+"url":"./story.html?section=F5",
+"dataFile":"F5.json"
+ },
+ {
+"id":"F6",
+"title":"F.6",
+"name":"The Story of Ächärya Haribhadra-suri",
+"url":"./story.html?section=F6",
+"dataFile":"F6.json"
+ },
+ {
+"id":"F7",
+"title":"F.7",
+"name":"The Story of Ächärya Hemchandra",
+"url":"./story.html?section=F7",
+"dataFile":"F7.json"
+ }
+ ]
+ },
+ {
+"id":"section-g",
+"title":"Section G",
+"description":"Stories and lessons from Section G",
+"subsections": [
+ {
+"id":"G1",
+"title":"G.1",
+"name":"The Story of Bharat and Bähubali",
+"url":"./story.html?section=G1",
+"dataFile":"G1.json"
+ },
+ {
+"id":"G2",
+"title":"G.2",
+"name":"The Story of King Meghrath",
+"url":"./story.html?section=G2",
+"dataFile":"G2.json"
+ },
+ {
+"id":"G3",
+"title":"G.3",
+"name":"The Story of Sage Nandisen",
+"url":"./story.html?section=G3",
+"dataFile":"G3.json"
+ },
+ {
+"id":"G4",
+"title":"G.4",
+"name":"The Story of King Shripäl and Mayanä-sundari",
+"url":"./story.html?section=G4",
+"dataFile":"G4.json"
+ },
+ {
+"id":"G5",
+"title":"G.5",
+"name":"The Story of Ilächikumar",
+"url":"./story.html?section=G5",
+"dataFile":"G5.json"
+ },
+ {
+"id":"G6",
+"title":"G.6",
+"name":"The Story of Monk Kurgadu",
+"url":"./story.html?section=G6",
+"dataFile":"G6.json"
+ }
+ ]
+ },
+ {
+"id":"section-h",
+"title":"Section H",
+"description":"Stories and lessons from Section H",
+"subsections": [
+ {
+"id":"H1",
+"title":"H.1",
+"name":"The Story of Mahävir-swämi and the Cow Herder",
+"url":"./story.html?section=H1",
+"dataFile":"H1.json"
+ },
+ {
+"id":"H2",
+"title":"H.2",
+"name":"The Story of Chandkaushik",
+"url":"./story.html?section=H2",
+"dataFile":"H2.json"
+ },
+ {
+"id":"H3",
+"title":"H.3",
+"name":"The Story of Chandanbälä",
+"url":"./story.html?section=H3",
+"dataFile":"H3.json"
+ },
+ {
+"id":"H4",
+"title":"H.4",
+"name":"Nails in the Ears: Last Calamity for Bhagawän Mahävir",
+"url":"./story.html?section=H4",
+"dataFile":"H4.json"
+ },
+ {
+"id":"H5",
+"title":"H.5",
+"name":"The Story of Meghkumär",
+"url":"./story.html?section=H5",
+"dataFile":"H5.json"
+ },
+ {
+"id":"H6",
+"title":"H.6",
+"name":"The Story of Aimuttä Muni",
+"url":"./story.html?section=H6",
+"dataFile":"H6.json"
+ },
+ {
+"id":"H7",
+"title":"H.7",
+"name":"The Story of Änand Shrävak",
+"url":"./story.html?section=H7",
+"dataFile":"H7.json"
+ },
+ {
+"id":"H8",
+"title":"H.8",
+"name":"The Story of Puniä Shrävak",
+"url":"./story.html?section=H8",
+"dataFile":"H8.json"
+ },
+ {
+"id":"H9",
+"title":"H.9",
+"name":"The Story of Shälibhadra",
+"url":"./story.html?section=H9",
+"dataFile":"H9.json"
+ },
+ {
+"id":"H10",
+"title":"H.10",
+"name":"The Story of King Shrenik and Queen Chelnä",
+"url":"./story.html?section=H10",
+"dataFile":"H10.json"
+ },
+ {
+"id":"H11",
+"title":"H.11",
+"name":"The Story of King Shrenik and Anäthi Muni",
+"url":"./story.html?section=H11",
+"dataFile":"H11.json"
+ },
+ {
+"id":"H12",
+"title":"H.12",
+"name":"King Shrenik’s Destiny",
+"url":"./story.html?section=H12",
+"dataFile":"H12.json"
+ },
+ {
+"id":"H13",
+"title":"H.13",
+"name":"Story of Monk Prasannachandra",
+"url":"./story.html?section=H13",
+"dataFile":"H13.json"
+ },
+ {
+"id":"H14",
+"title":"H.14",
+"name":"Story of Abhaykumär and Thief Rohineya",
+"url":"./story.html?section=H14",
+"dataFile":"H14.json"
+ }
+ ]
+ },
+ {
+"id":"section-i",
+"title":"Section I",
+"description":"Stories and lessons from Section I",
+"subsections": [
+ {
+"id":"I1",
+"title":"I.1",
+"name":"The Story of Vajrakumär",
+"url":"./story.html?section=I1",
+"dataFile":"I1.json"
+ },
+ {
+"id":"I2",
+"title":"I.2",
+"name":"The Story of King Samprati",
+"url":"./story.html?section=I2",
+"dataFile":"I2.json"
+ },
+ {
+"id":"I3",
+"title":"I.3",
+"name":"The Temples of Delwädä",
+"url":"./story.html?section=I3",
+"dataFile":"I3.json"
+ },
+ {
+"id":"I4",
+"title":"I.4",
+"name":"Udayan Mantri and His Sons",
+"url":"./story.html?section=I4",
+"dataFile":"I4.json"
+ },
+ {
+"id":"I5",
+"title":"I.5",
+"name":"The Nobility of Sävchand and Somchand",
+"url":"./story.html?section=I5",
+"dataFile":"I5.json"
+ }
+ ]
+ },
+ {
+"id":"section-j",
+"title":"Section J",
+"description":"Stories and lessons from Section J",
+"subsections": [
+ {
+"id":"J1",
+"title":"J.1",
+"name":"The Story of King Hansa",
+"url":"./story.html?section=J1",
+"dataFile":"J1.json"
+ },
+ {
+"id":"J2",
+"title":"J.2",
+"name":"The Story of Kamalsen",
+"url":"./story.html?section=J2",
+"dataFile":"J2.json"
+ },
+ {
+"id":"J3",
+"title":"J.3",
+"name":"The Story of Vipul and Vijan",
+"url":"./story.html?section=J3",
+"dataFile":"J3.json"
+ },
+ {
+"id":"J4",
+"title":"J.4",
+"name":"The Story of the Two Frogs",
+"url":"./story.html?section=J4",
+"dataFile":"J4.json"
+ }
+ ]
+ },
+ {
+"id":"section-k",
+"title":"Section K",
+"description":"Lessons from Section K",
+"subsections": [
+ {
+"id":"K1",
+"title":"K.1",
+"name":"Anekāntavād I: Theory of Multiplicity",
+"url":"./tabTemplate.html?section=K1.json",
+"dataFile":"K1.json"
+ },
+ {
+"id":"K2",
+"title":"K.2",
+"name":"Anekāntavāda II: Pramāṇa, Naya, and Syādvāda",
+"url":"./tabTemplate.html?section=K2.json",
+"dataFile":"K2.json"
+ },
+ {
+"id":"K3",
+"title":"K.3",
+"name":"Anekāntavād III: The Five Samvāy (Causal Factors)",
+"url":"./tabTemplate.html?section=K3.json",
+"dataFile":"K3.json"
+ },
+ {
+"id":"K4",
+"title":"K.4",
+"name":"Fourteen Gunasthän - Stages of Spiritual Development",
+"url":"./tabTemplate.html?section=K4.json",
+"dataFile":"K4.json"
+ },
+ {
+"id":"K5",
+"title":"K.5",
+"name":"Panchächär - The Five Codes of Conduct",
+"url":"./tabTemplate.html?section=K5.json",
+"dataFile":"K5.json"
+ },
+ {
+"id":"K6",
+"title":"K.6",
+"name":"Jain Yoga",
+"url":"./tabTemplate.html?section=K6.json",
+"dataFile":"K6.json"
+ },
+ {
+"id":"K7",
+"title":"K.7",
+"name":"Jainism in Action: A Guide to Health, Nutrition, and Yoga",
+"url":"./tabTemplate.html?section=K7.json",
+"dataFile":"K7.json"
+ }
+ ]
+ },
+ {
+"id":"section-l",
+"title":"Section L",
+"description":"Lessons from Section L",
+"subsections": [
+ {
+"id":"L1",
+"title":"L.1",
+"name":"L.1: History of Jain Traditions and Sects",
+"url":"./tabTemplate.html?section=L1.json",
+"dataFile":"L1.json"
+ },
+ {
+"id":"L2",
+"title":"L.2",
+"name":"L.2: Jain Scriptures and Literature",
+"url":"./tabTemplate.html?section=L2.json",
+"dataFile":"L2.json"
+ }
+ ]
+ },
+ {
+"id":"section-m",
+"title":"Section M",
+"description":"Stories and lessons from Section M",
+"subsections": [
+ {
+"id":"M1",
+"title":"M.1",
+"name":"Jain Monks: A Historical Overview",
+"url":"./story.html?section=M1",
+"dataFile":"M1.json"
+ },
+ {
+"id":"M2",
+"title":"M.2",
+"name":"The Life of Shrimad Räjchandra",
+"url":"./story.html?section=M2",
+"dataFile":"M2.json"
+ },
+ {
+"id":"M3",
+"title":"M.3",
+"name":"The Life of Virchand R. Gandhi",
+"url":"./story.html?section=M3",
+"dataFile":"M3.json"
+ }
+ ]
+ }
+ ],
+"additionalPages": [
+ {
+"id":"timeline_junior",
+"title":"Timeline of Jain History (Setion A to J)",
+"name":"Timeline of Jain History (Setion A to J)",
+"url":"./timeline_duration-junior.html"
+ },
+ {
+"id":"timeline_senior",
+"title":"Timeline of Jain History (Section K to M)",
+"name":"Timeline of Jain History (Section K to M)",
+"url":"./timeline-k-to-m.html"
+ }
+ ]
+ }
 }

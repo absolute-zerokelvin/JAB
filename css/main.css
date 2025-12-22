@@ -100,6 +100,87 @@ body {
     min-height: 100vh;
 }
 
+/* --- Semantic Theme Classes (Standardized across JSONs) --- */
+
+/* Blue callout box */
+.callout-blue {
+    background-color: var(--very-light-blue);
+    border-left: 4px solid var(--primary-blue);
+    padding: 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    margin: 1rem 0;
+}
+
+.callout-blue h3,
+.callout-blue .font-bold,
+.callout-blue b {
+    color: var(--secondary-blue);
+}
+
+.callout-blue p,
+.callout-blue li {
+    color: var(--text-primary);
+}
+
+/* General content card */
+.content-card {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+}
+
+.content-card h3,
+.content-card h4 {
+    color: var(--primary-blue-dark);
+}
+
+.content-card p,
+.content-card li {
+    color: var(--text-primary);
+}
+
+/* Secondary/Alt Callout (Soft Gray/Bordered) */
+.callout-secondary {
+    background-color: var(--background);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.text-secondary {
+    color: var(--text-secondary);
+}
+
+/* Grid layout for cards */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .content-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.content-grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .content-grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;

@@ -326,7 +326,8 @@
 }
 
 .accordian-header:hover {
-    background-color: #dbeafe;
+    background-color: var(--accent-blue);
+    opacity: 0.9;
 }
 
 .accordian-header.active {
@@ -395,8 +396,8 @@
 }
 
 .quiz-question {
-    background-color: #dbeafe;
-    border: 1px solid #93c5fd;
+    background-color: var(--light-blue);
+    border: 1px solid var(--accent-blue);
     border-radius: 8px;
     padding: 1rem 1.5rem;
     margin-bottom: 1rem;

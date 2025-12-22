@@ -1,411 +1,411 @@
 {
-    "title": "The Temples of Delwädä",
-    "subtitle": "Section I.3 from JAB Manual 5th edition 2024",
-    "storyContent": [
-        {
-            "tagType": "p",
-            "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z\" /></svg> On <span class=\"highlight\">Mount Äbu</span> in Rajasthan stand two magnificent Jain temples known as the <span class=\"highlight\">Delwädä Temples</span>. Their intricate marble carvings are so breathtaking they are called \"poetry in marble.\" The first was built by <span class=\"highlight\">Vimalshä</span> in the 11th century, and the second, <span class=\"highlight\">Lunaga Vasahi</span>, by two brothers, <span class=\"highlight\">Vastupäl and Tejpäl</span>, in the 13th century."
-        },
-        {
-            "tagType": "hr",
-            "tagHTML": ""
-        },
-        {
-            "tagType": "h3",
-            "tagHTML": "I.3.1. Vimalshä"
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "<span class=\"highlight\">Vimalshä</span> was a capable and outstanding commander during the Solanki dynasty's golden period in Gujarat. As a young man, he was known for his skill in horseback riding and archery. He and his intelligent brother <span class=\"highlight\">Nedh</span> joined the service of <span class=\"highlight\">King Bhimdev</span> in the capital city of Pätan. Nedh became a chancellor, and Vimal became a commander, marrying a beautiful woman named <span class=\"highlight\">Shridevi</span>."
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "Some courtiers grew jealous of Vimalshä's success. They noticed he would only bow to the Tirthankars before anyone else, even the king. They poisoned the king's mind, telling him Vimalshä was arrogant and might even try to take the throne. Growing suspicious, King Bhimdev turned against Vimalshä."
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "Feeling the king's distrust, Vimalshä left Pätan and went to Mount Äbu (then called Chandraväti). There, he defeated the local chief, <span class=\"highlight\">Dhandhuk</span>, who was trying to rebel against King Bhimdev. Vimalshä took control of the region in the king's name, acting as its governor."
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm.75-13.25a.75.75 0 00-1.5 0v6.5a.75.75 0 001.5 0v-6.5zM10 12a1 1 0 100 2 1 1 0 000-2z\" clip-rule=\"evenodd\" /></svg> Vimalshä and his wife had no children. He met a Jain Ächärya, <span class=\"highlight\">Dharmaghosh-suri</span>, and felt deep remorse for the violence in his past wars. The Ächärya advised him to build a temple to atone for his sins. Vimalshä also prayed to the goddess <span class=\"highlight\">Ambikä Devi</span>, who offered him a choice: a son, or the ability to build a great temple. <span class=\"highlight\">Vimalshä chose the temple.</span>"
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "The project was immense. It took <span class=\"highlight\">14 years</span> and cost a fortune. Artisans were brought from far away, and there wasn't even a road up the mountain. Vimalshä famously paid the sculptors in gold equal to the weight of the marble dust they carved each day. The result was a temple of such exquisite beauty that it is considered a world wonder."
-        },
-        {
-            "tagType": "hr",
-            "tagHTML": ""
-        },
-        {
-            "tagType": "h3",
-            "tagHTML": "I.3.2. Vastupäl and Tejpäl"
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "Two brothers, <span class=\"highlight\">Vastupäl and Tejpäl</span>, were faithful ministers to King Vir-Dhaval of Gujarat. Tejpäl's wife, <span class=\"highlight\">Anupamä-devi</span>, was a wise and religious woman whose opinion he greatly respected."
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "Once, while on a pilgrimage, the brothers decided to bury their wealth to keep it safe from robbers. As they were digging, they discovered <span class=\"highlight\">a huge pot of jewels and coins</span>. Unsure what to do with the unexpected treasure, Tejpäl asked his wife."
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM10 11a6 6 0 016 6H4a6 6 0 016-6z\" /></svg> Anupamä-devi wisely replied that wealth from a deep trench should be placed on a high mountain to spread the glory of Jainism. Taking her advice, the brothers decided to use the treasure to build the second great temple on Mount Äbu, the <span class=\"highlight\">Lunaga Vasahi Temple</span>. In this temple, Tejpäl dedicated two special niches, known as <span class=\"highlight\">\"Deräni-Jethäni nä Gokhla,\"</span> to commemorate his wife and his sister-in-law."
-        }
-    ],
-    "timelineData": [
-        {
-            "era": "The Rise of Vimalshä",
-            "period": "11th Century A.D.",
-            "events": [
-                {
-                    "title": "Early Life",
-                    "description": "Vimal and his brother Nedh are raised by their mother. Vimal becomes an expert archer and equestrian, while Nedh becomes a wise scholar.",
-                    "characters": ["Vimalshä", "Nedh"]
-                },
-                {
-                    "title": "Success in Pätan",
-                    "description": "The brothers move to the capital city of Pätan. Vimal joins the army and Nedh joins the royal court. Under King Bhimdev, Vimal becomes a commander and Nedh a chancellor.",
-                    "characters": ["Vimalshä", "Nedh", "King Bhimdev"]
-                },
-                {
-                    "title": "Jealousy and Exile",
-                    "description": "Jealous courtiers make King Bhimdev suspicious of Vimalshä. To escape the king's distrust, Vimalshä leaves Pätan for Mount Äbu.",
-                    "characters": ["Vimalshä", "King Bhimdev"]
-                }
-            ]
-        },
-        {
-            "era": "The First Delwädä Temple",
-            "period": "11th Century A.D.",
-            "events": [
-                {
-                    "title": "A Vow for a Temple",
-                    "description": "Feeling remorse for past violence, Vimalshä is advised by Ächärya Dharmaghosh-suri to build a temple. He chooses this sacred task over having a son when offered a choice by the goddess Ambikä Devi.",
-                    "characters": ["Vimalshä", "Dharmaghosh-suri", "Ambikä Devi"]
-                },
-                {
-                    "title": "Construction Begins",
-                    "description": "Vimalshä buys land and begins the difficult 14-year project, bringing marble and artisans from far away to the top of the mountain.",
-                    "characters": ["Vimalshä"]
-                },
-                {
-                    "title": "Temple Completion",
-                    "description": "The magnificent temple, the first at Delwädä, is completed at a cost of 185,300,000 gold coins. Its carvings are considered a wonder of the world.",
-                    "characters": ["Vimalshä", "Dharmaghosh-suri"]
-                }
-            ]
-        },
-        {
-            "era": "Vastupäl, Tejpäl, and the Second Temple",
-            "period": "13th Century A.D.",
-            "events": [
-                {
-                    "title": "The Two Brothers",
-                    "description": "Vastupäl and Tejpäl are faithful ministers serving King Vir-Dhaval in Gujarat.",
-                    "characters": ["Vastupäl", "Tejpäl", "King Vir-Dhaval"]
-                },
-                {
-                    "title": "A Fortunate Discovery",
-                    "description": "While on a pilgrimage, the brothers try to bury their wealth for safety but instead unearth a huge pot of treasure.",
-                    "characters": ["Vastupäl", "Tejpäl"]
-                },
-                {
-                    "title": "A Wife's Wise Counsel",
-                    "description": "Unsure what to do, Tejpäl asks his wise wife, Anupamä-devi. She advises that the wealth from the earth should be used to build something high on a mountain.",
-                    "characters": ["Tejpäl", "Anupamä-devi"]
-                },
-                {
-                    "title": "Lunaga Vasahi is Built",
-                    "description": "Inspired, the brothers build the second Delwädä temple, Lunaga Vasahi, in memory of their elder brother. It includes niches called 'Deräni-Jethäni nä Gokhla' to honor their wives.",
-                    "characters": ["Vastupäl", "Tejpäl", "Anupamä-devi"]
-                }
-            ]
-        }
-    ],
-    "charactersData": [
-        {
-            "name": "Vimalshä",
-            "description": "A brave and capable commander under King Bhimdev. He built the first, incredibly ornate Delwädä temple on Mount Äbu to atone for sins committed in war."
-        },
-        {
-            "name": "Vastupäl & Tejpäl",
-            "description": "Two brothers who served as ministers in Gujarat. After discovering a hidden treasure, they used it to build the second Delwädä temple, Lunaga Vasahi."
-        },
-        {
-            "name": "Anupamä-devi",
-            "description": "The wise and religious wife of Tejpäl. It was her suggestion to use the found treasure to build a temple on a mountain, leading to the creation of Lunaga Vasahi."
-        },
-        {
-            "name": "King Bhimdev",
-            "description": "The king of the Solanki dynasty in Gujarat. He initially favored Vimalshä but grew suspicious due to the lies of jealous courtiers."
-        },
-        {
-            "name": "Shridevi",
-            "description": "Vimalshä's beautiful and affectionate wife."
-        },
-        {
-            "name": "Dharmaghosh-suri",
-            "description": "The Jain Ächärya who saw Vimalshä's genuine repentance and advised him to build a temple."
-        },
-        {
-            "name": "Ambikä Devi",
-            "description": "The goddess who granted Vimalshä's wish to build a temple, forcing him to choose it over having a son."
-        }
-    ],
-    "quizData": [
-        {
-            "question": "Who built the first temple at Delwädä?",
-            "answer": "Vimalshä"
-        },
-        {
-            "question": "Who built the second temple, known as Lunaga Vasahi?",
-            "answer": "The brothers Vastupäl and Tejpäl."
-        },
-        {
-            "question": "Why did Vimalshä leave the court of King Bhimdev?",
-            "answer": "Because jealous courtiers made the king suspicious of him."
-        },
-        {
-            "question": "When given a choice by the goddess Ambikä Devi, what did Vimalshä choose instead of a son?",
-            "answer": "The ability to build a great temple."
-        },
-        {
-            "question": "How long did it take to build Vimalshä's temple?",
-            "answer": "14 years."
-        },
-        {
-            "question": "How did Vastupäl and Tejpäl get the wealth to build the second temple?",
-            "answer": "They unearthed a large pot of jewels and coins while trying to bury their own wealth."
-        },
-        {
-            "question": "Whose idea was it to use the found treasure to build a temple on a mountain?",
-            "answer": "Anupamä-devi, Tejpäl's wife."
-        },
-        {
-            "question": "What are the niches dedicated to the ministers' wives in the second temple called?",
-            "answer": "Deräni-Jethäni nä Gokhla."
-        },
-        {
-            "question": "The Delwädä temples are often described as...",
-            "answer": "'Poetry in marble'."
-        },
-        {
-            "question": "In which mountain range are the Delwädä temples located?",
-            "answer": "Mount Äbu."
-        }
-    ],
-    "mindmapV1Data": {
-        "name": "Temples of Delwädä",
-        "children": [
-            {
-                "name": "Vimalshä's Temple (11th Century)",
-                "children": [
-                    {
-                        "name": "Vimalshä's Rise",
-                        "children": [
-                            {
-                                "name": "Commander under King Bhimdev"
-                            },
-                            {
-                                "name": "Jealousy & Exile to Mt. Äbu"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Vow",
-                        "children": [
-                            {
-                                "name": "Advised by Dharmaghosh-suri"
-                            },
-                            {
-                                "name": "Choice from Ambikä Devi: Temple over Son"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Construction",
-                        "children": [
-                            {
-                                "name": "14 Years to build"
-                            },
-                            {
-                                "name": "Exquisite Marble Carvings"
-                            },
-                            {
-                                "name": "Paid artisans in gold"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Lunaga Vasahi Temple (13th Century)",
-                "children": [
-                    {
-                        "name": "Vastupäl & Tejpäl",
-                        "children": [
-                            {
-                                "name": "Ministers for King Vir-Dhaval"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Treasure",
-                        "children": [
-                            {
-                                "name": "Found a pot of jewels while digging"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Idea",
-                        "children": [
-                            {
-                                "name": "Anupamä-devi's wise advice"
-                            },
-                            {
-                                "name": "'Wealth from trench belongs on mountain'"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Construction",
-                        "children": [
-                            {
-                                "name": "Built in memory of elder brother"
-                            },
-                            {
-                                "name": "Includes 'Deräni-Jethäni nä Gokhla'"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "mindmapV2Data": {
-        "name": "Delwädä Temples",
-        "children": [
-            {
-                "name": "First Temple: Vimalshä",
-                "children": [
-                    {
-                        "name": "The Builder",
-                        "children": [
-                            {
-                                "name": "Commander"
-                            },
-                            {
-                                "name": "Exiled by King Bhimdev"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Mission",
-                        "children": [
-                            {
-                                "name": "Advised by a Guru"
-                            },
-                            {
-                                "name": "Chose Temple over Son"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Masterpiece",
-                        "children": [
-                            {
-                                "name": "14-year construction"
-                            },
-                            {
-                                "name": "'Poetry in Marble'"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "name": "Second Temple: The Brothers",
-                "children": [
-                    {
-                        "name": "The Builders",
-                        "children": [
-                            {
-                                "name": "Vastupäl & Tejpäl"
-                            },
-                            {
-                                "name": "Ministers"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Funding",
-                        "children": [
-                            {
-                                "name": "Found hidden treasure"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Inspiration",
-                        "children": [
-                            {
-                                "name": "Anupamä-devi's wisdom"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "The Memorial",
-                        "children": [
-                            {
-                                "name": "Honors their brother & wives"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "graphicsData": [
-        {
-            "title": "Jealousy at Court",
-            "description": "Courtiers, envious of Vimalshä's success, tell King Bhimdev that Vimalshä is arrogant and a threat to the throne.",
-            "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Courtiers+whisper+to+King",
-            "imageAlt": "Jealous courtiers whisper to King Bhimdev, pointing at Vimalshä."
-        },
-        {
-            "title": "A Fateful Choice",
-            "description": "The goddess Ambikä Devi offers Vimalshä a choice: a son, or the ability to build a great temple. He chooses the temple.",
-            "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Vimalshä+before+Ambikä+Devi",
-            "imageAlt": "Vimalshä kneels before the glowing goddess Ambikä Devi."
-        },
-        {
-            "title": "Poetry in Marble",
-            "description": "For 14 years, the finest sculptors create breathtakingly intricate carvings. Vimalshä pays them in gold equal to the weight of the marble dust they produce.",
-            "imageSrc": "https://placehold.co/600x400/f0fdf4/059669?text=Artisans+carving+marble",
-            "imageAlt": "Artisans carefully carve intricate details into the marble ceilings of the Delwädä temple."
-        },
-        {
-            "title": "A Hidden Treasure",
-            "description": "While trying to hide their own wealth, the brothers Vastupäl and Tejpäl discover a massive hidden treasure.",
-            "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Brothers+find+pot+of+gold",
-            "imageAlt": "Vastupäl and Tejpäl look amazed as they unearth a large pot filled with gold coins and jewels."
-        },
-        {
-            "title": "A Wife's Wisdom",
-            "description": "Tejpäl's wife, Anupamä-devi, gives him profound advice on what to do with the newfound wealth.",
-            "dialogue": "Anupamä-devi: \"This wealth came from a deep trench, but the right place for it is on a high mountain.\"",
-            "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Anupamä-devi+advises+Tejpäl",
-            "imageAlt": "Anupamä-devi wisely speaks to her husband Tejpäl."
-        },
-        {
-            "title": "Lunaga Vasahi",
-            "description": "Inspired by the advice, the brothers build the second great temple at Delwädä, with special niches to honor their wives.",
-            "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Lunaga+Vasahi+Temple",
-            "imageAlt": "The completed Lunaga Vasahi temple stands magnificently on Mount Äbu."
-        }
-    ]
+"title":"The Temples of Delwädä",
+"subtitle":"Section I.3 from JAB Manual 5th edition 2024",
+"storyContent": [
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z\" /></svg> On <span class=\"highlight\">Mount Äbu</span> in Rajasthan stand two magnificent Jain temples known as the <span class=\"highlight\">Delwädä Temples</span>. Their intricate marble carvings are so breathtaking they are called \"poetry in marble.\" The first was built by <span class=\"highlight\">Vimalshä</span> in the 11th century, and the second, <span class=\"highlight\">Lunaga Vasahi</span>, by two brothers, <span class=\"highlight\">Vastupäl and Tejpäl</span>, in the 13th century."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"I.3.1. Vimalshä"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<span class=\"highlight\">Vimalshä</span> was a capable and outstanding commander during the Solanki dynasty's golden period in Gujarat. As a young man, he was known for his skill in horseback riding and archery. He and his intelligent brother <span class=\"highlight\">Nedh</span> joined the service of <span class=\"highlight\">King Bhimdev</span> in the capital city of Pätan. Nedh became a chancellor, and Vimal became a commander, marrying a beautiful woman named <span class=\"highlight\">Shridevi</span>."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Some courtiers grew jealous of Vimalshä's success. They noticed he would only bow to the Tirthankars before anyone else, even the king. They poisoned the king's mind, telling him Vimalshä was arrogant and might even try to take the throne. Growing suspicious, King Bhimdev turned against Vimalshä."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Feeling the king's distrust, Vimalshä left Pätan and went to Mount Äbu (then called Chandraväti). There, he defeated the local chief, <span class=\"highlight\">Dhandhuk</span>, who was trying to rebel against King Bhimdev. Vimalshä took control of the region in the king's name, acting as its governor."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zm.75-13.25a.75.75 0 00-1.5 0v6.5a.75.75 0 001.5 0v-6.5zM10 12a1 1 0 100 2 1 1 0 000-2z\" clip-rule=\"evenodd\" /></svg> Vimalshä and his wife had no children. He met a Jain Ächärya, <span class=\"highlight\">Dharmaghosh-suri</span>, and felt deep remorse for the violence in his past wars. The Ächärya advised him to build a temple to atone for his sins. Vimalshä also prayed to the goddess <span class=\"highlight\">Ambikä Devi</span>, who offered him a choice: a son, or the ability to build a great temple. <span class=\"highlight\">Vimalshä chose the temple.</span>"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The project was immense. It took <span class=\"highlight\">14 years</span> and cost a fortune. Artisans were brought from far away, and there wasn't even a road up the mountain. Vimalshä famously paid the sculptors in gold equal to the weight of the marble dust they carved each day. The result was a temple of such exquisite beauty that it is considered a world wonder."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"I.3.2. Vastupäl and Tejpäl"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Two brothers, <span class=\"highlight\">Vastupäl and Tejpäl</span>, were faithful ministers to King Vir-Dhaval of Gujarat. Tejpäl's wife, <span class=\"highlight\">Anupamä-devi</span>, was a wise and religious woman whose opinion he greatly respected."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Once, while on a pilgrimage, the brothers decided to bury their wealth to keep it safe from robbers. As they were digging, they discovered <span class=\"highlight\">a huge pot of jewels and coins</span>. Unsure what to do with the unexpected treasure, Tejpäl asked his wife."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM10 11a6 6 0 016 6H4a6 6 0 016-6z\" /></svg> Anupamä-devi wisely replied that wealth from a deep trench should be placed on a high mountain to spread the glory of Jainism. Taking her advice, the brothers decided to use the treasure to build the second great temple on Mount Äbu, the <span class=\"highlight\">Lunaga Vasahi Temple</span>. In this temple, Tejpäl dedicated two special niches, known as <span class=\"highlight\">\"Deräni-Jethäni nä Gokhla,\"</span> to commemorate his wife and his sister-in-law."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Rise of Vimalshä",
+"period":"11th Century A.D.",
+"events": [
+ {
+"title":"Early Life",
+"description":"Vimal and his brother Nedh are raised by their mother. Vimal becomes an expert archer and equestrian, while Nedh becomes a wise scholar.",
+"characters": ["Vimalshä","Nedh"]
+ },
+ {
+"title":"Success in Pätan",
+"description":"The brothers move to the capital city of Pätan. Vimal joins the army and Nedh joins the royal court. Under King Bhimdev, Vimal becomes a commander and Nedh a chancellor.",
+"characters": ["Vimalshä","Nedh","King Bhimdev"]
+ },
+ {
+"title":"Jealousy and Exile",
+"description":"Jealous courtiers make King Bhimdev suspicious of Vimalshä. To escape the king's distrust, Vimalshä leaves Pätan for Mount Äbu.",
+"characters": ["Vimalshä","King Bhimdev"]
+ }
+ ]
+ },
+ {
+"era":"The First Delwädä Temple",
+"period":"11th Century A.D.",
+"events": [
+ {
+"title":"A Vow for a Temple",
+"description":"Feeling remorse for past violence, Vimalshä is advised by Ächärya Dharmaghosh-suri to build a temple. He chooses this sacred task over having a son when offered a choice by the goddess Ambikä Devi.",
+"characters": ["Vimalshä","Dharmaghosh-suri","Ambikä Devi"]
+ },
+ {
+"title":"Construction Begins",
+"description":"Vimalshä buys land and begins the difficult 14-year project, bringing marble and artisans from far away to the top of the mountain.",
+"characters": ["Vimalshä"]
+ },
+ {
+"title":"Temple Completion",
+"description":"The magnificent temple, the first at Delwädä, is completed at a cost of 185,300,000 gold coins. Its carvings are considered a wonder of the world.",
+"characters": ["Vimalshä","Dharmaghosh-suri"]
+ }
+ ]
+ },
+ {
+"era":"Vastupäl, Tejpäl, and the Second Temple",
+"period":"13th Century A.D.",
+"events": [
+ {
+"title":"The Two Brothers",
+"description":"Vastupäl and Tejpäl are faithful ministers serving King Vir-Dhaval in Gujarat.",
+"characters": ["Vastupäl","Tejpäl","King Vir-Dhaval"]
+ },
+ {
+"title":"A Fortunate Discovery",
+"description":"While on a pilgrimage, the brothers try to bury their wealth for safety but instead unearth a huge pot of treasure.",
+"characters": ["Vastupäl","Tejpäl"]
+ },
+ {
+"title":"A Wife's Wise Counsel",
+"description":"Unsure what to do, Tejpäl asks his wise wife, Anupamä-devi. She advises that the wealth from the earth should be used to build something high on a mountain.",
+"characters": ["Tejpäl","Anupamä-devi"]
+ },
+ {
+"title":"Lunaga Vasahi is Built",
+"description":"Inspired, the brothers build the second Delwädä temple, Lunaga Vasahi, in memory of their elder brother. It includes niches called'Deräni-Jethäni nä Gokhla' to honor their wives.",
+"characters": ["Vastupäl","Tejpäl","Anupamä-devi"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Vimalshä",
+"description":"A brave and capable commander under King Bhimdev. He built the first, incredibly ornate Delwädä temple on Mount Äbu to atone for sins committed in war."
+ },
+ {
+"name":"Vastupäl & Tejpäl",
+"description":"Two brothers who served as ministers in Gujarat. After discovering a hidden treasure, they used it to build the second Delwädä temple, Lunaga Vasahi."
+ },
+ {
+"name":"Anupamä-devi",
+"description":"The wise and religious wife of Tejpäl. It was her suggestion to use the found treasure to build a temple on a mountain, leading to the creation of Lunaga Vasahi."
+ },
+ {
+"name":"King Bhimdev",
+"description":"The king of the Solanki dynasty in Gujarat. He initially favored Vimalshä but grew suspicious due to the lies of jealous courtiers."
+ },
+ {
+"name":"Shridevi",
+"description":"Vimalshä's beautiful and affectionate wife."
+ },
+ {
+"name":"Dharmaghosh-suri",
+"description":"The Jain Ächärya who saw Vimalshä's genuine repentance and advised him to build a temple."
+ },
+ {
+"name":"Ambikä Devi",
+"description":"The goddess who granted Vimalshä's wish to build a temple, forcing him to choose it over having a son."
+ }
+ ],
+"quizData": [
+ {
+"question":"Who built the first temple at Delwädä?",
+"answer":"Vimalshä"
+ },
+ {
+"question":"Who built the second temple, known as Lunaga Vasahi?",
+"answer":"The brothers Vastupäl and Tejpäl."
+ },
+ {
+"question":"Why did Vimalshä leave the court of King Bhimdev?",
+"answer":"Because jealous courtiers made the king suspicious of him."
+ },
+ {
+"question":"When given a choice by the goddess Ambikä Devi, what did Vimalshä choose instead of a son?",
+"answer":"The ability to build a great temple."
+ },
+ {
+"question":"How long did it take to build Vimalshä's temple?",
+"answer":"14 years."
+ },
+ {
+"question":"How did Vastupäl and Tejpäl get the wealth to build the second temple?",
+"answer":"They unearthed a large pot of jewels and coins while trying to bury their own wealth."
+ },
+ {
+"question":"Whose idea was it to use the found treasure to build a temple on a mountain?",
+"answer":"Anupamä-devi, Tejpäl's wife."
+ },
+ {
+"question":"What are the niches dedicated to the ministers' wives in the second temple called?",
+"answer":"Deräni-Jethäni nä Gokhla."
+ },
+ {
+"question":"The Delwädä temples are often described as...",
+"answer":"'Poetry in marble'."
+ },
+ {
+"question":"In which mountain range are the Delwädä temples located?",
+"answer":"Mount Äbu."
+ }
+ ],
+"mindmapV1Data": {
+"name":"Temples of Delwädä",
+"children": [
+ {
+"name":"Vimalshä's Temple (11th Century)",
+"children": [
+ {
+"name":"Vimalshä's Rise",
+"children": [
+ {
+"name":"Commander under King Bhimdev"
+ },
+ {
+"name":"Jealousy & Exile to Mt. Äbu"
+ }
+ ]
+ },
+ {
+"name":"The Vow",
+"children": [
+ {
+"name":"Advised by Dharmaghosh-suri"
+ },
+ {
+"name":"Choice from Ambikä Devi: Temple over Son"
+ }
+ ]
+ },
+ {
+"name":"Construction",
+"children": [
+ {
+"name":"14 Years to build"
+ },
+ {
+"name":"Exquisite Marble Carvings"
+ },
+ {
+"name":"Paid artisans in gold"
+ }
+ ]
+ }
+ ]
+ },
+ {
+"name":"Lunaga Vasahi Temple (13th Century)",
+"children": [
+ {
+"name":"Vastupäl & Tejpäl",
+"children": [
+ {
+"name":"Ministers for King Vir-Dhaval"
+ }
+ ]
+ },
+ {
+"name":"The Treasure",
+"children": [
+ {
+"name":"Found a pot of jewels while digging"
+ }
+ ]
+ },
+ {
+"name":"The Idea",
+"children": [
+ {
+"name":"Anupamä-devi's wise advice"
+ },
+ {
+"name":"'Wealth from trench belongs on mountain'"
+ }
+ ]
+ },
+ {
+"name":"Construction",
+"children": [
+ {
+"name":"Built in memory of elder brother"
+ },
+ {
+"name":"Includes'Deräni-Jethäni nä Gokhla'"
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Delwädä Temples",
+"children": [
+ {
+"name":"First Temple: Vimalshä",
+"children": [
+ {
+"name":"The Builder",
+"children": [
+ {
+"name":"Commander"
+ },
+ {
+"name":"Exiled by King Bhimdev"
+ }
+ ]
+ },
+ {
+"name":"The Mission",
+"children": [
+ {
+"name":"Advised by a Guru"
+ },
+ {
+"name":"Chose Temple over Son"
+ }
+ ]
+ },
+ {
+"name":"The Masterpiece",
+"children": [
+ {
+"name":"14-year construction"
+ },
+ {
+"name":"'Poetry in Marble'"
+ }
+ ]
+ }
+ ]
+ },
+ {
+"name":"Second Temple: The Brothers",
+"children": [
+ {
+"name":"The Builders",
+"children": [
+ {
+"name":"Vastupäl & Tejpäl"
+ },
+ {
+"name":"Ministers"
+ }
+ ]
+ },
+ {
+"name":"The Funding",
+"children": [
+ {
+"name":"Found hidden treasure"
+ }
+ ]
+ },
+ {
+"name":"The Inspiration",
+"children": [
+ {
+"name":"Anupamä-devi's wisdom"
+ }
+ ]
+ },
+ {
+"name":"The Memorial",
+"children": [
+ {
+"name":"Honors their brother & wives"
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"Jealousy at Court",
+"description":"Courtiers, envious of Vimalshä's success, tell King Bhimdev that Vimalshä is arrogant and a threat to the throne.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Courtiers+whisper+to+King",
+"imageAlt":"Jealous courtiers whisper to King Bhimdev, pointing at Vimalshä."
+ },
+ {
+"title":"A Fateful Choice",
+"description":"The goddess Ambikä Devi offers Vimalshä a choice: a son, or the ability to build a great temple. He chooses the temple.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Vimalshä+before+Ambikä+Devi",
+"imageAlt":"Vimalshä kneels before the glowing goddess Ambikä Devi."
+ },
+ {
+"title":"Poetry in Marble",
+"description":"For 14 years, the finest sculptors create breathtakingly intricate carvings. Vimalshä pays them in gold equal to the weight of the marble dust they produce.",
+"imageSrc":"https://placehold.co/600x400/f0fdf4/059669?text=Artisans+carving+marble",
+"imageAlt":"Artisans carefully carve intricate details into the marble ceilings of the Delwädä temple."
+ },
+ {
+"title":"A Hidden Treasure",
+"description":"While trying to hide their own wealth, the brothers Vastupäl and Tejpäl discover a massive hidden treasure.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Brothers+find+pot+of+gold",
+"imageAlt":"Vastupäl and Tejpäl look amazed as they unearth a large pot filled with gold coins and jewels."
+ },
+ {
+"title":"A Wife's Wisdom",
+"description":"Tejpäl's wife, Anupamä-devi, gives him profound advice on what to do with the newfound wealth.",
+"dialogue":"Anupamä-devi: \"This wealth came from a deep trench, but the right place for it is on a high mountain.\"",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Anupamä-devi+advises+Tejpäl",
+"imageAlt":"Anupamä-devi wisely speaks to her husband Tejpäl."
+ },
+ {
+"title":"Lunaga Vasahi",
+"description":"Inspired by the advice, the brothers build the second great temple at Delwädä, with special niches to honor their wives.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Lunaga+Vasahi+Temple",
+"imageAlt":"The completed Lunaga Vasahi temple stands magnificently on Mount Äbu."
+ }
+ ]
 }

@@ -1,519 +1,519 @@
 {
-  "sectionTitle": "Anekāntavāda II: Pramāṇa, Naya, and Syādvāda",
-  "tabs": [
-    {
-      "tabName": "Introduction",
-      "contentType": "accordian",
-      "caption": "Core concepts of Jain logic, forming the foundation of understanding reality from multiple perspectives.",
-      "tabData": {
-        "title": "Fundamental Concepts of Jain Logic",
-        "items": [
-          {
-            "header": "What is Pramāṇa?",
-            "content": "Pramāṇa refers to <span style='color: #d9534f;'><b>true and valid knowledge</b></span>. It is the means of knowing an object as it is, in its entirety, encompassing all its aspects. Jain philosophy divides Pramāṇa into two primary modes: <b>Pratyaksha</b> (direct knowledge) and <b>Paroksha</b> (indirect knowledge). It is the 'total view' knowledge, the object of which is omniscience."
-          },
-          {
-            "header": "What is Naya?",
-            "content": "Naya refers to a <span style='color: #5bc0de;'><b>partial viewpoint or standpoint</b></span>. It is the knowledge of a thing in one of its many relations or aspects. While Pramāṇa provides a complete picture, a Naya illuminates a single facet of reality. According to Siddhasen Diwākar, a thing conceived from one particular point of view is the object of Naya. It is essential for understanding complex realities without making absolute claims."
-          },
-          {
-            "header": "What is Anekāntavāda?",
-            "content": "Anekāntavāda is the core metaphysical theory of Jainism, often translated as the <span style='color: #5cb85c;'><b>'doctrine of non-absolutism'</b></span> or 'manifold aspects'. It posits that ultimate reality is complex and possesses infinite characteristics. Therefore, truth and reality are perceived differently from different points of view, and no single point of view can be the complete truth. It is the foundation for Naya and Syādvāda."
-          },
-          {
-            "header": "What is Syādvāda?",
-            "content": "Syādvāda is the epistemological and logical expression of Anekāntavāda. It is the <span style='color: #f0ad4e;'><b>'theory of conditional predication'</b></span>. It recommends that the prefix 'Syāt' (meaning 'in some respect' or 'perhaps') be attached to every expression. This prevents absolutism in speech and judgment. It is systematically presented through the Sapta-Bhanga, or the seven-fold predications."
-          },
-          {
-            "header": "Anekāntavāda and Ahimsā",
-            "content": "The doctrine of Anekāntavāda is deeply connected to the principle of <span style='color: #d9534f;'><b>Ahimsā (non-violence)</b></span>. By acknowledging the validity of other viewpoints, it fosters tolerance and understanding, thus promoting non-violence in the realm of thought and speech. It aims to stop the 'war of beliefs' which often leads to conflict."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Pramāṇa (Knowledge)",
-      "contentType": "mindmap",
-      "caption": "A hierarchical map of the types of true knowledge (Pramāṇa) in Jainism, from sensory perception to omniscience.",
-      "tabData": {
-        "title": "The Structure of Knowledge (Pramāṇa)",
-        "description": "Pramāṇa, or valid knowledge, is categorized based on whether it is acquired directly by the soul or through an intermediary.",
-        "nodes": [
-          {
-            "id": "1",
-            "text": "Pramāṇa (True Knowledge)",
-            "description": "The means of acquiring a complete and valid understanding of a substance.",
-            "parent": null
-          },
-          {
-            "id": "2",
-            "text": "Pratyaksha (Direct Knowledge)",
-            "description": "Knowledge obtained by the soul without the help of external means like the senses or mind.",
-            "parent": "1"
-          },
-          {
-            "id": "3",
-            "text": "Paroksha (Indirect Knowledge)",
-            "description": "Knowledge obtained by the soul with the help of external means like the five senses and the mind.",
-            "parent": "1"
-          },
-          {
-            "id": "2a",
-            "text": "Pāramārthik (Transcendental)",
-            "description": "Absolute direct knowledge obtained without any external help, when the soul is purified.",
-            "parent": "2"
-          },
-          {
-            "id": "2b",
-            "text": "Sāmvyavahārik (Conventional)",
-            "description": "Partial knowledge acquired with the help of senses and mind, but considered 'direct' in a conventional sense as it is used for self-knowledge after attaining right faith.",
-            "parent": "2"
-          },
-          {
-            "id": "3a",
-            "text": "Mati Jñāna (Sensory Knowledge)",
-            "description": "Knowledge gained through the five senses and the mind. Includes remembrance, recognition, induction, and deduction.",
-            "parent": "3"
-          },
-          {
-            "id": "3b",
-            "text": "Shrut Jñāna (Scriptural Knowledge)",
-            "description": "Knowledge obtained from understanding words, symbols, scriptures, and discourses.",
-            "parent": "3"
-          },
-          {
-            "id": "2a1",
-            "text": "Sakal (Perfect Perception)",
-            "description": "Complete and perfect knowledge, encompassing all substances and their modes across all time.",
-            "parent": "2a"
-          },
-          {
-            "id": "2a2",
-            "text": "Vikal (Partial Perception)",
-            "description": "Partial direct knowledge of formed substances, obtained without the help of senses and mind.",
-            "parent": "2a"
-          },
-          {
-            "id": "2a1a",
-            "text": "Keval-jñāna (Omniscience)",
-            "description": "The ultimate, pure, and untainted knowledge of everything. It is attained after the destruction of all four Ghāti karmas.",
-            "parent": "2a1"
-          },
-          {
-            "id": "2a2a",
-            "text": "Avadhi Jñāna (Clairvoyance)",
-            "description": "Knowledge of material things (Rupi Padārtha) that are distant in space or time. Cannot perceive non-material things.",
-            "parent": "2a2"
-          },
-          {
-            "id": "2a2b",
-            "text": "Manaḥ-paryav Jñāna (Telepathy)",
-            "description": "Knowledge of the thoughts and feelings in the minds of other beings. Possessed only by human ascetics with high spiritual progress.",
-            "parent": "2a2"
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Naya (Standpoints)",
-      "contentType": "accordian",
-      "caption": "Exploring the seven principal standpoints (Nayas) used in Jainism to analyze the multifaceted nature of reality.",
-      "tabData": {
-        "title": "The Seven Standpoints of Naya",
-        "items": [
-          {
-            "header": "Dravyārthik Naya (Substantial Point of View)",
-            "content": "This group of Nayas focuses on the <span style='color: #0275d8;'><b>permanence and substance (Dravya)</b></span> of an object, giving secondary importance to its changing modes (Paryāya). It includes the first three Nayas.<br><br><b>1. Naigam Naya (Generic View):</b> Considers an object without differentiating between its general and specific qualities, often focusing on the intended purpose or result. Example: Calling a person who is gathering ingredients 'a cook'.<br><br><b>2. Sangrah Naya (Collective View):</b> Emphasizes a general class of characteristics while ignoring specifics. Example: Referring to all beings in a hall as 'people', ignoring age or gender.<br><br><b>3. Vyavahār Naya (Practical View):</b> Focuses on the specific, functional aspects of an object, dividing it into sub-classes for practical purposes. Example: Classifying 'medicine' into allopathic, homeopathic, etc."
-          },
-          {
-            "header": "Paryāyārthik Naya (Modification Point of View)",
-            "content": "This group of Nayas focuses on the <span style='color: #d9534f;'><b>changing modes and modifications (Paryāya)</b></span> of an object, giving secondary importance to its underlying substance. It includes the last four Nayas.<br><br><b>4. Rujusutra Naya (Linear View):</b> Considers only the 'present' mode of an object, ignoring its past and future states. Example: A king is only a king at the present moment of his reign, not before or after.<br><br><b>5. Shabda Naya (Literal View):</b> Insists that synonymous words are only interchangeable if they match in tense, gender, case, etc. It treats each word with its precise grammatical value. Example: 'Pot' and 'pitcher' might mean the same, but this naya differentiates them.<br><br><b>6. Samabhirudha Naya (Etymological View):</b> Distinguishes between synonyms based on their root meanings (etymology). Example: A 'palace' and a 'hut' are both places to live, but their root meanings imply different qualities and inhabitants.<br><br><b>7. Evambhuta Naya (Determinant View):</b> The most specific naya, asserting that a word should only be used for an object when it is actively performing the function denoted by the word. Example: A person is only a 'thief' at the exact moment of stealing."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Syādvāda (Predications)",
-      "contentType": "table",
-      "caption": "The Seven-Fold Predication (Sapta-Bhanga) is a logical method to express the multifaceted reality without falling into absolutism. The prefix 'Syāt' means 'in some respect' or 'from a certain standpoint'.",
-      "tabData": {
-        "headers": [
-          "Predication (Bhanga)",
-          "Sanskrit Formulation",
-          "Meaning",
-          "Example: A Clay Pot"
-        ],
-        "rows": [
-          [
-            "1. Affirmation",
-            "Syāt Asti",
-            "In some respect, it is.",
-            "In some respect, the pot exists (e.g., as a substance, in its own time and space)."
-          ],
-          [
-            "2. Negation",
-            "Syāt Nāsti",
-            "In some respect, it is not.",
-            "In some respect, the pot does not exist (e.g., as cloth, in a different time or space)."
-          ],
-          [
-            "3. Affirmation & Negation (Simultaneous)",
-            "Syāt Asti Nāsti",
-            "In some respect, it is and it is not.",
-            "In some respect, the pot exists (as a pot) and does not exist (as cloth) simultaneously."
-          ],
-          [
-            "4. Indescribable",
-            "Syāt Avaktavya",
-            "In some respect, it is indescribable.",
-            "In some respect, the pot is indescribable because its existence and non-existence cannot be stated successively at the same time."
-          ],
-          [
-            "5. Affirmation & Indescribable",
-            "Syāt Asti ca Avaktavya",
-            "In some respect, it is and is indescribable.",
-            "In some respect, the pot exists, but this existence is combined with its indescribable nature from point 4."
-          ],
-          [
-            "6. Negation & Indescribable",
-            "Syāt Nāsti ca Avaktavya",
-            "In some respect, it is not and is indescribable.",
-            "In some respect, the pot does not exist (as cloth), but this non-existence is combined with its indescribable nature from point 4."
-          ],
-          [
-            "7. Affirmation, Negation & Indescribable",
-            "Syāt Asti Nāsti ca Avaktavya",
-            "In some respect, it is, it is not, and is indescribable.",
-            "In some respect, the pot's existence, non-existence, and their simultaneous nature are all combined, making it fully indescribable in this complex view."
-          ]
-        ],
-        "footnote": "This table provides a structured way to understand how any object or proposition can be analyzed from seven different logical standpoints."
-      }
-    },
-    {
-      "tabName": "Key Terms",
-      "contentType": "flashCards",
-      "tabData": [
-        {
-          "title": "Jain Epistemology: Core Terms",
-          "description": "Flashcards to master the essential vocabulary of Jain logic and philosophy.",
-          "frontColor": "#5bc0de",
-          "backColor": "#f0ad4e",
-          "cards": [
-            {
-              "front": "Pramāṇa",
-              "back": "Total or complete knowledge of a substance, encompassing all its aspects. The two main types are Pratyaksha and Paroksha."
-            },
-            {
-              "front": "Naya",
-              "back": "A partial point of view; a standpoint from which a statement is made about a thing. There are seven main Nayas."
-            },
-            {
-              "front": "Keval-jñāna",
-              "back": "Perfect Perception or Omniscience. The absolute, untainted knowledge of all substances in the universe and all their modes, past, present, and future."
-            },
-            {
-              "front": "Mati-jñāna",
-              "back": "Sensory Knowledge. Gained through the five senses and the mind. It is a type of Paroksha Pramāṇa (Indirect Knowledge)."
-            },
-            {
-              "front": "Shrut-jñāna",
-              "back": "Scriptural Knowledge. Knowledge acquired through words, signs, and symbols, typically by studying scriptures or listening to discourses."
-            },
-            {
-              "front": "Manaḥ-paryav Jñāna",
-              "back": "Telepathy. The direct knowledge of the thoughts of others. It is a type of Pāramārthik Pratyaksha Pramāṇa (Transcendental Direct Knowledge)."
-            },
-            {
-              "front": "Avadhi Jñāna",
-              "back": "Clairvoyance. The direct knowledge of material (rupi) objects that are distant in time or space."
-            },
-            {
-              "front": "Dravyārthik Naya",
-              "back": "The substantial point of view, which focuses on the permanent, unchanging substance (Dravya) of an object."
-            },
-            {
-              "front": "Paryāyārthik Naya",
-              "back": "The modification point of view, which focuses on the changing modes (Paryāya) of an object."
-            },
-            {
-              "front": "Syādvāda",
-              "back": "The theory of conditional predication or relative judgment. It uses the prefix 'Syāt' to denote that any statement is true only from a certain standpoint."
-            },
-            {
-              "front": "Sapta-Bhanga",
-              "back": "The seven-fold predication; the logical framework of Syādvāda that outlines seven possible ways to describe an object or proposition conditionally."
-            },
-            {
-              "front": "Nishchay Naya",
-              "back": "The absolute or ultimate point of view, which considers the pure, intrinsic nature of a substance. E.g., The soul is pure consciousness."
-            },
-            {
-              "front": "Vyavahār Naya",
-              "back": "The practical or conventional point of view, which considers a substance in its associated or worldly state. E.g., The soul is bound by karma."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "tabName": "Quiz",
-      "contentType": "quiz",
-      "tabData": {
-        "title": "Jain Logic & Philosophy Quiz",
-        "questions": [
-          {
-            "question": "What is the term for true knowledge of a thing as it is, encompassing all its aspects?",
-            "options": [
-              "Naya",
-              "Pramāṇa",
-              "Syādvāda",
-              "Anekāntavāda"
-            ],
-            "answer": "Pramāṇa"
-          },
-          {
-            "question": "Knowledge obtained by the soul without the help of external means is known as what?",
-            "options": [
-              "Paroksha Pramāṇa",
-              "Shrut Jñāna",
-              "Pratyaksha Pramāṇa",
-              "Mati Jñāna"
-            ],
-            "answer": "Pratyaksha Pramāṇa"
-          },
-          {
-            "question": "Which type of knowledge is considered Perfect Perception or Omniscience?",
-            "options": [
-              "Avadhi Jñāna",
-              "Manaḥ-paryav Jñāna",
-              "Mati Jñāna",
-              "Keval-jñāna"
-            ],
-            "answer": "Keval-jñāna"
-          },
-          {
-            "question": "Mati Jñāna and Shrut Jñāna are classifications of which type of Pramāṇa?",
-            "options": [
-              "Pratyaksha Pramāṇa",
-              "Paroksha Pramāṇa",
-              "Pāramārthik Pramāṇa",
-              "Sakal Pramāṇa"
-            ],
-            "answer": "Paroksha Pramāṇa"
-          },
-          {
-            "question": "What is the English term for Manaḥ-paryav Jñāna?",
-            "options": [
-              "Clairvoyance",
-              "Telepathy",
-              "Sensory Knowledge",
-              "Omniscience"
-            ],
-            "answer": "Telepathy"
-          },
-          {
-            "question": "The Jain theory of reality that states truth has manifold aspects is called what?",
-            "options": [
-              "Syādvāda",
-              "Anekāntavāda",
-              "Nayavāda",
-              "Keval-jñāna"
-            ],
-            "answer": "Anekāntavāda"
-          },
-          {
-            "question": "A standpoint of thought from which we make a statement about a thing is known as a:",
-            "options": [
-              "Pramāṇa",
-              "Syāt",
-              "Bhanga",
-              "Naya"
-            ],
-            "answer": "Naya"
-          },
-          {
-            "question": "The first three Nayas (Naigam, Sangrah, Vyavahār) are grouped under which category?",
-            "options": [
-              "Paryāyārthik Naya",
-              "Nishchay Naya",
-              "Dravyārthik Naya",
-              "Evambhuta Naya"
-            ],
-            "answer": "Dravyārthik Naya"
-          },
-          {
-            "question": "Which Naya considers only the present state or moment of an object, ignoring its past and future?",
-            "options": [
-              "Shabda Naya",
-              "Rujusutra Naya",
-              "Sangrah Naya",
-              "Naigam Naya"
-            ],
-            "answer": "Rujusutra Naya"
-          },
-          {
-            "question": "Which Naya is the most specific, asserting a word only applies when the object is performing the corresponding action?",
-            "options": [
-              "Samabhirudha Naya",
-              "Vyavahār Naya",
-              "Evambhuta Naya",
-              "Shabda Naya"
-            ],
-            "answer": "Evambhuta Naya"
-          },
-          {
-            "question": "What does the word 'Syāt' signify in the context of Syādvāda?",
-            "options": [
-              "Absolutely is",
-              "Is not",
-              "In some respect",
-              "Always"
-            ],
-            "answer": "In some respect"
-          },
-          {
-            "question": "The theory of seven-fold predication is known as:",
-            "options": [
-              "Anekāntavāda",
-              "Sapta-Bhanga",
-              "Dravyārthik",
-              "Nishchay Naya"
-            ],
-            "answer": "Sapta-Bhanga"
-          },
-          {
-            "question": "'Syāt Asti Nāsti' is which of the seven predications?",
-            "options": [
-              "The second",
-              "The fourth",
-              "The third",
-              "The fifth"
-            ],
-            "answer": "The third"
-          },
-          {
-            "question": "What is the fourth predication, 'Syāt Avaktavya', typically translated as?",
-            "options": [
-              "In some respect, it is",
-              "In some respect, it is not",
-              "In some respect, it is and is not",
-              "In some respect, it is indescribable"
-            ],
-            "answer": "In some respect, it is indescribable"
-          },
-          {
-            "question": "The practical or conventional point of view that considers a soul as bound with Karma is known as:",
-            "options": [
-              "Nishchay Naya",
-              "Vyavahār Naya",
-              "Sangrah Naya",
-              "Evambhuta Naya"
-            ],
-            "answer": "Vyavahār Naya"
-          },
-          {
-            "question": "Who wrote 'Nyāyāvatāra', a key text on Jain logic?",
-            "options": [
-              "Mahatma Gandhi",
-              "Pundit Dalsukhbhai Malvania",
-              "Siddhasen Diwākar",
-              "Dr. S. Radhakrishnan"
-            ],
-            "answer": "Siddhasen Diwākar"
-          },
-          {
-            "question": "Knowledge of material things at a great distance, like on another planet, falls under which category?",
-            "options": [
-              "Keval-jñāna",
-              "Mati-jñāna",
-              "Shrut-jñāna",
-              "Avadhi Jñāna"
-            ],
-            "answer": "Avadhi Jñāna"
-          },
-          {
-            "question": "Smaran (Remembrance), Pratyabhijna (Recognition), Tarka (Induction), and Anumān (Deduction) are varieties of:",
-            "options": [
-              "Shrut Jñāna",
-              "Avadhi Jñāna",
-              "Mati Jñāna",
-              "Keval-jñāna"
-            ],
-            "answer": "Mati Jñāna"
-          },
-          {
-            "question": "The standpoint which focuses on the etymological or root distinction between synonyms is:",
-            "options": [
-              "Shabda Naya",
-              "Rujusutra Naya",
-              "Samabhirudha Naya",
-              "Vyavahār Naya"
-            ],
-            "answer": "Samabhirudha Naya"
-          },
-          {
-            "question": "The Jain doctrines of Anekāntavāda and Syādvāda introduce the practice of which core Jain principle into the realm of thought?",
-            "options": [
-              "Aparigraha (Non-possession)",
-              "Satya (Truth)",
-              "Ahimsā (Non-violence)",
-              "Asteya (Non-stealing)"
-            ],
-            "answer": "Ahimsā (Non-violence)"
-          },
-          {
-            "question": "Which of these is a type of Vikal Pāramārthik Pramāṇa (Partial Transcendental Knowledge)?",
-            "options": [
-              "Mati Jñāna",
-              "Keval-jñāna",
-              "Shrut Jñāna",
-              "Avadhi Jñāna"
-            ],
-            "answer": "Avadhi Jñāna"
-          },
-          {
-            "question": "Which Naya would refer to a clay pot as a 'water pot' based on its function?",
-            "options": [
-              "Nishchay Naya",
-              "Naigam Naya",
-              "Vyavahār Naya",
-              "Rujusutra Naya"
-            ],
-            "answer": "Vyavahār Naya"
-          },
-          {
-            "question": "The emergence of a new form, elimination of an old form, and the constancy of the substance are known as Utpād, Vyaya, and what?",
-            "options": [
-              "Dhrauvya",
-              "Naya",
-              "Syāt",
-              "Paryāya"
-            ],
-            "answer": "Dhrauvya"
-          },
-          {
-            "question": "Which type of Pramāṇa is Sāmvyavahārik Pratyaksha Pramāṇa classified as?",
-            "options": [
-              "Indirect Knowledge in a conventional sense",
-              "Direct knowledge in a transcendental sense",
-              "Indirect Knowledge in a transcendental sense",
-              "Direct knowledge in a conventional sense"
-            ],
-            "answer": "Direct knowledge in a conventional sense"
-          },
-          {
-            "question": "The standpoint focusing on the pure, original nature of a thing is called:",
-            "options": [
-              "Vyavahār Naya",
-              "Paryāyārthik Naya",
-              "Nishchay Naya",
-              "Dravyārthik Naya"
-            ],
-            "answer": "Nishchay Naya"
-          }
-        ]
-      }
-    }
-  ]
+"sectionTitle":"Anekāntavāda II: Pramāṇa, Naya, and Syādvāda",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"accordian",
+"caption":"Core concepts of Jain logic, forming the foundation of understanding reality from multiple perspectives.",
+"tabData": {
+"title":"Fundamental Concepts of Jain Logic",
+"items": [
+ {
+"header":"What is Pramāṇa?",
+"content":"Pramāṇa refers to <span style='color: #d9534f;'><b>true and valid knowledge</b></span>. It is the means of knowing an object as it is, in its entirety, encompassing all its aspects. Jain philosophy divides Pramāṇa into two primary modes: <b>Pratyaksha</b> (direct knowledge) and <b>Paroksha</b> (indirect knowledge). It is the'total view' knowledge, the object of which is omniscience."
+ },
+ {
+"header":"What is Naya?",
+"content":"Naya refers to a <span style='color: #5bc0de;'><b>partial viewpoint or standpoint</b></span>. It is the knowledge of a thing in one of its many relations or aspects. While Pramāṇa provides a complete picture, a Naya illuminates a single facet of reality. According to Siddhasen Diwākar, a thing conceived from one particular point of view is the object of Naya. It is essential for understanding complex realities without making absolute claims."
+ },
+ {
+"header":"What is Anekāntavāda?",
+"content":"Anekāntavāda is the core metaphysical theory of Jainism, often translated as the <span style='color: #5cb85c;'><b>'doctrine of non-absolutism'</b></span> or'manifold aspects'. It posits that ultimate reality is complex and possesses infinite characteristics. Therefore, truth and reality are perceived differently from different points of view, and no single point of view can be the complete truth. It is the foundation for Naya and Syādvāda."
+ },
+ {
+"header":"What is Syādvāda?",
+"content":"Syādvāda is the epistemological and logical expression of Anekāntavāda. It is the <span style='color: #f0ad4e;'><b>'theory of conditional predication'</b></span>. It recommends that the prefix'Syāt' (meaning'in some respect' or'perhaps') be attached to every expression. This prevents absolutism in speech and judgment. It is systematically presented through the Sapta-Bhanga, or the seven-fold predications."
+ },
+ {
+"header":"Anekāntavāda and Ahimsā",
+"content":"The doctrine of Anekāntavāda is deeply connected to the principle of <span style='color: #d9534f;'><b>Ahimsā (non-violence)</b></span>. By acknowledging the validity of other viewpoints, it fosters tolerance and understanding, thus promoting non-violence in the realm of thought and speech. It aims to stop the'war of beliefs' which often leads to conflict."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Pramāṇa (Knowledge)",
+"contentType":"mindmap",
+"caption":"A hierarchical map of the types of true knowledge (Pramāṇa) in Jainism, from sensory perception to omniscience.",
+"tabData": {
+"title":"The Structure of Knowledge (Pramāṇa)",
+"description":"Pramāṇa, or valid knowledge, is categorized based on whether it is acquired directly by the soul or through an intermediary.",
+"nodes": [
+ {
+"id":"1",
+"text":"Pramāṇa (True Knowledge)",
+"description":"The means of acquiring a complete and valid understanding of a substance.",
+"parent": null
+ },
+ {
+"id":"2",
+"text":"Pratyaksha (Direct Knowledge)",
+"description":"Knowledge obtained by the soul without the help of external means like the senses or mind.",
+"parent":"1"
+ },
+ {
+"id":"3",
+"text":"Paroksha (Indirect Knowledge)",
+"description":"Knowledge obtained by the soul with the help of external means like the five senses and the mind.",
+"parent":"1"
+ },
+ {
+"id":"2a",
+"text":"Pāramārthik (Transcendental)",
+"description":"Absolute direct knowledge obtained without any external help, when the soul is purified.",
+"parent":"2"
+ },
+ {
+"id":"2b",
+"text":"Sāmvyavahārik (Conventional)",
+"description":"Partial knowledge acquired with the help of senses and mind, but considered'direct' in a conventional sense as it is used for self-knowledge after attaining right faith.",
+"parent":"2"
+ },
+ {
+"id":"3a",
+"text":"Mati Jñāna (Sensory Knowledge)",
+"description":"Knowledge gained through the five senses and the mind. Includes remembrance, recognition, induction, and deduction.",
+"parent":"3"
+ },
+ {
+"id":"3b",
+"text":"Shrut Jñāna (Scriptural Knowledge)",
+"description":"Knowledge obtained from understanding words, symbols, scriptures, and discourses.",
+"parent":"3"
+ },
+ {
+"id":"2a1",
+"text":"Sakal (Perfect Perception)",
+"description":"Complete and perfect knowledge, encompassing all substances and their modes across all time.",
+"parent":"2a"
+ },
+ {
+"id":"2a2",
+"text":"Vikal (Partial Perception)",
+"description":"Partial direct knowledge of formed substances, obtained without the help of senses and mind.",
+"parent":"2a"
+ },
+ {
+"id":"2a1a",
+"text":"Keval-jñāna (Omniscience)",
+"description":"The ultimate, pure, and untainted knowledge of everything. It is attained after the destruction of all four Ghāti karmas.",
+"parent":"2a1"
+ },
+ {
+"id":"2a2a",
+"text":"Avadhi Jñāna (Clairvoyance)",
+"description":"Knowledge of material things (Rupi Padārtha) that are distant in space or time. Cannot perceive non-material things.",
+"parent":"2a2"
+ },
+ {
+"id":"2a2b",
+"text":"Manaḥ-paryav Jñāna (Telepathy)",
+"description":"Knowledge of the thoughts and feelings in the minds of other beings. Possessed only by human ascetics with high spiritual progress.",
+"parent":"2a2"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Naya (Standpoints)",
+"contentType":"accordian",
+"caption":"Exploring the seven principal standpoints (Nayas) used in Jainism to analyze the multifaceted nature of reality.",
+"tabData": {
+"title":"The Seven Standpoints of Naya",
+"items": [
+ {
+"header":"Dravyārthik Naya (Substantial Point of View)",
+"content":"This group of Nayas focuses on the <span style='color: #0275d8;'><b>permanence and substance (Dravya)</b></span> of an object, giving secondary importance to its changing modes (Paryāya). It includes the first three Nayas.<br><br><b>1. Naigam Naya (Generic View):</b> Considers an object without differentiating between its general and specific qualities, often focusing on the intended purpose or result. Example: Calling a person who is gathering ingredients'a cook'.<br><br><b>2. Sangrah Naya (Collective View):</b> Emphasizes a general class of characteristics while ignoring specifics. Example: Referring to all beings in a hall as'people', ignoring age or gender.<br><br><b>3. Vyavahār Naya (Practical View):</b> Focuses on the specific, functional aspects of an object, dividing it into sub-classes for practical purposes. Example: Classifying'medicine' into allopathic, homeopathic, etc."
+ },
+ {
+"header":"Paryāyārthik Naya (Modification Point of View)",
+"content":"This group of Nayas focuses on the <span style='color: #d9534f;'><b>changing modes and modifications (Paryāya)</b></span> of an object, giving secondary importance to its underlying substance. It includes the last four Nayas.<br><br><b>4. Rujusutra Naya (Linear View):</b> Considers only the'present' mode of an object, ignoring its past and future states. Example: A king is only a king at the present moment of his reign, not before or after.<br><br><b>5. Shabda Naya (Literal View):</b> Insists that synonymous words are only interchangeable if they match in tense, gender, case, etc. It treats each word with its precise grammatical value. Example:'Pot' and'pitcher' might mean the same, but this naya differentiates them.<br><br><b>6. Samabhirudha Naya (Etymological View):</b> Distinguishes between synonyms based on their root meanings (etymology). Example: A'palace' and a'hut' are both places to live, but their root meanings imply different qualities and inhabitants.<br><br><b>7. Evambhuta Naya (Determinant View):</b> The most specific naya, asserting that a word should only be used for an object when it is actively performing the function denoted by the word. Example: A person is only a'thief' at the exact moment of stealing."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Syādvāda (Predications)",
+"contentType":"table",
+"caption":"The Seven-Fold Predication (Sapta-Bhanga) is a logical method to express the multifaceted reality without falling into absolutism. The prefix'Syāt' means'in some respect' or'from a certain standpoint'.",
+"tabData": {
+"headers": [
+"Predication (Bhanga)",
+"Sanskrit Formulation",
+"Meaning",
+"Example: A Clay Pot"
+ ],
+"rows": [
+ [
+"1. Affirmation",
+"Syāt Asti",
+"In some respect, it is.",
+"In some respect, the pot exists (e.g., as a substance, in its own time and space)."
+ ],
+ [
+"2. Negation",
+"Syāt Nāsti",
+"In some respect, it is not.",
+"In some respect, the pot does not exist (e.g., as cloth, in a different time or space)."
+ ],
+ [
+"3. Affirmation & Negation (Simultaneous)",
+"Syāt Asti Nāsti",
+"In some respect, it is and it is not.",
+"In some respect, the pot exists (as a pot) and does not exist (as cloth) simultaneously."
+ ],
+ [
+"4. Indescribable",
+"Syāt Avaktavya",
+"In some respect, it is indescribable.",
+"In some respect, the pot is indescribable because its existence and non-existence cannot be stated successively at the same time."
+ ],
+ [
+"5. Affirmation & Indescribable",
+"Syāt Asti ca Avaktavya",
+"In some respect, it is and is indescribable.",
+"In some respect, the pot exists, but this existence is combined with its indescribable nature from point 4."
+ ],
+ [
+"6. Negation & Indescribable",
+"Syāt Nāsti ca Avaktavya",
+"In some respect, it is not and is indescribable.",
+"In some respect, the pot does not exist (as cloth), but this non-existence is combined with its indescribable nature from point 4."
+ ],
+ [
+"7. Affirmation, Negation & Indescribable",
+"Syāt Asti Nāsti ca Avaktavya",
+"In some respect, it is, it is not, and is indescribable.",
+"In some respect, the pot's existence, non-existence, and their simultaneous nature are all combined, making it fully indescribable in this complex view."
+ ]
+ ],
+"footnote":"This table provides a structured way to understand how any object or proposition can be analyzed from seven different logical standpoints."
+ }
+ },
+ {
+"tabName":"Key Terms",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"Jain Epistemology: Core Terms",
+"description":"Flashcards to master the essential vocabulary of Jain logic and philosophy.",
+"frontColor":"#5bc0de",
+"backColor":"#f0ad4e",
+"cards": [
+ {
+"front":"Pramāṇa",
+"back":"Total or complete knowledge of a substance, encompassing all its aspects. The two main types are Pratyaksha and Paroksha."
+ },
+ {
+"front":"Naya",
+"back":"A partial point of view; a standpoint from which a statement is made about a thing. There are seven main Nayas."
+ },
+ {
+"front":"Keval-jñāna",
+"back":"Perfect Perception or Omniscience. The absolute, untainted knowledge of all substances in the universe and all their modes, past, present, and future."
+ },
+ {
+"front":"Mati-jñāna",
+"back":"Sensory Knowledge. Gained through the five senses and the mind. It is a type of Paroksha Pramāṇa (Indirect Knowledge)."
+ },
+ {
+"front":"Shrut-jñāna",
+"back":"Scriptural Knowledge. Knowledge acquired through words, signs, and symbols, typically by studying scriptures or listening to discourses."
+ },
+ {
+"front":"Manaḥ-paryav Jñāna",
+"back":"Telepathy. The direct knowledge of the thoughts of others. It is a type of Pāramārthik Pratyaksha Pramāṇa (Transcendental Direct Knowledge)."
+ },
+ {
+"front":"Avadhi Jñāna",
+"back":"Clairvoyance. The direct knowledge of material (rupi) objects that are distant in time or space."
+ },
+ {
+"front":"Dravyārthik Naya",
+"back":"The substantial point of view, which focuses on the permanent, unchanging substance (Dravya) of an object."
+ },
+ {
+"front":"Paryāyārthik Naya",
+"back":"The modification point of view, which focuses on the changing modes (Paryāya) of an object."
+ },
+ {
+"front":"Syādvāda",
+"back":"The theory of conditional predication or relative judgment. It uses the prefix'Syāt' to denote that any statement is true only from a certain standpoint."
+ },
+ {
+"front":"Sapta-Bhanga",
+"back":"The seven-fold predication; the logical framework of Syādvāda that outlines seven possible ways to describe an object or proposition conditionally."
+ },
+ {
+"front":"Nishchay Naya",
+"back":"The absolute or ultimate point of view, which considers the pure, intrinsic nature of a substance. E.g., The soul is pure consciousness."
+ },
+ {
+"front":"Vyavahār Naya",
+"back":"The practical or conventional point of view, which considers a substance in its associated or worldly state. E.g., The soul is bound by karma."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Jain Logic & Philosophy Quiz",
+"questions": [
+ {
+"question":"What is the term for true knowledge of a thing as it is, encompassing all its aspects?",
+"options": [
+"Naya",
+"Pramāṇa",
+"Syādvāda",
+"Anekāntavāda"
+ ],
+"answer":"Pramāṇa"
+ },
+ {
+"question":"Knowledge obtained by the soul without the help of external means is known as what?",
+"options": [
+"Paroksha Pramāṇa",
+"Shrut Jñāna",
+"Pratyaksha Pramāṇa",
+"Mati Jñāna"
+ ],
+"answer":"Pratyaksha Pramāṇa"
+ },
+ {
+"question":"Which type of knowledge is considered Perfect Perception or Omniscience?",
+"options": [
+"Avadhi Jñāna",
+"Manaḥ-paryav Jñāna",
+"Mati Jñāna",
+"Keval-jñāna"
+ ],
+"answer":"Keval-jñāna"
+ },
+ {
+"question":"Mati Jñāna and Shrut Jñāna are classifications of which type of Pramāṇa?",
+"options": [
+"Pratyaksha Pramāṇa",
+"Paroksha Pramāṇa",
+"Pāramārthik Pramāṇa",
+"Sakal Pramāṇa"
+ ],
+"answer":"Paroksha Pramāṇa"
+ },
+ {
+"question":"What is the English term for Manaḥ-paryav Jñāna?",
+"options": [
+"Clairvoyance",
+"Telepathy",
+"Sensory Knowledge",
+"Omniscience"
+ ],
+"answer":"Telepathy"
+ },
+ {
+"question":"The Jain theory of reality that states truth has manifold aspects is called what?",
+"options": [
+"Syādvāda",
+"Anekāntavāda",
+"Nayavāda",
+"Keval-jñāna"
+ ],
+"answer":"Anekāntavāda"
+ },
+ {
+"question":"A standpoint of thought from which we make a statement about a thing is known as a:",
+"options": [
+"Pramāṇa",
+"Syāt",
+"Bhanga",
+"Naya"
+ ],
+"answer":"Naya"
+ },
+ {
+"question":"The first three Nayas (Naigam, Sangrah, Vyavahār) are grouped under which category?",
+"options": [
+"Paryāyārthik Naya",
+"Nishchay Naya",
+"Dravyārthik Naya",
+"Evambhuta Naya"
+ ],
+"answer":"Dravyārthik Naya"
+ },
+ {
+"question":"Which Naya considers only the present state or moment of an object, ignoring its past and future?",
+"options": [
+"Shabda Naya",
+"Rujusutra Naya",
+"Sangrah Naya",
+"Naigam Naya"
+ ],
+"answer":"Rujusutra Naya"
+ },
+ {
+"question":"Which Naya is the most specific, asserting a word only applies when the object is performing the corresponding action?",
+"options": [
+"Samabhirudha Naya",
+"Vyavahār Naya",
+"Evambhuta Naya",
+"Shabda Naya"
+ ],
+"answer":"Evambhuta Naya"
+ },
+ {
+"question":"What does the word'Syāt' signify in the context of Syādvāda?",
+"options": [
+"Absolutely is",
+"Is not",
+"In some respect",
+"Always"
+ ],
+"answer":"In some respect"
+ },
+ {
+"question":"The theory of seven-fold predication is known as:",
+"options": [
+"Anekāntavāda",
+"Sapta-Bhanga",
+"Dravyārthik",
+"Nishchay Naya"
+ ],
+"answer":"Sapta-Bhanga"
+ },
+ {
+"question":"'Syāt Asti Nāsti' is which of the seven predications?",
+"options": [
+"The second",
+"The fourth",
+"The third",
+"The fifth"
+ ],
+"answer":"The third"
+ },
+ {
+"question":"What is the fourth predication,'Syāt Avaktavya', typically translated as?",
+"options": [
+"In some respect, it is",
+"In some respect, it is not",
+"In some respect, it is and is not",
+"In some respect, it is indescribable"
+ ],
+"answer":"In some respect, it is indescribable"
+ },
+ {
+"question":"The practical or conventional point of view that considers a soul as bound with Karma is known as:",
+"options": [
+"Nishchay Naya",
+"Vyavahār Naya",
+"Sangrah Naya",
+"Evambhuta Naya"
+ ],
+"answer":"Vyavahār Naya"
+ },
+ {
+"question":"Who wrote'Nyāyāvatāra', a key text on Jain logic?",
+"options": [
+"Mahatma Gandhi",
+"Pundit Dalsukhbhai Malvania",
+"Siddhasen Diwākar",
+"Dr. S. Radhakrishnan"
+ ],
+"answer":"Siddhasen Diwākar"
+ },
+ {
+"question":"Knowledge of material things at a great distance, like on another planet, falls under which category?",
+"options": [
+"Keval-jñāna",
+"Mati-jñāna",
+"Shrut-jñāna",
+"Avadhi Jñāna"
+ ],
+"answer":"Avadhi Jñāna"
+ },
+ {
+"question":"Smaran (Remembrance), Pratyabhijna (Recognition), Tarka (Induction), and Anumān (Deduction) are varieties of:",
+"options": [
+"Shrut Jñāna",
+"Avadhi Jñāna",
+"Mati Jñāna",
+"Keval-jñāna"
+ ],
+"answer":"Mati Jñāna"
+ },
+ {
+"question":"The standpoint which focuses on the etymological or root distinction between synonyms is:",
+"options": [
+"Shabda Naya",
+"Rujusutra Naya",
+"Samabhirudha Naya",
+"Vyavahār Naya"
+ ],
+"answer":"Samabhirudha Naya"
+ },
+ {
+"question":"The Jain doctrines of Anekāntavāda and Syādvāda introduce the practice of which core Jain principle into the realm of thought?",
+"options": [
+"Aparigraha (Non-possession)",
+"Satya (Truth)",
+"Ahimsā (Non-violence)",
+"Asteya (Non-stealing)"
+ ],
+"answer":"Ahimsā (Non-violence)"
+ },
+ {
+"question":"Which of these is a type of Vikal Pāramārthik Pramāṇa (Partial Transcendental Knowledge)?",
+"options": [
+"Mati Jñāna",
+"Keval-jñāna",
+"Shrut Jñāna",
+"Avadhi Jñāna"
+ ],
+"answer":"Avadhi Jñāna"
+ },
+ {
+"question":"Which Naya would refer to a clay pot as a'water pot' based on its function?",
+"options": [
+"Nishchay Naya",
+"Naigam Naya",
+"Vyavahār Naya",
+"Rujusutra Naya"
+ ],
+"answer":"Vyavahār Naya"
+ },
+ {
+"question":"The emergence of a new form, elimination of an old form, and the constancy of the substance are known as Utpād, Vyaya, and what?",
+"options": [
+"Dhrauvya",
+"Naya",
+"Syāt",
+"Paryāya"
+ ],
+"answer":"Dhrauvya"
+ },
+ {
+"question":"Which type of Pramāṇa is Sāmvyavahārik Pratyaksha Pramāṇa classified as?",
+"options": [
+"Indirect Knowledge in a conventional sense",
+"Direct knowledge in a transcendental sense",
+"Indirect Knowledge in a transcendental sense",
+"Direct knowledge in a conventional sense"
+ ],
+"answer":"Direct knowledge in a conventional sense"
+ },
+ {
+"question":"The standpoint focusing on the pure, original nature of a thing is called:",
+"options": [
+"Vyavahār Naya",
+"Paryāyārthik Naya",
+"Nishchay Naya",
+"Dravyārthik Naya"
+ ],
+"answer":"Nishchay Naya"
+ }
+ ]
+ }
+ }
+ ]
 }

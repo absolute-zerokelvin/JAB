@@ -145,7 +145,7 @@
 
 .graphic-novel-caption {
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: var(--card-background);
     border-top: 1px solid var(--border-color);
     flex-grow: 1;
 }
