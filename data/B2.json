@@ -295,7 +295,6 @@
                                 "description": "Qualities of a purely liberated soul.",
                                 "frontColor": "#f3e8ff",
                                 "backColor": "#6b21a8",
-                                "flippable": false,
                                 "cards": [
                                     {
                                         "front": "Anant-jnän",
@@ -397,9 +396,8 @@
                             {
                                 "title": "The 25 Attributes",
                                 "description": "Symbolizing mastery of scriptures.",
-                                "frontColor": "#ffffff",
+                                "frontColor": "#3b82f6",
                                 "backColor": "#2563eb",
-                                "flippable": false,
                                 "cards": [
                                     {
                                         "front": "11",
@@ -450,7 +448,6 @@
                                 "description": "The foundation of ascetic life.",
                                 "frontColor": "#dcfce7",
                                 "backColor": "#15803d",
-                                "flippable": false,
                                 "cards": [
                                     {
                                         "front": "Ahimsā",
