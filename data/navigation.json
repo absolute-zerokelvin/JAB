@@ -39,36 +39,36 @@
           {
             "id": "B3",
             "title": "B.3",
-            "name": "Jain Path of Liberation: Ratna-trayi",
-            "url": "./B3.html?section=B3",
+            "name": "B.3: Jain Path of Liberation: Ratna-trayi",
+            "url": "./tabTemplate.html?section=B3.json",
             "dataFile": "B3.json"
           },
           {
             "id": "B4",
             "title": "B.4",
-            "name": "Shad Dravya I: Jiva",
-            "url": "./B4.html?section=B4",
+            "name": "B.4: Shad Dravya I: Jiva",
+            "url": "./tabTemplate.html?section=B4.json",
             "dataFile": "B4.json"
           },
           {
             "id": "B5",
             "title": "B.5",
-            "name": "Shad Dravya II: Ajiva",
-            "url": "./B5.html?section=B5",
+            "name": "B.5: Shad Dravya II: Ajiva",
+            "url": "./tabTemplate.html?section=B5.json",
             "dataFile": "B5.json"
           },
           {
             "id": "B6",
             "title": "B.6",
-            "name": "Nav Tattva Part I",
-            "url": "./B6.html?section=B6",
+            "name": "B.6: Nav Tattva Part I",
+            "url": "./tabTemplate.html?section=B6.json",
             "dataFile": "B6.json"
           },
           {
             "id": "B7",
             "title": "B.7",
-            "name": "Nav Tattva Part II: Punya and Päp",
-            "url": "./B7.html?section=B7",
+            "name": "B.7: Nav Tattva Part II: Punya & Päp",
+            "url": "./tabTemplate.html?section=B7.json",
             "dataFile": "B7.json"
           },
           {

@@ -1,0 +1,504 @@
+{
+    "tabView": true,
+    "pageTitle": "The Six Substances: Jiva",
+    "sectionTitle": "B.4: Shad Dravya I: Jiva",
+    "pageSubtitle": "An Interactive Study Guide for Section B.4",
+    "tabs": [
+        {
+            "tabName": "Jain Reality",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Jain Reality & The Six Substances"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Jainism states the universe is eternal, made of six fundamental substances (Shad Dravya). Reality itself is a combination of constant change and permanence."
+                            },
+                            {
+                                "tagType": "div",
+                                "tagHTML": "<div class='p-4 bg-blue-50 rounded-lg italic text-center text-blue-800 border-l-4 border-blue-500 mb-8'><p class='font-semibold'>The Three Pronouncements (Tripadi)</p><p>\"Uppannei vä, Vigamei vä, Dhuvei vä\"</p><p class='text-sm not-italic mt-1'>Appearance, Disappearance, and Permanence</p></div>"
+                            },
+                            {
+                                "tagType": "h3",
+                                "tagHTML": "The Six Universal Substances (Shad Dravya)"
+                            },
+                            {
+                                "tagType": "div",
+                                "tagHTML": "<div class='grid grid-cols-2 md:grid-cols-3 gap-4 mb-8'><div class='p-4 bg-green-100 border-2 border-green-300 rounded-xl text-center'><h4 class='font-bold text-green-800'>Jiva</h4><p class='text-sm text-green-700'>(Living / Soul)</p></div><div class='p-4 bg-gray-100 border-2 border-gray-300 rounded-xl text-center'><h4 class='font-bold text-gray-800'>Pudgalästikäy</h4><p class='text-sm text-gray-700'>(Matter)</p></div><div class='p-4 bg-gray-100 border-2 border-gray-300 rounded-xl text-center'><h4 class='font-bold text-gray-800'>Dharmästikäy</h4><p class='text-sm text-gray-700'>(Medium of Motion)</p></div><div class='p-4 bg-gray-100 border-2 border-gray-300 rounded-xl text-center'><h4 class='font-bold text-gray-800'>Adharmästikäy</h4><p class='text-sm text-gray-700'>(Medium of Rest)</p></div><div class='p-4 bg-gray-100 border-2 border-gray-300 rounded-xl text-center'><h4 class='font-bold text-gray-800'>Äkäshästikäy</h4><p class='text-sm text-gray-700'>(Space)</p></div><div class='p-4 bg-gray-100 border-2 border-gray-300 rounded-xl text-center'><h4 class='font-bold text-gray-800'>Käl</h4><p class='text-sm text-gray-700'>(Time)</p></div></div>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "The Five Non-Living Substances (Ajiva)",
+                                "description": "Click to flip and learn about each Ajiva.",
+                                "frontColor": "#3b82f6",
+                                "backColor": "#1d4ed8",
+                                "flippable": true,
+                                "cards": [
+                                    {
+                                        "front": "Dharmästikäy",
+                                        "back": "Medium of Motion"
+                                    },
+                                    {
+                                        "front": "Adharmästikäy",
+                                        "back": "Medium of Rest"
+                                    },
+                                    {
+                                        "front": "Äkäshästikäy",
+                                        "back": "Space"
+                                    },
+                                    {
+                                        "front": "Pudgalästikäy",
+                                        "back": "Matter"
+                                    },
+                                    {
+                                        "front": "Käl",
+                                        "back": "Time"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Classification of Jiva",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Classification of Jiva (Living Beings)"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "All souls (Jiva) are broadly classified based on their state of liberation and the number of senses they possess."
+                            },
+                            {
+                                "tagType": "div",
+                                "tagHTML": "<div class='text-center p-4 bg-blue-50 rounded-lg'><div class='p-3 bg-blue-800 text-white rounded-lg inline-block font-bold'>Jiva (Soul)</div><div class='flex justify-center my-4'><div class='w-px h-8 bg-blue-300'></div></div><div class='flex justify-around'><div><div class='p-2 bg-purple-500 text-white rounded-lg inline-block'>Liberated (Siddha)</div></div><div><div class='p-2 bg-yellow-500 text-white rounded-lg inline-block'>Worldly (Sansäri)</div><div class='flex justify-center my-2'><div class='w-px h-6 bg-yellow-300'></div></div><div class='flex justify-around gap-4'><div><div class='p-2 bg-red-500 text-white rounded-lg inline-block'>Immobile (Sthävar)</div></div><div><div class='p-2 bg-green-500 text-white rounded-lg inline-block'>Mobile (Trasa)</div></div></div></div></div></div>"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "Immobile Beings (Sthävar Jiva) - One Sense (Touch)",
+                                "description": "Beings with only the sense of touch.",
+                                "frontColor": "#ef4444",
+                                "backColor": "#991b1b",
+                                "flippable": true,
+                                "cards": [
+                                    {
+                                        "front": "Prithvikäya",
+                                        "back": "Earth-bodied (sand, clay)"
+                                    },
+                                    {
+                                        "front": "Apkäya",
+                                        "back": "Water-bodied (rain, fog)"
+                                    },
+                                    {
+                                        "front": "Teukäya",
+                                        "back": "Fire-bodied (flames, lightning)"
+                                    },
+                                    {
+                                        "front": "Väyukäya",
+                                        "back": "Air-bodied (wind, cyclones)"
+                                    },
+                                    {
+                                        "front": "Vanaspati-käya",
+                                        "back": "Plant-bodied (trees, vegetables)"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "flashCards",
+                        "data": [
+                            {
+                                "title": "Mobile Beings (Trasa Jiva) - Two to Five Senses",
+                                "description": "Beings with more than one sense.",
+                                "frontColor": "#22c55e",
+                                "backColor": "#15803d",
+                                "flippable": true,
+                                "cards": [
+                                    {
+                                        "front": "Beindriya",
+                                        "back": "2 Senses (Touch, Taste)"
+                                    },
+                                    {
+                                        "front": "Teindriya",
+                                        "back": "3 Senses (Touch, Taste, Smell)"
+                                    },
+                                    {
+                                        "front": "Chaurindriya",
+                                        "back": "4 Senses (Touch, Taste, Smell, Sight)"
+                                    },
+                                    {
+                                        "front": "Panchendriya",
+                                        "back": "5 Senses (Touch, Taste, Smell, Sight, Hearing)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Shad Dravya Chart",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Interactive Shad Dravya Chart"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Click on the accordion headers below to explore the full classification of Shad Dravya."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "Shad Dravya (Six Universal Substances)",
+                            "items": [
+                                {
+                                    "header": "1. Jiva - Living Beings, Conscious, Soul, Chetan",
+                                    "content": "<ul class='list-disc pl-6 space-y-2'><li><strong>Siddha Jiva</strong> - Liberated souls</li><li><strong>Sansäri Jiva</strong> - Non-Liberated souls<ul class='list-disc pl-6 mt-2'><li><strong>Sthävar Jiva (Immobile)</strong>: Prithvikäya (Earth), Apkäya (Water), Teukäya (Fire), Väyukäya (Air), Vanaspati-käya (Plants)</li><li><strong>Trasa Jiva (Mobile)</strong>: Beindriya (2-sensed), Teindriya (3-sensed), Chaurindriya (4-sensed), Panchendriya (5-sensed: Sangni & Asangni)</li></ul></li></ul>"
+                                },
+                                {
+                                    "header": "2-6. Ajiva - Non-Living, Unconscious, Achetan",
+                                    "content": "<ul class='list-disc pl-6 space-y-2'><li><strong>2. Pudgal</strong> - Matter</li><li><strong>3. Dharmästikäy</strong> - Medium of Motion</li><li><strong>4. Adharmästikäy</strong> - Medium of Rest</li><li><strong>5. Äkäshästikäy</strong> - Space</li><li><strong>6. Käl / Samay</strong> - Time</li></ul>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Powers & Vitalities",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "Paryäpti (Powers) and Prän (Vitalities)"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Living beings possess bio-potential powers (Paryäpti) to develop their bodies and vitalities (Prän) essential for life. The number of these varies by the type of Jiva."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "The 6 Paryäpti (Powers)",
+                            "items": [
+                                {
+                                    "header": "The 6 Paryäpti (Powers)",
+                                    "content": "<ul class='list-disc pl-6 space-y-1'><li><strong>Ähär:</strong> Ability to consume food</li><li><strong>Sharir:</strong> Ability to form a body</li><li><strong>Indriya:</strong> Ability to develop senses</li><li><strong>Shväso-chchhväs:</strong> Ability to respire</li><li><strong>Bhäsha:</strong> Ability to speak</li><li><strong>Mana:</strong> Ability to think</li></ul>"
+                                },
+                                {
+                                    "header": "The 10 Prän (Vitalities)",
+                                    "content": "<ul class='list-disc pl-6 space-y-1'><li>5 Senses (Touch, Taste, Smell, Sight, Hearing)</li><li><strong>Mano-bal:</strong> Mind power</li><li><strong>Vachan-bal:</strong> Speech power</li><li><strong>Käya-bal:</strong> Body power</li><li><strong>Shväso-chchhväs:</strong> Respiration</li><li><strong>Äyushya:</strong> Longevity</li></ul>"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "table",
+                        "data": {
+                            "title": "Paryäpti & Prän per Jiva",
+                            "headers": [
+                                "Type of Jiva",
+                                "Senses",
+                                "Paryäpti",
+                                "Prän"
+                            ],
+                            "rows": [
+                                [
+                                    "Ekendriya",
+                                    "1",
+                                    "4",
+                                    "4"
+                                ],
+                                [
+                                    "Beindriya",
+                                    "2",
+                                    "5",
+                                    "6"
+                                ],
+                                [
+                                    "Teindriya",
+                                    "3",
+                                    "5",
+                                    "7"
+                                ],
+                                [
+                                    "Chaurindriya",
+                                    "4",
+                                    "5",
+                                    "8"
+                                ],
+                                [
+                                    "Asangni Panchendriya",
+                                    "5",
+                                    "5",
+                                    "9"
+                                ],
+                                [
+                                    "Sangni Panchendriya",
+                                    "5",
+                                    "6",
+                                    "10"
+                                ]
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Four Realms",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "text",
+                        "data": [
+                            {
+                                "tagType": "h2",
+                                "tagHTML": "The Four Realms of Life (Gati)"
+                            },
+                            {
+                                "tagType": "p",
+                                "tagHTML": "Due to karma, worldly souls are reborn into one of four realms. Only from a human life can a soul attain liberation."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "The Four Gatis",
+                            "items": [
+                                {
+                                    "header": "Manushya Gati (Human Beings)",
+                                    "content": "<p>Born here by being simple and compassionate. This is the <strong>only Gati</strong> from which liberation is possible.</p>"
+                                },
+                                {
+                                    "header": "Dev Gati (Heavenly Beings)",
+                                    "content": "<p>Born here by observing vows and penance. Life has luxury but is transient, and liberation is not possible.</p>"
+                                },
+                                {
+                                    "header": "Tiryancha Gati (Animals, etc.)",
+                                    "content": "<p>Born here by being deceptive and selfish. Cannot follow vows or progress spiritually.</p>"
+                                },
+                                {
+                                    "header": "Näraki Gati (Infernal Beings)",
+                                    "content": "<p>Born here due to violence, greed, and intense attachment. A life of continuous suffering.</p>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Quiz",
+            "contentType": "quiz",
+            "tabData": {
+                "title": "Test Your Knowledge",
+                "questions": [
+                    {
+                        "question": "What are the three components of Bhagawän Mahävir's Three Pronouncements, or Tripadi?",
+                        "answer": "Appearance (Utpäd), Disappearance (Vyaya), and Permanence (Dhrauvya).",
+                        "options": [
+                            "Appearance (Utpäd), Disappearance (Vyaya), and Permanence (Dhrauvya).",
+                            "Birth, Death, Rebirth.",
+                            "Knowledge, Perception, Conduct."
+                        ]
+                    },
+                    {
+                        "question": "What is the collective name for the six fundamental substances of the universe?",
+                        "answer": "Shad Dravya.",
+                        "options": [
+                            "Shad Dravya.",
+                            "Nav Tattva.",
+                            "Panch Parameshthi."
+                        ]
+                    },
+                    {
+                        "question": "Which of the six universal substances is the only one considered living (Chetan)?",
+                        "answer": "Jiva (Soul).",
+                        "options": [
+                            "Jiva (Soul).",
+                            "Pudgal (Matter).",
+                            "Käl (Time)."
+                        ]
+                    },
+                    {
+                        "question": "What is the basic characteristic of a soul as defined in Jain scripture?",
+                        "answer": "Upayog Lakshano Jiva (The capability to know).",
+                        "options": [
+                            "Upayog Lakshano Jiva (The capability to know).",
+                            "Matter is eternal.",
+                            "God created the soul."
+                        ]
+                    },
+                    {
+                        "question": "What is the difference between Sthävar Jiva and Trasa Jiva?",
+                        "answer": "Sthävar Jiva are immobile (one sense), while Trasa Jiva are mobile (two to five senses).",
+                        "options": [
+                            "Sthävar Jiva are immobile (one sense), while Trasa Jiva are mobile (two to five senses).",
+                            "Sthävar are male, Trasa are female.",
+                            "Sthävar are liberated, Trasa are worldly."
+                        ]
+                    },
+                    {
+                        "question": "Name the five categories of Sthävar Jiva (immobile beings).",
+                        "answer": "Prithvikäya, Apkäya, Teukäya, Väyukäya, and Vanaspati-käya.",
+                        "options": [
+                            "Prithvikäya, Apkäya, Teukäya, Väyukäya, and Vanaspati-käya.",
+                            "Humans, Animals, Plants, Gods, Hellbeings.",
+                            "Jiva, Ajiva, Pudgal, Dharma, Adharma."
+                        ]
+                    },
+                    {
+                        "question": "What is the difference between Pratyek and Sädhäran Vanaspati-käya?",
+                        "answer": "Pratyek: one soul per cell. Sädhäran: infinite souls per cell (also called Anant-käya).",
+                        "options": [
+                            "Pratyek: one soul per cell. Sädhäran: infinite souls per cell (also called Anant-käya).",
+                            "Pratyek are trees, Sädhäran are flowers.",
+                            "No difference."
+                        ]
+                    },
+                    {
+                        "question": "A worm is an example of which type of Trasa Jiva?",
+                        "answer": "Beindriya (Two-sensed).",
+                        "options": [
+                            "Beindriya (Two-sensed).",
+                            "Panchendriya (Five-sensed).",
+                            "Ekendriya (One-sensed)."
+                        ]
+                    },
+                    {
+                        "question": "A spider is an example of which type of Trasa Jiva?",
+                        "answer": "Chaurindriya (Four-sensed).",
+                        "options": [
+                            "Chaurindriya (Four-sensed).",
+                            "Teindriya (Three-sensed).",
+                            "Beindriya (Two-sensed)."
+                        ]
+                    },
+                    {
+                        "question": "What is the term for a five-sensed being that possesses the capacity for rational thinking?",
+                        "answer": "Sangni Panchendriya.",
+                        "options": [
+                            "Sangni Panchendriya.",
+                            "Asangni Panchendriya.",
+                            "Trasa Jiva."
+                        ]
+                    },
+                    {
+                        "question": "What is the name for the bio-potential power (Paryäpti) that allows a being to form a body?",
+                        "answer": "Sharir Paryäpti.",
+                        "options": [
+                            "Sharir Paryäpti.",
+                            "Mana Paryäpti.",
+                            "Bhäsha Paryäpti."
+                        ]
+                    },
+                    {
+                        "question": "How many Paryäptis does a one-sensed (Ekendriya) being have?",
+                        "answer": "Four.",
+                        "options": [
+                            "Four.",
+                            "Six.",
+                            "Ten."
+                        ]
+                    },
+                    {
+                        "question": "How many Prän (vitalities) does a three-sensed (Teindriya) being have?",
+                        "answer": "Seven.",
+                        "options": [
+                            "Seven.",
+                            "Five.",
+                            "Ten."
+                        ]
+                    },
+                    {
+                        "question": "Which of the ten vitalities is only possessed by Sangni Panchendriya beings?",
+                        "answer": "Mano-bal (Mind vitality).",
+                        "options": [
+                            "Mano-bal (Mind vitality).",
+                            "Käya-bal (Body vitality).",
+                            "Äyushya (Longevity)."
+                        ]
+                    },
+                    {
+                        "question": "What are the four realms of life, or Gati, where a soul can be reborn?",
+                        "answer": "Manushya, Dev, Tiryancha, and Näraki Gati.",
+                        "options": [
+                            "Manushya, Dev, Tiryancha, and Näraki Gati.",
+                            "Heaven, Earth, Hell, Purgatory.",
+                            "Siddha, Arihant, Acharya, Upadhyay."
+                        ]
+                    },
+                    {
+                        "question": "From which Gati is it possible to attain Moksh (liberation)?",
+                        "answer": "Manushya Gati (Human beings).",
+                        "options": [
+                            "Manushya Gati (Human beings).",
+                            "Dev Gati (Heavenly beings).",
+                            "Any Gati."
+                        ]
+                    },
+                    {
+                        "question": "Being deceptive and selfish is likely to lead to rebirth in which Gati?",
+                        "answer": "Tiryancha Gati.",
+                        "options": [
+                            "Tiryancha Gati.",
+                            "Manushya Gati.",
+                            "Dev Gati."
+                        ]
+                    },
+                    {
+                        "question": "What is the term for a plant body that contains an infinite number of souls, such as a potato?",
+                        "answer": "Sädhäran Vanaspati-käya or Anant-käya.",
+                        "options": [
+                            "Sädhäran Vanaspati-käya or Anant-käya.",
+                            "Pratyek Vanaspati-käya.",
+                            "Prithvikäya."
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
