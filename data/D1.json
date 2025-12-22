@@ -104,25 +104,41 @@
                 {
                     "title": "Meanings of the Swastik",
                     "description": "The Swastik is a very important and auspicious symbol in Jainism. It has many meanings!",
-                    "flippable": false,
                     "frontColor": "#D1FAE5",
                     "backColor": "#10B981",
                     "cards": [
-                        {"front": "Four possible states of rebirth", "back": "Heavenly being, human, hellish being, animal"},
-                        {"front": "Four-fold Jain Sangh", "back": "Shrävak, Shrävikä, Sädhu, Sädhvi"},
-                        {"front": "Four arms also represent", "back": "Dän (charity), Sheel (virtue), Tap (austerities), Bhäv (noble thoughts)"}
+                        {
+                            "front": "Four possible states of rebirth",
+                            "back": "Heavenly being, human, hellish being, animal"
+                        },
+                        {
+                            "front": "Four-fold Jain Sangh",
+                            "back": "Shrävak, Shrävikä, Sädhu, Sädhvi"
+                        },
+                        {
+                            "front": "Four arms also represent",
+                            "back": "Dän (charity), Sheel (virtue), Tap (austerities), Bhäv (noble thoughts)"
+                        }
                     ]
                 },
                 {
                     "title": "Three Dots & Crescent",
                     "description": "Above the Swastik, there are more symbols!",
-                    "flippable": false,
                     "frontColor": "#DBEAFE",
                     "backColor": "#3B82F6",
                     "cards": [
-                        {"front": "Three dots represent", "back": "Three Jewels of Jainism: Samyag Darshan (perfect perception), Samyag Jnän (knowledge), Samyak Chäritra (conduct)"},
-                        {"front": "Crescent symbolizes", "back": "Siddha-shilä (abode of liberated souls)"},
-                        {"front": "Dot above crescent represents", "back": "Siddha (a liberated soul)"}
+                        {
+                            "front": "Three dots represent",
+                            "back": "Three Jewels of Jainism: Samyag Darshan (perfect perception), Samyag Jnän (knowledge), Samyak Chäritra (conduct)"
+                        },
+                        {
+                            "front": "Crescent symbolizes",
+                            "back": "Siddha-shilä (abode of liberated souls)"
+                        },
+                        {
+                            "front": "Dot above crescent represents",
+                            "back": "Siddha (a liberated soul)"
+                        }
                     ]
                 }
             ]
@@ -273,122 +289,242 @@
                 "questions": [
                     {
                         "question": "What does 'Jai Jinendra' mean?",
-                        "options": ["Hello friend", "May the Jina prevail in our hearts", "Welcome to Jainism", "Peace be with you"],
+                        "options": [
+                            "Hello friend",
+                            "May the Jina prevail in our hearts",
+                            "Welcome to Jainism",
+                            "Peace be with you"
+                        ],
                         "answer": "May the Jina prevail in our hearts"
                     },
                     {
                         "question": "What is another name for a Jina?",
-                        "options": ["Muni", "Arihant", "Acharya", "Upadhyay"],
+                        "options": [
+                            "Muni",
+                            "Arihant",
+                            "Acharya",
+                            "Upadhyay"
+                        ],
                         "answer": "Arihant"
                     },
                     {
                         "question": "What does 'Michchhämi Dukkadam' mean?",
-                        "options": ["Thank you", "Forgive my faults", "Good luck", "Hello"],
+                        "options": [
+                            "Thank you",
+                            "Forgive my faults",
+                            "Good luck",
+                            "Hello"
+                        ],
                         "answer": "Forgive my faults"
                     },
                     {
                         "question": "What is the annual forgiveness ritual called?",
-                        "options": ["Diwali", "Paryushan", "Samvatsari Pratikraman", "Mahavir Jayanti"],
+                        "options": [
+                            "Diwali",
+                            "Paryushan",
+                            "Samvatsari Pratikraman",
+                            "Mahavir Jayanti"
+                        ],
                         "answer": "Samvatsari Pratikraman"
                     },
                     {
                         "question": "What is a Jinälay?",
-                        "options": ["Jain scripture", "Jain temple", "Jain festival", "Jain food"],
+                        "options": [
+                            "Jain scripture",
+                            "Jain temple",
+                            "Jain festival",
+                            "Jain food"
+                        ],
                         "answer": "Jain temple"
                     },
                     {
                         "question": "What other names are used for a Jinälay?",
-                        "options": ["Mandir", "Deräsar", "Temple", "Shrine"],
-                        "answer": "Mandir, Deräsar" 
+                        "options": [
+                            "Mandir",
+                            "Deräsar",
+                            "Temple",
+                            "Shrine"
+                        ],
+                        "answer": "Mandir, Deräsar"
                     },
                     {
                         "question": "What does the outline of the Universal Jain Symbol represent?",
-                        "options": ["Earth", "Universe", "Heaven", "Hell"],
+                        "options": [
+                            "Earth",
+                            "Universe",
+                            "Heaven",
+                            "Hell"
+                        ],
                         "answer": "Universe"
                     },
                     {
                         "question": "What does the middle part of the Universal Jain Symbol contain?",
-                        "options": ["Heavenly abodes", "Seven hells", "Earth and planets", "Siddha-kshetra"],
+                        "options": [
+                            "Heavenly abodes",
+                            "Seven hells",
+                            "Earth and planets",
+                            "Siddha-kshetra"
+                        ],
                         "answer": "Earth and planets"
                     },
                     {
                         "question": "What word is in the center of the raised hand and wheel in the Universal Jain Symbol?",
-                        "options": ["Om", "Hrim", "Ahimsa", "Arhum"],
+                        "options": [
+                            "Om",
+                            "Hrim",
+                            "Ahimsa",
+                            "Arhum"
+                        ],
                         "answer": "Ahimsa"
                     },
                     {
                         "question": "What does 'Parasparopagraho Jivänäm' mean?",
-                        "options": ["Live and let live", "Truth is eternal", "Souls render service to one another", "Non-violence is supreme"],
+                        "options": [
+                            "Live and let live",
+                            "Truth is eternal",
+                            "Souls render service to one another",
+                            "Non-violence is supreme"
+                        ],
                         "answer": "Living Beings (souls) Render Service to One Another"
                     },
                     {
                         "question": "Why was the Swastik replaced by Om in the JAINA logo?",
-                        "options": ["It's a new design", "Swastik is not viewed as pious in the Western world", "Om is more traditional", "It's easier to draw"],
+                        "options": [
+                            "It's a new design",
+                            "Swastik is not viewed as pious in the Western world",
+                            "Om is more traditional",
+                            "It's easier to draw"
+                        ],
                         "answer": "Swastik is not viewed as pious in the Western world"
                     },
                     {
                         "question": "How many lamps does the Ärati have?",
-                        "options": ["3", "5", "7", "9"],
+                        "options": [
+                            "3",
+                            "5",
+                            "7",
+                            "9"
+                        ],
                         "answer": "5"
                     },
                     {
                         "question": "What do the 5 lamps of Ärati symbolize?",
-                        "options": ["Panch Parameshthi", "Five types of jnän", "Panch Mahävrat", "The three combined"],
+                        "options": [
+                            "Panch Parameshthi",
+                            "Five types of jnän",
+                            "Panch Mahävrat",
+                            "The three combined"
+                        ],
                         "answer": "Panch Parameshthi, Five types of jnän, Panch Mahävrat"
                     },
                     {
                         "question": "What does the Mangal Deevo symbolize?",
-                        "options": ["Keval-jnän", "Siddha", "Moksha", "Nirvana"],
+                        "options": [
+                            "Keval-jnän",
+                            "Siddha",
+                            "Moksha",
+                            "Nirvana"
+                        ],
                         "answer": "Keval-jnän, Siddha"
                     },
                     {
                         "question": "How many auspicious objects are in Ashta Mangal?",
-                        "options": ["4", "6", "8", "10"],
+                        "options": [
+                            "4",
+                            "6",
+                            "8",
+                            "10"
+                        ],
                         "answer": "8"
                     },
                     {
                         "question": "What does the Mäna-sthambha represent?",
-                        "options": ["Knowledge", "Pride", "Humility", "Wealth"],
+                        "options": [
+                            "Knowledge",
+                            "Pride",
+                            "Humility",
+                            "Wealth"
+                        ],
                         "answer": "Pride"
                     },
                     {
                         "question": "Who lost his pride at the sight of Mäna-sthambha?",
-                        "options": ["Bhagwan Mahavir", "Indrabhuti Gautam", "Sthulibhadra", "Jambuswami"],
+                        "options": [
+                            "Bhagwan Mahavir",
+                            "Indrabhuti Gautam",
+                            "Sthulibhadra",
+                            "Jambuswami"
+                        ],
                         "answer": "Indrabhuti Gautam"
                     },
                     {
                         "question": "What sound does an Arihant's body emanate upon attaining omniscience?",
-                        "options": ["Om", "Hrim", "Arhum", "Ahimsa"],
+                        "options": [
+                            "Om",
+                            "Hrim",
+                            "Arhum",
+                            "Ahimsa"
+                        ],
                         "answer": "Om"
                     },
                     {
                         "question": "Which of these is NOT represented by a sound in Om?",
-                        "options": ["Arihant", "Siddha", "Tirthankar", "Acharya"],
+                        "options": [
+                            "Arihant",
+                            "Siddha",
+                            "Tirthankar",
+                            "Acharya"
+                        ],
                         "answer": "Tirthankar"
                     },
                     {
                         "question": "What is another name for Ashariri?",
-                        "options": ["Muni", "Siddha", "Acharya", "Upadhyay"],
+                        "options": [
+                            "Muni",
+                            "Siddha",
+                            "Acharya",
+                            "Upadhyay"
+                        ],
                         "answer": "Siddha"
                     },
                     {
                         "question": "What does the 'A' in Aum represent?",
-                        "options": ["Acharya", "Arihant", "Ahimsa", "Anekantavada"],
+                        "options": [
+                            "Acharya",
+                            "Arihant",
+                            "Ahimsa",
+                            "Anekantavada"
+                        ],
                         "answer": "Arihant"
                     },
                     {
                         "question": "What does the 'Ä' in Aum represent?",
-                        "options": ["Arihant", "Acharya", "Ahimsa", "Aparigraha"],
+                        "options": [
+                            "Arihant",
+                            "Acharya",
+                            "Ahimsa",
+                            "Aparigraha"
+                        ],
                         "answer": "Ächärya"
                     },
                     {
                         "question": "What does the 'U' in Aum represent?",
-                        "options": ["Upädhyäy", "Muni", "Acharya", "Siddha"],
+                        "options": [
+                            "Upädhyäy",
+                            "Muni",
+                            "Acharya",
+                            "Siddha"
+                        ],
                         "answer": "Upädhyäy"
                     },
                     {
                         "question": "What does the 'M' in Aum represent?",
-                        "options": ["Muni", "Moksha", "Mahavir", "Mati-jnän"],
+                        "options": [
+                            "Muni",
+                            "Moksha",
+                            "Mahavir",
+                            "Mati-jnän"
+                        ],
                         "answer": "Muni"
                     }
                 ]

@@ -667,6 +667,20 @@ async function renderTable(tableData, containerElement) {
     }
 }
 
+
+function getContrastColor(hexColor) {
+    if (!hexColor) return '#ffffff';
+    // Convert named colors or fallback
+    if (!hexColor.startsWith('#')) return '#ffffff';
+
+    const hex = hexColor.replace('#', '');
+    const r = parseInt(hex.substr(0, 2), 16);
+    const g = parseInt(hex.substr(2, 2), 16);
+    const b = parseInt(hex.substr(4, 2), 16);
+    const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+    return (yiq >= 128) ? '#000000' : '#ffffff';
+}
+
 function renderFlashcards(flashCardsData, containerElement) {
     if (!flashCardsData || flashCardsData.length === 0) {
         containerElement.innerHTML = '<p>No flashcard groups available.</p>';
@@ -713,7 +727,7 @@ function renderFlashcards(flashCardsData, containerElement) {
         flashcardFront.id = `tv-flashcard-front-${groupIndex}`;
         if (group.frontColor) {
             flashcardFront.style.backgroundColor = group.frontColor;
-            flashcardFront.style.color = '#ffffff'; // Force white text
+            flashcardFront.style.color = getContrastColor(group.frontColor);
         }
 
         const flashcardBack = document.createElement('div');
@@ -721,7 +735,7 @@ function renderFlashcards(flashCardsData, containerElement) {
         flashcardBack.id = `tv-flashcard-back-${groupIndex}`;
         if (group.backColor) {
             flashcardBack.style.backgroundColor = group.backColor;
-            flashcardBack.style.color = '#ffffff'; // Force white text
+            flashcardBack.style.color = getContrastColor(group.backColor);
         }
 
         flashcardCard.appendChild(flashcardFront);
@@ -783,6 +797,7 @@ function renderFlashcards(flashCardsData, containerElement) {
         // Flip on click
         if (group.flippable !== false) {
             flashcardCard.addEventListener('click', () => {
+                console.log(`Flashcard clicked: ${group.title}, toggling flip`);
                 flashcardCard.classList.toggle('flipped');
             });
         }
