@@ -445,13 +445,6 @@
           {
             "id": "H13",
             "title": "H.13",
-            "name": "Monk Prasannachandra",
-            "url": "./story.html?section=H13",
-            "dataFile": "H13.json"
-          },
-          {
-            "id": "H13",
-            "title": "H.13",
             "name": "Story of Monk Prasannachandra",
             "url": "./story.html?section=H13",
             "dataFile": "H13.json"

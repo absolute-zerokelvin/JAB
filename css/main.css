@@ -9,7 +9,7 @@
     --accent-blue: #93c5fd;
     --light-blue: #dbeafe;
     --very-light-blue: #eff6ff;
-    
+
     /* Complementary colors */
     --text-primary: #1e293b;
     --text-secondary: #64748b;
@@ -17,11 +17,39 @@
     --background: #f8fafc;
     --card-background: #ffffff;
     --border-color: #e2e8f0;
-    
+
     /* Status colors */
     --success: #10b981;
     --warning: #f59e0b;
     --info: #06b6d4;
+}
+
+[data-theme="dark"] {
+    /* Dark mode palette */
+    --primary-blue: #60a5fa;
+    /* Lighter blue for dark mode */
+    --primary-blue-dark: #3b82f6;
+    --primary-blue-light: #2563eb;
+    --secondary-blue: #93c5fd;
+    --accent-blue: #1e40af;
+    --light-blue: #1e293b;
+    /* Darker background for light blue areas */
+    --very-light-blue: #0f172a;
+    /* Very dark background */
+
+    --text-primary: #f1f5f9;
+    --text-secondary: #cbd5e1;
+    --text-light: #94a3b8;
+    --background: #020617;
+    /* Slate 950 */
+    --card-background: #1e293b;
+    /* Slate 800 */
+    --border-color: #334155;
+    /* Slate 700 */
+
+    --success: #34d399;
+    --warning: #fbbf24;
+    --info: #22d3ee;
 }
 
 body {
@@ -29,7 +57,8 @@ body {
     background-color: var(--background);
     color: var(--text-primary);
     line-height: 1.6;
-    font-size: 1.125rem; /* New base font size */
+    font-size: 1.125rem;
+    /* New base font size */
 }
 
 /* Story/Tab page header */
@@ -92,14 +121,16 @@ header.bg-emerald-700 {
 }
 
 header h1 {
-    font-size: 2.5rem; /* Increased from 2.25rem */
+    font-size: 2.5rem;
+    /* Increased from 2.25rem */
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
 header p {
     color: #a7f3d0;
-    font-size: 1.25rem; /* Increased from 1.125rem */
+    font-size: 1.25rem;
+    /* Increased from 1.125rem */
 }
 
 /* Footer styles */
@@ -130,7 +161,7 @@ footer.bg-emerald-700 {
 /* Story links on index pages */
 .story-link {
     display: block;
-    background-color: white;
+    background-color: var(--card-background);
     padding: 1.5rem;
     border-radius: 0.5rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -144,18 +175,20 @@ footer.bg-emerald-700 {
 }
 
 .story-link h2 {
-    font-size: 1.75rem; /* Increased from 1.5rem */
+    font-size: 1.75rem;
+    /* Increased from 1.5rem */
     font-weight: 700;
-    color: #065f46;
+    color: var(--primary-blue-dark);
 }
 
 .story-link p {
     color: #4b5563;
     margin-top: 0.5rem;
-    font-size: 1.125rem; /* Explicitly set, will also scale with body */
+    font-size: 1.125rem;
+    /* Explicitly set, will also scale with body */
 }
 
-.space-y-6 > * + * {
+.space-y-6>*+* {
     margin-top: 1.5rem;
 }
 
@@ -234,7 +267,8 @@ nav#mobileNavigation.active {
 }
 
 .nav-title {
-    font-size: 1.375rem; /* Slightly increased */
+    font-size: 1.375rem;
+    /* Slightly increased */
     font-weight: 700;
     color: var(--primary-blue);
     margin-bottom: 0.5rem;
@@ -252,7 +286,8 @@ nav#mobileNavigation.active {
 }
 
 .nav-subtitle {
-    font-size: 1rem; /* Increased from 0.875rem */
+    font-size: 1rem;
+    /* Increased from 0.875rem */
     color: var(--text-secondary);
     margin: 0;
 }
@@ -265,7 +300,8 @@ nav#mobileNavigation.active {
 
 .nav-expand-all,
 .nav-collapse-all {
-    font-size: 0.875rem; /* Increased from 0.75rem */
+    font-size: 0.875rem;
+    /* Increased from 0.75rem */
     padding: 0.25rem 0.5rem;
     background-color: var(--very-light-blue);
     color: var(--primary-blue);
@@ -384,12 +420,14 @@ nav#mobileNavigation.active {
 .subsection-title {
     font-weight: 600;
     color: var(--primary-blue-dark);
-    font-size: 1rem; /* Increased from 0.875rem */
+    font-size: 1rem;
+    /* Increased from 0.875rem */
 }
 
 .subsection-name {
     display: block;
-    font-size: 0.875rem; /* Increased from 0.75rem */
+    font-size: 0.875rem;
+    /* Increased from 0.75rem */
     color: var(--text-secondary);
     margin-top: 0.125rem;
 }
@@ -548,29 +586,29 @@ nav#mobileNavigation.active {
     .mobile-nav-toggle {
         display: block;
     }
-    
+
     .desktop-nav {
         display: none;
     }
-    
+
     .main-content {
         margin-left: 0;
         padding: 1rem;
         padding-top: 4rem;
     }
-    
+
     .page-title {
         font-size: 2rem;
     }
-    
+
     .page-subtitle {
         font-size: 1rem;
     }
-    
+
     .section-card {
         padding: 1.5rem;
     }
-    
+
     .subsection-grid {
         grid-template-columns: 1fr;
     }
@@ -581,12 +619,12 @@ nav#mobileNavigation.active {
         padding: 0.5rem;
         padding-top: 4rem;
     }
-    
+
     .page-header {
         padding: 2rem 1rem;
         margin: 0 -0.5rem 2rem -0.5rem;
     }
-    
+
     .section-card {
         padding: 1rem;
         margin-bottom: 1rem;

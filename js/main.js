@@ -10,7 +10,7 @@ let navigationData = null;
 async function fetchNavigationData() {
     try {
         // Use cache-busted fetch if available
-        const response = await fetch('/data/navigation.json?v=' + Date.now());
+        const response = await fetch('/data/navigation.json?timestamp=' + Date.now());
         navigationData = await response.json();
         return navigationData;
     } catch (error) {
@@ -33,12 +33,15 @@ function createNavigationHTML(navData, isMobile = false) {
                 <div class="nav-header">
                     <h3 class="nav-title"><a href="./index.html" class="nav-home-link">${nav.title}</a></h3>
                     <p class="nav-subtitle">${nav.subtitle}</p>
-                    ${isMobile ? '' : `
                     <div class="nav-controls">
+                        ${isMobile ? '' : `
                         <button class="nav-expand-all" onclick="expandAllSections()">Expand All</button>
                         <button class="nav-collapse-all" onclick="collapseAllSections()">Collapse All</button>
+                        `}
+                        <button class="nav-theme-toggle" onclick="toggleTheme()" id="themeToggleBtn" title="Toggle Dark Mode">
+                            🌙
+                        </button>
                     </div>
-                    `}
                 </div>
                 <ul class="nav-sections">
     `;
@@ -153,6 +156,41 @@ function toggleMobileNav() {
         nav.classList.toggle('active');
         overlay.classList.toggle('active');
     }
+}
+
+// Toggle Dark Mode
+function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+
+    // Update button icon
+    const btns = document.querySelectorAll('.nav-theme-toggle');
+    btns.forEach(btn => {
+        btn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+    });
+}
+
+// Initialize Theme
+function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    // Update button icons after nav rendering
+    setTimeout(() => {
+        const btns = document.querySelectorAll('.nav-theme-toggle');
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        btns.forEach(btn => {
+            btn.textContent = isDark ? '☀️' : '🌙';
+        });
+    }, 100);
 }
 
 // Initialize navigation
@@ -286,6 +324,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initialize navigation
     initializeNavigation();
+
+    // Initialize Theme
+    initializeTheme();
 
     // Render homepage content if on homepage
     if (document.getElementById('homepage-content')) {
