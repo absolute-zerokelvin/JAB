@@ -1,264 +1,264 @@
 {
-    "sectionTitle": "D.6: Jain Festivals (Parva) and Celebrations",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "The Spirit of Jain Festivals"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Jain festivals, known as <b>Parva</b> (meaning auspicious day), are rich in tradition and spiritual significance. Unlike festivals that focus solely on celebration and entertainment, Jain festivals emphasize renunciation, austerities, scriptural study, meditation, and devotion to the Tirthankars. They are designed to revitalize and strengthen one's faith and spiritual practice."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Jain festivals follow a lunar calendar called <b>Panchäng</b>, which is why their dates vary each year according to the standard Christian calendar."
-          }
-        ]
-      },
-      {
-        "tabName": "Panch Kalyänak",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Panch Kalyänak: The Five Auspicious Events",
-          "description": "The five major life events of a Tirthankar are known as Kalyänaks. These auspicious events are celebrated with great devotion by Jains.",
-          "items": [
-            {
-              "header": "1. Chyavan or Garbha Kalyänak (Conception)",
-              "content": "This marks the event when a Tirthankar's soul leaves its previous existence and is conceived in the mother's womb. At the moment of conception, the mother dreams of 14 auspicious symbols (16 in the Digambar tradition). A Tirthankar's soul possesses three types of knowledge from birth: Mati Jnän (sensory), Shrut Jnän (scriptural), and Avadhi Jnän (clairvoyance)."
-            },
-            {
-              "header": "2. Janma Kalyänak (Birth)",
-              "content": "This is the celebration of the Tirthankar's birth. Heavenly gods (Devs), led by Lord Indra, descend to Earth to honor the newborn. They take the baby Tirthankar to the summit of Mount Meru for a divine anointing and bathing ceremony (Janma Abhishek)."
-            },
-            {
-              "header": "3. Dikshä or Tap Kalyänak (Initiation)",
-              "content": "This event marks the moment the Tirthankar renounces all worldly possessions and relationships to become a monk or nun. Upon taking Dikshä, the Tirthankar attains the fourth type of knowledge, Manah-paryav Jnän (telepathy)."
-            },
-            {
-              "header": "4. Keval-jnän Kalyänak (Omniscience)",
-              "content": "This is the event when the Tirthankar, through severe penance and meditation, eradicates the four defiling (Ghäti) karmas and attains Keval-jnän (omniscience). Following this, they re-establish the Jain Sangh and deliver their first sermon from a divine preaching hall called the Samavasaran."
-            },
-            {
-              "header": "5. Nirväna Kalyänak (Liberation)",
-              "content": "This is the final event when a Tirthankar's soul is completely freed from the cycle of birth and death. By shedding the four non-defiling (Aghäti) karmas, the soul attains Moksh and becomes a Siddha, residing in a state of eternal bliss."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Major Festivals",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Key Jain Festivals Throughout the Year",
-          "description": "Beyond the Kalyänaks, Jains celebrate several other important festivals, each with its own unique rituals and significance.",
-          "items": [
-            {
-              "header": "Mahävir Janma Kalyänak (Mahävir Jayanti)",
-              "content": "This festival celebrates the birth anniversary of the 24th Tirthankar, Bhagawän Mahävir. It falls on the 13th day of the bright half of the month of Chaitra (March/April). The day is marked by prayers, temple visits, and grand processions."
-            },
-            {
-              "header": "Diwäli",
-              "content": "For Jains, Diwäli marks the anniversary of Bhagawän Mahävir's Nirväna (liberation) in 527 B.C. The lighting of lamps symbolizes keeping the light of the master's knowledge alive. More importantly, it signifies lighting the inner lamp of self-realization by following the path of right faith, knowledge, and conduct."
-            },
-            {
-              "header": "New Year and Gautam Swämi's Keval-jnän",
-              "content": "The Jain New Year begins the day after Diwäli. It also commemorates the attainment of Keval-jnän by Indrabhuti Gautam, Lord Mahävir's chief disciple. After grieving his master's passing, Gautam Swämi finally broke his attachments and achieved omniscience."
-            },
-            {
-              "header": "Jnän Panchami",
-              "content": "Celebrated on the 5th day of the month of Kärtak, this day is dedicated to the worship of pure knowledge (Jnän). Scriptures are displayed and worshipped, and people pray for the strength to learn continuously."
-            },
-            {
-              "header": "Navpad Oli",
-              "content": "This nine-day period of semi-fasting occurs twice a year (March/April and Sept/Oct). Devotees observe Äyambil, eating only one meal a day of very plain food, while meditating on the nine supreme entities (Navpad)."
-            },
-            {
-              "header": "Akshay-tritiya",
-              "content": "This day marks the breaking of the first Tirthankar Rishabhadev's year-long fast. He was offered sugarcane juice by his great-grandson, Shreyäns Kumär. Many Jains who perform a similar year-long austerity (Varsitap) break their fast on this day."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Festival Flashcards",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "More Jain Festivals (Parva)",
-            "description": "Learn about other important days in the Jain calendar.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "Bhäibeej",
-                "back": "A festival celebrating the bond between brother and sister, similar to Rakshä Bandhan. It commemorates King Nandivardhan being comforted by his sister Sudarshana after Lord Mahävir's Nirväna."
-              },
-              {
-                "front": "Dev Diwäli (Kärtaki Poonam)",
-                "back": "Marks the end of Chäturmäs (the four-month rainy season retreat). Jain monks and nuns resume their travels (Vihär), and the pilgrimage to Shatrunjay reopens."
-              },
-              {
-                "front": "Maun Agiyäras",
-                "back": "An extremely pious day marking 150 Kalyänaks of various Tirthankars. A day of complete silence (Maun), fasting, and meditation is often observed."
-              },
-              {
-                "front": "Posh Dashmi",
-                "back": "Celebrates the birthday of the 23rd Tirthankar, Bhagawän Pärshvanäth. Many devotees perform a three-day fast (Attham)."
-              },
-              {
-                "front": "Varsitap",
-                "back": "A year-long austerity consisting of fasting on alternate days, inspired by Tirthankar Rishabhadev's first fast."
-              },
-              {
-                "front": "Mastakäbhishek",
-                "back": "A grand head-anointing ceremony held every 12 years in Shravanbelgola, honoring the colossal statue of Lord Bähubali."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Jain Festivals",
-          "questions": [
-            {
-              "question": "What are the five major events in a Tirthankar's life called?",
-              "options": [
-                "Parva",
-                "Panchäng",
-                "Kalyänak",
-                "Jayanti"
-              ],
-              "answer": "Kalyänak"
-            },
-            {
-              "question": "Which Kalyänak marks a Tirthankar's soul being conceived in the mother's womb?",
-              "options": [
-                "Janma Kalyänak",
-                "Dikshä Kalyänak",
-                "Chyavan Kalyänak",
-                "Nirväna Kalyänak"
-              ],
-              "answer": "Chyavan Kalyänak"
-            },
-            {
-              "question": "For Jains, what does the festival of Diwäli commemorate?",
-              "options": [
-                "The birth of Lord Mahävir",
-                "The end of the monsoon season",
-                "The Nirväna of Lord Mahävir",
-                "The start of the New Year"
-              ],
-              "answer": "The Nirväna of Lord Mahävir"
-            },
-            {
-              "question": "The Jain New Year celebrates the attainment of Keval-jnän by which prominent figure?",
-              "options": [
-                "Bhagawän Mahävir",
-                "Indrabhuti Gautam",
-                "King Shreyäns Kumär",
-                "Lord Bähubali"
-              ],
-              "answer": "Indrabhuti Gautam"
-            },
-            {
-              "question": "What is the name of the nine-day period of semi-fasting dedicated to the Navpad?",
-              "options": [
-                "Varsitap",
-                "Paryushan",
-                "Das Lakshan",
-                "Navpad Oli"
-              ],
-              "answer": "Navpad Oli"
-            },
-            {
-              "question": "Which festival celebrates the birthday of the 23rd Tirthankar, Pärshvanäth?",
-              "options": [
-                "Mahävir Jayanti",
-                "Posh Dashmi",
-                "Jnän Panchami",
-                "Maun Agiyäras"
-              ],
-              "answer": "Posh Dashmi"
-            },
-            {
-              "question": "Akshay-tritiya marks the day Tirthankar Rishabhadev broke his year-long fast with what?",
-              "options": [
-                "Milk",
-                "Water",
-                "Fruit",
-                "Sugarcane juice"
-              ],
-              "answer": "Sugarcane juice"
-            },
-            {
-              "question": "The grand head-anointing ceremony held every 12 years at Shravanbelgola is called:",
-              "options": [
-                "Janma Abhishek",
-                "Chaitya Paripäti",
-                "Mastakäbhishek",
-                "Kshamäpanä"
-              ],
-              "answer": "Mastakäbhishek"
-            },
-            {
-              "question": "Upon taking Dikshä, a Tirthankar attains which type of knowledge?",
-              "options": [
-                "Mati Jnän",
-                "Shrut Jnän",
-                "Avadhi Jnän",
-                "Manah-paryav Jnän"
-              ],
-              "answer": "Manah-paryav Jnän"
-            },
-            {
-              "question": "What is the name of the Jain lunar calendar?",
-              "options": [
-                "Parva",
-                "Panchäng",
-                "Chäturmäs",
-                "Kalyänak"
-              ],
-              "answer": "Panchäng"
-            },
-            {
-              "question": "Jnän Panchami is a day designated for the worship of what?",
-              "options": [
-                "The Tirthankars",
-                "Pure Knowledge",
-                "Non-violence",
-                "Ascetics"
-              ],
-              "answer": "Pure Knowledge"
-            },
-            {
-              "question": "What does a Jain do during the austerity of Äyambil, observed during Navpad Oli?",
-              "options": [
-                "Fasts completely without food or water",
-                "Eats only one meal a day of very plain food",
-                "Fasts on alternate days for nine days",
-                "Observes complete silence"
-              ],
-              "answer": "Eats only one meal a day of very plain food"
-            },
-            {
-              "question": "Which Kalyänak is considered the most important for the entire Jain Sangh?",
-              "options": [
-                "Garbha Kalyänak",
-                "Janma Kalyänak",
-                "Keval-jnän Kalyänak",
-                "Nirväna Kalyänak"
-              ],
-              "answer": "Keval-jnän Kalyänak"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"D.6: Jain Festivals (Parva) and Celebrations",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"The Spirit of Jain Festivals"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jain festivals, known as <b>Parva</b> (meaning auspicious day), are rich in tradition and spiritual significance. Unlike festivals that focus solely on celebration and entertainment, Jain festivals emphasize renunciation, austerities, scriptural study, meditation, and devotion to the Tirthankars. They are designed to revitalize and strengthen one's faith and spiritual practice."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jain festivals follow a lunar calendar called <b>Panchäng</b>, which is why their dates vary each year according to the standard Christian calendar."
+ }
+ ]
+ },
+ {
+"tabName":"Panch Kalyänak",
+"contentType":"accordian",
+"tabData": {
+"title":"Panch Kalyänak: The Five Auspicious Events",
+"description":"The five major life events of a Tirthankar are known as Kalyänaks. These auspicious events are celebrated with great devotion by Jains.",
+"items": [
+ {
+"header":"1. Chyavan or Garbha Kalyänak (Conception)",
+"content":"This marks the event when a Tirthankar's soul leaves its previous existence and is conceived in the mother's womb. At the moment of conception, the mother dreams of 14 auspicious symbols (16 in the Digambar tradition). A Tirthankar's soul possesses three types of knowledge from birth: Mati Jnän (sensory), Shrut Jnän (scriptural), and Avadhi Jnän (clairvoyance)."
+ },
+ {
+"header":"2. Janma Kalyänak (Birth)",
+"content":"This is the celebration of the Tirthankar's birth. Heavenly gods (Devs), led by Lord Indra, descend to Earth to honor the newborn. They take the baby Tirthankar to the summit of Mount Meru for a divine anointing and bathing ceremony (Janma Abhishek)."
+ },
+ {
+"header":"3. Dikshä or Tap Kalyänak (Initiation)",
+"content":"This event marks the moment the Tirthankar renounces all worldly possessions and relationships to become a monk or nun. Upon taking Dikshä, the Tirthankar attains the fourth type of knowledge, Manah-paryav Jnän (telepathy)."
+ },
+ {
+"header":"4. Keval-jnän Kalyänak (Omniscience)",
+"content":"This is the event when the Tirthankar, through severe penance and meditation, eradicates the four defiling (Ghäti) karmas and attains Keval-jnän (omniscience). Following this, they re-establish the Jain Sangh and deliver their first sermon from a divine preaching hall called the Samavasaran."
+ },
+ {
+"header":"5. Nirväna Kalyänak (Liberation)",
+"content":"This is the final event when a Tirthankar's soul is completely freed from the cycle of birth and death. By shedding the four non-defiling (Aghäti) karmas, the soul attains Moksh and becomes a Siddha, residing in a state of eternal bliss."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Major Festivals",
+"contentType":"accordian",
+"tabData": {
+"title":"Key Jain Festivals Throughout the Year",
+"description":"Beyond the Kalyänaks, Jains celebrate several other important festivals, each with its own unique rituals and significance.",
+"items": [
+ {
+"header":"Mahävir Janma Kalyänak (Mahävir Jayanti)",
+"content":"This festival celebrates the birth anniversary of the 24th Tirthankar, Bhagawän Mahävir. It falls on the 13th day of the bright half of the month of Chaitra (March/April). The day is marked by prayers, temple visits, and grand processions."
+ },
+ {
+"header":"Diwäli",
+"content":"For Jains, Diwäli marks the anniversary of Bhagawän Mahävir's Nirväna (liberation) in 527 B.C. The lighting of lamps symbolizes keeping the light of the master's knowledge alive. More importantly, it signifies lighting the inner lamp of self-realization by following the path of right faith, knowledge, and conduct."
+ },
+ {
+"header":"New Year and Gautam Swämi's Keval-jnän",
+"content":"The Jain New Year begins the day after Diwäli. It also commemorates the attainment of Keval-jnän by Indrabhuti Gautam, Lord Mahävir's chief disciple. After grieving his master's passing, Gautam Swämi finally broke his attachments and achieved omniscience."
+ },
+ {
+"header":"Jnän Panchami",
+"content":"Celebrated on the 5th day of the month of Kärtak, this day is dedicated to the worship of pure knowledge (Jnän). Scriptures are displayed and worshipped, and people pray for the strength to learn continuously."
+ },
+ {
+"header":"Navpad Oli",
+"content":"This nine-day period of semi-fasting occurs twice a year (March/April and Sept/Oct). Devotees observe Äyambil, eating only one meal a day of very plain food, while meditating on the nine supreme entities (Navpad)."
+ },
+ {
+"header":"Akshay-tritiya",
+"content":"This day marks the breaking of the first Tirthankar Rishabhadev's year-long fast. He was offered sugarcane juice by his great-grandson, Shreyäns Kumär. Many Jains who perform a similar year-long austerity (Varsitap) break their fast on this day."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Festival Flashcards",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"More Jain Festivals (Parva)",
+"description":"Learn about other important days in the Jain calendar.",
+"flippable": true,
+"cards": [
+ {
+"front":"Bhäibeej",
+"back":"A festival celebrating the bond between brother and sister, similar to Rakshä Bandhan. It commemorates King Nandivardhan being comforted by his sister Sudarshana after Lord Mahävir's Nirväna."
+ },
+ {
+"front":"Dev Diwäli (Kärtaki Poonam)",
+"back":"Marks the end of Chäturmäs (the four-month rainy season retreat). Jain monks and nuns resume their travels (Vihär), and the pilgrimage to Shatrunjay reopens."
+ },
+ {
+"front":"Maun Agiyäras",
+"back":"An extremely pious day marking 150 Kalyänaks of various Tirthankars. A day of complete silence (Maun), fasting, and meditation is often observed."
+ },
+ {
+"front":"Posh Dashmi",
+"back":"Celebrates the birthday of the 23rd Tirthankar, Bhagawän Pärshvanäth. Many devotees perform a three-day fast (Attham)."
+ },
+ {
+"front":"Varsitap",
+"back":"A year-long austerity consisting of fasting on alternate days, inspired by Tirthankar Rishabhadev's first fast."
+ },
+ {
+"front":"Mastakäbhishek",
+"back":"A grand head-anointing ceremony held every 12 years in Shravanbelgola, honoring the colossal statue of Lord Bähubali."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Jain Festivals",
+"questions": [
+ {
+"question":"What are the five major events in a Tirthankar's life called?",
+"options": [
+"Parva",
+"Panchäng",
+"Kalyänak",
+"Jayanti"
+ ],
+"answer":"Kalyänak"
+ },
+ {
+"question":"Which Kalyänak marks a Tirthankar's soul being conceived in the mother's womb?",
+"options": [
+"Janma Kalyänak",
+"Dikshä Kalyänak",
+"Chyavan Kalyänak",
+"Nirväna Kalyänak"
+ ],
+"answer":"Chyavan Kalyänak"
+ },
+ {
+"question":"For Jains, what does the festival of Diwäli commemorate?",
+"options": [
+"The birth of Lord Mahävir",
+"The end of the monsoon season",
+"The Nirväna of Lord Mahävir",
+"The start of the New Year"
+ ],
+"answer":"The Nirväna of Lord Mahävir"
+ },
+ {
+"question":"The Jain New Year celebrates the attainment of Keval-jnän by which prominent figure?",
+"options": [
+"Bhagawän Mahävir",
+"Indrabhuti Gautam",
+"King Shreyäns Kumär",
+"Lord Bähubali"
+ ],
+"answer":"Indrabhuti Gautam"
+ },
+ {
+"question":"What is the name of the nine-day period of semi-fasting dedicated to the Navpad?",
+"options": [
+"Varsitap",
+"Paryushan",
+"Das Lakshan",
+"Navpad Oli"
+ ],
+"answer":"Navpad Oli"
+ },
+ {
+"question":"Which festival celebrates the birthday of the 23rd Tirthankar, Pärshvanäth?",
+"options": [
+"Mahävir Jayanti",
+"Posh Dashmi",
+"Jnän Panchami",
+"Maun Agiyäras"
+ ],
+"answer":"Posh Dashmi"
+ },
+ {
+"question":"Akshay-tritiya marks the day Tirthankar Rishabhadev broke his year-long fast with what?",
+"options": [
+"Milk",
+"Water",
+"Fruit",
+"Sugarcane juice"
+ ],
+"answer":"Sugarcane juice"
+ },
+ {
+"question":"The grand head-anointing ceremony held every 12 years at Shravanbelgola is called:",
+"options": [
+"Janma Abhishek",
+"Chaitya Paripäti",
+"Mastakäbhishek",
+"Kshamäpanä"
+ ],
+"answer":"Mastakäbhishek"
+ },
+ {
+"question":"Upon taking Dikshä, a Tirthankar attains which type of knowledge?",
+"options": [
+"Mati Jnän",
+"Shrut Jnän",
+"Avadhi Jnän",
+"Manah-paryav Jnän"
+ ],
+"answer":"Manah-paryav Jnän"
+ },
+ {
+"question":"What is the name of the Jain lunar calendar?",
+"options": [
+"Parva",
+"Panchäng",
+"Chäturmäs",
+"Kalyänak"
+ ],
+"answer":"Panchäng"
+ },
+ {
+"question":"Jnän Panchami is a day designated for the worship of what?",
+"options": [
+"The Tirthankars",
+"Pure Knowledge",
+"Non-violence",
+"Ascetics"
+ ],
+"answer":"Pure Knowledge"
+ },
+ {
+"question":"What does a Jain do during the austerity of Äyambil, observed during Navpad Oli?",
+"options": [
+"Fasts completely without food or water",
+"Eats only one meal a day of very plain food",
+"Fasts on alternate days for nine days",
+"Observes complete silence"
+ ],
+"answer":"Eats only one meal a day of very plain food"
+ },
+ {
+"question":"Which Kalyänak is considered the most important for the entire Jain Sangh?",
+"options": [
+"Garbha Kalyänak",
+"Janma Kalyänak",
+"Keval-jnän Kalyänak",
+"Nirväna Kalyänak"
+ ],
+"answer":"Keval-jnän Kalyänak"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

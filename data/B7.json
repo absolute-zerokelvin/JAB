@@ -1,386 +1,386 @@
 {
-    "tabView": true,
-    "pageTitle": "B.7 Nav Tattva Part II: Punya & Päp",
-    "sectionTitle": "B.7: Nav Tattva Part II: Punya & Päp",
-    "pageSubtitle": "An Interactive Study Guide",
-    "tabs": [
-        {
-            "tabName": "Punya (Virtue)",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "Ways of Acquiring Punya"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "Punya karma is earned when our activities are good and comforting to others. The Sthänänga Sutra describes nine ways to acquire Punya, primarily through offering (<strong>Dän</strong>) to deserving people (<strong>Supätra</strong>) like Jain ascetics and people in need."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "The 9 Ways to Acquire Punya",
-                                "description": "Click on a card to flip and see the meaning!",
-                                "frontColor": "#22c55e",
-                                "backColor": "#16a34a",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "1. Anna Punya",
-                                        "back": "Offering of pure, vegetarian food."
-                                    },
-                                    {
-                                        "front": "2. Pän Punya",
-                                        "back": "Offering of pure water."
-                                    },
-                                    {
-                                        "front": "3. Layan Punya",
-                                        "back": "Offering shelter."
-                                    },
-                                    {
-                                        "front": "4. Shayan Punya",
-                                        "back": "Offering a bed or place to rest."
-                                    },
-                                    {
-                                        "front": "5. Vastra Punya",
-                                        "back": "Offering clothes."
-                                    },
-                                    {
-                                        "front": "6. Mana Punya",
-                                        "back": "Having good thoughts and ideas for others."
-                                    },
-                                    {
-                                        "front": "7. Vachan Punya",
-                                        "back": "Speaking kind and meritorious words."
-                                    },
-                                    {
-                                        "front": "8. Käya Punya",
-                                        "back": "Performing virtuous and helpful physical activities."
-                                    },
-                                    {
-                                        "front": "9. Namaskär Punya",
-                                        "back": "Paying respect to the Panch Parameshthi."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Päp (Sin)",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "The 18 Päpasthänak (Sinful Activities)"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "Jain scriptures describe eighteen kinds of activities that are the main sources of sin (Päp). These should be avoided as they lead to suffering in this life and future lives. Click on each sin to learn more about it."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "The 18 Päpasthänak",
-                            "items": [
-                                {
-                                    "header": "1. Pränätipät (Violence)",
-                                    "content": "To injure or kill any of the ten vitalities (Prän) of a living being through non-vigilance or ignorance. This includes physical, verbal, and mental violence."
-                                },
-                                {
-                                    "header": "2. Mrushäväd (Untruthfulness)",
-                                    "content": "To tell a lie. This includes spreading rumors, revealing secrets, writing false documents, or even speaking a truth that hurts others unnecessarily."
-                                },
-                                {
-                                    "header": "3. Adattädän (Theft)",
-                                    "content": "To take something without the owner's permission. This also includes tax evasion, adulteration, and using false weights and measures."
-                                },
-                                {
-                                    "header": "4. Maithun (Unchastity)",
-                                    "content": "Engaging in sensuous enjoyment and pre- or extra-marital relationships. It arises from excessive sensual desire."
-                                },
-                                {
-                                    "header": "5. Parigraha (Possessiveness)",
-                                    "content": "Accumulating more worldly objects than one needs. Greed is the root cause of this sin."
-                                },
-                                {
-                                    "header": "6. Krodh (Anger)",
-                                    "content": "The first passion (Kashäy). It destroys friendships and makes one unable to distinguish right from wrong. Should be overcome with forgiveness."
-                                },
-                                {
-                                    "header": "7. Män (Arrogance)",
-                                    "content": "Ego, pride, or conceit. Thinking too much of oneself and looking down on others. It can be pride of family, knowledge, strength, etc."
-                                },
-                                {
-                                    "header": "8. Mäyä (Deceit)",
-                                    "content": "To cheat or mislead others. A deceitful person is always restless and lacks peace of mind. The opposite is straightforwardness (Saralatä)."
-                                },
-                                {
-                                    "header": "9. Lobh (Greed)",
-                                    "content": "The desire for more than one needs. It is the root of all other passions and sins. One should cultivate contentment instead."
-                                },
-                                {
-                                    "header": "10. Räg (Attachment)",
-                                    "content": "Developing a strong liking or craving for worldly objects, people, or beliefs. It is one of the hardest passions to identify and conquer."
-                                },
-                                {
-                                    "header": "11. Dvesh (Hatred)",
-                                    "content": "Aversion, enmity, or jealousy towards others. It is the other side of the coin to attachment (Räg). Should be overcome with love and compassion."
-                                },
-                                {
-                                    "header": "12. Kalah (Quarreling)",
-                                    "content": "Engaging in disputes and fights, often over trivial matters. It arises from frustration and anger."
-                                },
-                                {
-                                    "header": "13. Abhyäkhyän (Accusation)",
-                                    "content": "Making false accusations against someone, often out of jealousy or to cover one's own faults."
-                                },
-                                {
-                                    "header": "14. Paishunya (Gossip)",
-                                    "content": "Slandering someone or spreading rumors behind their back. It leads to unnecessary discord and quarrels."
-                                },
-                                {
-                                    "header": "15. Rati-Arati (Liking & Disliking)",
-                                    "content": "Taking pleasure in sinful activities (Rati) and disliking religious or virtuous activities (Arati)."
-                                },
-                                {
-                                    "header": "16. Par-pariväd (Criticism)",
-                                    "content": "Finding fault in others and criticizing them with negative intent to put them down."
-                                },
-                                {
-                                    "header": "17. Mäyä-Mrushäväd (Malice)",
-                                    "content": "Telling a malicious lie with the specific intent to cheat someone. It is a combination of deceit and untruthfulness."
-                                },
-                                {
-                                    "header": "18. Mithyätva-Shalya (Wrong Faith)",
-                                    "content": "The most dangerous sin. Trusting a wrong god, wrong guru, or wrong religion. It is the root cause of all other sins."
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "4-Fold Combinations",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "The Four-Fold Combinations of Punya and Päp"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "The bondage of new karma depends on our soul's reflections (<strong>Anubandh</strong>) while experiencing the fruits of past karma. This creates four combinations:"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "4-Fold Combinations",
-                            "items": [
-                                {
-                                    "header": "1. Punyänubandhi Punya (Virtue leading to Virtue)",
-                                    "content": "<p class='p-4 bg-green-100 rounded-lg'>While enjoying the fruits of past Punya (e.g., wealth), one performs more righteous deeds, like charity. <strong>This is the best state.</strong></p>"
-                                },
-                                {
-                                    "header": "2. Päpänubandhi Punya (Virtue leading to Sin)",
-                                    "content": "<p class='p-4 bg-orange-100 rounded-lg'>While enjoying the fruits of past Punya, one becomes arrogant and indulges in non-virtuous activities. <strong>This is the most common state for worldly beings.</strong></p>"
-                                },
-                                {
-                                    "header": "3. Punyänubandhi Päp (Sin leading to Virtue)",
-                                    "content": "<p class='p-4 bg-blue-100 rounded-lg'>While suffering the fruits of past Päp (e.g., poverty), one remains calm, accepts it as their own doing, and continues to live virtuously. <strong>This is a rare and noble state.</strong></p>"
-                                },
-                                {
-                                    "header": "4. Päpänubandhi Päp (Sin leading to Sin)",
-                                    "content": "<p class='p-4 bg-red-100 rounded-lg'>While suffering the fruits of past Päp, one becomes bitter, blames others, and commits more sinful acts. <strong>This is the worst state, leading to a downward spiral.</strong></p>"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Karma Chart",
-            "contentType": "accordian",
-            "tabData": {
-                "title": "Interactive Karma Chart",
-                "items": [
-                    {
-                        "header": "Punya Karma (Virtuous)",
-                        "content": "<ol class='list-decimal pl-6 space-y-1'><li>Anna Punya - Offering of pure, vegetarian food</li><li>Pän Punya - Offering of pure water</li><li>Layan Punya - Offering shelter</li><li>Shayan Punya - Offering a bed or place to rest</li><li>Vastra Punya - Offering clothes</li><li>Mana Punya - Having good thoughts for others</li><li>Vachan Punya - Speaking kind words</li><li>Käya Punya - Performing virtuous physical activities</li><li>Namaskär Punya - Paying respect to the Panch Parameshthi</li></ol>"
-                    },
-                    {
-                        "header": "Päp Karma (Non-Virtuous)",
-                        "content": "<ol class='list-decimal pl-6 space-y-1'><li>Pränätipät (Violence)</li><li>Mrushäväd (Untruthfulness)</li><li>Adattädän (Theft)</li><li>Maithun (Unchastity)</li><li>Parigraha (Possessiveness)</li><li>Krodh (Anger)</li><li>Män (Arrogance)</li><li>Mäyä (Deceit)</li><li>Lobh (Greed)</li><li>Räg (Attachment)</li><li>Dvesh (Hatred)</li><li>Kalah (Quarreling)</li><li>Abhyäkhyän (Accusation)</li><li>Paishunya (Gossip)</li><li>Rati-Arati (Liking & Disliking)</li><li>Par-pariväd (Criticism)</li><li>Mäyä-Mrushäväd (Malice)</li><li>Mithyätva-Shalya (Wrong Faith)</li></ol>"
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Quiz Time!",
-            "contentType": "quiz",
-            "tabData": {
-                "title": "Quiz Time! 🧠",
-                "questions": [
-                    {
-                        "question": "What is the most desirable inner state of being (Bhäv)?",
-                        "answer": "Pure Bhäv (Shuddha Bhäv)",
-                        "options": [
-                            "Pure Bhäv (Shuddha Bhäv)",
-                            "Punya Bhäv",
-                            "Ashubh Bhäv"
-                        ]
-                    },
-                    {
-                        "question": "What does Punyänubandhi Punya mean?",
-                        "answer": "Virtue leading to more virtue. Using the fruits of good karma to perform more good deeds.",
-                        "options": [
-                            "Virtue leading to more virtue. Using the fruits of good karma to perform more good deeds.",
-                            "Sin leading to more sin",
-                            "Virtue leading to sin"
-                        ]
-                    },
-                    {
-                        "question": "What does Päpänubandhi Päp mean?",
-                        "answer": "Sin leading to more sin. Blaming others for misery and committing more sinful acts.",
-                        "options": [
-                            "Sin leading to more sin. Blaming others for misery and committing more sinful acts.",
-                            "Virtue leading to virtue",
-                            "Sin leading to virtue"
-                        ]
-                    },
-                    {
-                        "question": "Offering pure, vegetarian food is which type of Punya?",
-                        "answer": "Anna Punya",
-                        "options": [
-                            "Anna Punya",
-                            "Pän Punya",
-                            "Layan Punya"
-                        ]
-                    },
-                    {
-                        "question": "Offering shelter to those in need is which type of Punya?",
-                        "answer": "Layan Punya",
-                        "options": [
-                            "Layan Punya",
-                            "Shayan Punya",
-                            "Vastra Punya"
-                        ]
-                    },
-                    {
-                        "question": "What is the most dangerous of the 18 sins?",
-                        "answer": "Mithyätva-Shalya (Wrong Faith)",
-                        "options": [
-                            "Mithyätva-Shalya (Wrong Faith)",
-                            "Krodh (Anger)",
-                            "Lobh (Greed)"
-                        ]
-                    },
-                    {
-                        "question": "Which Päpasthänak means 'possessiveness' or accumulating more than you need?",
-                        "answer": "Parigraha",
-                        "options": [
-                            "Parigraha",
-                            "Lobh",
-                            "Räg"
-                        ]
-                    },
-                    {
-                        "question": "Which Päpasthänak means telling a lie with the intent to cheat?",
-                        "answer": "Mäyä-Mrushäväd (Malice)",
-                        "options": [
-                            "Mäyä-Mrushäväd (Malice)",
-                            "Mrushäväd",
-                            "Mäyä"
-                        ]
-                    },
-                    {
-                        "question": "What is the opposite of Mäyä (Deceit)?",
-                        "answer": "Saralatä (Straightforwardness)",
-                        "options": [
-                            "Saralatä (Straightforwardness)",
-                            "Lobh (Greed)",
-                            "Krodh (Anger)"
-                        ]
-                    },
-                    {
-                        "question": "The story of the two monks illustrates that what is more important than the action itself?",
-                        "answer": "The intention (Bhäv) behind the action",
-                        "options": [
-                            "The intention (Bhäv) behind the action",
-                            "The physical act",
-                            "The words spoken"
-                        ]
-                    },
-                    {
-                        "question": "What are the two components that make up the sin Pränätipät?",
-                        "answer": "Prän (vitalities) and Atipäta (to kill or hurt)",
-                        "options": [
-                            "Prän (vitalities) and Atipäta (to kill or hurt)",
-                            "Parigraha and Lobh",
-                            "Räg and Dvesh"
-                        ]
-                    },
-                    {
-                        "question": "Which sin means to find fault and criticize others with negative intent?",
-                        "answer": "Par-pariväd",
-                        "options": [
-                            "Par-pariväd",
-                            "Paishunya",
-                            "Abhyäkhyän"
-                        ]
-                    },
-                    {
-                        "question": "Which sin is described as trusting a wrong god, guru, or religion?",
-                        "answer": "Mithyätva-Shalya",
-                        "options": [
-                            "Mithyätva-Shalya",
-                            "Mäyä",
-                            "Lobh"
-                        ]
-                    },
-                    {
-                        "question": "What kind of karma is acquired by a person who enjoys the fruits of Punya but becomes arrogant and indulges in vices?",
-                        "answer": "Päp karma (This is Päpänubandhi Punya)",
-                        "options": [
-                            "Päp karma (This is Päpänubandhi Punya)",
-                            "Punya karma",
-                            "No karma"
-                        ]
-                    },
-                    {
-                        "question": "What kind of karma is acquired by a person who suffers due to past Päp but remains calm and continues to live virtuously?",
-                        "answer": "Punya karma (This is Punyänubandhi Päp)",
-                        "options": [
-                            "Punya karma (This is Punyänubandhi Päp)",
-                            "Päp karma",
-                            "No karma"
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+"tabView": true,
+"pageTitle":"B.7 Nav Tattva Part II: Punya & Päp",
+"sectionTitle":"B.7: Nav Tattva Part II: Punya & Päp",
+"pageSubtitle":"An Interactive Study Guide",
+"tabs": [
+ {
+"tabName":"Punya (Virtue)",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Ways of Acquiring Punya"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Punya karma is earned when our activities are good and comforting to others. The Sthänänga Sutra describes nine ways to acquire Punya, primarily through offering (<strong>Dän</strong>) to deserving people (<strong>Supätra</strong>) like Jain ascetics and people in need."
+ }
+ ]
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"The 9 Ways to Acquire Punya",
+"description":"Click on a card to flip and see the meaning!",
+"frontColor":"#22c55e",
+"backColor":"#16a34a",
+"flippable": true,
+"cards": [
+ {
+"front":"1. Anna Punya",
+"back":"Offering of pure, vegetarian food."
+ },
+ {
+"front":"2. Pän Punya",
+"back":"Offering of pure water."
+ },
+ {
+"front":"3. Layan Punya",
+"back":"Offering shelter."
+ },
+ {
+"front":"4. Shayan Punya",
+"back":"Offering a bed or place to rest."
+ },
+ {
+"front":"5. Vastra Punya",
+"back":"Offering clothes."
+ },
+ {
+"front":"6. Mana Punya",
+"back":"Having good thoughts and ideas for others."
+ },
+ {
+"front":"7. Vachan Punya",
+"back":"Speaking kind and meritorious words."
+ },
+ {
+"front":"8. Käya Punya",
+"back":"Performing virtuous and helpful physical activities."
+ },
+ {
+"front":"9. Namaskär Punya",
+"back":"Paying respect to the Panch Parameshthi."
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Päp (Sin)",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"The 18 Päpasthänak (Sinful Activities)"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jain scriptures describe eighteen kinds of activities that are the main sources of sin (Päp). These should be avoided as they lead to suffering in this life and future lives. Click on each sin to learn more about it."
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"The 18 Päpasthänak",
+"items": [
+ {
+"header":"1. Pränätipät (Violence)",
+"content":"To injure or kill any of the ten vitalities (Prän) of a living being through non-vigilance or ignorance. This includes physical, verbal, and mental violence."
+ },
+ {
+"header":"2. Mrushäväd (Untruthfulness)",
+"content":"To tell a lie. This includes spreading rumors, revealing secrets, writing false documents, or even speaking a truth that hurts others unnecessarily."
+ },
+ {
+"header":"3. Adattädän (Theft)",
+"content":"To take something without the owner's permission. This also includes tax evasion, adulteration, and using false weights and measures."
+ },
+ {
+"header":"4. Maithun (Unchastity)",
+"content":"Engaging in sensuous enjoyment and pre- or extra-marital relationships. It arises from excessive sensual desire."
+ },
+ {
+"header":"5. Parigraha (Possessiveness)",
+"content":"Accumulating more worldly objects than one needs. Greed is the root cause of this sin."
+ },
+ {
+"header":"6. Krodh (Anger)",
+"content":"The first passion (Kashäy). It destroys friendships and makes one unable to distinguish right from wrong. Should be overcome with forgiveness."
+ },
+ {
+"header":"7. Män (Arrogance)",
+"content":"Ego, pride, or conceit. Thinking too much of oneself and looking down on others. It can be pride of family, knowledge, strength, etc."
+ },
+ {
+"header":"8. Mäyä (Deceit)",
+"content":"To cheat or mislead others. A deceitful person is always restless and lacks peace of mind. The opposite is straightforwardness (Saralatä)."
+ },
+ {
+"header":"9. Lobh (Greed)",
+"content":"The desire for more than one needs. It is the root of all other passions and sins. One should cultivate contentment instead."
+ },
+ {
+"header":"10. Räg (Attachment)",
+"content":"Developing a strong liking or craving for worldly objects, people, or beliefs. It is one of the hardest passions to identify and conquer."
+ },
+ {
+"header":"11. Dvesh (Hatred)",
+"content":"Aversion, enmity, or jealousy towards others. It is the other side of the coin to attachment (Räg). Should be overcome with love and compassion."
+ },
+ {
+"header":"12. Kalah (Quarreling)",
+"content":"Engaging in disputes and fights, often over trivial matters. It arises from frustration and anger."
+ },
+ {
+"header":"13. Abhyäkhyän (Accusation)",
+"content":"Making false accusations against someone, often out of jealousy or to cover one's own faults."
+ },
+ {
+"header":"14. Paishunya (Gossip)",
+"content":"Slandering someone or spreading rumors behind their back. It leads to unnecessary discord and quarrels."
+ },
+ {
+"header":"15. Rati-Arati (Liking & Disliking)",
+"content":"Taking pleasure in sinful activities (Rati) and disliking religious or virtuous activities (Arati)."
+ },
+ {
+"header":"16. Par-pariväd (Criticism)",
+"content":"Finding fault in others and criticizing them with negative intent to put them down."
+ },
+ {
+"header":"17. Mäyä-Mrushäväd (Malice)",
+"content":"Telling a malicious lie with the specific intent to cheat someone. It is a combination of deceit and untruthfulness."
+ },
+ {
+"header":"18. Mithyätva-Shalya (Wrong Faith)",
+"content":"The most dangerous sin. Trusting a wrong god, wrong guru, or wrong religion. It is the root cause of all other sins."
+ }
+ ]
+ }
+ }
+ ]
+ }
+ },
+ {
+"tabName":"4-Fold Combinations",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"The Four-Fold Combinations of Punya and Päp"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The bondage of new karma depends on our soul's reflections (<strong>Anubandh</strong>) while experiencing the fruits of past karma. This creates four combinations:"
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"4-Fold Combinations",
+"items": [
+ {
+"header":"1. Punyänubandhi Punya (Virtue leading to Virtue)",
+"content":"<p class='p-4 bg-green-100 rounded-lg'>While enjoying the fruits of past Punya (e.g., wealth), one performs more righteous deeds, like charity. <strong>This is the best state.</strong></p>"
+ },
+ {
+"header":"2. Päpänubandhi Punya (Virtue leading to Sin)",
+"content":"<p class='p-4 bg-orange-100 rounded-lg'>While enjoying the fruits of past Punya, one becomes arrogant and indulges in non-virtuous activities. <strong>This is the most common state for worldly beings.</strong></p>"
+ },
+ {
+"header":"3. Punyänubandhi Päp (Sin leading to Virtue)",
+"content":"<p class='p-4 rounded-lg'>While suffering the fruits of past Päp (e.g., poverty), one remains calm, accepts it as their own doing, and continues to live virtuously. <strong>This is a rare and noble state.</strong></p>"
+ },
+ {
+"header":"4. Päpänubandhi Päp (Sin leading to Sin)",
+"content":"<p class='p-4 bg-red-100 rounded-lg'>While suffering the fruits of past Päp, one becomes bitter, blames others, and commits more sinful acts. <strong>This is the worst state, leading to a downward spiral.</strong></p>"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Karma Chart",
+"contentType":"accordian",
+"tabData": {
+"title":"Interactive Karma Chart",
+"items": [
+ {
+"header":"Punya Karma (Virtuous)",
+"content":"<ol class='list-decimal pl-6 space-y-1'><li>Anna Punya - Offering of pure, vegetarian food</li><li>Pän Punya - Offering of pure water</li><li>Layan Punya - Offering shelter</li><li>Shayan Punya - Offering a bed or place to rest</li><li>Vastra Punya - Offering clothes</li><li>Mana Punya - Having good thoughts for others</li><li>Vachan Punya - Speaking kind words</li><li>Käya Punya - Performing virtuous physical activities</li><li>Namaskär Punya - Paying respect to the Panch Parameshthi</li></ol>"
+ },
+ {
+"header":"Päp Karma (Non-Virtuous)",
+"content":"<ol class='list-decimal pl-6 space-y-1'><li>Pränätipät (Violence)</li><li>Mrushäväd (Untruthfulness)</li><li>Adattädän (Theft)</li><li>Maithun (Unchastity)</li><li>Parigraha (Possessiveness)</li><li>Krodh (Anger)</li><li>Män (Arrogance)</li><li>Mäyä (Deceit)</li><li>Lobh (Greed)</li><li>Räg (Attachment)</li><li>Dvesh (Hatred)</li><li>Kalah (Quarreling)</li><li>Abhyäkhyän (Accusation)</li><li>Paishunya (Gossip)</li><li>Rati-Arati (Liking & Disliking)</li><li>Par-pariväd (Criticism)</li><li>Mäyä-Mrushäväd (Malice)</li><li>Mithyätva-Shalya (Wrong Faith)</li></ol>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz Time!",
+"contentType":"quiz",
+"tabData": {
+"title":"Quiz Time! 🧠",
+"questions": [
+ {
+"question":"What is the most desirable inner state of being (Bhäv)?",
+"answer":"Pure Bhäv (Shuddha Bhäv)",
+"options": [
+"Pure Bhäv (Shuddha Bhäv)",
+"Punya Bhäv",
+"Ashubh Bhäv"
+ ]
+ },
+ {
+"question":"What does Punyänubandhi Punya mean?",
+"answer":"Virtue leading to more virtue. Using the fruits of good karma to perform more good deeds.",
+"options": [
+"Virtue leading to more virtue. Using the fruits of good karma to perform more good deeds.",
+"Sin leading to more sin",
+"Virtue leading to sin"
+ ]
+ },
+ {
+"question":"What does Päpänubandhi Päp mean?",
+"answer":"Sin leading to more sin. Blaming others for misery and committing more sinful acts.",
+"options": [
+"Sin leading to more sin. Blaming others for misery and committing more sinful acts.",
+"Virtue leading to virtue",
+"Sin leading to virtue"
+ ]
+ },
+ {
+"question":"Offering pure, vegetarian food is which type of Punya?",
+"answer":"Anna Punya",
+"options": [
+"Anna Punya",
+"Pän Punya",
+"Layan Punya"
+ ]
+ },
+ {
+"question":"Offering shelter to those in need is which type of Punya?",
+"answer":"Layan Punya",
+"options": [
+"Layan Punya",
+"Shayan Punya",
+"Vastra Punya"
+ ]
+ },
+ {
+"question":"What is the most dangerous of the 18 sins?",
+"answer":"Mithyätva-Shalya (Wrong Faith)",
+"options": [
+"Mithyätva-Shalya (Wrong Faith)",
+"Krodh (Anger)",
+"Lobh (Greed)"
+ ]
+ },
+ {
+"question":"Which Päpasthänak means'possessiveness' or accumulating more than you need?",
+"answer":"Parigraha",
+"options": [
+"Parigraha",
+"Lobh",
+"Räg"
+ ]
+ },
+ {
+"question":"Which Päpasthänak means telling a lie with the intent to cheat?",
+"answer":"Mäyä-Mrushäväd (Malice)",
+"options": [
+"Mäyä-Mrushäväd (Malice)",
+"Mrushäväd",
+"Mäyä"
+ ]
+ },
+ {
+"question":"What is the opposite of Mäyä (Deceit)?",
+"answer":"Saralatä (Straightforwardness)",
+"options": [
+"Saralatä (Straightforwardness)",
+"Lobh (Greed)",
+"Krodh (Anger)"
+ ]
+ },
+ {
+"question":"The story of the two monks illustrates that what is more important than the action itself?",
+"answer":"The intention (Bhäv) behind the action",
+"options": [
+"The intention (Bhäv) behind the action",
+"The physical act",
+"The words spoken"
+ ]
+ },
+ {
+"question":"What are the two components that make up the sin Pränätipät?",
+"answer":"Prän (vitalities) and Atipäta (to kill or hurt)",
+"options": [
+"Prän (vitalities) and Atipäta (to kill or hurt)",
+"Parigraha and Lobh",
+"Räg and Dvesh"
+ ]
+ },
+ {
+"question":"Which sin means to find fault and criticize others with negative intent?",
+"answer":"Par-pariväd",
+"options": [
+"Par-pariväd",
+"Paishunya",
+"Abhyäkhyän"
+ ]
+ },
+ {
+"question":"Which sin is described as trusting a wrong god, guru, or religion?",
+"answer":"Mithyätva-Shalya",
+"options": [
+"Mithyätva-Shalya",
+"Mäyä",
+"Lobh"
+ ]
+ },
+ {
+"question":"What kind of karma is acquired by a person who enjoys the fruits of Punya but becomes arrogant and indulges in vices?",
+"answer":"Päp karma (This is Päpänubandhi Punya)",
+"options": [
+"Päp karma (This is Päpänubandhi Punya)",
+"Punya karma",
+"No karma"
+ ]
+ },
+ {
+"question":"What kind of karma is acquired by a person who suffers due to past Päp but remains calm and continues to live virtuously?",
+"answer":"Punya karma (This is Punyänubandhi Päp)",
+"options": [
+"Punya karma (This is Punyänubandhi Päp)",
+"Päp karma",
+"No karma"
+ ]
+ }
+ ]
+ }
+ }
+ ]
 }

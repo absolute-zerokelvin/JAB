@@ -1,224 +1,224 @@
 {
-  "title": "The Story of King Shrenik and Queen Chelnä",
-  "subtitle": "Section H.10 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "A Royal Couple's Disagreement"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<span class=\"highlight\">Queen Chelnä</span> was a devoted follower of Jainism, but her husband, <span class=\"highlight\">King Shrenik</span> of Magadh, was influenced by Buddhism and skeptical of her faith. He did not believe that Jain monks could truly follow their strict vows of self-restraint and equanimity, thinking their calmness was merely a superficial act. He was determined to prove to his queen that they were pretenders."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Test of Endurance"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z\" clip-rule=\"evenodd\" /></svg>One day while hunting, King Shrenik found a Jain monk, <span class=\"highlight\">Yamadhar</span>, deep in meditation. To test him, the king first set his hunting dogs on the monk, but the dogs became quiet in his peaceful presence. Growing angry, Shrenik then shot arrows at the monk, but they all missed. In a final, cruel act, he put a <span class=\"highlight\">dead snake around the monk's neck</span> and returned to the palace."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "When he told Queen Chelnä what he had done, she was horrified and rushed with him back to the site. They found the monk still in meditation, unmoving, even as ants and insects, attracted by the dead snake, crawled all over his body."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A King's Transformation"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Witnessing this incredible display of endurance, King Shrenik was stunned. The queen gently removed the snake and the insects and cleaned the monk's wounds. When Yamadhar later opened his eyes, he blessed both the king who had caused him pain and the queen who had alleviated it, showing no distinction between them. This perfect equanimity convinced King Shrenik that the Jain monks were truly free from attachment and aversion. He became a devoted follower of Jainism and Bhagawän Mahävir."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The King's Skepticism",
-      "period": "Before the incident",
-      "events": [
-        {
-          "title": "A Difference in Faith",
-          "description": "Queen Chelnä is a devout Jain, while her husband, King Shrenik, doubts the sincerity of Jain monks.",
-          "characters": ["King Shrenik", "Queen Chelnä"]
-        },
-        {
-          "title": "A Plan to Disprove",
-          "description": "The king wants to prove to his wife that the monks' self-restraint is merely a pretense.",
-          "characters": ["King Shrenik"]
-        }
-      ]
-    },
-    {
-      "era": "The Monk's Ordeal",
-      "period": "The day of the hunt",
-      "events": [
-        {
-          "title": "The Test Begins",
-          "description": "King Shrenik finds Monk Yamadhar meditating and sets his hunting dogs on him, but they become calm.",
-          "characters": ["King Shrenik", "Monk Yamadhar"]
-        },
-        {
-          "title": "Escalating Cruelty",
-          "description": "Angered by the monk's composure, the king shoots arrows at him (which miss) and finally places a dead snake around his neck.",
-          "characters": ["King Shrenik", "Monk Yamadhar"]
-        }
-      ]
-    },
-    {
-      "era": "The King's Realization",
-      "period": "The aftermath",
-      "events": [
-        {
-          "title": "A Shocking Sight",
-          "description": "Queen Chelnä brings the king back to the scene, where they witness the monk still meditating peacefully despite being covered in insects.",
-          "characters": ["King Shrenik", "Queen Chelnä", "Monk Yamadhar"]
-        },
-        {
-          "title": "Perfect Equanimity",
-          "description": "After the queen tends to him, the monk opens his eyes and blesses both the king and queen equally, without aversion or attachment.",
-          "characters": ["Monk Yamadhar", "King Shrenik", "Queen Chelnä"]
-        },
-        {
-          "title": "A Follower is Born",
-          "description": "Completely convinced by this incredible display of equanimity, King Shrenik becomes a devoted follower of Jainism.",
-          "characters": ["King Shrenik"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "King Shrenik",
-      "description": "The King of Magadh. Initially a skeptic who doubted the abilities of Jain monks, he was so impressed by Monk Yamadhar's endurance and equanimity that he became a devout follower of Jainism."
-    },
-    {
-      "name": "Queen Chelnä",
-      "description": "King Shrenik's wife and a devoted follower of Jainism. Her faith and compassion were instrumental in showing her husband the truth."
-    },
-    {
-      "name": "Monk Yamadhar",
-      "description": "A Jain monk whose incredible ability to maintain deep meditation and equanimity, even while being tortured, served as the ultimate proof of the power of Jain asceticism."
-    }
-  ],
-  "quizData": [
-    { "question": "Who was the King of Magadh in this story?", "answer": "King Shrenik." },
-    { "question": "What was his wife's name?", "answer": "Queen Chelnä." },
-    { "question": "What was the main point of disagreement between the king and queen?", "answer": "The queen was a devout Jain, but the king doubted the sincerity and self-restraint of Jain monks." },
-    { "question": "What was the name of the Jain monk King Shrenik found meditating?", "answer": "Yamadhar." },
-    { "question": "What was the first thing the king did to try and disturb the monk?", "answer": "He let his hunting dogs go after him." },
-    { "question": "What was the final, cruel act the king committed to test the monk?", "answer": "He put a dead snake around the monk's neck." },
-    { "question": "When the queen and king returned, what did they find crawling on the monk's body?", "answer": "Ants and other insects, attracted by the dead snake." },
-    { "question": "How did Monk Yamadhar react after the queen cleaned his wounds and he opened his eyes?", "answer": "He blessed both the king and the queen, showing no distinction between the one who hurt him and the one who helped him." },
-    { "question": "What was King Shrenik convinced of after witnessing this?", "answer": "He was convinced that Jain monks were truly free from attachment and aversion." },
-    { "question": "What did King Shrenik become after this incident?", "answer": "A devoted follower of Jainism and Bhagawän Mahävir." },
-    { "question": "What is the main moral of this story regarding how we should treat those who are more religious or devout?", "answer": "We should not doubt them but be respectful, and support them rather than causing them pain." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Test of King Shrenik",
-    "children": [
-      {
-        "name": "The Skeptic",
-        "children": [
-          { "name": "King Shrenik doubts Jain monks" },
-          { "name": "Wants to prove they are pretenders" }
-        ]
-      },
-      {
-        "name": "The Trial",
-        "children": [
-          { "name": "Finds Monk Yamadhar meditating" },
-          { "name": "Tests him with dogs, arrows, and a snake" }
-        ]
-      },
-      {
-        "name": "The Proof",
-        "children": [
-          { "name": "Monk remains in equanimity" },
-          { "name": "Blesses both the king and queen equally" }
-        ]
-      },
-      {
-        "name": "The Conversion",
-        "children": [
-          { "name": "King is impressed and convinced" },
-          { "name": "Becomes a devout follower" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "King Shrenik's Transformation",
-    "children": [
-      {
-        "name": "The Doubt",
-        "children": [
-          { "name": "Disbelief in Asceticism" }
-        ]
-      },
-      {
-        "name": "The Cruel Test",
-        "children": [
-          { "name": "Dogs, Arrows, Snake" }
-        ]
-      },
-      {
-        "name": "The Undeniable Proof",
-        "children": [
-          { "name": "Perfect Equanimity" }
-        ]
-      },
-      {
-        "name": "The New Follower",
-        "children": [
-          { "name": "Conversion to Jainism" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A King's Doubt",
-      "description": "King Shrenik, a skeptic, argues with his devout Jain wife, Queen Chelnä, insisting that the self-control of Jain monks is merely a show.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=A+Royal+Disagreement",
-      "imageAlt": "A king arguing with a queen in a palace setting."
-    },
-    {
-      "title": "A Cruel Test",
-      "description": "To prove his point, King Shrenik places a dead snake around the neck of the meditating Monk Yamadhar, a terrible act of disrespect.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+King+and+the+Dead+Snake",
-      "imageAlt": "A king placing a dead snake on the shoulders of a monk who is deep in meditation."
-    },
-    {
-      "title": "Unshakeable Peace",
-      "description": "The king and queen return to find the monk still in perfect meditation, completely undisturbed even as insects crawl over him.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Unwavering+Monk",
-      "imageAlt": "A king and queen looking in astonishment at a meditating monk who is covered in ants."
-    },
-    {
-      "title": "A Queen's Compassion",
-      "description": "Horrified by her husband's actions, Queen Chelnä gently removes the dead snake and cleans the monk's wounds.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Queen's+Kindness",
-      "imageAlt": "A queen carefully tending to the wounds on a monk's body."
-    },
-    {
-      "title": "Blessings for All",
-      "description": "The monk opens his eyes and, showing perfect equanimity, gives his blessing to both the queen who helped him and the king who harmed him.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=A+Blessing+of+Equanimity",
-      "imageAlt": "A monk blessing a king and queen, who are both bowing before him."
-    },
-    {
-      "title": "A Follower is Born",
-      "description": "Witnessing this incredible display of freedom from attachment and aversion, King Shrenik's skepticism melts away, and he becomes a devout follower of Jainism.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+King's+Conversion",
-      "imageAlt": "A king bowing with deep respect before a monk."
-    }
-  ]
+"title":"The Story of King Shrenik and Queen Chelnä",
+"subtitle":"Section H.10 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"A Royal Couple's Disagreement"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<span class=\"highlight\">Queen Chelnä</span> was a devoted follower of Jainism, but her husband, <span class=\"highlight\">King Shrenik</span> of Magadh, was influenced by Buddhism and skeptical of her faith. He did not believe that Jain monks could truly follow their strict vows of self-restraint and equanimity, thinking their calmness was merely a superficial act. He was determined to prove to his queen that they were pretenders."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Test of Endurance"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z\" clip-rule=\"evenodd\" /></svg>One day while hunting, King Shrenik found a Jain monk, <span class=\"highlight\">Yamadhar</span>, deep in meditation. To test him, the king first set his hunting dogs on the monk, but the dogs became quiet in his peaceful presence. Growing angry, Shrenik then shot arrows at the monk, but they all missed. In a final, cruel act, he put a <span class=\"highlight\">dead snake around the monk's neck</span> and returned to the palace."
+ },
+ {
+"tagType":"p",
+"tagHTML":"When he told Queen Chelnä what he had done, she was horrified and rushed with him back to the site. They found the monk still in meditation, unmoving, even as ants and insects, attracted by the dead snake, crawled all over his body."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A King's Transformation"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Witnessing this incredible display of endurance, King Shrenik was stunned. The queen gently removed the snake and the insects and cleaned the monk's wounds. When Yamadhar later opened his eyes, he blessed both the king who had caused him pain and the queen who had alleviated it, showing no distinction between them. This perfect equanimity convinced King Shrenik that the Jain monks were truly free from attachment and aversion. He became a devoted follower of Jainism and Bhagawän Mahävir."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The King's Skepticism",
+"period":"Before the incident",
+"events": [
+ {
+"title":"A Difference in Faith",
+"description":"Queen Chelnä is a devout Jain, while her husband, King Shrenik, doubts the sincerity of Jain monks.",
+"characters": ["King Shrenik","Queen Chelnä"]
+ },
+ {
+"title":"A Plan to Disprove",
+"description":"The king wants to prove to his wife that the monks' self-restraint is merely a pretense.",
+"characters": ["King Shrenik"]
+ }
+ ]
+ },
+ {
+"era":"The Monk's Ordeal",
+"period":"The day of the hunt",
+"events": [
+ {
+"title":"The Test Begins",
+"description":"King Shrenik finds Monk Yamadhar meditating and sets his hunting dogs on him, but they become calm.",
+"characters": ["King Shrenik","Monk Yamadhar"]
+ },
+ {
+"title":"Escalating Cruelty",
+"description":"Angered by the monk's composure, the king shoots arrows at him (which miss) and finally places a dead snake around his neck.",
+"characters": ["King Shrenik","Monk Yamadhar"]
+ }
+ ]
+ },
+ {
+"era":"The King's Realization",
+"period":"The aftermath",
+"events": [
+ {
+"title":"A Shocking Sight",
+"description":"Queen Chelnä brings the king back to the scene, where they witness the monk still meditating peacefully despite being covered in insects.",
+"characters": ["King Shrenik","Queen Chelnä","Monk Yamadhar"]
+ },
+ {
+"title":"Perfect Equanimity",
+"description":"After the queen tends to him, the monk opens his eyes and blesses both the king and queen equally, without aversion or attachment.",
+"characters": ["Monk Yamadhar","King Shrenik","Queen Chelnä"]
+ },
+ {
+"title":"A Follower is Born",
+"description":"Completely convinced by this incredible display of equanimity, King Shrenik becomes a devoted follower of Jainism.",
+"characters": ["King Shrenik"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"King Shrenik",
+"description":"The King of Magadh. Initially a skeptic who doubted the abilities of Jain monks, he was so impressed by Monk Yamadhar's endurance and equanimity that he became a devout follower of Jainism."
+ },
+ {
+"name":"Queen Chelnä",
+"description":"King Shrenik's wife and a devoted follower of Jainism. Her faith and compassion were instrumental in showing her husband the truth."
+ },
+ {
+"name":"Monk Yamadhar",
+"description":"A Jain monk whose incredible ability to maintain deep meditation and equanimity, even while being tortured, served as the ultimate proof of the power of Jain asceticism."
+ }
+ ],
+"quizData": [
+ {"question":"Who was the King of Magadh in this story?","answer":"King Shrenik." },
+ {"question":"What was his wife's name?","answer":"Queen Chelnä." },
+ {"question":"What was the main point of disagreement between the king and queen?","answer":"The queen was a devout Jain, but the king doubted the sincerity and self-restraint of Jain monks." },
+ {"question":"What was the name of the Jain monk King Shrenik found meditating?","answer":"Yamadhar." },
+ {"question":"What was the first thing the king did to try and disturb the monk?","answer":"He let his hunting dogs go after him." },
+ {"question":"What was the final, cruel act the king committed to test the monk?","answer":"He put a dead snake around the monk's neck." },
+ {"question":"When the queen and king returned, what did they find crawling on the monk's body?","answer":"Ants and other insects, attracted by the dead snake." },
+ {"question":"How did Monk Yamadhar react after the queen cleaned his wounds and he opened his eyes?","answer":"He blessed both the king and the queen, showing no distinction between the one who hurt him and the one who helped him." },
+ {"question":"What was King Shrenik convinced of after witnessing this?","answer":"He was convinced that Jain monks were truly free from attachment and aversion." },
+ {"question":"What did King Shrenik become after this incident?","answer":"A devoted follower of Jainism and Bhagawän Mahävir." },
+ {"question":"What is the main moral of this story regarding how we should treat those who are more religious or devout?","answer":"We should not doubt them but be respectful, and support them rather than causing them pain." }
+ ],
+"mindmapV1Data": {
+"name":"The Test of King Shrenik",
+"children": [
+ {
+"name":"The Skeptic",
+"children": [
+ {"name":"King Shrenik doubts Jain monks" },
+ {"name":"Wants to prove they are pretenders" }
+ ]
+ },
+ {
+"name":"The Trial",
+"children": [
+ {"name":"Finds Monk Yamadhar meditating" },
+ {"name":"Tests him with dogs, arrows, and a snake" }
+ ]
+ },
+ {
+"name":"The Proof",
+"children": [
+ {"name":"Monk remains in equanimity" },
+ {"name":"Blesses both the king and queen equally" }
+ ]
+ },
+ {
+"name":"The Conversion",
+"children": [
+ {"name":"King is impressed and convinced" },
+ {"name":"Becomes a devout follower" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"King Shrenik's Transformation",
+"children": [
+ {
+"name":"The Doubt",
+"children": [
+ {"name":"Disbelief in Asceticism" }
+ ]
+ },
+ {
+"name":"The Cruel Test",
+"children": [
+ {"name":"Dogs, Arrows, Snake" }
+ ]
+ },
+ {
+"name":"The Undeniable Proof",
+"children": [
+ {"name":"Perfect Equanimity" }
+ ]
+ },
+ {
+"name":"The New Follower",
+"children": [
+ {"name":"Conversion to Jainism" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A King's Doubt",
+"description":"King Shrenik, a skeptic, argues with his devout Jain wife, Queen Chelnä, insisting that the self-control of Jain monks is merely a show.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=A+Royal+Disagreement",
+"imageAlt":"A king arguing with a queen in a palace setting."
+ },
+ {
+"title":"A Cruel Test",
+"description":"To prove his point, King Shrenik places a dead snake around the neck of the meditating Monk Yamadhar, a terrible act of disrespect.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=The+King+and+the+Dead+Snake",
+"imageAlt":"A king placing a dead snake on the shoulders of a monk who is deep in meditation."
+ },
+ {
+"title":"Unshakeable Peace",
+"description":"The king and queen return to find the monk still in perfect meditation, completely undisturbed even as insects crawl over him.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=The+Unwavering+Monk",
+"imageAlt":"A king and queen looking in astonishment at a meditating monk who is covered in ants."
+ },
+ {
+"title":"A Queen's Compassion",
+"description":"Horrified by her husband's actions, Queen Chelnä gently removes the dead snake and cleans the monk's wounds.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Queen's+Kindness",
+"imageAlt":"A queen carefully tending to the wounds on a monk's body."
+ },
+ {
+"title":"Blessings for All",
+"description":"The monk opens his eyes and, showing perfect equanimity, gives his blessing to both the queen who helped him and the king who harmed him.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=A+Blessing+of+Equanimity",
+"imageAlt":"A monk blessing a king and queen, who are both bowing before him."
+ },
+ {
+"title":"A Follower is Born",
+"description":"Witnessing this incredible display of freedom from attachment and aversion, King Shrenik's skepticism melts away, and he becomes a devout follower of Jainism.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=The+King's+Conversion",
+"imageAlt":"A king bowing with deep respect before a monk."
+ }
+ ]
 }

@@ -1,245 +1,245 @@
 {
-  "title": "The Story of Aimuttä Muni",
-  "subtitle": "Section H.6 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "A Young Prince's Offer"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "An eight-year-old prince named Aimuttä was playing when he saw <span class=\"highlight\">Gautam-swämi</span>, the chief disciple of Bhagawän Mahävir, going for alms. Delighted, the young prince invited the monk to his palace. Aimuttä happily offered his favorite food, ladoos (sweets), to Gautam-swämi."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "When the monk prepared to leave, Aimuttä offered to carry his heavy bag. Gautam-swämi explained that only those who had taken <span class=\"highlight\">Dikshä</span> (vows of renunciation) could carry it. This sparked the young prince's curiosity, and he asked to learn about the life of a monk. After Gautam-swämi explained how monks avoid sinful activities, Aimuttä declared, “In that case, Gurudev, I want to take Dikshä.”"
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Child's Determination"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" ath d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" svg>After getting permission from Bhagawän Mahävir on the condition of parental consent, Aimuttä went to his mother. He wisely argued against her concerns, explaining that no one knows what tomorrow will bring and that he should not miss the opportunity for liberation. Impressed by his wisdom, his mother agreed, and at the age of eight, Prince Aimuttä became <span class=\"highlight\">Bälmuni (young monk) Aimuttä</span>."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "An Innocent Mistake and Sincere Repentance"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "One day, the young monk saw children playing with paper boats in a puddle. Forgetting his vows, he excitedly joined them, using the lid of his container as a boat. Other monks gently reminded him that playing in water causes harm to living beings and violates his vows. Bälmuni Aimuttä was instantly filled with deep remorse."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" ath d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" svg>Years later, while reciting the <span class=\"highlight\">Iriyävahiyam Sutra</span> (a prayer for forgiveness), he came to the part about harming water beings. The memory of his childhood mistake flooded back, and his repentance was so profound and sincere that he destroyed all of his destructive karmas on the spot and attained <span class=\"highlight\">Keval-jnän (omniscience)</span>. Bhagawän Mahävir himself confirmed this to the other monks, teaching them that there is no age barrier to enlightenment. Bälmuni Aimuttä eventually attained liberation."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Devout Prince",
-      "period": "Age 8",
-      "events": [
-        {
-          "title": "Meeting Gautam-swämi",
-          "description": "The eight-year-old Prince Aimuttä sees Gautam-swämi and invites him to the palace for alms.",
-          "characters": ["Aimuttä", "Gautam-swämi"]
-        },
-        {
-          "title": "A Desire for Dikshä",
-          "description": "After learning about the life of a monk, Aimuttä declares his own desire to take Dikshä.",
-          "characters": ["Aimuttä", "Gautam-swämi"]
-        },
-        {
-          "title": "A Wise Argument",
-          "description": "He wisely convinces his mother to give her permission for his renunciation.",
-          "characters": ["Aimuttä", "Queen Shrimati"]
-        }
-      ]
-    },
-    {
-      "era": "The Young Monk",
-      "period": "After Dikshä",
-      "events": [
-        {
-          "title": "Bälmuni Aimuttä",
-          "description": "At age eight, Prince Aimuttä takes Dikshä and becomes a young monk (Bälmuni).",
-          "characters": ["Bälmuni Aimuttä"]
-        },
-        {
-          "title": "An Innocent Mistake",
-          "description": "One day, he forgets his vows and joins some children in playing with boats in a water puddle.",
-          "characters": ["Bälmuni Aimuttä"]
-        },
-        {
-          "title": "Immediate Remorse",
-          "description": "When reminded by other monks that this harms living beings, he feels instant and deep regret.",
-          "characters": ["Bälmuni Aimuttä", "Other Monks"]
-        }
-      ]
-    },
-    {
-      "era": "Enlightenment Through Repentance",
-      "period": "Years later",
-      "events": [
-        {
-          "title": "Reciting a Sutra",
-          "description": "While reciting the Iriyävahiyam Sutra, he remembers his childhood sin of playing in the water.",
-          "characters": ["Aimuttä Muni"]
-        },
-        {
-          "title": "Profound Repentance",
-          "description": "His repentance for the act is so sincere and overwhelming that it purifies his soul completely.",
-          "characters": ["Aimuttä Muni"]
-        },
-        {
-          "title": "Attaining Keval-jnän",
-          "description": "In that moment of pure repentance, he destroys his karmas and attains omniscience, becoming a Kevali.",
-          "characters": ["Aimuttä Muni (as a Kevali)"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Aimuttä Muni",
-      "description": "A prince who took Dikshä at the tender age of eight. His story highlights that there is no age barrier to spiritual pursuit and that sincere repentance for even small, unintentional mistakes can lead to liberation."
-    },
-    {
-      "name": "Gautam-swämi",
-      "description": "The chief disciple of Bhagawän Mahävir, whose brief explanation of a monk's life was enough to inspire the young prince to renounce the world."
-    },
-    {
-      "name": "Queen Shrimati",
-      "description": "Aimuttä's mother. Although she loved her son, she was wise enough to recognize his spiritual potential and grant him permission to become a monk."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar, who confirmed Aimuttä Muni's attainment of Keval-jnän to the other monks, teaching them a valuable lesson."
-    }
-  ],
-  "quizData": [
-    { "question": "What was the name of the eight-year-old prince?", "answer": "Aimuttä." },
-    { "question": "Who was the chief disciple of Mahävir that Aimuttä met?", "answer": "Gautam-swämi." },
-    { "question": "What did Aimuttä offer Gautam-swämi as alms?", "answer": "Ladoos (sweets)." },
-    { "question": "What did Gautam-swämi say was required to carry his alms bag?", "answer": "One had to have taken Dikshä and become a monk." },
-    { "question": "What was the main condition Bhagawän Mahävir set for Aimuttä to take Dikshä?", "answer": "He had to get his parents’ permission." },
-    { "question": "What was Aimuttä's argument to his mother about why he shouldn't wait to take Dikshä?", "answer": "He said no one knows what will happen tomorrow or who will die first, so he shouldn't miss the opportunity." },
-    { "question": "What did Aimuttä do that violated his monastic vows?", "answer": "He played with a container lid as a boat in a water puddle." },
-    { "question": "Why was playing in the water considered a violation of his vows?", "answer": "Because it causes harm to the many living beings that live in the water." },
-    { "question": "Years later, what was Aimuttä Muni reciting when he remembered this mistake?", "answer": "The Iriyävahiyam Sutra." },
-    { "question": "What happened as a result of his sincere and profound repentance?", "answer": "He destroyed all of his destructive karma and attained omniscience (Keval-jnän)." },
-    { "question": "When senior monks told Aimuttä he was sitting in the wrong place (for Kevalis), who corrected them?", "answer": "Bhagawän Mahävir." },
-    { "question": "What is the main moral of this story?", "answer": "That there is no age limit for spiritual pursuit and that sincere repentance can eliminate bad karma." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Aimuttä Muni",
-    "children": [
-      {
-        "name": "The Young Prince",
-        "children": [
-          { "name": "Meets Gautam-swämi" },
-          { "name": "Inspired to take Dikshä" },
-          { "name": "Convinces his parents" }
-        ]
-      },
-      {
-        "name": "The Young Monk",
-        "children": [
-          { "name": "Becomes Bälmuni at age 8" },
-          { "name": "Makes an innocent mistake (plays in water)" },
-          { "name": "Feels immediate remorse" }
-        ]
-      },
-      {
-        "name": "The Sincere Repentance",
-        "children": [
-          { "name": "Years later, recites Iriyävahiyam Sutra" },
-          { "name": "Remembers his sin" },
-          { "name": "Repentance is pure and profound" }
-        ]
-      },
-      {
-        "name": "The Attainment",
-        "children": [
-          { "name": "Achieves Keval-jnän" },
-          { "name": "Becomes a Kevali Muni" },
-          { "name": "Ultimately attains liberation" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Aimuttä Muni: The Power of Repentance",
-    "children": [
-      {
-        "name": "The Calling",
-        "children": [
-          { "name": "The Question" },
-          { "name": "The Vow" }
-        ]
-      },
-      {
-        "name": "The Mistake",
-        "children": [
-          { "name": "The Puddle" },
-          { "name": "The Reminder" }
-        ]
-      },
-      {
-        "name": "The Realization",
-        "children": [
-          { "name": "The Memory" },
-          { "name": "The Sincere Sorrow" },
-          { "name": "The Liberation" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "An Offering of Sweets",
-      "description": "The young Prince Aimuttä joyfully offers his favorite food, ladoos, as alms to Gautam-swämi, the chief disciple of Mahävir.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Aimuttä+Offers+Ladoos",
-      "imageAlt": "A young boy in princely clothes happily giving sweets to a monk."
-    },
-    {
-      "title": "A Child's Wisdom",
-      "description": "Aimuttä wisely convinces his mother to let him become a monk, arguing that no one knows what tomorrow holds and he must seize the opportunity now.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Aimuttä+Convinces+His+Mother",
-      "imageAlt": "A young boy speaking earnestly to his mother, the queen, who looks surprised and impressed."
-    },
-    {
-      "title": "An Innocent Transgression",
-      "description": "Forgetting his vows for a moment, the young monk Aimuttä playfully sails the lid of his container like a boat in a water puddle.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Monk+and+the+Paper+Boat",
-      "imageAlt": "A young monk crouching by a puddle, playing with a small object in the water."
-    },
-    {
-      "title": "A Gentle Reminder",
-      "description": "Other, older monks see him playing and gently remind him that as a monk, he has taken a vow not to harm any living beings, including those in the water.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=A+Reminder+of+the+Vow",
-      "imageAlt": "An older monk speaking kindly to the young monk, who looks up with a dawning realization."
-    },
-    {
-      "title": "Repentance and Realization",
-      "description": "Years later, while reciting a prayer for forgiveness, the memory of his mistake returns, and Aimuttä Muni is filled with such profound and sincere repentance.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Profound+Repentance",
-      "imageAlt": "A monk in deep meditation with tears in his eyes, feeling immense remorse."
-    },
-    {
-      "title": "Enlightenment Through Forgiveness",
-      "description": "This act of pure repentance is so powerful that it destroys all his remaining karmas, and he attains omniscience (Keval-jnän) on the spot.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Attainment+of+Keval-jnän",
-      "imageAlt": "A monk glowing with a brilliant white light, having achieved the highest state of knowledge."
-    }
-  ]
+"title":"The Story of Aimuttä Muni",
+"subtitle":"Section H.6 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"A Young Prince's Offer"
+ },
+ {
+"tagType":"p",
+"tagHTML":"An eight-year-old prince named Aimuttä was playing when he saw <span class=\"highlight\">Gautam-swämi</span>, the chief disciple of Bhagawän Mahävir, going for alms. Delighted, the young prince invited the monk to his palace. Aimuttä happily offered his favorite food, ladoos (sweets), to Gautam-swämi."
+ },
+ {
+"tagType":"p",
+"tagHTML":"When the monk prepared to leave, Aimuttä offered to carry his heavy bag. Gautam-swämi explained that only those who had taken <span class=\"highlight\">Dikshä</span> (vows of renunciation) could carry it. This sparked the young prince's curiosity, and he asked to learn about the life of a monk. After Gautam-swämi explained how monks avoid sinful activities, Aimuttä declared, “In that case, Gurudev, I want to take Dikshä.”"
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Child's Determination"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" ath d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" svg>After getting permission from Bhagawän Mahävir on the condition of parental consent, Aimuttä went to his mother. He wisely argued against her concerns, explaining that no one knows what tomorrow will bring and that he should not miss the opportunity for liberation. Impressed by his wisdom, his mother agreed, and at the age of eight, Prince Aimuttä became <span class=\"highlight\">Bälmuni (young monk) Aimuttä</span>."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"An Innocent Mistake and Sincere Repentance"
+ },
+ {
+"tagType":"p",
+"tagHTML":"One day, the young monk saw children playing with paper boats in a puddle. Forgetting his vows, he excitedly joined them, using the lid of his container as a boat. Other monks gently reminded him that playing in water causes harm to living beings and violates his vows. Bälmuni Aimuttä was instantly filled with deep remorse."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" ath d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" svg>Years later, while reciting the <span class=\"highlight\">Iriyävahiyam Sutra</span> (a prayer for forgiveness), he came to the part about harming water beings. The memory of his childhood mistake flooded back, and his repentance was so profound and sincere that he destroyed all of his destructive karmas on the spot and attained <span class=\"highlight\">Keval-jnän (omniscience)</span>. Bhagawän Mahävir himself confirmed this to the other monks, teaching them that there is no age barrier to enlightenment. Bälmuni Aimuttä eventually attained liberation."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Devout Prince",
+"period":"Age 8",
+"events": [
+ {
+"title":"Meeting Gautam-swämi",
+"description":"The eight-year-old Prince Aimuttä sees Gautam-swämi and invites him to the palace for alms.",
+"characters": ["Aimuttä","Gautam-swämi"]
+ },
+ {
+"title":"A Desire for Dikshä",
+"description":"After learning about the life of a monk, Aimuttä declares his own desire to take Dikshä.",
+"characters": ["Aimuttä","Gautam-swämi"]
+ },
+ {
+"title":"A Wise Argument",
+"description":"He wisely convinces his mother to give her permission for his renunciation.",
+"characters": ["Aimuttä","Queen Shrimati"]
+ }
+ ]
+ },
+ {
+"era":"The Young Monk",
+"period":"After Dikshä",
+"events": [
+ {
+"title":"Bälmuni Aimuttä",
+"description":"At age eight, Prince Aimuttä takes Dikshä and becomes a young monk (Bälmuni).",
+"characters": ["Bälmuni Aimuttä"]
+ },
+ {
+"title":"An Innocent Mistake",
+"description":"One day, he forgets his vows and joins some children in playing with boats in a water puddle.",
+"characters": ["Bälmuni Aimuttä"]
+ },
+ {
+"title":"Immediate Remorse",
+"description":"When reminded by other monks that this harms living beings, he feels instant and deep regret.",
+"characters": ["Bälmuni Aimuttä","Other Monks"]
+ }
+ ]
+ },
+ {
+"era":"Enlightenment Through Repentance",
+"period":"Years later",
+"events": [
+ {
+"title":"Reciting a Sutra",
+"description":"While reciting the Iriyävahiyam Sutra, he remembers his childhood sin of playing in the water.",
+"characters": ["Aimuttä Muni"]
+ },
+ {
+"title":"Profound Repentance",
+"description":"His repentance for the act is so sincere and overwhelming that it purifies his soul completely.",
+"characters": ["Aimuttä Muni"]
+ },
+ {
+"title":"Attaining Keval-jnän",
+"description":"In that moment of pure repentance, he destroys his karmas and attains omniscience, becoming a Kevali.",
+"characters": ["Aimuttä Muni (as a Kevali)"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Aimuttä Muni",
+"description":"A prince who took Dikshä at the tender age of eight. His story highlights that there is no age barrier to spiritual pursuit and that sincere repentance for even small, unintentional mistakes can lead to liberation."
+ },
+ {
+"name":"Gautam-swämi",
+"description":"The chief disciple of Bhagawän Mahävir, whose brief explanation of a monk's life was enough to inspire the young prince to renounce the world."
+ },
+ {
+"name":"Queen Shrimati",
+"description":"Aimuttä's mother. Although she loved her son, she was wise enough to recognize his spiritual potential and grant him permission to become a monk."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar, who confirmed Aimuttä Muni's attainment of Keval-jnän to the other monks, teaching them a valuable lesson."
+ }
+ ],
+"quizData": [
+ {"question":"What was the name of the eight-year-old prince?","answer":"Aimuttä." },
+ {"question":"Who was the chief disciple of Mahävir that Aimuttä met?","answer":"Gautam-swämi." },
+ {"question":"What did Aimuttä offer Gautam-swämi as alms?","answer":"Ladoos (sweets)." },
+ {"question":"What did Gautam-swämi say was required to carry his alms bag?","answer":"One had to have taken Dikshä and become a monk." },
+ {"question":"What was the main condition Bhagawän Mahävir set for Aimuttä to take Dikshä?","answer":"He had to get his parents’ permission." },
+ {"question":"What was Aimuttä's argument to his mother about why he shouldn't wait to take Dikshä?","answer":"He said no one knows what will happen tomorrow or who will die first, so he shouldn't miss the opportunity." },
+ {"question":"What did Aimuttä do that violated his monastic vows?","answer":"He played with a container lid as a boat in a water puddle." },
+ {"question":"Why was playing in the water considered a violation of his vows?","answer":"Because it causes harm to the many living beings that live in the water." },
+ {"question":"Years later, what was Aimuttä Muni reciting when he remembered this mistake?","answer":"The Iriyävahiyam Sutra." },
+ {"question":"What happened as a result of his sincere and profound repentance?","answer":"He destroyed all of his destructive karma and attained omniscience (Keval-jnän)." },
+ {"question":"When senior monks told Aimuttä he was sitting in the wrong place (for Kevalis), who corrected them?","answer":"Bhagawän Mahävir." },
+ {"question":"What is the main moral of this story?","answer":"That there is no age limit for spiritual pursuit and that sincere repentance can eliminate bad karma." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Aimuttä Muni",
+"children": [
+ {
+"name":"The Young Prince",
+"children": [
+ {"name":"Meets Gautam-swämi" },
+ {"name":"Inspired to take Dikshä" },
+ {"name":"Convinces his parents" }
+ ]
+ },
+ {
+"name":"The Young Monk",
+"children": [
+ {"name":"Becomes Bälmuni at age 8" },
+ {"name":"Makes an innocent mistake (plays in water)" },
+ {"name":"Feels immediate remorse" }
+ ]
+ },
+ {
+"name":"The Sincere Repentance",
+"children": [
+ {"name":"Years later, recites Iriyävahiyam Sutra" },
+ {"name":"Remembers his sin" },
+ {"name":"Repentance is pure and profound" }
+ ]
+ },
+ {
+"name":"The Attainment",
+"children": [
+ {"name":"Achieves Keval-jnän" },
+ {"name":"Becomes a Kevali Muni" },
+ {"name":"Ultimately attains liberation" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Aimuttä Muni: The Power of Repentance",
+"children": [
+ {
+"name":"The Calling",
+"children": [
+ {"name":"The Question" },
+ {"name":"The Vow" }
+ ]
+ },
+ {
+"name":"The Mistake",
+"children": [
+ {"name":"The Puddle" },
+ {"name":"The Reminder" }
+ ]
+ },
+ {
+"name":"The Realization",
+"children": [
+ {"name":"The Memory" },
+ {"name":"The Sincere Sorrow" },
+ {"name":"The Liberation" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"An Offering of Sweets",
+"description":"The young Prince Aimuttä joyfully offers his favorite food, ladoos, as alms to Gautam-swämi, the chief disciple of Mahävir.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Aimuttä+Offers+Ladoos",
+"imageAlt":"A young boy in princely clothes happily giving sweets to a monk."
+ },
+ {
+"title":"A Child's Wisdom",
+"description":"Aimuttä wisely convinces his mother to let him become a monk, arguing that no one knows what tomorrow holds and he must seize the opportunity now.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Aimuttä+Convinces+His+Mother",
+"imageAlt":"A young boy speaking earnestly to his mother, the queen, who looks surprised and impressed."
+ },
+ {
+"title":"An Innocent Transgression",
+"description":"Forgetting his vows for a moment, the young monk Aimuttä playfully sails the lid of his container like a boat in a water puddle.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=The+Monk+and+the+Paper+Boat",
+"imageAlt":"A young monk crouching by a puddle, playing with a small object in the water."
+ },
+ {
+"title":"A Gentle Reminder",
+"description":"Other, older monks see him playing and gently remind him that as a monk, he has taken a vow not to harm any living beings, including those in the water.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=A+Reminder+of+the+Vow",
+"imageAlt":"An older monk speaking kindly to the young monk, who looks up with a dawning realization."
+ },
+ {
+"title":"Repentance and Realization",
+"description":"Years later, while reciting a prayer for forgiveness, the memory of his mistake returns, and Aimuttä Muni is filled with such profound and sincere repentance.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Profound+Repentance",
+"imageAlt":"A monk in deep meditation with tears in his eyes, feeling immense remorse."
+ },
+ {
+"title":"Enlightenment Through Forgiveness",
+"description":"This act of pure repentance is so powerful that it destroys all his remaining karmas, and he attains omniscience (Keval-jnän) on the spot.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Attainment+of+Keval-jnän",
+"imageAlt":"A monk glowing with a brilliant white light, having achieved the highest state of knowledge."
+ }
+ ]
 }

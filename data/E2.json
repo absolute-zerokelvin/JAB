@@ -1,300 +1,300 @@
 {
-  "title": "The Story of Bhagawän Pärshvanäth",
-  "subtitle": "Section E.2 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "Birth and Early Life"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "About 3000 years ago, <span class=\"highlight\">King Ashvasen</span> and his queen, <span class=\"highlight\">Vämädevi</span>, ruled the kingdom of Väränasi. On the 10th day of the dark half of Mägashara, Queen Vämädevi gave birth to a son. Because the queen had observed a passing snake during her pregnancy, the child was named <span class=\"highlight\">Pärshva-kumär</span>. He grew up to be a courteous and brave young man and was married to <span class=\"highlight\">Princess Prabhävati</span>."
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Fateful Encounter"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10.21.513a.75.75 0 01.588.03l7.25 4.5a.75.75 0 01.152.915l-3.34 6.68a.75.75 0 01-1.025.385l-4.5-2.25a.75.75 0 00-.73 0l-4.5 2.25a.75.75 0 01-1.025-.385L.513 5.958a.75.75 0 01.152-.915l7.25-4.5a.75.75 0 01.297-.075zm0 2.13L4.253 6.132l2.58 5.16 3.667-1.833a.75.75 0 01.73 0l3.667 1.833 2.58-5.16L10.21 2.643z\" clip-rule=\"evenodd\" /></svg> A mendicant named <span class=\"highlight\">Kamath</span> came to Väränasi to perform a severe ritual called <span class=\"highlight\">Panchägni (five fires)</span>. When Pärshva-kumär heard of this, he realized the violence involved. He went to Kamath and pointed out that there was life in the burning logs. By his extra-sensory perception, Pärshva-kumär knew a snake was trapped inside. When the log was split open, a half-burnt snake emerged."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Pärshva-kumär recited the <span class=\"highlight\">Namaskär-mantra</span> for the dying snake, which was reborn as <span class=\"highlight\">Dharanendra</span>, a powerful divine being. Kamath, however, felt no remorse. Instead, he was furious at Pärshva-kumär's interference and harbored a desire for revenge. After his death, Kamath was reborn as <span class=\"highlight\">Meghmäli</span>, the god of rain."
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Renunciation and Revenge"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Observing such worldly misery, Pärshva-kumär developed deep detachment. At the age of 30, he renounced his family and wealth to become a monk, known as <span class=\"highlight\">Pärshvanäth</span>. One day, while he was deep in meditation, Meghmäli saw him from heaven. Seizing his chance for revenge, he unleashed fierce animals and a torrential rainstorm to disturb the monk."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 3.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 8.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 13.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3z\" /></svg> The floodwaters rose to Pärshvanäth's neck, but he remained perfectly still in meditation. Seeing his benefactor in peril, Dharanendra descended from heaven. He created a lotus to lift Pärshvanäth above the water and spread his large fangs like an umbrella to shield him from the rain. Dharanendra then confronted Meghmäli, who, realizing his failure and folly, begged Pärshvanäth for forgiveness."
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Liberation"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Through it all, Pärshvanäth had remained in a state of perfect equanimity, unaware of either the attack or the protection. On the 84th day of his renunciation, he attained <span class=\"highlight\">omniscience (Keval-jnän)</span>. He became the 23rd Tirthankar, re-established the four-fold religious order, and preached the true path. At the age of 100, he attained <span class=\"highlight\">Nirväna</span> at <span class=\"highlight\">Sametshikhar</span>."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "Princely Life",
-      "period": "Circa 1000 B.C.",
-      "events": [
-        {
-          "title": "Royal Birth",
-          "description": "Pärshva-kumär is born to King Ashvasen and Queen Vämädevi of Väränasi.",
-          "characters": ["Pärshva-kumär", "King Ashvasen", "Queen Vämädevi"]
-        },
-        {
-          "title": "Marriage",
-          "description": "As a young man known for his valor and courtesy, he is married to Princess Prabhävati.",
-          "characters": ["Pärshva-kumär", "Prabhävati"]
-        }
-      ]
-    },
-    {
-      "era": "The Defining Incident",
-      "period": "During his life as a prince",
-      "events": [
-        {
-          "title": "The Fire Ritual",
-          "description": "He encounters the mendicant Kamath performing the 'Panchägni' fire ritual.",
-          "characters": ["Pärshva-kumär", "Kamath"]
-        },
-        {
-          "title": "An Act of Compassion",
-          "description": "Using his special knowledge, he reveals a snake trapped in a burning log, saving it spiritually by reciting the Namaskär-mantra.",
-          "characters": ["Pärshva-kumär", "The Snake"]
-        },
-        {
-          "title": "Karmic Seeds are Sown",
-          "description": "The snake is reborn as the powerful god Dharanendra. The angry Kamath is reborn as the vengeful rain-god Meghmäli.",
-          "characters": ["Dharanendra", "Meghmäli"]
-        }
-      ]
-    },
-    {
-      "era": "Ascetic Life & Trials",
-      "period": "After age 30",
-      "events": [
-        {
-          "title": "Renunciation",
-          "description": "At age 30, filled with detachment, Pärshva-kumär renounces the world to become a monk.",
-          "characters": ["Pärshvanäth"]
-        },
-        {
-          "title": "Meghmäli's Revenge",
-          "description": "While Pärshvanäth is in deep meditation, Meghmäli attacks him with magical beasts and a torrential flood.",
-          "characters": ["Pärshvanäth", "Meghmäli"]
-        },
-        {
-          "title": "Dharanendra's Protection",
-          "description": "The snake, now the god Dharanendra, protects his benefactor by lifting him on a lotus and shielding him with his fangs.",
-          "characters": ["Pärshvanäth", "Dharanendra", "Meghmäli"]
-        }
-      ]
-    },
-    {
-      "era": "Enlightenment & Nirväna",
-      "period": "After 84 days of penance",
-      "events": [
-        {
-          "title": "Omniscience Attained",
-          "description": "Having maintained perfect equanimity, Pärshvanäth attains Keval-jnän on the 84th day of his renunciation.",
-          "characters": ["Pärshvanäth"]
-        },
-        {
-          "title": "The 23rd Tirthankar",
-          "description": "He preaches the true religion for many years, becoming the 23rd Tirthankar of this era.",
-          "characters": ["Pärshvanäth"]
-        },
-        {
-          "title": "Final Liberation",
-          "description": "At the age of 100, he attains Nirväna (liberation) at the holy site of Sametshikhar.",
-          "characters": ["Pärshvanäth"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Bhagawän Pärshvanäth",
-      "description": "The 23rd Tirthankar. As Prince Pärshva-kumär, his compassion for a burning snake set in motion key events. He is known for his perfect equanimity in the face of extreme adversity."
-    },
-    {
-      "name": "Kamath / Meghmäli",
-      "description": "An ascetic who practiced a violent fire ritual. His anger at Pärshva-kumär's interference caused him to be reborn as the vengeful rain-god, Meghmäli."
-    },
-    {
-      "name": "The Snake / Dharanendra",
-      "description": "A snake saved spiritually by Pärshva-kumär's recitation of the Namaskär-mantra. It was reborn as Dharanendra, the powerful and loyal king of the serpent gods (Näg kumärs)."
-    },
-    {
-      "name": "King Ashvasen & Queen Vämädevi",
-      "description": "The royal parents of Pärshvanäth and rulers of Väränasi."
-    },
-    {
-      "name": "Prabhävati",
-      "description": "The wife of Pärshva-kumär, who later renounced the world to become one of his disciples."
-    }
-  ],
-  "quizData": [
-    {
-      "question": "Who were the parents of Bhagawän Pärshvanäth?",
-      "answer": "King Ashvasen and Queen Vämädevi."
-    },
-    {
-      "question": "What was the name of the mendicant performing the 'Panchägni' (five fires) ritual?",
-      "answer": "Kamath."
-    },
-    {
-      "question": "What was reborn from the dying snake for whom Pärshva-kumär recited the Namaskär-mantra?",
-      "answer": "The god Dharanendra, king of the Näg kumärs."
-    },
-    {
-      "question": "The angry mendicant Kamath was reborn as which vengeful god?",
-      "answer": "Meghmäli, the god of rain."
-    },
-    {
-      "question": "At what age did Pärshva-kumär renounce the world and become a monk?",
-      "answer": "At the age of 30."
-    },
-    {
-      "question": "How did Meghmäli try to take revenge on Pärshvanäth during his meditation?",
-      "answer": "He attacked him with fierce animals and a torrential rainstorm that caused a flood."
-    },
-    {
-      "question": "Who protected Pärshvanäth from the flood, and how?",
-      "answer": "Dharanendra protected him by creating a lotus to lift him and spreading his fangs like an umbrella."
-    },
-    {
-      "question": "How many days after his renunciation did Pärshvanäth attain omniscience?",
-      "answer": "On the 84th day."
-    },
-    {
-      "question": "Pärshvanäth is which Tirthankar in the sequence of 24?",
-      "answer": "The 23rd Tirthankar."
-    },
-    {
-      "question": "At which holy site did Bhagawän Pärshvanäth attain Nirväna?",
-      "answer": "Sametshikhar."
-    }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Pärshvanäth",
-    "children": [
-      {
-        "name": "Princely Life",
-        "children": [
-          { "name": "Born to King Ashvasen & Queen Vämädevi" },
-          { "name": "Marries Princess Prabhävati" }
-        ]
-      },
-      {
-        "name": "The Fire Incident",
-        "children": [
-          { "name": "Confronts Kamath the Mendicant" },
-          { "name": "Saves Snake with Mantra" },
-          {
-            "name": "Karmic Consequences",
-            "children": [
-              { "name": "Snake becomes Dharanendra" },
-              { "name": "Kamath becomes Meghmäli" }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Asceticism & Trials",
-        "children": [
-          { "name": "Renounces World at Age 30" },
-          { "name": "Meghmäli's Attack (Rain)" },
-          { "name": "Dharanendra's Protection (Lotus & Fangs)" }
-        ]
-      },
-      {
-        "name": "Enlightenment",
-        "children": [
-          { "name": "Attains Omniscience" },
-          { "name": "Becomes 23rd Tirthankar" },
-          { "name": "Attains Nirväna at Sametshikhar" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Pärshvanäth's Path",
-    "children": [
-      {
-        "name": "A Prince's Compassion",
-        "children": [
-          { "name": "Royal Life" },
-          { "name": "The Burning Log" },
-          { "name": "Two Fates Sealed" }
-        ]
-      },
-      {
-        "name": "An Ascetic's Trial",
-        "children": [
-          { "name": "Renunciation" },
-          { "name": "Revenge from the Sky" },
-          { "name": "Protection from Below" }
-        ]
-      },
-      {
-        "name": "The Tirthankar's Equanimity",
-        "children": [
-          { "name": "Perfect Stillness" },
-          { "name": "Attainment of Keval-jnän" },
-          { "name": "The Final Liberation" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "The Sacrificial Fire",
-      "description": "Prince Pärshva-kumär confronts the ascetic Kamath, explaining that his fire ritual is causing harm to living beings hidden within the wood.",
-      "imageSrc": "https://placehold.co/600x400/7f1d1d/fef2f2?text=Pärshva-kumär+confronts+Kamath",
-      "imageAlt": "Pärshva-kumär points towards a fire where Kamath is performing a ritual."
-    },
-    {
-      "title": "A Soul is Saved",
-      "description": "As the log is split, a half-burnt snake emerges. Pärshva-kumär recites the sacred Namaskär-mantra, granting the snake a peaceful death and a divine rebirth.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Half-Burnt+Snake",
-      "imageAlt": "A snake emerges from a burning log as Pärshva-kumär looks on with compassion."
-    },
-    {
-      "title": "Revenge from the Heavens",
-      "description": "Years later, Kamath, now the rain-god Meghmäli, unleashes a furious storm to take revenge on Pärshvanäth, who is deep in meditation.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Meghmäli's+Storm",
-      "imageAlt": "Pärshvanäth meditates peacefully while dark clouds gather and rain pours down."
-    },
-    {
-      "title": "Protection from a Past Life",
-      "description": "The snake, now the god Dharanendra, repays his debt. He lifts Pärshvanäth on a lotus and shields him with his giant cobra hood.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Dharanendra+Protects+Pärshvanäth",
-      "imageAlt": "A large cobra with many heads (Dharanendra) shields the meditating Pärshvanäth from the rain."
-    },
-    {
-      "title": "Perfect Equanimity",
-      "description": "Untouched by the attack or the protection, Pärshvanäth's meditation deepens, his equanimity allowing him to destroy his karmas.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Pärshvanäth's+Deep+Meditation",
-      "imageAlt": "A serene close-up of Pärshvanäth's face in meditation, oblivious to the chaos around him."
-    },
-    {
-      "title": "The 23rd Tirthankar",
-      "description": "Having attained omniscience, Bhagawän Pärshvanäth preaches the path of non-violence and liberation to all beings.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Pärshvanäth+Preaching",
-      "imageAlt": "Bhagawän Pärshvanäth sits in a divine assembly hall (Samavasaran), delivering his sermon."
-    }
-  ]
+"title":"The Story of Bhagawän Pärshvanäth",
+"subtitle":"Section E.2 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"Birth and Early Life"
+ },
+ {
+"tagType":"p",
+"tagHTML":"About 3000 years ago, <span class=\"highlight\">King Ashvasen</span> and his queen, <span class=\"highlight\">Vämädevi</span>, ruled the kingdom of Väränasi. On the 10th day of the dark half of Mägashara, Queen Vämädevi gave birth to a son. Because the queen had observed a passing snake during her pregnancy, the child was named <span class=\"highlight\">Pärshva-kumär</span>. He grew up to be a courteous and brave young man and was married to <span class=\"highlight\">Princess Prabhävati</span>."
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Fateful Encounter"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10.21.513a.75.75 0 01.588.03l7.25 4.5a.75.75 0 01.152.915l-3.34 6.68a.75.75 0 01-1.025.385l-4.5-2.25a.75.75 0 00-.73 0l-4.5 2.25a.75.75 0 01-1.025-.385L.513 5.958a.75.75 0 01.152-.915l7.25-4.5a.75.75 0 01.297-.075zm0 2.13L4.253 6.132l2.58 5.16 3.667-1.833a.75.75 0 01.73 0l3.667 1.833 2.58-5.16L10.21 2.643z\" clip-rule=\"evenodd\" /></svg> A mendicant named <span class=\"highlight\">Kamath</span> came to Väränasi to perform a severe ritual called <span class=\"highlight\">Panchägni (five fires)</span>. When Pärshva-kumär heard of this, he realized the violence involved. He went to Kamath and pointed out that there was life in the burning logs. By his extra-sensory perception, Pärshva-kumär knew a snake was trapped inside. When the log was split open, a half-burnt snake emerged."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Pärshva-kumär recited the <span class=\"highlight\">Namaskär-mantra</span> for the dying snake, which was reborn as <span class=\"highlight\">Dharanendra</span>, a powerful divine being. Kamath, however, felt no remorse. Instead, he was furious at Pärshva-kumär's interference and harbored a desire for revenge. After his death, Kamath was reborn as <span class=\"highlight\">Meghmäli</span>, the god of rain."
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Renunciation and Revenge"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Observing such worldly misery, Pärshva-kumär developed deep detachment. At the age of 30, he renounced his family and wealth to become a monk, known as <span class=\"highlight\">Pärshvanäth</span>. One day, while he was deep in meditation, Meghmäli saw him from heaven. Seizing his chance for revenge, he unleashed fierce animals and a torrential rainstorm to disturb the monk."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 3.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 8.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3zM10 13.5a1.5 1.5 0 110 3 1.5 1.5 0 010-3z\" /></svg> The floodwaters rose to Pärshvanäth's neck, but he remained perfectly still in meditation. Seeing his benefactor in peril, Dharanendra descended from heaven. He created a lotus to lift Pärshvanäth above the water and spread his large fangs like an umbrella to shield him from the rain. Dharanendra then confronted Meghmäli, who, realizing his failure and folly, begged Pärshvanäth for forgiveness."
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Liberation"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Through it all, Pärshvanäth had remained in a state of perfect equanimity, unaware of either the attack or the protection. On the 84th day of his renunciation, he attained <span class=\"highlight\">omniscience (Keval-jnän)</span>. He became the 23rd Tirthankar, re-established the four-fold religious order, and preached the true path. At the age of 100, he attained <span class=\"highlight\">Nirväna</span> at <span class=\"highlight\">Sametshikhar</span>."
+ }
+ ],
+"timelineData": [
+ {
+"era":"Princely Life",
+"period":"Circa 1000 B.C.",
+"events": [
+ {
+"title":"Royal Birth",
+"description":"Pärshva-kumär is born to King Ashvasen and Queen Vämädevi of Väränasi.",
+"characters": ["Pärshva-kumär","King Ashvasen","Queen Vämädevi"]
+ },
+ {
+"title":"Marriage",
+"description":"As a young man known for his valor and courtesy, he is married to Princess Prabhävati.",
+"characters": ["Pärshva-kumär","Prabhävati"]
+ }
+ ]
+ },
+ {
+"era":"The Defining Incident",
+"period":"During his life as a prince",
+"events": [
+ {
+"title":"The Fire Ritual",
+"description":"He encounters the mendicant Kamath performing the'Panchägni' fire ritual.",
+"characters": ["Pärshva-kumär","Kamath"]
+ },
+ {
+"title":"An Act of Compassion",
+"description":"Using his special knowledge, he reveals a snake trapped in a burning log, saving it spiritually by reciting the Namaskär-mantra.",
+"characters": ["Pärshva-kumär","The Snake"]
+ },
+ {
+"title":"Karmic Seeds are Sown",
+"description":"The snake is reborn as the powerful god Dharanendra. The angry Kamath is reborn as the vengeful rain-god Meghmäli.",
+"characters": ["Dharanendra","Meghmäli"]
+ }
+ ]
+ },
+ {
+"era":"Ascetic Life & Trials",
+"period":"After age 30",
+"events": [
+ {
+"title":"Renunciation",
+"description":"At age 30, filled with detachment, Pärshva-kumär renounces the world to become a monk.",
+"characters": ["Pärshvanäth"]
+ },
+ {
+"title":"Meghmäli's Revenge",
+"description":"While Pärshvanäth is in deep meditation, Meghmäli attacks him with magical beasts and a torrential flood.",
+"characters": ["Pärshvanäth","Meghmäli"]
+ },
+ {
+"title":"Dharanendra's Protection",
+"description":"The snake, now the god Dharanendra, protects his benefactor by lifting him on a lotus and shielding him with his fangs.",
+"characters": ["Pärshvanäth","Dharanendra","Meghmäli"]
+ }
+ ]
+ },
+ {
+"era":"Enlightenment & Nirväna",
+"period":"After 84 days of penance",
+"events": [
+ {
+"title":"Omniscience Attained",
+"description":"Having maintained perfect equanimity, Pärshvanäth attains Keval-jnän on the 84th day of his renunciation.",
+"characters": ["Pärshvanäth"]
+ },
+ {
+"title":"The 23rd Tirthankar",
+"description":"He preaches the true religion for many years, becoming the 23rd Tirthankar of this era.",
+"characters": ["Pärshvanäth"]
+ },
+ {
+"title":"Final Liberation",
+"description":"At the age of 100, he attains Nirväna (liberation) at the holy site of Sametshikhar.",
+"characters": ["Pärshvanäth"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Bhagawän Pärshvanäth",
+"description":"The 23rd Tirthankar. As Prince Pärshva-kumär, his compassion for a burning snake set in motion key events. He is known for his perfect equanimity in the face of extreme adversity."
+ },
+ {
+"name":"Kamath / Meghmäli",
+"description":"An ascetic who practiced a violent fire ritual. His anger at Pärshva-kumär's interference caused him to be reborn as the vengeful rain-god, Meghmäli."
+ },
+ {
+"name":"The Snake / Dharanendra",
+"description":"A snake saved spiritually by Pärshva-kumär's recitation of the Namaskär-mantra. It was reborn as Dharanendra, the powerful and loyal king of the serpent gods (Näg kumärs)."
+ },
+ {
+"name":"King Ashvasen & Queen Vämädevi",
+"description":"The royal parents of Pärshvanäth and rulers of Väränasi."
+ },
+ {
+"name":"Prabhävati",
+"description":"The wife of Pärshva-kumär, who later renounced the world to become one of his disciples."
+ }
+ ],
+"quizData": [
+ {
+"question":"Who were the parents of Bhagawän Pärshvanäth?",
+"answer":"King Ashvasen and Queen Vämädevi."
+ },
+ {
+"question":"What was the name of the mendicant performing the'Panchägni' (five fires) ritual?",
+"answer":"Kamath."
+ },
+ {
+"question":"What was reborn from the dying snake for whom Pärshva-kumär recited the Namaskär-mantra?",
+"answer":"The god Dharanendra, king of the Näg kumärs."
+ },
+ {
+"question":"The angry mendicant Kamath was reborn as which vengeful god?",
+"answer":"Meghmäli, the god of rain."
+ },
+ {
+"question":"At what age did Pärshva-kumär renounce the world and become a monk?",
+"answer":"At the age of 30."
+ },
+ {
+"question":"How did Meghmäli try to take revenge on Pärshvanäth during his meditation?",
+"answer":"He attacked him with fierce animals and a torrential rainstorm that caused a flood."
+ },
+ {
+"question":"Who protected Pärshvanäth from the flood, and how?",
+"answer":"Dharanendra protected him by creating a lotus to lift him and spreading his fangs like an umbrella."
+ },
+ {
+"question":"How many days after his renunciation did Pärshvanäth attain omniscience?",
+"answer":"On the 84th day."
+ },
+ {
+"question":"Pärshvanäth is which Tirthankar in the sequence of 24?",
+"answer":"The 23rd Tirthankar."
+ },
+ {
+"question":"At which holy site did Bhagawän Pärshvanäth attain Nirväna?",
+"answer":"Sametshikhar."
+ }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Pärshvanäth",
+"children": [
+ {
+"name":"Princely Life",
+"children": [
+ {"name":"Born to King Ashvasen & Queen Vämädevi" },
+ {"name":"Marries Princess Prabhävati" }
+ ]
+ },
+ {
+"name":"The Fire Incident",
+"children": [
+ {"name":"Confronts Kamath the Mendicant" },
+ {"name":"Saves Snake with Mantra" },
+ {
+"name":"Karmic Consequences",
+"children": [
+ {"name":"Snake becomes Dharanendra" },
+ {"name":"Kamath becomes Meghmäli" }
+ ]
+ }
+ ]
+ },
+ {
+"name":"Asceticism & Trials",
+"children": [
+ {"name":"Renounces World at Age 30" },
+ {"name":"Meghmäli's Attack (Rain)" },
+ {"name":"Dharanendra's Protection (Lotus & Fangs)" }
+ ]
+ },
+ {
+"name":"Enlightenment",
+"children": [
+ {"name":"Attains Omniscience" },
+ {"name":"Becomes 23rd Tirthankar" },
+ {"name":"Attains Nirväna at Sametshikhar" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Pärshvanäth's Path",
+"children": [
+ {
+"name":"A Prince's Compassion",
+"children": [
+ {"name":"Royal Life" },
+ {"name":"The Burning Log" },
+ {"name":"Two Fates Sealed" }
+ ]
+ },
+ {
+"name":"An Ascetic's Trial",
+"children": [
+ {"name":"Renunciation" },
+ {"name":"Revenge from the Sky" },
+ {"name":"Protection from Below" }
+ ]
+ },
+ {
+"name":"The Tirthankar's Equanimity",
+"children": [
+ {"name":"Perfect Stillness" },
+ {"name":"Attainment of Keval-jnän" },
+ {"name":"The Final Liberation" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"The Sacrificial Fire",
+"description":"Prince Pärshva-kumär confronts the ascetic Kamath, explaining that his fire ritual is causing harm to living beings hidden within the wood.",
+"imageSrc":"https://placehold.co/600x400/7f1d1d/fef2f2?text=Pärshva-kumär+confronts+Kamath",
+"imageAlt":"Pärshva-kumär points towards a fire where Kamath is performing a ritual."
+ },
+ {
+"title":"A Soul is Saved",
+"description":"As the log is split, a half-burnt snake emerges. Pärshva-kumär recites the sacred Namaskär-mantra, granting the snake a peaceful death and a divine rebirth.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Half-Burnt+Snake",
+"imageAlt":"A snake emerges from a burning log as Pärshva-kumär looks on with compassion."
+ },
+ {
+"title":"Revenge from the Heavens",
+"description":"Years later, Kamath, now the rain-god Meghmäli, unleashes a furious storm to take revenge on Pärshvanäth, who is deep in meditation.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Meghmäli's+Storm",
+"imageAlt":"Pärshvanäth meditates peacefully while dark clouds gather and rain pours down."
+ },
+ {
+"title":"Protection from a Past Life",
+"description":"The snake, now the god Dharanendra, repays his debt. He lifts Pärshvanäth on a lotus and shields him with his giant cobra hood.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Dharanendra+Protects+Pärshvanäth",
+"imageAlt":"A large cobra with many heads (Dharanendra) shields the meditating Pärshvanäth from the rain."
+ },
+ {
+"title":"Perfect Equanimity",
+"description":"Untouched by the attack or the protection, Pärshvanäth's meditation deepens, his equanimity allowing him to destroy his karmas.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Pärshvanäth's+Deep+Meditation",
+"imageAlt":"A serene close-up of Pärshvanäth's face in meditation, oblivious to the chaos around him."
+ },
+ {
+"title":"The 23rd Tirthankar",
+"description":"Having attained omniscience, Bhagawän Pärshvanäth preaches the path of non-violence and liberation to all beings.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Pärshvanäth+Preaching",
+"imageAlt":"Bhagawän Pärshvanäth sits in a divine assembly hall (Samavasaran), delivering his sermon."
+ }
+ ]
 }

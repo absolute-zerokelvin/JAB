@@ -1,241 +1,241 @@
 {
-  "title": "The Story of King Hansa",
-  "subtitle": "Section J.1 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "A King's Pilgrimage"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "King Hansa of Räjpur was a ruler known for his devotion to truth and non-violence. He decided to go on a pilgrimage to a beautiful temple of <span class=\"highlight\">Rishabhadev</span> on Mount Ratnasringa. Leaving his kingdom in the care of his ministers, he set off on his spiritual mission. Shortly after his departure, a rival, <span class=\"highlight\">King Arjun</span>, attacked and conquered his kingdom."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "When King Hansa heard the news, his upset courtiers advised him to return and fight. However, the king replied, “I have given up control of the kingdom and we are on a spiritual mission, so that is what we should be thinking about.” Unhappy with his decision, his courtiers abandoned him one by one, until only a single umbrella bearer remained."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Dilemmas of the Forest"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M8.25 4.5a.75.75 0 01.75.75v3.19l4.97-2.618a.75.75 0 011.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.22 7.89a.75.75 0 011.06-1.06l1.97 1.97V5.25a.75.75 0 01.75-.75zM10.25 10a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.5a.75.75 0 01-.75-.75v-.008a.75.75 0 01.75-.75h.5z\" clip-rule=\"evenodd\" /><path d=\"M3 13.25a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z\" /></svg>While traveling through a forest, the king was confronted by a hunter asking if he had seen a deer. Knowing the truth would lead to the deer's death, the king cleverly avoided a direct answer, speaking only of irrelevant things until the frustrated hunter left. Later, he overheard <span class=\"highlight\">robbers</span> planning to attack a group of monks. When police arrived looking for the robbers, the king was again in a dilemma. He told them, “Why not go and look after the monks and worry about the robbers if they confront the monks?” The police left to guard the monks, and the grateful robbers, having overheard, thanked the king and promised to give up their life of crime."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Ultimate Truth"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "King Hansa's trials were not over. A group of King Arjun's soldiers found him and asked if he was the fugitive King Hansa, whom they were ordered to kill. This time, no other life was at stake. With perfect calm, he replied, “I am King Hansa. Carry out your duty as told by your king.” He then closed his eyes and began reciting the <span class=\"highlight\">Namaskär Mantra</span>."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>At that moment, a <span class=\"highlight\">dev</span> (heavenly being) appeared, overwhelmed by the king's truthfulness and compassion. The dev announced he had already captured King Arjun and restored the kingdom. He then took King Hansa in his chariot to the temple to complete his worship. Back in his kingdom, King Hansa pardoned King Arjun, showing mercy once more."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Pilgrimage",
-      "period": "Start of the journey",
-      "events": [
-        {
-          "title": "A Spiritual Mission",
-          "description": "King Hansa leaves his kingdom of Räjpur for a pilgrimage to the temple of Rishabhadev on Mount Ratnasringa.",
-          "characters": ["King Hansa"]
-        },
-        {
-          "title": "Kingdom Lost",
-          "description": "Shortly after he leaves, the rival King Arjun attacks and conquers his kingdom.",
-          "characters": ["King Hansa", "King Arjun"]
-        },
-        {
-          "title": "Abandoned",
-          "description": "Upon hearing the news, King Hansa refuses to turn back. His courtiers abandon him, leaving only one servant.",
-          "characters": ["King Hansa", "The Umbrella Bearer"]
-        }
-      ]
-    },
-    {
-      "era": "Trials of Truth & Non-Violence",
-      "period": "In the forest",
-      "events": [
-        {
-          "title": "Saving the Deer",
-          "description": "He avoids telling a direct truth to a hunter, thus saving the life of a deer.",
-          "characters": ["King Hansa", "The Hunter"]
-        },
-        {
-          "title": "Saving Monks and Robbers",
-          "description": "He overhears a plot to rob monks and cleverly diverts the police, saving both the monks from being robbed and the robbers from being killed.",
-          "characters": ["King Hansa", "The Robbers", "The Police"]
-        }
-      ]
-    },
-    {
-      "era": "The Final Test & Divine Reward",
-      "period": "Confrontation and Restoration",
-      "events": [
-        {
-          "title": "Truth in the Face of Death",
-          "description": "When confronted by soldiers sent to kill him, King Hansa truthfully admits his identity, ready to face his fate.",
-          "characters": ["King Hansa", "Arjun's Soldiers"]
-        },
-        {
-          "title": "Divine Intervention",
-          "description": "A dev, impressed by his virtue, appears and reveals that King Arjun has been captured and the kingdom is restored.",
-          "characters": ["King Hansa", "The Dev"]
-        },
-        {
-          "title": "A Merciful King",
-          "description": "After being returned to his throne, King Hansa pardons his enemy, King Arjun.",
-          "characters": ["King Hansa", "King Arjun"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "King Hansa",
-      "description": "A just and devout king of Räjpur, whose unwavering commitment to both truth and non-violence, even in the face of death, demonstrates the highest ideals of Jain principles."
-    },
-    {
-      "name": "King Arjun",
-      "description": "The rival king who took advantage of King Hansa's absence to conquer his kingdom, but was ultimately defeated by a divine being."
-    },
-    {
-      "name": "The Dev",
-      "description": "A heavenly being who, witnessing King Hansa's perfect adherence to his principles, intervened to restore his kingdom and reward his virtue."
-    },
-    {
-      "name": "The Robbers",
-      "description": "A group of thieves who were saved from harm by King Hansa's clever words and, in gratitude, promised to reform their ways."
-    }
-  ],
-  "quizData": [
-    { "question": "Who was the king who attacked King Hansa's kingdom?", "answer": "King Arjun." },
-    { "question": "Where was King Hansa going when his kingdom was attacked?", "answer": "To the temple of Rishabhadev on Mount Ratnasringa." },
-    { "question": "What did King Hansa's courtiers do when he refused to turn back and fight?", "answer": "They abandoned him." },
-    { "question": "How did King Hansa save the deer from the hunter?", "answer": "He avoided answering the hunter's question directly and talked about irrelevant things instead." },
-    { "question": "What did King Hansa overhear the robbers in the bushes planning to do?", "answer": "They were planning to rob some monks who were going to pass by." },
-    { "question": "How did King Hansa prevent both the monks and the robbers from being harmed?", "answer": "He suggested the police go and protect the monks directly, rather than searching for the robbers." },
-    { "question": "What did the robbers promise King Hansa after he saved them?", "answer": "They promised not to harm the monks and to try to be good citizens." },
-    { "question": "When Arjun's soldiers asked if he was King Hansa, what did he say?", "answer": "He told the truth, saying, 'I am King Hansa.'" },
-    { "question": "After truthfully identifying himself to the soldiers, what did King Hansa begin to do?", "answer": "He closed his eyes, stood in meditation, and started reciting the Namaskär Mantra." },
-    { "question": "Who appeared at the last moment to save King Hansa?", "answer": "A dev (a heavenly being)." },
-    { "question": "What did the dev tell King Hansa he had already done?", "answer": "He had captured King Arjun and given control of the kingdom back to Hansa's ministers." },
-    { "question": "How did King Hansa get to the temple in time for worship?", "answer": "The dev took him in his chariot." },
-    { "question": "What did King Hansa do to King Arjun after he was restored to his throne?", "answer": "He pardoned King Arjun and released his soldiers." },
-    { "question": "What is the main moral theme of this story?", "answer": "The importance of balancing the principles of truth and non-violence, and understanding that truth should not be used to cause harm." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Trials of King Hansa",
-    "children": [
-      {
-        "name": "The Lost Kingdom",
-        "children": [
-          { "name": "Goes on Pilgrimage" },
-          { "name": "Kingdom is Conquered by Arjun" },
-          { "name": "Refuses to Turn Back" }
-        ]
-      },
-      {
-        "name": "Moral Dilemmas",
-        "children": [
-          { "name": "The Hunter and the Deer" },
-          { "name": "The Robbers and the Monks" },
-          { "name": "Finds creative, non-violent solutions" }
-        ]
-      },
-      {
-        "name": "The Final Test",
-        "children": [
-          { "name": "Confronted by Arjun's Soldiers" },
-          { "name": "Tells the Truth, Facing Death" }
-        ]
-      },
-      {
-        "name": "The Divine Reward",
-        "children": [
-          { "name": "A Dev Intervenes" },
-          { "name": "Kingdom Restored" },
-          { "name": "Enemy Pardoned" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "King Hansa: Truth & Mercy",
-    "children": [
-      {
-        "name": "The Devout King",
-        "children": [
-          { "name": "The Pilgrimage" },
-          { "name": "The Usurpation" }
-        ]
-      },
-      {
-        "name": "The Wise Protector",
-        "children": [
-          { "name": "Saving the Deer" },
-          { "name": "Saving Robbers & Monks" }
-        ]
-      },
-      {
-        "name": "The Fearless Truth-teller",
-        "children": [
-          { "name": "The Confrontation" },
-          { "name": "The Divine Intervention" },
-          { "name": "The Pardon" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Kingdom Conquered",
-      "description": "While the devout King Hansa is away on a pilgrimage, his rival, King Arjun, attacks and takes over his kingdom of Räjpur.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=King+Arjun+Conquers+Räjpur",
-      "imageAlt": "An army with a different flag storming the gates of a castle."
-    },
-    {
-      "title": "A Clever Evasion",
-      "description": "To save a deer's life, King Hansa avoids telling the truth to a hunter by talking about irrelevant things until the hunter gives up and leaves.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=King+Hansa+and+the+Hunter",
-      "imageAlt": "A king calmly speaking to an angry hunter in a forest, with a deer peeking from behind a tree."
-    },
-    {
-      "title": "Saving Two Groups at Once",
-      "description": "King Hansa cleverly directs police to protect a group of monks, thereby saving the monks from being robbed and saving the robbers from being killed by the police.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+King's+Wise+Diversion",
-      "imageAlt": "A king pointing one way for police officers, while robbers hide in the bushes in another direction."
-    },
-    {
-      "title": "Truth in the Face of Death",
-      "description": "When confronted by enemy soldiers sent to kill him, King Hansa fearlessly tells the truth about his identity and prepares for death by reciting the Namaskär Mantra.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=King+Hansa+Tells+the+Truth",
-      "imageAlt": "A king standing serenely with eyes closed before a group of armed soldiers."
-    },
-    {
-      "title": "Divine Intervention",
-      "description": "A divine being, a 'dev,' appears in a brilliant light, moved by the king's virtue. The dev saves him and announces that his kingdom has been restored.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Dev+Appears",
-      "imageAlt": "A glowing celestial being appearing before King Hansa and the shocked soldiers."
-    },
-    {
-      "title": "A King's Mercy",
-      "description": "Back on his throne, King Hansa shows ultimate compassion by pardoning his captured enemy, King Arjun, and releasing all his soldiers.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=King+Hansa+Pardons+King+Arjun",
-      "imageAlt": "A king on his throne gesturing mercifully towards another king in chains."
-    }
-  ]
+"title":"The Story of King Hansa",
+"subtitle":"Section J.1 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"A King's Pilgrimage"
+ },
+ {
+"tagType":"p",
+"tagHTML":"King Hansa of Räjpur was a ruler known for his devotion to truth and non-violence. He decided to go on a pilgrimage to a beautiful temple of <span class=\"highlight\">Rishabhadev</span> on Mount Ratnasringa. Leaving his kingdom in the care of his ministers, he set off on his spiritual mission. Shortly after his departure, a rival, <span class=\"highlight\">King Arjun</span>, attacked and conquered his kingdom."
+ },
+ {
+"tagType":"p",
+"tagHTML":"When King Hansa heard the news, his upset courtiers advised him to return and fight. However, the king replied, “I have given up control of the kingdom and we are on a spiritual mission, so that is what we should be thinking about.” Unhappy with his decision, his courtiers abandoned him one by one, until only a single umbrella bearer remained."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Dilemmas of the Forest"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M8.25 4.5a.75.75 0 01.75.75v3.19l4.97-2.618a.75.75 0 011.06 1.06l-4.25 4.25a.75.75 0 01-1.06 0L5.22 7.89a.75.75 0 011.06-1.06l1.97 1.97V5.25a.75.75 0 01.75-.75zM10.25 10a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.5a.75.75 0 01-.75-.75v-.008a.75.75 0 01.75-.75h.5z\" clip-rule=\"evenodd\" /><path d=\"M3 13.25a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z\" /></svg>While traveling through a forest, the king was confronted by a hunter asking if he had seen a deer. Knowing the truth would lead to the deer's death, the king cleverly avoided a direct answer, speaking only of irrelevant things until the frustrated hunter left. Later, he overheard <span class=\"highlight\">robbers</span> planning to attack a group of monks. When police arrived looking for the robbers, the king was again in a dilemma. He told them, “Why not go and look after the monks and worry about the robbers if they confront the monks?” The police left to guard the monks, and the grateful robbers, having overheard, thanked the king and promised to give up their life of crime."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Ultimate Truth"
+ },
+ {
+"tagType":"p",
+"tagHTML":"King Hansa's trials were not over. A group of King Arjun's soldiers found him and asked if he was the fugitive King Hansa, whom they were ordered to kill. This time, no other life was at stake. With perfect calm, he replied, “I am King Hansa. Carry out your duty as told by your king.” He then closed his eyes and began reciting the <span class=\"highlight\">Namaskär Mantra</span>."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>At that moment, a <span class=\"highlight\">dev</span> (heavenly being) appeared, overwhelmed by the king's truthfulness and compassion. The dev announced he had already captured King Arjun and restored the kingdom. He then took King Hansa in his chariot to the temple to complete his worship. Back in his kingdom, King Hansa pardoned King Arjun, showing mercy once more."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Pilgrimage",
+"period":"Start of the journey",
+"events": [
+ {
+"title":"A Spiritual Mission",
+"description":"King Hansa leaves his kingdom of Räjpur for a pilgrimage to the temple of Rishabhadev on Mount Ratnasringa.",
+"characters": ["King Hansa"]
+ },
+ {
+"title":"Kingdom Lost",
+"description":"Shortly after he leaves, the rival King Arjun attacks and conquers his kingdom.",
+"characters": ["King Hansa","King Arjun"]
+ },
+ {
+"title":"Abandoned",
+"description":"Upon hearing the news, King Hansa refuses to turn back. His courtiers abandon him, leaving only one servant.",
+"characters": ["King Hansa","The Umbrella Bearer"]
+ }
+ ]
+ },
+ {
+"era":"Trials of Truth & Non-Violence",
+"period":"In the forest",
+"events": [
+ {
+"title":"Saving the Deer",
+"description":"He avoids telling a direct truth to a hunter, thus saving the life of a deer.",
+"characters": ["King Hansa","The Hunter"]
+ },
+ {
+"title":"Saving Monks and Robbers",
+"description":"He overhears a plot to rob monks and cleverly diverts the police, saving both the monks from being robbed and the robbers from being killed.",
+"characters": ["King Hansa","The Robbers","The Police"]
+ }
+ ]
+ },
+ {
+"era":"The Final Test & Divine Reward",
+"period":"Confrontation and Restoration",
+"events": [
+ {
+"title":"Truth in the Face of Death",
+"description":"When confronted by soldiers sent to kill him, King Hansa truthfully admits his identity, ready to face his fate.",
+"characters": ["King Hansa","Arjun's Soldiers"]
+ },
+ {
+"title":"Divine Intervention",
+"description":"A dev, impressed by his virtue, appears and reveals that King Arjun has been captured and the kingdom is restored.",
+"characters": ["King Hansa","The Dev"]
+ },
+ {
+"title":"A Merciful King",
+"description":"After being returned to his throne, King Hansa pardons his enemy, King Arjun.",
+"characters": ["King Hansa","King Arjun"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"King Hansa",
+"description":"A just and devout king of Räjpur, whose unwavering commitment to both truth and non-violence, even in the face of death, demonstrates the highest ideals of Jain principles."
+ },
+ {
+"name":"King Arjun",
+"description":"The rival king who took advantage of King Hansa's absence to conquer his kingdom, but was ultimately defeated by a divine being."
+ },
+ {
+"name":"The Dev",
+"description":"A heavenly being who, witnessing King Hansa's perfect adherence to his principles, intervened to restore his kingdom and reward his virtue."
+ },
+ {
+"name":"The Robbers",
+"description":"A group of thieves who were saved from harm by King Hansa's clever words and, in gratitude, promised to reform their ways."
+ }
+ ],
+"quizData": [
+ {"question":"Who was the king who attacked King Hansa's kingdom?","answer":"King Arjun." },
+ {"question":"Where was King Hansa going when his kingdom was attacked?","answer":"To the temple of Rishabhadev on Mount Ratnasringa." },
+ {"question":"What did King Hansa's courtiers do when he refused to turn back and fight?","answer":"They abandoned him." },
+ {"question":"How did King Hansa save the deer from the hunter?","answer":"He avoided answering the hunter's question directly and talked about irrelevant things instead." },
+ {"question":"What did King Hansa overhear the robbers in the bushes planning to do?","answer":"They were planning to rob some monks who were going to pass by." },
+ {"question":"How did King Hansa prevent both the monks and the robbers from being harmed?","answer":"He suggested the police go and protect the monks directly, rather than searching for the robbers." },
+ {"question":"What did the robbers promise King Hansa after he saved them?","answer":"They promised not to harm the monks and to try to be good citizens." },
+ {"question":"When Arjun's soldiers asked if he was King Hansa, what did he say?","answer":"He told the truth, saying,'I am King Hansa.'" },
+ {"question":"After truthfully identifying himself to the soldiers, what did King Hansa begin to do?","answer":"He closed his eyes, stood in meditation, and started reciting the Namaskär Mantra." },
+ {"question":"Who appeared at the last moment to save King Hansa?","answer":"A dev (a heavenly being)." },
+ {"question":"What did the dev tell King Hansa he had already done?","answer":"He had captured King Arjun and given control of the kingdom back to Hansa's ministers." },
+ {"question":"How did King Hansa get to the temple in time for worship?","answer":"The dev took him in his chariot." },
+ {"question":"What did King Hansa do to King Arjun after he was restored to his throne?","answer":"He pardoned King Arjun and released his soldiers." },
+ {"question":"What is the main moral theme of this story?","answer":"The importance of balancing the principles of truth and non-violence, and understanding that truth should not be used to cause harm." }
+ ],
+"mindmapV1Data": {
+"name":"The Trials of King Hansa",
+"children": [
+ {
+"name":"The Lost Kingdom",
+"children": [
+ {"name":"Goes on Pilgrimage" },
+ {"name":"Kingdom is Conquered by Arjun" },
+ {"name":"Refuses to Turn Back" }
+ ]
+ },
+ {
+"name":"Moral Dilemmas",
+"children": [
+ {"name":"The Hunter and the Deer" },
+ {"name":"The Robbers and the Monks" },
+ {"name":"Finds creative, non-violent solutions" }
+ ]
+ },
+ {
+"name":"The Final Test",
+"children": [
+ {"name":"Confronted by Arjun's Soldiers" },
+ {"name":"Tells the Truth, Facing Death" }
+ ]
+ },
+ {
+"name":"The Divine Reward",
+"children": [
+ {"name":"A Dev Intervenes" },
+ {"name":"Kingdom Restored" },
+ {"name":"Enemy Pardoned" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"King Hansa: Truth & Mercy",
+"children": [
+ {
+"name":"The Devout King",
+"children": [
+ {"name":"The Pilgrimage" },
+ {"name":"The Usurpation" }
+ ]
+ },
+ {
+"name":"The Wise Protector",
+"children": [
+ {"name":"Saving the Deer" },
+ {"name":"Saving Robbers & Monks" }
+ ]
+ },
+ {
+"name":"The Fearless Truth-teller",
+"children": [
+ {"name":"The Confrontation" },
+ {"name":"The Divine Intervention" },
+ {"name":"The Pardon" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Kingdom Conquered",
+"description":"While the devout King Hansa is away on a pilgrimage, his rival, King Arjun, attacks and takes over his kingdom of Räjpur.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=King+Arjun+Conquers+Räjpur",
+"imageAlt":"An army with a different flag storming the gates of a castle."
+ },
+ {
+"title":"A Clever Evasion",
+"description":"To save a deer's life, King Hansa avoids telling the truth to a hunter by talking about irrelevant things until the hunter gives up and leaves.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=King+Hansa+and+the+Hunter",
+"imageAlt":"A king calmly speaking to an angry hunter in a forest, with a deer peeking from behind a tree."
+ },
+ {
+"title":"Saving Two Groups at Once",
+"description":"King Hansa cleverly directs police to protect a group of monks, thereby saving the monks from being robbed and saving the robbers from being killed by the police.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=The+King's+Wise+Diversion",
+"imageAlt":"A king pointing one way for police officers, while robbers hide in the bushes in another direction."
+ },
+ {
+"title":"Truth in the Face of Death",
+"description":"When confronted by enemy soldiers sent to kill him, King Hansa fearlessly tells the truth about his identity and prepares for death by reciting the Namaskär Mantra.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=King+Hansa+Tells+the+Truth",
+"imageAlt":"A king standing serenely with eyes closed before a group of armed soldiers."
+ },
+ {
+"title":"Divine Intervention",
+"description":"A divine being, a'dev,' appears in a brilliant light, moved by the king's virtue. The dev saves him and announces that his kingdom has been restored.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Dev+Appears",
+"imageAlt":"A glowing celestial being appearing before King Hansa and the shocked soldiers."
+ },
+ {
+"title":"A King's Mercy",
+"description":"Back on his throne, King Hansa shows ultimate compassion by pardoning his captured enemy, King Arjun, and releasing all his soldiers.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=King+Hansa+Pardons+King+Arjun",
+"imageAlt":"A king on his throne gesturing mercifully towards another king in chains."
+ }
+ ]
 }

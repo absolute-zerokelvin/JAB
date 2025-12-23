@@ -1,123 +1,123 @@
 {
-    "sectionTitle": "C.5: Jain Ethics and the Environment",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "A Religion of Ecological Harmony"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Jainism teaches that the five basic elements of our environment—Earth, Water, Fire, Air, and Vegetation—are themselves living beings, each possessing the sense of touch. The ancient Jain aphorism, <b>'Parasparopagraho Jivänäm'</b> (All life is bound together by mutual support and interdependence), forms the basis of the modern science of ecology."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Because all life is interconnected, harming any part of the environment is harming ourselves. Greed and possessiveness are seen as the primary causes of violence and environmental imbalance. The three cardinal principles of Jainism provide a framework for ethical and eco-friendly living."
-          }
-        ]
-      },
-      {
-        "tabName": "Three Cardinal Principles",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "The Pillars of Jain Environmental Ethics",
-          "description": "Ahimsä, Anekäntaväd, and Aparigraha are the core principles guiding a Jain's interaction with the world.",
-          "items": [
-            {
-              "header": "Ahimsä (Compassion / Non-violence)",
-              "content": "This is the supreme duty. It means respecting all life and avoiding harm not just in action, but also in speech and thought. It is an active concern for the welfare of all beings, from humans and animals down to the elements of air and water."
-            },
-            {
-              "header": "Anekäntaväd (Multiplicity of Viewpoints)",
-              "content": "This is respect for the views of others. It is the understanding that truth is complex and has many sides, and no single viewpoint holds the absolute truth. This principle stops the violence of rigid, dogmatic thought and promotes understanding and harmony."
-            },
-            {
-              "header": "Aparigraha (Non-possessiveness)",
-              "content": "This is respect for the environment by limiting one's needs and desires. Accumulating possessions leads to greed, jealousy, and violence. Using resources beyond one's need is a form of theft, and creating waste and pollution are acts of violence against the planet."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Ethical Living",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Practical Application of Jain Ethics",
-          "description": "How Jain principles apply to modern issues like the dairy industry and consumerism.",
-          "items": [
-            {
-              "header": "The Problem with Dairy",
-              "content": "While Jains are vegetarian, most consume dairy. However, the modern dairy industry inflicts terrible cruelty on cows, treating them as milk-producing machines. They are kept constantly pregnant, injected with hormones, separated from their calves, and sent to slaughterhouses when their milk production drops. This violence is why many Jains are re-evaluating the use of dairy products, especially in religious rituals."
-            },
-            {
-              "header": "The Three R's: A Jain Practice",
-              "content": "The principles of Aparigraha and Ahimsä naturally lead to an eco-friendly lifestyle.<ul><li><b>Reduce:</b> Minimize needs and consumption. Buy products with less packaging.</li><li><b>Reuse:</b> Use items multiple times. Give away unwanted clothes and items instead of throwing them away.</li><li><b>Recycle:</b> Collect and re-process materials like paper, glass, and plastic. Support the cycle by purchasing products made from recycled materials.</li></ul>"
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Jain Environmental Ethics",
-          "questions": [
-            {
-              "question": "What is the Jain aphorism that forms the basis of the modern science of ecology?",
-              "options": [
-                "Ahimsä Parmo Dharma",
-                "Parasparopagraho Jivänäm",
-                "Anekäntaväd",
-                "Live and Let Live"
-              ],
-              "answer": "Parasparopagraho Jivänäm"
-            },
-            {
-              "question": "Which of the three cardinal principles means 'non-possessiveness'?",
-              "options": [
-                "Ahimsä",
-                "Anekäntaväd",
-                "Aparigraha",
-                "Maitri"
-              ],
-              "answer": "Aparigraha"
-            },
-            {
-              "question": "According to Jainism, which of the following is an act of violence?",
-              "options": [
-                "Wasting resources",
-                "Creating pollution",
-                "Using more than one needs",
-                "All of the above"
-              ],
-              "answer": "All of the above"
-            },
-            {
-              "question": "The Jain principle that respects the multiple viewpoints of truth is called:",
-              "options": [
-                "Ahimsä",
-                "Aparigraha",
-                "Anekäntaväd",
-                "Syädväd"
-              ],
-              "answer": "Anekäntaväd"
-            },
-            {
-              "question": "Why is the modern dairy industry considered a violation of Ahimsä?",
-              "options": [
-                "Cows are treated cruelly and are eventually slaughtered.",
-                "It uses a significant amount of natural resources.",
-                "Calves are separated from their mothers.",
-                "All of the above"
-              ],
-              "answer": "All of the above"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"C.5: Jain Ethics and the Environment",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"A Religion of Ecological Harmony"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jainism teaches that the five basic elements of our environment—Earth, Water, Fire, Air, and Vegetation—are themselves living beings, each possessing the sense of touch. The ancient Jain aphorism, <b>'Parasparopagraho Jivänäm'</b> (All life is bound together by mutual support and interdependence), forms the basis of the modern science of ecology."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Because all life is interconnected, harming any part of the environment is harming ourselves. Greed and possessiveness are seen as the primary causes of violence and environmental imbalance. The three cardinal principles of Jainism provide a framework for ethical and eco-friendly living."
+ }
+ ]
+ },
+ {
+"tabName":"Three Cardinal Principles",
+"contentType":"accordian",
+"tabData": {
+"title":"The Pillars of Jain Environmental Ethics",
+"description":"Ahimsä, Anekäntaväd, and Aparigraha are the core principles guiding a Jain's interaction with the world.",
+"items": [
+ {
+"header":"Ahimsä (Compassion / Non-violence)",
+"content":"This is the supreme duty. It means respecting all life and avoiding harm not just in action, but also in speech and thought. It is an active concern for the welfare of all beings, from humans and animals down to the elements of air and water."
+ },
+ {
+"header":"Anekäntaväd (Multiplicity of Viewpoints)",
+"content":"This is respect for the views of others. It is the understanding that truth is complex and has many sides, and no single viewpoint holds the absolute truth. This principle stops the violence of rigid, dogmatic thought and promotes understanding and harmony."
+ },
+ {
+"header":"Aparigraha (Non-possessiveness)",
+"content":"This is respect for the environment by limiting one's needs and desires. Accumulating possessions leads to greed, jealousy, and violence. Using resources beyond one's need is a form of theft, and creating waste and pollution are acts of violence against the planet."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Ethical Living",
+"contentType":"accordian",
+"tabData": {
+"title":"Practical Application of Jain Ethics",
+"description":"How Jain principles apply to modern issues like the dairy industry and consumerism.",
+"items": [
+ {
+"header":"The Problem with Dairy",
+"content":"While Jains are vegetarian, most consume dairy. However, the modern dairy industry inflicts terrible cruelty on cows, treating them as milk-producing machines. They are kept constantly pregnant, injected with hormones, separated from their calves, and sent to slaughterhouses when their milk production drops. This violence is why many Jains are re-evaluating the use of dairy products, especially in religious rituals."
+ },
+ {
+"header":"The Three R's: A Jain Practice",
+"content":"The principles of Aparigraha and Ahimsä naturally lead to an eco-friendly lifestyle.<ul><li><b>Reduce:</b> Minimize needs and consumption. Buy products with less packaging.</li><li><b>Reuse:</b> Use items multiple times. Give away unwanted clothes and items instead of throwing them away.</li><li><b>Recycle:</b> Collect and re-process materials like paper, glass, and plastic. Support the cycle by purchasing products made from recycled materials.</li></ul>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Jain Environmental Ethics",
+"questions": [
+ {
+"question":"What is the Jain aphorism that forms the basis of the modern science of ecology?",
+"options": [
+"Ahimsä Parmo Dharma",
+"Parasparopagraho Jivänäm",
+"Anekäntaväd",
+"Live and Let Live"
+ ],
+"answer":"Parasparopagraho Jivänäm"
+ },
+ {
+"question":"Which of the three cardinal principles means'non-possessiveness'?",
+"options": [
+"Ahimsä",
+"Anekäntaväd",
+"Aparigraha",
+"Maitri"
+ ],
+"answer":"Aparigraha"
+ },
+ {
+"question":"According to Jainism, which of the following is an act of violence?",
+"options": [
+"Wasting resources",
+"Creating pollution",
+"Using more than one needs",
+"All of the above"
+ ],
+"answer":"All of the above"
+ },
+ {
+"question":"The Jain principle that respects the multiple viewpoints of truth is called:",
+"options": [
+"Ahimsä",
+"Aparigraha",
+"Anekäntaväd",
+"Syädväd"
+ ],
+"answer":"Anekäntaväd"
+ },
+ {
+"question":"Why is the modern dairy industry considered a violation of Ahimsä?",
+"options": [
+"Cows are treated cruelly and are eventually slaughtered.",
+"It uses a significant amount of natural resources.",
+"Calves are separated from their mothers.",
+"All of the above"
+ ],
+"answer":"All of the above"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

@@ -1,148 +1,148 @@
 {
-    "sectionTitle": "C.6: Application of Nonviolence",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "Ahimsä in Daily Life"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Vegetarianism is a cornerstone of Jain ethics. More than 2,500 years ago, Bhagawän Mahävir proclaimed a profound truth: every form of life wants to live and fears death, just as we do. This understanding is the root of non-violence. The philosophy of Ahimsä is not merely refraining from physical violence, but a deep reverence for all life that must be incorporated into our thoughts, words, and actions."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Before using any product, we must ask: Did a living being pay a price in pain for this? A vegetarian or vegan lifestyle becomes the natural outcome of this inner understanding. The more developed a being's senses are, the more pain it can feel, which is why violence against animals with five senses is a greater sin than violence against one-sensed plants."
-          }
-        ]
-      },
-      {
-        "tabName": "Vegetarianism & Veganism",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Understanding the Impact of Our Diet",
-          "description": "A look at the violence inherent in common food products.",
-          "items": [
-            {
-              "header": "The Dairy Industry and Cruelty",
-              "content": "A vegetarian who consumes dairy is a lacto-vegetarian. One who avoids all animal products, including dairy, is a vegan. The modern dairy industry is inherently linked to the meat industry. Female cows that stop producing sufficient milk are sent to be slaughtered, and male calves are often raised for veal. This cruelty is why many Jains advocate for a vegan diet."
-            },
-            {
-              "header": "The Violence Behind Eggs",
-              "content": "Even unfertilized eggs are not cruelty-free. Egg-laying hens are confined to small, crowded 'battery cages' where they cannot stretch their wings, leading to frustration and injury. To prevent fighting, their beaks are painfully cut off. After a year, when their egg production wanes, they are sent to slaughterhouses. Furthermore, male chicks, being of no economic value to the egg industry, are typically killed the day they hatch."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Ecological Impact",
-        "contentType": "table",
-        "tabData": {
-          "headers": ["Impact Area", "Fact"],
-          "rows": [
-            ["Water Consumption", "Producing 1 lb of meat requires about 2,500 gallons of water, compared to 108 gallons for 1 lb of wheat."],
-            ["Land Usage", "64% of US cropland is used to grow livestock feed. One acre can grow 50,000 lbs of tomatoes but only 250 lbs of beef."],
-            ["Deforestation", "Vast areas of forest, including 220 million acres in the USA, have been cleared for livestock production."],
-            ["Fossil Fuels", "It takes 78 calories of fossil fuel to produce 1 calorie of beef protein, versus only 2 calories for 1 calorie of soy protein."]
-          ],
-          "footnote": "These facts highlight the immense environmental cost of a non-vegetarian diet."
-        }
-      },
-      {
-        "tabName": "Prohibited Items",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "Products of Violence",
-            "description": "Jainism prohibits many common products due to the violence involved in their creation.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "Alcoholic Beverages",
-                "back": "Alcohol impairs judgment and leads to passions like anger and lust. The fermentation process kills microorganisms, and animal byproducts (like gelatin or egg whites) are often used as clarifying agents."
-              },
-              {
-                "front": "Honey",
-                "back": "The use of honey invariably involves the destruction of bees. Even if obtained without directly killing bees, it still involves violence, as other living beings are spontaneously born within the honey."
-              },
-              {
-                "front": "Silk",
-                "back": "To obtain unbroken silk threads, silkworm pupas are killed, usually by being boiled or baked alive inside their cocoons. It takes about 1,500 pupas to make just 100 grams of silk yarn."
-              },
-              {
-                "front": "Varakh (Silver Foil)",
-                "back": "Traditionally, Varakh is made by pounding silver between sheets made from the intestines of cattle or oxen, which are obtained from slaughterhouses. This makes it a product of extreme violence."
-              },
-              {
-                "front": "Pearls",
-                "back": "Cultured pearls are made by surgically implanting an irritant inside an oyster. The oysters are harvested, opened, and often bruised or killed in the process of extracting the pearl."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on the Application of Nonviolence",
-          "questions": [
-            {
-              "question": "What is a person who eats a vegetarian diet but does not consume dairy products called?",
-              "options": [
-                "Lacto-vegetarian",
-                "Ovo-vegetarian",
-                "Vegan",
-                "Pescetarian"
-              ],
-              "answer": "Vegan"
-            },
-            {
-              "question": "What happens to most male chicks in the egg-laying industry?",
-              "options": [
-                "They are raised for meat",
-                "They are sold as pets",
-                "They are killed at the hatchery",
-                "They are released into the wild"
-              ],
-              "answer": "They are killed at the hatchery"
-            },
-            {
-              "question": "Which product is made using the intestines of cattle?",
-              "options": [
-                "Silk",
-                "Honey",
-                "Varakh",
-                "Gelatin"
-              ],
-              "answer": "Varakh"
-            },
-            {
-              "question": "Why is the consumption of honey considered an act of violence?",
-              "options": [
-                "It involves the destruction of bees.",
-                "Other living beings are spontaneously born within honey.",
-                "It is an animal byproduct.",
-                "All of the above"
-              ],
-              "answer": "All of the above"
-            },
-            {
-              "question": "The production of which item involves boiling the pupa alive inside its cocoon?",
-              "options": [
-                "Pearls",
-                "Varakh",
-                "Silk",
-                "Honey"
-              ],
-              "answer": "Silk"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"C.6: Application of Nonviolence",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"Ahimsä in Daily Life"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Vegetarianism is a cornerstone of Jain ethics. More than 2,500 years ago, Bhagawän Mahävir proclaimed a profound truth: every form of life wants to live and fears death, just as we do. This understanding is the root of non-violence. The philosophy of Ahimsä is not merely refraining from physical violence, but a deep reverence for all life that must be incorporated into our thoughts, words, and actions."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Before using any product, we must ask: Did a living being pay a price in pain for this? A vegetarian or vegan lifestyle becomes the natural outcome of this inner understanding. The more developed a being's senses are, the more pain it can feel, which is why violence against animals with five senses is a greater sin than violence against one-sensed plants."
+ }
+ ]
+ },
+ {
+"tabName":"Vegetarianism & Veganism",
+"contentType":"accordian",
+"tabData": {
+"title":"Understanding the Impact of Our Diet",
+"description":"A look at the violence inherent in common food products.",
+"items": [
+ {
+"header":"The Dairy Industry and Cruelty",
+"content":"A vegetarian who consumes dairy is a lacto-vegetarian. One who avoids all animal products, including dairy, is a vegan. The modern dairy industry is inherently linked to the meat industry. Female cows that stop producing sufficient milk are sent to be slaughtered, and male calves are often raised for veal. This cruelty is why many Jains advocate for a vegan diet."
+ },
+ {
+"header":"The Violence Behind Eggs",
+"content":"Even unfertilized eggs are not cruelty-free. Egg-laying hens are confined to small, crowded'battery cages' where they cannot stretch their wings, leading to frustration and injury. To prevent fighting, their beaks are painfully cut off. After a year, when their egg production wanes, they are sent to slaughterhouses. Furthermore, male chicks, being of no economic value to the egg industry, are typically killed the day they hatch."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Ecological Impact",
+"contentType":"table",
+"tabData": {
+"headers": ["Impact Area","Fact"],
+"rows": [
+ ["Water Consumption","Producing 1 lb of meat requires about 2,500 gallons of water, compared to 108 gallons for 1 lb of wheat."],
+ ["Land Usage","64% of US cropland is used to grow livestock feed. One acre can grow 50,000 lbs of tomatoes but only 250 lbs of beef."],
+ ["Deforestation","Vast areas of forest, including 220 million acres in the USA, have been cleared for livestock production."],
+ ["Fossil Fuels","It takes 78 calories of fossil fuel to produce 1 calorie of beef protein, versus only 2 calories for 1 calorie of soy protein."]
+ ],
+"footnote":"These facts highlight the immense environmental cost of a non-vegetarian diet."
+ }
+ },
+ {
+"tabName":"Prohibited Items",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"Products of Violence",
+"description":"Jainism prohibits many common products due to the violence involved in their creation.",
+"flippable": true,
+"cards": [
+ {
+"front":"Alcoholic Beverages",
+"back":"Alcohol impairs judgment and leads to passions like anger and lust. The fermentation process kills microorganisms, and animal byproducts (like gelatin or egg whites) are often used as clarifying agents."
+ },
+ {
+"front":"Honey",
+"back":"The use of honey invariably involves the destruction of bees. Even if obtained without directly killing bees, it still involves violence, as other living beings are spontaneously born within the honey."
+ },
+ {
+"front":"Silk",
+"back":"To obtain unbroken silk threads, silkworm pupas are killed, usually by being boiled or baked alive inside their cocoons. It takes about 1,500 pupas to make just 100 grams of silk yarn."
+ },
+ {
+"front":"Varakh (Silver Foil)",
+"back":"Traditionally, Varakh is made by pounding silver between sheets made from the intestines of cattle or oxen, which are obtained from slaughterhouses. This makes it a product of extreme violence."
+ },
+ {
+"front":"Pearls",
+"back":"Cultured pearls are made by surgically implanting an irritant inside an oyster. The oysters are harvested, opened, and often bruised or killed in the process of extracting the pearl."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on the Application of Nonviolence",
+"questions": [
+ {
+"question":"What is a person who eats a vegetarian diet but does not consume dairy products called?",
+"options": [
+"Lacto-vegetarian",
+"Ovo-vegetarian",
+"Vegan",
+"Pescetarian"
+ ],
+"answer":"Vegan"
+ },
+ {
+"question":"What happens to most male chicks in the egg-laying industry?",
+"options": [
+"They are raised for meat",
+"They are sold as pets",
+"They are killed at the hatchery",
+"They are released into the wild"
+ ],
+"answer":"They are killed at the hatchery"
+ },
+ {
+"question":"Which product is made using the intestines of cattle?",
+"options": [
+"Silk",
+"Honey",
+"Varakh",
+"Gelatin"
+ ],
+"answer":"Varakh"
+ },
+ {
+"question":"Why is the consumption of honey considered an act of violence?",
+"options": [
+"It involves the destruction of bees.",
+"Other living beings are spontaneously born within honey.",
+"It is an animal byproduct.",
+"All of the above"
+ ],
+"answer":"All of the above"
+ },
+ {
+"question":"The production of which item involves boiling the pupa alive inside its cocoon?",
+"options": [
+"Pearls",
+"Varakh",
+"Silk",
+"Honey"
+ ],
+"answer":"Silk"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

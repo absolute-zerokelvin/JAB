@@ -1,620 +1,620 @@
 {
-  "sectionTitle": "K.6: Jain Yoga",
-  "tabs": [
-    {
-      "tabName": "Introduction",
-      "contentType": "text",
-      "caption": "An overview of the principles and meaning of Yoga within the Jain tradition.",
-      "tabData": [
-        {
-          "tagType": "h2",
-          "tagHTML": "Unveiling Jain Yoga"
-        },
-        {
-          "tagType": "p",
-          "tagHTML": "Yoga is a systematic effort to balance and direct various levels of one's own energy for <span style='color:#4CAF50;'>self-perfection</span>. It represents the profound union of the human individual with its existence, encompassing not just the physical body but the entire being, including intellectual and emotional processes. It is a science that facilitates communication with one's body, mind, and soul, laying the foundation for <span style='color:#2196F3;'>purity in actions, emotions, and intellect.</span>"
-        },
-        {
-          "tagType": "hr",
-          "tagHTML": ""
-        },
-        {
-          "tagType": "h3",
-          "tagHTML": "The Meaning of Yoga in Jain Tradition"
-        },
-        {
-          "tagType": "p",
-          "tagHTML": "In Jain philosophy, 'Yoga' holds several interconnected meanings:"
-        },
-        {
-          "tagType": "ul",
-          "tagHTML": "<li>Any activity or intention that aids the soul in achieving <span style='color:#FF9800;'>liberation</span>.</li><li>Any activity that purifies the mind by freeing it from attachment and aversion. This view, propounded by <b>Ächärya Haribhadra-suri</b> and <b>Ächärya Amitagati</b>, emphasizes practicing the Three Jewels: Right Faith, Right Knowledge, and Right Conduct.</li><li>The activity of the body, speech, and mind which creates vibration in the soul. As stated by <b>Ächärya Umäsvämi</b>, this activity (yoga) is the channel for the influx of Karma. Auspicious intentions lead to merit (punya), while inauspicious intentions lead to demerit (päp).</li><li>In a simpler sense, Yoga is also used for <b>Dhyän</b>, which means meditation or contemplation.</li>"
-        },
-        {
-          "tagType": "h3",
-          "tagHTML": "Core Goal"
-        },
-        {
-          "tagType": "p",
-          "tagHTML": "The ultimate goal of all paths of Yoga is to arrive at the liberating Truth, Beatitude, and Infinity. It is the realization of the true human potential and the God/Self within. At the final liberating state, all paths merge into a singular experience of the soul's ultimate spiritual quality."
-        }
-      ]
-    },
-    {
-      "tabName": "Four Paths of Yoga",
-      "contentType": "accordian",
-      "caption": "Indian traditions define four primary paths that lead a worldly soul to liberation.",
-      "tabData": {
-        "title": "The Four Primary Paths to Liberation",
-        "items": [
-          {
-            "header": "Bhakti Yoga (Path of Devotion)",
-            "content": "This path focuses on achieving supreme Love and Bliss through devotion, surrender, prayers, and rituals. It's excellent for emotionally-oriented individuals, as it helps develop humility and dissolve the ego."
-          },
-          {
-            "header": "Jnän Yoga (Path of Knowledge)",
-            "content": "Aimed at intellectually-oriented people, this path uses study, thinking, direct inquiry, and contemplation. It seeks to discriminate between what is real (true reality) and what is unreal (mithyätva). Both Jainism and Buddhism primarily use this path."
-          },
-          {
-            "header": "Karma Yoga (Path of Action)",
-            "content": "This is the yoga of selfless service (social work, environmental protection, education, etc.) for the benefit of all living beings. It is for action-oriented people and is practiced without expecting any results, which helps to dissolve the ego."
-          },
-          {
-            "header": "Ashtanga Yoga (Path of Self Control and Meditation)",
-            "content": "This is the science of physical and mental control, aiming for the liberation and perfection of the body and mind. Instituted by Sage Patanjali and sanctioned by Jain Ächäryas like Haribhadra-suri, it consists of eight distinct steps or 'limbs'."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Ashtanga Yoga",
-      "contentType": "mindmap",
-      "caption": "A hierarchical view of the eight-fold path of Self Control and Meditation.",
-      "tabData": {
-        "title": "The Eight Limbs of Ashtanga Yoga",
-        "description": "Ashtanga Yoga is a structured path consisting of eight limbs, progressing from social ethics to the highest state of consciousness.",
-        "nodes": [
-          {
-            "id": "root",
-            "text": "Ashtanga Yoga",
-            "description": "The Eight-Limbed Path of Self Control and Meditation.",
-            "parent": null
-          },
-          {
-            "id": "yama",
-            "text": "1. Yama",
-            "description": "Social restraints and ethical guidelines for interacting with the outer world.",
-            "parent": "root"
-          },
-          {
-            "id": "niyam",
-            "text": "2. Niyam",
-            "description": "Individual observances and disciplines for inner development.",
-            "parent": "root"
-          },
-          {
-            "id": "asan",
-            "text": "3. Äsan",
-            "description": "Physical postures to keep the body healthy and stable for meditation.",
-            "parent": "root"
-          },
-          {
-            "id": "pranayam",
-            "text": "4. Pränäyam",
-            "description": "Rhythmic breathing techniques to control vital energy (Prän).",
-            "parent": "root"
-          },
-          {
-            "id": "pratyahar",
-            "text": "5. Pratyähär",
-            "description": "Detachment and withdrawal of the mind from the senses.",
-            "parent": "root"
-          },
-          {
-            "id": "dharana",
-            "text": "6. Dhäranä",
-            "description": "Complete concentration of the mind on a single object or idea.",
-            "parent": "root"
-          },
-          {
-            "id": "dhyan",
-            "text": "7. Dhyän",
-            "description": "Meditation; an unbroken flow of thought towards the object of concentration.",
-            "parent": "root"
-          },
-          {
-            "id": "samadhi",
-            "text": "8. Samädhi",
-            "description": "Super-conscious state; total absorption where the self unites with the object of meditation.",
-            "parent": "root"
-          },
-          {
-            "id": "ahimsa",
-            "text": "Ahimsä",
-            "description": "Non-violence in thought, speech, and action.",
-            "parent": "yama"
-          },
-          {
-            "id": "satya",
-            "text": "Satya",
-            "description": "Truthfulness in mind, speech, and action.",
-            "parent": "yama"
-          },
-          {
-            "id": "asteya",
-            "text": "Asteya",
-            "description": "Non-stealing; overcoming greed and envy.",
-            "parent": "yama"
-          },
-          {
-            "id": "brahmacharya",
-            "text": "Brahmacharya",
-            "description": "Celibacy; avoiding all sensual pleasures.",
-            "parent": "yama"
-          },
-          {
-            "id": "aparigraha",
-            "text": "Aparigraha",
-            "description": "Non-possessiveness; detachment from material objects.",
-            "parent": "yama"
-          },
-          {
-            "id": "shaucha",
-            "text": "Shaucha",
-            "description": "Purity, both external (body) and internal (mind, speech).",
-            "parent": "niyam"
-          },
-          {
-            "id": "santosh",
-            "text": "Santosh",
-            "description": "Contentment; maintaining equanimity and gratitude.",
-            "parent": "niyam"
-          },
-          {
-            "id": "tap",
-            "text": "Tap",
-            "description": "Austerity, both mental and physical.",
-            "parent": "niyam"
-          },
-          {
-            "id": "swadhyay",
-            "text": "Swädhyäy",
-            "description": "Study of the self through scriptural studies and introspection.",
-            "parent": "niyam"
-          },
-          {
-            "id": "ishvar",
-            "text": "Ishvar Pranidhän",
-            "description": "Meditation on or dedication of actions to the Divine.",
-            "parent": "niyam"
-          },
-          {
-            "id": "nonvirtuous",
-            "text": "Non-Virtuous Meditation",
-            "description": "Inauspicious meditation arising from intense passions.",
-            "parent": "dhyan"
-          },
-          {
-            "id": "virtuous",
-            "text": "Virtuous Meditation",
-            "description": "Auspicious meditation arising from detachment and search for truth.",
-            "parent": "dhyan"
-          },
-          {
-            "id": "arta",
-            "text": "Ärta Dhyän",
-            "description": "Painful or sorrowful meditation.",
-            "parent": "nonvirtuous"
-          },
-          {
-            "id": "raudra",
-            "text": "Raudra Dhyän",
-            "description": "Wrathful or enraged meditation.",
-            "parent": "nonvirtuous"
-          },
-          {
-            "id": "dharma",
-            "text": "Dharma Dhyän",
-            "description": "Righteous or auspicious meditation.",
-            "parent": "virtuous"
-          },
-          {
-            "id": "shukla",
-            "text": "Shukla Dhyän",
-            "description": "Spiritual or pure meditation, leading to salvation.",
-            "parent": "virtuous"
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Yoga in Rituals",
-      "contentType": "accordian",
-      "caption": "In Jainism, rituals are performed using two primary forms of Yoga.",
-      "tabData": {
-        "title": "The Forms of Yoga in Jain Rituals",
-        "items": [
-          {
-            "header": "Kriyä Yoga (Yoga of Actions)",
-            "content": "This involves the physical aspects of a ritual. It is comprised of two parts: <b>Äsan Yoga</b>, which is adopting the proper physical posture to nurture and strengthen thoughts, and <b>Varna Yoga</b>, which is the proper pronunciation of scriptural phrases (Sutras) to fortify feelings. Together, they are also known as Käya Yoga (Yoga of the body)."
-          },
-          {
-            "header": "Jnän Yoga (Yoga of Knowledge)",
-            "content": "This involves the internal reflection during a ritual. It is also called Mana Yoga (Yoga of the mind) and has three progressive forms: <b>Artha Yoga</b> (understanding the meaning of the phrases), <b>Älamban Yoga</b> (generating feelings based on the meaning), and <b>Nirälamban Yoga</b> (pure meditation where external awareness merges with consciousness)."
-          }
-        ]
-      }
-    },
-    {
-      "tabName": "Key Terms",
-      "contentType": "flashCards",
-      "caption": "Master the essential terminology of Jain Yoga.",
-      "tabData": [
-        {
-          "title": "Ashtanga Yoga: Yamas & Niyams",
-          "description": "The first two limbs of Ashtanga Yoga.",
-          "frontColor": "#81D4FA",
-          "backColor": "#4FC3F7",
-          "cards": [
-            {
-              "front": "Yama",
-              "back": "The five social restraints or ethical disciplines in Ashtanga Yoga."
-            },
-            {
-              "front": "Ahimsä",
-              "back": "Non-violence in thought, speech, and action. A core principle of Yama."
-            },
-            {
-              "front": "Satya",
-              "back": "Truthfulness; being in harmony with mind, speech, and action according to truth."
-            },
-            {
-              "front": "Asteya",
-              "back": "Non-stealing; a restraint against greed and envy."
-            },
-            {
-              "front": "Brahmacharya",
-              "back": "Celibacy; avoiding all sensual pleasures to bring one closer to the soul."
-            },
-            {
-              "front": "Aparigraha",
-              "back": "Non-possessiveness; not accumulating worldly objects driven by greed."
-            },
-            {
-              "front": "Niyam",
-              "back": "The five individual observances or disciplines for self-control."
-            },
-            {
-              "front": "Shaucha",
-              "back": "Purity, both external (body) and internal (mind, intellect, speech)."
-            },
-            {
-              "front": "Santosh",
-              "back": "Contentment; maintaining equanimity regardless of external causes."
-            },
-            {
-              "front": "Tap",
-              "back": "Austerity; the power to withstand physical discomforts and practice meditation."
-            },
-            {
-              "front": "Swädhyäy",
-              "back": "Study of the self, consisting of scriptural studies and introspection."
-            },
-            {
-              "front": "Ishvar Pranidhän",
-              "back": "Dedication of all actions to the Divine without expectation of reward."
-            }
-          ]
-        },
-        {
-          "title": "Ashtanga Yoga: Higher Limbs & Meditation",
-          "description": "The remaining limbs and types of meditation.",
-          "frontColor": "#A5D6A7",
-          "backColor": "#81C784",
-          "cards": [
-            {
-              "front": "Äsan",
-              "back": "Physical postures that create a sustained and comfortable sitting position for meditation."
-            },
-            {
-              "front": "Pränäyam",
-              "back": "Rhythmic breathing techniques to control and harness vital energy (Prän)."
-            },
-            {
-              "front": "Pratyähär",
-              "back": "Detachment of the mind; withdrawing the senses from external objects."
-            },
-            {
-              "front": "Dhäranä",
-              "back": "Complete absorption of the mind on a single task or object; concentration."
-            },
-            {
-              "front": "Dhyän",
-              "back": "Meditation; an unbroken flow of thought towards an object."
-            },
-            {
-              "front": "Samädhi",
-              "back": "Total absorption or super-conscious state; the pinnacle of yogic endeavors."
-            },
-            {
-              "front": "Ärta Dhyän",
-              "back": "A type of non-virtuous meditation; described as painful or sorrowful meditation."
-            },
-            {
-              "front": "Raudra Dhyän",
-              "back": "A type of non-virtuous meditation; described as wrathful or enraged meditation."
-            },
-            {
-              "front": "Dharma Dhyän",
-              "back": "A type of virtuous meditation; described as righteous or auspicious meditation."
-            },
-            {
-              "front": "Shukla Dhyän",
-              "back": "The highest form of virtuous meditation; described as spiritual or pure meditation, leading to Nirväna."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "tabName": "Quiz",
-      "contentType": "quiz",
-      "caption": "Test your knowledge on Jain Yoga for the Academic Bowl!",
-      "tabData": {
-        "title": "Jain Yoga: JAB Challenge",
-        "questions": [
-          {
-            "question": "According to Ächärya Umäsvämi, what is the definition of yoga in the context of karma influx?",
-            "options": [
-              "A state of deep meditation",
-              "The activity of the body, speech, and mind",
-              "The practice of the Three Jewels",
-              "The path of selfless service"
-            ],
-            "answer": "The activity of the body, speech, and mind"
-          },
-          {
-            "question": "Which path of yoga is best suited for emotionally oriented people and focuses on devotion and surrender?",
-            "options": [
-              "Jnän Yoga",
-              "Karma Yoga",
-              "Bhakti Yoga",
-              "Ashtanga Yoga"
-            ],
-            "answer": "Bhakti Yoga"
-          },
-          {
-            "question": "In the eight limbs of Ashtanga Yoga, what is the Sanskrit term for non-stealing?",
-            "options": [
-              "Satya",
-              "Ahimsä",
-              "Aparigraha",
-              "Asteya"
-            ],
-            "answer": "Asteya"
-          },
-          {
-            "question": "Which of the five Niyams refers to the 'study of the self' through introspection and scripture?",
-            "options": [
-              "Shaucha",
-              "Tap",
-              "Swädhyäy",
-              "Santosh"
-            ],
-            "answer": "Swädhyäy"
-          },
-          {
-            "question": "Which Jain Ächärya, who wrote texts like 'Yoga-Bindu', sanctioned Patanjali's Ashtanga Yoga as a valid spiritual practice?",
-            "options": [
-              "Ächärya Umäsvämi",
-              "Ächärya Haribhadra-suri",
-              "Ächärya Amitagati",
-              "Ächärya Kundakunda"
-            ],
-            "answer": "Ächärya Haribhadra-suri"
-          },
-          {
-            "question": "What is the 6th limb of Ashtanga Yoga, which means 'complete absorption of the mind on a single task'?",
-            "options": [
-              "Pratyähär",
-              "Dhyän",
-              "Dhäranä",
-              "Samädhi"
-            ],
-            "answer": "Dhäranä"
-          },
-          {
-            "question": "Meditation that arises from intense passion, hatred, and aversion is classified as what type of Dhyän?",
-            "options": [
-              "Shukla Dhyän",
-              "Dharma Dhyän",
-              "Virtuous Meditation",
-              "Non-virtuous Meditation"
-            ],
-            "answer": "Non-virtuous Meditation"
-          },
-          {
-            "question": "Which of these is an example of Raudra Dhyän?",
-            "options": [
-              "Righteous meditation",
-              "Sorrowful meditation",
-              "Wrathful or enraged meditation",
-              "Pure spiritual meditation"
-            ],
-            "answer": "Wrathful or enraged meditation"
-          },
-          {
-            "question": "What is the final state of Ashtanga Yoga, described as a 'super conscious state' of total absorption?",
-            "options": [
-              "Dhäranä",
-              "Dhyän",
-              "Pratyähär",
-              "Samädhi"
-            ],
-            "answer": "Samädhi"
-          },
-          {
-            "question": "The ideal diet for a yoga practitioner, known as a Sättvik diet, is based on which fundamental Jain principle?",
-            "options": [
-              "Aparigraha",
-              "Ahimsä",
-              "Satya",
-              "Asteya"
-            ],
-            "answer": "Ahimsä"
-          },
-          {
-            "question": "In the context of Jain rituals, what does 'Varna Yoga' refer to?",
-            "options": [
-              "Adopting the correct physical posture",
-              "Understanding the meaning of sutras",
-              "The proper pronunciation of sutras",
-              "Pure meditation without external reliance"
-            ],
-            "answer": "The proper pronunciation of sutras"
-          },
-          {
-            "question": "Which form of Jnän Yoga in rituals involves generating thoughts and feelings based on the meaning of the phrases being recited?",
-            "options": [
-              "Artha Yoga",
-              "Nirälamban Yoga",
-              "Älamban Yoga",
-              "Käya Yoga"
-            ],
-            "answer": "Älamban Yoga"
-          },
-          {
-            "question": "What is the Sanskrit term for the Niyam (observance) of contentment?",
-            "options": [
-              "Tap",
-              "Shaucha",
-              "Swädhyäy",
-              "Santosh"
-            ],
-            "answer": "Santosh"
-          },
-          {
-            "question": "The fifth limb of Ashtanga Yoga, Pratyähär, is best described as what?",
-            "options": [
-              "Rhythmic breathing",
-              "Physical exercise",
-              "Detachment of the mind from the senses",
-              "Unbroken flow of thought"
-            ],
-            "answer": "Detachment of the mind from the senses"
-          },
-          {
-            "question": "Which type of Dhyän ultimately ends in the salvation or Nirväna of the soul?",
-            "options": [
-              "Ärta Dhyän",
-              "Raudra Dhyän",
-              "Dharma Dhyän",
-              "Shukla Dhyän"
-            ],
-            "answer": "Shukla Dhyän"
-          },
-          {
-            "question": "Which path of yoga is characterized by selfless service and is excellent for action-oriented people?",
-            "options": [
-              "Bhakti Yoga",
-              "Karma Yoga",
-              "Jnän Yoga",
-              "Ashtanga Yoga"
-            ],
-            "answer": "Karma Yoga"
-          },
-          {
-            "question": "The practice of 'Brahmacharya' is a Yama that denotes avoiding what?",
-            "options": [
-              "Untruthfulness",
-              "Violence",
-              "All sensual pleasures",
-              "Material possessions"
-            ],
-            "answer": "All sensual pleasures"
-          },
-          {
-            "question": "What is the term for the two types of Yoga practiced in Jain rituals, which mean 'Yoga of Action' and 'Yoga of Knowledge' respectively?",
-            "options": [
-              "Äsan Yoga and Varna Yoga",
-              "Mana Yoga and Käya Yoga",
-              "Kriyä Yoga and Jnän Yoga",
-              "Bhakti Yoga and Karma Yoga"
-            ],
-            "answer": "Kriyä Yoga and Jnän Yoga"
-          },
-          {
-            "question": "Ächärya Amitagati co-propounded the view that Yoga is the practice of the Three Jewels in which text?",
-            "options": [
-              "Yoga Vimshikä",
-              "Yogasära-Präbhrut",
-              "Yoga-Bindu",
-              "Tattvärtha Sutra"
-            ],
-            "answer": "Yogasära-Präbhrut"
-          },
-          {
-            "question": "What is the most advanced form of Jnän Yoga in rituals, where consciousness no longer has any external reliance?",
-            "options": [
-              "Artha Yoga",
-              "Älamban Yoga",
-              "Varna Yoga",
-              "Nirälamban Yoga"
-            ],
-            "answer": "Nirälamban Yoga"
-          },
-          {
-            "question": "Which of the following is NOT one of the five Yamas (restraints)?",
-            "options": [
-              "Ahimsä",
-              "Satya",
-              "Tap",
-              "Asteya"
-            ],
-            "answer": "Tap"
-          },
-          {
-            "question": "According to the text, what is the primary purpose of practicing Äsan (physical postures)?",
-            "options": [
-              "To achieve physical beauty",
-              "To attain a sustained and comfortable posture for meditation",
-              "To increase social status",
-              "To replace the need for sleep"
-            ],
-            "answer": "To attain a sustained and comfortable posture for meditation"
-          },
-          {
-            "question": "The practice of Pränäyam, or rhythmic breathing, is said to help harness what?",
-            "options": [
-              "Karmic matter",
-              "Intellectual capacity",
-              "Prän or vital energy",
-              "Emotional expression"
-            ],
-            "answer": "Prän or vital energy"
-          },
-          {
-            "question": "Which type of Dhyän is also known as 'sorrowful meditation'?",
-            "options": [
-              "Raudra Dhyän",
-              "Ärta Dhyän",
-              "Dharma Dhyän",
-              "Shukla Dhyän"
-            ],
-            "answer": "Ärta Dhyän"
-          },
-          {
-            "question": "Käya Yoga is another name for the combination of which two yogic practices in rituals?",
-            "options": [
-              "Artha Yoga and Älamban Yoga",
-              "Äsan Yoga and Varna Yoga",
-              "Dharma Dhyän and Shukla Dhyän",
-              "Yama and Niyam"
-            ],
-            "answer": "Äsan Yoga and Varna Yoga"
-          }
-        ]
-      }
-    }
-  ]
+"sectionTitle":"K.6: Jain Yoga",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"caption":"An overview of the principles and meaning of Yoga within the Jain tradition.",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"Unveiling Jain Yoga"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Yoga is a systematic effort to balance and direct various levels of one's own energy for <span style='color:#4CAF50;'>self-perfection</span>. It represents the profound union of the human individual with its existence, encompassing not just the physical body but the entire being, including intellectual and emotional processes. It is a science that facilitates communication with one's body, mind, and soul, laying the foundation for <span style='color:#2196F3;'>purity in actions, emotions, and intellect.</span>"
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Meaning of Yoga in Jain Tradition"
+ },
+ {
+"tagType":"p",
+"tagHTML":"In Jain philosophy,'Yoga' holds several interconnected meanings:"
+ },
+ {
+"tagType":"ul",
+"tagHTML":"<li>Any activity or intention that aids the soul in achieving <span style='color:#FF9800;'>liberation</span>.</li><li>Any activity that purifies the mind by freeing it from attachment and aversion. This view, propounded by <b>Ächärya Haribhadra-suri</b> and <b>Ächärya Amitagati</b>, emphasizes practicing the Three Jewels: Right Faith, Right Knowledge, and Right Conduct.</li><li>The activity of the body, speech, and mind which creates vibration in the soul. As stated by <b>Ächärya Umäsvämi</b>, this activity (yoga) is the channel for the influx of Karma. Auspicious intentions lead to merit (punya), while inauspicious intentions lead to demerit (päp).</li><li>In a simpler sense, Yoga is also used for <b>Dhyän</b>, which means meditation or contemplation.</li>"
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Core Goal"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The ultimate goal of all paths of Yoga is to arrive at the liberating Truth, Beatitude, and Infinity. It is the realization of the true human potential and the God/Self within. At the final liberating state, all paths merge into a singular experience of the soul's ultimate spiritual quality."
+ }
+ ]
+ },
+ {
+"tabName":"Four Paths of Yoga",
+"contentType":"accordian",
+"caption":"Indian traditions define four primary paths that lead a worldly soul to liberation.",
+"tabData": {
+"title":"The Four Primary Paths to Liberation",
+"items": [
+ {
+"header":"Bhakti Yoga (Path of Devotion)",
+"content":"This path focuses on achieving supreme Love and Bliss through devotion, surrender, prayers, and rituals. It's excellent for emotionally-oriented individuals, as it helps develop humility and dissolve the ego."
+ },
+ {
+"header":"Jnän Yoga (Path of Knowledge)",
+"content":"Aimed at intellectually-oriented people, this path uses study, thinking, direct inquiry, and contemplation. It seeks to discriminate between what is real (true reality) and what is unreal (mithyätva). Both Jainism and Buddhism primarily use this path."
+ },
+ {
+"header":"Karma Yoga (Path of Action)",
+"content":"This is the yoga of selfless service (social work, environmental protection, education, etc.) for the benefit of all living beings. It is for action-oriented people and is practiced without expecting any results, which helps to dissolve the ego."
+ },
+ {
+"header":"Ashtanga Yoga (Path of Self Control and Meditation)",
+"content":"This is the science of physical and mental control, aiming for the liberation and perfection of the body and mind. Instituted by Sage Patanjali and sanctioned by Jain Ächäryas like Haribhadra-suri, it consists of eight distinct steps or'limbs'."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Ashtanga Yoga",
+"contentType":"mindmap",
+"caption":"A hierarchical view of the eight-fold path of Self Control and Meditation.",
+"tabData": {
+"title":"The Eight Limbs of Ashtanga Yoga",
+"description":"Ashtanga Yoga is a structured path consisting of eight limbs, progressing from social ethics to the highest state of consciousness.",
+"nodes": [
+ {
+"id":"root",
+"text":"Ashtanga Yoga",
+"description":"The Eight-Limbed Path of Self Control and Meditation.",
+"parent": null
+ },
+ {
+"id":"yama",
+"text":"1. Yama",
+"description":"Social restraints and ethical guidelines for interacting with the outer world.",
+"parent":"root"
+ },
+ {
+"id":"niyam",
+"text":"2. Niyam",
+"description":"Individual observances and disciplines for inner development.",
+"parent":"root"
+ },
+ {
+"id":"asan",
+"text":"3. Äsan",
+"description":"Physical postures to keep the body healthy and stable for meditation.",
+"parent":"root"
+ },
+ {
+"id":"pranayam",
+"text":"4. Pränäyam",
+"description":"Rhythmic breathing techniques to control vital energy (Prän).",
+"parent":"root"
+ },
+ {
+"id":"pratyahar",
+"text":"5. Pratyähär",
+"description":"Detachment and withdrawal of the mind from the senses.",
+"parent":"root"
+ },
+ {
+"id":"dharana",
+"text":"6. Dhäranä",
+"description":"Complete concentration of the mind on a single object or idea.",
+"parent":"root"
+ },
+ {
+"id":"dhyan",
+"text":"7. Dhyän",
+"description":"Meditation; an unbroken flow of thought towards the object of concentration.",
+"parent":"root"
+ },
+ {
+"id":"samadhi",
+"text":"8. Samädhi",
+"description":"Super-conscious state; total absorption where the self unites with the object of meditation.",
+"parent":"root"
+ },
+ {
+"id":"ahimsa",
+"text":"Ahimsä",
+"description":"Non-violence in thought, speech, and action.",
+"parent":"yama"
+ },
+ {
+"id":"satya",
+"text":"Satya",
+"description":"Truthfulness in mind, speech, and action.",
+"parent":"yama"
+ },
+ {
+"id":"asteya",
+"text":"Asteya",
+"description":"Non-stealing; overcoming greed and envy.",
+"parent":"yama"
+ },
+ {
+"id":"brahmacharya",
+"text":"Brahmacharya",
+"description":"Celibacy; avoiding all sensual pleasures.",
+"parent":"yama"
+ },
+ {
+"id":"aparigraha",
+"text":"Aparigraha",
+"description":"Non-possessiveness; detachment from material objects.",
+"parent":"yama"
+ },
+ {
+"id":"shaucha",
+"text":"Shaucha",
+"description":"Purity, both external (body) and internal (mind, speech).",
+"parent":"niyam"
+ },
+ {
+"id":"santosh",
+"text":"Santosh",
+"description":"Contentment; maintaining equanimity and gratitude.",
+"parent":"niyam"
+ },
+ {
+"id":"tap",
+"text":"Tap",
+"description":"Austerity, both mental and physical.",
+"parent":"niyam"
+ },
+ {
+"id":"swadhyay",
+"text":"Swädhyäy",
+"description":"Study of the self through scriptural studies and introspection.",
+"parent":"niyam"
+ },
+ {
+"id":"ishvar",
+"text":"Ishvar Pranidhän",
+"description":"Meditation on or dedication of actions to the Divine.",
+"parent":"niyam"
+ },
+ {
+"id":"nonvirtuous",
+"text":"Non-Virtuous Meditation",
+"description":"Inauspicious meditation arising from intense passions.",
+"parent":"dhyan"
+ },
+ {
+"id":"virtuous",
+"text":"Virtuous Meditation",
+"description":"Auspicious meditation arising from detachment and search for truth.",
+"parent":"dhyan"
+ },
+ {
+"id":"arta",
+"text":"Ärta Dhyän",
+"description":"Painful or sorrowful meditation.",
+"parent":"nonvirtuous"
+ },
+ {
+"id":"raudra",
+"text":"Raudra Dhyän",
+"description":"Wrathful or enraged meditation.",
+"parent":"nonvirtuous"
+ },
+ {
+"id":"dharma",
+"text":"Dharma Dhyän",
+"description":"Righteous or auspicious meditation.",
+"parent":"virtuous"
+ },
+ {
+"id":"shukla",
+"text":"Shukla Dhyän",
+"description":"Spiritual or pure meditation, leading to salvation.",
+"parent":"virtuous"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Yoga in Rituals",
+"contentType":"accordian",
+"caption":"In Jainism, rituals are performed using two primary forms of Yoga.",
+"tabData": {
+"title":"The Forms of Yoga in Jain Rituals",
+"items": [
+ {
+"header":"Kriyä Yoga (Yoga of Actions)",
+"content":"This involves the physical aspects of a ritual. It is comprised of two parts: <b>Äsan Yoga</b>, which is adopting the proper physical posture to nurture and strengthen thoughts, and <b>Varna Yoga</b>, which is the proper pronunciation of scriptural phrases (Sutras) to fortify feelings. Together, they are also known as Käya Yoga (Yoga of the body)."
+ },
+ {
+"header":"Jnän Yoga (Yoga of Knowledge)",
+"content":"This involves the internal reflection during a ritual. It is also called Mana Yoga (Yoga of the mind) and has three progressive forms: <b>Artha Yoga</b> (understanding the meaning of the phrases), <b>Älamban Yoga</b> (generating feelings based on the meaning), and <b>Nirälamban Yoga</b> (pure meditation where external awareness merges with consciousness)."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Key Terms",
+"contentType":"flashCards",
+"caption":"Master the essential terminology of Jain Yoga.",
+"tabData": [
+ {
+"title":"Ashtanga Yoga: Yamas & Niyams",
+"description":"The first two limbs of Ashtanga Yoga.",
+"frontColor":"#81D4FA",
+"backColor":"#4FC3F7",
+"cards": [
+ {
+"front":"Yama",
+"back":"The five social restraints or ethical disciplines in Ashtanga Yoga."
+ },
+ {
+"front":"Ahimsä",
+"back":"Non-violence in thought, speech, and action. A core principle of Yama."
+ },
+ {
+"front":"Satya",
+"back":"Truthfulness; being in harmony with mind, speech, and action according to truth."
+ },
+ {
+"front":"Asteya",
+"back":"Non-stealing; a restraint against greed and envy."
+ },
+ {
+"front":"Brahmacharya",
+"back":"Celibacy; avoiding all sensual pleasures to bring one closer to the soul."
+ },
+ {
+"front":"Aparigraha",
+"back":"Non-possessiveness; not accumulating worldly objects driven by greed."
+ },
+ {
+"front":"Niyam",
+"back":"The five individual observances or disciplines for self-control."
+ },
+ {
+"front":"Shaucha",
+"back":"Purity, both external (body) and internal (mind, intellect, speech)."
+ },
+ {
+"front":"Santosh",
+"back":"Contentment; maintaining equanimity regardless of external causes."
+ },
+ {
+"front":"Tap",
+"back":"Austerity; the power to withstand physical discomforts and practice meditation."
+ },
+ {
+"front":"Swädhyäy",
+"back":"Study of the self, consisting of scriptural studies and introspection."
+ },
+ {
+"front":"Ishvar Pranidhän",
+"back":"Dedication of all actions to the Divine without expectation of reward."
+ }
+ ]
+ },
+ {
+"title":"Ashtanga Yoga: Higher Limbs & Meditation",
+"description":"The remaining limbs and types of meditation.",
+"frontColor":"#A5D6A7",
+"backColor":"#81C784",
+"cards": [
+ {
+"front":"Äsan",
+"back":"Physical postures that create a sustained and comfortable sitting position for meditation."
+ },
+ {
+"front":"Pränäyam",
+"back":"Rhythmic breathing techniques to control and harness vital energy (Prän)."
+ },
+ {
+"front":"Pratyähär",
+"back":"Detachment of the mind; withdrawing the senses from external objects."
+ },
+ {
+"front":"Dhäranä",
+"back":"Complete absorption of the mind on a single task or object; concentration."
+ },
+ {
+"front":"Dhyän",
+"back":"Meditation; an unbroken flow of thought towards an object."
+ },
+ {
+"front":"Samädhi",
+"back":"Total absorption or super-conscious state; the pinnacle of yogic endeavors."
+ },
+ {
+"front":"Ärta Dhyän",
+"back":"A type of non-virtuous meditation; described as painful or sorrowful meditation."
+ },
+ {
+"front":"Raudra Dhyän",
+"back":"A type of non-virtuous meditation; described as wrathful or enraged meditation."
+ },
+ {
+"front":"Dharma Dhyän",
+"back":"A type of virtuous meditation; described as righteous or auspicious meditation."
+ },
+ {
+"front":"Shukla Dhyän",
+"back":"The highest form of virtuous meditation; described as spiritual or pure meditation, leading to Nirväna."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"caption":"Test your knowledge on Jain Yoga for the Academic Bowl!",
+"tabData": {
+"title":"Jain Yoga: JAB Challenge",
+"questions": [
+ {
+"question":"According to Ächärya Umäsvämi, what is the definition of yoga in the context of karma influx?",
+"options": [
+"A state of deep meditation",
+"The activity of the body, speech, and mind",
+"The practice of the Three Jewels",
+"The path of selfless service"
+ ],
+"answer":"The activity of the body, speech, and mind"
+ },
+ {
+"question":"Which path of yoga is best suited for emotionally oriented people and focuses on devotion and surrender?",
+"options": [
+"Jnän Yoga",
+"Karma Yoga",
+"Bhakti Yoga",
+"Ashtanga Yoga"
+ ],
+"answer":"Bhakti Yoga"
+ },
+ {
+"question":"In the eight limbs of Ashtanga Yoga, what is the Sanskrit term for non-stealing?",
+"options": [
+"Satya",
+"Ahimsä",
+"Aparigraha",
+"Asteya"
+ ],
+"answer":"Asteya"
+ },
+ {
+"question":"Which of the five Niyams refers to the'study of the self' through introspection and scripture?",
+"options": [
+"Shaucha",
+"Tap",
+"Swädhyäy",
+"Santosh"
+ ],
+"answer":"Swädhyäy"
+ },
+ {
+"question":"Which Jain Ächärya, who wrote texts like'Yoga-Bindu', sanctioned Patanjali's Ashtanga Yoga as a valid spiritual practice?",
+"options": [
+"Ächärya Umäsvämi",
+"Ächärya Haribhadra-suri",
+"Ächärya Amitagati",
+"Ächärya Kundakunda"
+ ],
+"answer":"Ächärya Haribhadra-suri"
+ },
+ {
+"question":"What is the 6th limb of Ashtanga Yoga, which means'complete absorption of the mind on a single task'?",
+"options": [
+"Pratyähär",
+"Dhyän",
+"Dhäranä",
+"Samädhi"
+ ],
+"answer":"Dhäranä"
+ },
+ {
+"question":"Meditation that arises from intense passion, hatred, and aversion is classified as what type of Dhyän?",
+"options": [
+"Shukla Dhyän",
+"Dharma Dhyän",
+"Virtuous Meditation",
+"Non-virtuous Meditation"
+ ],
+"answer":"Non-virtuous Meditation"
+ },
+ {
+"question":"Which of these is an example of Raudra Dhyän?",
+"options": [
+"Righteous meditation",
+"Sorrowful meditation",
+"Wrathful or enraged meditation",
+"Pure spiritual meditation"
+ ],
+"answer":"Wrathful or enraged meditation"
+ },
+ {
+"question":"What is the final state of Ashtanga Yoga, described as a'super conscious state' of total absorption?",
+"options": [
+"Dhäranä",
+"Dhyän",
+"Pratyähär",
+"Samädhi"
+ ],
+"answer":"Samädhi"
+ },
+ {
+"question":"The ideal diet for a yoga practitioner, known as a Sättvik diet, is based on which fundamental Jain principle?",
+"options": [
+"Aparigraha",
+"Ahimsä",
+"Satya",
+"Asteya"
+ ],
+"answer":"Ahimsä"
+ },
+ {
+"question":"In the context of Jain rituals, what does'Varna Yoga' refer to?",
+"options": [
+"Adopting the correct physical posture",
+"Understanding the meaning of sutras",
+"The proper pronunciation of sutras",
+"Pure meditation without external reliance"
+ ],
+"answer":"The proper pronunciation of sutras"
+ },
+ {
+"question":"Which form of Jnän Yoga in rituals involves generating thoughts and feelings based on the meaning of the phrases being recited?",
+"options": [
+"Artha Yoga",
+"Nirälamban Yoga",
+"Älamban Yoga",
+"Käya Yoga"
+ ],
+"answer":"Älamban Yoga"
+ },
+ {
+"question":"What is the Sanskrit term for the Niyam (observance) of contentment?",
+"options": [
+"Tap",
+"Shaucha",
+"Swädhyäy",
+"Santosh"
+ ],
+"answer":"Santosh"
+ },
+ {
+"question":"The fifth limb of Ashtanga Yoga, Pratyähär, is best described as what?",
+"options": [
+"Rhythmic breathing",
+"Physical exercise",
+"Detachment of the mind from the senses",
+"Unbroken flow of thought"
+ ],
+"answer":"Detachment of the mind from the senses"
+ },
+ {
+"question":"Which type of Dhyän ultimately ends in the salvation or Nirväna of the soul?",
+"options": [
+"Ärta Dhyän",
+"Raudra Dhyän",
+"Dharma Dhyän",
+"Shukla Dhyän"
+ ],
+"answer":"Shukla Dhyän"
+ },
+ {
+"question":"Which path of yoga is characterized by selfless service and is excellent for action-oriented people?",
+"options": [
+"Bhakti Yoga",
+"Karma Yoga",
+"Jnän Yoga",
+"Ashtanga Yoga"
+ ],
+"answer":"Karma Yoga"
+ },
+ {
+"question":"The practice of'Brahmacharya' is a Yama that denotes avoiding what?",
+"options": [
+"Untruthfulness",
+"Violence",
+"All sensual pleasures",
+"Material possessions"
+ ],
+"answer":"All sensual pleasures"
+ },
+ {
+"question":"What is the term for the two types of Yoga practiced in Jain rituals, which mean'Yoga of Action' and'Yoga of Knowledge' respectively?",
+"options": [
+"Äsan Yoga and Varna Yoga",
+"Mana Yoga and Käya Yoga",
+"Kriyä Yoga and Jnän Yoga",
+"Bhakti Yoga and Karma Yoga"
+ ],
+"answer":"Kriyä Yoga and Jnän Yoga"
+ },
+ {
+"question":"Ächärya Amitagati co-propounded the view that Yoga is the practice of the Three Jewels in which text?",
+"options": [
+"Yoga Vimshikä",
+"Yogasära-Präbhrut",
+"Yoga-Bindu",
+"Tattvärtha Sutra"
+ ],
+"answer":"Yogasära-Präbhrut"
+ },
+ {
+"question":"What is the most advanced form of Jnän Yoga in rituals, where consciousness no longer has any external reliance?",
+"options": [
+"Artha Yoga",
+"Älamban Yoga",
+"Varna Yoga",
+"Nirälamban Yoga"
+ ],
+"answer":"Nirälamban Yoga"
+ },
+ {
+"question":"Which of the following is NOT one of the five Yamas (restraints)?",
+"options": [
+"Ahimsä",
+"Satya",
+"Tap",
+"Asteya"
+ ],
+"answer":"Tap"
+ },
+ {
+"question":"According to the text, what is the primary purpose of practicing Äsan (physical postures)?",
+"options": [
+"To achieve physical beauty",
+"To attain a sustained and comfortable posture for meditation",
+"To increase social status",
+"To replace the need for sleep"
+ ],
+"answer":"To attain a sustained and comfortable posture for meditation"
+ },
+ {
+"question":"The practice of Pränäyam, or rhythmic breathing, is said to help harness what?",
+"options": [
+"Karmic matter",
+"Intellectual capacity",
+"Prän or vital energy",
+"Emotional expression"
+ ],
+"answer":"Prän or vital energy"
+ },
+ {
+"question":"Which type of Dhyän is also known as'sorrowful meditation'?",
+"options": [
+"Raudra Dhyän",
+"Ärta Dhyän",
+"Dharma Dhyän",
+"Shukla Dhyän"
+ ],
+"answer":"Ärta Dhyän"
+ },
+ {
+"question":"Käya Yoga is another name for the combination of which two yogic practices in rituals?",
+"options": [
+"Artha Yoga and Älamban Yoga",
+"Äsan Yoga and Varna Yoga",
+"Dharma Dhyän and Shukla Dhyän",
+"Yama and Niyam"
+ ],
+"answer":"Äsan Yoga and Varna Yoga"
+ }
+ ]
+ }
+ }
+ ]
 }

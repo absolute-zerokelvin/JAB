@@ -1,173 +1,173 @@
 {
-    "sectionTitle": "C.3: Bhävanä (Reflections)",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "Bhävanä: The Art of Contemplation"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "Jainism places great emphasis on the thought process, as actions are a reflection of our thoughts. To achieve equanimity and self-control, Jainism recommends meditating on twelve specific reflections known as <b>Bhävanä</b> or <b>Anuprekshä</b>. These reflections on the fundamental facts of life help us see the world as it truly is, free from delusion. Practicing Bhävanäs can stop the influx of new karma and help shed old karma."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "There are twelve main Bhävanäs and four auxiliary Bhävanäs that support the five main vows."
-          }
-        ]
-      },
-      {
-        "tabName": "The 12 Main Bhävanäs",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "The Twelve Main Reflections",
-            "description": "Contemplating these twelve facts of life helps in achieving detachment and spiritual progress.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "1. Anitya Bhävanä",
-                "back": "<b>Impermanence:</b> Reflecting that all external things, including our body, are temporary and perishable. Only the soul is eternal."
-              },
-              {
-                "front": "2. Asharan Bhävanä",
-                "back": "<b>Helplessness:</b> Realizing that worldly things like wealth and family cannot protect us from disease, old age, and death. True refuge is only in the Dharma."
-              },
-              {
-                "front": "3. Samsär Bhävanä",
-                "back": "<b>Cycle of Birth and Death:</b> Contemplating the endless cycle of birth and death, filled with pain and misery, to inspire a desire for liberation."
-              },
-              {
-                "front": "4. Ekatva Bhävanä",
-                "back": "<b>Solitariness:</b> Reflecting that the soul comes into the world alone, leaves alone, and bears the fruit of its own karma alone."
-              },
-              {
-                "front": "5. Anyatva Bhävanä",
-                "back": "<b>Otherness of the Body:</b> Realizing that the soul is separate from the physical body, which is mortal and impure."
-              },
-              {
-                "front": "6. Ashuchi Bhävanä",
-                "back": "<b>Impurity of the Body:</b> Reflecting on the impure nature of the body to lessen our attachment to it and its pleasures."
-              },
-              {
-                "front": "7. Äsrav Bhävanä",
-                "back": "<b>Influx of Karma:</b> Thinking about the ways karmic matter flows into the soul through passions and unrestrained actions."
-              },
-              {
-                "front": "8. Samvar Bhävanä",
-                "back": "<b>Stoppage of Karma:</b> Contemplating on the ways to block the influx of new karma, such as self-control and discipline."
-              },
-              {
-                "front": "9. Nirjarä Bhävanä",
-                "back": "<b>Eradication of Karma:</b> Reflecting on the twelve types of austerities (Tap) that help shed accumulated karma."
-              },
-              {
-                "front": "10. Lok-svabhäv Bhävanä",
-                "back": "<b>Nature of the Cosmos:</b> Contemplating the vastness of the universe and its six substances to dissolve pride and ego."
-              },
-              {
-                "front": "11. Bodhidurlabh Bhävanä",
-                "back": "<b>Rarity of Enlightenment:</b> Reflecting on how difficult it is to attain a human birth and the teachings of the Jina, inspiring us to make the most of this opportunity."
-              },
-              {
-                "front": "12. Dharma Bhävanä",
-                "back": "<b>Rarity of True Religion:</b> Contemplating the difficulty of finding a true preceptor (Guru) and understanding the true nature of Dharma."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "The 4 Auxiliary Bhävanäs",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "The Four Compassionate Reflections",
-            "description": "These four reflections help develop purity of thought and sincerity in daily life.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "1. Maitri Bhävanä",
-                "back": "<b>Contemplation of Friendship:</b> Cultivating a feeling of friendship and goodwill towards all living beings."
-              },
-              {
-                "front": "2. Pramod Bhävanä",
-                "back": "<b>Contemplation of Appreciation:</b> Admiring the good qualities and success of others, thereby destroying jealousy."
-              },
-              {
-                "front": "3. Karunä Bhävanä",
-                "back": "<b>Contemplation of Compassion:</b> Feeling sympathy and kindness for those who are suffering, weak, or in distress, and helping them."
-              },
-              {
-                "front": "4. Mädhyastha Bhävanä",
-                "back": "<b>Contemplation of Neutrality:</b> Remaining neutral and uninvolved with those who refuse to follow the right path, avoiding anger and frustration."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Bhävanäs",
-          "questions": [
-            {
-              "question": "Reflecting on the temporary nature of the body and all worldly things is which Bhävanä?",
-              "options": [
-                "Ekatva Bhävanä",
-                "Samsär Bhävanä",
-                "Anitya Bhävanä",
-                "Anyatva Bhävanä"
-              ],
-              "answer": "Anitya Bhävanä"
-            },
-            {
-              "question": "Which Bhävanä helps overcome jealousy by admiring the good qualities in others?",
-              "options": [
-                "Maitri Bhävanä",
-                "Pramod Bhävanä",
-                "Karunä Bhävanä",
-                "Mädhyastha Bhävanä"
-              ],
-              "answer": "Pramod Bhävanä"
-            },
-            {
-              "question": "Contemplating the ways to block the influx of new karma is known as:",
-              "options": [
-                "Äsrav Bhävanä",
-                "Samvar Bhävanä",
-                "Nirjarä Bhävanä",
-                "Dharma Bhävanä"
-              ],
-              "answer": "Samvar Bhävanä"
-            },
-            {
-              "question": "Which of the four auxiliary Bhävanäs involves feeling sympathy for those in distress?",
-              "options": [
-                "Maitri Bhävanä",
-                "Pramod Bhävanä",
-                "Karunä Bhävanä",
-                "Mädhyastha Bhävanä"
-              ],
-              "answer": "Karunä Bhävanä"
-            },
-            {
-              "question": "Realizing that the soul is separate from the physical body is the focus of which reflection?",
-              "options": [
-                "Ashuchi Bhävanä",
-                "Anyatva Bhävanä",
-                "Ekatva Bhävanä",
-                "Asharan Bhävanä"
-              ],
-              "answer": "Anyatva Bhävanä"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"C.3: Bhävanä (Reflections)",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"Bhävanä: The Art of Contemplation"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jainism places great emphasis on the thought process, as actions are a reflection of our thoughts. To achieve equanimity and self-control, Jainism recommends meditating on twelve specific reflections known as <b>Bhävanä</b> or <b>Anuprekshä</b>. These reflections on the fundamental facts of life help us see the world as it truly is, free from delusion. Practicing Bhävanäs can stop the influx of new karma and help shed old karma."
+ },
+ {
+"tagType":"p",
+"tagHTML":"There are twelve main Bhävanäs and four auxiliary Bhävanäs that support the five main vows."
+ }
+ ]
+ },
+ {
+"tabName":"The 12 Main Bhävanäs",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"The Twelve Main Reflections",
+"description":"Contemplating these twelve facts of life helps in achieving detachment and spiritual progress.",
+"flippable": true,
+"cards": [
+ {
+"front":"1. Anitya Bhävanä",
+"back":"<b>Impermanence:</b> Reflecting that all external things, including our body, are temporary and perishable. Only the soul is eternal."
+ },
+ {
+"front":"2. Asharan Bhävanä",
+"back":"<b>Helplessness:</b> Realizing that worldly things like wealth and family cannot protect us from disease, old age, and death. True refuge is only in the Dharma."
+ },
+ {
+"front":"3. Samsär Bhävanä",
+"back":"<b>Cycle of Birth and Death:</b> Contemplating the endless cycle of birth and death, filled with pain and misery, to inspire a desire for liberation."
+ },
+ {
+"front":"4. Ekatva Bhävanä",
+"back":"<b>Solitariness:</b> Reflecting that the soul comes into the world alone, leaves alone, and bears the fruit of its own karma alone."
+ },
+ {
+"front":"5. Anyatva Bhävanä",
+"back":"<b>Otherness of the Body:</b> Realizing that the soul is separate from the physical body, which is mortal and impure."
+ },
+ {
+"front":"6. Ashuchi Bhävanä",
+"back":"<b>Impurity of the Body:</b> Reflecting on the impure nature of the body to lessen our attachment to it and its pleasures."
+ },
+ {
+"front":"7. Äsrav Bhävanä",
+"back":"<b>Influx of Karma:</b> Thinking about the ways karmic matter flows into the soul through passions and unrestrained actions."
+ },
+ {
+"front":"8. Samvar Bhävanä",
+"back":"<b>Stoppage of Karma:</b> Contemplating on the ways to block the influx of new karma, such as self-control and discipline."
+ },
+ {
+"front":"9. Nirjarä Bhävanä",
+"back":"<b>Eradication of Karma:</b> Reflecting on the twelve types of austerities (Tap) that help shed accumulated karma."
+ },
+ {
+"front":"10. Lok-svabhäv Bhävanä",
+"back":"<b>Nature of the Cosmos:</b> Contemplating the vastness of the universe and its six substances to dissolve pride and ego."
+ },
+ {
+"front":"11. Bodhidurlabh Bhävanä",
+"back":"<b>Rarity of Enlightenment:</b> Reflecting on how difficult it is to attain a human birth and the teachings of the Jina, inspiring us to make the most of this opportunity."
+ },
+ {
+"front":"12. Dharma Bhävanä",
+"back":"<b>Rarity of True Religion:</b> Contemplating the difficulty of finding a true preceptor (Guru) and understanding the true nature of Dharma."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"The 4 Auxiliary Bhävanäs",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"The Four Compassionate Reflections",
+"description":"These four reflections help develop purity of thought and sincerity in daily life.",
+"flippable": true,
+"cards": [
+ {
+"front":"1. Maitri Bhävanä",
+"back":"<b>Contemplation of Friendship:</b> Cultivating a feeling of friendship and goodwill towards all living beings."
+ },
+ {
+"front":"2. Pramod Bhävanä",
+"back":"<b>Contemplation of Appreciation:</b> Admiring the good qualities and success of others, thereby destroying jealousy."
+ },
+ {
+"front":"3. Karunä Bhävanä",
+"back":"<b>Contemplation of Compassion:</b> Feeling sympathy and kindness for those who are suffering, weak, or in distress, and helping them."
+ },
+ {
+"front":"4. Mädhyastha Bhävanä",
+"back":"<b>Contemplation of Neutrality:</b> Remaining neutral and uninvolved with those who refuse to follow the right path, avoiding anger and frustration."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Bhävanäs",
+"questions": [
+ {
+"question":"Reflecting on the temporary nature of the body and all worldly things is which Bhävanä?",
+"options": [
+"Ekatva Bhävanä",
+"Samsär Bhävanä",
+"Anitya Bhävanä",
+"Anyatva Bhävanä"
+ ],
+"answer":"Anitya Bhävanä"
+ },
+ {
+"question":"Which Bhävanä helps overcome jealousy by admiring the good qualities in others?",
+"options": [
+"Maitri Bhävanä",
+"Pramod Bhävanä",
+"Karunä Bhävanä",
+"Mädhyastha Bhävanä"
+ ],
+"answer":"Pramod Bhävanä"
+ },
+ {
+"question":"Contemplating the ways to block the influx of new karma is known as:",
+"options": [
+"Äsrav Bhävanä",
+"Samvar Bhävanä",
+"Nirjarä Bhävanä",
+"Dharma Bhävanä"
+ ],
+"answer":"Samvar Bhävanä"
+ },
+ {
+"question":"Which of the four auxiliary Bhävanäs involves feeling sympathy for those in distress?",
+"options": [
+"Maitri Bhävanä",
+"Pramod Bhävanä",
+"Karunä Bhävanä",
+"Mädhyastha Bhävanä"
+ ],
+"answer":"Karunä Bhävanä"
+ },
+ {
+"question":"Realizing that the soul is separate from the physical body is the focus of which reflection?",
+"options": [
+"Ashuchi Bhävanä",
+"Anyatva Bhävanä",
+"Ekatva Bhävanä",
+"Asharan Bhävanä"
+ ],
+"answer":"Anyatva Bhävanä"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

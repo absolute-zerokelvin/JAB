@@ -1,275 +1,275 @@
 {
-  "title": "King Shrenik’s Destiny",
-  "subtitle": "H.12 from SECTION H: STORIES DURING BHAGAWÄN MAHÄVIR’S LIFE",
-  "storyContent": [
-    {
-      "tagType": "p",
-      "tagHTML": "Once, in response to <span class=\"highlight\">King Shrenik’s</span> question about his next birth, <span class=\"highlight\">Bhagawän Mahävir</span> stated that he will go to hell. On further inquiry about why, Bhagawän Mahävir pointed out the following incident, due to which King Shrenik had acquired that type of <span class=\"highlight\">Äyushya karma</span>."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Once, the king had gone hunting. He spotted a fleeing deer. The king spurred his horse and pursued it. Ultimately, he located it taking rest under a tree. He wielded his arrow with all his might. The arrow pierced the body of the deer, thereby killing the deer, as well as the unborn child in its body. The arrow emerged out of the animal and then pierced a tree trunk and came out its other side, too. Instead of regretting this violence, the king felt proud and elated at his abilities. His arrogance around this violent deed led to him acquiring the karma of leading an infernal life."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "The king remembered this incident and felt very sorry for what had happened. Anxious to wipe out that karma, he asked Bhagawän Mahävir what he could do about the matter. Bhagawän Mahävir pointed out that his karma was indelible and bound to become operative. Such intense Karma cannot be erased without bearing the fruits. The law of karma is supreme, and no one has authority over its operation."
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Four Alternatives"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "King Shrenik could not reconcile his fate. He repeatedly asked Bhagawän Mahävir for a way to avert going to hell. Bhagawän Mahävir said that some methods existed, but that the king would be unable to successfully execute any of them due to the indelible nature of his karma. Upon the king’s insistence, Bhagawän Mahävir suggested four alternatives:"
-    },
-    {
-      "tagType": "ul",
-      "tagHTML": "<li>There was a highly religious householder, known as <span class=\"highlight\">Puniä Shrävak</span>, in Räjgrihi. Bhagawän Mahävir suggested that the king obtain the merit of one <span class=\"highlight\">Sämäyik</span> from him. The king approached the man, but Puniä explained that merits and demerits are non-transferable. The king was disappointed.</li><li>The king had a servant named <span class=\"highlight\">Kapila</span> who never gave alms. Bhagawän Mahävir suggested the king make her give alms. The king tied a scoop to her hand, but as she gave alms, she murmured that the king’s scoop was giving the alms, not her, thus failing the task.</li><li>The king had a butcher named <span class=\"highlight\">Kälsaurik</span>. Bhagawän Mahävir suggested the king make the butcher not slaughter for one day. The king had Kälsaurik put in a dry well, but the butcher, so conditioned to kill, made animals from wet clay and pretended to kill them. This plan also failed.</li><li>Bhagawän Mahävir then asked the king to observe the restraint of one <span class=\"highlight\">Navakärashi</span> (not eating or drinking until 48 minutes after sunrise). The next morning, the king went to his garden, saw ripe berries, and by merely thinking of eating them, broke the restraint.</li>"
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "Binding of Karma",
-      "period": "During a hunt",
-      "events": [
-        {
-          "title": "The Violent Act",
-          "description": "King Shrenik, while hunting, kills a deer and its unborn child with a single powerful arrow.",
-          "characters": ["King Shrenik"]
-        },
-        {
-          "title": "The Feeling of Pride",
-          "description": "Instead of feeling remorse, the king feels proud and elated at his skill, which binds a strong, negative Äyushya karma.",
-          "characters": ["King Shrenik"]
-        }
-      ]
-    },
-    {
-      "era": "The Revelation",
-      "period": "During a sermon",
-      "events": [
-        {
-          "title": "A Question of Destiny",
-          "description": "King Shrenik asks Bhagawän Mahävir about his fate in the next life.",
-          "characters": ["King Shrenik", "Bhagawän Mahävir"]
-        },
-        {
-          "title": "An Unsettling Truth",
-          "description": "Bhagawän Mahävir reveals that the king is destined for hell due to the karma acquired during the hunt.",
-          "characters": ["King Shrenik", "Bhagawän Mahävir"]
-        }
-      ]
-    },
-    {
-      "era": "The Four Impossible Tasks",
-      "period": "After the revelation",
-      "events": [
-        {
-          "title": "Attempt 1: Acquiring Merit",
-          "description": "The king fails to obtain the merit of a Sämäyik from Puniä Shrävak, as merit is non-transferable.",
-          "characters": ["King Shrenik", "Puniä Shrävak"]
-        },
-        {
-          "title": "Attempt 2: Forcing Charity",
-          "description": "He fails to make his servant Kapila give alms with true intent.",
-          "characters": ["King Shrenik", "Kapila"]
-        },
-        {
-          "title": "Attempt 3: Preventing Violence",
-          "description": "He fails to stop the butcher Kälsaurik from the act of killing, even when imprisoned.",
-          "characters": ["King Shrenik", "Kälsaurik"]
-        },
-        {
-          "title": "Attempt 4: Personal Restraint",
-          "description": "The king fails to observe a simple fast (Navakärashi) as he breaks it by merely thinking of eating.",
-          "characters": ["King Shrenik"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "King Shrenik",
-      "description": "The ruler of Magadh, a devotee of Bhagawän Mahävir, who bound an infernal lifespan (Äyushya karma) due to a moment of pride in a violent act."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar, who possessed omniscience and explained the supreme and indelible law of karma to King Shrenik."
-    },
-    {
-      "name": "Puniä Shrävak",
-      "description": "A highly religious and content householder in Räjgrihi who could not transfer the merits of his spiritual practices (Sämäyik) to the king."
-    },
-    {
-      "name": "Kapila",
-      "description": "A servant of the king who was so averse to giving alms that even when forced, she mentally disassociated from the act."
-    },
-    {
-      "name": "Kälsaurik",
-      "description": "The king's butcher, so conditioned to violence that he could not spend a single day without the act of killing, even resorting to killing clay models."
-    }
-  ],
-  "quizData": [
-    {
-      "question": "What did Bhagawän Mahävir tell King Shrenik about his next birth?",
-      "answer": "He told him that he would be born in hell."
-    },
-    {
-      "question": "What specific action caused King Shrenik to acquire his negative Äyushya karma?",
-      "answer": "He felt proud and elated after killing a deer and its unborn child, instead of feeling regret."
-    },
-    {
-      "question": "What was the first alternative suggested to King Shrenik to change his fate?",
-      "answer": "To obtain the merit of one Sämäyik from the pious householder, Puniä Shrävak."
-    },
-    {
-      "question": "Why did the attempt with Puniä Shrävak fail?",
-      "answer": "Because merits and demerits are non-transferable."
-    },
-    {
-      "question": "Who was Kapila, and why did the plan involving her fail?",
-      "answer": "She was the king's servant. The plan failed because she did not give alms with the right intention, stating it was the king's scoop giving, not her."
-    },
-    {
-      "question": "What did the butcher Kälsaurik do when put in a dry well to prevent him from killing?",
-      "answer": "He made animals from wet clay and pretended to kill them."
-    },
-    {
-      "question": "What is Navakärashi?",
-      "answer": "A restraint where one does not eat or drink anything until 48 minutes after sunrise."
-    },
-    {
-      "question": "How did King Shrenik fail the Navakärashi restraint?",
-      "answer": "He broke the restraint by merely thinking about eating some ripe berries he saw in his garden."
-    },
-    {
-      "question": "What is the main moral of this story?",
-      "answer": "That intensely bound karma, like Äyushya karma, is indelible and cannot be changed or erased without bearing its fruits."
-    }
-  ],
-  "mindmapV1Data": {
-    "name": "King Shrenik's Destiny",
-    "children": [
-      {
-        "name": "The Cause",
-        "children": [
-          { "name": "Hunting a Deer" },
-          { "name": "Act of Violence" },
-          { "name": "Pride in the Act" },
-          { "name": "Acquires Äyushya Karma for Hell" }
-        ]
-      },
-      {
-        "name": "The Revelation",
-        "children": [
-          { "name": "Asks Bhagawän Mahävir" },
-          { "name": "Learns his Fate" },
-          { "name": "Understands Karma is Indelible" }
-        ]
-      },
-      {
-        "name": "The Four Failed Alternatives",
-        "children": [
-          {
-            "name": "Puniä Shrävak's Sämäyik",
-            "children": [
-              { "name": "Merit is Non-Transferable" }
-            ]
-          },
-          {
-            "name": "Kapila Giving Alms",
-            "children": [
-              { "name": "Lack of True Intent" }
-            ]
-          },
-          {
-            "name": "Kälsaurik's Abstinence",
-            "children": [
-              { "name": "Kills Clay Animals" }
-            ]
-          },
-          {
-            "name": "Observing Navakärashi",
-            "children": [
-              { "name": "Breaks Vow with a Thought" }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "The Moral",
-        "children": [
-          { "name": "The Law of Karma is Supreme" },
-          { "name": "Intensely Bound Karma Cannot Be Erased" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "The Indelible Nature of Karma",
-    "children": [
-      {
-        "name": "Binding Karma",
-        "children": [
-          { "name": "Action (The Hunt)" },
-          { "name": "Intention (Pride)" },
-          { "name": "Result (Infernal Lifespan)" }
-        ]
-      },
-      {
-        "name": "The Inevitable Consequence",
-        "children": [
-          { "name": "Omniscient Revelation" },
-          { "name": "Understanding the Law" }
-        ]
-      },
-      {
-        "name": "Futility of Aversion",
-        "children": [
-          { "name": "Attempted Merit Transfer" },
-          { "name": "Attempted Forced Virtue" },
-          { "name": "Attempted Abstinence" },
-          { "name": "Failure Due to Karma's Grip" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "Pride in the Hunt",
-      "description": "King Shrenik, feeling proud of his archery skills, shoots an arrow that kills a deer and its unborn child. This act of violence, coupled with his arrogance, seals his negative karma.",
-      "imageSrc": "https://placehold.co/600x400/8c2d04/fdecdf?text=King+Shrenik's+Deadly+Arrow",
-      "imageAlt": "An illustration of King Shrenik with a bow, looking proudly at a fallen deer."
-    },
-    {
-      "title": "A Terrible Destiny Revealed",
-      "description": "In response to his question, Bhagawän Mahävir informs a shocked King Shrenik that his next life will be in hell due to the Äyushya karma he bound.",
-      "imageSrc": "https://placehold.co/600x400/1e3a8a/e0e7ff?text=The+Revelation",
-      "imageAlt": "King Shrenik looking shocked while listening to the serene Bhagawän Mahävir."
-    },
-    {
-      "title": "The Non-Transferable Merit",
-      "description": "The king's first attempt to avert his fate fails. The pious householder Puniä Shrävak explains that spiritual merit from his Sämäyik cannot be bought or transferred.",
-      "imageSrc": "https://placehold.co/600x400/065f46/d1fae5?text=Merit+Cannot+Be+Bought",
-      "imageAlt": "King Shrenik offering gold to the humble Puniä Shrävak, who is gently refusing."
-    },
-    {
-      "title": "An Unstoppable Habit",
-      "description": "The plan to stop the butcher Kälsaurik fails when, imprisoned in a well, he makes clay animals and 'kills' them to satisfy his deep-seated conditioning.",
-      "imageSrc": "https://placehold.co/600x400/78350f/fef3c7?text=The+Butcher+in+the+Well",
-      "imageAlt": "The butcher Kälsaurik at the bottom of a well, shaping wet clay into an animal figure."
-    },
-    {
-      "title": "A Vow Broken by a Thought",
-      "description": "In the final attempt, King Shrenik tries to observe a simple fast (Navakärashi) but fails when he sees ripe berries and the mere thought of eating them breaks his vow.",
-      "imageSrc": "https://placehold.co/600x400/7f1d1d/fef2f2?text=The+King's+Broken+Vow",
-      "imageAlt": "King Shrenik in his garden looking longingly at a bush with ripe berries."
-    },
-    {
-      "title": "The Indelible Law of Karma",
-      "description": "The story illustrates that intensely bound karma is supreme and its consequences are inescapable, no matter how powerful or repentant one is.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+Law+of+Karma+is+Supreme",
-      "imageAlt": "An abstract image representing the unchangeable path of karma."
-    }
-  ]
+"title":"King Shrenik’s Destiny",
+"subtitle":"H.12 from SECTION H: STORIES DURING BHAGAWÄN MAHÄVIR’S LIFE",
+"storyContent": [
+ {
+"tagType":"p",
+"tagHTML":"Once, in response to <span class=\"highlight\">King Shrenik’s</span> question about his next birth, <span class=\"highlight\">Bhagawän Mahävir</span> stated that he will go to hell. On further inquiry about why, Bhagawän Mahävir pointed out the following incident, due to which King Shrenik had acquired that type of <span class=\"highlight\">Äyushya karma</span>."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Once, the king had gone hunting. He spotted a fleeing deer. The king spurred his horse and pursued it. Ultimately, he located it taking rest under a tree. He wielded his arrow with all his might. The arrow pierced the body of the deer, thereby killing the deer, as well as the unborn child in its body. The arrow emerged out of the animal and then pierced a tree trunk and came out its other side, too. Instead of regretting this violence, the king felt proud and elated at his abilities. His arrogance around this violent deed led to him acquiring the karma of leading an infernal life."
+ },
+ {
+"tagType":"p",
+"tagHTML":"The king remembered this incident and felt very sorry for what had happened. Anxious to wipe out that karma, he asked Bhagawän Mahävir what he could do about the matter. Bhagawän Mahävir pointed out that his karma was indelible and bound to become operative. Such intense Karma cannot be erased without bearing the fruits. The law of karma is supreme, and no one has authority over its operation."
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Four Alternatives"
+ },
+ {
+"tagType":"p",
+"tagHTML":"King Shrenik could not reconcile his fate. He repeatedly asked Bhagawän Mahävir for a way to avert going to hell. Bhagawän Mahävir said that some methods existed, but that the king would be unable to successfully execute any of them due to the indelible nature of his karma. Upon the king’s insistence, Bhagawän Mahävir suggested four alternatives:"
+ },
+ {
+"tagType":"ul",
+"tagHTML":"<li>There was a highly religious householder, known as <span class=\"highlight\">Puniä Shrävak</span>, in Räjgrihi. Bhagawän Mahävir suggested that the king obtain the merit of one <span class=\"highlight\">Sämäyik</span> from him. The king approached the man, but Puniä explained that merits and demerits are non-transferable. The king was disappointed.</li><li>The king had a servant named <span class=\"highlight\">Kapila</span> who never gave alms. Bhagawän Mahävir suggested the king make her give alms. The king tied a scoop to her hand, but as she gave alms, she murmured that the king’s scoop was giving the alms, not her, thus failing the task.</li><li>The king had a butcher named <span class=\"highlight\">Kälsaurik</span>. Bhagawän Mahävir suggested the king make the butcher not slaughter for one day. The king had Kälsaurik put in a dry well, but the butcher, so conditioned to kill, made animals from wet clay and pretended to kill them. This plan also failed.</li><li>Bhagawän Mahävir then asked the king to observe the restraint of one <span class=\"highlight\">Navakärashi</span> (not eating or drinking until 48 minutes after sunrise). The next morning, the king went to his garden, saw ripe berries, and by merely thinking of eating them, broke the restraint.</li>"
+ }
+ ],
+"timelineData": [
+ {
+"era":"Binding of Karma",
+"period":"During a hunt",
+"events": [
+ {
+"title":"The Violent Act",
+"description":"King Shrenik, while hunting, kills a deer and its unborn child with a single powerful arrow.",
+"characters": ["King Shrenik"]
+ },
+ {
+"title":"The Feeling of Pride",
+"description":"Instead of feeling remorse, the king feels proud and elated at his skill, which binds a strong, negative Äyushya karma.",
+"characters": ["King Shrenik"]
+ }
+ ]
+ },
+ {
+"era":"The Revelation",
+"period":"During a sermon",
+"events": [
+ {
+"title":"A Question of Destiny",
+"description":"King Shrenik asks Bhagawän Mahävir about his fate in the next life.",
+"characters": ["King Shrenik","Bhagawän Mahävir"]
+ },
+ {
+"title":"An Unsettling Truth",
+"description":"Bhagawän Mahävir reveals that the king is destined for hell due to the karma acquired during the hunt.",
+"characters": ["King Shrenik","Bhagawän Mahävir"]
+ }
+ ]
+ },
+ {
+"era":"The Four Impossible Tasks",
+"period":"After the revelation",
+"events": [
+ {
+"title":"Attempt 1: Acquiring Merit",
+"description":"The king fails to obtain the merit of a Sämäyik from Puniä Shrävak, as merit is non-transferable.",
+"characters": ["King Shrenik","Puniä Shrävak"]
+ },
+ {
+"title":"Attempt 2: Forcing Charity",
+"description":"He fails to make his servant Kapila give alms with true intent.",
+"characters": ["King Shrenik","Kapila"]
+ },
+ {
+"title":"Attempt 3: Preventing Violence",
+"description":"He fails to stop the butcher Kälsaurik from the act of killing, even when imprisoned.",
+"characters": ["King Shrenik","Kälsaurik"]
+ },
+ {
+"title":"Attempt 4: Personal Restraint",
+"description":"The king fails to observe a simple fast (Navakärashi) as he breaks it by merely thinking of eating.",
+"characters": ["King Shrenik"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"King Shrenik",
+"description":"The ruler of Magadh, a devotee of Bhagawän Mahävir, who bound an infernal lifespan (Äyushya karma) due to a moment of pride in a violent act."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar, who possessed omniscience and explained the supreme and indelible law of karma to King Shrenik."
+ },
+ {
+"name":"Puniä Shrävak",
+"description":"A highly religious and content householder in Räjgrihi who could not transfer the merits of his spiritual practices (Sämäyik) to the king."
+ },
+ {
+"name":"Kapila",
+"description":"A servant of the king who was so averse to giving alms that even when forced, she mentally disassociated from the act."
+ },
+ {
+"name":"Kälsaurik",
+"description":"The king's butcher, so conditioned to violence that he could not spend a single day without the act of killing, even resorting to killing clay models."
+ }
+ ],
+"quizData": [
+ {
+"question":"What did Bhagawän Mahävir tell King Shrenik about his next birth?",
+"answer":"He told him that he would be born in hell."
+ },
+ {
+"question":"What specific action caused King Shrenik to acquire his negative Äyushya karma?",
+"answer":"He felt proud and elated after killing a deer and its unborn child, instead of feeling regret."
+ },
+ {
+"question":"What was the first alternative suggested to King Shrenik to change his fate?",
+"answer":"To obtain the merit of one Sämäyik from the pious householder, Puniä Shrävak."
+ },
+ {
+"question":"Why did the attempt with Puniä Shrävak fail?",
+"answer":"Because merits and demerits are non-transferable."
+ },
+ {
+"question":"Who was Kapila, and why did the plan involving her fail?",
+"answer":"She was the king's servant. The plan failed because she did not give alms with the right intention, stating it was the king's scoop giving, not her."
+ },
+ {
+"question":"What did the butcher Kälsaurik do when put in a dry well to prevent him from killing?",
+"answer":"He made animals from wet clay and pretended to kill them."
+ },
+ {
+"question":"What is Navakärashi?",
+"answer":"A restraint where one does not eat or drink anything until 48 minutes after sunrise."
+ },
+ {
+"question":"How did King Shrenik fail the Navakärashi restraint?",
+"answer":"He broke the restraint by merely thinking about eating some ripe berries he saw in his garden."
+ },
+ {
+"question":"What is the main moral of this story?",
+"answer":"That intensely bound karma, like Äyushya karma, is indelible and cannot be changed or erased without bearing its fruits."
+ }
+ ],
+"mindmapV1Data": {
+"name":"King Shrenik's Destiny",
+"children": [
+ {
+"name":"The Cause",
+"children": [
+ {"name":"Hunting a Deer" },
+ {"name":"Act of Violence" },
+ {"name":"Pride in the Act" },
+ {"name":"Acquires Äyushya Karma for Hell" }
+ ]
+ },
+ {
+"name":"The Revelation",
+"children": [
+ {"name":"Asks Bhagawän Mahävir" },
+ {"name":"Learns his Fate" },
+ {"name":"Understands Karma is Indelible" }
+ ]
+ },
+ {
+"name":"The Four Failed Alternatives",
+"children": [
+ {
+"name":"Puniä Shrävak's Sämäyik",
+"children": [
+ {"name":"Merit is Non-Transferable" }
+ ]
+ },
+ {
+"name":"Kapila Giving Alms",
+"children": [
+ {"name":"Lack of True Intent" }
+ ]
+ },
+ {
+"name":"Kälsaurik's Abstinence",
+"children": [
+ {"name":"Kills Clay Animals" }
+ ]
+ },
+ {
+"name":"Observing Navakärashi",
+"children": [
+ {"name":"Breaks Vow with a Thought" }
+ ]
+ }
+ ]
+ },
+ {
+"name":"The Moral",
+"children": [
+ {"name":"The Law of Karma is Supreme" },
+ {"name":"Intensely Bound Karma Cannot Be Erased" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"The Indelible Nature of Karma",
+"children": [
+ {
+"name":"Binding Karma",
+"children": [
+ {"name":"Action (The Hunt)" },
+ {"name":"Intention (Pride)" },
+ {"name":"Result (Infernal Lifespan)" }
+ ]
+ },
+ {
+"name":"The Inevitable Consequence",
+"children": [
+ {"name":"Omniscient Revelation" },
+ {"name":"Understanding the Law" }
+ ]
+ },
+ {
+"name":"Futility of Aversion",
+"children": [
+ {"name":"Attempted Merit Transfer" },
+ {"name":"Attempted Forced Virtue" },
+ {"name":"Attempted Abstinence" },
+ {"name":"Failure Due to Karma's Grip" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"Pride in the Hunt",
+"description":"King Shrenik, feeling proud of his archery skills, shoots an arrow that kills a deer and its unborn child. This act of violence, coupled with his arrogance, seals his negative karma.",
+"imageSrc":"https://placehold.co/600x400/8c2d04/fdecdf?text=King+Shrenik's+Deadly+Arrow",
+"imageAlt":"An illustration of King Shrenik with a bow, looking proudly at a fallen deer."
+ },
+ {
+"title":"A Terrible Destiny Revealed",
+"description":"In response to his question, Bhagawän Mahävir informs a shocked King Shrenik that his next life will be in hell due to the Äyushya karma he bound.",
+"imageSrc":"https://placehold.co/600x400/1e3a8a/e0e7ff?text=The+Revelation",
+"imageAlt":"King Shrenik looking shocked while listening to the serene Bhagawän Mahävir."
+ },
+ {
+"title":"The Non-Transferable Merit",
+"description":"The king's first attempt to avert his fate fails. The pious householder Puniä Shrävak explains that spiritual merit from his Sämäyik cannot be bought or transferred.",
+"imageSrc":"https://placehold.co/600x400/065f46/d1fae5?text=Merit+Cannot+Be+Bought",
+"imageAlt":"King Shrenik offering gold to the humble Puniä Shrävak, who is gently refusing."
+ },
+ {
+"title":"An Unstoppable Habit",
+"description":"The plan to stop the butcher Kälsaurik fails when, imprisoned in a well, he makes clay animals and'kills' them to satisfy his deep-seated conditioning.",
+"imageSrc":"https://placehold.co/600x400/78350f/fef3c7?text=The+Butcher+in+the+Well",
+"imageAlt":"The butcher Kälsaurik at the bottom of a well, shaping wet clay into an animal figure."
+ },
+ {
+"title":"A Vow Broken by a Thought",
+"description":"In the final attempt, King Shrenik tries to observe a simple fast (Navakärashi) but fails when he sees ripe berries and the mere thought of eating them breaks his vow.",
+"imageSrc":"https://placehold.co/600x400/7f1d1d/fef2f2?text=The+King's+Broken+Vow",
+"imageAlt":"King Shrenik in his garden looking longingly at a bush with ripe berries."
+ },
+ {
+"title":"The Indelible Law of Karma",
+"description":"The story illustrates that intensely bound karma is supreme and its consequences are inescapable, no matter how powerful or repentant one is.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=The+Law+of+Karma+is+Supreme",
+"imageAlt":"An abstract image representing the unchangeable path of karma."
+ }
+ ]
 }

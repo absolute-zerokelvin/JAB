@@ -1,489 +1,489 @@
 {
-    "tabView": true,
-    "pageTitle": "Jain Path of Liberation: Ratna-trayi",
-    "sectionTitle": "B.3: Jain Path of Liberation: Ratna-trayi",
-    "pageSubtitle": "An Interactive Study Guide for Ratna-Trayi B.3 section",
-    "tabs": [
-        {
-            "tabName": "The Three Jewels",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "The Three Jewels: Ratna-Trayi"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "The path to liberation (Moksh) consists of a trinity of jewels that must be cultivated together."
-                            },
-                            {
-                                "tagType": "div",
-                                "tagHTML": "<div class='p-4 bg-blue-50 rounded-lg italic text-center text-blue-800 border-l-4 border-blue-500'><p>\"Samyag-darshan-jnän-chäriträni Mokshamärgah\"</p><p class='text-sm not-italic mt-1'>– Tattvärtha Sutra</p></div>"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "The Three Jewels",
-                            "items": [
-                                {
-                                    "header": "Samyag Darshan (Right Perception)",
-                                    "content": "<p>Seeing the true nature of reality without bias. It is the foundation.</p>"
-                                },
-                                {
-                                    "header": "Samyag Jnän (Right Knowledge)",
-                                    "content": "<p>The true knowledge of reality, the soul, and karma that compels proper action.</p>"
-                                },
-                                {
-                                    "header": "Samyak Chäritra (Right Conduct)",
-                                    "content": "<p>Living according to the principles of non-violence, self-control, and non-attachment.</p>"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "Five Internal Qualities (Lakshan) of Samyag Darshan",
-                                "description": "Qualities that indicate the presence of Right Perception.",
-                                "frontColor": "#3b82f6",
-                                "backColor": "#1d4ed8",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "Upasham",
-                                        "back": "Suppressing of passions (Kashäy)"
-                                    },
-                                    {
-                                        "front": "Samveg",
-                                        "back": "Desire to achieve Moksh"
-                                    },
-                                    {
-                                        "front": "Nirved",
-                                        "back": "Realization that the world is full of sorrow"
-                                    },
-                                    {
-                                        "front": "Anukampä",
-                                        "back": "Empathy towards all living beings"
-                                    },
-                                    {
-                                        "front": "Ästikya",
-                                        "back": "True faith in religion"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "The Soul (Ätmä)",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "The Soul (Ätmä)"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "The soul is the living substance within every being, distinguished by its quality of consciousness (Chetanä). We can't see it with our senses, like air or electricity, but we realize its existence through its operations."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "8 Attributes of a Pure Soul",
-                                "description": "Traits of a soul free from all karma.",
-                                "frontColor": "#60a5fa",
-                                "backColor": "#2563eb",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "Anant-jnän",
-                                        "back": "Infinite Knowledge"
-                                    },
-                                    {
-                                        "front": "Anant-darshan",
-                                        "back": "Infinite Perception"
-                                    },
-                                    {
-                                        "front": "Avyäbädha-sukh",
-                                        "back": "Eternal Happiness"
-                                    },
-                                    {
-                                        "front": "Anant-chäritra",
-                                        "back": "Perfect Conduct"
-                                    },
-                                    {
-                                        "front": "Akshay-sthiti",
-                                        "back": "Immortality"
-                                    },
-                                    {
-                                        "front": "Arupitva",
-                                        "back": "Formlessness"
-                                    },
-                                    {
-                                        "front": "Aguru-laghutva",
-                                        "back": "Equalness"
-                                    },
-                                    {
-                                        "front": "Anant-virya",
-                                        "back": "Infinite Energy"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h3",
-                                "tagHTML": "Pure Soul vs. Worldly Soul"
-                            },
-                            {
-                                "tagType": "div",
-                                "tagHTML": "<div class='grid grid-cols-2 gap-4 text-center'><div class='p-4 bg-green-50 rounded-lg'><strong>✨ Pure Soul</strong><p class='text-sm mt-2'>Free, blissful, no karma, infinite qualities.</p></div><div class='p-4 bg-gray-50 rounded-lg'><strong>☁️ Worldly Soul</strong><p class='text-sm mt-2'>Ignorant, bound by karma, limited qualities, seeks pleasure in materialism.</p></div></div>"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "The Nine Tattvas (Principles)",
-                                "description": "These define the relationship between the soul (Jiva) and karma.",
-                                "frontColor": "#93c5fd",
-                                "backColor": "#1e40af",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "Jiva",
-                                        "back": "Soul"
-                                    },
-                                    {
-                                        "front": "Ajiva",
-                                        "back": "Non-living elements"
-                                    },
-                                    {
-                                        "front": "Äsrav",
-                                        "back": "Influx of karma"
-                                    },
-                                    {
-                                        "front": "Bandh",
-                                        "back": "Bondage of karma"
-                                    },
-                                    {
-                                        "front": "Punya",
-                                        "back": "Virtue"
-                                    },
-                                    {
-                                        "front": "Päp",
-                                        "back": "Sin"
-                                    },
-                                    {
-                                        "front": "Samvar",
-                                        "back": "Stoppage of karma influx"
-                                    },
-                                    {
-                                        "front": "Nirjarä",
-                                        "back": "Partial exhaustion of karma"
-                                    },
-                                    {
-                                        "front": "Moksh",
-                                        "back": "Total liberation from karma"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "The Spiritual Path",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "The Spiritual Path (Gunasthän)"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "The journey of the soul from complete wrong belief to total liberation is a step-by-step process through 14 spiritual stages, or Gunasthän."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "timeline",
-                        "data": [
-                            {
-                                "era": "The 14 Gunasthän Stages",
-                                "events": [
-                                    {
-                                        "title": "Stage 1: Mithyätva",
-                                        "description": "Complete wrong belief. Starting point for all worldly souls."
-                                    },
-                                    {
-                                        "title": "Stage 4: Samyaktva",
-                                        "description": "Attainment of Right Faith. Faith Deluding Karma is destroyed."
-                                    },
-                                    {
-                                        "title": "Stages 5-7: Right Conduct Begins",
-                                        "description": "Adopts vows, becomes a lay follower (5), then an ascetic (6-7)."
-                                    },
-                                    {
-                                        "title": "Stage 12: Vitaräg",
-                                        "description": "Passionless state. All Conduct Deluding Karma is destroyed."
-                                    },
-                                    {
-                                        "title": "Stage 13: Sayogi Kevali",
-                                        "description": "Attainment of Keval-jnän (Omniscience). All 4 Ghāti Karmas are destroyed."
-                                    },
-                                    {
-                                        "title": "Stage 14 & Moksh",
-                                        "description": "Ayogi Kevali stage (freezes activity), then sheds all 4 Aghāti Karmas at Nirvāna to attain total liberation."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "Karma Destroyed & Quality Revealed",
-                                "description": "Match the destroyed karma to the soul quality it uncovers.",
-                                "frontColor": "#fbbf24",
-                                "backColor": "#b45309",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "Mohaniya Karma Destroyed",
-                                        "back": "Anant-chäritra (Perfect Conduct)"
-                                    },
-                                    {
-                                        "front": "Jnänävaraniya Karma Destroyed",
-                                        "back": "Anant-jnän (Infinite Knowledge)"
-                                    },
-                                    {
-                                        "front": "Darshanävaraniya Karma Destroyed",
-                                        "back": "Anant-darshan (Infinite Perception)"
-                                    },
-                                    {
-                                        "front": "Antaräya Karma Destroyed",
-                                        "back": "Anant-virya (Infinite Energy)"
-                                    },
-                                    {
-                                        "front": "Vedaniya Karma Destroyed",
-                                        "back": "Avyäbädha-sukh (Eternal Happiness)"
-                                    },
-                                    {
-                                        "front": "Gotra Karma Destroyed",
-                                        "back": "Aguru-laghutva (Equalness)"
-                                    },
-                                    {
-                                        "front": "Näm Karma Destroyed",
-                                        "back": "Arupitva (Formlessness)"
-                                    },
-                                    {
-                                        "front": "Äyushya Karma Destroyed",
-                                        "back": "Akshay-sthiti (Immortality)"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Quiz",
-            "contentType": "quiz",
-            "tabData": {
-                "title": "Test Your Knowledge",
-                "questions": [
-                    {
-                        "question": "What is the distinguishing quality of the soul?",
-                        "answer": "Consciousness (Chetanä).",
-                        "options": [
-                            "Consciousness (Chetanä).",
-                            "Matter (Pudgal).",
-                            "Motion (Dharma)."
-                        ]
-                    },
-                    {
-                        "question": "Name three of the eight attributes of a pure soul.",
-                        "answer": "Any three of: Anant-jnän, Anant-darshan, Avyäbädha-sukh, Anant-chäritra, Akshay-sthiti, Arupitva, Aguru-laghutva, Anant-virya.",
-                        "options": [
-                            "Anant-jnän, Anant-darshan, Anant-virya.",
-                            "Mati, Shruta, Avadhi.",
-                            "Manah-paryav, Keval, Vibhang."
-                        ]
-                    },
-                    {
-                        "question": "What is the collective name for Samyag Darshan, Samyag Jnän, and Samyak Chäritra?",
-                        "answer": "Ratna-Trayi (The Three Jewels).",
-                        "options": [
-                            "Ratna-Trayi (The Three Jewels).",
-                            "Trilok.",
-                            "Trimurti."
-                        ]
-                    },
-                    {
-                        "question": "What is the first step in the process of self-realization?",
-                        "answer": "Samyag Darshan (Right Perception/Faith).",
-                        "options": [
-                            "Samyag Darshan (Right Perception/Faith).",
-                            "Samyag Jnän.",
-                            "Samyak Chäritra."
-                        ]
-                    },
-                    {
-                        "question": "Name two of the five internal qualities (Lakshan) of Samyag Darshan.",
-                        "answer": "Any two of: Upasham, Samveg, Nirved, Anukampä, Ästikya.",
-                        "options": [
-                            "Upasham, Samveg.",
-                            "Krodh, Män.",
-                            "Māyā, Lobh."
-                        ]
-                    },
-                    {
-                        "question": "From a practical point of view, what does Samyag Darshan mean?",
-                        "answer": "To have total faith in the Tirthankars, the Gurus, and the scriptures.",
-                        "options": [
-                            "To have total faith in the Tirthankars, the Gurus, and the scriptures.",
-                            "To know everything.",
-                            "To mediate all day."
-                        ]
-                    },
-                    {
-                        "question": "Right knowledge means the proper knowledge of the six universal substances and what nine principles?",
-                        "answer": "The Nine Tattvas.",
-                        "options": [
-                            "The Nine Tattvas.",
-                            "The Nine Planets.",
-                            "The Nine Emotions."
-                        ]
-                    },
-                    {
-                        "question": "Name three of the Nine Tattvas.",
-                        "answer": "Any three of: Jiva, Ajiva, Äsrav, Bandh, Punya, Päp, Samvar, Nirjarä, Moksh.",
-                        "options": [
-                            "Jiva, Ajiva, Moksh.",
-                            "Earth, Water, Fire.",
-                            "Mind, Body, Soul."
-                        ]
-                    },
-                    {
-                        "question": "Right knowledge is free from which three main defects?",
-                        "answer": "Doubt, delusion, and indefiniteness.",
-                        "options": [
-                            "Doubt, delusion, and indefiniteness.",
-                            "Anger, ego, greed.",
-                            "Hunger, thirst, sleep."
-                        ]
-                    },
-                    {
-                        "question": "Which of the three jewels leads a person to practice vows and sub-vows?",
-                        "answer": "Samyak Chäritra (Right Conduct).",
-                        "options": [
-                            "Samyak Chäritra (Right Conduct).",
-                            "Samyag Darshan.",
-                            "Samyag Jnän."
-                        ]
-                    },
-                    {
-                        "question": "What is the first spiritual stage (Gunasthän) where every living being begins?",
-                        "answer": "Mithyätva (1st stage).",
-                        "options": [
-                            "Mithyätva (1st stage).",
-                            "Samyaktva.",
-                            "Siddha."
-                        ]
-                    },
-                    {
-                        "question": "At which Gunasthän does a person attain Right Faith without any vows?",
-                        "answer": "4th Gunasthän.",
-                        "options": [
-                            "4th Gunasthän.",
-                            "1st Gunasthän.",
-                            "14th Gunasthän."
-                        ]
-                    },
-                    {
-                        "question": "Which type of karma is destroyed to attain Right Faith?",
-                        "answer": "Faith Deluding (Darshan Mohaniya) karma.",
-                        "options": [
-                            "Faith Deluding (Darshan Mohaniya) karma.",
-                            "Knowledge Deluding karma.",
-                            "Conduct Deluding karma."
-                        ]
-                    },
-                    {
-                        "question": "What is the 12th Gunasthän, the state of no passions, called?",
-                        "answer": "Vitaräg state.",
-                        "options": [
-                            "Vitaräg state.",
-                            "Mithyätva state.",
-                            "Sayogi state."
-                        ]
-                    },
-                    {
-                        "question": "At which Gunasthän is Keval-jnän (omniscience) attained?",
-                        "answer": "13th Gunasthän (Sayogi Kevali).",
-                        "options": [
-                            "13th Gunasthän (Sayogi Kevali).",
-                            "12th Gunasthän.",
-                            "14th Gunasthän."
-                        ]
-                    },
-                    {
-                        "question": "After all Mohaniya karma is destroyed, which three Ghäti Karmas are destroyed automatically?",
-                        "answer": "Jnänävaraniya, Darshanävaraniya, and Antaräya Karma.",
-                        "options": [
-                            "Jnänävaraniya, Darshanävaraniya, and Antaräya Karma.",
-                            "Vedaniya, Gotra, Näm.",
-                            "Ayushya, Näm, Gotra."
-                        ]
-                    },
-                    {
-                        "question": "Which four Aghāti karmas are destroyed at the time of Nirvāna?",
-                        "answer": "Vedaniya, Näm, Gotra, and Āyushya Karma.",
-                        "options": [
-                            "Vedaniya, Näm, Gotra, and Āyushya Karma.",
-                            "Ghāti Karmas.",
-                            "Mohaniya Karmas."
-                        ]
-                    },
-                    {
-                        "question": "The destruction of which Aghāti Karma results in the quality of Arupitva (formlessness)?",
-                        "answer": "Näm Karma.",
-                        "options": [
-                            "Näm Karma.",
-                            "Gotra Karma.",
-                            "Vedaniya Karma."
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+"tabView": true,
+"pageTitle":"Jain Path of Liberation: Ratna-trayi",
+"sectionTitle":"B.3: Jain Path of Liberation: Ratna-trayi",
+"pageSubtitle":"An Interactive Study Guide for Ratna-Trayi B.3 section",
+"tabs": [
+ {
+"tabName":"The Three Jewels",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"The Three Jewels: Ratna-Trayi"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The path to liberation (Moksh) consists of a trinity of jewels that must be cultivated together."
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class='p-4 rounded-lg italic text-center border-l-4 border-blue-500'><p>\"Samyag-darshan-jnän-chäriträni Mokshamärgah\"</p><p class='text-sm not-italic mt-1'>– Tattvärtha Sutra</p></div>"
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"The Three Jewels",
+"items": [
+ {
+"header":"Samyag Darshan (Right Perception)",
+"content":"<p>Seeing the true nature of reality without bias. It is the foundation.</p>"
+ },
+ {
+"header":"Samyag Jnän (Right Knowledge)",
+"content":"<p>The true knowledge of reality, the soul, and karma that compels proper action.</p>"
+ },
+ {
+"header":"Samyak Chäritra (Right Conduct)",
+"content":"<p>Living according to the principles of non-violence, self-control, and non-attachment.</p>"
+ }
+ ]
+ }
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"Five Internal Qualities (Lakshan) of Samyag Darshan",
+"description":"Qualities that indicate the presence of Right Perception.",
+"frontColor":"#3b82f6",
+"backColor":"#1d4ed8",
+"flippable": true,
+"cards": [
+ {
+"front":"Upasham",
+"back":"Suppressing of passions (Kashäy)"
+ },
+ {
+"front":"Samveg",
+"back":"Desire to achieve Moksh"
+ },
+ {
+"front":"Nirved",
+"back":"Realization that the world is full of sorrow"
+ },
+ {
+"front":"Anukampä",
+"back":"Empathy towards all living beings"
+ },
+ {
+"front":"Ästikya",
+"back":"True faith in religion"
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"The Soul (Ätmä)",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"The Soul (Ätmä)"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The soul is the living substance within every being, distinguished by its quality of consciousness (Chetanä). We can't see it with our senses, like air or electricity, but we realize its existence through its operations."
+ }
+ ]
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"8 Attributes of a Pure Soul",
+"description":"Traits of a soul free from all karma.",
+"frontColor":"#60a5fa",
+"backColor":"#2563eb",
+"flippable": true,
+"cards": [
+ {
+"front":"Anant-jnän",
+"back":"Infinite Knowledge"
+ },
+ {
+"front":"Anant-darshan",
+"back":"Infinite Perception"
+ },
+ {
+"front":"Avyäbädha-sukh",
+"back":"Eternal Happiness"
+ },
+ {
+"front":"Anant-chäritra",
+"back":"Perfect Conduct"
+ },
+ {
+"front":"Akshay-sthiti",
+"back":"Immortality"
+ },
+ {
+"front":"Arupitva",
+"back":"Formlessness"
+ },
+ {
+"front":"Aguru-laghutva",
+"back":"Equalness"
+ },
+ {
+"front":"Anant-virya",
+"back":"Infinite Energy"
+ }
+ ]
+ }
+ ]
+ },
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h3",
+"tagHTML":"Pure Soul vs. Worldly Soul"
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class='grid grid-cols-2 gap-4 text-center'><div class='p-4 bg-green-50 rounded-lg'><strong>✨ Pure Soul</strong><p class='text-sm mt-2'>Free, blissful, no karma, infinite qualities.</p></div><div class='p-4 rounded-lg'><strong>☁️ Worldly Soul</strong><p class='text-sm mt-2'>Ignorant, bound by karma, limited qualities, seeks pleasure in materialism.</p></div></div>"
+ }
+ ]
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"The Nine Tattvas (Principles)",
+"description":"These define the relationship between the soul (Jiva) and karma.",
+"frontColor":"#93c5fd",
+"backColor":"#1e40af",
+"flippable": true,
+"cards": [
+ {
+"front":"Jiva",
+"back":"Soul"
+ },
+ {
+"front":"Ajiva",
+"back":"Non-living elements"
+ },
+ {
+"front":"Äsrav",
+"back":"Influx of karma"
+ },
+ {
+"front":"Bandh",
+"back":"Bondage of karma"
+ },
+ {
+"front":"Punya",
+"back":"Virtue"
+ },
+ {
+"front":"Päp",
+"back":"Sin"
+ },
+ {
+"front":"Samvar",
+"back":"Stoppage of karma influx"
+ },
+ {
+"front":"Nirjarä",
+"back":"Partial exhaustion of karma"
+ },
+ {
+"front":"Moksh",
+"back":"Total liberation from karma"
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"The Spiritual Path",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"The Spiritual Path (Gunasthän)"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The journey of the soul from complete wrong belief to total liberation is a step-by-step process through 14 spiritual stages, or Gunasthän."
+ }
+ ]
+ },
+ {
+"type":"timeline",
+"data": [
+ {
+"era":"The 14 Gunasthän Stages",
+"events": [
+ {
+"title":"Stage 1: Mithyätva",
+"description":"Complete wrong belief. Starting point for all worldly souls."
+ },
+ {
+"title":"Stage 4: Samyaktva",
+"description":"Attainment of Right Faith. Faith Deluding Karma is destroyed."
+ },
+ {
+"title":"Stages 5-7: Right Conduct Begins",
+"description":"Adopts vows, becomes a lay follower (5), then an ascetic (6-7)."
+ },
+ {
+"title":"Stage 12: Vitaräg",
+"description":"Passionless state. All Conduct Deluding Karma is destroyed."
+ },
+ {
+"title":"Stage 13: Sayogi Kevali",
+"description":"Attainment of Keval-jnän (Omniscience). All 4 Ghāti Karmas are destroyed."
+ },
+ {
+"title":"Stage 14 & Moksh",
+"description":"Ayogi Kevali stage (freezes activity), then sheds all 4 Aghāti Karmas at Nirvāna to attain total liberation."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"Karma Destroyed & Quality Revealed",
+"description":"Match the destroyed karma to the soul quality it uncovers.",
+"frontColor":"#fbbf24",
+"backColor":"#b45309",
+"flippable": true,
+"cards": [
+ {
+"front":"Mohaniya Karma Destroyed",
+"back":"Anant-chäritra (Perfect Conduct)"
+ },
+ {
+"front":"Jnänävaraniya Karma Destroyed",
+"back":"Anant-jnän (Infinite Knowledge)"
+ },
+ {
+"front":"Darshanävaraniya Karma Destroyed",
+"back":"Anant-darshan (Infinite Perception)"
+ },
+ {
+"front":"Antaräya Karma Destroyed",
+"back":"Anant-virya (Infinite Energy)"
+ },
+ {
+"front":"Vedaniya Karma Destroyed",
+"back":"Avyäbädha-sukh (Eternal Happiness)"
+ },
+ {
+"front":"Gotra Karma Destroyed",
+"back":"Aguru-laghutva (Equalness)"
+ },
+ {
+"front":"Näm Karma Destroyed",
+"back":"Arupitva (Formlessness)"
+ },
+ {
+"front":"Äyushya Karma Destroyed",
+"back":"Akshay-sthiti (Immortality)"
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge",
+"questions": [
+ {
+"question":"What is the distinguishing quality of the soul?",
+"answer":"Consciousness (Chetanä).",
+"options": [
+"Consciousness (Chetanä).",
+"Matter (Pudgal).",
+"Motion (Dharma)."
+ ]
+ },
+ {
+"question":"Name three of the eight attributes of a pure soul.",
+"answer":"Any three of: Anant-jnän, Anant-darshan, Avyäbädha-sukh, Anant-chäritra, Akshay-sthiti, Arupitva, Aguru-laghutva, Anant-virya.",
+"options": [
+"Anant-jnän, Anant-darshan, Anant-virya.",
+"Mati, Shruta, Avadhi.",
+"Manah-paryav, Keval, Vibhang."
+ ]
+ },
+ {
+"question":"What is the collective name for Samyag Darshan, Samyag Jnän, and Samyak Chäritra?",
+"answer":"Ratna-Trayi (The Three Jewels).",
+"options": [
+"Ratna-Trayi (The Three Jewels).",
+"Trilok.",
+"Trimurti."
+ ]
+ },
+ {
+"question":"What is the first step in the process of self-realization?",
+"answer":"Samyag Darshan (Right Perception/Faith).",
+"options": [
+"Samyag Darshan (Right Perception/Faith).",
+"Samyag Jnän.",
+"Samyak Chäritra."
+ ]
+ },
+ {
+"question":"Name two of the five internal qualities (Lakshan) of Samyag Darshan.",
+"answer":"Any two of: Upasham, Samveg, Nirved, Anukampä, Ästikya.",
+"options": [
+"Upasham, Samveg.",
+"Krodh, Män.",
+"Māyā, Lobh."
+ ]
+ },
+ {
+"question":"From a practical point of view, what does Samyag Darshan mean?",
+"answer":"To have total faith in the Tirthankars, the Gurus, and the scriptures.",
+"options": [
+"To have total faith in the Tirthankars, the Gurus, and the scriptures.",
+"To know everything.",
+"To mediate all day."
+ ]
+ },
+ {
+"question":"Right knowledge means the proper knowledge of the six universal substances and what nine principles?",
+"answer":"The Nine Tattvas.",
+"options": [
+"The Nine Tattvas.",
+"The Nine Planets.",
+"The Nine Emotions."
+ ]
+ },
+ {
+"question":"Name three of the Nine Tattvas.",
+"answer":"Any three of: Jiva, Ajiva, Äsrav, Bandh, Punya, Päp, Samvar, Nirjarä, Moksh.",
+"options": [
+"Jiva, Ajiva, Moksh.",
+"Earth, Water, Fire.",
+"Mind, Body, Soul."
+ ]
+ },
+ {
+"question":"Right knowledge is free from which three main defects?",
+"answer":"Doubt, delusion, and indefiniteness.",
+"options": [
+"Doubt, delusion, and indefiniteness.",
+"Anger, ego, greed.",
+"Hunger, thirst, sleep."
+ ]
+ },
+ {
+"question":"Which of the three jewels leads a person to practice vows and sub-vows?",
+"answer":"Samyak Chäritra (Right Conduct).",
+"options": [
+"Samyak Chäritra (Right Conduct).",
+"Samyag Darshan.",
+"Samyag Jnän."
+ ]
+ },
+ {
+"question":"What is the first spiritual stage (Gunasthän) where every living being begins?",
+"answer":"Mithyätva (1st stage).",
+"options": [
+"Mithyätva (1st stage).",
+"Samyaktva.",
+"Siddha."
+ ]
+ },
+ {
+"question":"At which Gunasthän does a person attain Right Faith without any vows?",
+"answer":"4th Gunasthän.",
+"options": [
+"4th Gunasthän.",
+"1st Gunasthän.",
+"14th Gunasthän."
+ ]
+ },
+ {
+"question":"Which type of karma is destroyed to attain Right Faith?",
+"answer":"Faith Deluding (Darshan Mohaniya) karma.",
+"options": [
+"Faith Deluding (Darshan Mohaniya) karma.",
+"Knowledge Deluding karma.",
+"Conduct Deluding karma."
+ ]
+ },
+ {
+"question":"What is the 12th Gunasthän, the state of no passions, called?",
+"answer":"Vitaräg state.",
+"options": [
+"Vitaräg state.",
+"Mithyätva state.",
+"Sayogi state."
+ ]
+ },
+ {
+"question":"At which Gunasthän is Keval-jnän (omniscience) attained?",
+"answer":"13th Gunasthän (Sayogi Kevali).",
+"options": [
+"13th Gunasthän (Sayogi Kevali).",
+"12th Gunasthän.",
+"14th Gunasthän."
+ ]
+ },
+ {
+"question":"After all Mohaniya karma is destroyed, which three Ghäti Karmas are destroyed automatically?",
+"answer":"Jnänävaraniya, Darshanävaraniya, and Antaräya Karma.",
+"options": [
+"Jnänävaraniya, Darshanävaraniya, and Antaräya Karma.",
+"Vedaniya, Gotra, Näm.",
+"Ayushya, Näm, Gotra."
+ ]
+ },
+ {
+"question":"Which four Aghāti karmas are destroyed at the time of Nirvāna?",
+"answer":"Vedaniya, Näm, Gotra, and Āyushya Karma.",
+"options": [
+"Vedaniya, Näm, Gotra, and Āyushya Karma.",
+"Ghāti Karmas.",
+"Mohaniya Karmas."
+ ]
+ },
+ {
+"question":"The destruction of which Aghāti Karma results in the quality of Arupitva (formlessness)?",
+"answer":"Näm Karma.",
+"options": [
+"Näm Karma.",
+"Gotra Karma.",
+"Vedaniya Karma."
+ ]
+ }
+ ]
+ }
+ }
+ ]
 }

@@ -1,237 +1,237 @@
 {
-  "title": "The Story of Meghkumär",
-  "subtitle": "Section H.5 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "A Prince's Urge"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Queen Dhärini, wife of King Shrenik of Magadh, had an auspicious dream of a white elephant, foretelling the birth of a great son. During her pregnancy, she had an unusual urge: to ride an elephant with the king during a colorful, rainy day—but it was the off-season for rain. The king's wise son, <span class=\"highlight\">Abhaykumär</span>, arranged for a friend to miraculously create the desired weather, satisfying the queen's wish."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "In due course, a handsome son was born. In honor of the pregnancy urge (Megha means rain), he was named <span class=\"highlight\">Meghkumär</span>. He grew up accomplished and enjoying all worldly pleasures."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Difficult First Night"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" ath d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" svg>After hearing a sermon by <span class=\"highlight\">Bhagawän Mahävir</span>, Meghkumär was inspired to renounce the world. After being king for just one day to satisfy his parents, he took Dikshä. As a junior monk, he was given a place to sleep near the entrance of the Upäshray. Throughout the night, other monks accidentally trampled his bed and dirtied his body. Having grown up in luxury, Meghkumär found this unbearable and decided to quit the monastic life the next morning."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Memory of a Past Life"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Mahävir, knowing his thoughts, reminded him of his previous life. “You were <span class=\"highlight\">Meruprabha, the king of elephants,</span>” he said. “During a forest fire, you gave refuge to all animals on a cleared patch of land. To save a small rabbit that took shelter under your raised foot, you held your foot up for two and a half days. When the fire passed, your leg was so stiff that you fell, suffering agonizing pain for three days before you died.”"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" ath d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" svg>Mahävir concluded, “If you could face that much distress for the sake of a rabbit, how can you not face the accidental kicking of your fellow monks?” Meghkumär, spellbound, realized his mistake and was reinitiated. He lived a rigorous ascetic life and finally took the vow of <span class=\"highlight\">Sanlekhanä</span> (fast until death), ensuring a heavenly rebirth and eventual liberation."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "A Past Life of Compassion",
-      "period": "Previous Life",
-      "events": [
-        {
-          "title": "King of Elephants",
-          "description": "Meghkumär's soul was Meruprabha, the king of elephants.",
-          "characters": ["Meruprabha (the elephant)"]
-        },
-        {
-          "title": "An Act of Mercy",
-          "description": "During a forest fire, he holds his foot up for two and a half days to save a small rabbit, enduring agonizing pain.",
-          "characters": ["Meruprabha", "The Rabbit"]
-        }
-      ]
-    },
-    {
-      "era": "A Princely Birth",
-      "period": "Current Life - Youth",
-      "events": [
-        {
-          "title": "An Auspicious Dream",
-          "description": "Queen Dhärini dreams of a white elephant, and her son is later born and named Meghkumär.",
-          "characters": ["Queen Dhärini", "King Shrenik", "Meghkumär"]
-        },
-        {
-          "title": "Inspired to Renounce",
-          "description": "After hearing a sermon from Bhagawän Mahävir, the adult Meghkumär decides to become a monk.",
-          "characters": ["Meghkumär", "Bhagawän Mahävir"]
-        }
-      ]
-    },
-    {
-      "era": "The Monk's Trial",
-      "period": "After Dikshä",
-      "events": [
-        {
-          "title": "A Difficult Night",
-          "description": "As a new monk, he is unable to sleep due to the discomforts of the Upäshray and decides to quit.",
-          "characters": ["Meghkumär"]
-        },
-        {
-          "title": "A Guru's Reminder",
-          "description": "Mahävir reminds him of the far greater suffering he endured with compassion in his past life as an elephant.",
-          "characters": ["Meghkumär", "Bhagawän Mahävir"]
-        },
-        {
-          "title": "A Renewed Vow",
-          "description": "Humbled and inspired, Meghkumär is reinitiated and leads a rigorous ascetic life, eventually taking the vow of Sanlekhanä (fast until death).",
-          "characters": ["Meghkumär (as Meghmuni)"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Meghkumär",
-      "description": "The son of King Shrenik. After a difficult first night as a monk, he was reminded by Mahävir of his past life as a compassionate elephant, which inspired him to persevere on the spiritual path."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar, who used his omniscient knowledge to see Meghkumär's past life and provide the perfect story to renew his disciple's resolve."
-    },
-    {
-      "name": "Meruprabha",
-      "description": "The name of Meghkumär's soul in his past life as the king of the elephants. His great compassion for a rabbit earned him the merit to be born as a prince."
-    },
-    {
-      "name": "King Shrenik & Queen Dhärini",
-      "description": "The royal parents of Meghkumär and rulers of Magadh."
-    },
-    {
-      "name": "Abhaykumär",
-      "description": "Meghkumär's wise elder brother, who used his ingenuity to satisfy their mother's unusual pregnancy urge."
-    }
-  ],
-  "quizData": [
-    { "question": "Who were Meghkumär's parents?", "answer": "King Shrenik and Queen Dhärini." },
-    { "question": "What auspicious dream did Queen Dhärini have?", "answer": "She dreamt of a white elephant entering her mouth." },
-    { "question": "What unusual urge did the queen have during her pregnancy?", "answer": "To ride an elephant with the king during a colorful, rainy day in the off-season." },
-    { "question": "What was Meghkumär's previous life?", "answer": "He was an elephant named Meruprabha." },
-    { "question": "What event inspired Meghkumär to renounce the world?", "answer": "Listening to a sermon by Bhagawän Mahävir." },
-    { "question": "What happened during Meghkumär's first night as a monk that made him want to quit?", "answer": "Other monks accidentally trampled his bed and dirtied his body, and he found it unbearable." },
-    { "question": "In his past life as an elephant, what compassionate act did he perform during a forest fire?", "answer": "He held up his foot for two and a half days to save a rabbit sheltering underneath it." },
-    { "question": "What happened to the elephant after the fire?", "answer": "His leg was so stiff he fell, suffered in agony for three days, and died." },
-    { "question": "How did Mahävir use this past-life story?", "answer": "To show Meghkumär that his current discomfort was minor compared to the suffering he had willingly endured for a rabbit." },
-    { "question": "After being reinitiated, what was Meghkumär called?", "answer": "Meghmuni." },
-    { "question": "What final vow did Meghkumär take when his body became very weak?", "answer": "Sanlekhanä (a fast until death)." },
-    { "question": "The story of Meghkumär is a splendid example of which of the four bhävanäs (reflections)?", "answer": "Compassion (Karunä Bhävanä)." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Meghkumär",
-    "children": [
-      {
-        "name": "The Past Life",
-        "children": [
-          { "name": "Meruprabha the Elephant" },
-          { "name": "Saves Rabbit from Fire" },
-          { "name": "Dies in Agony, Earns Merit" }
-        ]
-      },
-      {
-        "name": "The Present Life",
-        "children": [
-          { "name": "Born as Prince Meghkumär" },
-          { "name": "Becomes a Monk" },
-          { "name": "A Difficult First Night" }
-        ]
-      },
-      {
-        "name": "The Guru's Intervention",
-        "children": [
-          { "name": "Wants to Quit" },
-          { "name": "Mahävir Recounts Past Life" }
-        ]
-      },
-      {
-        "name": "The Renewed Path",
-        "children": [
-          { "name": "Realizes his Mistake" },
-          { "name": "Leads Rigorous Ascetic Life" },
-          { "name": "Takes Vow of Sanlekhanä" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Meghkumär: From Despair to Dedication",
-    "children": [
-      {
-        "name": "The Compassionate Elephant",
-        "children": [
-          { "name": "The Fire" },
-          { "name": "The Rabbit" }
-        ]
-      },
-      {
-        "name": "The Discouraged Monk",
-        "children": [
-          { "name": "The First Night" },
-          { "name": "The Desire to Quit" }
-        ]
-      },
-      {
-        "name": "The Inspiring Memory",
-        "children": [
-          { "name": "The Guru's Story" },
-          { "name": "The Renewed Vow" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "The Elephant's Compassion",
-      "description": "In a past life as the elephant Meruprabha, he stands on three legs for days through a raging forest fire to protect a tiny rabbit seeking shelter under his foot.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Elephant+Saves+a+Rabbit",
-      "imageAlt": "A large elephant standing amidst a fire with one foot raised, while a small rabbit huddles in the space below."
-    },
-    {
-      "title": "A Prince Renounces",
-      "description": "Inspired by Bhagawän Mahävir, Prince Meghkumär gives up his royal life and luxuries to take Dikshä and become a Jain monk.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Meghkumär+Takes+Dikshä",
-      "imageAlt": "A prince removing his crown and jewelry before a group of monks."
-    },
-    {
-      "title": "A Sleepless Night",
-      "description": "During his first night as a monk, the pampered Meghkumär is disturbed by other monks accidentally trampling his bed, and he decides he cannot endure this life.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=A+Difficult+First+Night",
-      "imageAlt": "A young monk lying awake looking miserable while other monks walk past in the dark."
-    },
-    {
-      "title": "A Guru's Wisdom",
-      "description": "Bhagawän Mahävir calmly recounts the story of Meghkumär's past life, reminding him of the immense suffering he once endured out of pure compassion.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Mahävir+Tells+the+Story",
-      "imageAlt": "Mahävir speaking to the dejected young monk, who listens with growing surprise."
-    },
-    {
-      "title": "A Renewed Resolve",
-      "description": "Humbled and inspired by the memory of his past selflessness, Meghkumär begs to be reinitiated and dedicates himself to a rigorous ascetic life.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Meghkumär's+Renewed+Vow",
-      "imageAlt": "The young monk, now with a determined and peaceful expression, meditating intensely."
-    },
-    {
-      "title": "The Final, Peaceful Fast",
-      "description": "At the end of his life, having become a great ascetic, Meghmuni undertakes the ultimate vow of Sanlekhanä, fasting peacefully until death.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=Sanlekhanä+on+the+Mountain",
-      "imageAlt": "A thin, serene monk meditating on a mountain peak as his life comes to a peaceful end."
-    }
-  ]
+"title":"The Story of Meghkumär",
+"subtitle":"Section H.5 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"A Prince's Urge"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Queen Dhärini, wife of King Shrenik of Magadh, had an auspicious dream of a white elephant, foretelling the birth of a great son. During her pregnancy, she had an unusual urge: to ride an elephant with the king during a colorful, rainy day—but it was the off-season for rain. The king's wise son, <span class=\"highlight\">Abhaykumär</span>, arranged for a friend to miraculously create the desired weather, satisfying the queen's wish."
+ },
+ {
+"tagType":"p",
+"tagHTML":"In due course, a handsome son was born. In honor of the pregnancy urge (Megha means rain), he was named <span class=\"highlight\">Meghkumär</span>. He grew up accomplished and enjoying all worldly pleasures."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Difficult First Night"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10.75 2.75a.75.75 0 00-1.5 0v8.586l-1.22-1.22a.75.75 0 00-1.06 1.06l2.5 2.5a.75.75 0 001.06 0l2.5-2.5a.75.75 0 10-1.06-1.06l-1.22 1.22V2.75z\" ath d=\"M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z\" svg>After hearing a sermon by <span class=\"highlight\">Bhagawän Mahävir</span>, Meghkumär was inspired to renounce the world. After being king for just one day to satisfy his parents, he took Dikshä. As a junior monk, he was given a place to sleep near the entrance of the Upäshray. Throughout the night, other monks accidentally trampled his bed and dirtied his body. Having grown up in luxury, Meghkumär found this unbearable and decided to quit the monastic life the next morning."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Memory of a Past Life"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Mahävir, knowing his thoughts, reminded him of his previous life. “You were <span class=\"highlight\">Meruprabha, the king of elephants,</span>” he said. “During a forest fire, you gave refuge to all animals on a cleared patch of land. To save a small rabbit that took shelter under your raised foot, you held your foot up for two and a half days. When the fire passed, your leg was so stiff that you fell, suffering agonizing pain for three days before you died.”"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" ath d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" ath d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" svg>Mahävir concluded, “If you could face that much distress for the sake of a rabbit, how can you not face the accidental kicking of your fellow monks?” Meghkumär, spellbound, realized his mistake and was reinitiated. He lived a rigorous ascetic life and finally took the vow of <span class=\"highlight\">Sanlekhanä</span> (fast until death), ensuring a heavenly rebirth and eventual liberation."
+ }
+ ],
+"timelineData": [
+ {
+"era":"A Past Life of Compassion",
+"period":"Previous Life",
+"events": [
+ {
+"title":"King of Elephants",
+"description":"Meghkumär's soul was Meruprabha, the king of elephants.",
+"characters": ["Meruprabha (the elephant)"]
+ },
+ {
+"title":"An Act of Mercy",
+"description":"During a forest fire, he holds his foot up for two and a half days to save a small rabbit, enduring agonizing pain.",
+"characters": ["Meruprabha","The Rabbit"]
+ }
+ ]
+ },
+ {
+"era":"A Princely Birth",
+"period":"Current Life - Youth",
+"events": [
+ {
+"title":"An Auspicious Dream",
+"description":"Queen Dhärini dreams of a white elephant, and her son is later born and named Meghkumär.",
+"characters": ["Queen Dhärini","King Shrenik","Meghkumär"]
+ },
+ {
+"title":"Inspired to Renounce",
+"description":"After hearing a sermon from Bhagawän Mahävir, the adult Meghkumär decides to become a monk.",
+"characters": ["Meghkumär","Bhagawän Mahävir"]
+ }
+ ]
+ },
+ {
+"era":"The Monk's Trial",
+"period":"After Dikshä",
+"events": [
+ {
+"title":"A Difficult Night",
+"description":"As a new monk, he is unable to sleep due to the discomforts of the Upäshray and decides to quit.",
+"characters": ["Meghkumär"]
+ },
+ {
+"title":"A Guru's Reminder",
+"description":"Mahävir reminds him of the far greater suffering he endured with compassion in his past life as an elephant.",
+"characters": ["Meghkumär","Bhagawän Mahävir"]
+ },
+ {
+"title":"A Renewed Vow",
+"description":"Humbled and inspired, Meghkumär is reinitiated and leads a rigorous ascetic life, eventually taking the vow of Sanlekhanä (fast until death).",
+"characters": ["Meghkumär (as Meghmuni)"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Meghkumär",
+"description":"The son of King Shrenik. After a difficult first night as a monk, he was reminded by Mahävir of his past life as a compassionate elephant, which inspired him to persevere on the spiritual path."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar, who used his omniscient knowledge to see Meghkumär's past life and provide the perfect story to renew his disciple's resolve."
+ },
+ {
+"name":"Meruprabha",
+"description":"The name of Meghkumär's soul in his past life as the king of the elephants. His great compassion for a rabbit earned him the merit to be born as a prince."
+ },
+ {
+"name":"King Shrenik & Queen Dhärini",
+"description":"The royal parents of Meghkumär and rulers of Magadh."
+ },
+ {
+"name":"Abhaykumär",
+"description":"Meghkumär's wise elder brother, who used his ingenuity to satisfy their mother's unusual pregnancy urge."
+ }
+ ],
+"quizData": [
+ {"question":"Who were Meghkumär's parents?","answer":"King Shrenik and Queen Dhärini." },
+ {"question":"What auspicious dream did Queen Dhärini have?","answer":"She dreamt of a white elephant entering her mouth." },
+ {"question":"What unusual urge did the queen have during her pregnancy?","answer":"To ride an elephant with the king during a colorful, rainy day in the off-season." },
+ {"question":"What was Meghkumär's previous life?","answer":"He was an elephant named Meruprabha." },
+ {"question":"What event inspired Meghkumär to renounce the world?","answer":"Listening to a sermon by Bhagawän Mahävir." },
+ {"question":"What happened during Meghkumär's first night as a monk that made him want to quit?","answer":"Other monks accidentally trampled his bed and dirtied his body, and he found it unbearable." },
+ {"question":"In his past life as an elephant, what compassionate act did he perform during a forest fire?","answer":"He held up his foot for two and a half days to save a rabbit sheltering underneath it." },
+ {"question":"What happened to the elephant after the fire?","answer":"His leg was so stiff he fell, suffered in agony for three days, and died." },
+ {"question":"How did Mahävir use this past-life story?","answer":"To show Meghkumär that his current discomfort was minor compared to the suffering he had willingly endured for a rabbit." },
+ {"question":"After being reinitiated, what was Meghkumär called?","answer":"Meghmuni." },
+ {"question":"What final vow did Meghkumär take when his body became very weak?","answer":"Sanlekhanä (a fast until death)." },
+ {"question":"The story of Meghkumär is a splendid example of which of the four bhävanäs (reflections)?","answer":"Compassion (Karunä Bhävanä)." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Meghkumär",
+"children": [
+ {
+"name":"The Past Life",
+"children": [
+ {"name":"Meruprabha the Elephant" },
+ {"name":"Saves Rabbit from Fire" },
+ {"name":"Dies in Agony, Earns Merit" }
+ ]
+ },
+ {
+"name":"The Present Life",
+"children": [
+ {"name":"Born as Prince Meghkumär" },
+ {"name":"Becomes a Monk" },
+ {"name":"A Difficult First Night" }
+ ]
+ },
+ {
+"name":"The Guru's Intervention",
+"children": [
+ {"name":"Wants to Quit" },
+ {"name":"Mahävir Recounts Past Life" }
+ ]
+ },
+ {
+"name":"The Renewed Path",
+"children": [
+ {"name":"Realizes his Mistake" },
+ {"name":"Leads Rigorous Ascetic Life" },
+ {"name":"Takes Vow of Sanlekhanä" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Meghkumär: From Despair to Dedication",
+"children": [
+ {
+"name":"The Compassionate Elephant",
+"children": [
+ {"name":"The Fire" },
+ {"name":"The Rabbit" }
+ ]
+ },
+ {
+"name":"The Discouraged Monk",
+"children": [
+ {"name":"The First Night" },
+ {"name":"The Desire to Quit" }
+ ]
+ },
+ {
+"name":"The Inspiring Memory",
+"children": [
+ {"name":"The Guru's Story" },
+ {"name":"The Renewed Vow" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"The Elephant's Compassion",
+"description":"In a past life as the elephant Meruprabha, he stands on three legs for days through a raging forest fire to protect a tiny rabbit seeking shelter under his foot.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Elephant+Saves+a+Rabbit",
+"imageAlt":"A large elephant standing amidst a fire with one foot raised, while a small rabbit huddles in the space below."
+ },
+ {
+"title":"A Prince Renounces",
+"description":"Inspired by Bhagawän Mahävir, Prince Meghkumär gives up his royal life and luxuries to take Dikshä and become a Jain monk.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Meghkumär+Takes+Dikshä",
+"imageAlt":"A prince removing his crown and jewelry before a group of monks."
+ },
+ {
+"title":"A Sleepless Night",
+"description":"During his first night as a monk, the pampered Meghkumär is disturbed by other monks accidentally trampling his bed, and he decides he cannot endure this life.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=A+Difficult+First+Night",
+"imageAlt":"A young monk lying awake looking miserable while other monks walk past in the dark."
+ },
+ {
+"title":"A Guru's Wisdom",
+"description":"Bhagawän Mahävir calmly recounts the story of Meghkumär's past life, reminding him of the immense suffering he once endured out of pure compassion.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Mahävir+Tells+the+Story",
+"imageAlt":"Mahävir speaking to the dejected young monk, who listens with growing surprise."
+ },
+ {
+"title":"A Renewed Resolve",
+"description":"Humbled and inspired by the memory of his past selflessness, Meghkumär begs to be reinitiated and dedicates himself to a rigorous ascetic life.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Meghkumär's+Renewed+Vow",
+"imageAlt":"The young monk, now with a determined and peaceful expression, meditating intensely."
+ },
+ {
+"title":"The Final, Peaceful Fast",
+"description":"At the end of his life, having become a great ascetic, Meghmuni undertakes the ultimate vow of Sanlekhanä, fasting peacefully until death.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Sanlekhanä+on+the+Mountain",
+"imageAlt":"A thin, serene monk meditating on a mountain peak as his life comes to a peaceful end."
+ }
+ ]
 }

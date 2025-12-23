@@ -135,7 +135,7 @@
 .flashcard-group {
     margin-bottom: 2.5rem;
     padding: 1.5rem;
-    background-color: #ffffff;
+    background-color: var(--card-background);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -235,7 +235,7 @@
 }
 
 .timeline-content {
-    background-color: #ffffff;
+    background-color: var(--card-background);
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -249,7 +249,7 @@
     right: -15px;
     border-width: 15px 0 15px 15px;
     border-style: solid;
-    border-color: transparent transparent transparent #ffffff;
+    border-color: transparent transparent transparent var(--card-background);
 }
 
 .timeline-event.right .timeline-content::before {
@@ -259,7 +259,7 @@
     left: -15px;
     border-width: 15px 15px 15px 0;
     border-style: solid;
-    border-color: transparent #ffffff transparent transparent;
+    border-color: transparent var(--card-background) transparent transparent;
 }
 
 .timeline-era {
@@ -282,7 +282,7 @@
 /* --- Accordian Specific Styles --- */
 .accordian-container {
     margin-top: 2rem;
-    background-color: #ffffff;
+    background-color: var(--card-background);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
@@ -303,7 +303,7 @@
 }
 
 .accordian-item {
-    border: 1px solid #e5e7eb;
+    border: 1px solid var(--border-color);
     border-radius: 8px;
     margin-bottom: 0.5rem;
     overflow: hidden;
@@ -326,7 +326,8 @@
 }
 
 .accordian-header:hover {
-    background-color: #dbeafe;
+    background-color: var(--accent-blue);
+    opacity: 0.9;
 }
 
 .accordian-header.active {
@@ -341,8 +342,8 @@
 
 .accordian-content {
     padding: 1rem 1.5rem;
-    border-top: 1px solid #e5e7eb;
-    background-color: #f9fafb;
+    border-top: 1px solid var(--border-color);
+    background-color: var(--background);
     color: var(--text-primary);
     line-height: 1.6;
 }
@@ -350,7 +351,7 @@
 /* --- Quiz Tab Specific Styles (from story.css for consistency) --- */
 .quiz-section {
     padding: 1.5rem;
-    background-color: #ffffff;
+    background-color: var(--card-background);
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -395,8 +396,8 @@
 }
 
 .quiz-question {
-    background-color: #dbeafe;
-    border: 1px solid #93c5fd;
+    background-color: var(--light-blue);
+    border: 1px solid var(--accent-blue);
     border-radius: 8px;
     padding: 1rem 1.5rem;
     margin-bottom: 1rem;

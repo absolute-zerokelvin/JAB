@@ -1,245 +1,245 @@
 {
-  "title": "The Story of the Two Frogs",
-  "subtitle": "Section J.4 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "The Pot of Milk"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "A group of frogs were playing when two of them accidentally fell into a deep pot of milk. The other frogs gathered around, but seeing how deep the pot was, they quickly gave up hope. They began to shout down to their trapped companions that the situation was hopeless and that they should <span class=\"highlight\">prepare themselves for their fate.</span>"
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Struggle for Survival"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z\" clip-rule=\"evenodd\" /></svg>Unwilling to give up, the two frogs in the pot began to jump with all their might. The chorus of frogs above continued to yell that it was hopeless and that they should save their energy and just die. One of the trapped frogs, exhausted and disheartened by the constant discouragement, finally <span class=\"highlight\">took heed to their calls</span>. He stopped jumping, gave up, and drowned."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Power of Perception"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "The second frog, however, continued to jump harder and harder, despite his pain and exhaustion. The frogs above yelled even louder for him to stop. But this frog kept going, and his constant churning motion eventually turned the milk into a solid pat of butter. He was able to stand on the butter and, with one final leap, jumped out of the pot."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The other frogs celebrated and asked him why he didn't listen to their calls to give up. He thanked them profusely for all their encouragement. It turned out the frog who survived <span class=\"highlight\">was deaf!</span> He had seen their shouting and gestures and thought they were cheering him on, which inspired him to try harder and succeed."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Fall",
-      "period": "Start of the story",
-      "events": [
-        {
-          "title": "An Unfortunate Accident",
-          "description": "Two frogs, while playing on a farm, fall into a deep pot of milk.",
-          "characters": ["The Two Frogs"]
-        },
-        {
-          "title": "A Hopeless Verdict",
-          "description": "The other frogs gather around but quickly decide the situation is hopeless and tell the trapped frogs they are as good as dead.",
-          "characters": ["The Chorus of Frogs"]
-        }
-      ]
-    },
-    {
-      "era": "The Struggle",
-      "period": "Inside the pot",
-      "events": [
-        {
-          "title": "A Fight for Life",
-          "description": "Unwilling to accept their fate, the two frogs begin to jump with all their might.",
-          "characters": ["The Two Frogs"]
-        },
-        {
-          "title": "Constant Discouragement",
-          "description": "The chorus of frogs continues to shout that it's useless and that they should give up.",
-          "characters": ["The Chorus of Frogs"]
-        },
-        {
-          "title": "One Gives Up",
-          "description": "Exhausted and disheartened by the negative calls, one of the frogs stops jumping and drowns.",
-          "characters": ["The Discouraged Frog", "The Chorus of Frogs"]
-        }
-      ]
-    },
-    {
-      "era": "The Outcome",
-      "period": "The Final Moments",
-      "events": [
-        {
-          "title": "Perseverance",
-          "description": "The second frog continues to jump harder and harder, ignoring the calls from above.",
-          "characters": ["The Deaf Frog"]
-        },
-        {
-          "title": "An Unexpected Result",
-          "description": "The frog's relentless jumping churns the milk into a solid pat of butter.",
-          "characters": ["The Deaf Frog"]
-        },
-        {
-          "title": "A Leap to Freedom",
-          "description": "Using the butter as a platform, the frog leaps out of the pot. It is revealed that he is deaf and thought the shouting was encouragement.",
-          "characters": ["The Deaf Frog", "The Chorus of Frogs"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "The Deaf Frog",
-      "description": "One of the two frogs who fell into the pot. Because he was deaf, he misinterpreted the other frogs' discouragement as encouragement, which inspired him to persevere and ultimately save himself."
-    },
-    {
-      "name": "The Discouraged Frog",
-      "description": "The other frog who fell into the pot. He listened to the hopeless cries of his companions, lost his will to continue, and gave up."
-    },
-    {
-      "name": "The Chorus of Frogs",
-      "description": "The group of frogs outside the pot. Despite their intentions, their negative and discouraging words contributed to the death of one frog and nearly stopped the other."
-    }
-  ],
-  "quizData": [
-    { "question": "What did the two frogs fall into?", "answer": "A pot of milk." },
-    { "question": "What did the other frogs who gathered around the pot initially believe?", "answer": "That the situation was hopeless and the two frogs were doomed." },
-    { "question": "What did the two trapped frogs do in response to their situation?", "answer": "They began to jump with all their might." },
-    { "question": "Why did the first frog give up and drown?", "answer": "He became exhausted and took heed of the other frogs' calls that it was hopeless." },
-    { "question": "What did the second frog keep doing, despite the shouts from above?", "answer": "He continued to jump as hard as he could." },
-    { "question": "What was the result of the second frog's continuous jumping?", "answer": "His movement churned the milk into a solid pat of butter." },
-    { "question": "How did the butter help the frog escape?", "answer": "It created a solid platform for him to stand on and leap out of the pot." },
-    { "question": "What was the surviving frog's physical condition that changed his perception of events?", "answer": "He was deaf." },
-    { "question": "How did the deaf frog interpret the shouting and gestures of his companions?", "answer": "He thought they were cheering him on and encouraging him." },
-    { "question": "What did this perceived encouragement inspire the deaf frog to do?", "answer": "To try harder and eventually succeed." },
-    { "question": "What does the moral of the story say is in the 'power of the tongue'?", "answer": "Death and life." },
-    { "question": "According to the story, what can your encouraging words do for someone?", "answer": "Lift them up and help them make it through the day." },
-    { "question": "What can destructive or careless words do to someone?", "answer": "Cause deep wounds, destroy their desire to continue trying, or diminish them in the eyes of others." },
-    { "question": "The story serves as a reminder to be careful about what?", "answer": "What you say, because there is enormous power in words." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of the Two Frogs",
-    "children": [
-      {
-        "name": "The Predicament",
-        "children": [
-          { "name": "Fall into a Pot of Milk" },
-          { "name": "Friends Declare it Hopeless" }
-        ]
-      },
-      {
-        "name": "The Two Responses",
-        "children": [
-          {
-            "name": "Frog 1: Listens to Discouragement",
-            "children": [
-              { "name": "Loses Hope" },
-              { "name": "Gives Up and Drowns" }
-            ]
-          },
-          {
-            "name": "Frog 2: Misinterprets as Encouragement",
-            "children": [
-              { "name": "Is Deaf" },
-              { "name": "Jumps Harder" }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "The Outcome",
-        "children": [
-          { "name": "Milk Churns into Butter" },
-          { "name": "The Deaf Frog Escapes" }
-        ]
-      },
-      {
-        "name": "The Moral",
-        "children": [
-          { "name": "The Power of Words" },
-          { "name": "Encouragement vs. Discouragement" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Perception is Reality",
-    "children": [
-      {
-        "name": "The Challenge",
-        "children": [
-          { "name": "Trapped in Milk" }
-        ]
-      },
-      {
-        "name": "The External Input",
-        "children": [
-          { "name": "Negative Shouting" }
-        ]
-      },
-      {
-        "name": "Two Interpretations",
-        "children": [
-          { "name": "Discouragement -> Failure" },
-          { "name": "Encouragement (Perceived) -> Success" }
-        ]
-      },
-      {
-        "name": "The Lesson",
-        "children": [
-          { "name": "Words have Power" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Dangerous Fall",
-      "description": "While playing, two unsuspecting frogs fall into a deep pot of milk, unable to get out.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Two+Frogs+Fall+in+Milk",
-      "imageAlt": "Two frogs splashing inside a large pot of milk."
-    },
-    {
-      "title": "A Chorus of Despair",
-      "description": "The other frogs gather around the pot, but seeing the situation, they shout down that it is hopeless and the trapped frogs should give up.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=The+Frogs+Shout+Hopelessness",
-      "imageAlt": "A group of frogs looking down into a pot, with expressions of despair."
-    },
-    {
-      "title": "One Gives Up",
-      "description": "Hearing the constant discouragement from his friends, one of the frogs loses all hope, stops struggling, and tragically drowns.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=One+Frog+Loses+Hope",
-      "imageAlt": "One frog sinking to the bottom of the milk pot while the other continues to jump."
-    },
-    {
-      "title": "Perceived Encouragement",
-      "description": "The second frog, who is deaf, sees the commotion and misinterprets the shouting as cheers, inspiring him to jump even harder.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Deaf+Frog+Jumps+Harder",
-      "imageAlt": "A determined frog jumping vigorously in the milk, looking up at what it thinks are cheering friends."
-    },
-    {
-      "title": "A Miraculous Transformation",
-      "description": "The relentless jumping churns the milk, creating a solid platform of butter in the middle of the pot.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Milk+Turns+to+Butter",
-      "imageAlt": "A solid pat of yellow butter floating in the pot of milk."
-    },
-    {
-      "title": "A Leap to Freedom",
-      "description": "Using the newly formed butter as leverage, the deaf frog makes one final, mighty leap and escapes the pot, thanks to what he thought was encouragement.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Frog+Leaps+to+Safety",
-      "imageAlt": "A frog leaping out of the top of the milk pot."
-    }
-  ]
+"title":"The Story of the Two Frogs",
+"subtitle":"Section J.4 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"The Pot of Milk"
+ },
+ {
+"tagType":"p",
+"tagHTML":"A group of frogs were playing when two of them accidentally fell into a deep pot of milk. The other frogs gathered around, but seeing how deep the pot was, they quickly gave up hope. They began to shout down to their trapped companions that the situation was hopeless and that they should <span class=\"highlight\">prepare themselves for their fate.</span>"
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Struggle for Survival"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z\" clip-rule=\"evenodd\" /></svg>Unwilling to give up, the two frogs in the pot began to jump with all their might. The chorus of frogs above continued to yell that it was hopeless and that they should save their energy and just die. One of the trapped frogs, exhausted and disheartened by the constant discouragement, finally <span class=\"highlight\">took heed to their calls</span>. He stopped jumping, gave up, and drowned."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Power of Perception"
+ },
+ {
+"tagType":"p",
+"tagHTML":"The second frog, however, continued to jump harder and harder, despite his pain and exhaustion. The frogs above yelled even louder for him to stop. But this frog kept going, and his constant churning motion eventually turned the milk into a solid pat of butter. He was able to stand on the butter and, with one final leap, jumped out of the pot."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The other frogs celebrated and asked him why he didn't listen to their calls to give up. He thanked them profusely for all their encouragement. It turned out the frog who survived <span class=\"highlight\">was deaf!</span> He had seen their shouting and gestures and thought they were cheering him on, which inspired him to try harder and succeed."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Fall",
+"period":"Start of the story",
+"events": [
+ {
+"title":"An Unfortunate Accident",
+"description":"Two frogs, while playing on a farm, fall into a deep pot of milk.",
+"characters": ["The Two Frogs"]
+ },
+ {
+"title":"A Hopeless Verdict",
+"description":"The other frogs gather around but quickly decide the situation is hopeless and tell the trapped frogs they are as good as dead.",
+"characters": ["The Chorus of Frogs"]
+ }
+ ]
+ },
+ {
+"era":"The Struggle",
+"period":"Inside the pot",
+"events": [
+ {
+"title":"A Fight for Life",
+"description":"Unwilling to accept their fate, the two frogs begin to jump with all their might.",
+"characters": ["The Two Frogs"]
+ },
+ {
+"title":"Constant Discouragement",
+"description":"The chorus of frogs continues to shout that it's useless and that they should give up.",
+"characters": ["The Chorus of Frogs"]
+ },
+ {
+"title":"One Gives Up",
+"description":"Exhausted and disheartened by the negative calls, one of the frogs stops jumping and drowns.",
+"characters": ["The Discouraged Frog","The Chorus of Frogs"]
+ }
+ ]
+ },
+ {
+"era":"The Outcome",
+"period":"The Final Moments",
+"events": [
+ {
+"title":"Perseverance",
+"description":"The second frog continues to jump harder and harder, ignoring the calls from above.",
+"characters": ["The Deaf Frog"]
+ },
+ {
+"title":"An Unexpected Result",
+"description":"The frog's relentless jumping churns the milk into a solid pat of butter.",
+"characters": ["The Deaf Frog"]
+ },
+ {
+"title":"A Leap to Freedom",
+"description":"Using the butter as a platform, the frog leaps out of the pot. It is revealed that he is deaf and thought the shouting was encouragement.",
+"characters": ["The Deaf Frog","The Chorus of Frogs"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"The Deaf Frog",
+"description":"One of the two frogs who fell into the pot. Because he was deaf, he misinterpreted the other frogs' discouragement as encouragement, which inspired him to persevere and ultimately save himself."
+ },
+ {
+"name":"The Discouraged Frog",
+"description":"The other frog who fell into the pot. He listened to the hopeless cries of his companions, lost his will to continue, and gave up."
+ },
+ {
+"name":"The Chorus of Frogs",
+"description":"The group of frogs outside the pot. Despite their intentions, their negative and discouraging words contributed to the death of one frog and nearly stopped the other."
+ }
+ ],
+"quizData": [
+ {"question":"What did the two frogs fall into?","answer":"A pot of milk." },
+ {"question":"What did the other frogs who gathered around the pot initially believe?","answer":"That the situation was hopeless and the two frogs were doomed." },
+ {"question":"What did the two trapped frogs do in response to their situation?","answer":"They began to jump with all their might." },
+ {"question":"Why did the first frog give up and drown?","answer":"He became exhausted and took heed of the other frogs' calls that it was hopeless." },
+ {"question":"What did the second frog keep doing, despite the shouts from above?","answer":"He continued to jump as hard as he could." },
+ {"question":"What was the result of the second frog's continuous jumping?","answer":"His movement churned the milk into a solid pat of butter." },
+ {"question":"How did the butter help the frog escape?","answer":"It created a solid platform for him to stand on and leap out of the pot." },
+ {"question":"What was the surviving frog's physical condition that changed his perception of events?","answer":"He was deaf." },
+ {"question":"How did the deaf frog interpret the shouting and gestures of his companions?","answer":"He thought they were cheering him on and encouraging him." },
+ {"question":"What did this perceived encouragement inspire the deaf frog to do?","answer":"To try harder and eventually succeed." },
+ {"question":"What does the moral of the story say is in the'power of the tongue'?","answer":"Death and life." },
+ {"question":"According to the story, what can your encouraging words do for someone?","answer":"Lift them up and help them make it through the day." },
+ {"question":"What can destructive or careless words do to someone?","answer":"Cause deep wounds, destroy their desire to continue trying, or diminish them in the eyes of others." },
+ {"question":"The story serves as a reminder to be careful about what?","answer":"What you say, because there is enormous power in words." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of the Two Frogs",
+"children": [
+ {
+"name":"The Predicament",
+"children": [
+ {"name":"Fall into a Pot of Milk" },
+ {"name":"Friends Declare it Hopeless" }
+ ]
+ },
+ {
+"name":"The Two Responses",
+"children": [
+ {
+"name":"Frog 1: Listens to Discouragement",
+"children": [
+ {"name":"Loses Hope" },
+ {"name":"Gives Up and Drowns" }
+ ]
+ },
+ {
+"name":"Frog 2: Misinterprets as Encouragement",
+"children": [
+ {"name":"Is Deaf" },
+ {"name":"Jumps Harder" }
+ ]
+ }
+ ]
+ },
+ {
+"name":"The Outcome",
+"children": [
+ {"name":"Milk Churns into Butter" },
+ {"name":"The Deaf Frog Escapes" }
+ ]
+ },
+ {
+"name":"The Moral",
+"children": [
+ {"name":"The Power of Words" },
+ {"name":"Encouragement vs. Discouragement" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Perception is Reality",
+"children": [
+ {
+"name":"The Challenge",
+"children": [
+ {"name":"Trapped in Milk" }
+ ]
+ },
+ {
+"name":"The External Input",
+"children": [
+ {"name":"Negative Shouting" }
+ ]
+ },
+ {
+"name":"Two Interpretations",
+"children": [
+ {"name":"Discouragement -> Failure" },
+ {"name":"Encouragement (Perceived) -> Success" }
+ ]
+ },
+ {
+"name":"The Lesson",
+"children": [
+ {"name":"Words have Power" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Dangerous Fall",
+"description":"While playing, two unsuspecting frogs fall into a deep pot of milk, unable to get out.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Two+Frogs+Fall+in+Milk",
+"imageAlt":"Two frogs splashing inside a large pot of milk."
+ },
+ {
+"title":"A Chorus of Despair",
+"description":"The other frogs gather around the pot, but seeing the situation, they shout down that it is hopeless and the trapped frogs should give up.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=The+Frogs+Shout+Hopelessness",
+"imageAlt":"A group of frogs looking down into a pot, with expressions of despair."
+ },
+ {
+"title":"One Gives Up",
+"description":"Hearing the constant discouragement from his friends, one of the frogs loses all hope, stops struggling, and tragically drowns.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=One+Frog+Loses+Hope",
+"imageAlt":"One frog sinking to the bottom of the milk pot while the other continues to jump."
+ },
+ {
+"title":"Perceived Encouragement",
+"description":"The second frog, who is deaf, sees the commotion and misinterprets the shouting as cheers, inspiring him to jump even harder.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=The+Deaf+Frog+Jumps+Harder",
+"imageAlt":"A determined frog jumping vigorously in the milk, looking up at what it thinks are cheering friends."
+ },
+ {
+"title":"A Miraculous Transformation",
+"description":"The relentless jumping churns the milk, creating a solid platform of butter in the middle of the pot.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Milk+Turns+to+Butter",
+"imageAlt":"A solid pat of yellow butter floating in the pot of milk."
+ },
+ {
+"title":"A Leap to Freedom",
+"description":"Using the newly formed butter as leverage, the deaf frog makes one final, mighty leap and escapes the pot, thanks to what he thought was encouragement.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Frog+Leaps+to+Safety",
+"imageAlt":"A frog leaping out of the top of the milk pot."
+ }
+ ]
 }

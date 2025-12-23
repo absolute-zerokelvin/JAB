@@ -1,0 +1,309 @@
+{
+"tabView": true,
+"pageTitle":"Jain Scriptures (Ägam Literature)",
+"sectionTitle":"L.2: Jain Scriptures (Ägam Literature)",
+"pageSubtitle":"An Interactive Study Guide for Section L.2 of JAB Manual",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"What are Jain Scriptures?"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jain scriptures are called <b class=\"font-semibold \">Ägam Literature</b>. They are not a single book like in some other religions, but a collection of many texts. These texts contain the teachings of Bhagawän Mahävir, which were delivered in the Ardha-Mägadhi language about 2600 years ago."
+ },
+ {
+"tagType":"p",
+"tagHTML":"His chief disciples, known as <b class=\"font-semibold \">Ganadhars</b>, compiled the essence of his sermons into texts called Sutras. For a long time, this knowledge was passed down orally by monks who memorized everything."
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class=\"callout-blue\"><h3 class=\"font-bold \">Core Teachings in the Ägams:</h3><ul class=\"list-disc list-inside mt-2 space-y-1\"><li><b class=\"font-semibold \">Anekäntaväd:</b> The principle of seeing truth from many viewpoints.</li><li><b class=\"font-semibold \">Ahimsa:</b> Non-violence and reverence for all forms of life.</li><li><b class=\"font-semibold \">Aparigraha:</b> Non-possessiveness and limiting one's desires.</li><li><b class=\"font-semibold \">Karma Theory:</b> The law of cause and effect.</li><li>Codes of conduct for both monks and householders.</li></ul></div>"
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Scripture Map",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Classification of Jain Ägam Literature"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Jain scriptures are broadly divided into two main categories. This chart shows the high-level structure recognized by the Shvetämbar tradition."
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class=\"grid grid-cols-1 md:grid-cols-2 gap-8 mt-6\"><div class=\"border-2 border-blue-300 p-4 rounded-lg shadow-md text-center \"><h3 class=\"font-bold text-lg \">1. Anga-pravishtha Ägam</h3><p class=\"text-sm mt-1\">Main texts compiled by the Ganadhars.</p><div class=\"mt-4 p-3 rounded-lg\"><p class=\"font-semibold\">Total: 12 Ägams</p><p class=\"text-sm\">Only 11 are available today. The 12th, <b class=\"font-semibold \">Drashtiväd</b>, is considered lost by all traditions.</p></div></div><div class=\"border-2 border-blue-300 p-4 rounded-lg shadow-md text-center \"><h3 class=\"font-bold text-lg \">2. Anga-bähya Ägam</h3><p class=\"text-sm mt-1\">Explanations and secondary texts composed by elder monks (Sthavirs).</p><div class=\"mt-4 p-3 rounded-lg\"><p class=\"font-semibold\">Sub-categories (Shvetämbar Murtipujak):</p><ul class=\"text-sm list-disc list-inside text-left ml-4 mt-2\"><li>Upänga Ägam (12)</li><li>Chheda-sutra (6)</li><li>Mool-sutra (4)</li><li>Chulikä-sutra (2)</li><li>Prakirna-sutra (10)</li></ul></div></div></div>"
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class=\"mt-6 border-l-4 border-amber-500 p-4 rounded-r-lg\"><h3 class=\"font-bold \">Digambar Tradition Viewpoint</h3><p class=\"text-amber-800 mt-1\">The Digambar tradition believes that all original Ägam Sutras were lost over time. They follow later scriptures written by great Ächäryas like Kundkund and Umäsväti, which are based on the original teachings.</p></div>"
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Important Ächäryas",
+"contentType":"accordian",
+"tabData": {
+"items": [
+ {
+"header":"1. Keval-jnäni Ächäryas (The Omniscient)",
+"content":"<p class=\" mb-3\">These masters had attained perfect, complete knowledge (Keval-jnän), just like the Tirthankars.</p><ul class=\"list-disc list-inside space-y-1 \"><li><b class=\"font-semibold \">Gautam-swämi</b> (Digambar tradition)</li><li><b class=\"font-semibold \">Sudharmä-swämi</b></li><li><b class=\"font-semibold \">Jambu-swämi</b> (The last Keval-jnäni)</li></ul>"
+ },
+ {
+"header":"2. Shrut-kevali Ächäryas (Masters of Scripture)",
+"content":"<p class=\" mb-3\">These masters knew all 12 Angas and 14 Purvas by heart. They were the bridge after the Keval-jnänis.</p><ul class=\"list-disc list-inside space-y-1 \"><li><b class=\"font-semibold \">Bhadrabähu:</b> A very important Shrut-kevali. He knew the entire Drashtiväd. He led a migration to the south during a famine.</li><li>Sambhutivijay</li><li>Yashobhadra</li></ul>"
+ },
+ {
+"header":"3. Das-purvi Ächäryas (Masters of Ten Purvas)",
+"content":"<p class=\" mb-3\">As time passed, memorization became harder. These Ächäryas knew 11 Angas and the first 10 Purvas.</p><ul class=\"list-disc list-inside space-y-1 \"><li><b class=\"font-semibold \">Ärya Sthulibhadra:</b> He was a disciple of Ächärya Bhadrabähu and led the first council at Pätliputra to consolidate the scriptures after the famine.</li></ul>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"The Three Recensions",
+"contentType":"accordian",
+"tabData": {
+"items": [
+ {
+"header":"1. First Recension: Pätliputra",
+"content":"<p class=\" mb-3\">This council was called to organize the scriptures after a major famine disrupted the oral tradition.</p><ul class=\"list-disc list-inside space-y-2 \"><li><span class=\"font-semibold\">When:</span> Approx. 367 BC. (After <span class=\"font-semibold \">160 years</span> of Bhagwan Mahavir's Nirvan)</li><li><span class=\"font-semibold\">Leading Ächärya:</span> Ächärya Sthulibhadra.</li><li><span class=\"font-semibold\">Main Outcome:</span> The monks gathered and recalled eleven of the twelve Anga Ägams. The 12th Anga, Drashtiväd, could not be fully recalled. No documentation occurred yet.</li></ul>"
+ },
+ {
+"header":"2. Second Recension: Mathurä & Vallabhi",
+"content":"<p class=\" mb-3\">Hundreds of years later, two separate councils were held around the same time to address variations that had crept into the oral traditions.</p><ul class=\"list-disc list-inside space-y-2 \"><li><span class=\"font-semibold\">When:</span> Approx. 303 AD.(After <span class=\"font-semibold \">830 years</span> of Bhagwan Mahavir's Nirvan)</li><li><span class=\"font-semibold\">Leading Ächäryas:</span> Ärya Skandil in Mathurä and Ächärya Nägärjun in Vallabhi.</li><li><span class=\"font-semibold\">Main Outcome:</span> The versions of the scriptures were collected, arranged, and corrected. This was a crucial step towards writing them down.</li></ul>"
+ },
+ {
+"header":"3. Third Recension: Vallabhi",
+"content":"<p class=\" mb-3\">This was the final and most important council, where the Jain Ägams were documented in written form on palm leaves (Tädpatris) for the first time.</p><ul class=\"list-disc list-inside space-y-2 \"><li><span class=\"font-semibold\">When:</span> Approx. 453 AD.(After <span class=\"font-semibold \">980 years</span> of Bhagwan Mahavir's Nirvan)</li><li><span class=\"font-semibold\">Leading Ächärya:</span> Kshamä-shraman Devarddhigani.</li><li><span class=\"font-semibold\">Main Outcome:</span> All available scriptures were documented to bring uniformity. Importantly, where differences in readings still existed, they were documented as commentaries known as <b class=\"font-semibold \">Churni</b> and <b class=\"font-semibold \">Tikä</b>.</li></ul>"
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Purvas & Agams",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Scripture Classifications & Mnemonics"
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class=\"space-y-6\"><div class=\" callout-blue\"><h3 class=\"text-xl font-bold text-blue-600\">Group 1: Foundational Concepts (Purvas 1-4)</h3><p class=\"mt-2 mb-4 italic \">Think of these as the basic building blocks of Jain philosophy.</p><ol class=\"list-decimal list-inside space-y-3\"><li><strong>Utpād Purva:</strong> On the **U**niverse of living (Jiva) and non-living (Ajiva).</li><li><strong>Agrāyanīya Purva:</strong> On **A**ll **G**reat **R**ealities (Navatattva) and Substances.</li><li><strong>Vīrya-pravād Purva:</strong> On the **V**ital **E**nergy of the soul and non-living.</li><li><strong>Astināsti-pravād Purva:</strong> On **A**ll **S**ides of the **T**ruth (Anekāntavāda).</li></ol><p class=\"mt-4 p-3 rounded-lg font-mono text-sm \"><strong>Story:</strong> \"The **U**niverse contains **A**ll **G**reat **R**ealities, powered by **V**ital **E**nergy, which must be seen from **A**ll **S**ides of the **T**ruth.\"</p></div><div class=\" callout-blue\"><h3 class=\"text-xl font-bold text-blue-600\">Group 2: The Path of Knowledge & Conduct (Purvas 5-9)</h3><p class=\"mt-2 mb-4 italic \">This is the'how-to' guide for a soul seeking liberation.</p><ol class=\"list-decimal list-inside space-y-3\" start=\"5\"><li><strong>Jnān-pravād Purva:</strong> On the 5 types of **Kn**owledge (sounds like Jnān).</li><li><strong>Satya-pravād Purva:</strong> On **S**peaking the **T**ruth and practicing restraint.</li><li><strong>Ātma-pravād Purva:</strong> On **A**nalyzing **T**he **M**any **A**spects of the soul.</li><li><strong>Karma-pravād Purva:</strong> On the workings of **Karma**.</li><li><strong>Pratyākhyān-pravād Purva:</strong> On **P**racticing **R**enunciation and giving things up.</li></ol><p class=\"mt-4 p-3 rounded-lg font-mono text-sm \"><strong>Story:</strong> \"With proper **Kn**owledge, you can speak the **T**ruth, **A**nalyze the **S**oul, understand **K**arma, and **P**ractice **R**enunciation.\"</p></div><div class=\" callout-blue\"><h3 class=\"text-xl font-bold text-blue-600\">Group 3: Special Abilities & Life (Purvas 10-14)</h3><p class=\"mt-2 mb-4 italic \">These cover advanced spiritual topics and knowledge of the world.</p><ol class=\"list-decimal list-inside space-y-3\" start=\"10\"><li><strong>Vidyā-pravād Purva:</strong> On attaining expertise and special **V**arious **I**ntellectual **D**isciplines (Vidyā).</li><li><strong>Kalyān-pravād Purva:</strong> On spiritual welfare (**Kalyān**), alertness, and avoiding laziness.</li><li><strong>Prānāvāy Purva:</strong> On life substances (**Prāna**) and life spans.</li><li><strong>Kriyā-vishāl Purva:</strong> On worldly skills and **Cr**eative **A**rts (Kriyā).</li><li><strong>Loka-bindusär Purva:</strong> On the **L**ayout of the **B**oundless **S**pace (Loka).</li></ol><p class=\"mt-4 p-3 rounded-lg font-mono text-sm \"><strong>Story:</strong> \"Master **V**arious **D**isciplines for your **K**alyān, understand **P**rāna, learn the **C**reative **A**rts, and know the **L**ayout of the **U**niverse.\"</p></div></div>"
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Key Timeline",
+"contentType":"timeline",
+"tabData": [
+ {
+"era":"Classical Era",
+"events": [
+ {
+"title":"~367 BC",
+"description":"First Recension held at Pätliputra, led by Ächärya Sthulibhadra to compile 11 Angas orally."
+ },
+ {
+"title":"~100 AD",
+"description":"Ächärya Kundkund writes key Digambar texts like Samaysär and Pravachansär."
+ },
+ {
+"title":"~160 AD",
+"description":"Ächäryas Pushpadanta and Bhutabali write Shatakhandägam, a main Digambar text."
+ },
+ {
+"title":"~200-400 AD",
+"description":"Ächärya Umäsväti composes the Tattvärtha Sutra, the first Jain scripture in Sanskrit, accepted by all sects."
+ },
+ {
+"title":"~303 AD",
+"description":"Second Recension takes place simultaneously in Mathurä and Vallabhi."
+ },
+ {
+"title":"~453 AD",
+"description":"Third and final Recension held in Vallabhi, led by Devarddhigani Kshamä-shraman. Scriptures are written down for the first time."
+ },
+ {
+"title":"~780 AD",
+"description":"Ächärya Virsen and Jinsen write the Dhavalä and Jayadhavalä commentaries on the Digambar scriptures."
+ }
+ ]
+ },
+ {
+"era":"Modern Era",
+"events": [
+ {
+"title":"1974 AD",
+"description":"Saman-Suttam is created, a compilation of essential principles from all Jain traditions for the 2500th Nirväna anniversary of Bhagawän Mahävir."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Word Clouds",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Visual Word Clouds"
+ },
+ {
+"tagType":"p",
+"tagHTML":"These word clouds highlight the key names that appear frequently in the study of Jain literature. Bigger words signify greater importance or frequency in the texts."
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class=\"grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-12 mt-8\"><div class=\"flex flex-col\"><h3 class=\"text-2xl font-bold mb-6 text-center\">Important Ächäryas</h3><div class=\"word-cloud-container \"> <span class=\"wc-size-5\">Bhadrabähu</span> <span class=\"wc-size-5\">Umäsväti</span> <span class=\"wc-size-4\">Kundkund</span> <span class\"wc-size-4\">Sthulibhadra</span> <span class=\"wc-size-3\">Devarddhigani</span> <span class=\"wc-size-3\">Sudharmä-swämi</span> <span class=\"wc-size-2\">Jambu-swämi</span> <span class=\"wc-size-2\">Ärya Skandil</span> <span class=\"wc-size-1\">Haribhadra-suri</span> <span class=\"wc-size-3\">Nägärjun</span> <span class=\"wc-size-2\">Virsen</span> <span class=\"wc-size-1\">Jinsen</span> <span class=\"wc-size-2\">Samantabhadra</span> </div></div><div class=\"flex flex-col\"><h3 class=\"text-2xl font-bold mb-6 text-center\">Scriptures & Sutras</h3><div class=\"word-cloud-container \"> <span class=\"wc-size-5\">Tattvärtha Sutra</span> <span class=\"wc-size-4\">Kalpa Sutra</span> <span class=\"wc-size-3\">Ächäränga</span> <span class=\"wc-size-4\">Samaysär</span> <span class=\"wc-size-2\">Drashtiväd</span> <span class=\"wc-size-3\">Bhagavati Sutra</span> <span class=\"wc-size-4\">Uttarädhyayan</span> <span class=\"wc-size-1\">Niryukti</span> <span class=\"wc-size-2\">Shatakhandägam</span> <span class=\"wc-size-1\">Churni</span> <span class=\"wc-size-3\">Pravachansär</span> <span class=\"wc-size-2\">Kashäy Pähuda</span> <span class=\"wc-size-1\">Tikä</span> </div></div></div>"
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Sacred Books",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Spotlight on Sacred Books"
+ },
+ {
+"tagType":"div",
+"tagHTML":"<div class=\"space-y-4\"><div class=\" p-5 border border-gray-200 rounded-lg shadow-sm\"><h3 class=\"font-bold text-xl \">Tattvärtha Sutra</h3><p class=\"font-semibold text-blue-600\">By Ächärya Umäsväti</p><p class=\"mt-2 \">This is the most important Jain text today, accepted by <b class=\"font-bold text-red-600\">ALL</b> Jain traditions. It summarizes the entire Jain philosophy in a series of short, powerful aphorisms (sutras). Its first sutra is: <span class=\"font-semibold italic\">\"Samyag-darshan-jnän-chäriträni Moksh Märgah\"</span>.</p></div><div class=\" p-5 border border-gray-200 rounded-lg shadow-sm\"><h3 class=\"font-bold text-xl \">Uttarädhyayan Sutra</h3><p class=\"font-semibold text-blue-600\">Ägam Literature (Mool Sutra)</p><p class=\"mt-2 \">Contains the last sermons of Bhagawän Mahävir. It uses stories and dialogues to teach about ascetic life, karma, and religious principles.</p></div><div class=\" p-5 border border-gray-200 rounded-lg shadow-sm\"><h3 class=\"font-bold text-xl \">Kalpa Sutra</h3><p class=\"font-semibold text-blue-600\">Ägam Literature (part of Chheda Sutra)</p><p class=\"mt-2 \">Composed by Ächärya Bhadrabähu, recited during Paryushan. Contains biographies of the Tirthankars, especially Bhagawän Mahävir.</p></div><div class=\" p-5 border border-gray-200 rounded-lg shadow-sm\"><h3 class=\"font-bold text-xl \">Samaysär</h3><p class=\"font-semibold text-blue-600\">By Ächärya Kundkund</p><p class=\"mt-2 \">A highly sacred text for Digambars, focusing on the pure nature of the soul (Ätmä) from the absolute point of view.</p></div></div>"
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"questions": [
+ {
+"question":"What are Jain scriptures collectively known as?",
+"answer":"Ägam Literature"
+ },
+ {
+"question":"In what language did Bhagawän Mahävir deliver his sermons?",
+"answer":"Ardha-Mägadhi Präkrit"
+ },
+ {
+"question":"Who compiled Mahävir's sermons into Sutras?",
+"answer":"The Ganadhars (His immediate disciples)"
+ },
+ {
+"question":"How many Anga-pravishtha Ägams were there originally?",
+"answer":"12"
+ },
+ {
+"question":"Which Anga Ägam is considered lost by all traditions?",
+"answer":"The 12th Anga, Drashtiväd"
+ },
+ {
+"question":"Who wrote the Tattvärtha Sutra, a book accepted by all Jain sects?",
+"answer":"Ächärya Umäsväti"
+ },
+ {
+"question":"Who was the leading Ächärya of the first recension at Pätliputra?",
+"answer":"Ächärya Sthulibhadra"
+ },
+ {
+"question":"During which recension were the Jain scriptures first written down?",
+"answer":"The Third Recension at Vallabhi"
+ },
+ {
+"question":"What is the collective name for the 12 Upänga, 6 Chheda, 4 Mool, 2 Chulikä, and 10 Prakirna sutras?",
+"answer":"Anga-bähya Ägam"
+ },
+ {
+"question":"Name the revered Digambar Ächärya who wrote Samaysär and Pravachansär.",
+"answer":"Ächärya Kundkund"
+ },
+ {
+"question":"How many Upänga Ägams are there?",
+"answer":"12"
+ },
+ {
+"question":"How many Mool-sutras are there?",
+"answer":"4"
+ },
+ {
+"question":"Which scripture is famously recited during Paryushan?",
+"answer":"Kalpa Sutra"
+ },
+ {
+"question":"The Digambar tradition follows literature written by great what?",
+"answer":"Ächäryas"
+ },
+ {
+"question":"What does'Anga-pravishtha' mean?",
+"answer":"Main canons composed by the Ganadhars"
+ },
+ {
+"question":"What does'Anga-bähya' mean?",
+"answer":"Secondary texts composed by elder monks"
+ },
+ {
+"question":"The first sutra of Tattvärtha Sutra mentions the path to what?",
+"answer":"Moksh (liberation)"
+ },
+ {
+"question":"Which Ägam describes the conduct of ascetics and the penance of Mahävir?",
+"answer":"Ächäränga Sutra"
+ },
+ {
+"question":"Which Ägam explains Jain principles through examples and stories?",
+"answer":"Jnätä-dharma-kathänga Sutra"
+ },
+ {
+"question":"Which scripture contains the last sermons of Bhagawän Mahävir?",
+"answer":"Uttarädhyayan Sutra"
+ }
+ ]
+ }
+ }
+ ]
+}

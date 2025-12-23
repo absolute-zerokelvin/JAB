@@ -1,132 +1,132 @@
 {
-    "sectionTitle": "C.4: Leshyä (State of Mind)",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "Leshyä: The Color of Your Thoughts"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "<b>Leshyä</b> means state of mind. Jainism places great importance on our mental state, as our thoughts and intentions determine the type of karma we accumulate, often more so than the actions themselves. The famous story of six friends finding a fruit tree illustrates the six types of Leshyä. Their thoughts ranged from cutting down the whole tree (worst Leshyä) to just picking up the fruit that had already fallen (best Leshyä)."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "The six Leshyäs represent different levels of purity in our thoughts. The first three (Krishna, Neel, Käpot) are inauspicious and lead to ruin, while the last three (Tejo, Padma, Shukla) are auspicious and lead to spiritual progress."
-          }
-        ]
-      },
-      {
-        "tabName": "The Six Leshyäs",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Understanding the States of Mind",
-          "description": "Each Leshyä is associated with specific traits and karmic outcomes.",
-          "items": [
-            {
-              "header": "1. Krishna (Black) Leshyä",
-              "content": "This is the worst state of mind. A person with this Leshyä shows no compassion or mercy, is full of anger, jealousy, and malice, and does not believe in spirituality. Dying in this state leads to a rebirth in hell."
-            },
-            {
-              "header": "2. Neel (Blue) Leshyä",
-              "content": "A person in this state is proud, arrogant, lazy, and untrustworthy. They are often cheaters and hypocrites who avoid religious discourse. Dying in this state leads to a rebirth as a one-sensed being (like a plant)."
-            },
-            {
-              "header": "3. Käpot (Gray) Leshyä",
-              "content": "This state of mind is characterized by sadness, gloominess, fault-finding, and anger over small matters. It lacks mental balance. Dying in this state leads to a rebirth as an animal, bird, or insect."
-            },
-            {
-              "header": "4. Tejo (Red) Leshyä",
-              "content": "This is the first auspicious state. A person here is careful, can discriminate between right and wrong, and is kind and religious. Dying in this state leads to a rebirth as a human being."
-            },
-            {
-              "header": "5. Padma (Yellow) Leshyä",
-              "content": "A person in this state is kind, benevolent, and forgiving. They observe austerities, are vigilant about their vows, and remain unaffected by joy or sorrow. Dying in this state leads to a rebirth in heaven as a celestial being."
-            },
-            {
-              "header": "6. Shukla (White) Leshyä",
-              "content": "This is the purest state of mind. At its lower level, one strictly observes the five great vows. At its highest level, one is completely free from attachment and hatred, treating everything with perfect equanimity. Dying in this perfect state leads to liberation (Moksh)."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Leshyä Summary",
-        "contentType": "table",
-        "tabData": {
-          "headers": ["Leshyä", "Color", "Characteristics", "Outcome if one dies in this state"],
-          "rows": [
-            ["Krishna", "Black", "Violent, cruel, no mercy, jealous, malicious", "Rebirth in Hell"],
-            ["Neel", "Blue", "Proud, arrogant, lazy, untrustworthy, cheat", "Rebirth as a one-sensed being"],
-            ["Käpot", "Gray", "Sad, gloomy, fault-finding, vindictive, angry", "Rebirth as an animal/insect"],
-            ["Tejo", "Red", "Careful, discriminates right/wrong, kind, religious", "Rebirth as a human being"],
-            ["Padma", "Yellow", "Kind, benevolent, forgiving, observes vows", "Rebirth as a celestial being (Dev)"],
-            ["Shukla", "White", "No attachment or hatred, equanimity, pure", "Liberation (Moksh) or rebirth as human/celestial"]
-          ]
-        }
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Leshyäs",
-          "questions": [
-            {
-              "question": "Which Leshyä is the worst and most dangerous state of mind?",
-              "options": [
-                "Neel (Blue)",
-                "Käpot (Gray)",
-                "Krishna (Black)",
-                "Tejo (Red)"
-              ],
-              "answer": "Krishna (Black)"
-            },
-            {
-              "question": "If a person dies in Tejo (Red) Leshyä, where will they likely be reborn?",
-              "options": [
-                "In hell",
-                "As an animal",
-                "As a human being",
-                "In heaven as a celestial being"
-              ],
-              "answer": "As a human being"
-            },
-            {
-              "question": "Which state of mind is characterized by pride, arrogance, and laziness?",
-              "options": [
-                "Padma (Yellow)",
-                "Neel (Blue)",
-                "Shukla (White)",
-                "Käpot (Gray)"
-              ],
-              "answer": "Neel (Blue)"
-            },
-            {
-              "question": "What is the purest state of mind that can lead directly to liberation (Moksh)?",
-              "options": [
-                "Tejo (Red) Leshyä",
-                "Padma (Yellow) Leshyä",
-                "Shukla (White) Leshyä",
-                "Maitri Bhävanä"
-              ],
-              "answer": "Shukla (White) Leshyä"
-            },
-            {
-              "question": "In the story of the six friends, who represented the best Leshyä (Shukla)?",
-              "options": [
-                "The one who wanted to cut down the tree",
-                "The one who wanted to climb the tree",
-                "The one who wanted to pick just enough fruit to eat",
-                "The one who wanted to eat the fruit that had already fallen"
-              ],
-              "answer": "The one who wanted to eat the fruit that had already fallen"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"C.4: Leshyä (State of Mind)",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"Leshyä: The Color of Your Thoughts"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<b>Leshyä</b> means state of mind. Jainism places great importance on our mental state, as our thoughts and intentions determine the type of karma we accumulate, often more so than the actions themselves. The famous story of six friends finding a fruit tree illustrates the six types of Leshyä. Their thoughts ranged from cutting down the whole tree (worst Leshyä) to just picking up the fruit that had already fallen (best Leshyä)."
+ },
+ {
+"tagType":"p",
+"tagHTML":"The six Leshyäs represent different levels of purity in our thoughts. The first three (Krishna, Neel, Käpot) are inauspicious and lead to ruin, while the last three (Tejo, Padma, Shukla) are auspicious and lead to spiritual progress."
+ }
+ ]
+ },
+ {
+"tabName":"The Six Leshyäs",
+"contentType":"accordian",
+"tabData": {
+"title":"Understanding the States of Mind",
+"description":"Each Leshyä is associated with specific traits and karmic outcomes.",
+"items": [
+ {
+"header":"1. Krishna (Black) Leshyä",
+"content":"This is the worst state of mind. A person with this Leshyä shows no compassion or mercy, is full of anger, jealousy, and malice, and does not believe in spirituality. Dying in this state leads to a rebirth in hell."
+ },
+ {
+"header":"2. Neel (Blue) Leshyä",
+"content":"A person in this state is proud, arrogant, lazy, and untrustworthy. They are often cheaters and hypocrites who avoid religious discourse. Dying in this state leads to a rebirth as a one-sensed being (like a plant)."
+ },
+ {
+"header":"3. Käpot (Gray) Leshyä",
+"content":"This state of mind is characterized by sadness, gloominess, fault-finding, and anger over small matters. It lacks mental balance. Dying in this state leads to a rebirth as an animal, bird, or insect."
+ },
+ {
+"header":"4. Tejo (Red) Leshyä",
+"content":"This is the first auspicious state. A person here is careful, can discriminate between right and wrong, and is kind and religious. Dying in this state leads to a rebirth as a human being."
+ },
+ {
+"header":"5. Padma (Yellow) Leshyä",
+"content":"A person in this state is kind, benevolent, and forgiving. They observe austerities, are vigilant about their vows, and remain unaffected by joy or sorrow. Dying in this state leads to a rebirth in heaven as a celestial being."
+ },
+ {
+"header":"6. Shukla (White) Leshyä",
+"content":"This is the purest state of mind. At its lower level, one strictly observes the five great vows. At its highest level, one is completely free from attachment and hatred, treating everything with perfect equanimity. Dying in this perfect state leads to liberation (Moksh)."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Leshyä Summary",
+"contentType":"table",
+"tabData": {
+"headers": ["Leshyä","Color","Characteristics","Outcome if one dies in this state"],
+"rows": [
+ ["Krishna","Black","Violent, cruel, no mercy, jealous, malicious","Rebirth in Hell"],
+ ["Neel","Blue","Proud, arrogant, lazy, untrustworthy, cheat","Rebirth as a one-sensed being"],
+ ["Käpot","Gray","Sad, gloomy, fault-finding, vindictive, angry","Rebirth as an animal/insect"],
+ ["Tejo","Red","Careful, discriminates right/wrong, kind, religious","Rebirth as a human being"],
+ ["Padma","Yellow","Kind, benevolent, forgiving, observes vows","Rebirth as a celestial being (Dev)"],
+ ["Shukla","White","No attachment or hatred, equanimity, pure","Liberation (Moksh) or rebirth as human/celestial"]
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Leshyäs",
+"questions": [
+ {
+"question":"Which Leshyä is the worst and most dangerous state of mind?",
+"options": [
+"Neel (Blue)",
+"Käpot (Gray)",
+"Krishna (Black)",
+"Tejo (Red)"
+ ],
+"answer":"Krishna (Black)"
+ },
+ {
+"question":"If a person dies in Tejo (Red) Leshyä, where will they likely be reborn?",
+"options": [
+"In hell",
+"As an animal",
+"As a human being",
+"In heaven as a celestial being"
+ ],
+"answer":"As a human being"
+ },
+ {
+"question":"Which state of mind is characterized by pride, arrogance, and laziness?",
+"options": [
+"Padma (Yellow)",
+"Neel (Blue)",
+"Shukla (White)",
+"Käpot (Gray)"
+ ],
+"answer":"Neel (Blue)"
+ },
+ {
+"question":"What is the purest state of mind that can lead directly to liberation (Moksh)?",
+"options": [
+"Tejo (Red) Leshyä",
+"Padma (Yellow) Leshyä",
+"Shukla (White) Leshyä",
+"Maitri Bhävanä"
+ ],
+"answer":"Shukla (White) Leshyä"
+ },
+ {
+"question":"In the story of the six friends, who represented the best Leshyä (Shukla)?",
+"options": [
+"The one who wanted to cut down the tree",
+"The one who wanted to climb the tree",
+"The one who wanted to pick just enough fruit to eat",
+"The one who wanted to eat the fruit that had already fallen"
+ ],
+"answer":"The one who wanted to eat the fruit that had already fallen"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

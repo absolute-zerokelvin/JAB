@@ -1,493 +1,493 @@
 {
-    "tabView": true,
-    "pageTitle": "B.5 Shad Dravya II: Ajiva",
-    "sectionTitle": "B.5: Shad Dravya II: Ajiva",
-    "pageSubtitle": "An Interactive Study Guide",
-    "tabs": [
-        {
-            "tabName": "Welcome!",
-            "contentType": "text",
-            "tabData": [
-                {
-                    "tagType": "h2",
-                    "tagHTML": "What is Ajiva? 🤔"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "Ajiva means anything that is non-living. It doesn't have a soul (Jiva), so it can't feel happy or sad, and it doesn't have birth or death. Because it's inert (Achetan), it cannot accumulate any karma. Think of your toys, books, or a rock – they are all Ajiva!"
-                },
-                {
-                    "tagType": "p",
-                    "tagHTML": "These substances make up the universe along with Jiva (living beings). Let's explore the five types of Ajiva together!"
-                }
-            ]
-        },
-        {
-            "tabName": "5 Ajivas",
-            "contentType": "flashCards",
-            "tabData": [
-                {
-                    "title": "The 5 Types of Ajiva",
-                    "description": "Click on a card to flip and learn more about each Ajiva substance.",
-                    "frontColor": "#3b82f6",
-                    "backColor": "#2563eb",
-                    "flippable": true,
-                    "cards": [
-                        {
-                            "front": "Dharmästikäy",
-                            "back": "Medium of Motion - Helps souls and matter to move."
-                        },
-                        {
-                            "front": "Adharmästikäy",
-                            "back": "Medium of Rest - Helps souls and matter to rest."
-                        },
-                        {
-                            "front": "Äkäshästikäy",
-                            "back": "Space - Provides room for all other substances."
-                        },
-                        {
-                            "front": "Pudgalästikäy",
-                            "back": "Matter - Everything physical: sight, sound, taste, touch, smell."
-                        },
-                        {
-                            "front": "Käl",
-                            "back": "Time - Measures changes in the universe."
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "tabName": "Dharmästikäy",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "Dharmästikäy: The Medium of Motion 🏃‍♀️"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "This is what allows Jivas and Pudgal (matter) to move! It is made of two words: <strong>Dharma</strong> (medium of motion) + <strong>Astikäy</strong> (collection of spaces)."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "Key Facts",
-                            "items": [
-                                {
-                                    "header": "Characteristics of Dharmästikäy",
-                                    "content": "<ul class='list-disc pl-6 space-y-2'><li>It does not <strong>make</strong> things move, but it <strong>helps</strong> them move.</li><li>It exists in the entire cosmic universe (<strong>Lokäkäsh</strong>).</li><li>It is absent in the trans-cosmic space (<strong>Alokäkäsh</strong>).</li></ul>"
-                                },
-                                {
-                                    "header": "Analogy: The Fish and Water 🐠",
-                                    "content": "<p>Without water, a fish can't swim. Without Dharmästikäy, we couldn't move!</p>"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Adharmästikäy",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "Adharmästikäy: The Medium of Rest 😴"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "This substance helps moving things to stop and rest. It is made of two words: <strong>Adharma</strong> (medium of rest) + <strong>Astikäy</strong> (collection of spaces)."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "Key Facts",
-                            "items": [
-                                {
-                                    "header": "Characteristics of Adharmästikäy",
-                                    "content": "<ul class='list-disc pl-6 space-y-2'><li>It does not <strong>force</strong> things to rest, but it <strong>helps</strong> them rest.</li><li>Like Dharmästikäy, it exists in the <strong>Lokäkäsh</strong> but is absent in the <strong>Alokäkäsh</strong>.</li></ul>"
-                                },
-                                {
-                                    "header": "Analogy: The Traveler and the Tree 🌳",
-                                    "content": "<p>A tired traveler rests under the shade of a tree. The shade doesn't make them rest, but it helps them rest. Adharmästikäy is like that tree's shade for the universe!</p>"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Äkäshästikäy",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "Äkäshästikäy: Space 🌌"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "This is the space that gives room to all the other substances. It's everywhere! It is divided into two parts:"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "Types of Space",
-                            "items": [
-                                {
-                                    "header": "Lokäkäsh (Universe)",
-                                    "content": "<p>The part of space where all the other 5 substances exist. It contains:</p><ul class='list-disc pl-6 mt-2'><li><strong>Siddhashila</strong> - Abode of liberated beings (at the top)</li><li><strong>Devloka</strong> - Abode of celestial beings</li><li><strong>Middle World</strong> - Abode of Humans & Animals</li><li><strong>Naraka</strong> - Abode of Hellish beings (7 levels)</li></ul>"
-                                },
-                                {
-                                    "header": "Alokäkäsh (Empty Space)",
-                                    "content": "<p>The infinite, empty space beyond the Lokäkäsh. No souls, matter, or other substances exist here.</p>"
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Pudgalästikäy",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "Pudgalästikäy: Matter ✨"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "Pudgal is everything you can see, touch, taste, or smell! It's the only substance with a physical body. Sound, light, and even darkness are types of matter."
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "The word <strong>Pudgal</strong> comes from two words: <strong>Pud</strong> (combine) and <strong>Gal</strong> (dissociate). Matter can combine to form larger objects (<strong>Skandha</strong>) and break apart into the smallest indivisible particle (<strong>Paramänu</strong> or <strong>Anu</strong>)."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "8 Varganäs (Special Matter)",
-                                "description": "The soul interacts with these 8 special types of matter.",
-                                "frontColor": "#3b82f6",
-                                "backColor": "#2563eb",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "Audärik Varganä",
-                                        "back": "Makes a physical body for humans and animals."
-                                    },
-                                    {
-                                        "front": "Vaikriya Varganä",
-                                        "back": "Makes a special body for heavenly and infernal beings."
-                                    },
-                                    {
-                                        "front": "Ähärak Varganä",
-                                        "back": "Makes a special body for advanced monks to travel long distances."
-                                    },
-                                    {
-                                        "front": "Tejas Varganä",
-                                        "back": "Responsible for heat and digestion power."
-                                    },
-                                    {
-                                        "front": "Bhäshä Varganä",
-                                        "back": "Responsible for speech."
-                                    },
-                                    {
-                                        "front": "Mana Varganä",
-                                        "back": "Responsible for the physical mind."
-                                    },
-                                    {
-                                        "front": "Shväso-chchhväs Varganä",
-                                        "back": "Responsible for breathing."
-                                    },
-                                    {
-                                        "front": "Kärman Varganä",
-                                        "back": "Makes the Karmic body (our karma!)."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Käl",
-            "contentType": "mixed",
-            "tabData": {
-                "items": [
-                    {
-                        "type": "text",
-                        "data": [
-                            {
-                                "tagType": "h2",
-                                "tagHTML": "Käl: Time ⏳"
-                            },
-                            {
-                                "tagType": "p",
-                                "tagHTML": "Time measures changes. It's like a giant wheel (Kälchakra) that's always turning. Each full rotation of the Kälchakra consists of two half-cycles."
-                            }
-                        ]
-                    },
-                    {
-                        "type": "accordian",
-                        "data": {
-                            "title": "The Kälchakra (Wheel of Time)",
-                            "items": [
-                                {
-                                    "header": "Avasarpini (Descending Cycle)",
-                                    "content": "<p>The current half-cycle where conditions worsen over time. It has 6 Äräs (spokes):</p><ol class='list-decimal pl-6 mt-2 space-y-1'><li><strong>Sukham Sukham</strong> (Happy-Happy) - 4 KKS*</li><li><strong>Sukham</strong> (Happy) - 3 KKS*</li><li><strong>Sukham Dukham</strong> (Happy-Sad) - 2 KKS*</li><li><strong>Dukham Sukham</strong> (Sad-Happy) - 1 KKS*</li><li><strong>Dukham</strong> (Sad) - 21,000 Years (Current Ärä)</li><li><strong>Dukham Dukham</strong> (Sad-Sad) - 21,000 Years</li></ol><p class='text-xs mt-2'>*KKS = Kodä Kodi Sägaropam</p>"
-                                },
-                                {
-                                    "header": "Utsarpini (Ascending Cycle)",
-                                    "content": "<p>The half-cycle where conditions improve over time. Order is reversed from Avasarpini.</p><ol class='list-decimal pl-6 mt-2 space-y-1'><li><strong>Dukham Dukham</strong> (Sad-Sad) - 21,000 Years</li><li><strong>Dukham</strong> (Sad) - 21,000 Years</li><li><strong>Dukham Sukham</strong> (Sad-Happy) - 1 KKS*</li><li><strong>Sukham Dukham</strong> (Happy-Sad) - 2 KKS*</li><li><strong>Sukham</strong> (Happy) - 3 KKS*</li><li><strong>Sukham Sukham</strong> (Happy-Happy) - 4 KKS*</li></ol>"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "type": "flashCards",
-                        "data": [
-                            {
-                                "title": "Units of Time",
-                                "description": "From the smallest to the largest unit of time.",
-                                "frontColor": "#14b8a6",
-                                "backColor": "#0d9488",
-                                "flippable": true,
-                                "cards": [
-                                    {
-                                        "front": "Samay",
-                                        "back": "The smallest, indivisible portion of time."
-                                    },
-                                    {
-                                        "front": "Ävali",
-                                        "back": "Innumerable Samay (about the time to blink)."
-                                    },
-                                    {
-                                        "front": "Muhurt",
-                                        "back": "48 Minutes (16,777,216 Ävali)."
-                                    },
-                                    {
-                                        "front": "Purva",
-                                        "back": "70.56 Trillion Years."
-                                    },
-                                    {
-                                        "front": "Palyopam",
-                                        "back": "Innumerable years (time to empty a pit of hair tips, one every 100 years)."
-                                    },
-                                    {
-                                        "front": "Sägaropam",
-                                        "back": "10 Kodä Kodi Palyopam."
-                                    },
-                                    {
-                                        "front": "Avasarpini / Utsarpini",
-                                        "back": "10 Kodä Kodi Sägaropam (one half of the Kälchakra)."
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "tabName": "Quiz Time!",
-            "contentType": "quiz",
-            "tabData": {
-                "title": "Quiz Time! 🧠",
-                "questions": [
-                    {
-                        "question": "What does Ajiva literally mean?",
-                        "answer": "Without a soul",
-                        "options": [
-                            "Without a soul",
-                            "With a soul",
-                            "Living being"
-                        ]
-                    },
-                    {
-                        "question": "Which substance is the medium of motion?",
-                        "answer": "Dharmästikäy",
-                        "options": [
-                            "Dharmästikäy",
-                            "Adharmästikäy",
-                            "Äkäshästikäy"
-                        ]
-                    },
-                    {
-                        "question": "Which substance is the medium of rest?",
-                        "answer": "Adharmästikäy",
-                        "options": [
-                            "Adharmästikäy",
-                            "Dharmästikäy",
-                            "Käl"
-                        ]
-                    },
-                    {
-                        "question": "What gives room to all other substances?",
-                        "answer": "Äkäshästikäy (Space)",
-                        "options": [
-                            "Äkäshästikäy (Space)",
-                            "Pudgalästikäy",
-                            "Käl"
-                        ]
-                    },
-                    {
-                        "question": "The infinite empty space is called...",
-                        "answer": "Alokäkäsh",
-                        "options": [
-                            "Alokäkäsh",
-                            "Lokäkäsh",
-                            "Devloka"
-                        ]
-                    },
-                    {
-                        "question": "In which part of the universe can a soul achieve liberation?",
-                        "answer": "Middle World (in Lokäkäsh)",
-                        "options": [
-                            "Middle World (in Lokäkäsh)",
-                            "Devloka",
-                            "Naraka"
-                        ]
-                    },
-                    {
-                        "question": "What is the word for Matter?",
-                        "answer": "Pudgalästikäy",
-                        "options": [
-                            "Pudgalästikäy",
-                            "Käl",
-                            "Dharmästikäy"
-                        ]
-                    },
-                    {
-                        "question": "A whole object, like a stick, is called...",
-                        "answer": "Skandha",
-                        "options": [
-                            "Skandha",
-                            "Paramänu",
-                            "Varganä"
-                        ]
-                    },
-                    {
-                        "question": "What is the smallest, indivisible particle of matter called?",
-                        "answer": "Paramänu or Anu",
-                        "options": [
-                            "Paramänu or Anu",
-                            "Skandha",
-                            "Varganä"
-                        ]
-                    },
-                    {
-                        "question": "The Varganä responsible for speech is...",
-                        "answer": "Bhäshä Varganä",
-                        "options": [
-                            "Bhäshä Varganä",
-                            "Mana Varganä",
-                            "Tejas Varganä"
-                        ]
-                    },
-                    {
-                        "question": "The Varganä that makes our Karmic body is...",
-                        "answer": "Kärman Varganä",
-                        "options": [
-                            "Kärman Varganä",
-                            "Audärik Varganä",
-                            "Vaikriya Varganä"
-                        ]
-                    },
-                    {
-                        "question": "What is the Jain term for Time?",
-                        "answer": "Käl",
-                        "options": [
-                            "Käl",
-                            "Dharma",
-                            "Akash"
-                        ]
-                    },
-                    {
-                        "question": "What is the smallest indivisible unit of time?",
-                        "answer": "Samay",
-                        "options": [
-                            "Samay",
-                            "Ävali",
-                            "Muhurt"
-                        ]
-                    },
-                    {
-                        "question": "A period of 48 minutes is called a...",
-                        "answer": "Muhurt",
-                        "options": [
-                            "Muhurt",
-                            "Ävali",
-                            "Yug"
-                        ]
-                    },
-                    {
-                        "question": "What is the name of the current descending half-cycle of time?",
-                        "answer": "Avasarpini",
-                        "options": [
-                            "Avasarpini",
-                            "Utsarpini",
-                            "Kälchakra"
-                        ]
-                    },
-                    {
-                        "question": "Which Ärä are we currently in?",
-                        "answer": "The 5th, Dukham Käl",
-                        "options": [
-                            "The 5th, Dukham Käl",
-                            "The 3rd, Sukham Dukham",
-                            "The 1st, Sukham Sukham"
-                        ]
-                    },
-                    {
-                        "question": "In which Ärä was the first Tirthankar born?",
-                        "answer": "3rd, Sukham Dukham Käl",
-                        "options": [
-                            "3rd, Sukham Dukham Käl",
-                            "1st, Sukham Sukham",
-                            "4th, Dukham Sukham"
-                        ]
-                    },
-                    {
-                        "question": "Which two words make up 'Pudgal'?",
-                        "answer": "Pud (combine) and Gal (dissociate)",
-                        "options": [
-                            "Pud (combine) and Gal (dissociate)",
-                            "Pud (matter) and Gal (time)",
-                            "Dharma and Astikäy"
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+"tabView": true,
+"pageTitle":"B.5 Shad Dravya II: Ajiva",
+"sectionTitle":"B.5: Shad Dravya II: Ajiva",
+"pageSubtitle":"An Interactive Study Guide",
+"tabs": [
+ {
+"tabName":"Welcome!",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"What is Ajiva? 🤔"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Ajiva means anything that is non-living. It doesn't have a soul (Jiva), so it can't feel happy or sad, and it doesn't have birth or death. Because it's inert (Achetan), it cannot accumulate any karma. Think of your toys, books, or a rock – they are all Ajiva!"
+ },
+ {
+"tagType":"p",
+"tagHTML":"These substances make up the universe along with Jiva (living beings). Let's explore the five types of Ajiva together!"
+ }
+ ]
+ },
+ {
+"tabName":"5 Ajivas",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"The 5 Types of Ajiva",
+"description":"Click on a card to flip and learn more about each Ajiva substance.",
+"frontColor":"#3b82f6",
+"backColor":"#2563eb",
+"flippable": true,
+"cards": [
+ {
+"front":"Dharmästikäy",
+"back":"Medium of Motion - Helps souls and matter to move."
+ },
+ {
+"front":"Adharmästikäy",
+"back":"Medium of Rest - Helps souls and matter to rest."
+ },
+ {
+"front":"Äkäshästikäy",
+"back":"Space - Provides room for all other substances."
+ },
+ {
+"front":"Pudgalästikäy",
+"back":"Matter - Everything physical: sight, sound, taste, touch, smell."
+ },
+ {
+"front":"Käl",
+"back":"Time - Measures changes in the universe."
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Dharmästikäy",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Dharmästikäy: The Medium of Motion 🏃‍♀️"
+ },
+ {
+"tagType":"p",
+"tagHTML":"This is what allows Jivas and Pudgal (matter) to move! It is made of two words: <strong>Dharma</strong> (medium of motion) + <strong>Astikäy</strong> (collection of spaces)."
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"Key Facts",
+"items": [
+ {
+"header":"Characteristics of Dharmästikäy",
+"content":"<ul class='list-disc pl-6 space-y-2'><li>It does not <strong>make</strong> things move, but it <strong>helps</strong> them move.</li><li>It exists in the entire cosmic universe (<strong>Lokäkäsh</strong>).</li><li>It is absent in the trans-cosmic space (<strong>Alokäkäsh</strong>).</li></ul>"
+ },
+ {
+"header":"Analogy: The Fish and Water 🐠",
+"content":"<p>Without water, a fish can't swim. Without Dharmästikäy, we couldn't move!</p>"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Adharmästikäy",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Adharmästikäy: The Medium of Rest 😴"
+ },
+ {
+"tagType":"p",
+"tagHTML":"This substance helps moving things to stop and rest. It is made of two words: <strong>Adharma</strong> (medium of rest) + <strong>Astikäy</strong> (collection of spaces)."
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"Key Facts",
+"items": [
+ {
+"header":"Characteristics of Adharmästikäy",
+"content":"<ul class='list-disc pl-6 space-y-2'><li>It does not <strong>force</strong> things to rest, but it <strong>helps</strong> them rest.</li><li>Like Dharmästikäy, it exists in the <strong>Lokäkäsh</strong> but is absent in the <strong>Alokäkäsh</strong>.</li></ul>"
+ },
+ {
+"header":"Analogy: The Traveler and the Tree 🌳",
+"content":"<p>A tired traveler rests under the shade of a tree. The shade doesn't make them rest, but it helps them rest. Adharmästikäy is like that tree's shade for the universe!</p>"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Äkäshästikäy",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Äkäshästikäy: Space 🌌"
+ },
+ {
+"tagType":"p",
+"tagHTML":"This is the space that gives room to all the other substances. It's everywhere! It is divided into two parts:"
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"Types of Space",
+"items": [
+ {
+"header":"Lokäkäsh (Universe)",
+"content":"<p>The part of space where all the other 5 substances exist. It contains:</p><ul class='list-disc pl-6 mt-2'><li><strong>Siddhashila</strong> - Abode of liberated beings (at the top)</li><li><strong>Devloka</strong> - Abode of celestial beings</li><li><strong>Middle World</strong> - Abode of Humans & Animals</li><li><strong>Naraka</strong> - Abode of Hellish beings (7 levels)</li></ul>"
+ },
+ {
+"header":"Alokäkäsh (Empty Space)",
+"content":"<p>The infinite, empty space beyond the Lokäkäsh. No souls, matter, or other substances exist here.</p>"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Pudgalästikäy",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Pudgalästikäy: Matter ✨"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Pudgal is everything you can see, touch, taste, or smell! It's the only substance with a physical body. Sound, light, and even darkness are types of matter."
+ },
+ {
+"tagType":"p",
+"tagHTML":"The word <strong>Pudgal</strong> comes from two words: <strong>Pud</strong> (combine) and <strong>Gal</strong> (dissociate). Matter can combine to form larger objects (<strong>Skandha</strong>) and break apart into the smallest indivisible particle (<strong>Paramänu</strong> or <strong>Anu</strong>)."
+ }
+ ]
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"8 Varganäs (Special Matter)",
+"description":"The soul interacts with these 8 special types of matter.",
+"frontColor":"#3b82f6",
+"backColor":"#2563eb",
+"flippable": true,
+"cards": [
+ {
+"front":"Audärik Varganä",
+"back":"Makes a physical body for humans and animals."
+ },
+ {
+"front":"Vaikriya Varganä",
+"back":"Makes a special body for heavenly and infernal beings."
+ },
+ {
+"front":"Ähärak Varganä",
+"back":"Makes a special body for advanced monks to travel long distances."
+ },
+ {
+"front":"Tejas Varganä",
+"back":"Responsible for heat and digestion power."
+ },
+ {
+"front":"Bhäshä Varganä",
+"back":"Responsible for speech."
+ },
+ {
+"front":"Mana Varganä",
+"back":"Responsible for the physical mind."
+ },
+ {
+"front":"Shväso-chchhväs Varganä",
+"back":"Responsible for breathing."
+ },
+ {
+"front":"Kärman Varganä",
+"back":"Makes the Karmic body (our karma!)."
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Käl",
+"contentType":"mixed",
+"tabData": {
+"items": [
+ {
+"type":"text",
+"data": [
+ {
+"tagType":"h2",
+"tagHTML":"Käl: Time ⏳"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Time measures changes. It's like a giant wheel (Kälchakra) that's always turning. Each full rotation of the Kälchakra consists of two half-cycles."
+ }
+ ]
+ },
+ {
+"type":"accordian",
+"data": {
+"title":"The Kälchakra (Wheel of Time)",
+"items": [
+ {
+"header":"Avasarpini (Descending Cycle)",
+"content":"<p>The current half-cycle where conditions worsen over time. It has 6 Äräs (spokes):</p><ol class='list-decimal pl-6 mt-2 space-y-1'><li><strong>Sukham Sukham</strong> (Happy-Happy) - 4 KKS*</li><li><strong>Sukham</strong> (Happy) - 3 KKS*</li><li><strong>Sukham Dukham</strong> (Happy-Sad) - 2 KKS*</li><li><strong>Dukham Sukham</strong> (Sad-Happy) - 1 KKS*</li><li><strong>Dukham</strong> (Sad) - 21,000 Years (Current Ärä)</li><li><strong>Dukham Dukham</strong> (Sad-Sad) - 21,000 Years</li></ol><p class='text-xs mt-2'>*KKS = Kodä Kodi Sägaropam</p>"
+ },
+ {
+"header":"Utsarpini (Ascending Cycle)",
+"content":"<p>The half-cycle where conditions improve over time. Order is reversed from Avasarpini.</p><ol class='list-decimal pl-6 mt-2 space-y-1'><li><strong>Dukham Dukham</strong> (Sad-Sad) - 21,000 Years</li><li><strong>Dukham</strong> (Sad) - 21,000 Years</li><li><strong>Dukham Sukham</strong> (Sad-Happy) - 1 KKS*</li><li><strong>Sukham Dukham</strong> (Happy-Sad) - 2 KKS*</li><li><strong>Sukham</strong> (Happy) - 3 KKS*</li><li><strong>Sukham Sukham</strong> (Happy-Happy) - 4 KKS*</li></ol>"
+ }
+ ]
+ }
+ },
+ {
+"type":"flashCards",
+"data": [
+ {
+"title":"Units of Time",
+"description":"From the smallest to the largest unit of time.",
+"frontColor":"#14b8a6",
+"backColor":"#0d9488",
+"flippable": true,
+"cards": [
+ {
+"front":"Samay",
+"back":"The smallest, indivisible portion of time."
+ },
+ {
+"front":"Ävali",
+"back":"Innumerable Samay (about the time to blink)."
+ },
+ {
+"front":"Muhurt",
+"back":"48 Minutes (16,777,216 Ävali)."
+ },
+ {
+"front":"Purva",
+"back":"70.56 Trillion Years."
+ },
+ {
+"front":"Palyopam",
+"back":"Innumerable years (time to empty a pit of hair tips, one every 100 years)."
+ },
+ {
+"front":"Sägaropam",
+"back":"10 Kodä Kodi Palyopam."
+ },
+ {
+"front":"Avasarpini / Utsarpini",
+"back":"10 Kodä Kodi Sägaropam (one half of the Kälchakra)."
+ }
+ ]
+ }
+ ]
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz Time!",
+"contentType":"quiz",
+"tabData": {
+"title":"Quiz Time! 🧠",
+"questions": [
+ {
+"question":"What does Ajiva literally mean?",
+"answer":"Without a soul",
+"options": [
+"Without a soul",
+"With a soul",
+"Living being"
+ ]
+ },
+ {
+"question":"Which substance is the medium of motion?",
+"answer":"Dharmästikäy",
+"options": [
+"Dharmästikäy",
+"Adharmästikäy",
+"Äkäshästikäy"
+ ]
+ },
+ {
+"question":"Which substance is the medium of rest?",
+"answer":"Adharmästikäy",
+"options": [
+"Adharmästikäy",
+"Dharmästikäy",
+"Käl"
+ ]
+ },
+ {
+"question":"What gives room to all other substances?",
+"answer":"Äkäshästikäy (Space)",
+"options": [
+"Äkäshästikäy (Space)",
+"Pudgalästikäy",
+"Käl"
+ ]
+ },
+ {
+"question":"The infinite empty space is called...",
+"answer":"Alokäkäsh",
+"options": [
+"Alokäkäsh",
+"Lokäkäsh",
+"Devloka"
+ ]
+ },
+ {
+"question":"In which part of the universe can a soul achieve liberation?",
+"answer":"Middle World (in Lokäkäsh)",
+"options": [
+"Middle World (in Lokäkäsh)",
+"Devloka",
+"Naraka"
+ ]
+ },
+ {
+"question":"What is the word for Matter?",
+"answer":"Pudgalästikäy",
+"options": [
+"Pudgalästikäy",
+"Käl",
+"Dharmästikäy"
+ ]
+ },
+ {
+"question":"A whole object, like a stick, is called...",
+"answer":"Skandha",
+"options": [
+"Skandha",
+"Paramänu",
+"Varganä"
+ ]
+ },
+ {
+"question":"What is the smallest, indivisible particle of matter called?",
+"answer":"Paramänu or Anu",
+"options": [
+"Paramänu or Anu",
+"Skandha",
+"Varganä"
+ ]
+ },
+ {
+"question":"The Varganä responsible for speech is...",
+"answer":"Bhäshä Varganä",
+"options": [
+"Bhäshä Varganä",
+"Mana Varganä",
+"Tejas Varganä"
+ ]
+ },
+ {
+"question":"The Varganä that makes our Karmic body is...",
+"answer":"Kärman Varganä",
+"options": [
+"Kärman Varganä",
+"Audärik Varganä",
+"Vaikriya Varganä"
+ ]
+ },
+ {
+"question":"What is the Jain term for Time?",
+"answer":"Käl",
+"options": [
+"Käl",
+"Dharma",
+"Akash"
+ ]
+ },
+ {
+"question":"What is the smallest indivisible unit of time?",
+"answer":"Samay",
+"options": [
+"Samay",
+"Ävali",
+"Muhurt"
+ ]
+ },
+ {
+"question":"A period of 48 minutes is called a...",
+"answer":"Muhurt",
+"options": [
+"Muhurt",
+"Ävali",
+"Yug"
+ ]
+ },
+ {
+"question":"What is the name of the current descending half-cycle of time?",
+"answer":"Avasarpini",
+"options": [
+"Avasarpini",
+"Utsarpini",
+"Kälchakra"
+ ]
+ },
+ {
+"question":"Which Ärä are we currently in?",
+"answer":"The 5th, Dukham Käl",
+"options": [
+"The 5th, Dukham Käl",
+"The 3rd, Sukham Dukham",
+"The 1st, Sukham Sukham"
+ ]
+ },
+ {
+"question":"In which Ärä was the first Tirthankar born?",
+"answer":"3rd, Sukham Dukham Käl",
+"options": [
+"3rd, Sukham Dukham Käl",
+"1st, Sukham Sukham",
+"4th, Dukham Sukham"
+ ]
+ },
+ {
+"question":"Which two words make up'Pudgal'?",
+"answer":"Pud (combine) and Gal (dissociate)",
+"options": [
+"Pud (combine) and Gal (dissociate)",
+"Pud (matter) and Gal (time)",
+"Dharma and Astikäy"
+ ]
+ }
+ ]
+ }
+ }
+ ]
 }

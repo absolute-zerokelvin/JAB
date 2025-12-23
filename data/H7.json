@@ -1,224 +1,224 @@
 {
-  "title": "The Story of Änand Shrävak",
-  "subtitle": "Section H.7 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "The Devout Householder"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "In the city of Vänijya, there lived a very wealthy and respected householder named <span class=\"highlight\">Änand</span>. He was rich in gold, cash, and cattle. After listening to a sermon by <span class=\"highlight\">Bhagawän Mahävir</span>, he became a devout follower, accepting the twelve vows of a householder (Shrävak). For fourteen years, he observed these vows and progressed spiritually."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Test of Knowledge"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 2a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 2zM5.205 5.205a.75.75 0 011.06 0l2.475 2.475a.75.75 0 01-1.06 1.06L5.205 6.265a.75.75 0 010-1.06zM2 10a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5h-3.5A.75.75 0 012 10zM14.795 5.205a.75.75 0 010 1.06l-2.475 2.475a.75.75 0 11-1.06-1.06L13.735 5.205a.75.75 0 011.06 0zM10 18a.75.75 0 01-.75-.75v-3.5a.75.75 0 011.5 0v3.5A.75.75 0 0110 18zM14.795 14.795a.75.75 0 01-1.06 0l-2.475-2.475a.75.75 0 011.06-1.06l2.475 2.475a.75.75 0 010 1.06zM18 10a.75.75 0 01-.75.75h-3.5a.75.75 0 010-1.5h3.5A.75.75 0 0118 10zM5.205 14.795a.75.75 0 010-1.06l2.475-2.475a.75.75 0 011.06 1.06l-2.475 2.475a.75.75 0 01-1.06 0z\" clip-rule=\"evenodd\" svg>One day, through severe penance, Änand attained a special power known as <span class=\"highlight\">Avadhi-jnän (clairvoyance)</span>. Mahävir's chief disciple, <span class=\"highlight\">Gautam-swämi</span>, heard of this and went to visit him. Änand respectfully told his guru, “I have attained Avadhi-jnän, with which I can see as high as the first heaven and as low as the first hell.”"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Gautam-swämi, believing such a powerful vision was impossible for a layman, told Änand he must be mistaken and needed to atone for his claim. Puzzled, Änand asked if one must repent for speaking the truth. This left Gautam-swämi equally puzzled, so he went to Mahävir to confirm."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Guru's Humility"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Bhagawän Mahävir confirmed, “Gautam, Änand was telling the truth. Rarely does a layperson attain such power... <span class=\"highlight\">You should repent for your mistake.</span>” Without hesitation, Gautam-swämi set aside his alms, returned to Änand, and asked for forgiveness for doubting him. This act demonstrated the core Jain principles that truth is paramount and that even a great guru must humbly ask forgiveness from a disciple if he is in the wrong. Änand later fasted until death and was reborn in heaven, destined for eventual liberation."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Devout Layman",
-      "period": "14 years of observance",
-      "events": [
-        {
-          "title": "Accepting the Vows",
-          "description": "After hearing Mahävir's sermon, the wealthy householder Änand accepts the 12 vows of a Shrävak.",
-          "characters": ["Änand Shrävak", "Bhagawän Mahävir"]
-        },
-        {
-          "title": "Spiritual Attainment",
-          "description": "Through years of penance and meditation, he attains a powerful form of Avadhi-jnän (clairvoyance).",
-          "characters": ["Änand Shrävak"]
-        }
-      ]
-    },
-    {
-      "era": "The Guru's Test",
-      "period": "The day of the visit",
-      "events": [
-        {
-          "title": "A Visit from Gautam-swämi",
-          "description": "Gautam-swämi hears of Änand's attainment and goes to visit him.",
-          "characters": ["Gautam-swämi", "Änand Shrävak"]
-        },
-        {
-          "title": "A Doubtful Guru",
-          "description": "Gautam-swämi doubts that a layman could have such a powerful vision and tells Änand to repent for his claim.",
-          "characters": ["Gautam-swämi", "Änand Shrävak"]
-        },
-        {
-          "title": "Confirmation from the Master",
-          "description": "Gautam-swämi consults Mahävir, who confirms Änand was telling the truth and instructs Gautam-swämi to repent instead.",
-          "characters": ["Gautam-swämi", "Bhagawän Mahävir"]
-        }
-      ]
-    },
-    {
-      "era": "Resolution and Liberation",
-      "period": "Final days",
-      "events": [
-        {
-          "title": "A Humble Apology",
-          "description": "Without hesitation, Gautam-swämi returns to Änand and asks for his forgiveness, demonstrating true humility.",
-          "characters": ["Gautam-swämi", "Änand Shrävak"]
-        },
-        {
-          "title": "Path to Liberation",
-          "description": "Later in life, Änand fasts until death, is reborn as a heavenly being, and is destined for eventual liberation.",
-          "characters": ["Änand Shrävak"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "Änand Shrävak",
-      "description": "A wealthy and devout householder who, through intense spiritual practice, attained a rare and powerful form of clairvoyance (Avadhi-jnän). His story illustrates that great spiritual heights can be reached even by laypeople."
-    },
-    {
-      "name": "Gautam-swämi",
-      "description": "The chief disciple of Mahävir. His interaction with Änand demonstrates the Jain principle of humility, as he did not hesitate to ask forgiveness from a disciple upon realizing his own error."
-    },
-    {
-      "name": "Bhagawän Mahävir",
-      "description": "The 24th Tirthankar, who served as the ultimate arbiter of truth. He confirmed Änand's ability and corrected his own chief disciple, showing impartiality and adherence to truth above all."
-    }
-  ],
-  "quizData": [
-    { "question": "What was Änand's status in society?", "answer": "He was a very rich householder (Shrävak)." },
-    { "question": "For how many years did Änand observe the twelve vows of a householder?", "answer": "For fourteen years." },
-    { "question": "What special ability did Änand attain through his penance?", "answer": "Avadhi-jnän (clairvoyance)." },
-    { "question": "What did Änand claim he could see with his Avadhi-jnän?", "answer": "As high as the first heaven and as low as the first hell." },
-    { "question": "Who was the chief disciple of Mahävir who visited Änand?", "answer": "Gautam-swämi." },
-    { "question": "How did Gautam-swämi initially react to Änand's claim?", "answer": "He did not believe a layman could have such a powerful ability and told him to repent." },
-    { "question": "What was Änand's polite but firm question back to Gautam-swämi?", "answer": "“Does one need to repent for speaking the truth?”" },
-    { "question": "Who did Gautam-swämi consult to confirm the truth?", "answer": "Bhagawän Mahävir." },
-    { "question": "What did Mahävir tell Gautam-swämi?", "answer": "That Änand was telling the truth and that Gautam-swämi should be the one to repent for his mistake." },
-    { "question": "What did Gautam-swämi do immediately after hearing this?", "answer": "He set aside his alms, returned to Änand, and asked for his forgiveness." },
-    { "question": "What important principle does Gautam-swämi's action demonstrate?", "answer": "That a guru should humbly ask for forgiveness from a disciple if the guru has made a mistake." },
-    { "question": "What happened to Änand at the end of his life?", "answer": "He fasted until death and was reborn as a heavenly being." },
-    { "question": "What is Änand's ultimate destiny after his heavenly life?", "answer": "He will be reborn as a human and attain liberation." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Story of Änand Shrävak",
-    "children": [
-      {
-        "name": "The Devout Layman",
-        "children": [
-          { "name": "Observes 12 Vows for 14 Years" },
-          { "name": "Attains Avadhi-jnän" }
-        ]
-      },
-      {
-        "name": "The Guru's Doubt",
-        "children": [
-          { "name": "Gautam-swämi visits" },
-          { "name": "Doubts the extent of his power" },
-          { "name": "Tells Änand to repent" }
-        ]
-      },
-      {
-        "name": "The Ultimate Truth",
-        "children": [
-          { "name": "Mahävir confirms Änand's truth" },
-          { "name": "Tells Gautam-swämi to repent" }
-        ]
-      },
-      {
-        "name": "A Lesson in Humility",
-        "children": [
-          { "name": "Gautam-swämi asks forgiveness" },
-          { "name": "Truth is valued above status" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Truth, Humility, and Power",
-    "children": [
-      {
-        "name": "A Layman's Power",
-        "children": [
-          { "name": "Spiritual Practice" },
-          { "name": "Clairvoyance" }
-        ]
-      },
-      {
-        "name": "A Guru's Error",
-        "children": [
-          { "name": "Disbelief" },
-          { "name": "Correction" }
-        ]
-      },
-      {
-        "name": "A Principle Affirmed",
-        "children": [
-          { "name": "Humility" },
-          { "name": "Forgiveness" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "The Rich Householder",
-      "description": "Änand, a man of immense wealth, listens to Bhagawän Mahävir's sermon and decides to dedicate his life to the 12 vows of a Jain layman.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=Änand+Listens+to+Mahävir",
-      "imageAlt": "A wealthy man sitting respectfully and listening to a sermon by a monk."
-    },
-    {
-      "title": "A Powerful Vision",
-      "description": "Through his years of penance, Änand attains Avadhi-jnän, the power of clairvoyance, allowing his consciousness to see into the heavens and hells.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=Änand's+Clairvoyant+Vision",
-      "imageAlt": "A man meditating, with images of heavens above him and hells below him."
-    },
-    {
-      "title": "A Guru's Doubt",
-      "description": "When Änand describes his powerful vision, his own guru, the great Gautam-swämi, finds it hard to believe and tells him he must be mistaken.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Gautam-swämi's+Doubt",
-      "imageAlt": "An elder monk looking skeptically at a devout layman."
-    },
-    {
-      "title": "Seeking the Truth",
-      "description": "Puzzled, Gautam-swämi approaches the omniscient Bhagawän Mahävir to ask for clarification about Änand's claim.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=Gautam-swämi+Asks+Mahävir",
-      "imageAlt": "Gautam-swämi asking a question to Bhagawän Mahävir."
-    },
-    {
-      "title": "A Humble Apology",
-      "description": "Upon learning from Mahävir that Änand was correct, Gautam-swämi immediately returns and asks for his disciple's forgiveness, demonstrating incredible humility.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=The+Guru+Asks+Forgiveness",
-      "imageAlt": "An elder monk bowing respectfully to his own disciple."
-    },
-    {
-      "title": "Destined for Liberation",
-      "description": "Having lived a life of truth and devotion, Änand Shrävak is reborn into a heavenly realm, with his ultimate destiny being liberation.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=Änand's+Path+to+Liberation",
-      "imageAlt": "A soul ascending towards a shining, peaceful realm."
-    }
-  ]
+"title":"The Story of Änand Shrävak",
+"subtitle":"Section H.7 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"The Devout Householder"
+ },
+ {
+"tagType":"p",
+"tagHTML":"In the city of Vänijya, there lived a very wealthy and respected householder named <span class=\"highlight\">Änand</span>. He was rich in gold, cash, and cattle. After listening to a sermon by <span class=\"highlight\">Bhagawän Mahävir</span>, he became a devout follower, accepting the twelve vows of a householder (Shrävak). For fourteen years, he observed these vows and progressed spiritually."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Test of Knowledge"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M10 2a.75.75 0 01.75.75v3.5a.75.75 0 01-1.5 0v-3.5A.75.75 0 0110 2zM5.205 5.205a.75.75 0 011.06 0l2.475 2.475a.75.75 0 01-1.06 1.06L5.205 6.265a.75.75 0 010-1.06zM2 10a.75.75 0 01.75-.75h3.5a.75.75 0 010 1.5h-3.5A.75.75 0 012 10zM14.795 5.205a.75.75 0 010 1.06l-2.475 2.475a.75.75 0 11-1.06-1.06L13.735 5.205a.75.75 0 011.06 0zM10 18a.75.75 0 01-.75-.75v-3.5a.75.75 0 011.5 0v3.5A.75.75 0 0110 18zM14.795 14.795a.75.75 0 01-1.06 0l-2.475-2.475a.75.75 0 011.06-1.06l2.475 2.475a.75.75 0 010 1.06zM18 10a.75.75 0 01-.75.75h-3.5a.75.75 0 010-1.5h3.5A.75.75 0 0118 10zM5.205 14.795a.75.75 0 010-1.06l2.475-2.475a.75.75 0 011.06 1.06l-2.475 2.475a.75.75 0 01-1.06 0z\" clip-rule=\"evenodd\" svg>One day, through severe penance, Änand attained a special power known as <span class=\"highlight\">Avadhi-jnän (clairvoyance)</span>. Mahävir's chief disciple, <span class=\"highlight\">Gautam-swämi</span>, heard of this and went to visit him. Änand respectfully told his guru, “I have attained Avadhi-jnän, with which I can see as high as the first heaven and as low as the first hell.”"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Gautam-swämi, believing such a powerful vision was impossible for a layman, told Änand he must be mistaken and needed to atone for his claim. Puzzled, Änand asked if one must repent for speaking the truth. This left Gautam-swämi equally puzzled, so he went to Mahävir to confirm."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Guru's Humility"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Bhagawän Mahävir confirmed, “Gautam, Änand was telling the truth. Rarely does a layperson attain such power... <span class=\"highlight\">You should repent for your mistake.</span>” Without hesitation, Gautam-swämi set aside his alms, returned to Änand, and asked for forgiveness for doubting him. This act demonstrated the core Jain principles that truth is paramount and that even a great guru must humbly ask forgiveness from a disciple if he is in the wrong. Änand later fasted until death and was reborn in heaven, destined for eventual liberation."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Devout Layman",
+"period":"14 years of observance",
+"events": [
+ {
+"title":"Accepting the Vows",
+"description":"After hearing Mahävir's sermon, the wealthy householder Änand accepts the 12 vows of a Shrävak.",
+"characters": ["Änand Shrävak","Bhagawän Mahävir"]
+ },
+ {
+"title":"Spiritual Attainment",
+"description":"Through years of penance and meditation, he attains a powerful form of Avadhi-jnän (clairvoyance).",
+"characters": ["Änand Shrävak"]
+ }
+ ]
+ },
+ {
+"era":"The Guru's Test",
+"period":"The day of the visit",
+"events": [
+ {
+"title":"A Visit from Gautam-swämi",
+"description":"Gautam-swämi hears of Änand's attainment and goes to visit him.",
+"characters": ["Gautam-swämi","Änand Shrävak"]
+ },
+ {
+"title":"A Doubtful Guru",
+"description":"Gautam-swämi doubts that a layman could have such a powerful vision and tells Änand to repent for his claim.",
+"characters": ["Gautam-swämi","Änand Shrävak"]
+ },
+ {
+"title":"Confirmation from the Master",
+"description":"Gautam-swämi consults Mahävir, who confirms Änand was telling the truth and instructs Gautam-swämi to repent instead.",
+"characters": ["Gautam-swämi","Bhagawän Mahävir"]
+ }
+ ]
+ },
+ {
+"era":"Resolution and Liberation",
+"period":"Final days",
+"events": [
+ {
+"title":"A Humble Apology",
+"description":"Without hesitation, Gautam-swämi returns to Änand and asks for his forgiveness, demonstrating true humility.",
+"characters": ["Gautam-swämi","Änand Shrävak"]
+ },
+ {
+"title":"Path to Liberation",
+"description":"Later in life, Änand fasts until death, is reborn as a heavenly being, and is destined for eventual liberation.",
+"characters": ["Änand Shrävak"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"Änand Shrävak",
+"description":"A wealthy and devout householder who, through intense spiritual practice, attained a rare and powerful form of clairvoyance (Avadhi-jnän). His story illustrates that great spiritual heights can be reached even by laypeople."
+ },
+ {
+"name":"Gautam-swämi",
+"description":"The chief disciple of Mahävir. His interaction with Änand demonstrates the Jain principle of humility, as he did not hesitate to ask forgiveness from a disciple upon realizing his own error."
+ },
+ {
+"name":"Bhagawän Mahävir",
+"description":"The 24th Tirthankar, who served as the ultimate arbiter of truth. He confirmed Änand's ability and corrected his own chief disciple, showing impartiality and adherence to truth above all."
+ }
+ ],
+"quizData": [
+ {"question":"What was Änand's status in society?","answer":"He was a very rich householder (Shrävak)." },
+ {"question":"For how many years did Änand observe the twelve vows of a householder?","answer":"For fourteen years." },
+ {"question":"What special ability did Änand attain through his penance?","answer":"Avadhi-jnän (clairvoyance)." },
+ {"question":"What did Änand claim he could see with his Avadhi-jnän?","answer":"As high as the first heaven and as low as the first hell." },
+ {"question":"Who was the chief disciple of Mahävir who visited Änand?","answer":"Gautam-swämi." },
+ {"question":"How did Gautam-swämi initially react to Änand's claim?","answer":"He did not believe a layman could have such a powerful ability and told him to repent." },
+ {"question":"What was Änand's polite but firm question back to Gautam-swämi?","answer":"“Does one need to repent for speaking the truth?”" },
+ {"question":"Who did Gautam-swämi consult to confirm the truth?","answer":"Bhagawän Mahävir." },
+ {"question":"What did Mahävir tell Gautam-swämi?","answer":"That Änand was telling the truth and that Gautam-swämi should be the one to repent for his mistake." },
+ {"question":"What did Gautam-swämi do immediately after hearing this?","answer":"He set aside his alms, returned to Änand, and asked for his forgiveness." },
+ {"question":"What important principle does Gautam-swämi's action demonstrate?","answer":"That a guru should humbly ask for forgiveness from a disciple if the guru has made a mistake." },
+ {"question":"What happened to Änand at the end of his life?","answer":"He fasted until death and was reborn as a heavenly being." },
+ {"question":"What is Änand's ultimate destiny after his heavenly life?","answer":"He will be reborn as a human and attain liberation." }
+ ],
+"mindmapV1Data": {
+"name":"The Story of Änand Shrävak",
+"children": [
+ {
+"name":"The Devout Layman",
+"children": [
+ {"name":"Observes 12 Vows for 14 Years" },
+ {"name":"Attains Avadhi-jnän" }
+ ]
+ },
+ {
+"name":"The Guru's Doubt",
+"children": [
+ {"name":"Gautam-swämi visits" },
+ {"name":"Doubts the extent of his power" },
+ {"name":"Tells Änand to repent" }
+ ]
+ },
+ {
+"name":"The Ultimate Truth",
+"children": [
+ {"name":"Mahävir confirms Änand's truth" },
+ {"name":"Tells Gautam-swämi to repent" }
+ ]
+ },
+ {
+"name":"A Lesson in Humility",
+"children": [
+ {"name":"Gautam-swämi asks forgiveness" },
+ {"name":"Truth is valued above status" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Truth, Humility, and Power",
+"children": [
+ {
+"name":"A Layman's Power",
+"children": [
+ {"name":"Spiritual Practice" },
+ {"name":"Clairvoyance" }
+ ]
+ },
+ {
+"name":"A Guru's Error",
+"children": [
+ {"name":"Disbelief" },
+ {"name":"Correction" }
+ ]
+ },
+ {
+"name":"A Principle Affirmed",
+"children": [
+ {"name":"Humility" },
+ {"name":"Forgiveness" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"The Rich Householder",
+"description":"Änand, a man of immense wealth, listens to Bhagawän Mahävir's sermon and decides to dedicate his life to the 12 vows of a Jain layman.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Änand+Listens+to+Mahävir",
+"imageAlt":"A wealthy man sitting respectfully and listening to a sermon by a monk."
+ },
+ {
+"title":"A Powerful Vision",
+"description":"Through his years of penance, Änand attains Avadhi-jnän, the power of clairvoyance, allowing his consciousness to see into the heavens and hells.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Änand's+Clairvoyant+Vision",
+"imageAlt":"A man meditating, with images of heavens above him and hells below him."
+ },
+ {
+"title":"A Guru's Doubt",
+"description":"When Änand describes his powerful vision, his own guru, the great Gautam-swämi, finds it hard to believe and tells him he must be mistaken.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Gautam-swämi's+Doubt",
+"imageAlt":"An elder monk looking skeptically at a devout layman."
+ },
+ {
+"title":"Seeking the Truth",
+"description":"Puzzled, Gautam-swämi approaches the omniscient Bhagawän Mahävir to ask for clarification about Änand's claim.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Gautam-swämi+Asks+Mahävir",
+"imageAlt":"Gautam-swämi asking a question to Bhagawän Mahävir."
+ },
+ {
+"title":"A Humble Apology",
+"description":"Upon learning from Mahävir that Änand was correct, Gautam-swämi immediately returns and asks for his disciple's forgiveness, demonstrating incredible humility.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=The+Guru+Asks+Forgiveness",
+"imageAlt":"An elder monk bowing respectfully to his own disciple."
+ },
+ {
+"title":"Destined for Liberation",
+"description":"Having lived a life of truth and devotion, Änand Shrävak is reborn into a heavenly realm, with his ultimate destiny being liberation.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Änand's+Path+to+Liberation",
+"imageAlt":"A soul ascending towards a shining, peaceful realm."
+ }
+ ]
 }

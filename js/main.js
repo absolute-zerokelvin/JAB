@@ -10,7 +10,7 @@ let navigationData = null;
 async function fetchNavigationData() {
     try {
         // Use cache-busted fetch if available
-        const response = await fetch('/data/navigation.json?v=' + Date.now());
+        const response = await fetch('/data/navigation.json?timestamp=' + Date.now());
         navigationData = await response.json();
         return navigationData;
     } catch (error) {
@@ -33,12 +33,15 @@ function createNavigationHTML(navData, isMobile = false) {
                 <div class="nav-header">
                     <h3 class="nav-title"><a href="./index.html" class="nav-home-link">${nav.title}</a></h3>
                     <p class="nav-subtitle">${nav.subtitle}</p>
-                    ${isMobile ? '' : `
                     <div class="nav-controls">
+                        ${isMobile ? '' : `
                         <button class="nav-expand-all" onclick="expandAllSections()">Expand All</button>
                         <button class="nav-collapse-all" onclick="collapseAllSections()">Collapse All</button>
+                        `}
+                        <button class="nav-theme-toggle" onclick="toggleTheme()" id="themeToggleBtn" title="Toggle Dark Mode">
+                            🌙
+                        </button>
                     </div>
-                    `}
                 </div>
                 <ul class="nav-sections">
     `;
@@ -153,6 +156,61 @@ function toggleMobileNav() {
         nav.classList.toggle('active');
         overlay.classList.toggle('active');
     }
+}
+
+// Toggle Dark Mode
+function toggleTheme() {
+    const html = document.documentElement;
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    console.log('Toggling theme to:', newTheme);
+    html.setAttribute('data-theme', newTheme);
+    if (newTheme === 'dark') {
+        html.classList.add('dark');
+    } else {
+        html.classList.remove('dark');
+    }
+    localStorage.setItem('theme', newTheme);
+
+    // Update button icon
+    const btns = document.querySelectorAll('.nav-theme-toggle');
+    btns.forEach(btn => {
+        btn.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+    });
+
+    // Force repaint to ensure Tailwind classes apply immediately in some browsers
+    void html.offsetHeight;
+}
+
+// Initialize Theme
+function initializeTheme() {
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDark = savedTheme === 'dark' || (!savedTheme && prefersDark);
+
+    console.log('Initializing theme. savedTheme:', savedTheme, 'prefersDark:', prefersDark, 'isDark:', isDark);
+
+    if (isDark) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.classList.remove('dark');
+    }
+
+    // Update button icons immediately and again after nav rendering
+    const updateIcons = () => {
+        const btns = document.querySelectorAll('.nav-theme-toggle');
+        const currentIsDark = document.documentElement.classList.contains('dark');
+        btns.forEach(btn => {
+            btn.textContent = currentIsDark ? '☀️' : '🌙';
+        });
+    };
+
+    updateIcons();
+    setTimeout(updateIcons, 100);
+    setTimeout(updateIcons, 500); // Third attempt for slower renders
 }
 
 // Initialize navigation
@@ -286,6 +344,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Initialize navigation
     initializeNavigation();
+
+    // Initialize Theme
+    initializeTheme();
 
     // Render homepage content if on homepage
     if (document.getElementById('homepage-content')) {

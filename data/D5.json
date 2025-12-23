@@ -1,368 +1,368 @@
 {
-    "sectionTitle": "D.5: Paryushan and Das Lakshan Parva",
-    "tabs": [
-      {
-        "tabName": "Introduction",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h2",
-            "tagHTML": "Paryushan and Das Lakshan: The Holiest Festivals"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "<b>Paryushan Mahä Parva</b> (Shvetämbar tradition) and <b>Das Lakshan Parva</b> (Digambar tradition) are the holiest festivals of the Jain year. These are periods dedicated to fasting, intensive rituals, studying Jain principles, and most importantly, repenting for past wrongdoings and asking for forgiveness from all living beings."
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "The name <b>Paryushan</b> has several meanings, including 'coming together from all directions' and 'to burn all types of Karma' (Pari + Ushan). It is a time to purify the soul by observing austerities (tap), minimizing worldly affairs, and focusing on the true nature of the self. Similarly, Das Lakshan focuses on cultivating the ten cardinal virtues of the soul."
-          },
-          {
-            "tagType": "h3",
-            "tagHTML": "Timing and Duration"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "These festivals typically occur around August-September. The Shvetämbar observance of Paryushan lasts for eight days, while the Digambar observance of Das Lakshan lasts for ten days, beginning on or the day after the Shvetämbar Paryushan ends."
-          }
-        ]
-      },
-      {
-        "tabName": "Paryushan Essentials",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Five Essential Activities of Paryushan",
-          "description": "During the first three days of Paryushan, sermons are delivered on five essential activities that laypeople are required to undertake.",
-          "items": [
-            {
-              "header": "1. Amäri Pravartan",
-              "content": "Leading a non-violent life (Ahimsä), working towards a non-violent world, and supporting animal welfare activities."
-            },
-            {
-              "header": "2. Sädharmik Vätsalya",
-              "content": "Showing respect and affection for fellow human beings and supporting humanitarian activities. It fosters a sense of community and mutual respect."
-            },
-            {
-              "header": "3. Attham Tap",
-              "content": "Observing a fast for three consecutive days. Fasting and other austerities help control desires and shed accumulated karma."
-            },
-            {
-              "header": "4. Chaitya Paripäti",
-              "content": "Visiting different Jain temples, libraries, and Upäshrays. This also includes supporting other charitable and religious organizations."
-            },
-            {
-              "header": "5. Kshamäpanä",
-              "content": "The act of forgiveness. This involves repenting for one's own sins, forgiving others for their faults, and requesting forgiveness from all living beings."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Das Lakshan Virtues",
-        "contentType": "flashCards",
-        "tabData": [
-          {
-            "title": "The Ten Cardinal Virtues (Das Lakshan Dharma)",
-            "description": "The Digambar tradition dedicates each day of the festival to one of the ten supreme virtues, which are inherent qualities of the soul.",
-            "flippable": true,
-            "cards": [
-              {
-                "front": "1. Uttam Kshamä",
-                "back": "Supreme Forgiveness"
-              },
-              {
-                "front": "2. Uttam Märdav",
-                "back": "Supreme Humility"
-              },
-              {
-                "front": "3. Uttam Ärjav",
-                "back": "Supreme Straightforwardness"
-              },
-              {
-                "front": "4. Uttam Shaucha",
-                "back": "Supreme Purity / Contentment"
-              },
-              {
-                "front": "5. Uttam Satya",
-                "back": "Supreme Truthfulness"
-              },
-              {
-                "front": "6. Uttam Sanyam",
-                "back": "Supreme Self-restraint"
-              },
-              {
-                "front": "7. Uttam Tap",
-                "back": "Supreme Austerities"
-              },
-              {
-                "front": "8. Uttam Tyäg",
-                "back": "Supreme Renunciation"
-              },
-              {
-                "front": "9. Uttam Äkinchanya",
-                "back": "Supreme Non-attachment / Non-possession"
-              },
-              {
-                "front": "10. Uttam Brahmacharya",
-                "back": "Supreme Celibacy / Chastity"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "tabName": "Virtues Explained",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Understanding the Ten Virtues",
-          "description": "A deeper look into the meaning of each of the Das Lakshan virtues.",
-          "items": [
-            {
-              "header": "Uttam Kshamä (Supreme Forgiveness)",
-              "content": "Not allowing anger to arise, and if it does, rendering it ineffective. It's about cultivating the soul's natural state, which is free of anger and revenge."
-            },
-            {
-              "header": "Uttam Märdav (Supreme Humility)",
-              "content": "Having a softness of heart and polite feelings, free from the passion of pride related to knowledge, power, status, or appearance."
-            },
-            {
-              "header": "Uttam Ärjav (Supreme Straightforwardness)",
-              "content": "Achieving purity in thought, speech, and action. A person with this quality is not deceitful and lives in a simple, honest way."
-            },
-            {
-              "header": "Uttam Shaucha (Supreme Purity)",
-              "content": "Attaining contentment by overcoming greed. Greed is the desire to possess and is a root cause of all sins. Eradicating greed makes the soul practically passionless."
-            },
-            {
-              "header": "Uttam Satya (Supreme Truthfulness)",
-              "content": "Speaking what is beneficial and refraining from harsh or derogatory language. The virtue of the pure soul is truth."
-            },
-            {
-              "header": "Uttam Sanyam (Supreme Self-restraint)",
-              "content": "Disciplining the mind, speech, and body to avoid injuring any living being and to detach from sensual pleasures. True happiness comes from within, not from the senses."
-            },
-            {
-              "header": "Uttam Tap (Supreme Austerities)",
-              "content": "Controlling attachments and aversions. When one stabilizes in their own pure state, abandoning desires, it is known as austerity."
-            },
-            {
-              "header": "Uttam Tyäg (Supreme Renunciation)",
-              "content": "Renouncing a possessive attitude. This applies to both external possessions (wealth, house) and internal possessions (attachment, aversion)."
-            },
-            {
-              "header": "Uttam Äkinchanya (Supreme Non-attachment)",
-              "content": "Not having a feeling of ownership over anything. It is easy to give up external things, but harder to give up the internal attachment to them."
-            },
-            {
-              "header": "Uttam Brahmacharya (Supreme Celibacy)",
-              "content": "From an absolute view, it means staying in the true nature of the soul. From an empirical view, it means controlling the desires of the five senses."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Kalpa Sutra",
-        "contentType": "text",
-        "tabData": [
-          {
-            "tagType": "h3",
-            "tagHTML": "The Reading of the Kalpa Sutra"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "In the Shvetämbar tradition, the <b>Kalpa Sutra</b> is read to the congregation from the fourth through the eighth day of Paryushan. Composed by Ächärya Bhadrabähu in the 3rd century B.C., this scripture holds immense significance."
-          },
-          {
-            "tagType": "ul",
-            "tagHTML": "<li>It describes the rules for monastic life during the rainy season.</li><li>It contains the biographies of Tirthankars, especially a detailed and poetic account of Lord Mahävir's life, including the 14 auspicious dreams of his mother, Queen Trishalä.</li><li>It outlines the lineage of the Ganadhars' successors.</li>"
-          },
-          {
-            "tagType": "p",
-            "tagHTML": "On the fifth day of Paryushan, the auspicious dreams of Queen Trishalä are celebrated in a special ceremony."
-          }
-        ]
-      },
-      {
-        "tabName": "The Day of Forgiveness",
-        "contentType": "accordian",
-        "tabData": {
-          "title": "Samvatsari and Kshamä: The Universal Act of Forgiveness",
-          "description": "The final day of Shvetämbar Paryushan is <b>Samvatsari</b>, and the first day of Digambar Das Lakshan is <b>Kshamä Vani</b>. Both are dedicated to the paramount Jain principle of forgiveness.",
-          "items": [
-            {
-              "header": "The Core Principle",
-              "content": "On this day, Jains ask for forgiveness from everyone—family, friends, and all other living beings—for any harm caused knowingly or unknowingly during the past year. It is a day to release oneself from the burden of anger, hostility, and resentment."
-            },
-            {
-              "header": "The Great Prayer of Forgiveness",
-              "content": "The essence of this day is captured in the universal prayer: <br><br><i>Khämemi Savva Jive, Savve Jivä Khamantu Me</i><br><i>Mitti Me Savva Bhuesu, Veram Majjha na Kenai.</i><br><br><b>Translation:</b><br>I forgive all living beings,<br>May all living beings forgive me.<br>My friendship is with all living beings,<br>My enmity is nonexistent."
-            },
-            {
-              "header": "Why Forgiveness is a 'Quality of the Brave'",
-              "content": "Asking for forgiveness requires great humility (Vinay) and the strength to suppress one's ego and anger. As the Ächäryas have said, 'Kshamä Virasya Bhushanam' – Forgiveness is the ornament of the brave. When we forgive, we purify our soul and become one with its radiant light."
-            }
-          ]
-        }
-      },
-      {
-        "tabName": "Quiz",
-        "contentType": "quiz",
-        "tabData": {
-          "title": "Test Your Knowledge on Paryushan and Das Lakshan",
-          "questions": [
-            {
-              "question": "How many days does the Shvetämbar festival of Paryushan last?",
-              "options": [
-                "7 days",
-                "8 days",
-                "9 days",
-                "10 days"
-              ],
-              "answer": "8 days"
-            },
-            {
-              "question": "Which of these is one of the Five Essential Activities of Paryushan?",
-              "options": [
-                "Uttam Kshamä",
-                "Sädharmik Vätsalya",
-                "Uttam Satya",
-                "Kalpa Sutra Reading"
-              ],
-              "answer": "Sädharmik Vätsalya"
-            },
-            {
-              "question": "The Digambar festival of Das Lakshan focuses on how many cardinal virtues?",
-              "options": [
-                "Five",
-                "Eight",
-                "Ten",
-                "Twelve"
-              ],
-              "answer": "Ten"
-            },
-            {
-              "question": "What is the name for the final day of Paryushan, dedicated to forgiveness?",
-              "options": [
-                "Attham Tap",
-                "Chaitya Paripäti",
-                "Samvatsari",
-                "Kshamä Vani"
-              ],
-              "answer": "Samvatsari"
-            },
-            {
-              "question": "Which scripture, describing the life of Lord Mahävir, is read during Paryushan?",
-              "options": [
-                "Tattvärtha Sutra",
-                "Ägams",
-                "Samaysär",
-                "Kalpa Sutra"
-              ],
-              "answer": "Kalpa Sutra"
-            },
-            {
-              "question": "What does 'Uttam Ärjav' stand for?",
-              "options": [
-                "Supreme Forgiveness",
-                "Supreme Humility",
-                "Supreme Straightforwardness",
-                "Supreme Purity"
-              ],
-              "answer": "Supreme Straightforwardness"
-            },
-            {
-              "question": "The phrase 'Khämemi Savva Jive' translates to:",
-              "options": [
-                "I forgive all living beings",
-                "My friendship is with all",
-                "My enmity is nonexistent",
-                "May all living beings forgive me"
-              ],
-              "answer": "I forgive all living beings"
-            },
-            {
-              "question": "On which day of Paryushan are the auspicious dreams of Queen Trishalä celebrated?",
-              "options": [
-                "The first day",
-                "The third day",
-                "The fifth day",
-                "The last day"
-              ],
-              "answer": "The fifth day"
-            },
-            {
-              "question": "Which virtue of Das Lakshan relates to contentment and the lack of greed?",
-              "options": [
-                "Uttam Tyäg",
-                "Uttam Äkinchanya",
-                "Uttam Sanyam",
-                "Uttam Shaucha"
-              ],
-              "answer": "Uttam Shaucha"
-            },
-            {
-              "question": "Who composed the Kalpa Sutra?",
-              "options": [
-                "Devarddhi-gani",
-                "Gautam Swämi",
-                "Ächärya Bhadrabähu",
-                "Shrimad Räjchandra"
-              ],
-              "answer": "Ächärya Bhadrabähu"
-            },
-            {
-              "question": "What does 'Attham Tap' refer to in the context of Paryushan activities?",
-              "options": [
-                "Fasting for eight days",
-                "Fasting for three consecutive days",
-                "Eating only once a day",
-                "Visiting eight temples"
-              ],
-              "answer": "Fasting for three consecutive days"
-            },
-            {
-              "question": "Which virtue means 'Supreme Non-attachment' or not having a sense of ownership?",
-              "options": [
-                "Uttam Tyäg",
-                "Uttam Märdav",
-                "Uttam Äkinchanya",
-                "Uttam Brahmacharya"
-              ],
-              "answer": "Uttam Äkinchanya"
-            },
-            {
-              "question": "'Pari + Ushan' is one meaning of Paryushan. What does it mean?",
-              "options": [
-                "To stay closer to the soul",
-                "To suppress all passions",
-                "To burn all types of Karma",
-                "To come together from all directions"
-              ],
-              "answer": "To burn all types of Karma"
-            },
-            {
-              "question": "Which scripture is read daily during the ten days of Das Lakshan Parva?",
-              "options": [
-                "Kalpa Sutra",
-                "Samaysär",
-                "Bhagawati Sutra",
-                "Tattvärtha Sutra"
-              ],
-              "answer": "Tattvärtha Sutra"
-            },
-            {
-              "question": "The phrase 'Kshamä Virasya Bhushanam' means:",
-              "options": [
-                "Forgiveness is difficult",
-                "Forgiveness is the ornament of the brave",
-                "Forgiveness is the path to liberation",
-                "Forgiveness requires humility"
-              ],
-              "answer": "Forgiveness is the ornament of the brave"
-            }
-          ]
-        }
-      }
-    ]
-  }
-  
+"sectionTitle":"D.5: Paryushan and Das Lakshan Parva",
+"tabs": [
+ {
+"tabName":"Introduction",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h2",
+"tagHTML":"Paryushan and Das Lakshan: The Holiest Festivals"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<b>Paryushan Mahä Parva</b> (Shvetämbar tradition) and <b>Das Lakshan Parva</b> (Digambar tradition) are the holiest festivals of the Jain year. These are periods dedicated to fasting, intensive rituals, studying Jain principles, and most importantly, repenting for past wrongdoings and asking for forgiveness from all living beings."
+ },
+ {
+"tagType":"p",
+"tagHTML":"The name <b>Paryushan</b> has several meanings, including'coming together from all directions' and'to burn all types of Karma' (Pari + Ushan). It is a time to purify the soul by observing austerities (tap), minimizing worldly affairs, and focusing on the true nature of the self. Similarly, Das Lakshan focuses on cultivating the ten cardinal virtues of the soul."
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Timing and Duration"
+ },
+ {
+"tagType":"p",
+"tagHTML":"These festivals typically occur around August-September. The Shvetämbar observance of Paryushan lasts for eight days, while the Digambar observance of Das Lakshan lasts for ten days, beginning on or the day after the Shvetämbar Paryushan ends."
+ }
+ ]
+ },
+ {
+"tabName":"Paryushan Essentials",
+"contentType":"accordian",
+"tabData": {
+"title":"Five Essential Activities of Paryushan",
+"description":"During the first three days of Paryushan, sermons are delivered on five essential activities that laypeople are required to undertake.",
+"items": [
+ {
+"header":"1. Amäri Pravartan",
+"content":"Leading a non-violent life (Ahimsä), working towards a non-violent world, and supporting animal welfare activities."
+ },
+ {
+"header":"2. Sädharmik Vätsalya",
+"content":"Showing respect and affection for fellow human beings and supporting humanitarian activities. It fosters a sense of community and mutual respect."
+ },
+ {
+"header":"3. Attham Tap",
+"content":"Observing a fast for three consecutive days. Fasting and other austerities help control desires and shed accumulated karma."
+ },
+ {
+"header":"4. Chaitya Paripäti",
+"content":"Visiting different Jain temples, libraries, and Upäshrays. This also includes supporting other charitable and religious organizations."
+ },
+ {
+"header":"5. Kshamäpanä",
+"content":"The act of forgiveness. This involves repenting for one's own sins, forgiving others for their faults, and requesting forgiveness from all living beings."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Das Lakshan Virtues",
+"contentType":"flashCards",
+"tabData": [
+ {
+"title":"The Ten Cardinal Virtues (Das Lakshan Dharma)",
+"description":"The Digambar tradition dedicates each day of the festival to one of the ten supreme virtues, which are inherent qualities of the soul.",
+"flippable": true,
+"cards": [
+ {
+"front":"1. Uttam Kshamä",
+"back":"Supreme Forgiveness"
+ },
+ {
+"front":"2. Uttam Märdav",
+"back":"Supreme Humility"
+ },
+ {
+"front":"3. Uttam Ärjav",
+"back":"Supreme Straightforwardness"
+ },
+ {
+"front":"4. Uttam Shaucha",
+"back":"Supreme Purity / Contentment"
+ },
+ {
+"front":"5. Uttam Satya",
+"back":"Supreme Truthfulness"
+ },
+ {
+"front":"6. Uttam Sanyam",
+"back":"Supreme Self-restraint"
+ },
+ {
+"front":"7. Uttam Tap",
+"back":"Supreme Austerities"
+ },
+ {
+"front":"8. Uttam Tyäg",
+"back":"Supreme Renunciation"
+ },
+ {
+"front":"9. Uttam Äkinchanya",
+"back":"Supreme Non-attachment / Non-possession"
+ },
+ {
+"front":"10. Uttam Brahmacharya",
+"back":"Supreme Celibacy / Chastity"
+ }
+ ]
+ }
+ ]
+ },
+ {
+"tabName":"Virtues Explained",
+"contentType":"accordian",
+"tabData": {
+"title":"Understanding the Ten Virtues",
+"description":"A deeper look into the meaning of each of the Das Lakshan virtues.",
+"items": [
+ {
+"header":"Uttam Kshamä (Supreme Forgiveness)",
+"content":"Not allowing anger to arise, and if it does, rendering it ineffective. It's about cultivating the soul's natural state, which is free of anger and revenge."
+ },
+ {
+"header":"Uttam Märdav (Supreme Humility)",
+"content":"Having a softness of heart and polite feelings, free from the passion of pride related to knowledge, power, status, or appearance."
+ },
+ {
+"header":"Uttam Ärjav (Supreme Straightforwardness)",
+"content":"Achieving purity in thought, speech, and action. A person with this quality is not deceitful and lives in a simple, honest way."
+ },
+ {
+"header":"Uttam Shaucha (Supreme Purity)",
+"content":"Attaining contentment by overcoming greed. Greed is the desire to possess and is a root cause of all sins. Eradicating greed makes the soul practically passionless."
+ },
+ {
+"header":"Uttam Satya (Supreme Truthfulness)",
+"content":"Speaking what is beneficial and refraining from harsh or derogatory language. The virtue of the pure soul is truth."
+ },
+ {
+"header":"Uttam Sanyam (Supreme Self-restraint)",
+"content":"Disciplining the mind, speech, and body to avoid injuring any living being and to detach from sensual pleasures. True happiness comes from within, not from the senses."
+ },
+ {
+"header":"Uttam Tap (Supreme Austerities)",
+"content":"Controlling attachments and aversions. When one stabilizes in their own pure state, abandoning desires, it is known as austerity."
+ },
+ {
+"header":"Uttam Tyäg (Supreme Renunciation)",
+"content":"Renouncing a possessive attitude. This applies to both external possessions (wealth, house) and internal possessions (attachment, aversion)."
+ },
+ {
+"header":"Uttam Äkinchanya (Supreme Non-attachment)",
+"content":"Not having a feeling of ownership over anything. It is easy to give up external things, but harder to give up the internal attachment to them."
+ },
+ {
+"header":"Uttam Brahmacharya (Supreme Celibacy)",
+"content":"From an absolute view, it means staying in the true nature of the soul. From an empirical view, it means controlling the desires of the five senses."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Kalpa Sutra",
+"contentType":"text",
+"tabData": [
+ {
+"tagType":"h3",
+"tagHTML":"The Reading of the Kalpa Sutra"
+ },
+ {
+"tagType":"p",
+"tagHTML":"In the Shvetämbar tradition, the <b>Kalpa Sutra</b> is read to the congregation from the fourth through the eighth day of Paryushan. Composed by Ächärya Bhadrabähu in the 3rd century B.C., this scripture holds immense significance."
+ },
+ {
+"tagType":"ul",
+"tagHTML":"<li>It describes the rules for monastic life during the rainy season.</li><li>It contains the biographies of Tirthankars, especially a detailed and poetic account of Lord Mahävir's life, including the 14 auspicious dreams of his mother, Queen Trishalä.</li><li>It outlines the lineage of the Ganadhars' successors.</li>"
+ },
+ {
+"tagType":"p",
+"tagHTML":"On the fifth day of Paryushan, the auspicious dreams of Queen Trishalä are celebrated in a special ceremony."
+ }
+ ]
+ },
+ {
+"tabName":"The Day of Forgiveness",
+"contentType":"accordian",
+"tabData": {
+"title":"Samvatsari and Kshamä: The Universal Act of Forgiveness",
+"description":"The final day of Shvetämbar Paryushan is <b>Samvatsari</b>, and the first day of Digambar Das Lakshan is <b>Kshamä Vani</b>. Both are dedicated to the paramount Jain principle of forgiveness.",
+"items": [
+ {
+"header":"The Core Principle",
+"content":"On this day, Jains ask for forgiveness from everyone—family, friends, and all other living beings—for any harm caused knowingly or unknowingly during the past year. It is a day to release oneself from the burden of anger, hostility, and resentment."
+ },
+ {
+"header":"The Great Prayer of Forgiveness",
+"content":"The essence of this day is captured in the universal prayer: <br><br><i>Khämemi Savva Jive, Savve Jivä Khamantu Me</i><br><i>Mitti Me Savva Bhuesu, Veram Majjha na Kenai.</i><br><br><b>Translation:</b><br>I forgive all living beings,<br>May all living beings forgive me.<br>My friendship is with all living beings,<br>My enmity is nonexistent."
+ },
+ {
+"header":"Why Forgiveness is a'Quality of the Brave'",
+"content":"Asking for forgiveness requires great humility (Vinay) and the strength to suppress one's ego and anger. As the Ächäryas have said,'Kshamä Virasya Bhushanam' – Forgiveness is the ornament of the brave. When we forgive, we purify our soul and become one with its radiant light."
+ }
+ ]
+ }
+ },
+ {
+"tabName":"Quiz",
+"contentType":"quiz",
+"tabData": {
+"title":"Test Your Knowledge on Paryushan and Das Lakshan",
+"questions": [
+ {
+"question":"How many days does the Shvetämbar festival of Paryushan last?",
+"options": [
+"7 days",
+"8 days",
+"9 days",
+"10 days"
+ ],
+"answer":"8 days"
+ },
+ {
+"question":"Which of these is one of the Five Essential Activities of Paryushan?",
+"options": [
+"Uttam Kshamä",
+"Sädharmik Vätsalya",
+"Uttam Satya",
+"Kalpa Sutra Reading"
+ ],
+"answer":"Sädharmik Vätsalya"
+ },
+ {
+"question":"The Digambar festival of Das Lakshan focuses on how many cardinal virtues?",
+"options": [
+"Five",
+"Eight",
+"Ten",
+"Twelve"
+ ],
+"answer":"Ten"
+ },
+ {
+"question":"What is the name for the final day of Paryushan, dedicated to forgiveness?",
+"options": [
+"Attham Tap",
+"Chaitya Paripäti",
+"Samvatsari",
+"Kshamä Vani"
+ ],
+"answer":"Samvatsari"
+ },
+ {
+"question":"Which scripture, describing the life of Lord Mahävir, is read during Paryushan?",
+"options": [
+"Tattvärtha Sutra",
+"Ägams",
+"Samaysär",
+"Kalpa Sutra"
+ ],
+"answer":"Kalpa Sutra"
+ },
+ {
+"question":"What does'Uttam Ärjav' stand for?",
+"options": [
+"Supreme Forgiveness",
+"Supreme Humility",
+"Supreme Straightforwardness",
+"Supreme Purity"
+ ],
+"answer":"Supreme Straightforwardness"
+ },
+ {
+"question":"The phrase'Khämemi Savva Jive' translates to:",
+"options": [
+"I forgive all living beings",
+"My friendship is with all",
+"My enmity is nonexistent",
+"May all living beings forgive me"
+ ],
+"answer":"I forgive all living beings"
+ },
+ {
+"question":"On which day of Paryushan are the auspicious dreams of Queen Trishalä celebrated?",
+"options": [
+"The first day",
+"The third day",
+"The fifth day",
+"The last day"
+ ],
+"answer":"The fifth day"
+ },
+ {
+"question":"Which virtue of Das Lakshan relates to contentment and the lack of greed?",
+"options": [
+"Uttam Tyäg",
+"Uttam Äkinchanya",
+"Uttam Sanyam",
+"Uttam Shaucha"
+ ],
+"answer":"Uttam Shaucha"
+ },
+ {
+"question":"Who composed the Kalpa Sutra?",
+"options": [
+"Devarddhi-gani",
+"Gautam Swämi",
+"Ächärya Bhadrabähu",
+"Shrimad Räjchandra"
+ ],
+"answer":"Ächärya Bhadrabähu"
+ },
+ {
+"question":"What does'Attham Tap' refer to in the context of Paryushan activities?",
+"options": [
+"Fasting for eight days",
+"Fasting for three consecutive days",
+"Eating only once a day",
+"Visiting eight temples"
+ ],
+"answer":"Fasting for three consecutive days"
+ },
+ {
+"question":"Which virtue means'Supreme Non-attachment' or not having a sense of ownership?",
+"options": [
+"Uttam Tyäg",
+"Uttam Märdav",
+"Uttam Äkinchanya",
+"Uttam Brahmacharya"
+ ],
+"answer":"Uttam Äkinchanya"
+ },
+ {
+"question":"'Pari + Ushan' is one meaning of Paryushan. What does it mean?",
+"options": [
+"To stay closer to the soul",
+"To suppress all passions",
+"To burn all types of Karma",
+"To come together from all directions"
+ ],
+"answer":"To burn all types of Karma"
+ },
+ {
+"question":"Which scripture is read daily during the ten days of Das Lakshan Parva?",
+"options": [
+"Kalpa Sutra",
+"Samaysär",
+"Bhagawati Sutra",
+"Tattvärtha Sutra"
+ ],
+"answer":"Tattvärtha Sutra"
+ },
+ {
+"question":"The phrase'Kshamä Virasya Bhushanam' means:",
+"options": [
+"Forgiveness is difficult",
+"Forgiveness is the ornament of the brave",
+"Forgiveness is the path to liberation",
+"Forgiveness requires humility"
+ ],
+"answer":"Forgiveness is the ornament of the brave"
+ }
+ ]
+ }
+ }
+ ]
+ }
+ 

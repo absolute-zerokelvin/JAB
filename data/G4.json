@@ -1,290 +1,290 @@
 {
-  "title": "The Story of King Shripäl and Mayanä-sundari",
-  "subtitle": "Section G.4 from JAB Manual",
-  "storyContent": [
-    {
-      "tagType": "h3",
-      "tagHTML": "A Prince in Exile"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "King Singhrath of Champä-nagar died when his son, <span class=\"highlight\">Prince Shripäl</span>, was just five. The king's ambitious brother, Ajitsen, seized the throne and plotted to eliminate the young prince. Shripäl's mother, Queen Kamal-prabhä, fled with him. Pursued by soldiers, she made a desperate choice: she entrusted her son to a colony of lepers to save his life."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Shripäl grew up among the lepers and eventually contracted the disease himself. Despite this, his noble qualities shone through, and he became their leader, known as <span class=\"highlight\">Umar Ränä</span>. One day, his travels brought him and his group to the city of Ujjayini."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "A Test of Faith"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" /><path d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" /></svg>In Ujjayini, King Prajäpäl tested his two daughters. The elder, Sursundari, credited the king for her happiness. The younger, <span class=\"highlight\">Mayanä-sundari</span>, stated with firm faith that everything she had was the result of her own <span class=\"highlight\">karma</span>. Enraged by what he perceived as disrespect, the king decided to teach her a lesson. He found the 'ugliest man' in the city—the leprous Umar Ränä (Shripäl)—and forcibly married Mayanä to him."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "The Power of Devotion"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Mayanä, deeply religious, accepted her fate and cared for her husband. They sought guidance from <span class=\"highlight\">Ächärya Munichandra</span>, who advised them to perform the <span class=\"highlight\">Navpad Ärädhanä</span>, also known as Äyambil Oli—a nine-day penance of meditation and fasting. They devoutly observed the penance for four and a half years."
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The result was miraculous. Shripäl's leprosy was completely cured, and he regained his handsome princely form. King Prajäpäl, seeing this, realized the truth in his daughter's words about the power of karma. Shripäl's true identity was revealed, and he was welcomed back into the palace."
-    },
-    {
-        "tagType": "hr",
-        "tagHTML": ""
-    },
-    {
-      "tagType": "h3",
-      "tagHTML": "Reclaiming a Kingdom"
-    },
-    {
-      "tagType": "p",
-      "tagHTML": "Feeling he needed to build his own fame rather than rely on his father-in-law's, Shripäl set out on his own. He traveled far and wide, amassing a great army and wealth, all while maintaining his devotion to the Navpad. He eventually returned to his home kingdom of <span class=\"highlight\">Champä-nagar</span> and challenged his usurper uncle, Ajitsen. Shripäl won the battle, reclaimed his throne, and gracefully released his uncle, who then renounced the world. King Shripäl ruled his kingdom happily with Mayanä-sundari for the rest of his life."
-    }
-  ],
-  "timelineData": [
-    {
-      "era": "The Exiled Prince",
-      "period": "Shripäl's Childhood",
-      "events": [
-        {
-          "title": "Father's Death",
-          "description": "After King Singhrath dies, his ambitious brother Ajitsen seizes the throne of Champä-nagar.",
-          "characters": ["King Singhrath", "Ajitsen"]
-        },
-        {
-          "title": "A Desperate Escape",
-          "description": "To save her son from Ajitsen, Queen Kamal-prabhä flees and entrusts the five-year-old Prince Shripäl to a colony of lepers.",
-          "characters": ["Prince Shripäl", "Kamal-prabhä", "Ajitsen"]
-        },
-        {
-          "title": "Life as a Leper",
-          "description": "Shripäl grows up in the colony, contracts leprosy, and eventually becomes their leader, known as Umar Ränä.",
-          "characters": ["Shripäl (as Umar Ränä)"]
-        }
-      ]
-    },
-    {
-      "era": "The Test of Karma",
-      "period": "Arrival in Ujjayini",
-      "events": [
-        {
-          "title": "A King's Question",
-          "description": "King Prajäpäl tests his daughters. Mayanä-sundari attributes her good fortune to her own karma, not the king's favor.",
-          "characters": ["King Prajäpäl", "Mayanä-sundari", "Sursundari"]
-        },
-        {
-          "title": "A Cruel Punishment",
-          "description": "Enraged, the king marries Mayanä-sundari to Umar Ränä (Shripäl), the 'ugliest man' he can find, to teach her a lesson.",
-          "characters": ["King Prajäpäl", "Mayanä-sundari", "Shripäl (as Umar Ränä)"]
-        }
-      ]
-    },
-    {
-      "era": "The Power of Penance",
-      "period": "Life in Ujjayini",
-      "events": [
-        {
-          "title": "A Guru's Advice",
-          "description": "The couple seeks help from Ächärya Munichandra, who advises them to perform the Navpad Ärädhanä (Äyambil Oli) penance.",
-          "characters": ["Mayanä-sundari", "Shripäl", "Ächärya Munichandra"]
-        },
-        {
-          "title": "A Miraculous Cure",
-          "description": "After four and a half years of devout penance, Shripäl is completely cured of leprosy and regains his princely appearance.",
-          "characters": ["Shripäl", "Mayanä-sundari"]
-        },
-        {
-          "title": "A Father's Realization",
-          "description": "King Prajäpäl sees the transformation and finally understands the power of karma, welcoming his daughter and son-in-law back to the palace.",
-          "characters": ["King Prajäpäl", "Shripäl", "Mayanä-sundari"]
-        }
-      ]
-    },
-    {
-      "era": "The King's Return",
-      "period": "Later Life",
-      "events": [
-        {
-          "title": "Building an Army",
-          "description": "Shripäl leaves to make his own name, travels widely, and amasses a large army and great wealth.",
-          "characters": ["King Shripäl"]
-        },
-        {
-          "title": "Reclaiming the Throne",
-          "description": "He returns to Champä-nagar, defeats his uncle Ajitsen in battle, and becomes the rightful king.",
-          "characters": ["King Shripäl", "Ajitsen"]
-        }
-      ]
-    }
-  ],
-  "charactersData": [
-    {
-      "name": "King Shripäl",
-      "description": "A prince who was forced into exile, contracted leprosy, and was known as Umar Ränä. Through penance and faith, he was cured, built his own fortune, and reclaimed his rightful kingdom of Champä-nagar."
-    },
-    {
-      "name": "Mayanä-sundari",
-      "description": "A princess with unwavering faith in the theory of karma. Punished by her father for this belief, she was married to a leper (Shripäl) but, through her devotion, was instrumental in his miraculous cure."
-    },
-    {
-      "name": "King Prajäpäl",
-      "description": "The King of Ujjayini and Mayanä-sundari's father. His anger at his daughter's belief in karma led him to punish her, but he later learned the truth of her words."
-    },
-    {
-      "name": "Ajitsen",
-      "description": "Shripäl's ambitious and cruel uncle, who usurped the throne of Champä-nagar after his brother's death and tried to have Shripäl killed."
-    },
-    {
-      "name": "Ächärya Munichandra",
-      "description": "The learned Jain guru who advised Shripäl and Mayanä-sundari to perform the Navpad Ärädhanä (Äyambil Oli) penance, which led to the cure."
-    },
-    {
-      "name": "Kamal-prabhä",
-      "description": "Shripäl's mother, who saved him from his uncle by entrusting him to a leper colony."
-    }
-  ],
-  "quizData": [
-    { "question": "What was Prince Shripäl's name when he was living as the leader of the leper colony?", "answer": "Umar Ränä." },
-    { "question": "Who was Shripäl's cruel uncle who seized his throne?", "answer": "Ajitsen." },
-    { "question": "In what city did King Prajäpäl rule?", "answer": "Ujjayini." },
-    { "question": "What was Mayanä-sundari's answer to her father's question about her good fortune?", "answer": "She said it was the result of her own meritorious (Punya) karma." },
-    { "question": "How did King Prajäpäl punish Mayanä-sundari for her answer?", "answer": "He married her to Shripäl, who he thought was an ugly leper named Umar Ränä." },
-    { "question": "What is the name of the nine-day penance that Ächärya Munichandra advised the couple to perform?", "answer": "Navpad Ärädhanä or Äyambil Oli." },
-    { "question": "What does the Äyambil penance involve?", "answer": "Eating only one meal a day of very plain food without any spices, milk, sugar, salt, oil, butter, fruits, or vegetables." },
-    { "question": "What miraculous event occurred after Shripäl and Mayanä performed the penance?", "answer": "Shripäl was completely cured of his leprosy." },
-    { "question": "After he was cured, why did Shripäl decide to leave Ujjayini and travel on his own?", "answer": "He felt sad that he was only being identified by his relationship to his father-in-law and wanted to gain fame through his own efforts." },
-    { "question": "What was the name of Shripäl's original kingdom that he eventually reclaimed?", "answer": "Champä-nagar." },
-    { "question": "Who was Shripäl's mother?", "answer": "Queen Kamal-prabhä." },
-    { "question": "Who was Mayanä-sundari's sister?", "answer": "Sursundari." },
-    { "question": "How did Sursundari answer her father's question?", "answer": "She replied that she gained everything by the king’s favor." },
-    { "question": "The Navpad are the nine pious entities. Name three of them.", "answer": "Arihant, Siddha, Ächärya, Upädhyäy, Sädhu, Jnän (knowledge), Darshan (faith), Chäritra (conduct), and Tap (penance)." },
-    { "question": "For how long did the couple have to perform the penance?", "answer": "For four and a half years." },
-    { "question": "What did Ajitsen do after Shripäl captured him and took back the kingdom?", "answer": "He felt his days were over and decided to renounce the worldly life." },
-    { "question": "Who was Shripäl's father?", "answer": "King Singhrath." }
-  ],
-  "mindmapV1Data": {
-    "name": "The Tale of Shripäl and Mayanä-sundari",
-    "children": [
-      {
-        "name": "Prince in Exile",
-        "children": [
-          { "name": "Uncle Ajitsen Seizes Throne" },
-          { "name": "Mother Flees" },
-          { "name": "Grows up in Leper Colony" },
-          { "name": "Becomes 'Umar Ränä'" }
-        ]
-      },
-      {
-        "name": "A Test of Karma",
-        "children": [
-          { "name": "Mayanä's Faithful Answer" },
-          { "name": "King Prajäpäl's Anger" },
-          { "name": "Forced Marriage to Umar Ränä" }
-        ]
-      },
-      {
-        "name": "The Power of Faith",
-        "children": [
-          { "name": "Advised by Ächärya Munichandra" },
-          { "name": "Performs Navpad Ärädhanä" },
-          { "name": "Shripäl is Cured" }
-        ]
-      },
-      {
-        "name": "A King's Destiny",
-        "children": [
-          { "name": "Shripäl Builds an Army" },
-          { "name": "Reclaims Kingdom of Champä-nagar" },
-          { "name": "Rules with Mayanä-sundari" }
-        ]
-      }
-    ]
-  },
-  "mindmapV2Data": {
-    "name": "Karma and Courage",
-    "children": [
-      {
-        "name": "Shripäl's Fall",
-        "children": [
-          { "name": "An Orphaned Prince" },
-          { "name": "A Life with Lepers" }
-        ]
-      },
-      {
-        "name": "Mayanä's Faith",
-        "children": [
-          { "name": "The King's Test" },
-          { "name": "A Punishing Marriage" },
-          { "name": "Unwavering Belief" }
-        ]
-      },
-      {
-        "name": "The Rise Through Penance",
-        "children": [
-          { "name": "The Guru's Advice" },
-          { "name": "The Äyambil Oli" },
-          { "name": "The Miracle" }
-        ]
-      },
-      {
-        "name": "Destiny Fulfilled",
-        "children": [
-          { "name": "Forging a New Path" },
-          { "name": "Reclaiming the Throne" }
-        ]
-      }
-    ]
-  },
-  "graphicsData": [
-    {
-      "title": "A Mother's Desperate Choice",
-      "description": "Fleeing from soldiers, Queen Kamal-prabhä tearfully entrusts her young son, Prince Shripäl, to a group of lepers to save his life.",
-      "imageSrc": "https://placehold.co/600x400/4a044e/fdf2f8?text=A+Mother's+Sacrifice",
-      "imageAlt": "A queen giving her child to a group of poor, sick people while looking back fearfully."
-    },
-    {
-      "title": "A Test of Belief",
-      "description": "When asked by her father the source of her happiness, Princess Mayanä-sundari respectfully answers that it comes from her own good karma, not the king.",
-      "imageSrc": "https://placehold.co/600x400/fef2f2/b91c1c?text=Mayanä's+Faithful+Answer",
-      "imageAlt": "A princess speaking calmly to an angry-looking king on his throne."
-    },
-    {
-      "title": "A Cruel Marriage",
-      "description": "As punishment, the enraged King Prajäpäl forces his daughter Mayanä-sundari to marry Umar Ränä (Shripäl), the leader of the lepers.",
-      "imageSrc": "https://placehold.co/600x400/fffbeb/d97706?text=The+Forced+Wedding",
-      "imageAlt": "A sad princess being married to a man covered in rags and sores."
-    },
-    {
-      "title": "The Power of Penance",
-      "description": "Advised by a wise Ächärya, Mayanä and Shripäl devoutly perform the Äyambil Oli, a rigorous penance of fasting and meditation.",
-      "imageSrc": "https://placehold.co/600x400/ecfdf5/047857?text=The+Navpad+Penance",
-      "imageAlt": "A couple sitting in deep meditation, with simple food before them."
-    },
-    {
-      "title": "A Miraculous Transformation",
-      "description": "Through their devotion, Shripäl is miraculously cured of his leprosy, revealing his true, handsome princely form to the astonishment of all.",
-      "imageSrc": "https://placehold.co/600x400/f0f9ff/0284c7?text=The+Cured+Prince",
-      "imageAlt": "The same man, now handsome and well-dressed, standing with his wife, looking healthy and strong."
-    },
-    {
-      "title": "Reclaiming the Kingdom",
-      "description": "After building his own army, King Shripäl returns to his home of Champä-nagar and defeats his usurper uncle, reclaiming his rightful throne.",
-      "imageSrc": "https://placehold.co/600x400/f5f3ff/6d28d9?text=King+Shripäl+Victorious",
-      "imageAlt": "A king on horseback leading a large army towards a castle."
-    }
-  ]
+"title":"The Story of King Shripäl and Mayanä-sundari",
+"subtitle":"Section G.4 from JAB Manual",
+"storyContent": [
+ {
+"tagType":"h3",
+"tagHTML":"A Prince in Exile"
+ },
+ {
+"tagType":"p",
+"tagHTML":"King Singhrath of Champä-nagar died when his son, <span class=\"highlight\">Prince Shripäl</span>, was just five. The king's ambitious brother, Ajitsen, seized the throne and plotted to eliminate the young prince. Shripäl's mother, Queen Kamal-prabhä, fled with him. Pursued by soldiers, she made a desperate choice: she entrusted her son to a colony of lepers to save his life."
+ },
+ {
+"tagType":"p",
+"tagHTML":"Shripäl grew up among the lepers and eventually contracted the disease himself. Despite this, his noble qualities shone through, and he became their leader, known as <span class=\"highlight\">Umar Ränä</span>. One day, his travels brought him and his group to the city of Ujjayini."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"A Test of Faith"
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M10 9a3 3 0 100-6 3 3 0 000 6zM6 8a2 2 0 11-4 0 2 2 0 014 0zM1.49 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM18.51 15.326a.75.75 0 01-1.292-.786l.942-1.633a.75.75 0 011.292.786l-.942 1.633zM13.262 16.51a.75.75 0 01-1.042.334l-2.18-1.258a.75.75 0 010-1.332l2.18-1.258a.75.75 0 011.042 1.332l-1.428.82 1.428.82z\" /><path d=\"M10 16a2 2 0 11-4 0 2 2 0 014 0zM16 14a2 2 0 100-4 2 2 0 000 4z\" /></svg>In Ujjayini, King Prajäpäl tested his two daughters. The elder, Sursundari, credited the king for her happiness. The younger, <span class=\"highlight\">Mayanä-sundari</span>, stated with firm faith that everything she had was the result of her own <span class=\"highlight\">karma</span>. Enraged by what he perceived as disrespect, the king decided to teach her a lesson. He found the'ugliest man' in the city—the leprous Umar Ränä (Shripäl)—and forcibly married Mayanä to him."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"The Power of Devotion"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Mayanä, deeply religious, accepted her fate and cared for her husband. They sought guidance from <span class=\"highlight\">Ächärya Munichandra</span>, who advised them to perform the <span class=\"highlight\">Navpad Ärädhanä</span>, also known as Äyambil Oli—a nine-day penance of meditation and fasting. They devoutly observed the penance for four and a half years."
+ },
+ {
+"tagType":"p",
+"tagHTML":"<svg class=\"story-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\"><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M11.983 1.904a.75.75 0 00-1.292-.782l-5.5 9.5a.75.75 0 001.292.782l5.5-9.5z\" /><path d=\"M2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zM4.096 15.096a.75.75 0 001.06 1.06l5.5-5.5a.75.75 0 00-1.06-1.06l-5.5 5.5z\" /><path d=\"M5.156 10.596a.75.75 0 010-1.06l5.5-5.5a.75.75 0 111.06 1.06l-5.5 5.5a.75.75 0 01-1.06 0z\" /></svg>The result was miraculous. Shripäl's leprosy was completely cured, and he regained his handsome princely form. King Prajäpäl, seeing this, realized the truth in his daughter's words about the power of karma. Shripäl's true identity was revealed, and he was welcomed back into the palace."
+ },
+ {
+"tagType":"hr",
+"tagHTML":""
+ },
+ {
+"tagType":"h3",
+"tagHTML":"Reclaiming a Kingdom"
+ },
+ {
+"tagType":"p",
+"tagHTML":"Feeling he needed to build his own fame rather than rely on his father-in-law's, Shripäl set out on his own. He traveled far and wide, amassing a great army and wealth, all while maintaining his devotion to the Navpad. He eventually returned to his home kingdom of <span class=\"highlight\">Champä-nagar</span> and challenged his usurper uncle, Ajitsen. Shripäl won the battle, reclaimed his throne, and gracefully released his uncle, who then renounced the world. King Shripäl ruled his kingdom happily with Mayanä-sundari for the rest of his life."
+ }
+ ],
+"timelineData": [
+ {
+"era":"The Exiled Prince",
+"period":"Shripäl's Childhood",
+"events": [
+ {
+"title":"Father's Death",
+"description":"After King Singhrath dies, his ambitious brother Ajitsen seizes the throne of Champä-nagar.",
+"characters": ["King Singhrath","Ajitsen"]
+ },
+ {
+"title":"A Desperate Escape",
+"description":"To save her son from Ajitsen, Queen Kamal-prabhä flees and entrusts the five-year-old Prince Shripäl to a colony of lepers.",
+"characters": ["Prince Shripäl","Kamal-prabhä","Ajitsen"]
+ },
+ {
+"title":"Life as a Leper",
+"description":"Shripäl grows up in the colony, contracts leprosy, and eventually becomes their leader, known as Umar Ränä.",
+"characters": ["Shripäl (as Umar Ränä)"]
+ }
+ ]
+ },
+ {
+"era":"The Test of Karma",
+"period":"Arrival in Ujjayini",
+"events": [
+ {
+"title":"A King's Question",
+"description":"King Prajäpäl tests his daughters. Mayanä-sundari attributes her good fortune to her own karma, not the king's favor.",
+"characters": ["King Prajäpäl","Mayanä-sundari","Sursundari"]
+ },
+ {
+"title":"A Cruel Punishment",
+"description":"Enraged, the king marries Mayanä-sundari to Umar Ränä (Shripäl), the'ugliest man' he can find, to teach her a lesson.",
+"characters": ["King Prajäpäl","Mayanä-sundari","Shripäl (as Umar Ränä)"]
+ }
+ ]
+ },
+ {
+"era":"The Power of Penance",
+"period":"Life in Ujjayini",
+"events": [
+ {
+"title":"A Guru's Advice",
+"description":"The couple seeks help from Ächärya Munichandra, who advises them to perform the Navpad Ärädhanä (Äyambil Oli) penance.",
+"characters": ["Mayanä-sundari","Shripäl","Ächärya Munichandra"]
+ },
+ {
+"title":"A Miraculous Cure",
+"description":"After four and a half years of devout penance, Shripäl is completely cured of leprosy and regains his princely appearance.",
+"characters": ["Shripäl","Mayanä-sundari"]
+ },
+ {
+"title":"A Father's Realization",
+"description":"King Prajäpäl sees the transformation and finally understands the power of karma, welcoming his daughter and son-in-law back to the palace.",
+"characters": ["King Prajäpäl","Shripäl","Mayanä-sundari"]
+ }
+ ]
+ },
+ {
+"era":"The King's Return",
+"period":"Later Life",
+"events": [
+ {
+"title":"Building an Army",
+"description":"Shripäl leaves to make his own name, travels widely, and amasses a large army and great wealth.",
+"characters": ["King Shripäl"]
+ },
+ {
+"title":"Reclaiming the Throne",
+"description":"He returns to Champä-nagar, defeats his uncle Ajitsen in battle, and becomes the rightful king.",
+"characters": ["King Shripäl","Ajitsen"]
+ }
+ ]
+ }
+ ],
+"charactersData": [
+ {
+"name":"King Shripäl",
+"description":"A prince who was forced into exile, contracted leprosy, and was known as Umar Ränä. Through penance and faith, he was cured, built his own fortune, and reclaimed his rightful kingdom of Champä-nagar."
+ },
+ {
+"name":"Mayanä-sundari",
+"description":"A princess with unwavering faith in the theory of karma. Punished by her father for this belief, she was married to a leper (Shripäl) but, through her devotion, was instrumental in his miraculous cure."
+ },
+ {
+"name":"King Prajäpäl",
+"description":"The King of Ujjayini and Mayanä-sundari's father. His anger at his daughter's belief in karma led him to punish her, but he later learned the truth of her words."
+ },
+ {
+"name":"Ajitsen",
+"description":"Shripäl's ambitious and cruel uncle, who usurped the throne of Champä-nagar after his brother's death and tried to have Shripäl killed."
+ },
+ {
+"name":"Ächärya Munichandra",
+"description":"The learned Jain guru who advised Shripäl and Mayanä-sundari to perform the Navpad Ärädhanä (Äyambil Oli) penance, which led to the cure."
+ },
+ {
+"name":"Kamal-prabhä",
+"description":"Shripäl's mother, who saved him from his uncle by entrusting him to a leper colony."
+ }
+ ],
+"quizData": [
+ {"question":"What was Prince Shripäl's name when he was living as the leader of the leper colony?","answer":"Umar Ränä." },
+ {"question":"Who was Shripäl's cruel uncle who seized his throne?","answer":"Ajitsen." },
+ {"question":"In what city did King Prajäpäl rule?","answer":"Ujjayini." },
+ {"question":"What was Mayanä-sundari's answer to her father's question about her good fortune?","answer":"She said it was the result of her own meritorious (Punya) karma." },
+ {"question":"How did King Prajäpäl punish Mayanä-sundari for her answer?","answer":"He married her to Shripäl, who he thought was an ugly leper named Umar Ränä." },
+ {"question":"What is the name of the nine-day penance that Ächärya Munichandra advised the couple to perform?","answer":"Navpad Ärädhanä or Äyambil Oli." },
+ {"question":"What does the Äyambil penance involve?","answer":"Eating only one meal a day of very plain food without any spices, milk, sugar, salt, oil, butter, fruits, or vegetables." },
+ {"question":"What miraculous event occurred after Shripäl and Mayanä performed the penance?","answer":"Shripäl was completely cured of his leprosy." },
+ {"question":"After he was cured, why did Shripäl decide to leave Ujjayini and travel on his own?","answer":"He felt sad that he was only being identified by his relationship to his father-in-law and wanted to gain fame through his own efforts." },
+ {"question":"What was the name of Shripäl's original kingdom that he eventually reclaimed?","answer":"Champä-nagar." },
+ {"question":"Who was Shripäl's mother?","answer":"Queen Kamal-prabhä." },
+ {"question":"Who was Mayanä-sundari's sister?","answer":"Sursundari." },
+ {"question":"How did Sursundari answer her father's question?","answer":"She replied that she gained everything by the king’s favor." },
+ {"question":"The Navpad are the nine pious entities. Name three of them.","answer":"Arihant, Siddha, Ächärya, Upädhyäy, Sädhu, Jnän (knowledge), Darshan (faith), Chäritra (conduct), and Tap (penance)." },
+ {"question":"For how long did the couple have to perform the penance?","answer":"For four and a half years." },
+ {"question":"What did Ajitsen do after Shripäl captured him and took back the kingdom?","answer":"He felt his days were over and decided to renounce the worldly life." },
+ {"question":"Who was Shripäl's father?","answer":"King Singhrath." }
+ ],
+"mindmapV1Data": {
+"name":"The Tale of Shripäl and Mayanä-sundari",
+"children": [
+ {
+"name":"Prince in Exile",
+"children": [
+ {"name":"Uncle Ajitsen Seizes Throne" },
+ {"name":"Mother Flees" },
+ {"name":"Grows up in Leper Colony" },
+ {"name":"Becomes'Umar Ränä'" }
+ ]
+ },
+ {
+"name":"A Test of Karma",
+"children": [
+ {"name":"Mayanä's Faithful Answer" },
+ {"name":"King Prajäpäl's Anger" },
+ {"name":"Forced Marriage to Umar Ränä" }
+ ]
+ },
+ {
+"name":"The Power of Faith",
+"children": [
+ {"name":"Advised by Ächärya Munichandra" },
+ {"name":"Performs Navpad Ärädhanä" },
+ {"name":"Shripäl is Cured" }
+ ]
+ },
+ {
+"name":"A King's Destiny",
+"children": [
+ {"name":"Shripäl Builds an Army" },
+ {"name":"Reclaims Kingdom of Champä-nagar" },
+ {"name":"Rules with Mayanä-sundari" }
+ ]
+ }
+ ]
+ },
+"mindmapV2Data": {
+"name":"Karma and Courage",
+"children": [
+ {
+"name":"Shripäl's Fall",
+"children": [
+ {"name":"An Orphaned Prince" },
+ {"name":"A Life with Lepers" }
+ ]
+ },
+ {
+"name":"Mayanä's Faith",
+"children": [
+ {"name":"The King's Test" },
+ {"name":"A Punishing Marriage" },
+ {"name":"Unwavering Belief" }
+ ]
+ },
+ {
+"name":"The Rise Through Penance",
+"children": [
+ {"name":"The Guru's Advice" },
+ {"name":"The Äyambil Oli" },
+ {"name":"The Miracle" }
+ ]
+ },
+ {
+"name":"Destiny Fulfilled",
+"children": [
+ {"name":"Forging a New Path" },
+ {"name":"Reclaiming the Throne" }
+ ]
+ }
+ ]
+ },
+"graphicsData": [
+ {
+"title":"A Mother's Desperate Choice",
+"description":"Fleeing from soldiers, Queen Kamal-prabhä tearfully entrusts her young son, Prince Shripäl, to a group of lepers to save his life.",
+"imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=A+Mother's+Sacrifice",
+"imageAlt":"A queen giving her child to a group of poor, sick people while looking back fearfully."
+ },
+ {
+"title":"A Test of Belief",
+"description":"When asked by her father the source of her happiness, Princess Mayanä-sundari respectfully answers that it comes from her own good karma, not the king.",
+"imageSrc":"https://placehold.co/600x400/fef2f2/b91c1c?text=Mayanä's+Faithful+Answer",
+"imageAlt":"A princess speaking calmly to an angry-looking king on his throne."
+ },
+ {
+"title":"A Cruel Marriage",
+"description":"As punishment, the enraged King Prajäpäl forces his daughter Mayanä-sundari to marry Umar Ränä (Shripäl), the leader of the lepers.",
+"imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=The+Forced+Wedding",
+"imageAlt":"A sad princess being married to a man covered in rags and sores."
+ },
+ {
+"title":"The Power of Penance",
+"description":"Advised by a wise Ächärya, Mayanä and Shripäl devoutly perform the Äyambil Oli, a rigorous penance of fasting and meditation.",
+"imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Navpad+Penance",
+"imageAlt":"A couple sitting in deep meditation, with simple food before them."
+ },
+ {
+"title":"A Miraculous Transformation",
+"description":"Through their devotion, Shripäl is miraculously cured of his leprosy, revealing his true, handsome princely form to the astonishment of all.",
+"imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=The+Cured+Prince",
+"imageAlt":"The same man, now handsome and well-dressed, standing with his wife, looking healthy and strong."
+ },
+ {
+"title":"Reclaiming the Kingdom",
+"description":"After building his own army, King Shripäl returns to his home of Champä-nagar and defeats his usurper uncle, reclaiming his rightful throne.",
+"imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=King+Shripäl+Victorious",
+"imageAlt":"A king on horseback leading a large army towards a castle."
+ }
+ ]
 }

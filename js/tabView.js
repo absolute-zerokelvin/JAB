@@ -239,26 +239,28 @@ function renderMindmap(mindmapData, containerElement) {
             }
             /* Styling for non-leaf nodes (with children) */
             .mind-map-node.toggle-node {
-                background-color: #e6f0ff; /* Light blue background */
-                border-left: 3px solid #3498db; /* Blue left border */
+                background-color: var(--light-blue);
+                border-left: 3px solid var(--primary-blue);
+                color: var(--text-primary);
             }
             /* Styling for leaf nodes (without children) */
             .mind-map-node.leaf-node {
-                background-color: #f5f5f5; /* Light gray background */
-                border-left: 3px solid #aaaaaa; /* Gray left border */
+                background-color: var(--card-background);
+                border-left: 3px solid var(--border-color);
+                color: var(--text-primary);
             }
             .toggle-icon {
                 display: inline-block;
                 margin-left: 5px;
                 font-weight: bold;
-                color: #3498db;
+                color: var(--primary-blue);
             }
             .info-icon {
                 display: inline-block;
                 margin-left: 5px;
                 width: 16px;
                 height: 16px;
-                background-color: #3498db;
+                background-color: var(--primary-blue);
                 color: white;
                 border-radius: 50%;
                 text-align: center;
@@ -269,16 +271,16 @@ function renderMindmap(mindmapData, containerElement) {
             .tooltip {
                 visibility: hidden;
                 position: absolute;
-                background-color: #1a4b8c; /* Dark blue background */
-                color: white; /* White text */
-                border: 1px solid #0d3266;
+                background-color: var(--card-background);
+                color: var(--text-primary);
+                border: 1px solid var(--primary-blue);
                 border-radius: 4px;
                 padding: 10px 15px;
                 font-size: 1rem; /* At least 1rem font size */
                 z-index: 100;
                 max-width: 300px; /* Increased width */
                 width: max-content;
-                box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.25);
                 opacity: 0;
                 transition: opacity 0.3s;
                 text-align: left;
@@ -531,7 +533,7 @@ function renderTimeline(timelineData, containerElement) {
 
         if (era.period) {
             const eraPeriod = document.createElement('p');
-            eraPeriod.className = 'text-center text-gray-600 -mt-4 mb-8'; // Reusing classes from storyView.js
+            eraPeriod.className = 'text-center text-secondary -mt-4 mb-8'; // Reusing classes from storyView.js
             eraPeriod.textContent = era.period;
             timelineContainer.appendChild(eraPeriod);
         }
@@ -555,7 +557,7 @@ function renderTimeline(timelineData, containerElement) {
 
             if (event.characters && event.characters.length) {
                 const chars = document.createElement('p');
-                chars.className = 'mt-3 text-sm text-gray-600'; // Reusing classes from storyView.js
+                chars.className = 'mt-3 text-sm text-secondary'; // Reusing classes from storyView.js
                 chars.innerHTML = '<strong>People Involved:</strong> ' + event.characters.join(', ');
                 contentDiv.appendChild(chars);
             }
@@ -669,9 +671,9 @@ async function renderTable(tableData, containerElement) {
 
 
 function getContrastColor(hexColor) {
-    if (!hexColor) return '#ffffff';
+    if (!hexColor) return 'var(--text-primary)';
     // Convert named colors or fallback
-    if (!hexColor.startsWith('#')) return '#ffffff';
+    if (!hexColor.startsWith('#')) return 'var(--text-primary)';
 
     const hex = hexColor.replace('#', '');
     const r = parseInt(hex.substr(0, 2), 16);
