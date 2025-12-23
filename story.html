@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore interactive stories and study materials for the Jain Academic Bowl (JAB). Deep dive into JAB topics with timelines, mind maps, and quizzes.">
+    <meta name="description"
+        content="Explore interactive stories and study materials for the Jain Academic Bowl (JAB). Deep dive into JAB topics with timelines, mind maps, and quizzes.">
     <meta name="keywords" content="JAB, Jain Academic Bowl, JAB Story, Jainism Stories, JAB Study Material">
-    <title>JAB Interactive Story - Jain Academic Bowl Guide</title>
+    <title>JAB Interactive - Story Viewer</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png">
     <!-- Tailwind CSS CDN (kept for now due to Tailwind utility classes used in JS-rendered content) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Cache busting utility -->
@@ -31,23 +34,25 @@
     }
     </script>
 </head>
+
 <body>
     <!-- Navigation Overlay for Mobile -->
     <div class="nav-overlay" id="navOverlay" onclick="toggleMobileNav()"></div>
-    
+
     <!-- Mobile Navigation Toggle -->
     <button class="mobile-nav-toggle" onclick="toggleMobileNav()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
         </svg>
     </button>
-    
+
     <!-- Desktop Navigation -->
     <div id="desktop-nav-container"></div>
-    
+
     <!-- Mobile Navigation -->
     <div id="mobile-nav-container"></div>
-    
+
     <!-- Main Content -->
     <div class="main-content" id="mainContent">
         <header class="story-header">
@@ -65,49 +70,63 @@
 
             <!-- Timeline Tab Content -->
             <div id="timeline-tab" class="tab-content">
-                <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Timeline of Events</h2>
+                <h2
+                    style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">
+                    Timeline of Events</h2>
                 <div id="timeline" class="timeline-container"></div>
             </div>
-        <!-- Mind Map v1 Tab Content -->
-        <div id="mindmap-v1-tab" class="tab-content">
-            <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Interactive Mind Map (Vertical)</h2>
-            <div id="mindmap-v1-container" class="mind-map-wrapper"></div>
-        </div>
-        
-        <!-- Mind Map v2 Tab Content -->
-        <div id="mindmap-v2-tab" class="tab-content">
-            <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Interactive Mind Map (Horizontal)</h2>
-            <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
-        </div>
+            <!-- Mind Map v1 Tab Content -->
+            <div id="mindmap-v1-tab" class="tab-content">
+                <h2
+                    style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">
+                    Interactive Mind Map (Vertical)</h2>
+                <div id="mindmap-v1-container" class="mind-map-wrapper"></div>
+            </div>
 
-                
-        <!-- Graphics Tab Content -->
-        <div id="graphics-tab" class="tab-content">
-             <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Graphic Novel</h2>
-             <p class="text-center text-lg italic text-gray-700 my-4 p-3 bg-blue-50 border border-blue-200 rounded-md shadow-sm">🎨 Let your imagination bring these scenes to life! Use the card titles as your inspiration.</p>
-        </div>
-        <!-- Quiz Tab Content -->
-        <div id="quiz-tab" class="tab-content">
-            <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Test Your Knowledge!</h2>
-            <div id="quiz-container" class="quiz-container"></div>
-        </div>        
+            <!-- Mind Map v2 Tab Content -->
+            <div id="mindmap-v2-tab" class="tab-content">
+                <h2
+                    style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">
+                    Interactive Mind Map (Horizontal)</h2>
+                <div id="mindmap-v2-container" class="mind-map-wrapper-v2"></div>
+            </div>
+
+
+            <!-- Graphics Tab Content -->
+            <div id="graphics-tab" class="tab-content">
+                <h2
+                    style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">
+                    Graphic Novel</h2>
+                <p
+                    class="text-center text-lg italic text-gray-700 my-4 p-3 bg-blue-50 border border-blue-200 rounded-md shadow-sm">
+                    🎨 Let your imagination bring these scenes to life! Use the card titles as your inspiration.</p>
+            </div>
+            <!-- Quiz Tab Content -->
+            <div id="quiz-tab" class="tab-content">
+                <h2
+                    style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">
+                    Test Your Knowledge!</h2>
+                <div id="quiz-container" class="quiz-container"></div>
+            </div>
 
             <!-- Characters Tab Content -->
             <div id="characters-tab" class="tab-content">
-                <h2 style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">Notable Characters</h2>
+                <h2
+                    style="font-size: 2rem; font-weight: 700; text-align: center; color: var(--primary-blue-dark); margin-bottom: 2rem;">
+                    Notable Characters</h2>
                 <div id="mind-map-container" class="mind-map-container-v2"></div>
             </div>
 
-        </main> 
-        
+        </main>
+
     </div>
 
     <!-- Include story view script -->
     <script src="./js/storyView.js"></script>
-    
+
     <!-- Include main navigation script -->
     <script src="./js/main.js"></script>
-    
+
     <script>
         // Get story section from URL parameters
         function getStorySection() {
@@ -120,18 +139,18 @@
             try {
                 const section = getStorySection();
                 const jsonPath = `./data/${section}.json?v=${Date.now()}`; // Cache busting with timestamp
-                
+
                 console.log(`Loading story data from: ${jsonPath}`);
-                
+
                 // Use cache-busted fetch if available
-                const response = window.cacheBuster ? 
-                    await window.cacheBuster.fetchWithCacheBust(jsonPath) : 
+                const response = window.cacheBuster ?
+                    await window.cacheBuster.fetchWithCacheBust(jsonPath) :
                     await fetch(jsonPath);
-                    
+
                 if (!response.ok) {
                     throw new Error(`Failed to fetch ${jsonPath}: ${response.status} ${response.statusText}`);
                 }
-                
+
                 const storyData = await response.json();
                 initializeStoryPage(storyData);
             } catch (error) {
@@ -145,4 +164,5 @@
         document.addEventListener('DOMContentLoaded', loadStory);
     </script>
 </body>
+
 </html>

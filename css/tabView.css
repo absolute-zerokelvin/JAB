@@ -437,3 +437,15 @@
     color: var(--primary-blue-dark);
     display: none;
 }
+
+/* --- Table Caption Styles --- */
+.tv-table-caption {
+    display: block;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+    line-height: 1.6;
+    max-width: 800px;
+}

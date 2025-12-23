@@ -1,0 +1,222 @@
+{
+    "tabView": true,
+    "pageTitle": "Timeline and Durations (Junior)",
+    "sectionTitle": "Timeline and Durations (Junior)",
+    "pageSubtitle": "Jain Academic Bowl Manual - Oct 2024 (5th Ed.) - Up to Section J",
+    "tabs": [
+        {
+            "tabName": "Timeline",
+            "contentType": "timeline",
+            "tabData": [
+                {
+                    "era": "Ancient History (10th - 8th Century BC)",
+                    "events": [
+                        {
+                            "title": "3000 years ago",
+                            "description": "The approximate time King Ashvasen ruled over Väränasi. (Ref: E.2, p221)"
+                        },
+                        {
+                            "title": "877 BC",
+                            "description": "Tirthankar Pärshvanäth was born. (Ref: D.2.2.6, p158)"
+                        },
+                        {
+                            "title": "777 BC",
+                            "description": "Tirthankar Pärshvanäth attained Nirväna at the age of 100. (Ref: D.2.2.6, p158)"
+                        }
+                    ]
+                },
+                {
+                    "era": "Rise of Mahävir & Ganadhars (7th - 6th Century BC)",
+                    "events": [
+                        {
+                            "title": "607 BC",
+                            "description": "Ganadhar Sudharmä-swämi was born. (Ref: F.2, p234)"
+                        },
+                        {
+                            "title": "607 BC",
+                            "description": "Ganadhar Gautam-swämi was born in a village named Gobar in the state of Magadh. (Ref: F.1.1, p231)"
+                        },
+                        {
+                            "title": "599 BC",
+                            "description": "Bhagawän Mahävir was born in the month of Chaitra on the 13th day of the waxing cycle of the moon. (Ref: E.1.2, p215)"
+                        },
+                        {
+                            "title": "about 2600 years ago",
+                            "description": "Religion in India took an ugly turn, characterized by a discriminatory caste system and violent animal sacrifices. (Ref: E.1.2, p215)"
+                        },
+                        {
+                            "title": "542 BC",
+                            "description": "Jambu, the son of Rushabhadatt and Dhärini, was born in the city of Räjgrihi. (Ref: F.3, p236)"
+                        },
+                        {
+                            "title": "527 BC",
+                            "description": "Bhagawän Mahävir attained Nirväna at the age of seventy-two. (Ref: E.1.3.8.2, p219)"
+                        },
+                        {
+                            "title": "527 BC",
+                            "description": "The year of Mahävir's Nirväna, after which leadership of the Jain order passed to Sudharmä-swämi. (Ref: F.2, p234)"
+                        },
+                        {
+                            "title": "515 BC",
+                            "description": "Sudharmä-swämi attained omniscience. (Ref: F.2, p234)"
+                        },
+                        {
+                            "title": "515 BC",
+                            "description": "Gautam-swämi attained Nirväna. (Ref: F.1.4, p233)"
+                        },
+                        {
+                            "title": "507 BC",
+                            "description": "Sudharmä-swämi attained Nirväna at the age of 100. (Ref: F.2, p234)"
+                        }
+                    ]
+                },
+                {
+                    "era": "Mauryan & Classical Era (3rd Century BC - 1st Century AD)",
+                    "events": [
+                        {
+                            "title": "300 BC",
+                            "description": "Approximate time of King Dhanänand's reign, about 200 years after Bhagawän Mahävir's Nirväna. (Ref: F.4, p238)"
+                        },
+                        {
+                            "title": "3rd Century BC",
+                            "description": "Kalpa Sutra, a Jain scripture, was written by Ächärya Bhadrabähu. (Ref: D.5.1.2, p192)"
+                        },
+                        {
+                            "title": "3rd Century BC",
+                            "description": "Hermits, mystics, and ascetics have journeyed and lived at Shravanbelgola since at least this time. (Ref: D.7.7.3, p208)"
+                        },
+                        {
+                            "title": "~3rd - 2nd Century BC",
+                            "description": "The period when the great Jain king, Samprati, lived. (Ref: I.2, p295)"
+                        },
+                        {
+                            "title": "232 BC",
+                            "description": "Samprati became the king of Avanti. (Ref: I.2, p295)"
+                        },
+                        {
+                            "title": "1st Century AD",
+                            "description": "Approximate birth time of Ächärya Kundkund in southern India. (Ref: F.5, p242)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tabName": "Durations",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "Historical Durations",
+                            "items": [
+                                {
+                                    "header": "Pärshvanäth",
+                                    "content": "<ul><li><b>age of 100:</b> Attained Nirväna. (Ref: D.2.2.6, p158)</li><li><b>84th day:</b> Attained omniscience after his renunciation. (Ref: E.2, p222)</li></ul>"
+                                },
+                                {
+                                    "header": "Bhagawän Mahävir",
+                                    "content": "<ul><li><b>72 years:</b> The lifespan of Bhagawän Mahävir. (Ref: B.2.2.1, p18)</li><li><b>30 years:</b> Bhagawän Mahävir spent as a Tirthankar after attaining omniscience. (Ref: E.1.3.8.2, p219)</li><li><b>about 200 years:</b> Time passed between Mahävir's Nirväna and the reign of Dhanänand. (Ref: F.4, p238)</li><li><b>250 years:</b> Time between the Nirväna of Tirthankar Pärshvanäth and the Nirväna of Tirthankar Mahävir. (Ref: D.2.2.6, p158)</li></ul>"
+                                },
+                                {
+                                    "header": "Great Ächäryas & Ganadhars",
+                                    "content": "<ul><li><b>age of 100:</b> Ganadhar Sudharmä-swämi attained Nirväna. (Ref: F.2, p234)</li><li><b>age of 92:</b> Ganadhar Gautam-swämi attained Nirväna. (Ref: F.1.4, p233)</li><li><b>age of 80:</b> Jambuswämi attained Nirväna. (Ref: F.3, p237)</li><li><b>twelve years:</b> Duration of a great famine during Ächärya Bhadrabähu's time. (Ref: F.4, p240)</li><li><b>age of eighty-four:</b> Ächärya Hemchandra died. (Ref: F.7, p248)</li></ul>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Quiz",
+            "contentType": "quiz",
+            "tabData": {
+                "title": "Complete Junior Timeline Quiz",
+                "questions": [
+                    {
+                        "question": "When was Tirthankar Pärshvanäth born?",
+                        "answer": "877 BC"
+                    },
+                    {
+                        "question": "At what age did Tirthankar Pärshvanäth attain Nirväna?",
+                        "answer": "100"
+                    },
+                    {
+                        "question": "What is the lifespan of Bhagawän Mahävir?",
+                        "answer": "599 BC - 527 B.C."
+                    },
+                    {
+                        "question": "When was Ganadhar Gautam-swämi born?",
+                        "answer": "607 B.C."
+                    },
+                    {
+                        "question": "When did Bhagawän Mahävir attain Nirväna?",
+                        "answer": "527 BC, at the age of seventy-two."
+                    },
+                    {
+                        "question": "Who wrote the Kalpa Sutra in the 3rd Century BC?",
+                        "answer": "Ächärya Bhadrabähu."
+                    },
+                    {
+                        "question": "When did the great Jain king, Samprati, live?",
+                        "answer": "2nd half of 3rd Century BC & 1st half of 2nd Century B.C."
+                    },
+                    {
+                        "question": "When was Ächärya Kundkund approximately born?",
+                        "answer": "Beginning of the first century A.D."
+                    },
+                    {
+                        "question": "In what year was the Kalpa Sutra written down for the first time on palm-leaf?",
+                        "answer": "453 A.D."
+                    },
+                    {
+                        "question": "When was Ächärya Hemchandra born?",
+                        "answer": "1088 A.D."
+                    },
+                    {
+                        "question": "On which day after renunciation did Pärshvanäth attain omniscience?",
+                        "answer": "84th day"
+                    },
+                    {
+                        "question": "For how many years did Bhagawän Mahävir live as a Tirthankar after omniscience?",
+                        "answer": "30 years"
+                    },
+                    {
+                        "question": "What is the time difference between Pärshvanäth's Nirväna and Mahävir's Nirväna?",
+                        "answer": "250 years"
+                    },
+                    {
+                        "question": "At what age did Ganadhar Sudharmä-swämi attain Nirväna?",
+                        "answer": "Age of 100"
+                    },
+                    {
+                        "question": "What was the duration of the great famine during Ächärya Bhadrabähu's time?",
+                        "answer": "Twelve years"
+                    },
+                    {
+                        "question": "In which century did Hermits start living at Shravanbelgola?",
+                        "answer": "3rd Century BC"
+                    },
+                    {
+                        "question": "When was the Vimal Vasahi temple at Mount Äbu built?",
+                        "answer": "11th century"
+                    },
+                    {
+                        "question": "When did Ächärya Hemchandra die?",
+                        "answer": "1173 A.D., at the age of eighty-four."
+                    },
+                    {
+                        "question": "Who built the Lunaga Vasahi temple at Mount Äbu?",
+                        "answer": "Vastupäl and Tejpäl in 1230 AD."
+                    },
+                    {
+                        "question": "When was the Ranakpur Jain temple built?",
+                        "answer": "15th century, during the reign of Ränä Kumbha."
+                    }
+                ]
+            }
+        }
+    ]
+}
