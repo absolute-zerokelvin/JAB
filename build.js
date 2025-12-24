@@ -5,6 +5,14 @@ import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 
+// Dynamic import for sharp (optional dependency)
+let sharp = null;
+try {
+    sharp = (await import('sharp')).default;
+} catch (e) {
+    console.log('⚠️  sharp not available - image optimization disabled');
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -47,12 +55,12 @@ class JABBuilder {
     // Copy static assets
     async copyAssets() {
         console.log('📁 Copying assets...');
-        
+
         const assetDirs = ['images', 'data'];
         for (const dir of assetDirs) {
             const srcPath = path.join(this.sourceDir, dir);
             const destPath = path.join(this.distDir, dir);
-            
+
             if (await fs.pathExists(srcPath)) {
                 await fs.copy(srcPath, destPath);
                 console.log(`   ✓ Copied ${dir}/`);
@@ -60,18 +68,95 @@ class JABBuilder {
         }
     }
 
+    // Optimize images for AI Art (data/images/*)
+    async optimizeImages() {
+        if (!sharp) {
+            console.log('🖼️  Skipping image optimization (sharp not available)');
+            return;
+        }
+
+        console.log('🖼️  Optimizing images...');
+
+        const imagesDir = path.join(this.distDir, 'data', 'images');
+
+        if (!await fs.pathExists(imagesDir)) {
+            console.log('   ⚠️  No images directory found');
+            return;
+        }
+
+        // Get all section directories (G1, G2, etc.)
+        const sections = await fs.readdir(imagesDir);
+        let totalOptimized = 0;
+        let totalSaved = 0;
+
+        for (const section of sections) {
+            const sectionPath = path.join(imagesDir, section);
+            const stat = await fs.stat(sectionPath);
+
+            if (!stat.isDirectory()) continue;
+
+            const files = await fs.readdir(sectionPath);
+
+            for (const file of files) {
+                const ext = path.extname(file).toLowerCase();
+
+                // Only process image files
+                if (!['.png', '.jpg', '.jpeg', '.webp'].includes(ext)) continue;
+
+                const filePath = path.join(sectionPath, file);
+                const originalSize = (await fs.stat(filePath)).size;
+
+                try {
+                    // Read and optimize the image
+                    const optimized = await sharp(filePath)
+                        .resize(1200, 1200, {
+                            fit: 'inside',
+                            withoutEnlargement: true
+                        })
+                        .jpeg({ quality: 85, progressive: true })
+                        .toBuffer();
+
+                    // Only replace if we actually saved space
+                    if (optimized.length < originalSize) {
+                        // Replace original with optimized JPEG
+                        const newPath = filePath.replace(ext, '.jpg');
+                        await fs.writeFile(newPath, optimized);
+
+                        // Remove original if different extension
+                        if (newPath !== filePath) {
+                            await fs.remove(filePath);
+                        }
+
+                        const saved = originalSize - optimized.length;
+                        totalSaved += saved;
+                        totalOptimized++;
+                    }
+                } catch (err) {
+                    console.log(`   ⚠️  Could not optimize ${section}/${file}: ${err.message}`);
+                }
+            }
+        }
+
+        if (totalOptimized > 0) {
+            const savedMB = (totalSaved / 1024 / 1024).toFixed(2);
+            console.log(`   ✓ Optimized ${totalOptimized} images (saved ${savedMB} MB)`);
+        } else {
+            console.log('   ✓ No images needed optimization');
+        }
+    }
+
     // Process CSS files with cache busting
     async processCSSFiles() {
         console.log('🎨 Processing CSS files...');
-        
+
         const cssDir = path.join(this.sourceDir, 'css');
         const distCssDir = path.join(this.distDir, 'css');
-        
+
         await fs.ensureDir(distCssDir);
-        
+
         const cssFiles = await fs.readdir(cssDir);
         const processedFiles = new Map();
-        
+
         for (const file of cssFiles) {
             if (path.extname(file) === '.css') {
                 const srcPath = path.join(cssDir, file);
@@ -79,35 +164,35 @@ class JABBuilder {
                 const fileName = path.basename(file, '.css');
                 const hashedName = this.isDev ? file : `${fileName}.${hash}.css`;
                 const destPath = path.join(distCssDir, hashedName);
-                
+
                 let content = await fs.readFile(srcPath, 'utf8');
-                
+
                 // Minify CSS in production
                 if (!this.isDev) {
                     content = this.minifyCSS(content);
                 }
-                
+
                 await fs.writeFile(destPath, content);
                 processedFiles.set(file, hashedName);
                 console.log(`   ✓ Processed ${file} → ${hashedName}`);
             }
         }
-        
+
         return processedFiles;
     }
 
     // Process JavaScript files with cache busting
     async processJSFiles() {
         console.log('⚡ Processing JavaScript files...');
-        
+
         const jsDir = path.join(this.sourceDir, 'js');
         const distJsDir = path.join(this.distDir, 'js');
-        
+
         await fs.ensureDir(distJsDir);
-        
+
         const jsFiles = await fs.readdir(jsDir);
         const processedFiles = new Map();
-        
+
         for (const file of jsFiles) {
             if (path.extname(file) === '.js') {
                 const srcPath = path.join(jsDir, file);
@@ -115,25 +200,25 @@ class JABBuilder {
                 const fileName = path.basename(file, '.js');
                 const hashedName = this.isDev ? file : `${fileName}.${hash}.js`;
                 const destPath = path.join(distJsDir, hashedName);
-                
+
                 let content = await fs.readFile(srcPath, 'utf8');
-                
+
                 // Update cache-bust.js with build info
                 if (file === 'cache-bust.js') {
                     content = this.updateCacheBustFile(content);
                 }
-                
+
                 // Minify JS in production (simple minification)
                 if (!this.isDev) {
                     content = this.minifyJS(content);
                 }
-                
+
                 await fs.writeFile(destPath, content);
                 processedFiles.set(file, hashedName);
                 console.log(`   ✓ Processed ${file} → ${hashedName}`);
             }
         }
-        
+
         return processedFiles;
     }
 
@@ -147,11 +232,11 @@ class JABBuilder {
     // Process HTML files and update asset references
     async processHTMLFiles(cssMap, jsMap) {
         console.log('📄 Processing HTML files...');
-        
+
         const htmlFiles = [
-            'index.html', 
+            'index.html',
             'story.html',
-            'timeline_duration-junior.html', 
+            'timeline_duration-junior.html',
             'timeline_duration-senior.html',
             'timeline-k-to-m.html',
             'B1.html',
@@ -165,29 +250,29 @@ class JABBuilder {
             'L2.html',
             'tabTemplate.html'
         ];
-        
+
         for (const file of htmlFiles) {
             const srcPath = path.join(this.sourceDir, file);
-            
+
             if (await fs.pathExists(srcPath)) {
                 let content = await fs.readFile(srcPath, 'utf8');
-                
+
                 // Update CSS references
                 for (const [original, hashed] of cssMap) {
                     const regex = new RegExp(`href="\.?/css/${original}"`, 'g');
                     content = content.replace(regex, `href="./css/${hashed}"`);
                 }
-                
+
                 // Update JS references
                 for (const [original, hashed] of jsMap) {
                     const regex = new RegExp(`src="\\./js/${original}"`, 'g');
                     content = content.replace(regex, `src="./js/${hashed}"`);
                 }
-                
+
                 // Add build info comment
                 const buildComment = `<!-- Built: ${new Date().toISOString()} | Version: ${this.version} | Build: ${this.buildTime} -->`;
                 content = content.replace('</head>', `  ${buildComment}\n</head>`);
-                
+
                 const destPath = path.join(this.distDir, file);
                 await fs.writeFile(destPath, content);
                 console.log(`   ✓ Processed ${file}`);
@@ -198,10 +283,10 @@ class JABBuilder {
     // Copy templates directory
     async copyTemplates() {
         console.log('📋 Copying templates...');
-        
+
         const templatesDir = path.join(this.sourceDir, 'templates');
         const distTemplatesDir = path.join(this.distDir, 'templates');
-        
+
         if (await fs.pathExists(templatesDir)) {
             await fs.copy(templatesDir, distTemplatesDir);
             console.log('   ✓ Copied templates/');
@@ -242,12 +327,12 @@ class JABBuilder {
                 js: Object.fromEntries(jsMap)
             }
         };
-        
+
         await fs.writeFile(
             path.join(this.distDir, 'manifest.json'),
             JSON.stringify(manifest, null, 2)
         );
-        
+
         console.log('📋 Generated build manifest');
     }
 
@@ -262,24 +347,25 @@ class JABBuilder {
         try {
             await this.prepareDist();
             await this.copyAssets();
+            await this.optimizeImages();
             await this.copyTemplates();
-            
+
             const cssMap = await this.processCSSFiles();
             const jsMap = await this.processJSFiles();
-            
+
             await this.processHTMLFiles(cssMap, jsMap);
             await this.generateManifest(cssMap, jsMap);
-            
+
             console.log('');
             console.log('✅ Build completed successfully!');
             console.log(`📁 Output directory: ${path.relative(process.cwd(), this.distDir)}`);
-            
+
             if (this.isDev) {
                 console.log('🔧 Development build - files not minified');
             } else {
                 console.log('🚀 Production build - files minified and optimized');
             }
-            
+
         } catch (error) {
             console.error('❌ Build failed:', error.message);
             process.exit(1);
