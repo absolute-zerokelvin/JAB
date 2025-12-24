@@ -142,12 +142,35 @@ Contributions to the JAB Interactive Manual are welcome! Please follow these ste
 
 ## Development
 
+### Quick Start (For Beginners)
+
+The easiest way to get started is to run the automated startup script:
+
+```bash
+./startup.sh
+```
+
+This script will:
+- ✓ Check if you have all necessary tools installed (Homebrew, nvm, Node.js)
+- ✓ Offer to install missing tools with clear explanations
+- ✓ Install dependencies (`npm install`) if needed
+- ✓ Start the development server with hot-reload enabled
+- ✓ Open your browser automatically to http://localhost:3000
+
+**Perfect for kids and beginners doing "vibe coding"!** The script guides you through everything step-by-step.
+
 ### Prerequisites
 
 - Node.js (v18.0.0 or higher)
 - npm (comes with Node.js)
 
-### Local Development
+If you don't have these installed, the `startup.sh` script will help you install them. Alternatively, you can:
+- **macOS users**: The script will offer to install Homebrew and nvm for you
+- **Manual installation**: Download Node.js from [nodejs.org](https://nodejs.org/)
+
+### Manual Development Setup
+
+If you prefer to set things up manually instead of using `startup.sh`:
 
 1. Clone the repository:
    ```bash
@@ -160,15 +183,97 @@ Contributions to the JAB Interactive Manual are welcome! Please follow these ste
    npm install
    ```
 
-3. Start the development server:
+3. Start the development server with hot-reload:
+   ```bash
+   npm run dev:preview
+   ```
+   
+   This will:
+   - Watch for changes to HTML, CSS, JS, and JSON files
+   - Automatically rebuild when files change
+   - Serve the site at http://localhost:3000
+   - Open the browser automatically
+
+4. Alternative: Just run the dev watcher without the server:
    ```bash
    npm run dev
    ```
 
-4. Build for production:
+5. Build for production:
    ```bash
    npm run build
    ```
+
+### Development Workflow
+
+- **Hot Reload**: The `dev:preview` script watches all source files and automatically rebuilds when you make changes
+- **File Watching**: Changes to `.js`, `.html`, `.css`, and `.json` files trigger automatic rebuilds
+- **Browser Refresh**: After the build completes, refresh your browser to see changes
+- **Build Output**: All built files go to the `dist/` directory
+
+### Available Scripts
+
+- `npm start` or `./startup.sh` - Run the automated setup and start development
+- `npm run dev` - Watch and rebuild on file changes (no server)
+- `npm run dev:preview` - Watch, rebuild, and serve with hot-reload
+- `npm run build` - Production build with minification
+- `npm run preview` - Build and preview production version
+- `npm test` - Run end-to-end tests
+- `npm run clean` - Remove the dist directory
+
+### Troubleshooting
+
+#### Port 3000 Already in Use
+
+If you see an error that port 3000 is already in use:
+
+```bash
+# Find what's using port 3000
+lsof -i :3000
+
+# Kill the process (replace PID with the actual process ID)
+kill -9 PID
+
+# Or use a different port
+npx http-server dist -p 3001 -c-1 -o
+```
+
+#### Permission Denied: ./startup.sh
+
+If you get a permission error when running `./startup.sh`:
+
+```bash
+chmod +x startup.sh
+./startup.sh
+```
+
+#### Node Version Issues
+
+If you have an older version of Node.js:
+
+```bash
+# Using nvm (recommended)
+nvm install 18
+nvm use 18
+
+# Verify version
+node --version  # Should show v18.x.x or higher
+```
+
+#### npm install Failures
+
+If `npm install` fails:
+
+```bash
+# Clear npm cache
+npm cache clean --force
+
+# Remove node_modules and package-lock.json
+rm -rf node_modules package-lock.json
+
+# Try installing again
+npm install
+```
 
 ### Project Structure
 
