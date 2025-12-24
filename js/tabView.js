@@ -618,7 +618,7 @@ async function renderTable(tableData, containerElement) {
     // Add caption if present
     if (tableData.caption) {
         const captionElement = document.createElement('div');
-        captionElement.className = 'table-caption';
+        captionElement.className = 'tv-table-caption';
         captionElement.innerHTML = tableData.caption;
         containerElement.appendChild(captionElement);
     }
@@ -634,6 +634,7 @@ async function renderTable(tableData, containerElement) {
         field: `col${index}`,
         sorter: "string", // Enable sorting for all columns
         headerFilter: "input", // Enable filtering for all columns
+        formatter: "html", // Render HTML content
     }));
 
     // Prepare data for Tabulator

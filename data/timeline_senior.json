@@ -1,0 +1,719 @@
+{
+    "tabView": true,
+    "pageTitle": "Timeline of Jain History (Senior)",
+    "sectionTitle": "Timeline of Jain History (Sections K to M)",
+    "pageSubtitle": "Jain Academic Bowl Manual - Sections K to M",
+    "tabs": [
+        {
+            "tabName": "Timeline",
+            "contentType": "timeline",
+            "tabData": [
+                {
+                    "era": "Ancient & Early Jainism (3500 BC - 300 BC)",
+                    "events": [
+                        {
+                            "title": "3500-3000 BC",
+                            "description": "Recorded history of Jainism and period of the Indus Valley Civilization, where relics suggest Jain prevalence. (Ref: L.1.2, L.1.3, p381)"
+                        },
+                        {
+                            "title": "3000 BC",
+                            "description": "Approximate time yoga was practiced in ancient India, based on archaeological evidence. (Ref: K.6.3.4, p363)"
+                        },
+                        {
+                            "title": "10th Century BC",
+                            "description": "King Nebuchadnezzar is said to have visited a temple of Neminäth. (Ref: L.1.4.1, p382)"
+                        },
+                        {
+                            "title": "642-413 BC",
+                            "description": "Shishunäg dynasty, whose kings Bimbisär and Ajätashatru supported Jainism. (Ref: L.1.7.1, p388)"
+                        },
+                        {
+                            "title": "599 BC",
+                            "description": "Approximate birth year of Bhagawän Mahävir. (Ref: L.1.4.3, p383)"
+                        },
+                        {
+                            "title": "567-487 BC",
+                            "description": "Probable life period of Buddha, a contemporary of Bhagawän Mahävir. (Ref: L.1.4.3, p383)"
+                        },
+                        {
+                            "title": "527 BC",
+                            "description": "Nirväna of Bhagawän Mahävir. The fifth Ärä began three years and eight months after this date. (Ref: L.1.3, L.1.4.3, p382, 383)"
+                        },
+                        {
+                            "title": "64 years after Nirväna",
+                            "description": "Jambu Swämi, the last omniscient of this half cycle, attained salvation. (Ref: L.1.4.3, p383)"
+                        },
+                        {
+                            "title": "413-322 BC",
+                            "description": "Nanda dynasty; King Nanda brought an idol of Rishabhadev from Kalinga. (Ref: L.1.7.1, p388)"
+                        },
+                        {
+                            "title": "~367 BC",
+                            "description": "Pätliputra Recension (First Vächanä) was held. (Ref: L.2.3, p393)"
+                        },
+                        {
+                            "title": "160 years after Nirväna",
+                            "description": "Time until which Ägam Sutras were passed on orally in their entirety. (Ref: L.2.1, p391)"
+                        },
+                        {
+                            "title": "345 years after Nirväna",
+                            "description": "Dharmasen, the last of the Das-purvi according to Digambars, died. (Ref: L.2.2.3, p393)"
+                        },
+                        {
+                            "title": "322-298 BC",
+                            "description": "Reign of Emperor Chandragupta Maurya, who abdicated his throne and migrated to the South. (Ref: L.1.5, p384)"
+                        },
+                        {
+                            "title": "by 300 BC",
+                            "description": "Jain migrations from eastern India to western India likely took place. (Ref: L.1.7.3, p389)"
+                        }
+                    ]
+                },
+                {
+                    "era": "Transition & Early Scholars (300 BC - 500 AD)",
+                    "events": [
+                        {
+                            "title": "215 years after Nirväna",
+                            "description": "Death of Sthulibhadra. (Ref: L.2.3.1, p394)"
+                        },
+                        {
+                            "title": "3rd Century BC",
+                            "description": "The process of the split between Shvetämbar and Digambar started; Ächärya Bhadrabähu predicted a famine. (Ref: L.1.5, p384)"
+                        },
+                        {
+                            "title": "3rd Century BC",
+                            "description": "Ächärya Bhadrabähu composed the Kalpa Sutra. (Ref: L.2.11.2, p408)"
+                        },
+                        {
+                            "title": "297 BC",
+                            "description": "Death of Guru Bhadrabähu. His disciple Chandragupta died a few years later. (Ref: L.1.5, p384)"
+                        },
+                        {
+                            "title": "273-236 BC",
+                            "description": "Reign of Emperor Ashok, who embraced Jainism before his conversion to Buddhism. (Ref: L.1.7.1, p388)"
+                        },
+                        {
+                            "title": "2nd Century BC - 2nd Century AD",
+                            "description": "Period when the 12th Anga Ägam (Drashtiväd) is believed to have been lost. (Ref: L.2.1, p391)"
+                        },
+                        {
+                            "title": "2nd Century BC",
+                            "description": "Kalinga was center of empire ruled by Kharavela, great patron of Jain faith. (Ref: L.1.7.1, p388)"
+                        },
+                        {
+                            "title": "Mathurä Region",
+                            "description": "Middle of 2nd Century BC: Branch of Jains firmly established in North India. (Ref: L.1.7.4, p389)"
+                        },
+                        {
+                            "title": "161 BC",
+                            "description": "King Kharavela brought back an idol of Agra-Jina (Rishabhadev) from Magadh. (Ref: L.1.3, p381)"
+                        },
+                        {
+                            "title": "150 BC",
+                            "description": "Fall of the Mauryan dynasty, leading to a large-scale migration of Jains. (Ref: L.2.3.2, p394)"
+                        },
+                        {
+                            "title": "57 BC",
+                            "description": "Beginning of the Vikram Samvat era. (Ref: L.1.4.3, p383)"
+                        },
+                        {
+                            "title": "1st Century AD",
+                            "description": "Umäsväti's Tattvärtha-sutra written before final Shvetämbar/Digambar division. (Ref: L.1.5.1, p385)"
+                        },
+                        {
+                            "title": "Early 2nd Century AD",
+                            "description": "Possible time period for Ächärya Umäsväti based on inscriptions. (Ref: L.2.11.4, p409)"
+                        },
+                        {
+                            "title": "160 AD",
+                            "description": "Period when Shatakhandägam was written. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "584 years after Nirväna",
+                            "description": "Death of Ächärya Vajra, ending Das-purvi serial according to Shvetämbars. (Ref: L.2.2.3, p393)"
+                        },
+                        {
+                            "title": "600 years after Nirväna",
+                            "description": "Approximate time the Jain religion split into Digambar and Shvetämbar. (Ref: L.1.5, p384)"
+                        },
+                        {
+                            "title": "100 AD",
+                            "description": "Niyamsär, Panchästikäy, Pravachansär, Samaysär written by Kundkund. (Ref: L.2.9.1.3.4, L.2.11.3, p406, 408)"
+                        },
+                        {
+                            "title": "100 to 1000 AD",
+                            "description": "Period when great Ächäryas wrote scriptures that Digambars follow today. (Ref: L.2.4.2, L.2.9, p395, 404)"
+                        },
+                        {
+                            "title": "200 AD",
+                            "description": "Tattvärtha-sutra written by Umäsväti. (Ref: L.2.9.1.3.4, p406)"
+                        },
+                        {
+                            "title": "200-400 AD",
+                            "description": "Probable composition period for Tattvärtha Sutra. (Ref: L.2.11.4, p409)"
+                        },
+                        {
+                            "title": "3rd Century AD",
+                            "description": "Powerful dynasties in Maharashtra like Sätavähana, Chälukya, Rästrakut, etc., extended patronage. (Ref: L.1.7.3, p389)"
+                        },
+                        {
+                            "title": "3rd to 6th Century AD",
+                            "description": "Period of the Kadamba rulers of Banaväsi, some of whom were devout Jains. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "around 300 AD",
+                            "description": "Memorized Shvetämbar Ägam-sutras were written down. (Ref: L.2.1, p391)"
+                        },
+                        {
+                            "title": "830 years after Nirväna",
+                            "description": "Monks assembled in Mathurä for the second recension. (approx 303 A.D.) (Ref: L.2.3.2, p394)"
+                        },
+                        {
+                            "title": "303 AD",
+                            "description": "The second Vächanä (Recension) writing of Ägam took place in Mathurä. (Ref: L.1.7.4, L.2.3, p389, 393)"
+                        },
+                        {
+                            "title": "350 to 999 AD",
+                            "description": "Ganga Rulers of Talakada in Karnataka patronized the Jain religion. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "980 years after Nirväna",
+                            "description": "Jain canon was first written down at the council of Vallabhi. (approx 453 A.D.) (Ref: L.1.7.3, L.2.3.3, p389, 395)"
+                        },
+                        {
+                            "title": "453 AD",
+                            "description": "Third Vächanä at Vallabhi where available scriptures were documented. (Ref: L.2.3, L.2.11.2, p393, 408)"
+                        },
+                        {
+                            "title": "up to 500 AD",
+                            "description": "Mathurä was a stronghold of Jains for nearly 1000 years. (Ref: L.1.7.4, p389)"
+                        }
+                    ]
+                },
+                {
+                    "era": "Medieval Era (500 AD - 1500 AD)",
+                    "events": [
+                        {
+                            "title": "500 to 757 AD",
+                            "description": "Chälukya rulers of Badami in Karnataka were pro-Jain. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "5th Century",
+                            "description": "Jain monks added more rites to stop outflow to Hinduism. (Ref: L.1.6, p387)"
+                        },
+                        {
+                            "title": "5th Century BC",
+                            "description": "Time when Rishabhadev was worshipped and his idol was highly valued. (Ref: L.1.3, p381)"
+                        },
+                        {
+                            "title": "5th - 16th Century",
+                            "description": "Period of noteworthy Jain logicians from Siddhasen to Yashovijayaji. (Ref: K.1.1, p314)"
+                        },
+                        {
+                            "title": "5th or 6th Century",
+                            "description": "Sarvärtha Siddhi of Pujyapäd-swämi was written. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "7th Century AD",
+                            "description": "Time of Jain Ächärya Shri Haribhadra-suri, who sanctioned Patanjali's Ashtanga Yoga. (Ref: K.6.3.4, p363)"
+                        },
+                        {
+                            "title": "600 AD",
+                            "description": "Mulächär, Trivarnächär by Vattaura; Ratna-karanda Shrävakächär, Äpta-mimämsä by Samantabhadra. (Ref: L.2.9.1.3.2, p405)"
+                        },
+                        {
+                            "title": "650 AD",
+                            "description": "Padma Purän written by Ravisen. (Ref: L.2.9.1.3.1, p405)"
+                        },
+                        {
+                            "title": "7th or 8th Century",
+                            "description": "Period to which available Churni commentaries belong. (Ref: L.2.8, p402)"
+                        },
+                        {
+                            "title": "700 AD",
+                            "description": "Commentary on Tattvärtha-sutra by Pujyapäd. (Ref: L.2.9.1.3.4, p406)"
+                        },
+                        {
+                            "title": "757 V.S / 857 V.S",
+                            "description": "Assigned period for Ächärya Haribhadra-suri, who wrote Sanskrit commentaries. (Ref: L.2.8, p402)"
+                        },
+                        {
+                            "title": "750 AD",
+                            "description": "Commentaries on Tattvärtha-sutra and Äpta-mimämsä by Akalank. (Ref: L.2.9.1.3.4, p406)"
+                        },
+                        {
+                            "title": "757 to 973 AD",
+                            "description": "Rästrakut of Malakhed in Karnataka were pro-Jain. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "770-850 AD",
+                            "description": "Life period of Digambar Ächärya Jinsen, author of Mahä-Purän. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "780 AD",
+                            "description": "Ächärya Virsen and Jinsen wrote commentaries Dhavalä-tikä, Mahä-dhavalä-tikä, and Jay-dhavalä-tikä. (Ref: L.2.9.1.1, p404)"
+                        },
+                        {
+                            "title": "783 AD",
+                            "description": "Harivamsa Purän and Ädi Purän written by Jinsen. (Ref: L.2.9.1.3.1, p405)"
+                        },
+                        {
+                            "title": "8th Century",
+                            "description": "Ächärya Haribhadra-suri wrote Shad-darshan Samuchchaya and Yoga Drashti Samuchchaya. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "800 AD",
+                            "description": "Commentaries on Tattvärtha-sutra and Äpta-mimämsä by Vidyanand. (Ref: L.2.9.1.3.4, p406)"
+                        },
+                        {
+                            "title": "800 AD",
+                            "description": "A Jain temple recently discovered in Gujarat was built. (Ref: L.1.7.4, p389)"
+                        },
+                        {
+                            "title": "879 AD",
+                            "description": "Uttar Purän written by Gunabhadra. (Ref: L.2.9.1.3.1, p405)"
+                        },
+                        {
+                            "title": "9th Century AD",
+                            "description": "Earliest date commentaries on Uttarädhyayan-sutra were written. (Ref: L.2.11.1, p407)"
+                        },
+                        {
+                            "title": "10th - 12th Century AD",
+                            "description": "Western Chälukya rulers of Kalyän showed a liberal attitude to Jainism. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "10th Century",
+                            "description": "Shri Amritachandra Ächärya wrote a critique on Samaysär called Ätmäkhyäti. (Ref: L.2.11.3, p408)"
+                        },
+                        {
+                            "title": "10th Century",
+                            "description": "Shilänk-suri wrote Sanskrit commentaries. (Ref: L.2.8, p402)"
+                        },
+                        {
+                            "title": "1000 AD",
+                            "description": "Gommatsär written by Nemichandra Siddhänt. (Ref: L.2.9.1.3.3, p405)"
+                        },
+                        {
+                            "title": "1006 to 1345 AD",
+                            "description": "Hoyasala rulers of Halebid in Karnataka supported Jainism. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "11th Century AD",
+                            "description": "Life period of commentator Abhaydev, who wrote on nine Anga. (Ref: L.2.8, p402)"
+                        },
+                        {
+                            "title": "1088-1173 AD",
+                            "description": "Life period of Hemchandra-ächärya, author of Trishashti Shaläkä Purush. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "11th Century",
+                            "description": "Vardhamänsuri made efforts to curtail the excesses of Yatis. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "~1100 AD",
+                            "description": "Jainism gained ascendancy under Chalukya kings Siddharäj and Kumärpäl. (Ref: L.1.7.3, p389)"
+                        },
+                        {
+                            "title": "~1150 AD",
+                            "description": "Jindatta-suri (Dada Gurudev) founded the Kharatar Gachchha. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "1156 to 1183 AD",
+                            "description": "Kalachuri rulers of Kalyän were Jains, and Jainism was the state religion. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "12th - 13th Century",
+                            "description": "Difficulties in protecting temples/literature; Chaityaväsi and Bhattärak roles created. (Ref: L.1.6, p387)"
+                        },
+                        {
+                            "title": "12th Century",
+                            "description": "Decline of Jainism in South India due to Srivaisnavism rise. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "After 12th Century",
+                            "description": "Significant impact of Vedic and Muslim religions on Jainism. (Ref: L.1.6, p387)"
+                        },
+                        {
+                            "title": "12th Century",
+                            "description": "Maladhäri Hemchandra was a Sanskrit commentator and scholar. (Ref: L.2.8, p402)"
+                        },
+                        {
+                            "title": "13th Century AD",
+                            "description": "Jainism received patronage through ministers Vastupäl and Tejpäl. (Ref: L.1.7.3, p389)"
+                        },
+                        {
+                            "title": "14th Century AD",
+                            "description": "Jainism played important role in overall history of south India. (Ref: L.1.7.2, p388)"
+                        },
+                        {
+                            "title": "1448-1515 AD",
+                            "description": "Life period of Tarana-Swämi, founder of the Täranapantha. (Ref: L.1.5.3.3, p387)"
+                        },
+                        {
+                            "title": "Around 1450 AD",
+                            "description": "Lonkäshah of Ahmedabad began to dispute temple rituals. (Ref: L.1.5.2, p385)"
+                        },
+                        {
+                            "title": "1474 AD",
+                            "description": "Sthänakaväsi tradition came into existence. (Ref: L.1.5.2, p385)"
+                        }
+                    ]
+                },
+                {
+                    "era": "Modern Era (1500 AD - Present)",
+                    "events": [
+                        {
+                            "title": "16th Century",
+                            "description": "Hirvijay-suri impressed Mughal emperor Akbar. (Ref: M.1.1, p423)"
+                        },
+                        {
+                            "title": "Late 16th Century",
+                            "description": "Digambars experienced a significant revival. (Ref: L.1.5.3, p386)"
+                        },
+                        {
+                            "title": "1583 AD",
+                            "description": "Emperor Akbar prohibited animal slaughter during Paryushan. (Ref: L.1.7.4, p389)"
+                        },
+                        {
+                            "title": "1610 AD",
+                            "description": "Jain deputation secured ruling prohibiting animal slaughter from Emperor Jahangir. (Ref: L.1.7.4, p389)"
+                        },
+                        {
+                            "title": "1627 AD",
+                            "description": "Teräpantha (Digambar) arose in North India as revolt against Bhattäraks. (Ref: L.1.5.3.2, p387)"
+                        },
+                        {
+                            "title": "1760 AD",
+                            "description": "Swämi Bhikshu Mahäräj founded the Teräpantha tradition. (Ref: L.1.5.2.3, p386)"
+                        },
+                        {
+                            "title": "18th Century",
+                            "description": "Dharmasinha Muni wrote his own interpretations of commentaries. (Ref: L.2.8, p402)"
+                        },
+                        {
+                            "title": "18th Century",
+                            "description": "The Teräpanthi tradition separated from Sthänakaväsi. (Ref: L.1.5.2.3, p386)"
+                        },
+                        {
+                            "title": "19th Century",
+                            "description": "Shrimad believed decline was due to excessive sectarianism. (Ref: M.2.9, p428)"
+                        },
+                        {
+                            "title": "19th - 20th Century",
+                            "description": "Jain scholarship became popular in foreign languages. (Ref: L.1.8, p390)"
+                        },
+                        {
+                            "title": "1864-1901 AD",
+                            "description": "Life and mission period of Virchand R. Gandhi. (Ref: M.3.1, p430)"
+                        },
+                        {
+                            "title": "1867-1901 AD",
+                            "description": "Life period of Shrimad Räjchandra. (Ref: M.2.1, p424)"
+                        },
+                        {
+                            "title": "Nov 9, 1867",
+                            "description": "Birth of Shrimad Räjchandra. (Ref: M.2.2, p424)"
+                        },
+                        {
+                            "title": "1884",
+                            "description": "Virchand Gandhi graduated B.A. from University of Bombay. (Ref: M.3.1, p430)"
+                        },
+                        {
+                            "title": "1884",
+                            "description": "English translation of Jain Sutras by Hermann Jacobi. (Ref: L.1.8, p390)"
+                        },
+                        {
+                            "title": "1885",
+                            "description": "Virchand Gandhi became honorary secretary of Jain Association of India at 21. (Ref: M.3.1, p430)"
+                        },
+                        {
+                            "title": "1886",
+                            "description": "Essay 'Radvä Kutväni Hänikärak Chäl' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1888 AD",
+                            "description": "Shrimad Räjchandra married Zabakben and became gemstone partner. (Ref: M.2.3, p425)"
+                        },
+                        {
+                            "title": "1889-1980 AD",
+                            "description": "Life period of Shri Känji Swämi. (Ref: M.1.2, p423)"
+                        },
+                        {
+                            "title": "1890 AD",
+                            "description": "Death of Joothäbhai, close disciple of Shrimad. (Ref: M.2.7.4, p427)"
+                        },
+                        {
+                            "title": "1891",
+                            "description": "Virchand Gandhi shut down pig slaughterhouse at Sametshikhar. (Ref: M.3.1, p430)"
+                        },
+                        {
+                            "title": "1891 AD",
+                            "description": "Shrimad Räjchandra attained Samyag Darshan at age 23. (Ref: M.2.6, p426)"
+                        },
+                        {
+                            "title": "1893",
+                            "description": "World Parliament of Religions; Virchand Gandhi was representative. (Ref: L.1.8, p390)"
+                        },
+                        {
+                            "title": "Sep 11, 1893",
+                            "description": "Opening day of Chicago Parliament of Religions. (Ref: M.3.1, p430)"
+                        },
+                        {
+                            "title": "1894",
+                            "description": "'Unknown Life of Jesus Christ' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1895",
+                            "description": "First English translation of Uttarädhyayan-sutra published. (Ref: L.2.11.1, p407)"
+                        },
+                        {
+                            "title": "1896",
+                            "description": "Virchand Gandhi collected famine relief while in the U.S. (Ref: M.3.1, p431)"
+                        },
+                        {
+                            "title": "1896",
+                            "description": "Shrimad Räjchandra composed Ätmasiddhi-shästra. (Ref: M.2.5, p425)"
+                        },
+                        {
+                            "title": "1899 AD",
+                            "description": "Shrimad Räjchandra retired from business at age 31. (Ref: M.2.3, p425)"
+                        },
+                        {
+                            "title": "20th Century",
+                            "description": "Shri Känji-swämi gave detailed analysis on Samaysär. (Ref: L.2.11.3, p408)"
+                        },
+                        {
+                            "title": "1902",
+                            "description": "'Savirya Dhyän' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1905 AD",
+                            "description": "Death of Ambälälbhai, disciple of Shrimad. (Ref: M.2.7.3, p427)"
+                        },
+                        {
+                            "title": "1907",
+                            "description": "'Jaina Philosophy' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1912",
+                            "description": "'Yoga Philosophy' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1913",
+                            "description": "'Karma Philosophy' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1915",
+                            "description": "Mrs. Sinclair Stevenson published 'The Heart of Jainism'. (Ref: L.1.8, p390)"
+                        },
+                        {
+                            "title": "1916",
+                            "description": "'Concentration – 12 Lectures on Meditation' published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1925",
+                            "description": "Helmuth Von Glasenapp wrote 'Jainism An Indian Religion of Salvation'. (Ref: L.1.8, p390)"
+                        },
+                        {
+                            "title": "1934",
+                            "description": "Movement by Känji Swämi stressing inward thought started. (Ref: M.1.2, p423)"
+                        },
+                        {
+                            "title": "1936",
+                            "description": "Ächärya Tulsi, at 21, took over Teräpanthi sect. (Ref: L.1.5.2.3, p386)"
+                        },
+                        {
+                            "title": "1949",
+                            "description": "Ächärya Tulsi initiated Anuvrat movement. (Ref: L.1.5.2.3, p386)"
+                        },
+                        {
+                            "title": "1961",
+                            "description": "'Herbert Warren’s Jainism' published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1963",
+                            "description": "'Selected speeches of V. R. Gandhi' published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1970",
+                            "description": "'The Systems of Indian Philosophy' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "1974",
+                            "description": "Saman-Suttam created during 2500th Nirväna anniversary of Mahävir. (Ref: L.2.11.5, p411)"
+                        },
+                        {
+                            "title": "1980",
+                            "description": "Ächärya Tulsi introduced new order of Shraman/Shramani. (Ref: L.1.5.2.3, p386)"
+                        },
+                        {
+                            "title": "Nov 28, 1980",
+                            "description": "Death of Känji Swämi in Mumbai. (Ref: M.1.2, p423)"
+                        },
+                        {
+                            "title": "1993",
+                            "description": "'Religion and Philosophy of Jains' by V.R. Gandhi published. (Ref: M.3.2, p432)"
+                        },
+                        {
+                            "title": "2010",
+                            "description": "Ächärya Mahäshramanji took over Teräpanthi leadership. (Ref: L.1.5.2.3, p386)"
+                        },
+                        {
+                            "title": "2011",
+                            "description": "Year of Government of India's Census recording Jain population. (Ref: L.1.8, p390)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tabName": "Durations & Eras",
+            "contentType": "mixed",
+            "tabData": {
+                "items": [
+                    {
+                        "type": "accordian",
+                        "data": {
+                            "title": "Historical Durations & Spiritual Eras",
+                            "items": [
+                                {
+                                    "header": "Spiritual Eras",
+                                    "content": "<ul><li><b>3rd / 4th Ärä:</b> Eras in which one has to be born to attain everlasting (Kshäyik) Samyaktva. (Ref: K.4.2.4, p341)</li><li><b>5th Ärä:</b> Current period; max 7th Gunasthän reachable from Bharat/Airävat. (Ref: K.4.2.7, p342)</li></ul>"
+                                },
+                                {
+                                    "header": "Key Time Gaps",
+                                    "content": "<ul><li><b>250 years:</b> Time by which Bhagawän Pärshvanäth preceded Bhagawän Mahävir. (Ref: L.1.4.2, p382)</li><li><b>12 years:</b> Duration of famine in Magadh leading to splitting changes. (Ref: L.1.5, p384)</li><li><b>150 years:</b> Time between second and third recensions. (Ref: L.2.3.3, p395)</li></ul>"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "tabName": "Quiz",
+            "contentType": "quiz",
+            "tabData": {
+                "title": "Senior Timeline Quiz",
+                "questions": [
+                    {
+                        "question": "When was the recorded history of Jainism and the period of the Indus Valley Civilization?",
+                        "answer": "3500-3000 BC"
+                    },
+                    {
+                        "question": "Around what time was yoga practiced in ancient India, based on archaeological evidence?",
+                        "answer": "3000 BC"
+                    },
+                    {
+                        "question": "Which king is said to have visited a temple of Neminäth in the tenth century B.C.?",
+                        "answer": "King Nebuchadnezzar"
+                    },
+                    {
+                        "question": "What was the approximate birth year of Bhagawän Mahävir?",
+                        "answer": "599 B.C."
+                    },
+                    {
+                        "question": "When did Bhagawän Mahävir attain Nirväna?",
+                        "answer": "527 B.C."
+                    },
+                    {
+                        "question": "Who was the last omniscient of this half cycle, attaining salvation 64 years after Mahävir's Nirväna?",
+                        "answer": "Jambu Swämi"
+                    },
+                    {
+                        "question": "When was the Pätliputra Recension (First Vächanä) held?",
+                        "answer": "approx 367 BC"
+                    },
+                    {
+                        "question": "Who reigned from 322-298 B.C. and later abdicated his throne, migrating to the South?",
+                        "answer": "Emperor Chandragupta Maurya"
+                    },
+                    {
+                        "question": "When did the process of the split between Shvetämbar and Digambar start?",
+                        "answer": "3rd century B.C."
+                    },
+                    {
+                        "question": "Who composed the Kalpa Sutra in the 3rd century B.C.?",
+                        "answer": "Ächärya Bhadrabähu"
+                    },
+                    {
+                        "question": "When did King Kharavela bring back an idol of Agra-Jina (Rishabhadev) from Magadh?",
+                        "answer": "161 B.C."
+                    },
+                    {
+                        "question": "When did the Vikram Samvat era begin?",
+                        "answer": "57 BC"
+                    },
+                    {
+                        "question": "When was Umäsväti's Tattvärtha-sutra written, according to one source?",
+                        "answer": "first century"
+                    },
+                    {
+                        "question": "Around what time was the Jain religion split into Digambar and Shvetämbar sects?",
+                        "answer": "600 years after Mahävir's Nirväna"
+                    },
+                    {
+                        "question": "Who wrote works like Niyamsär and Samaysär around 100 AD?",
+                        "answer": "Kundkund"
+                    },
+                    {
+                        "question": "When was Tattvärtha-sutra written by Umäsväti, according to another source?",
+                        "answer": "200 AD"
+                    },
+                    {
+                        "question": "When did the second Vächanä (Recension) of Ägam take place in Mathurä?",
+                        "answer": "303 A.D."
+                    },
+                    {
+                        "question": "When was the Jain canon first written down at the council of Vallabhi?",
+                        "answer": "980 years after Mahävir's Nirväna (approx 453 A.D.)"
+                    },
+                    {
+                        "question": "For how long was Mathurä a stronghold of Jains?",
+                        "answer": "nearly 1000 years (up to 500 A.D.)"
+                    },
+                    {
+                        "question": "Who wrote Sarvärtha Siddhi in the 5th or 6th century?",
+                        "answer": "Pujyapäd-swämi"
+                    },
+                    {
+                        "question": "Who wrote Padma Purän around 650 AD?",
+                        "answer": "Ravisen"
+                    },
+                    {
+                        "question": "What is the life period of Digambar Ächärya Jinsen, author of Mahä-Purän?",
+                        "answer": "770-850"
+                    },
+                    {
+                        "question": "Who wrote commentaries Dhavalä-tikä, Mahä-dhavalä-tikä, and Jay-dhavalä-tikä around 780 AD?",
+                        "answer": "Ächärya Virsen and Jinsen"
+                    },
+                    {
+                        "question": "When did Shrimad Räjchandra compose 'Ätmasiddhi-shästra'?",
+                        "answer": "1896"
+                    },
+                    {
+                        "question": "When did Virchand R. Gandhi represent Jains at the World Parliament of Religions?",
+                        "answer": "1893"
+                    },
+                    {
+                        "question": "When was the book Saman-Suttam created?",
+                        "answer": "1974 (during the 2500th Nirväna anniversary of Bhagawän Mahävir)"
+                    },
+                    {
+                        "question": "When did Ächärya Tulsi initiate the Anuvrat movement?",
+                        "answer": "1949"
+                    },
+                    {
+                        "question": "What is the life period of Shrimad Räjchandra?",
+                        "answer": "1867 to 1901 A.D."
+                    },
+                    {
+                        "question": "When did Shrimad Räjchandra attain Samyag Darshan, according to belief?",
+                        "answer": "1891 A.D."
+                    }
+                ]
+            }
+        }
+    ]
+}
