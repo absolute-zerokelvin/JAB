@@ -355,6 +355,216 @@ function generateGraphics(graphicsData) {
     container.appendChild(graphicsGrid);
 }
 
+// --- AI Art (Imagery) Generation ---
+let slideshowInterval = null;
+let isSlideshowPlaying = false;
+
+function generateImagery(imageryData) {
+    if (!imageryData || !imageryData.length) return;
+
+    const container = document.getElementById('imagery-tab');
+    if (!container) return;
+
+    // Add Slideshow Control Bar
+    const controlsDiv = document.createElement('div');
+    controlsDiv.className = 'imagery-controls';
+
+    const slideshowBtn = document.createElement('button');
+    slideshowBtn.className = 'btn-primary';
+    slideshowBtn.innerHTML = '▶ Start Slideshow';
+    slideshowBtn.onclick = () => openImageryLightbox(imageryData, 0, true);
+
+    controlsDiv.appendChild(slideshowBtn);
+    container.appendChild(controlsDiv);
+
+    // Create the grid container
+    const imageryGrid = document.createElement('div');
+    imageryGrid.className = 'imagery-grid';
+
+    imageryData.forEach((panel, index) => {
+        const panelDiv = document.createElement('div');
+        panelDiv.className = 'imagery-panel';
+
+        // Create image container with loading state
+        const imgContainer = document.createElement('div');
+        imgContainer.className = 'imagery-image-container';
+
+        // Create image
+        const img = document.createElement('img');
+        img.src = panel.imageSrc;
+        img.alt = panel.title;
+        img.loading = 'lazy'; // Lazy load for performance
+        img.className = 'imagery-image';
+
+        // Add click handler for lightbox
+        img.addEventListener('click', () => openImageryLightbox(imageryData, index, false));
+
+        imgContainer.appendChild(img);
+        panelDiv.appendChild(imgContainer);
+
+        // Create caption container
+        const captionDiv = document.createElement('div');
+        captionDiv.className = 'imagery-caption';
+
+        // Add scene number
+        const sceneNumber = document.createElement('span');
+        sceneNumber.className = 'imagery-scene-number';
+        sceneNumber.textContent = `Scene ${index + 1}`;
+        captionDiv.appendChild(sceneNumber);
+
+        // Add title
+        const title = document.createElement('p');
+        title.className = 'imagery-title';
+        title.textContent = panel.title;
+        captionDiv.appendChild(title);
+
+        // Add description
+        const description = document.createElement('p');
+        description.className = 'imagery-description';
+        description.textContent = panel.description;
+        captionDiv.appendChild(description);
+
+        panelDiv.appendChild(captionDiv);
+        imageryGrid.appendChild(panelDiv);
+    });
+
+    container.appendChild(imageryGrid);
+}
+
+// --- Imagery Lightbox / Slideshow ---
+function openImageryLightbox(imageryData, startIndex, autoPlay = false) {
+    // Clear any existing interval
+    if (slideshowInterval) clearInterval(slideshowInterval);
+    isSlideshowPlaying = autoPlay;
+
+    // Create lightbox overlay
+    const overlay = document.createElement('div');
+    overlay.className = 'imagery-lightbox-overlay';
+
+    // Create lightbox content
+    const lightbox = document.createElement('div');
+    lightbox.className = 'imagery-lightbox';
+
+    // Navigation and Controls
+    const prevBtn = document.createElement('button');
+    prevBtn.className = 'imagery-nav-btn prev';
+    prevBtn.innerHTML = '&#10094;'; // Left arrow
+
+    const nextBtn = document.createElement('button');
+    nextBtn.className = 'imagery-nav-btn next';
+    nextBtn.innerHTML = '&#10095;'; // Right arrow
+
+    // Image container
+    const imgContainer = document.createElement('div');
+    imgContainer.className = 'imagery-lightbox-content';
+
+    const img = document.createElement('img');
+    img.className = 'imagery-lightbox-image';
+    imgContainer.appendChild(img);
+
+    // Caption container
+    const captionContainer = document.createElement('div');
+    captionContainer.className = 'imagery-lightbox-caption';
+
+    // Controls container (Play/Pause, Counter)
+    const controlsContainer = document.createElement('div');
+    controlsContainer.className = 'imagery-lightbox-controls';
+
+    const playPauseBtn = document.createElement('button');
+    playPauseBtn.className = 'imagery-play-btn';
+    playPauseBtn.innerHTML = isSlideshowPlaying ? '⏸ Pause' : '▶ Play';
+
+    const counter = document.createElement('span');
+    counter.className = 'imagery-counter';
+
+    controlsContainer.appendChild(playPauseBtn);
+    controlsContainer.appendChild(counter);
+
+    // Close button
+    const closeBtn = document.createElement('button');
+    closeBtn.className = 'imagery-lightbox-close';
+    closeBtn.innerHTML = '×';
+
+    // Append elements
+    lightbox.appendChild(closeBtn);
+    lightbox.appendChild(imgContainer);
+    lightbox.appendChild(prevBtn);
+    lightbox.appendChild(nextBtn);
+    lightbox.appendChild(controlsContainer); // Add controls above caption
+    lightbox.appendChild(captionContainer);
+    overlay.appendChild(lightbox);
+    document.body.appendChild(overlay);
+
+    let currentIndex = startIndex;
+
+    // Update function
+    function updateSlide(index) {
+        currentIndex = (index + imageryData.length) % imageryData.length;
+        const panel = imageryData[currentIndex];
+
+        // Fade effect
+        img.style.opacity = '0';
+        setTimeout(() => {
+            img.src = panel.imageSrc;
+            img.alt = panel.title;
+            captionContainer.innerHTML = `<strong>${panel.title}</strong><p>${panel.description}</p>`;
+            counter.textContent = `${currentIndex + 1} / ${imageryData.length}`;
+            img.style.opacity = '1';
+        }, 200);
+    }
+
+    // Navigation handlers
+    function nextSlide() {
+        updateSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+        updateSlide(currentIndex - 1);
+    }
+
+    function togglePlay() {
+        isSlideshowPlaying = !isSlideshowPlaying;
+        playPauseBtn.innerHTML = isSlideshowPlaying ? '⏸ Pause' : '▶ Play';
+
+        if (isSlideshowPlaying) {
+            startSlideshow();
+        } else {
+            clearInterval(slideshowInterval);
+        }
+    }
+
+    function startSlideshow() {
+        if (slideshowInterval) clearInterval(slideshowInterval);
+        slideshowInterval = setInterval(nextSlide, 5000); // 5 seconds
+    }
+
+    // Event Listeners
+    prevBtn.onclick = (e) => { e.stopPropagation(); prevSlide(); clearInterval(slideshowInterval); isSlideshowPlaying = false; playPauseBtn.innerHTML = '▶ Play'; };
+    nextBtn.onclick = (e) => { e.stopPropagation(); nextSlide(); clearInterval(slideshowInterval); isSlideshowPlaying = false; playPauseBtn.innerHTML = '▶ Play'; };
+    playPauseBtn.onclick = (e) => { e.stopPropagation(); togglePlay(); };
+    closeBtn.onclick = () => closeLightbox();
+    overlay.onclick = (e) => { if (e.target === overlay) closeLightbox(); };
+
+    // Keyboard navigation
+    function keyHandler(e) {
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') { prevSlide(); clearInterval(slideshowInterval); isSlideshowPlaying = false; playPauseBtn.innerHTML = '▶ Play'; }
+        if (e.key === 'ArrowRight') { nextSlide(); clearInterval(slideshowInterval); isSlideshowPlaying = false; playPauseBtn.innerHTML = '▶ Play'; }
+        if (e.key === ' ') { e.preventDefault(); togglePlay(); }
+    }
+    document.addEventListener('keydown', keyHandler);
+
+    function closeLightbox() {
+        if (slideshowInterval) clearInterval(slideshowInterval);
+        document.removeEventListener('keydown', keyHandler);
+        overlay.remove();
+    }
+
+    // Initialize
+    updateSlide(currentIndex);
+    if (autoPlay) startSlideshow();
+}
+
 // --- Quiz Answer Toggle Functionality ---
 function toggleAnswer(button) {
     const answerDiv = button.nextElementSibling;
@@ -390,6 +600,7 @@ function initializeStoryPage(storyData) {
             { id: 'mindmap-v1-tab', label: 'Mind Map (v1)' },
             { id: 'mindmap-v2-tab', label: 'Mind Map (v2)' },
             { id: 'graphics-tab', label: 'Graphics' },
+            { id: 'imagery-tab', label: 'AI Art' },
             { id: 'characters-tab', label: 'Characters' },
             { id: 'quiz-tab', label: 'Quiz' }
         ];
@@ -423,6 +634,9 @@ function initializeStoryPage(storyData) {
 
         // Generate graphics
         generateGraphics(storyData.graphicsData);
+
+        // Generate AI Art imagery
+        generateImagery(storyData.imageryData);
 
         // Set the initial active tab
         const firstTabBtn = document.querySelector('.tabs-container .tab-button');
