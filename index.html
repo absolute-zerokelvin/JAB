@@ -29,6 +29,71 @@
             transform: translateY(-2px) translateX(2px);
             box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2), 0 4px 6px -2px rgba(59, 130, 246, 0.1);
         }
+
+        /* Classroom button styles */
+        .classroom-button {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            display: inline-block;
+            padding: 0.75rem 1.25rem;
+            background: white;
+            color: #2563eb;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .classroom-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            background: #eff6ff;
+            color: #1e40af;
+        }
+
+        @media (max-width: 768px) {
+            .classroom-button {
+                font-size: 0.7rem;
+                padding: 0.5rem 0.75rem;
+                top: 0.75rem;
+                right: 0.75rem;
+            }
+
+            .page-title {
+                font-size: 3rem !important;
+                padding-right: 140px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-title {
+                font-size: 2.5rem !important;
+                padding-right: 120px;
+            }
+
+            .classroom-button {
+                font-size: 0.65rem;
+                padding: 0.45rem 0.65rem;
+                top: 0.65rem;
+                right: 0.65rem;
+            }
+        }
+
+        @media (max-width: 380px) {
+            .page-title {
+                font-size: 2rem !important;
+                padding-right: 110px;
+            }
+
+            .classroom-button {
+                font-size: 0.6rem;
+                padding: 0.4rem 0.6rem;
+            }
+        }
     </style>
     <script type="application/ld+json">
     {
@@ -61,7 +126,10 @@
 
     <!-- Main Content -->
     <div class="main-content" id="mainContent">
-        <header class="page-header">
+        <header class="page-header" style="font-size:100px; position: relative;">
+            <a href="https://classroom.jabinteractive.org" target="_blank" class="classroom-button">
+                📚 JAB Classroom
+            </a>
             <h1 class="page-title" style="font-size:100px;">JAB Interactive</h1>
             <p class="page-subtitle">Jain Academic Bowl Interactive Guide</p>
             <p>Jai Jinendra!</p>
