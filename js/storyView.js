@@ -594,16 +594,23 @@ function initializeStoryPage(storyData) {
     // Add tab buttons dynamically
     const tabsContainer = document.querySelector('.tabs-container');
     if (tabsContainer) {
+        // Build tabs array dynamically based on available data
         const tabsData = [
             { id: 'original-story', label: 'Story' },
             { id: 'timeline-tab', label: 'Timeline' },
             { id: 'mindmap-v1-tab', label: 'Mind Map (v1)' },
             { id: 'mindmap-v2-tab', label: 'Mind Map (v2)' },
-            { id: 'graphics-tab', label: 'Graphics' },
-            { id: 'imagery-tab', label: 'AI Art' },
-            { id: 'characters-tab', label: 'Characters' },
-            { id: 'quiz-tab', label: 'Quiz' }
+            { id: 'graphics-tab', label: 'Graphics' }
         ];
+
+        // Only add AI Art tab if imageryData exists and has content
+        if (storyData && storyData.imageryData && storyData.imageryData.length > 0) {
+            tabsData.push({ id: 'imagery-tab', label: 'AI Art' });
+        }
+
+        // Add remaining tabs
+        tabsData.push({ id: 'characters-tab', label: 'Characters' });
+        tabsData.push({ id: 'quiz-tab', label: 'Quiz' });
 
         tabsData.forEach(tab => {
             const button = document.createElement('button');

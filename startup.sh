@@ -216,7 +216,7 @@ main() {
     print_info "The server will:"
     print_info "  • Watch for file changes (HTML, CSS, JS, JSON)"
     print_info "  • Automatically rebuild when files change"
-    print_info "  • Serve the site at http://localhost:3000"
+    print_info "  • Serve the site at http://localhost:8080"
     print_info "  • Open your browser automatically"
     echo ""
     print_info "Press Ctrl+C to stop the server when you're done"

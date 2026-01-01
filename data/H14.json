@@ -312,5 +312,32 @@
             "imageSrc": "https://placehold.co/600x400/78350f/fef3c7?text=Confession+and+Redemption",
             "imageAlt": "A man kneeling before a king and a serene spiritual teacher in a grand hall."
         }
+    ],
+    "imageryData": [
+        {
+            "title": "A Father's Final Wish",
+            "description": "On his deathbed, the old thief Lohkhur makes his son Rohineya promise to never listen to the sermons of Bhagawän Mahävir.",
+            "imageSrc": "./data/images/H14/h14 scene 1.png"
+        },
+        {
+            "title": "An Accidental Sermon",
+            "description": "While trying to avoid the sermon, Rohineya steps on a thorn. As he removes it, he is forced to listen to a few powerful words about heavenly beings.",
+            "imageSrc": "./data/images/H14/h14 scene 2.png"
+        },
+        {
+            "title": "A Heaven of Illusion",
+            "description": "The clever minister Abhaykumär creates an elaborate fake heaven to trick the captured Rohineya into confessing his identity. Remembering the sermon, Rohineya keenly observes a 'heavenly maiden' and notices her feet touch the ground, confirming his suspicions that it is all a trap.",
+            "imageSrc": "./data/images/H14/h14 scene 3.png"
+        },
+        {
+            "title": "The Test of Truth",
+            "description": "Having outsmarted the minister, Rohineya is freed. He reflects on how a few words of truth saved him, more than all his thieving skills.",
+            "imageSrc": "./data/images/H14/h14 scene 4.png"
+        },
+        {
+            "title": "Freedom Through Knowledge",
+            "description": "Rohineya confesses everything before King Shrenik and Bhagawän Mahävir, gives up his stolen wealth, and humbly accepts the life of a monk.",
+            "imageSrc": "./data/images/H14/h14 scene 5.png"
+        }
     ]
 }
