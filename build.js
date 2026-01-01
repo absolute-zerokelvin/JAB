@@ -56,7 +56,10 @@ class JABBuilder {
     async copyAssets() {
         console.log('📁 Copying assets...');
 
-        const assetDirs = ['images', 'data'];
+        const assetDirs = ['images', 'data', 'css', 'js', 'templates'];
+        const rootFiles = ['favicon.ico', 'robots.txt', 'sitemap.xml', 'CNAME'];
+
+        // Copy directory assets
         for (const dir of assetDirs) {
             const srcPath = path.join(this.sourceDir, dir);
             const destPath = path.join(this.distDir, dir);
@@ -64,6 +67,17 @@ class JABBuilder {
             if (await fs.pathExists(srcPath)) {
                 await fs.copy(srcPath, destPath);
                 console.log(`   ✓ Copied ${dir}/`);
+            }
+        }
+
+        // Copy root files
+        for (const file of rootFiles) {
+            const srcPath = path.join(this.sourceDir, file);
+            const destPath = path.join(this.distDir, file);
+
+            if (await fs.pathExists(srcPath)) {
+                await fs.copy(srcPath, destPath);
+                console.log(`   ✓ Copied ${file}`);
             }
         }
     }
@@ -108,25 +122,23 @@ class JABBuilder {
 
                 try {
                     // Read and optimize the image
-                    const optimized = await sharp(filePath)
-                        .resize(1200, 1200, {
-                            fit: 'inside',
-                            withoutEnlargement: true
-                        })
-                        .jpeg({ quality: 85, progressive: true })
-                        .toBuffer();
+                    // We preserve the extension to avoid breaking references in JSON
+                    let optimized;
+                    if (ext === '.png') {
+                        optimized = await sharp(filePath)
+                            .resize(1200, 1200, { fit: 'inside', withoutEnlargement: true })
+                            .png({ quality: 85, compressionLevel: 9 })
+                            .toBuffer();
+                    } else {
+                        optimized = await sharp(filePath)
+                            .resize(1200, 1200, { fit: 'inside', withoutEnlargement: true })
+                            .jpeg({ quality: 85, progressive: true })
+                            .toBuffer();
+                    }
 
                     // Only replace if we actually saved space
                     if (optimized.length < originalSize) {
-                        // Replace original with optimized JPEG
-                        const newPath = filePath.replace(ext, '.jpg');
-                        await fs.writeFile(newPath, optimized);
-
-                        // Remove original if different extension
-                        if (newPath !== filePath) {
-                            await fs.remove(filePath);
-                        }
-
+                        await fs.writeFile(filePath, optimized);
                         const saved = originalSize - optimized.length;
                         totalSaved += saved;
                         totalOptimized++;
@@ -280,19 +292,6 @@ class JABBuilder {
         }
     }
 
-    // Copy templates directory
-    async copyTemplates() {
-        console.log('📋 Copying templates...');
-
-        const templatesDir = path.join(this.sourceDir, 'templates');
-        const distTemplatesDir = path.join(this.distDir, 'templates');
-
-        if (await fs.pathExists(templatesDir)) {
-            await fs.copy(templatesDir, distTemplatesDir);
-            console.log('   ✓ Copied templates/');
-        }
-    }
-
     // Simple CSS minification
     minifyCSS(css) {
         return css
@@ -348,7 +347,6 @@ class JABBuilder {
             await this.prepareDist();
             await this.copyAssets();
             await this.optimizeImages();
-            await this.copyTemplates();
 
             const cssMap = await this.processCSSFiles();
             const jsMap = await this.processJSFiles();
