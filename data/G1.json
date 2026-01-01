@@ -654,37 +654,37 @@
         {
             "title": "Rishabhadev Divides His Kingdom",
             "description": "King Rishabhadev, before his renunciation, divides his vast kingdom between his sons, giving Vinitä to Bharat and Taxashilä to Bähubali.",
-            "imageSrc": "./data/images/G1/scene1.jpg"
+            "imageSrc": "./data/images/G1/scene1.png"
         },
         {
             "title": "The Duel of Brothers",
             "description": "Bharat and Bähubali engage in a duel to decide superiority, avoiding a large-scale war.",
-            "imageSrc": "./data/images/G1/scene2.jpg"
+            "imageSrc": "./data/images/G1/scene2.png"
         },
         {
             "title": "Chakraratna's Failure",
             "description": "Bharat, in desperation, unleashes the Chakraratna against Bähubali, but it harmlessly circles Bähubali as it doesn't harm blood relatives.",
-            "imageSrc": "./data/images/G1/scene3.jpg"
+            "imageSrc": "./data/images/G1/scene3.png"
         },
         {
             "title": "Bähubali's Renunciation",
             "description": "About to strike Bharat, Bähubali has a flash of insight and instead pulls out his hair, renouncing the world on the battlefield.",
-            "imageSrc": "./data/images/G1/scene4.jpg"
+            "imageSrc": "./data/images/G1/scene4.png"
         },
         {
             "title": "Bähubali's Year-Long Meditation",
             "description": "Bähubali stands motionless in meditation for a year, so still that creepers grow around him, yet his ego prevents enlightenment.",
-            "imageSrc": "./data/images/G1/scene5.jpg"
+            "imageSrc": "./data/images/G1/scene5.png"
         },
         {
             "title": "The Elephant of Ego",
             "description": "Brähmi and Sundari tell Bähubali he must \"get off the elephant\" of his ego to attain enlightenment.",
-            "imageSrc": "./data/images/G1/scene6.jpg"
+            "imageSrc": "./data/images/G1/scene6.png"
         },
         {
             "title": "Bharat's Realization",
             "description": "Emperor Bharat, seeing his unadorned reflection, realizes the impermanence of worldly beauty and possessions, leading to his enlightenment.",
-            "imageSrc": "./data/images/G1/scene7.jpg"
+            "imageSrc": "./data/images/G1/scene7.png"
         }
     ]
 }
