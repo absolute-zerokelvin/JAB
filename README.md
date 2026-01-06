@@ -1,306 +1,64 @@
-# JAB 2024
-Jain Academic Bowl (JAB) Interactive Manual
+# JAB Interactive Manual 🎓
 
-## About JAB Interactive Manual
+Welcome to the Jain Academic Bowl (JAB) Interactive Manual — a fun, digital way to study for the JAB competition!
 
-The JAB Interactive Manual is a comprehensive digital companion for students preparing for the Jain Academic Bowl competition. Based on the JAB Manual 5th edition (October 2024), this interactive platform transforms traditional learning materials into engaging digital experiences.
+![JAB Homepage](homepage.png)
 
-### Purpose
+## 🚀 Quick Start
 
-- Provide an accessible, interactive way to study and review JAB content
-- Support different learning styles through various interactive elements
-- Supplement (not replace) the official JAB Manual with digital learning aids
-- Make complex concepts more approachable through modern web technologies
-
-### Project Background
-
-This interactive manual was developed with valuable guidance from the JAB Teachers of Jain Center of Northern California (JCNC). It serves as an auxiliary resource to the official JAB Manual, offering alternative ways to engage with the same content.
-
-### Content Generation
-
-Most of the interactive content in this manual was generated offline using Google's Gemini LLM. The process involved:
-
-1. Extracting relevant text from the JAB Manual 
-2. Prompting Gemini to transform the content into different interactive formats
-3. Creating quizzes, flashcards, and other interactive elements from the source material
-4. Spot checking the generated content for accuracy
-
-This approach allowed for rapid development of interactive materials while maintaining alignment with the original manual. While generated content was spot checked, there is a possibility of errors due to LLM hallucinations or prompt issues. If you notice any inaccuracies compared to the original JAB Manual, please report them by creating an issue on [GitHub Issues](https://github.com/absolute-zerokelvin/JAB/issues).
-
-## Content Structure
-
-The JAB Interactive Manual is organized into several key sections:
-
-### Main Sections
-
-1. **Basics (B1-B7)** - Fundamental concepts of Jainism
-2. **Legends (L1-L6)** - Stories and legends from Jain tradition
-3. **Ethics (E1-E5)** - Ethical principles and practices
-4. **Philosophy (F1-F7)** - Key philosophical concepts
-5. **Geography (G1-G6)** - Important locations in Jain history
-6. **History (H1-H14)** - Historical events and figures
-7. **Rituals (I1-I5)** - Important Jain rituals and ceremonies
-8. **Jain Symbols (J1-J4)** - Significant symbols in Jainism
-9. **Modern Jainism (M1-M3)** - Contemporary Jain practices
-
-### Interactive Features
-
-The manual includes various interactive elements:
-
-- **Quizzes** - Test your knowledge with questions on each topic
-- **Flashcards** - Study key terms and concepts in flashcard format
-- **Timelines** - Visualize historical events in chronological order
-- **Story Visualizations** - Interactive presentations of traditional stories
-
-## Technical Architecture
-
-This project is built using:
-
-- **Pure JavaScript** - No heavy frameworks for fast loading
-- **HTML5/CSS3** - Modern web standards for responsive design
-- **JSON Data Storage** - Structured content for easy maintenance
-- **AI-Generated Content** - Leveraging Google's Gemini LLM for transforming manual content into interactive formats
-
-### Content Organization
-
-The JAB Interactive Manual uses two different approaches for content organization:
-
-1. **Data-Driven Story Pages (Sections E to M)**
-   - Content is stored as structured JSON files in the `/data/` directory
-   - Each section's story has dedicated JSON files (E1.json, F1.json, etc.)
-   - Content is dynamically rendered through the `story.html` template
-   - This approach enables consistent formatting and easier content updates
-
-2. **Static HTML Pages (Sections B, L and Timelines)**
-   - These sections use individual HTML pages
-   - Timeline views are implemented as standalone HTML pages
-   - These pages incorporate the shared navigation components
-   - This approach is used for content with unique layouts or special formatting needs
-
-## End-to-End Testing
-
-This project includes automated end-to-end testing using [Playwright](https://playwright.dev/). These tests verify that the website loads correctly, navigation functions properly, and interactive features like quizzes and flashcards work as expected.
-
-### Running Tests Locally
-
-To run the end-to-end tests locally:
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run the tests:
-   ```bash
-   npm test
-   ```
-
-3. To view the test report:
-   ```bash
-   npm run test:report
-   ```
-
-4. To run tests with UI mode:
-   ```bash
-   npm run test:ui
-   ```
-
-### Continuous Integration
-
-These tests are automatically run in GitHub Actions when:
-- Code is pushed to the main branch
-- A pull request is made against the main branch
-
-The test results are available in the GitHub Actions tab, where you can also download test artifacts like screenshots and traces for failed tests.
-
-### Test Coverage
-
-The automated tests cover:
-1. Basic page loading
-2. Desktop and mobile navigation functionality
-3. Navigation menu expand/collapse features
-4. Quiz and flashcard interactive features
-
-## Contributing
-
-Contributions to the JAB Interactive Manual are welcome! Please follow these steps:
-
-1. **Report Issues**: If you find errors or issues, please report them on [GitHub Issues](https://github.com/absolute-zerokelvin/JAB/issues)
-
-2. **Submit Pull Requests**: For code contributions:
-   - Fork the repository
-   - Create a feature branch (`git checkout -b feature/amazing-feature`)
-   - Commit your changes (`git commit -m 'Add some amazing feature'`)
-   - Push to the branch (`git push origin feature/amazing-feature`)
-   - Open a Pull Request
-
-3. **Content Corrections**: If you notice factual errors or content issues (which can occasionally occur with LLM-generated content), please provide:
-   - The page/section where the error appears
-   - The incorrect information
-   - The suggested correction
-   - Reference to the official manual if applicable
-
-## Development
-
-### Quick Start (For Beginners)
-
-The easiest way to get started is to run the automated startup script:
+Just run this one command to get started:
 
 ```bash
 ./startup.sh
 ```
 
-This script will:
-- ✓ Check if you have all necessary tools installed (Homebrew, nvm, Node.js)
-- ✓ Offer to install missing tools with clear explanations
-- ✓ Install dependencies (`npm install`) if needed
-- ✓ Start the development server with hot-reload enabled
-- ✓ Open your browser automatically to http://localhost:3000
+That's it! The script will:
+- ✅ Check if you have the right tools installed
+- ✅ Help install anything you're missing
+- ✅ Start the website at http://localhost:8080
+- ✅ Open your browser automatically
 
-**Perfect for kids and beginners doing "vibe coding"!** The script guides you through everything step-by-step.
+## 📋 Prerequisites for Contributors
 
-### Prerequisites
+Before you start contributing, make sure you have:
 
-- Node.js (v18.0.0 or higher)
-- npm (comes with Node.js)
+1. **🤖 An AI Coding Assistant** — Like [Antigravity](https://console.cloud.google.com/), Cursor, GitHub Copilot, or similar "vibe coding" tools
+2. **🐙 A GitHub Account** — Free at [github.com/signup](https://github.com/signup)
+3. **📚 Basic Git Knowledge** — Learn the basics at [Git Tutorial](https://www.w3schools.com/git/)
+4. **🌐 Some HTML/CSS/JS** — Learn at [W3Schools](https://www.w3schools.com/)
 
-If you don't have these installed, the `startup.sh` script will help you install them. Alternatively, you can:
-- **macOS users**: The script will offer to install Homebrew and nvm for you
-- **Manual installation**: Download Node.js from [nodejs.org](https://nodejs.org/)
+> 💡 **Tip:** You can ask your AI coding agent to explain any code you don't understand — it's a great way to learn!
 
-### Manual Development Setup
+## 🎨 How to Contribute (Vibe Coding Style!)
 
-If you prefer to set things up manually instead of using `startup.sh`:
+Contributing is easy with AI assistance:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/absolute-zerokelvin/JAB.git
-   cd JAB
-   ```
+1. **Find an issue** — Something looks broken or could be better?
+2. **Take a screenshot** — Show your AI what's wrong
+3. **Ask your AI agent** — "Can you help me fix this?"
+4. **Test it** — Run `./startup.sh` and check your changes
+5. **Submit a Pull Request** — Share your fix with everyone!
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+See our [Vibe Coding Guide](docs/vibe-coding-guide.md) for detailed tips!
 
-3. Start the development server with hot-reload:
-   ```bash
-   npm run dev:preview
-   ```
-   
-   This will:
-   - Watch for changes to HTML, CSS, JS, and JSON files
-   - Automatically rebuild when files change
-   - Serve the site at http://localhost:3000
-   - Open the browser automatically
+## 📖 Learn More
 
-4. Alternative: Just run the dev watcher without the server:
-   ```bash
-   npm run dev
-   ```
+| Document | Description |
+|----------|-------------|
+| [Vibe Coding Guide](docs/vibe-coding-guide.md) | How to contribute using AI assistants |
+| [Architecture](docs/architecture.md) | Technical details for curious minds |
+| [Build System](BUILD.md) | How the build and deploy works |
+| [Contributing](CONTRIBUTING.md) | Contribution guidelines |
 
-5. Build for production:
-   ```bash
-   npm run build
-   ```
+## 🤝 Get Help
 
-### Development Workflow
+- **Create an Issue** — [Report bugs or request features](https://github.com/absolute-zerokelvin/JAB/issues)
+- **Ask Your AI** — Your coding agent can explain code and help you fix things!
 
-- **Hot Reload**: The `dev:preview` script watches all source files and automatically rebuilds when you make changes
-- **File Watching**: Changes to `.js`, `.html`, `.css`, and `.json` files trigger automatic rebuilds
-- **Browser Refresh**: After the build completes, refresh your browser to see changes
-- **Build Output**: All built files go to the `dist/` directory
+## 📜 License
 
-### Available Scripts
+MIT License — See repository for details.
 
-- `npm start` or `./startup.sh` - Run the automated setup and start development
-- `npm run dev` - Watch and rebuild on file changes (no server)
-- `npm run dev:preview` - Watch, rebuild, and serve with hot-reload
-- `npm run build` - Production build with minification
-- `npm run preview` - Build and preview production version
-- `npm test` - Run end-to-end tests
-- `npm run clean` - Remove the dist directory
+---
 
-### Troubleshooting
-
-#### Port 3000 Already in Use
-
-If you see an error that port 3000 is already in use:
-
-```bash
-# Find what's using port 3000
-lsof -i :3000
-
-# Kill the process (replace PID with the actual process ID)
-kill -9 PID
-
-# Or use a different port
-npx http-server dist -p 3001 -c-1 -o
-```
-
-#### Permission Denied: ./startup.sh
-
-If you get a permission error when running `./startup.sh`:
-
-```bash
-chmod +x startup.sh
-./startup.sh
-```
-
-#### Node Version Issues
-
-If you have an older version of Node.js:
-
-```bash
-# Using nvm (recommended)
-nvm install 18
-nvm use 18
-
-# Verify version
-node --version  # Should show v18.x.x or higher
-```
-
-#### npm install Failures
-
-If `npm install` fails:
-
-```bash
-# Clear npm cache
-npm cache clean --force
-
-# Remove node_modules and package-lock.json
-rm -rf node_modules package-lock.json
-
-# Try installing again
-npm install
-```
-
-### Project Structure
-
-- `/data/` - JSON files containing all content
-- `/js/` - JavaScript files for interactive features
-- `/css/` - Styling for the application
-- `/templates/` - HTML templates for content pages
-- `/images/` - Images and graphics
-- `/tests/` - End-to-end tests
-
-## Deployment
-
-The JAB Interactive Manual is deployed using GitHub Pages. To deploy:
-
-```bash
-npm run deploy
-```
-
-This will build the site and deploy it to the gh-pages branch.
-
-## License
-
-This project is licensed under the MIT License - see the repository for details.
-
-## Acknowledgements
-
-- JAB Teachers of JCNC for their guidance and expertise
-- Contributors to the JAB Manual 5th edition
-- Google's Gemini LLM for content transformation
-- All volunteers who have contributed to this interactive version
+*Built with ❤️ by the JAB Teachers of JCNC and contributors like you!*
