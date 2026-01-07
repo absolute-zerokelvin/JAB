@@ -77,4 +77,4 @@ MIT License — See repository for details.
 
 ---
 
-*Built with ❤️ by the JAB Teachers of JCNC and contributors like you!*
+*Built with ❤️ by the JAB Team, under guidance of JAB Teachers of JCNC, and contributors like you!*
