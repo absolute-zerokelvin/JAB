@@ -18,6 +18,21 @@ That's it! The script will:
 - ✅ Start the website at http://localhost:8080
 - ✅ Open your browser automatically
 
+## 👨‍👩‍👧 Parental Guidance for Young Contributors
+
+This project welcomes young developers! However, the platforms we use have age requirements:
+
+| Platform | Minimum Age | Under 13? |
+|----------|-------------|-----------|
+| **GitHub** | 13+ | ❌ Parent must create and manage the account |
+| **Google/Antigravity** | 13+ | ✅ Parent can create a supervised account via [Google Family Link](https://families.google.com/familylink/) |
+
+> ⚠️ **Important:** Never pretend to be older than you are when creating accounts — this violates platform terms of service.
+>
+> **Parents:** Please review the [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) and help your child set up accounts appropriately.
+
+---
+
 ## 📋 Prerequisites for Contributors
 
 Before you start contributing, make sure you have:
@@ -46,6 +61,7 @@ See our [Vibe Coding Guide](docs/vibe-coding-guide.md) for detailed tips!
 | Document | Description |
 |----------|-------------|
 | [Vibe Coding Guide](docs/vibe-coding-guide.md) | How to contribute using AI assistants |
+| [Adding AI Art](docs/adding-ai-art.md) | Step-by-step guide to add AI-generated images |
 | [Architecture](docs/architecture.md) | Technical details for curious minds |
 | [Build System](BUILD.md) | How the build and deploy works |
 | [Contributing](CONTRIBUTING.md) | Contribution guidelines |
