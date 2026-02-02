@@ -247,5 +247,37 @@
 "imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Haribhadra-suri's+Literary+Legacy",
 "imageAlt":"An image of a vast library filled with ancient palm-leaf manuscripts."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Unbeaten Debater",
+"description":"Proud of his intellect, the Brahmin scholar Haribhadra confidently challenges anyone in the land to present a topic he cannot understand.",
+"imageSrc":"./data/images/F6/scene1.png"
+ },
+ {
+"title":"An Incomprehensible Verse",
+"description":"Haribhadra is stunned when he overhears the Jain nun Yäkini Mahattarä reciting a verse about the cosmic time cycle that is completely beyond his understanding.",
+"imageSrc":"./data/images/F6/scene2.png"
+ },
+ {
+"title":"A Pledge Honored",
+"description":"True to his word, the humbled Haribhadra seeks out the nun's guru, Ächärya Jinabhatta-suri, and agrees to become his disciple to learn the truth.",
+"imageSrc":"./data/images/F6/scene3.png"
+ },
+ {
+"title":"A Vow of Vengeance",
+"description":"Consumed with grief and anger over the death of his nephews, Haribhadra-suri makes a terrible vow to punish those responsible.",
+"imageSrc":"./data/images/F6/scene4.png"
+ },
+ {
+"title":"Atonement Through Words",
+"description":"Realizing his attachment led him astray, Haribhadra-suri atones for his anger by dedicating his life to writing, becoming a prolific author.",
+"imageSrc":"./data/images/F6/scene5.png"
+ },
+ {
+"title":"A Vast Legacy",
+"description":"Ächärya Haribhadra-suri's 1444 books on philosophy, yoga, and conduct became a priceless contribution to Jainism and Indian thought.",
+"imageSrc":"./data/images/F6/scene6.png"
+ }
  ]
 }

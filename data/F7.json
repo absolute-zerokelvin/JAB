@@ -262,5 +262,37 @@
 "imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Hemchandra,+the+Prolific+Author",
 "imageAlt":"A portrait of a wise, elderly monk surrounded by many books and manuscripts."
  }
+ ],
+"imageryData": [
+ {
+"title":"A Mother's Sacrifice",
+"description":"His mother, Pähini, though filled with love, selflessly gives her gifted son Chängdev to Ächärya Devasuri for the greater good of the world.",
+"imageSrc":"./data/images/F7/scene1.png"
+ },
+ {
+"title":"The Guru and the King",
+"description":"Ächärya Hemchandra provides wise counsel to King Kumärpäl, and together they work to build a kingdom founded on principles of non-violence and learning.",
+"imageSrc":"./data/images/F7/scene2.png"
+ },
+ {
+"title":"The Brahmins' Plot",
+"description":"Jealous of his influence, Brahmin priests complain to the king, plotting to disgrace Hemchandra by forcing him into a religious confrontation.",
+"imageSrc":"./data/images/F7/scene3.png"
+ },
+ {
+"title":"Wisdom in the Temple",
+"description":"Inside the Shiva temple, Hemchandra bows and recites a verse that honors the universal quality of being passionless, elegantly transcending sectarian lines.",
+"imageSrc":"./data/images/F7/scene4.png"
+ },
+ {
+"title":"A Kingdom of Ahimsä",
+"description":"Inspired by his guru, King Kumärpäl issues a royal decree prohibiting the slaughter of all animals, transforming Gujarat into a land of non-violence.",
+"imageSrc":"./data/images/F7/scene5.png"
+ },
+ {
+"title":"The All-Knower of the Dark Age",
+"description":"Ächärya Hemchandra, known as'Kali-käl Sarvajna,' dedicates himself to writing, producing a vast body of literature that illuminates Jain philosophy for ages to come.",
+"imageSrc":"./data/images/F7/scene6.png"
+ }
  ]
 }

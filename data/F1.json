@@ -271,5 +271,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Gautam-swämi+attains+Keval-jnän",
 "imageAlt":"Gautam-swämi sitting in meditation, glowing with a bright light symbolizing his enlightenment."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Upstaged Ceremony",
+"description":"The proud scholar Indrabhuti watches in fury as celestial beings fly past his grand sacrifice to honor the sermon of an unknown ascetic, Mahävir.",
+"imageSrc":"./data/images/F1/scene1.png"
+ },
+ {
+"title":"The Doubt Revealed",
+"description":"Mahävir stuns Indrabhuti by welcoming him by name and exposing his deepest, secret doubt about the existence of the soul, shattering his intellectual pride.",
+"imageSrc":"./data/images/F1/scene2.png"
+ },
+ {
+"title":"A Lesson in Humility",
+"description":"After doubting a layman, Gautam-swämi returns to Änand Shrävak to humbly ask for his forgiveness, demonstrating his lack of ego.",
+"imageSrc":"./data/images/F1/scene3.png"
+ },
+ {
+"title":"The Miraculous Meal",
+"description":"Using his special powers, Gautam-swämi serves kheer to 1500 hungry hermits from a single small bowl that never empties.",
+"imageSrc":"./data/images/F1/scene4.png"
+ },
+ {
+"title":"The Pain of Attachment",
+"description":"Learning of Mahävir's Nirväna, Gautam-swämi is overcome with grief, a moment of intense sorrow that forces him to confront his final spiritual obstacle.",
+"imageSrc":"./data/images/F1/scene5.png"
+ },
+ {
+"title":"The Dawn of Omniscience",
+"description":"In a flash of insight, Gautam-swämi detaches from his grief and love for Mahävir, instantly destroying his remaining karma and attaining Keval-jnän.",
+"imageSrc":"./data/images/F1/scene6.png"
+ }
  ]
 }

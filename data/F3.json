@@ -247,5 +247,37 @@
 "imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Jambuswämi,+the+Last+Kevali",
 "imageAlt":"A single enlightened monk meditating, symbolizing the end of an era."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Wedding Agreement",
+"description":"Pressured by his family, a resolved Jambu agrees to marry his eight fiancées, but only if he can become a monk the very next day.",
+"imageSrc":"./data/images/F3/scene1.png"
+ },
+ {
+"title":"The Thief in the Shadows",
+"description":"As Jambu preaches to his wives, the master burglar Prabhav listens from a doorway, his plan to steal forgotten as he is captivated by the words of truth.",
+"imageSrc":"./data/images/F3/scene2.png"
+ },
+ {
+"title":"A Change of Heart",
+"description":"Inspired by Jambu's words, Prabhav tells his 500 followers that he is giving up his life of crime, and they all agree to follow him on the new path.",
+"imageSrc":"./data/images/F3/scene3.png"
+ },
+ {
+"title":"The Great Procession",
+"description":"The next morning, an incredible procession of 528 people—including Jambu, his wives, their families, and the former thieves—walks through the city to renounce the world.",
+"imageSrc":"./data/images/F3/scene4.png"
+ },
+ {
+"title":"Accepting Discipleship",
+"description":"Jambu bows before his guru, Sudharmä-swämi, formally becoming his disciple and beginning his journey as a monk.",
+"imageSrc":"./data/images/F3/scene5.png"
+ },
+ {
+"title":"The Last Omniscient",
+"description":"As the last Kevali of the era, Jambuswämi represents the end of an age of enlightenment, a final beacon of perfect knowledge before a period of decline.",
+"imageSrc":"./data/images/F3/scene6.png"
+ }
  ]
 }
