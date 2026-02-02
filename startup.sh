@@ -225,7 +225,7 @@ main() {
     if ask_yes_no "Ready to start the development server?"; then
         print_success "Starting server with hot-reload enabled..."
         echo ""
-        c
+        npm run dev:preview
     else
         print_info "Skipped server startup. You can start it later with:"
         print_info "  npm run dev:preview"
