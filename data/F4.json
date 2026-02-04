@@ -271,5 +271,37 @@
 "imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=Sthulibhadra+as+a+Lion",
 "imageAlt":"Two nuns looking frightened at the entrance of a cave where a lion is sitting."
  }
+ ],
+"imageryData": [
+ {
+"title":"A Life of Indulgence",
+"description":"For twelve years, the young Sthulibhadra abandons his duties and lives a life of pleasure with the beautiful dancer, Koshä.",
+"imageSrc":"./data/images/F4/scene1.png"
+ },
+ {
+"title":"The Awakening",
+"description":"The tragic news of his father's death shatters Sthulibhadra's world, forcing him to confront the emptiness of his life and seek a new path.",
+"imageSrc":"./data/images/F4/scene2.png"
+ },
+ {
+"title":"The Ultimate Test",
+"description":"To conquer his past desires, Monk Sthulibhadra spends four months meditating in the palace of his former lover, Koshä, who tries to win him back.",
+"imageSrc":"./data/images/F4/scene3.png"
+ },
+ {
+"title":"The Failed Imitator",
+"description":"To teach a jealous monk a lesson, Koshä asks him for a gift, which he foolishly brings, only for her to toss it away to show him the value of what he is throwing away: his monkhood.",
+"imageSrc":"./data/images/F4/scene4.png"
+ },
+ {
+"title":"Seeking the Last Master",
+"description":"To preserve the complete scriptures after a famine, Sthulibhadra journeys to Nepal to learn from Ächärya Bhadrabähu, the last person who knows them all.",
+"imageSrc":"./data/images/F4/scene5.png"
+ },
+ {
+"title":"The Lion's Prank",
+"description":"Sthulibhadra misuses his powers by turning into a lion to scare his sisters, a trivial act for which his guru, Bhadrabähu, chastises him.",
+"imageSrc":"./data/images/F4/scene6.png"
+ }
  ]
 }

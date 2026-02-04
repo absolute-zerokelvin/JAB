@@ -243,5 +243,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=The+Sacred+Footprints",
 "imageAlt":"A pair of footprints carved into a large rock on a scenic hill."
  }
+ ],
+"imageryData": [
+ {
+"title":"A Monk at Eleven",
+"description":"At the remarkably young age of 11, Kundkund renounces worldly life to become a Jain monk, beginning a lifelong spiritual journey.",
+"imageSrc":"./data/images/F5/scene1.png"
+ },
+ {
+"title":"The Great Organizer",
+"description":"Ächärya Kundkund sits, composing his seminal works like Samaysär, bringing structure and clarity to complex Jain philosophical concepts.",
+"imageSrc":"./data/images/F5/scene2.png"
+ },
+ {
+"title":"Elevating the Debate",
+"description":"In the courts of ancient India, Ächärya Kundkund engages in philosophical debates with Hindu and Buddhist thinkers, elevating the discourse with his clear logic.",
+"imageSrc":"./data/images/F5/scene3.png"
+ },
+ {
+"title":"Journey to Videha-kshetra",
+"description":"Through his immense spiritual power, Ächärya Kundkund's soul is said to travel to another realm to listen to the living Tirthankar, Simandhar-swämi.",
+"imageSrc":"./data/images/F5/scene4.png"
+ },
+ {
+"title":"Inspiring Future Generations",
+"description":"Centuries later, modern spiritual leaders and scholars like Shrimad Räjchandra are deeply moved and inspired by reading Ächärya Kundkund's Samaysär.",
+"imageSrc":"./data/images/F5/scene5.png"
+ },
+ {
+"title":"The Footprints on the Hill",
+"description":"On Ponnur Malai hill, the engraved footprints of Ächärya Kundkund remain, a lasting symbol of the great thinker's presence and legacy.",
+"imageSrc":"./data/images/F5/scene6.png"
+ }
  ]
 }

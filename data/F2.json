@@ -259,5 +259,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Sudharmä-swämi's+Nirväna",
 "imageAlt":"A depiction of a soul ascending to the realm of the liberated (Siddhashila)."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Renowned Teacher",
+"description":"As a young Brahmin Pundit, Sudharmä was a master of the scriptures and ran a prestigious school, teaching his 500 students.",
+"imageSrc":"./data/images/F2/scene1.png"
+ },
+ {
+"title":"The Doubt of Reincarnation",
+"description":"Sudharmä confronts Mahävir, explaining his belief that a soul can only be reborn as its own species, like a plant from its own seed.",
+"imageSrc":"./data/images/F2/scene2.png"
+ },
+ {
+"title":"The New Head of the Order",
+"description":"After Mahävir's Nirväna, Sudharmä-swämi accepts the responsibility of leading the entire Jain community of monks, nuns, and lay followers.",
+"imageSrc":"./data/images/F2/scene3.png"
+ },
+ {
+"title":"Compiling the Sacred Word",
+"description":"Sudharmä-swämi meticulously organizes the teachings he heard from Mahävir, composing the 12 Anga Ägams, the foundational scriptures of Jainism.",
+"imageSrc":"./data/images/F2/scene4.png"
+ },
+ {
+"title":"The Guru and His Disciple",
+"description":"Much of the scripture is framed as a dialogue, with Sudharmä-swämi answering the profound questions of his own chief disciple, Jambu-swämi.",
+"imageSrc":"./data/images/F2/scene5.png"
+ },
+ {
+"title":"Final Liberation",
+"description":"After a long and fruitful life of leadership and teaching, Sudharmä-swämi attains Nirväna at the age of 100, completing his spiritual journey.",
+"imageSrc":"./data/images/F2/scene6.png"
+ }
  ]
 }
