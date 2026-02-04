@@ -397,5 +397,37 @@
 "imageSrc":"https://placehold.co/600x400/fffbeb/d97706?text=Vajrakumär+as+an+Ächärya",
 "imageAlt":"A wise and serene Ächärya Vajrakumär teaching his followers."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Divine Plan",
+"description":"Remembering his past life, the infant Vajrakumär knows he must become a monk. He decides to cry constantly so his mother will let him go.",
+"imageSrc":"./data/images/I1/scene1.png"
+ },
+ {
+"title":"A Mother's Plea",
+"description":"Exhausted, Sunandä offers her crying child as alms to his father, Muni Dhangiri.",
+"imageSrc":"./data/images/I1/scene2.png"
+ },
+ {
+"title":"A Sudden Change",
+"description":"As soon as he is in his father's arms, the baby stops crying and smiles, revealing his true nature. Sunandä is stunned.",
+"imageSrc":"./data/images/I1/scene3.png"
+ },
+ {
+"title":"The Appeal",
+"description":"Years later, Sunandä learns her son is a happy, brilliant child and desperately wants him back. She goes to the king for help.",
+"imageSrc":"./data/images/I1/scene4.png"
+ },
+ {
+"title":"The Courthouse Test",
+"description":"The king lets Vajrakumär choose his destiny. He ignores the toys and sweets from his mother and joyfully picks up the monk's simple broom.",
+"imageSrc":"./data/images/I1/scene5.png"
+ },
+ {
+"title":"A Great Teacher",
+"description":"Having chosen his path, Vajrakumär's Dikshä is celebrated. He fulfills his destiny and becomes a great and respected Ächärya.",
+"imageSrc":"./data/images/I1/scene6.png"
+ }
  ]
 }

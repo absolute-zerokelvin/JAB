@@ -407,5 +407,37 @@
 "imageSrc":"https://placehold.co/600x400/ecfdf5/047857?text=The+Lunaga+Vasahi+Temple",
 "imageAlt":"The completed Lunaga Vasahi temple stands magnificently on Mount Äbu."
  }
+ ],
+"imageryData": [
+ {
+"title":"Jealousy at Court",
+"description":"Courtiers, envious of Vimalshä's success, tell King Bhimdev that Vimalshä is arrogant and a threat to the throne.",
+"imageSrc":"./data/images/I3/scene1.png"
+ },
+ {
+"title":"A Fateful Choice",
+"description":"The goddess Ambikä Devi offers Vimalshä a choice: a son, or the ability to build a great temple. He chooses the temple.",
+"imageSrc":"./data/images/I3/scene2.png"
+ },
+ {
+"title":"Poetry in Marble",
+"description":"For 14 years, the finest sculptors create breathtakingly intricate carvings. Vimalshä pays them in gold equal to the weight of the marble dust they produce.",
+"imageSrc":"./data/images/I3/scene3.png"
+ },
+ {
+"title":"A Hidden Treasure",
+"description":"While trying to hide their own wealth, the brothers Vastupäl and Tejpäl discover a massive hidden treasure.",
+"imageSrc":"./data/images/I3/scene4.png"
+ },
+ {
+"title":"A Wife's Wisdom",
+"description":"Tejpäl's wife, Anupamä-devi, gives him profound advice on what to do with the newfound wealth.",
+"imageSrc":"./data/images/I3/scene5.png"
+ },
+ {
+"title":"Lunaga Vasahi",
+"description":"Inspired by the advice, the brothers build the second great temple at Delwädä, with special niches to honor their wives.",
+"imageSrc":"./data/images/I3/scene6.png"
+ }
  ]
 }
