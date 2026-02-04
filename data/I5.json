@@ -312,5 +312,37 @@
 "imageSrc":"https://placehold.co/600x400/166534/ecfdf5?text=The+Savä-Som+Tuk+temple",
 "imageAlt":"The magnificent Savä-Som Tuk temple complex on Shatrunjay Hill."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Lost Fleet",
+"description":"Businessman Sävchand Jeram is devastated to learn his fleet of 12 ships has been lost at sea, putting him in a dire financial situation.",
+"imageSrc":"./data/images/I5/scene1.png"
+ },
+ {
+"title":"A Desperate Plea",
+"description":"To pay a debt, a heartbroken Sävchand writes a promissory note on a stranger, Somchand, his tears falling onto the document.",
+"imageSrc":"./data/images/I5/scene2.png"
+ },
+ {
+"title":"An Act of Nobility",
+"description":"Somchand sees the tear stains on the note and understands Sävchand's desperation. He decides to honor the note out of sheer kindness.",
+"imageSrc":"./data/images/I5/scene3.png"
+ },
+ {
+"title":"The Ships Return!",
+"description":"At the end of the monsoon, the lost fleet returns safely. Sävchand makes a huge fortune and rushes to repay his debt.",
+"imageSrc":"./data/images/I5/scene4.png"
+ },
+ {
+"title":"A Noble Dilemma",
+"description":"Sävchand insists on repaying the debt, but Somchand refuses, saying the debt was paid with teardrops. Neither man will accept the money.",
+"imageSrc":"./data/images/I5/scene5.png"
+ },
+ {
+"title":"The Savä-Som Tuk",
+"description":"The Jain community decides the money should be used for a noble cause. The two men agree and build a great temple complex, completed in 1619 A.D.",
+"imageSrc":"./data/images/I5/scene6.png"
+ }
  ]
 }

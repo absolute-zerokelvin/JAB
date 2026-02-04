@@ -551,5 +551,37 @@
 "imageSrc":"https://placehold.co/600x400/d97706/fffbeb?text=The+completed+temple",
 "imageAlt":"The magnificent, newly completed temple stands proudly on Shatrunjay hill."
  }
+ ],
+"imageryData": [
+ {
+"title":"A Fortunate Discovery",
+"description":"After being given shelter by the kind Lachchhi, Udayan discovers a hidden treasure, which sets him on a path to becoming a wealthy and influential citizen.",
+"imageSrc":"./data/images/I4/scene1.png"
+ },
+ {
+"title":"An Act of Loyalty",
+"description":"Advised by Shri Hemchandra Ächärya, Governor Udayan risks everything to hide the future King Kumärpäl from his enemies.",
+"imageSrc":"./data/images/I4/scene2.png"
+ },
+ {
+"title":"The Vow at Shatrunjay",
+"description":"Seeing how easily the wooden temple on Shatrunjay hill could burn, Udayan makes a solemn vow to build a new, grander temple of stone.",
+"imageSrc":"./data/images/I4/scene3.png"
+ },
+ {
+"title":"A Single Coin's Worth",
+"description":"Udayan's son Bähad honors the poor man Bhim by placing his name at the top of the donor list for the new temple.",
+"imageSrc":"./data/images/I4/scene4.png"
+ },
+ {
+"title":"A Principled Stand",
+"description":"Udayan's other son, the warrior Ämbad, remains loyal to King Kumärpäl's legacy and dies fighting his unjust successor, King Ajaypäl.",
+"imageSrc":"./data/images/I4/scene5.png"
+ },
+ {
+"title":"A Promise Fulfilled",
+"description":"Thanks to the dedication of Bähad and the contributions of many, Udayan's vow is fulfilled with the completion of the grand temple in 1157 A.D.",
+"imageSrc":"./data/images/I4/scene6.png"
+ }
  ]
 }

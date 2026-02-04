@@ -366,5 +366,37 @@
 "imageSrc":"https://placehold.co/600x400/fdf2f8/be185d?text=King's+soul+ascends",
 "imageAlt":"The spirit of King Samprati ascends to a heavenly realm after a long and virtuous rule."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Previous Life",
+"description":"During a great famine, a poor starving man sees that Jain monks are still able to get food. He approaches their leader, Ächärya Suhastigiri.",
+"imageSrc":"./data/images/I2/scene1.png"
+ },
+ {
+"title":"A Path to Survival",
+"description":"The Ächärya tells him he can get food if he becomes a monk. The man gladly agrees and takes the vows, but dies from overeating.",
+"imageSrc":"./data/images/I2/scene2.png"
+ },
+ {
+"title":"A Fateful Meeting",
+"description":"In his next life, he is reborn as Prince Samprati. He sees the Ächärya and feels a connection, remembering his past life as the monk's disciple.",
+"imageSrc":"./data/images/I2/scene3.png"
+ },
+ {
+"title":"The Jain Ashok",
+"description":"As king, Samprati becomes a great patron of Jainism, building thousands of temples and installing over 100,000 idols.",
+"imageSrc":"./data/images/I2/scene4.png"
+ },
+ {
+"title":"Remembering Hunger",
+"description":"Because he remembered starving in his past life, King Samprati sets up 700 Dharamshäläs to ensure no one in his kingdom would go hungry.",
+"imageSrc":"./data/images/I2/scene5.png"
+ },
+ {
+"title":"A Virtuous End",
+"description":"After ruling for 53 years, King Samprati dies and, due to his immense good karma, is reborn as a heavenly being.",
+"imageSrc":"./data/images/I2/scene6.png"
+ }
  ]
 }
