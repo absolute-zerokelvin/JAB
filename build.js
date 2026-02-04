@@ -84,6 +84,11 @@ class JABBuilder {
 
     // Optimize images for AI Art (data/images/*)
     async optimizeImages() {
+        if (this.isDev) {
+            console.log('🖼️  Skipping image optimization in dev mode');
+            return;
+        }
+
         if (!sharp) {
             console.log('🖼️  Skipping image optimization (sharp not available)');
             return;
