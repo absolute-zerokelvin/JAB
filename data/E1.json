@@ -400,5 +400,37 @@
 "imageSrc":"https://placehold.co/600x400/ecfdf5/166534?text=Keval-jnän+Attainment",
 "imageAlt":"Mahävir sits in meditation under a tree, glowing with a divine light symbolizing the attainment of omniscience."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Queen's Dreams",
+"description":"Queen Trishalä sees 14 auspicious dreams, which scholars interpret as a sign that she will give birth to a Tirthankar, a great spiritual guide for the world.",
+"imageSrc":"./data/images/E1/scene1.png"
+ },
+ {
+"title":"The Fearless Prince",
+"description":"A heavenly god, disguised as a terrifying cobra, tries to scare the young Prince Vardhamän, who calmly and fearlessly handles the snake, proving his immense courage.",
+"imageSrc":"./data/images/E1/scene2.png"
+ },
+ {
+"title":"The Great Renunciation",
+"description":"At age 30, Prince Vardhamän renounces his royal life, performing the 'Panchmushthi loch' by plucking out all his hair as a symbol of detachment from the body.",
+"imageSrc":"./data/images/E1/scene3.png"
+ },
+ {
+"title":"Compassion for a Cobra",
+"description":"Mahävir faces the deadly cobra Chandkaushik. Instead of fighting, he radiates compassion, which calms the snake's rage and leads it to a life of penance.",
+"imageSrc":"./data/images/E1/scene4.png"
+ },
+ {
+"title":"The Final Obstacle",
+"description":"In his final test of endurance, a furious cowherd hammers sharp grass pegs into Mahävir's ears. He bears the excruciating pain with perfect equanimity.",
+"imageSrc":"./data/images/E1/scene5.png"
+ },
+ {
+"title":"The Light of Omniscience",
+"description":"After 12.5 years of penance, Mahävir destroys all his karmic obscurations and attains Keval-jnän (absolute knowledge), becoming an all-knowing Arihant.",
+"imageSrc":"./data/images/E1/scene6.png"
+ }
  ]
 }

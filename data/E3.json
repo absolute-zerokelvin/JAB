@@ -292,5 +292,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Neminäth+Preaching+Compassion",
 "imageAlt":"Bhagawän Neminäth giving a sermon in a divine assembly, with people and animals listening peacefully."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Royal Engagement",
+"description":"Princess Räjul of Junagadh is happily engaged to the noble Prince Nemkumär of the powerful Yädava clan.",
+"imageSrc":"./data/images/E3/scene1.png"
+ },
+ {
+"title":"The Cry of the Innocent",
+"description":"On his way to the wedding, Nemkumär's procession is stopped by the pitiful sounds of animals caged for the feast. His expression changes from joy to concern.",
+"imageSrc":"./data/images/E3/scene2.png"
+ },
+ {
+"title":"A Life-Changing Decision",
+"description":"Unable to proceed with a celebration founded on violence, Nemkumär instructs his charioteer to turn back, leaving the wedding and worldly life behind.",
+"imageSrc":"./data/images/E3/scene3.png"
+ },
+ {
+"title":"Meditation on Mount Girnär",
+"description":"Having renounced everything, Monk Neminäth enters a state of deep meditation on the holy Mount Girnär, seeking the ultimate truth.",
+"imageSrc":"./data/images/E3/scene4.png"
+ },
+ {
+"title":"Räjul Follows the Path",
+"description":"Heartbroken yet inspired, Räjul understands Nemkumär's noble purpose and decides to renounce her own lavish life to follow the path of liberation.",
+"imageSrc":"./data/images/E3/scene5.png"
+ },
+ {
+"title":"The 22nd Tirthankar",
+"description":"Having attained omniscience, Bhagawän Neminäth preaches his message of compassion and non-violence to all, including humans and animals.",
+"imageSrc":"./data/images/E3/scene6.png"
+ }
  ]
 }

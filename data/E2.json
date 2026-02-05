@@ -296,5 +296,37 @@
 "imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=Pärshvanäth+Preaching",
 "imageAlt":"Bhagawän Pärshvanäth sits in a divine assembly hall (Samavasaran), delivering his sermon."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Sacrificial Fire",
+"description":"Prince Pärshva-kumär confronts the ascetic Kamath, explaining that his fire ritual is causing harm to living beings hidden within the wood.",
+"imageSrc":"./data/images/E2/scene1.png"
+ },
+ {
+"title":"A Soul is Saved",
+"description":"As the log is split, a half-burnt snake emerges. Pärshva-kumär recites the sacred Namaskär-mantra, granting the snake a peaceful death and a divine rebirth.",
+"imageSrc":"./data/images/E2/scene2.png"
+ },
+ {
+"title":"Revenge from the Heavens",
+"description":"Years later, Kamath, now the rain-god Meghmäli, unleashes a furious storm to take revenge on Pärshvanäth, who is deep in meditation.",
+"imageSrc":"./data/images/E2/scene3.png"
+ },
+ {
+"title":"Protection from a Past Life",
+"description":"The snake, now the god Dharanendra, repays his debt. He lifts Pärshvanäth on a lotus and shields him with his giant cobra hood.",
+"imageSrc":"./data/images/E2/scene4.png"
+ },
+ {
+"title":"Perfect Equanimity",
+"description":"Untouched by the attack or the protection, Pärshvanäth's meditation deepens, his equanimity allowing him to destroy his karmas.",
+"imageSrc":"./data/images/E2/scene5.png"
+ },
+ {
+"title":"The 23rd Tirthankar",
+"description":"Having attained omniscience, Bhagawän Pärshvanäth preaches the path of non-violence and liberation to all beings.",
+"imageSrc":"./data/images/E2/scene6.png"
+ }
  ]
 }

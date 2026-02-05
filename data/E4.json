@@ -286,5 +286,37 @@
 "imageSrc":"https://placehold.co/600x400/f0f9ff/0284c7?text=Seven+Souls+Renounce+the+World",
 "imageAlt":"Seven figures walking away from a palace towards a spiritual path."
  }
+ ],
+"imageryData": [
+ {
+"title":"The Seven Friends",
+"description":"In a past life, King Mahäbal and his six friends are so inspired by a sermon that they decide to renounce their kingdoms and become monks together.",
+"imageSrc":"./data/images/E4/scene1.png"
+ },
+ {
+"title":"The Fateful Portrait",
+"description":"An artist, after being punished, takes revenge by showing a captivating portrait of Princess Malli to a neighboring king, igniting a passionate desire.",
+"imageSrc":"./data/images/E4/scene2.png"
+ },
+ {
+"title":"The Siege",
+"description":"After King Kumbha rejects all their marriage proposals, the six enchanted kings unite their armies and lay siege to the city of Mithilä.",
+"imageSrc":"./data/images/E4/scene3.png"
+ },
+ {
+"title":"The Beautiful Statue",
+"description":"To solve the crisis, Malli commissions a perfect, hollow statue of herself, which is placed in a grand hall for the kings to see.",
+"imageSrc":"./data/images/E4/scene4.png"
+ },
+ {
+"title":"The Foul Truth",
+"description":"When Malli unseals the statue, a terrible smell from the rotten food inside fills the air, shocking the kings and teaching them about the body's true nature.",
+"imageSrc":"./data/images/E4/scene5.png"
+ },
+ {
+"title":"The Path to Liberation",
+"description":"Having learned their lesson and remembered their past lives, Malli and the six kings renounce the world to continue their spiritual journey.",
+"imageSrc":"./data/images/E4/scene6.png"
+ }
  ]
 }
