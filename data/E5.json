@@ -289,5 +289,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Brähmi+Writing+and+Bharat+Ruling",
 "imageAlt":"A split image showing a woman carving symbols onto a leaf and a king looking over a map."
  }
+ ],
+"imageryData": [
+ {
+"title":"Teaching Civilization",
+"description":"As the world changes, the visionary Rishabh teaches his people essential skills like farming and building, laying the foundation for modern society.",
+"imageSrc":"./data/images/E5/scene1.png"
+ },
+ {
+"title":"The Moment of Truth",
+"description":"While watching a performance, King Rishabhadev is profoundly shaken when a dancer suddenly dies, forcing him to confront the reality of impermanence.",
+"imageSrc":"./data/images/E5/scene2.png"
+ },
+ {
+"title":"The First Attempt at Alms",
+"description":"After becoming a monk, Rishabhadev seeks alms, but his former subjects, not understanding, offer him gold and jewels instead of the food he needs.",
+"imageSrc":"./data/images/E5/scene3.png"
+ },
+ {
+"title":"The Sugarcane Offering",
+"description":"After 400 days of fasting, his great-grandson Shreyäns wisely offers him sugarcane juice, breaking the fast and establishing a tradition of pure offerings.",
+"imageSrc":"./data/images/E5/scene4.png"
+ },
+ {
+"title":"The First Sermon",
+"description":"Having attained omniscience, Bhagawän Rishabhadev, now Ädinäth, delivers his first sermon, establishing the four-fold order of monks, nuns, and lay followers.",
+"imageSrc":"./data/images/E5/scene5.png"
+ },
+ {
+"title":"Legacy of the Children",
+"description":"Rishabhadev's children carry on his civilizing mission. Brähmi develops the script for writing, while Bharat becomes a legendary ruler.",
+"imageSrc":"./data/images/E5/scene6.png"
+ }
  ]
 }
