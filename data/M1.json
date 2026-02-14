@@ -247,5 +247,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Digambar+&+Shvetämbar+Shared+Heritage",
 "imageAlt":"Two distinct paths converging on a single, central ancient book."
  }
+ ],
+"imageryData": [
+ {
+"title":"Ancient Scriptures",
+"description":"The foundational texts of Jainism, like the Tattvärtha-sutra and Kundkund's Samaysär, were composed by great Ächäryas, preserving knowledge for millennia.",
+"imageSrc":"./data/images/M1/scene1.png"
+ },
+ {
+"title":"The Rise of the Yatis",
+"description":"As temples grew in prominence, a sect of monks known as Yatis or Chaityaväsis began to live comfortably within them, a practice criticized by reformers like Haribhadra-suri.",
+"imageSrc":"./data/images/M1/scene2.png"
+ },
+ {
+"title":"A Royal Audience",
+"description":"The revered Ächärya Hirvijay-suri speaks with the powerful Mughal emperor Akbar, convincing him of the principle of non-violence (Ahimsä).",
+"imageSrc":"./data/images/M1/scene3.png"
+ },
+ {
+"title":"The Mystic's Song",
+"description":"Yogi Änandghanji, absorbed in contemplation of the soul, composes his famous 'Chovisi,' a series of devotional songs praising the 24 Tirthankars.",
+"imageSrc":"./data/images/M1/scene4.png"
+ },
+ {
+"title":"The Samaysär Revolution",
+"description":"Känji-Swämi delivers a powerful discourse on Kundkund's Samaysär, inspiring a movement for laypeople to study scriptures and focus on inner truth.",
+"imageSrc":"./data/images/M1/scene5.png"
+ },
+ {
+"title":"A Bridge Between Traditions",
+"description":"A symbolic image representing the Shvetämbar and Digambar traditions, both of which revere the Tattvärtha-sutra by Umäsväti.",
+"imageSrc":"./data/images/M1/scene6.png"
+ }
  ]
 }
