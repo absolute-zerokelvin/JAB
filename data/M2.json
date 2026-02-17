@@ -276,5 +276,37 @@
 "imageSrc":"https://placehold.co/600x400/4a044e/fdf2f8?text=Preserving+Shrimad's+Writings",
 "imageAlt":"Disciples carefully collecting and compiling letters and manuscripts into a large book."
  }
+ ],
+"imageryData": [
+ {
+"title":"Memory of Past Lives",
+"description":"At a cremation, seven-year-old Räjchandra slips into a deep trance, suddenly recalling his past lives in a flash of divine knowledge (Jäti-smaran Jnän).",
+"imageSrc":"./data/images/M2/scene1.png"
+ },
+ {
+"title":"The Master of 100 Tasks",
+"description":"At just nineteen, Shrimad stuns a learned audience in Mumbai by performing 'Shatävadhän,' flawlessly completing 100 mental challenges simultaneously.",
+"imageSrc":"./data/images/M2/scene2.png"
+ },
+ {
+"title":"The Jewel of Self-Realization",
+"description":"In a burst of inspiration, Shrimad composes his masterpiece, the Ätmasiddhi-shästra, in less than 90 minutes, encapsulating the entire path to liberation.",
+"imageSrc":"./data/images/M2/scene3.png"
+ },
+ {
+"title":"Guidance Across Continents",
+"description":"Shrimad writes a letter of profound spiritual guidance to a young Mahatma Gandhi in South Africa, shaping the latter's views on non-violence and truth.",
+"imageSrc":"./data/images/M2/scene4.png"
+ },
+ {
+"title":"Meditation in the Woods",
+"description":"Seeking deeper truths, Shrimad retires from worldly life to spend months in isolated meditation in the forests of Gujarat.",
+"imageSrc":"./data/images/M2/scene5.png"
+ },
+ {
+"title":"A Legacy Preserved",
+"description":"After his early passing, devoted followers like Laghuräj Swämi and Ambälälbhai collect and preserve Shrimad's priceless writings for future generations.",
+"imageSrc":"./data/images/M2/scene6.png"
+ }
  ]
 }

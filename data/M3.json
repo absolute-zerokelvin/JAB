@@ -259,9 +259,41 @@
  },
  {
 "title":"A Life's Work Published",
-"description":"Though his life was short, his lectures and writings were compiled into books like'Karma Philosophy,' preserving his wisdom for future generations.",
+"description":"Though his life was short, his lectures and writings were compiled into books like 'Karma Philosophy,' preserving his wisdom for future generations.",
 "imageSrc":"https://placehold.co/600x400/f5f3ff/6d28d9?text=The+Published+Works+of+V.R.+Gandhi",
-"imageAlt":"A collection of old books with titles like'Jaina Philosophy' and'Yoga Philosophy' on a shelf."
+"imageAlt":"A collection of old books with titles like 'Jaina Philosophy' and 'Yoga Philosophy' on a shelf."
+ }
+ ],
+"imageryData": [
+ {
+"title":"A Voice in Chicago",
+"description":"At the 1893 Parliament of World Religions, the young Virchand R. Gandhi stands alongside Swämi Vivekänanda, captivating the world with his eloquence on Jainism.",
+"imageSrc":"./data/images/M3/scene1.png"
+ },
+ {
+"title":"Fighting for the Pilgrims",
+"description":"As a young lawyer, Virchand Gandhi makes a powerful case to British officials to abolish the unfair Poll tax on Jain pilgrims at the holy site of Pälitänä.",
+"imageSrc":"./data/images/M3/scene2.png"
+ },
+ {
+"title":"Protecting a Holy Site",
+"description":"Through legal action, Virchand Gandhi succeeds in shutting down a pig slaughterhouse that was desecrating the sacred pilgrimage mountain of Sametshikhar.",
+"imageSrc":"./data/images/M3/scene3.png"
+ },
+ {
+"title":"Ambassador of Indian Culture",
+"description":"In his lectures across America and Europe, Virchand Gandhi works tirelessly to present a true and noble picture of Indian philosophy and culture.",
+"imageSrc":"./data/images/M3/scene4.png"
+ },
+ {
+"title":"Aid for a Nation in Need",
+"description":"From halfway across the world, Virchand Gandhi organizes a shipload of grain to be sent to India to provide relief during a devastating famine.",
+"imageSrc":"./data/images/M3/scene5.png"
+ },
+ {
+"title":"A Life's Work Published",
+"description":"Though his life was short, his lectures and writings were compiled into books like 'Karma Philosophy,' preserving his wisdom for future generations.",
+"imageSrc":"./data/images/M3/scene6.png"
  }
  ]
 }
