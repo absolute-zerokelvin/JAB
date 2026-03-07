@@ -557,9 +557,9 @@
         },
         {
             "title": "Bhagawän Shäntinäth",
-            "description": "An image representing Bhagawän Shäntinäth, the 16th Tirthankar, into whom King Meghrath's soul was later born.",
+            "description": "A serene representation of Bhagawän Shäntinäth, shown in his ascetic monk form without any jewelry.",
             "imageSrc": "https://placehold.co/600x400/faf5ff/9333ea?text=Bhagawän+Shäntinäth",
-            "imageAlt": "Representation of Bhagawän Shäntinäth."
+            "imageAlt": "Serene representation of Bhagawän Shäntinäth in monkhood, without any jewelry."
         }
     ],
     "imageryData": [
@@ -600,7 +600,7 @@
         },
         {
             "title": "Bhagawän Shäntinäth",
-            "description": "An image representing Bhagawän Shäntinäth, the 16th Tirthankar, into whom King Meghrath's soul was later born.",
+            "description": "A serene representation of Bhagawän Shäntinäth, shown in his ascetic monk form without any jewelry.",
             "imageSrc": "./data/images/G2/scene8.png"
         }
     ]
