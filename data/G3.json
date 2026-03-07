@@ -17,7 +17,7 @@
         },
         {
             "tagType": "p",
-            "tagHTML": "The demigod arrived at the outskirts of the village and assumed the form of two monks, one very old and injured and the other young and healthy. Sage Nandisen had just returned from collecting Gochari (alms) and was about to break his fast when the young monk came to him and said, “Oh blessed one! There is a very old monk suffering from diarrhea, extreme thirst, and hunger. He is weak and needs your help.”"
+            "tagHTML": "The demigod arrived at the outskirts of the village and assumed the form of two monks, one very old and injured and the other young and healthy. Sage Nandisen had just returned from collecting Gochari (alms) and was about to break his fast when the young monk came to him and said, “<b>Oh blessed one! There is a very old monk suffering from diarrhea, extreme thirst, and hunger. He is weak and needs your help.</b>”"
         },
         {
             "tagType": "p",
@@ -29,15 +29,15 @@
         },
         {
             "tagType": "p",
-            "tagHTML": "Seeing Nandisen, the old monk raged, “Oh you wretch, I am lying here suffering and you did not even care to see if anyone needs help.”"
+            "tagHTML": "Seeing Nandisen, the old monk raged, “<b>Oh you wretch, I am lying here suffering and you did not even care to see if anyone needs help.</b>”"
         },
         {
             "tagType": "p",
-            "tagHTML": "Sage Nandisen was not offended by these words due to his virtues of tolerance, forgiveness, and compassion. He calmly replied, “Oh, the best of monks, kindly excuse my oversight. I have brought clean water for you to drink.”"
+            "tagHTML": "Sage Nandisen was not offended by these words due to his virtues of tolerance, forgiveness, and compassion. He calmly replied, “<b>Oh, the best of monks, kindly excuse my oversight. I have brought clean water for you to drink.</b>”"
         },
         {
             "tagType": "p",
-            "tagHTML": "He helped the old monk drink the water, and then cleaned his clothes, his body, and helped him sit up. The old monk again became irritated. He frowned, “Oh you fool, do you not see that I am too weak to sit? What are you doing to me?”"
+            "tagHTML": "He helped the old monk drink the water, and then cleaned his clothes, his body, and helped him sit up. The old monk again became irritated. He frowned, “<b>Oh you fool, do you not see that I am too weak to sit? What are you doing to me?</b>”"
         },
         {
             "tagType": "h3",
@@ -45,15 +45,11 @@
         },
         {
             "tagType": "p",
-            "tagHTML": "Sage Nandisen replied politely, “I will help you.” After helping the old monk sit up, he said, “Oh revered monk, if you desire, I shall carry you to the Upäshray (a place where monks stay temporarily) where you will be more comfortable.”"
+            "tagHTML": "Sage Nandisen replied politely, “<b>I will help you.</b>” After helping the old monk sit up, he said, “<b>Oh revered monk, if you desire, I shall carry you to the Upäshray (a place where monks stay temporarily) where you will be more comfortable.</b>”"
         },
         {
             "tagType": "p",
-            "tagHTML": "The monk replied, “Why are you asking me? You may do so if you wish.”"
-        },
-        {
-            "tagType": "p",
-            "tagHTML": "Sage Nandisen therefore seated the monk on his shoulders and slowly proceeded towards the Upäshray. He walked slowly, watching every step carefully."
+            "tagHTML": "The monk replied, “<b>Why are you asking me? You may do so if you wish.</b>”"
         },
         {
             "tagType": "h3",
@@ -61,11 +57,11 @@
         },
         {
             "tagType": "p",
-            "tagHTML": "The demigod was determined to test him, so he vomited, urinated, and defecated on Sage Nandisen. The old monk said, “Oh you wretch, what is wrong with you? Can’t you see that I am sitting in my own filth? Is this the way to serve the sick?”"
+            "tagHTML": "Sage Nandisen therefore seated the monk on his shoulders and slowly proceeded towards the Upäshray. He walked slowly, watching every step carefully. The demigod was determined to test him, so he vomited, urinated, and defecated on Sage Nandisen. The old monk said, “<b>Oh you wretch, what is wrong with you? Can’t you see that I am sitting in my own filth? Is this the way to serve the sick?</b>”"
         },
         {
             "tagType": "p",
-            "tagHTML": "Despite the old monk’s actions and his harsh words, Sage Nandisen was not disturbed at all. He said, “Pardon me. Let me clean your clothes again.”"
+            "tagHTML": "Despite the old monk’s actions and his harsh words, Sage Nandisen was not disturbed at all. He said, “<b>Pardon me. Let me clean your clothes again.</b>”"
         },
         {
             "tagType": "p",
@@ -77,7 +73,7 @@
         },
         {
             "tagType": "p",
-            "tagHTML": "When they arrived at the Upäshray, the old monk turned back into an angel and bowed down at once to Sage Nandisen, saying, “You are blessed. Oh Sage, you are the illustration of a real monk. You deserve all the praise given by Indra. I am very pleased with you and will grant you whatever you wish.”"
+            "tagHTML": "When they arrived at the Upäshray, the old monk turned back into an angel and bowed down at once to Sage Nandisen, saying, “<b>You are blessed. Oh Sage, you are the illustration of a real monk. You deserve all the praise given by Indra. I am very pleased with you and will grant you whatever you wish.</b>”"
         },
         {
             "tagType": "h3",
@@ -85,15 +81,15 @@
         },
         {
             "tagType": "p",
-            "tagHTML": "“Oh, heavenly angel, this human life is very precious. Nothing is more valuable than human existence. I am content. I crave nothing,” said Sage Nandisen. The heavenly angel bowed his head at the feet of the Sage and returned to his abode, applauding the merits of the Sage."
+            "tagHTML": "“<b>Oh, heavenly angel, this human life is very precious. Nothing is more valuable than human existence. I am content. I crave nothing,</b>” said Sage Nandisen. The heavenly angel bowed his head at the feet of the Sage and returned to his abode, applauding the merits of the Sage."
         },
         {
             "tagType": "h3",
-            "tagHTML": "Moral of the Story"
+            "tagHTML": "Moral"
         },
         {
             "tagType": "p",
-            "tagHTML": "This story teaches us the importance of tolerance, discipline, and contentment which are all fundamental values of Jainism. First and foremost, Sage Nandisen chose to devote his life to serving monks, an admirable goal requiring the utmost level of dedication and discipline. He demonstrated his tolerance and willingness to serve others without even knowing that the demigod was testing him. This means that he was truly dedicated to monks and believed in what he was doing. He also indicated his contentment with the human life when asked for a wish. This contentment is symbolic of the principle of non-possessiveness."
+            "tagHTML": "This story teaches us the importance of <span class=\"text-blue-600 font-bold\">tolerance</span>, <span class=\"text-blue-600 font-bold\">discipline</span>, and <span class=\"text-blue-600 font-bold\">contentment</span> which are all fundamental values of Jainism. First and foremost, Sage Nandisen chose to devote his life to serving monks, an admirable goal requiring the utmost level of dedication and discipline. He demonstrated his tolerance and willingness to serve others without even knowing that the demigod was testing him. This means that he was truly dedicated to monks and believed in what he was doing. He also indicated his contentment with the human life when asked for a wish. This contentment is symbolic of the <span class=\"text-blue-600 font-bold\">principle of non-possessiveness</span>."
         }
     ],
     "timelineData": [
